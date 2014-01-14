@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Ubuntu 安裝 zsh"
+date: 2015-01-12 23:26:31 +0800
+comments: true
+categories: ["linux"]
+---
+
+<!-- more -->
+
+安裝 zsh
+
+	apt-get install zsh
+	
+安裝 [oh-my-zsh]
+
+	wget --no-check-certificate http://install.ohmyz.sh -O - | bash
+
+重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。
+
+
+[oh-my-zsh]:https://github.com/robbyrussell/oh-my-zsh

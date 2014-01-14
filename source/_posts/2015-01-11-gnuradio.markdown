@@ -1,7 +1,21 @@
 ---
 layout: post
-title: "GNURadio"
+title: "在 VM 上面安裝 GNURadio"
 date: 2015-01-11 20:09:42 +0800
 comments: true
-categories: 
+categories: ["SDR"]
 ---
+
+<!-- more -->
+
+最近開始玩起 SDR 接收無線電訊號，於是另外安裝安裝 [GNU Radio] 用來處理無線電訊號，一開始
+是使用安裝好的 Live cd 測試能否接收到訊號，測試沒問題後就透過 [UbuntuInstall] 這篇教學自行安裝。
+
+
+[GNU Radio] 可以透過圖形直接對接收到的訊號進行處理，也可以透過 Python 撰寫程式碼，不過需要先去
+複習大學的數位訊號處理。
+
+
+
+[GNU Radio]:http://gnuradio.microembedded.com/
+[UbuntuInstall]:http://gnuradio.org/redmine/projects/gnuradio/wiki/UbuntuInstall

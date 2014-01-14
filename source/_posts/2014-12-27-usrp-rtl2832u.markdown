@@ -3,7 +3,7 @@ layout: post
 title: "USRP + rtl2832u 接收無線電"
 date: 2014-12-27 22:25:49 +0800
 comments: true
-categories: ["usrp"]
+categories: ["SDR"]
 ---
 
 <!-- more -->
