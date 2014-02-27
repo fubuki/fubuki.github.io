@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-02-27T23:56:37+08:00</updated>
+  <updated>2014-02-28T00:42:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,7 @@
     <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
     <updated>2014-02-27T23:27:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Hello</p>
 ]]></content>
   </entry>
   
