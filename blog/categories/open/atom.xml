@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Learning Blog]]></title>
-  <link href="http://fubuki.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Categories: Open | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/open/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
   <updated>2014-02-28T00:52:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
@@ -18,16 +18,7 @@
     <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
     <updated>2014-02-27T23:27:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[<p>Hello</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scrapy]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
-    <updated>2014-02-27T23:00:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Hello </p>
 ]]></content>
   </entry>
   
