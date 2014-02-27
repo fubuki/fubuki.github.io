@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-02-27T22:31:15+08:00</updated>
+  <updated>2014-02-27T23:03:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scrapy]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
+    <updated>2014-02-27T23:00:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scrapy]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/26/scrapy/"/>
+    <updated>2014-02-26T22:23:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/26/scrapy</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
