@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Nosql | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/nosql/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-02-28T20:04:04+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[NoSql]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/nosql/"/>
+    <updated>2014-02-28T11:53:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/nosql</id>
+    <content type="html"><![CDATA[<p>到目前學習過的nosql類型</p>
+
+<!-- more -->
+
+
+<ol>
+<li>redis</li>
+<li>monogodb</li>
+<li>couchdb</li>
+<li>hadoop</li>
+<li>hbase</li>
+<li>riak</li>
+<li>memcache</li>
+<li>neo4j</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

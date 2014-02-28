@@ -4,21 +4,76 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-02-28T00:52:29+08:00</updated>
+  <updated>2014-02-28T20:04:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Fubuki]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+    <title type="html"><![CDATA[Asterisk]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
+    <updated>2014-02-28T12:13:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NoSql]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/nosql/"/>
+    <updated>2014-02-28T11:53:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/nosql</id>
+    <content type="html"><![CDATA[<p>到目前學習過的nosql類型</p>
+
+<!-- more -->
+
+
+<ol>
+<li>redis</li>
+<li>monogodb</li>
+<li>couchdb</li>
+<li>hadoop</li>
+<li>hbase</li>
+<li>riak</li>
+<li>memcache</li>
+<li>neo4j</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Theano]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
+    <updated>2014-02-28T11:51:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Failover]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/redis-failover/"/>
+    <updated>2014-02-28T11:46:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/redis-failover</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Deep Learing]]></title>
     <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
     <updated>2014-02-27T23:27:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[<p>Hello</p>
+    <content type="html"><![CDATA[<p>Deep learning slides
+<a href="http://www.slideshare.net/beam2d/deep-learning20140130">http://www.slideshare.net/beam2d/deep-learning20140130</a></p>
+
+<!-- more -->
+
 ]]></content>
   </entry>
   
