@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Redis | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-01T00:24:15+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Failover]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/redis-failover/"/>
+    <updated>2014-02-28T11:46:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/redis-failover</id>
+    <content type="html"><![CDATA[<ol>
+<li>redis-sentinel</li>
+<li>twenproxy</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

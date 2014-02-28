@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Astreisk | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/astreisk/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-01T00:24:15+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
+    <updated>2014-02-28T12:13:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
+    <content type="html"><![CDATA[<h2>voip</h2>
+]]></content>
+  </entry>
+  
+</feed>

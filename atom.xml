@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-02-28T20:04:04+08:00</updated>
+  <updated>2014-03-01T00:24:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,27 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Real-time-application]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/real-time-application/"/>
+    <updated>2014-02-28T20:26:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/real-time-application</id>
+    <content type="html"><![CDATA[<h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
+
+<p>使用nodejs當 notification server，redis當message server，<br/>
+socket.io連接web browser推送訊息給前端。</p>
+
+<p>對手機目前使用node-gcm推送給手機</p>
+
+<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Asterisk]]></title>
     <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
     <updated>2014-02-28T12:13:43+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h2>voip</h2>
 ]]></content>
   </entry>
   
@@ -60,7 +76,11 @@
     <link href="http://fubuki.github.io/blog/2014/02/28/redis-failover/"/>
     <updated>2014-02-28T11:46:27+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/redis-failover</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<ol>
+<li>redis-sentinel</li>
+<li>twenproxy</li>
+</ol>
+
 ]]></content>
   </entry>
   

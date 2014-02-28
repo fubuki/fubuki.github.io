@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
+socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -59,6 +59,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
 </ul>
 
 </nav>
@@ -66,6 +67,49 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/28/real-time-application/">Real-time-application</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
+
+<p>使用nodejs當 notification server，redis當message server，<br/>
+socket.io連接web browser推送訊息給前端。</p>
+
+<p>對手機目前使用node-gcm推送給手機</p>
+
+<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -95,7 +139,7 @@
   </header>
 
 
-  <div class="entry-content">
+  <div class="entry-content"><h2>voip</h2>
 </div>
   
   
@@ -208,7 +252,11 @@
   </header>
 
 
-  <div class="entry-content">
+  <div class="entry-content"><ol>
+<li>redis-sentinel</li>
+<li>twenproxy</li>
+</ol>
+
 </div>
   
   
@@ -307,6 +355,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/02/28/real-time-application/">Real-time-application</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/02/28/asterisk/">Asterisk</a>
       </li>
     
@@ -320,10 +372,6 @@
     
       <li class="post">
         <a href="/blog/2014/02/28/redis-failover/">Redis Failover</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/27/deep-learing/">Deep Learing</a>
       </li>
     
   </ul>
@@ -351,16 +399,6 @@
 
 
 
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 

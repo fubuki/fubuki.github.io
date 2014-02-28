@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Deep Learing - Learning Blog</title>
+  <title>Real-time-application - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Deep learning slides
-http://www.slideshare.net/beam2d/deep-learning20140130 ">
+  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
+socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ http://www.slideshare.net/beam2d/deep-learning20140130 ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/27/deep-learing">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/28/real-time-application">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -70,7 +70,7 @@ http://www.slideshare.net/beam2d/deep-learning20140130 ">
   
   <header>
     
-      <h1 class="entry-title">Deep Learing</h1>
+      <h1 class="entry-title">Real-time-application</h1>
     
     
       <p class="meta">
@@ -86,18 +86,21 @@ http://www.slideshare.net/beam2d/deep-learning20140130 ">
   
 
 
-<time datetime="2014-02-27T23:27:52+08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2014</time>
+<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Deep learning slides
-<a href="http://www.slideshare.net/beam2d/deep-learning20140130">http://www.slideshare.net/beam2d/deep-learning20140130</a></p>
+<div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
 
-<!-- more -->
+<p>使用nodejs當 notification server，redis當message server，<br/>
+socket.io連接web browser推送訊息給前端。</p>
 
+<p>對手機目前使用node-gcm推送給手機</p>
+
+<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
 </div>
 
 
@@ -120,12 +123,12 @@ http://www.slideshare.net/beam2d/deep-learning20140130 ">
   
 
 
-<time datetime="2014-02-27T23:27:52+08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2014</time>
+<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/deeep-learning/'>Deeep-learning</a>
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
   
 </span>
 
@@ -141,10 +144,8 @@ http://www.slideshare.net/beam2d/deep-learning20140130 ">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/27/scrapy/" title="Previous Post: Scrapy">&laquo; Scrapy</a>
+        <a class="basic-alignment left" href="/blog/2014/02/28/asterisk/" title="Previous Post: Asterisk">&laquo; Asterisk</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/28/redis-failover/" title="Next Post: Redis Failover">Redis Failover &raquo;</a>
       
     </p>
   </footer>

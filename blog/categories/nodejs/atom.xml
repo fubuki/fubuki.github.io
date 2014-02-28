@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-01T00:24:15+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Real-time-application]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/real-time-application/"/>
+    <updated>2014-02-28T20:26:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/real-time-application</id>
+    <content type="html"><![CDATA[<h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
+
+<p>使用nodejs當 notification server，redis當message server，<br/>
+socket.io連接web browser推送訊息給前端。</p>
+
+<p>對手機目前使用node-gcm推送給手機</p>
+
+<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+]]></content>
+  </entry>
+  
+</feed>
