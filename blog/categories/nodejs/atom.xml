@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-01T00:24:15+08:00</updated>
+  <updated>2014-03-01T13:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/"/>
+    <updated>2014-03-01T10:02:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm</id>
+    <content type="html"><![CDATA[<p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
+
+<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
+所以建議更新npm版本。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs Management]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/nodejs-management/"/>
+    <updated>2014-03-01T09:54:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/nodejs-management</id>
+    <content type="html"><![CDATA[<p>pm2<br/>
+<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
+
+<p>nodemon<br/>
+<a href="http://nodemon.io/">http://nodemon.io/</a></p>
+
+<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
+，要使用了話程式結構上面需要調整。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Real-time-application]]></title>

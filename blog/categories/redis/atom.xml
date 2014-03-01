@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-01T00:24:15+08:00</updated>
+  <updated>2014-03-01T13:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Keyspace Notifications]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications/"/>
+    <updated>2014-03-01T09:09:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications</id>
+    <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
+redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Failover]]></title>

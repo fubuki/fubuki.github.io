@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Solr | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-01T13:10:13+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Solr]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/solr/"/>
+    <updated>2014-03-01T09:50:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/solr</id>
+    <content type="html"><![CDATA[<h2>Apache Solr</h2>
+
+<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，配合</p>
+]]></content>
+  </entry>
+  
+</feed>

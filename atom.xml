@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-01T00:24:15+08:00</updated>
+  <updated>2014-03-01T13:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/"/>
+    <updated>2014-03-01T10:02:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm</id>
+    <content type="html"><![CDATA[<p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
+
+<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
+所以建議更新npm版本。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs Management]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/nodejs-management/"/>
+    <updated>2014-03-01T09:54:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/nodejs-management</id>
+    <content type="html"><![CDATA[<p>pm2<br/>
+<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
+
+<p>nodemon<br/>
+<a href="http://nodemon.io/">http://nodemon.io/</a></p>
+
+<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
+，要使用了話程式結構上面需要調整。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Solr]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/solr/"/>
+    <updated>2014-03-01T09:50:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/solr</id>
+    <content type="html"><![CDATA[<h2>Apache Solr</h2>
+
+<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，配合</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Keyspace Notifications]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications/"/>
+    <updated>2014-03-01T09:09:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications</id>
+    <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
+redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Real-time-application]]></title>
@@ -67,7 +117,7 @@ socket.io連接web browser推送訊息給前端。</p>
     <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
     <updated>2014-02-28T11:51:02+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p><a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
 ]]></content>
   </entry>
   

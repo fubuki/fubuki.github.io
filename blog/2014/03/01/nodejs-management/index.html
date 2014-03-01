@@ -5,12 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Real-time-application - Learning Blog</title>
+  <title>Nodejs Management - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
-socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
+  <meta name="description" content="pm2
+https://github.com/Unitech/pm2 nodemon
+http://nodemon.io/ 我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
+，要使用了話程式結構上面需要調整。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +22,7 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/28/real-time-application">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/01/nodejs-management">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -70,7 +73,7 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   
   <header>
     
-      <h1 class="entry-title">Real-time-application</h1>
+      <h1 class="entry-title">Nodejs Management</h1>
     
     
       <p class="meta">
@@ -86,21 +89,21 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   
 
 
-<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-03-01T09:54:37+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
+<div class="entry-content"><p>pm2<br/>
+<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
 
-<p>使用nodejs當 notification server，redis當message server，<br/>
-socket.io連接web browser推送訊息給前端。</p>
+<p>nodemon<br/>
+<a href="http://nodemon.io/">http://nodemon.io/</a></p>
 
-<p>對手機目前使用node-gcm推送給手機</p>
-
-<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
+，要使用了話程式結構上面需要調整。</p>
 </div>
 
 
@@ -123,7 +126,7 @@ socket.io連接web browser推送訊息給前端。</p>
   
 
 
-<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-03-01T09:54:37+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
       
 
 <span class="categories">
@@ -144,10 +147,10 @@ socket.io連接web browser推送訊息給前端。</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/28/asterisk/" title="Previous Post: Asterisk">&laquo; Asterisk</a>
+        <a class="basic-alignment left" href="/blog/2014/03/01/solr/" title="Previous Post: solr">&laquo; solr</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/03/01/redis-keyspace-notifications/" title="Next Post: Redis Keyspace Notifications">Redis Keyspace Notifications &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/" title="Next Post: Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' while using npm">Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' while using npm &raquo;</a>
       
     </p>
   </footer>

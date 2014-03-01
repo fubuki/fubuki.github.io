@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: Python | Learning Blog]]></title>
-  <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
+  <title><![CDATA[Categories: Deeplearning | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/deeplearning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
   <updated>2014-03-01T13:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
@@ -19,15 +19,6 @@
     <updated>2014-02-28T11:51:02+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
     <content type="html"><![CDATA[<p><a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scrapy]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
-    <updated>2014-02-27T23:00:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   

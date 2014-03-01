@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Real-time-application - Learning Blog</title>
+  <title>Redis Keyspace Notifications - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
-socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
+  <meta name="description" content="http://redis.io/topics/notifications redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/28/real-time-application">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -70,7 +71,7 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   
   <header>
     
-      <h1 class="entry-title">Real-time-application</h1>
+      <h1 class="entry-title">Redis Keyspace Notifications</h1>
     
     
       <p class="meta">
@@ -86,21 +87,16 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
   
 
 
-<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-03-01T09:09:10+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
-
-<p>使用nodejs當 notification server，redis當message server，<br/>
-socket.io連接web browser推送訊息給前端。</p>
-
-<p>對手機目前使用node-gcm推送給手機</p>
-
-<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+<div class="entry-content"><p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
+redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。</p>
 </div>
 
 
@@ -123,12 +119,12 @@ socket.io連接web browser推送訊息給前端。</p>
   
 
 
-<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-03-01T09:09:10+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/redis/'>redis</a>
   
 </span>
 
@@ -144,10 +140,10 @@ socket.io連接web browser推送訊息給前端。</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/28/asterisk/" title="Previous Post: Asterisk">&laquo; Asterisk</a>
+        <a class="basic-alignment left" href="/blog/2014/02/28/real-time-application/" title="Previous Post: real-time-application">&laquo; real-time-application</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/03/01/redis-keyspace-notifications/" title="Next Post: Redis Keyspace Notifications">Redis Keyspace Notifications &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/03/01/solr/" title="Next Post: solr">solr &raquo;</a>
       
     </p>
   </footer>
