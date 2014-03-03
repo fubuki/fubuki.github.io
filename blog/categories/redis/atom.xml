@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-01T13:10:13+08:00</updated>
+  <updated>2014-03-03T22:23:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,6 +21,21 @@
     <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
 redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
 接受到相關的通知。</p>
+
+<!-- more -->
+
+
+<p>K     Keyspace events, published with <strong>keyspace@<db></strong> prefix.<br/>
+E     Keyevent events, published with <strong>keyevent@<db></strong> prefix.<br/>
+g     Generic commands (non-type specific) like DEL, EXPIRE, RENAME, &hellip;<br/>
+$     String commands<br/>
+l     List commands<br/>
+s     Set commands<br/>
+h     Hash commands<br/>
+z     Sorted set commands<br/>
+x     Expired events (events generated every time a key expires)<br/>
+e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
+A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
 ]]></content>
   </entry>
   

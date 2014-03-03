@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Machime-learing | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/machime-learing/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-03T22:23:45+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Machine Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
+    <updated>2014-03-02T23:05:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
+    <content type="html"><![CDATA[<ol>
+<li>Machine.Learning.in.Action</li>
+<li>Natural.Language.Annotation.for.Machine.Learning</li>
+<li>Machine.Learning.for.Hackers</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

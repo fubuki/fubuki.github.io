@@ -10,8 +10,8 @@
 
   
   <meta name="description" content="http://redis.io/topics/notifications redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
-接受到相關的通知。
-">
+接受到相關的通知。 K Keyspace events, published with keyspace@ prefix.
+E &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -97,6 +97,21 @@
 <div class="entry-content"><p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
 redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
 接受到相關的通知。</p>
+
+<!-- more -->
+
+
+<p>K     Keyspace events, published with <strong>keyspace@<db></strong> prefix.<br/>
+E     Keyevent events, published with <strong>keyevent@<db></strong> prefix.<br/>
+g     Generic commands (non-type specific) like DEL, EXPIRE, RENAME, &hellip;<br/>
+$     String commands<br/>
+l     List commands<br/>
+s     Set commands<br/>
+h     Hash commands<br/>
+z     Sorted set commands<br/>
+x     Expired events (events generated every time a key expires)<br/>
+e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
+A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
 </div>
 
 
@@ -158,23 +173,23 @@ redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利�
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/03/rabbitmq/">Rabbitmq</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/03/elasticsearch/">Elasticsearch</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/02/machine-learning/">Machine Learning</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/02/sass-and-less/">Sass and Less</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/">Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/01/nodejs-management/">Nodejs Management</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/01/solr/">Solr</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/01/redis-keyspace-notifications/">Redis Keyspace Notifications</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/28/real-time-application/">Real-time-application</a>
       </li>
     
   </ul>

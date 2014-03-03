@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-01T13:10:13+08:00</updated>
+  <updated>2014-03-03T22:23:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/03/rabbitmq/"/>
+    <updated>2014-03-03T21:51:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/03/rabbitmq</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/03/elasticsearch/"/>
+    <updated>2014-03-03T21:51:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/03/elasticsearch</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Machine Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
+    <updated>2014-03-02T23:05:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
+    <content type="html"><![CDATA[<ol>
+<li>Machine.Learning.in.Action</li>
+<li>Natural.Language.Annotation.for.Machine.Learning</li>
+<li>Machine.Learning.for.Hackers</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sass and Less]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/02/sass-and-less/"/>
+    <updated>2014-03-02T17:07:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/02/sass-and-less</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm]]></title>
@@ -48,7 +89,10 @@
     <id>http://fubuki.github.io/blog/2014/03/01/solr</id>
     <content type="html"><![CDATA[<h2>Apache Solr</h2>
 
-<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，配合</p>
+<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
+Server部分使用solr自帶jetty或是使用tomcat。</p>
+
+<p>elasticsearch是另外一個搜尋引擎，</p>
 ]]></content>
   </entry>
   
@@ -60,6 +104,21 @@
     <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
 redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
 接受到相關的通知。</p>
+
+<!-- more -->
+
+
+<p>K     Keyspace events, published with <strong>keyspace@<db></strong> prefix.<br/>
+E     Keyevent events, published with <strong>keyevent@<db></strong> prefix.<br/>
+g     Generic commands (non-type specific) like DEL, EXPIRE, RENAME, &hellip;<br/>
+$     String commands<br/>
+l     List commands<br/>
+s     Set commands<br/>
+h     Hash commands<br/>
+z     Sorted set commands<br/>
+x     Expired events (events generated every time a key expires)<br/>
+e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
+A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
 ]]></content>
   </entry>
   
@@ -139,7 +198,7 @@ socket.io連接web browser推送訊息給前端。</p>
     <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
     <updated>2014-02-27T23:27:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[<p>Deep learning slides
+    <content type="html"><![CDATA[<p>Deep learning slides<br/>
 <a href="http://www.slideshare.net/beam2d/deep-learning20140130">http://www.slideshare.net/beam2d/deep-learning20140130</a></p>
 
 <!-- more -->
