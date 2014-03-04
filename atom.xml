@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-04T22:08:57+08:00</updated>
+  <updated>2014-03-05T00:18:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,7 @@
     <link href="http://fubuki.github.io/blog/2014/03/04/fluntd/"/>
     <updated>2014-03-04T21:42:26+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/04/fluntd</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>用來收集log</p>
 ]]></content>
   </entry>
   
@@ -27,7 +27,7 @@
     <link href="http://fubuki.github.io/blog/2014/03/04/browserchannel/"/>
     <updated>2014-03-04T21:42:03+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/04/browserchannel</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>google版的socketio，用於gmail和google doc的部分。</p>
 ]]></content>
   </entry>
   
@@ -45,7 +45,8 @@
     <link href="http://fubuki.github.io/blog/2014/03/03/rabbitmq/"/>
     <updated>2014-03-03T21:51:20+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/03/rabbitmq</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴展，如果取代redis作為pubsub的<br/>
+server，能夠存放尚未推送的訊息。</p>
 ]]></content>
   </entry>
   
@@ -54,7 +55,14 @@
     <link href="http://fubuki.github.io/blog/2014/03/03/elasticsearch/"/>
     <updated>2014-03-03T21:51:01+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/03/elasticsearch</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，<br/>
+不過底層跟solr都是lucene，使用上要去抓取資料庫的內容要另外設定，我比較中意
+Solr只要將欄位設定好就可以直接使用。</p>
+
+<!-- more -->
+
+
+<p>目前維基百科漢github都用elasticsearch解決他們搜尋功能，這邊問題主要還是再cjk分詞的問題。</p>
 ]]></content>
   </entry>
   
