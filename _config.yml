@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://fubuki.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Learning Blog
+subtitle: web crawler.
+author: Fubuki
 simple_search: http://google.com/search
 description:
 
@@ -33,7 +33,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-category_title_prefix: "Category: "
+category_title_prefix: "categories: "
 markdown: rdiscount
 rdiscount:
   extensions:
@@ -71,7 +71,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false

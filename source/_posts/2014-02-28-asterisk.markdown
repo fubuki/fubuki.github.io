@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Asterisk"
+date: 2014-02-28 12:13:43 +0800
+comments: true
+categories: Astreisk
+---
+
+voip
+----

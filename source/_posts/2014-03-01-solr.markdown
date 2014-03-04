@@ -1,0 +1,13 @@
+---
+layout: post
+title: "solr"
+date: 2014-03-01 09:50:57 +0800
+comments: true
+categories: solr searchengine
+---
+Apache Solr
+-----------
+目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词  
+Server部分使用solr自帶jetty或是使用tomcat。  
+
+elasticsearch是另外一個搜尋引擎，

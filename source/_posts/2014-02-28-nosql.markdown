@@ -1,0 +1,20 @@
+---
+layout: post
+title: "NoSql"
+date: 2014-02-28 11:53:32 +0800
+comments: true
+categories: nosql
+---
+到目前學習過的nosql類型
+
+<!-- more -->
+1. redis
+2. monogodb
+3. couchdb
+4. hadoop
+5. hbase
+6. riak
+7. memcache
+8. neo4j
+
+

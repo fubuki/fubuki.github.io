@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Theano"
+date: 2014-02-28 11:51:02 +0800
+comments: true
+categories: python theano deeplearning
+---
+http://deeplearning.net/software/theano/index.html
