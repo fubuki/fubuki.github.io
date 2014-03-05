@@ -3,7 +3,7 @@ layout: post
 title: "machine learning"
 date: 2014-03-02 23:05:28 +0800
 comments: true
-categories:  machime-learing
+categories:  machine-learing
 ---
 
 

@@ -5,3 +5,5 @@ date: 2014-03-04 21:42:26 +0800
 comments: true
 categories: 
 ---
+
+用來收集log

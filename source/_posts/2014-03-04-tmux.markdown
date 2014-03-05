@@ -5,3 +5,5 @@ date: 2014-03-04 21:35:36 +0800
 comments: true
 categories: 
 ---
+
+放置常用指令。

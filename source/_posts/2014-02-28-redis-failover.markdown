@@ -6,6 +6,8 @@ comments: true
 categories: redis
 ---
 
-1. redis-sentinel
-2. twenproxy
+1. redis-sentinel  
+2. twenproxy  
+3. redis_failover
+
 
