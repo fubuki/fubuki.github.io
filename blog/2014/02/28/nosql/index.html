@@ -57,7 +57,7 @@ neo4j ">
   <header role="banner"><hgroup>
   <h1><a href="/">Learning Blog</a></h1>
   
-    <h2>web crawler.</h2>
+    <h2>思考，研究.</h2>
   
 </hgroup>
 
@@ -188,6 +188,14 @@ neo4j ">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/05/hadoop/">Hadoop</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/05/zookeeper/">Zookeeper</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/04/fluntd/">Fluntd</a>
       </li>
     
@@ -199,19 +207,70 @@ neo4j ">
         <a href="/blog/2014/03/04/tmux/">Tmux</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/03/03/rabbitmq/">Rabbitmq</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/03/elasticsearch/">Elasticsearch</a>
-      </li>
-    
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/fubuki">@fubuki</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'fubuki',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
 
+
+
+<section>
+<h1>分類</h1>
+<span class='categories_tag'> <a href='/blog/categories/astreisk' style='font-size: 120.0%'>Astreisk(1)</a>  <a href='/blog/categories/browserchannel' style='font-size: 120.0%'>Browserchannel(1)</a>  <a href='/blog/categories/deeep-learning' style='font-size: 120.0%'>Deeep-learning(1)</a>  <a href='/blog/categories/deep-learning' style='font-size: 120.0%'>Deep-learning(1)</a>  <a href='/blog/categories/hadoop' style='font-size: 120.0%'>Hadoop(1)</a>  <a href='/blog/categories/less' style='font-size: 120.0%'>Less(1)</a>  <a href='/blog/categories/machine-learing' style='font-size: 120.0%'>Machine-learing(1)</a>  <a href='/blog/categories/nodejs' style='font-size: 160.0%'>Nodejs(3)</a>  <a href='/blog/categories/nosql' style='font-size: 120.0%'>Nosql(1)</a>  <a href='/blog/categories/python' style='font-size: 140.0%'>Python(2)</a>  <a href='/blog/categories/rabbitmq' style='font-size: 120.0%'>Rabbitmq(1)</a>  <a href='/blog/categories/redis' style='font-size: 140.0%'>Redis(2)</a>  <a href='/blog/categories/sass' style='font-size: 120.0%'>Sass(1)</a>  <a href='/blog/categories/searchengine' style='font-size: 120.0%'>Searchengine(1)</a>  <a href='/blog/categories/solr' style='font-size: 120.0%'>Solr(1)</a>  <a href='/blog/categories/theano' style='font-size: 120.0%'>Theano(1)</a>  <a href='/blog/categories/zookeeper' style='font-size: 120.0%'>Zookeeper(1)</a> </span>
+</section>
+
+
+<section>
+<h1>分類</h1>
+<ul>
+  <li><a href='/blog/categories/astreisk'>Astreisk (1)</a></li>
+  <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
+  <li><a href='/blog/categories/deeep-learning'>Deeep-learning (1)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep-learning (1)</a></li>
+  <li><a href='/blog/categories/hadoop'>Hadoop (1)</a></li>
+  <li><a href='/blog/categories/less'>Less (1)</a></li>
+  <li><a href='/blog/categories/machine-learing'>Machine-learing (1)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (3)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (1)</a></li>
+  <li><a href='/blog/categories/python'>Python (2)</a></li>
+  <li><a href='/blog/categories/rabbitmq'>Rabbitmq (1)</a></li>
+  <li><a href='/blog/categories/redis'>Redis (2)</a></li>
+  <li><a href='/blog/categories/sass'>Sass (1)</a></li>
+  <li><a href='/blog/categories/searchengine'>Searchengine (1)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (1)</a></li>
+  <li><a href='/blog/categories/theano'>Theano (1)</a></li>
+  <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
+</ul>
+</section>
 
 
   

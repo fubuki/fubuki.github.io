@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-05T00:18:25+08:00</updated>
+  <updated>2014-03-05T22:41:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -22,8 +22,6 @@
 
 <p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
 Server部分使用solr自帶jetty或是使用tomcat。</p>
-
-<p>elasticsearch是另外一個搜尋引擎，</p>
 ]]></content>
   </entry>
   

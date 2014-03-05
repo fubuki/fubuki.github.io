@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-05T00:18:25+08:00</updated>
+  <updated>2014-03-05T22:41:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -47,6 +47,7 @@ A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the eve
     <content type="html"><![CDATA[<ol>
 <li>redis-sentinel</li>
 <li>twenproxy</li>
+<li>redis_failover</li>
 </ol>
 
 ]]></content>

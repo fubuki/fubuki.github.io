@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Hadoop | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-05T22:41:28+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hadoop]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/05/hadoop/"/>
+    <updated>2014-03-05T21:33:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/05/hadoop</id>
+    <content type="html"><![CDATA[<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。</p>
+]]></content>
+  </entry>
+  
+</feed>
