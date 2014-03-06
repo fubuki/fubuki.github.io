@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-06T23:02:13+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Requirejs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/requirejs/"/>
+    <updated>2014-03-06T22:27:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/requirejs</id>
+    <content type="html"><![CDATA[<p>用來管理並且提高javascript載入的效率。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[D3.js]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/d3-dot-js/"/>
+    <updated>2014-03-06T21:33:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/d3-dot-js</id>
+    <content type="html"><![CDATA[<p>資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。</p>
+]]></content>
+  </entry>
+  
+</feed>

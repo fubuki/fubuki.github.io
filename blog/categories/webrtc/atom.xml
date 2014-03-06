@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Webrtc | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/webrtc/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-06T23:02:13+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Webrtc]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/webrtc/"/>
+    <updated>2014-03-06T21:53:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/webrtc</id>
+    <content type="html"><![CDATA[<p>全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。</p>
+]]></content>
+  </entry>
+  
+</feed>

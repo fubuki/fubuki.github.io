@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-05T23:34:29+08:00</updated>
+  <updated>2014-03-06T23:02:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,74 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Osdc]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/osdc/"/>
+    <updated>2014-03-06T22:57:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/osdc</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[POMELO]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/pomelo/"/>
+    <updated>2014-03-06T22:41:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/pomelo</id>
+    <content type="html"><![CDATA[<p><a href="http://pomelo.netease.com/  ">http://pomelo.netease.com/  </a>
+<a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a></p>
+
+<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，<br/>
+就沒有在留意了，不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章
+&ldquo;基于node.js与pomelo的消息推送平台&#8221;，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，<br/>
+並且網易似乎是用這個框架建立他們的推播平台，看來是值得深入研究。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Requirejs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/requirejs/"/>
+    <updated>2014-03-06T22:27:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/requirejs</id>
+    <content type="html"><![CDATA[<p>用來管理並且提高javascript載入的效率。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Webrtc]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/webrtc/"/>
+    <updated>2014-03-06T21:53:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/webrtc</id>
+    <content type="html"><![CDATA[<p>全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[(Gnome-ssh-askpass:6593): Gtk-WARNING **: Cannot Open Display]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display/"/>
+    <updated>2014-03-06T21:33:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display</id>
+    <content type="html"><![CDATA[<p>之前在使用git push 程式碼到github上面出現了上述的錯誤。看起來像是gtk跟ssh的問題，<br/>
+今天又遇到了就想辦法解決這個問題，</p>
+
+<blockquote><p>ssh-askpass-gnome<br/>
+interactive X program to prompt users for a passphrase for ssh-add</p></blockquote>
+
+<p>似乎是為了使用者在GUI界面下填入ssh相關資訊的程式，只要關掉他就好了，</p>
+
+<blockquote><p>unset SSH_ASKPASS</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[D3.js]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/d3-dot-js/"/>
+    <updated>2014-03-06T21:33:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/d3-dot-js</id>
+    <content type="html"><![CDATA[<p>資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hadoop]]></title>
@@ -191,84 +259,6 @@ socket.io連接web browser推送訊息給前端。</p>
 <p>對手機目前使用node-gcm推送給手機</p>
 
 <p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Asterisk]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
-    <updated>2014-02-28T12:13:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
-    <content type="html"><![CDATA[<h2>voip</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NoSql]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/nosql/"/>
-    <updated>2014-02-28T11:53:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/nosql</id>
-    <content type="html"><![CDATA[<p>到目前學習過的nosql類型</p>
-
-<!-- more -->
-
-
-<ol>
-<li>redis</li>
-<li>monogodb</li>
-<li>couchdb</li>
-<li>hadoop</li>
-<li>hbase</li>
-<li>riak</li>
-<li>memcache</li>
-<li>neo4j</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Theano]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
-    <updated>2014-02-28T11:51:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
-    <content type="html"><![CDATA[<p><a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Failover]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/redis-failover/"/>
-    <updated>2014-02-28T11:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/redis-failover</id>
-    <content type="html"><![CDATA[<ol>
-<li>redis-sentinel</li>
-<li>twenproxy</li>
-<li>redis_failover</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learing]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
-    <updated>2014-02-27T23:27:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[<p>Deep learning slides<br/>
-<a href="http://www.slideshare.net/beam2d/deep-learning20140130">http://www.slideshare.net/beam2d/deep-learning20140130</a></p>
-
-<!-- more -->
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scrapy]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
-    <updated>2014-02-27T23:00:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
