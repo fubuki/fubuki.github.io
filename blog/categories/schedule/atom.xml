@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: Less | Learning Blog]]></title>
-  <link href="http://fubuki.github.io/blog/categories/less/atom.xml" rel="self"/>
+  <title><![CDATA[Categories: Schedule | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/schedule/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
   <updated>2014-03-06T23:20:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Sass and Less]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/02/sass-and-less/"/>
-    <updated>2014-03-02T17:07:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/02/sass-and-less</id>
+    <title type="html"><![CDATA[Osdc 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/06/osdc/"/>
+    <updated>2014-03-06T22:57:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/06/osdc</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
