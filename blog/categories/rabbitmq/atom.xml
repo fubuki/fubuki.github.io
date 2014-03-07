@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Rabbitmq | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/rabbitmq/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T00:44:37+08:00</updated>
+  <updated>2014-03-08T01:02:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Rabbitmq Cliet Php and Nodejs]]></title>
+    <title type="html"><![CDATA[Rabbitmq Client Php and Nodejs]]></title>
     <link href="http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/"/>
     <updated>2014-03-07T23:57:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs</id>
