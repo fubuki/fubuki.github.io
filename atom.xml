@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-06T23:20:58+08:00</updated>
+  <updated>2014-03-08T00:44:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/lucene/"/>
+    <updated>2014-03-08T00:10:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/lucene</id>
+    <content type="html"><![CDATA[<p>目前蠻熱門的分詞系統，之前只有測試到3.6版本，最近出了4.6的版本，因此特地複習一下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq Cliet Php and Nodejs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/"/>
+    <updated>2014-03-07T23:57:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs</id>
+    <content type="html"><![CDATA[<p>PHP<br/>
+<a href="https://github.com/pdezwart/php-amqp  ">https://github.com/pdezwart/php-amqp  </a>
+nodejs<br/>
+<a href="https://github.com/squaremo/rabbit.js  ">https://github.com/squaremo/rabbit.js  </a>
+<a href="https://github.com/postwait/node-amqp">https://github.com/postwait/node-amqp</a></p>
+
+<!-- more -->
+
+
+<p>試驗傳送訊息，從php端傳給nodejs端，還需要測試其他功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Osdc 2014]]></title>
@@ -30,10 +57,10 @@
     <content type="html"><![CDATA[<p><a href="http://pomelo.netease.com/  ">http://pomelo.netease.com/  </a>
 <a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a></p>
 
-<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，<br/>
-就沒有在留意了，不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章
-&ldquo;基于node.js与pomelo的消息推送平台&#8221;，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，<br/>
-並且網易似乎是用這個框架建立他們的推播平台，看來是值得深入研究。</p>
+<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，<br/>
+不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章&#8221;基于node.js与pomelo的消息推送平台&#8221;<br/>
+，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，並且網易似乎是用這個框架建立他們的推播平台，<br/>
+看來是值得深入研究。</p>
 ]]></content>
   </entry>
   
@@ -136,6 +163,13 @@ interactive X program to prompt users for a passphrase for ssh-add</p></blockquo
 server，能夠存放尚未推送的訊息。</p>
 
 <p>目前拿來測試PHP和Nodejs兩個語言，並且建立一個小型聊天應用。</p>
+
+<ol>
+<li>channel</li>
+<li>exchange</li>
+<li>queues</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -217,48 +251,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
 <p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
 Server部分使用solr自帶jetty或是使用tomcat。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Keyspace Notifications]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications/"/>
-    <updated>2014-03-01T09:09:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications</id>
-    <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
-redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
-接受到相關的通知。</p>
-
-<!-- more -->
-
-
-<p>K     Keyspace events, published with <strong>keyspace@<db></strong> prefix.<br/>
-E     Keyevent events, published with <strong>keyevent@<db></strong> prefix.<br/>
-g     Generic commands (non-type specific) like DEL, EXPIRE, RENAME, &hellip;<br/>
-$     String commands<br/>
-l     List commands<br/>
-s     Set commands<br/>
-h     Hash commands<br/>
-z     Sorted set commands<br/>
-x     Expired events (events generated every time a key expires)<br/>
-e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
-A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Real-time-application]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/real-time-application/"/>
-    <updated>2014-02-28T20:26:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/real-time-application</id>
-    <content type="html"><![CDATA[<h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
-
-<p>使用nodejs當 notification server，redis當message server，<br/>
-socket.io連接web browser推送訊息給前端。</p>
-
-<p>對手機目前使用node-gcm推送給手機</p>
-
-<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
 ]]></content>
   </entry>
   
