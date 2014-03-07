@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Lucene"
+date: 2014-03-08 00:10:14 +0800
+comments: true
+categories: lucene
+---
+
+目前蠻熱門的分詞系統，之前只有測試到3.6版本，最近出了4.6的版本，因此特地複習一下。

@@ -10,3 +10,8 @@ MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴�
 server，能夠存放尚未推送的訊息。
 
 目前拿來測試PHP和Nodejs兩個語言，並且建立一個小型聊天應用。
+
+
+1. channel
+2. exchange 
+3. queues

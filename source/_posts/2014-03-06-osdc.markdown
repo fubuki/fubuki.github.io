@@ -1,0 +1,7 @@
+---
+layout: post
+title: "osdc 2014"
+date: 2014-03-06 22:57:47 +0800
+comments: true
+categories: schedule
+---
