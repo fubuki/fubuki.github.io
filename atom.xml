@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T09:15:10+08:00</updated>
+  <updated>2014-03-08T10:33:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Beautiful Data]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/beautiful-data/"/>
+    <updated>2014-03-08T10:11:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/beautiful-data</id>
+    <content type="html"><![CDATA[<p>測試 Beautiful Data 書中 ngram的範例。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[網頁相似度演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/"/>
+    <updated>2014-03-08T09:54:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa</id>
+    <content type="html"><![CDATA[<p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以判斷是否為相同內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lucene]]></title>
@@ -229,34 +247,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
 <p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
 所以建議更新npm版本。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs Management]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/nodejs-management/"/>
-    <updated>2014-03-01T09:54:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/nodejs-management</id>
-    <content type="html"><![CDATA[<p>pm2<br/>
-<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
-
-<p>nodemon<br/>
-<a href="http://nodemon.io/">http://nodemon.io/</a></p>
-
-<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
-，要使用了話程式結構上面需要調整。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/solr/"/>
-    <updated>2014-03-01T09:50:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/solr</id>
-    <content type="html"><![CDATA[<h2>Apache Solr</h2>
-
-<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
-Server部分使用solr自帶jetty或是使用tomcat。</p>
 ]]></content>
   </entry>
   

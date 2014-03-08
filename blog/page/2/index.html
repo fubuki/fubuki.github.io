@@ -9,7 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="用來收集log
+  <meta name="description" content="hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
 ">
   
 
@@ -79,6 +79,79 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/hadoop/">Hadoop</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T21:33:44+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/zookeeper/">Zookeeper</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
+如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -393,88 +466,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/01/nodejs-management/">Nodejs Management</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-01T09:54:37+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>pm2<br/>
-<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
-
-<p>nodemon<br/>
-<a href="http://nodemon.io/">http://nodemon.io/</a></p>
-
-<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
-，要使用了話程式結構上面需要調整。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/01/solr/">Solr</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-01T09:50:57+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Apache Solr</h2>
-
-<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
-Server部分使用solr自帶jetty或是使用tomcat。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -500,6 +491,7 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
   <li><a href='/blog/categories/less'>Less (1)</a></li>
   <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
   <li><a href='/blog/categories/machine-learing'>Machine-learing (1)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (1)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (4)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (1)</a></li>
   <li><a href='/blog/categories/python'>Python (2)</a></li>
@@ -520,6 +512,14 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/08/beautiful-data/">Beautiful Data</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/">網頁相似度演算法</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/08/lucene/">Lucene</a>
       </li>
     
@@ -529,14 +529,6 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
     
       <li class="post">
         <a href="/blog/2014/03/06/osdc/">Osdc 2014</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/06/pomelo/">POMELO</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/06/requirejs/">Requirejs</a>
       </li>
     
   </ul>
