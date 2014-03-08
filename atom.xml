@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T10:33:15+08:00</updated>
+  <updated>2014-03-08T21:23:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coscup 2013]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/coscup-2013/"/>
+    <updated>2014-03-08T19:50:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/coscup-2013</id>
+    <content type="html"><![CDATA[<p>記錄一下 2013年有看的議程。</p>
+
+<h1>第一天</h1>
+
+<ol>
+<li>高併發 (High Concurrency)、低延遲 (Low Latency)、可擴展 (Scalable)的廣告交易系統設計與演進</li>
+<li>純自由軟體的虛擬偶像歌手實作</li>
+<li>經驗分享：用 Javascript 實作注音輸入法</li>
+<li>Yet another introduction to Git &ndash; from the bottom up</li>
+<li>HTML5专业图像处理开源引擎-AlloyImage</li>
+<li>全台灣最宅的科科科技如何利用 MogileFS 儲存數千萬個音樂檔案</li>
+<li>黃金座談會：進擊的工程師 &mdash; 工程師究竟在公司做什麼？</li>
+<li>大陆地区网络状况简介</li>
+</ol>
+
+
+<h1>第二天</h1>
+
+<ol>
+<li>Hacking Models with R</li>
+<li>應用 Machine Learning 到你的 Data 上吧 &ndash; 從 R 開始</li>
+<li>Building Shiny Applications with R</li>
+<li>從R開始玩股票</li>
+<li>Python, F#, Golang and Friends</li>
+<li>不寫程式也可以玩 Data &mdash;&mdash;&ndash; Orange 套件使用與外掛開發</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Beautiful Data]]></title>
@@ -27,7 +62,19 @@
     <link href="http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/"/>
     <updated>2014-03-08T09:54:22+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa</id>
-    <content type="html"><![CDATA[<p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以判斷是否為相同內容。</p>
+    <content type="html"><![CDATA[<p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以快速判斷相似度。
+目前看到的有以下幾種:</p>
+
+<ol>
+<li>I-Match</li>
+<li>Shingling</li>
+<li>SimHash</li>
+<li>SpotSigs</li>
+<li>Combined</li>
+</ol>
+
+
+<p>需要找時間將以上演算法實作一遍。</p>
 ]]></content>
   </entry>
   
@@ -137,7 +184,8 @@ interactive X program to prompt users for a passphrase for ssh-add</p></blockquo
     <link href="http://fubuki.github.io/blog/2014/03/05/hadoop/"/>
     <updated>2014-03-05T21:33:44+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/05/hadoop</id>
-    <content type="html"><![CDATA[<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。</p>
+    <content type="html"><![CDATA[<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
+hadoop分成多種版本，需要整理各種版本不同之處。</p>
 ]]></content>
   </entry>
   
@@ -235,18 +283,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
     <updated>2014-03-02T17:07:46+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/02/sass-and-less</id>
     <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/"/>
-    <updated>2014-03-01T10:02:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm</id>
-    <content type="html"><![CDATA[<p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
-
-<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
-所以建議更新npm版本。</p>
 ]]></content>
   </entry>
   
