@@ -6,8 +6,8 @@ comments: true
 categories: nodejs
 ---
 
-http://pomelo.netease.com/  
-https://github.com/NetEase/pomelo  
+1. [pomelo官網](http://pomelo.netease.com/  "pomelo官網")  
+2. [pomelo github](https://github.com/NetEase/pomelo   "pomelo github")  
 
 
 之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，  

@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Coscup 2013"
+date: 2014-03-08 19:50:02 +0800
+comments: true
+categories: 
+---
+
+記錄一下 2013年有看的議程。  
+第一天
+=====
+1.  高併發 (High Concurrency)、低延遲 (Low Latency)、可擴展 (Scalable)的廣告交易系統設計與演進   
+2.  純自由軟體的虛擬偶像歌手實作
+3.  經驗分享：用 Javascript 實作注音輸入法
+4.  Yet another introduction to Git - from the bottom up
+5.  HTML5专业图像处理开源引擎-AlloyImage
+6.  全台灣最宅的科科科技如何利用 MogileFS 儲存數千萬個音樂檔案
+7.  黃金座談會：進擊的工程師 -- 工程師究竟在公司做什麼？
+8.  大陆地区网络状况简介
+
+第二天
+===== 
+1.  Hacking Models with R
+2.  應用 Machine Learning 到你的 Data 上吧 - 從 R 開始
+3.  Building Shiny Applications with R
+4.  從R開始玩股票
+5.  Python, F#, Golang and Friends
+6.  不寫程式也可以玩 Data ----- Orange 套件使用與外掛開發
