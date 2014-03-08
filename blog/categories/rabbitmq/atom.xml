@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Rabbitmq | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/rabbitmq/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T01:02:55+08:00</updated>
+  <updated>2014-03-08T09:15:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,11 +18,14 @@
     <link href="http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/"/>
     <updated>2014-03-07T23:57:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs</id>
-    <content type="html"><![CDATA[<p>PHP<br/>
-<a href="https://github.com/pdezwart/php-amqp  ">https://github.com/pdezwart/php-amqp  </a>
-nodejs<br/>
-<a href="https://github.com/squaremo/rabbit.js  ">https://github.com/squaremo/rabbit.js  </a>
-<a href="https://github.com/postwait/node-amqp">https://github.com/postwait/node-amqp</a></p>
+    <content type="html"><![CDATA[<ul>
+<li>PHP<br/>
+<a href="https://github.com/pdezwart/php-amqp" title="php-amqp">php-amqp</a></li>
+<li>nodejs<br/>
+<a href="https://github.com/squaremo/rabbit.js" title="rabbit.js">rabbit.js</a><br/>
+<a href="https://github.com/postwait/node-amqp" title="node-amqp">node-amqp</a></li>
+</ul>
+
 
 <!-- more -->
 

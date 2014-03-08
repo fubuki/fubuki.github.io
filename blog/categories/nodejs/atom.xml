@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T01:02:55+08:00</updated>
+  <updated>2014-03-08T09:15:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,8 +18,11 @@
     <link href="http://fubuki.github.io/blog/2014/03/06/pomelo/"/>
     <updated>2014-03-06T22:41:33+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/06/pomelo</id>
-    <content type="html"><![CDATA[<p><a href="http://pomelo.netease.com/  ">http://pomelo.netease.com/  </a>
-<a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a></p>
+    <content type="html"><![CDATA[<ol>
+<li><a href="http://pomelo.netease.com/" title="pomelo官網">pomelo官網</a></li>
+<li><a href="https://github.com/NetEase/pomelo" title="pomelo github">pomelo github</a></li>
+</ol>
+
 
 <p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，<br/>
 不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章"基于node.js与pomelo的消息推送平台"<br/>
