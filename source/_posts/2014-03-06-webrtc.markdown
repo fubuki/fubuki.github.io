@@ -6,4 +6,9 @@ comments: true
 categories: webrtc
 ---
 
-全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。
+全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。  
+
+<!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
+<div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
+<script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script>
+<!-- End Fresh Tilled Soil Video Chat Embed Code -->
