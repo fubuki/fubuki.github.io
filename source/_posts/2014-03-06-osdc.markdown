@@ -5,3 +5,6 @@ date: 2014-03-06 22:57:47 +0800
 comments: true
 categories: schedule
 ---
+紀錄今年 osdc 有可能參加哪些議程。
+
+<!-- more -->

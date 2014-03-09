@@ -7,6 +7,8 @@ categories:
 ---
 
 記錄一下 2013年有看的議程。  
+
+<!-- more -->
 第一天
 =====
 1.  高併發 (High Concurrency)、低延遲 (Low Latency)、可擴展 (Scalable)的廣告交易系統設計與演進   

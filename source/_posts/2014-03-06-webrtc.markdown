@@ -7,6 +7,7 @@ categories: webrtc
 ---
 
 全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。  
+<!-- more -->
 
 <!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
 <div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
