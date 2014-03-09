@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-08T22:04:03+08:00</updated>
+  <updated>2014-03-09T15:44:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,13 +14,37 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Strongloop]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/strongloop/"/>
+    <updated>2014-03-08T22:14:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/strongloop</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs Tip]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/nodejs-tip/"/>
+    <updated>2014-03-08T22:11:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/nodejs-tip</id>
+    <content type="html"><![CDATA[<p>整理一些nodejs心得和技巧。</p>
+
+<ol>
+<li>生產環境使用pm2</li>
+<li></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[百度求職訊息]]></title>
     <link href="http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi/"/>
     <updated>2014-03-08T21:43:50+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi</id>
-    <content type="html"><![CDATA[<p>咦！这么巧你也喜欢研究html源代码!
-又这么巧我们急需像你这样的专业前端人士!
-来百度云吧，和我们一起改变百度云！改变云存储！
+    <content type="html"><![CDATA[<p>咦！这么巧你也喜欢研究html源代码! <br/>
+又这么巧我们急需像你这样的专业前端人士! <br/>
+来百度云吧，和我们一起改变百度云！改变云存储！ <br/>
 职位介绍：<a href="http://dwz.cn/eMWdq  ">http://dwz.cn/eMWdq  </a>
 请将简历发送至 spacehr@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）</p>
 ]]></content>
@@ -163,6 +187,18 @@
     <updated>2014-03-06T21:53:48+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/06/webrtc</id>
     <content type="html"><![CDATA[<p>全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。</p>
+
+<!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
+
+
+<div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
+
+
+<script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script>
+
+
+<!-- End Fresh Tilled Soil Video Chat Embed Code -->
+
 ]]></content>
   </entry>
   
@@ -199,6 +235,14 @@ interactive X program to prompt users for a passphrase for ssh-add</p></blockquo
     <id>http://fubuki.github.io/blog/2014/03/05/hadoop</id>
     <content type="html"><![CDATA[<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
 hadoop分成多種版本，需要整理各種版本不同之處。</p>
+
+<ul>
+<li>1.2.X &ndash; current stable version, 1.2 release</li>
+<li>2.2.X &ndash; current stable 2.x version</li>
+<li>2.3.X &ndash; current 2.x version</li>
+<li>0.23.X &ndash; similar to 2.X.X but missing NN HA.</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -253,38 +297,6 @@ server，能夠存放尚未推送的訊息。</p>
 <li>channel</li>
 <li>exchange</li>
 <li>queues</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/03/elasticsearch/"/>
-    <updated>2014-03-03T21:51:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/03/elasticsearch</id>
-    <content type="html"><![CDATA[<p>elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，<br/>
-不過底層跟solr都是lucene，使用上要去抓取資料庫的內容要另外設定，我比較中意
-Solr只要將欄位設定好就可以直接使用。</p>
-
-<!-- more -->
-
-
-<p>目前維基百科和github都用elasticsearch解決他們搜尋功能，不知道背後是如何運用的，<br/>
-這邊要使用了話主要問題還是在cjk分詞，之前是用詞典的方式，如果換用HMM或是n-gram的方式
-來增加分詞的精確度是最要緊的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Machine Learning]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
-    <updated>2014-03-02T23:05:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
-    <content type="html"><![CDATA[<ol>
-<li>Machine.Learning.in.Action</li>
-<li>Natural.Language.Annotation.for.Machine.Learning</li>
-<li>Machine.Learning.for.Hackers</li>
 </ol>
 
 ]]></content>
