@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Webrtc | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/webrtc/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-09T15:44:37+08:00</updated>
+  <updated>2014-03-09T23:27:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -19,6 +19,11 @@
     <updated>2014-03-06T21:53:48+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/06/webrtc</id>
     <content type="html"><![CDATA[<p>全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。</p>
+
+<!-- more -->
+
+
+
 
 <!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
 

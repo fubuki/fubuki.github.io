@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Javascript - Learning Blog</title>
+  <title>Sockeio 使用心得 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: javascript">
+  <meta name="description" content="記錄一下到目前使用socket.io遇到的問題。 使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
+事件驅動的部分。 比較有問題是在於scale out 的部分。 之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/javascript">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,49 +78,102 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Javascript</h1>
+    
+      <h1 class="entry-title">Sockeio 使用心得</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-09T15:57:12+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2014</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>記錄一下到目前使用socket.io遇到的問題。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/06/requirejs/">Requirejs</a></h1>
-<time datetime="2014-03-06T22:27:21+08:00" pubdate><span class='month'>Mar</span> <span class='day'>06</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<p>使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
+事件驅動的部分。 比較有問題是在於scale out 的部分。</p>
 
+<p>之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能，不過socket.io會重復送出訊息，每個node會跟
+redis 訂閱訊息，才會發生這樣的情形，官網上是有用提供一個方案讓各個node透過redis溝通，就不會有上述的
+問題發生，不過尚未在高併發的環境下測試，也許會有其他問題。</p>
 
+<p>The Trello Tech Stack 這篇文章最後有提到以下的事情:</p>
 
-<article>
-  
-<h1><a href="/blog/2014/03/06/d3-dot-js/">D3.js</a></h1>
-<time datetime="2014-03-06T21:33:26+08:00" pubdate><span class='month'>Mar</span> <span class='day'>06</span> <span class='year'>2014</span></time>
+<blockquote><p>The Socket.io server currently has some problems with scaling up to more than 10K simultaneous client connections when using multiple processes and the Redis store, and the client has some issues that can cause it to open multiple connections to the same server, or not know that its connection has been severed. There are some issues
+with submitting our fixes (hacks!) back to the project – in many cases they only work with WebSockets (the only Socket.io transport we use). We are working to
+get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
-
-
-</article>
-
+<p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-09T15:57:12+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/03/08/strongloop/" title="Previous Post: strongloop">&laquo; strongloop</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/" title="Next Post: 2013年參加過的活動">2013年參加過的活動 &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
 </div>

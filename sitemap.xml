@@ -68,7 +68,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/04/browserchannel/</loc>
-        <lastmod>2014-03-04T23:33:28+08:00</lastmod>
+        <lastmod>2014-03-09T23:21:37+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/04/fluntd/</loc>
@@ -94,7 +94,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/06/webrtc/</loc>
-        <lastmod>2014-03-08T23:35:01+08:00</lastmod>
+        <lastmod>2014-03-09T15:50:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/06/requirejs/</loc>
@@ -102,11 +102,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/06/pomelo/</loc>
-        <lastmod>2014-03-08T09:03:23+08:00</lastmod>
+        <lastmod>2014-03-09T15:50:10+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/06/osdc/</loc>
-        <lastmod>2014-03-06T23:14:04+08:00</lastmod>
+        <lastmod>2014-03-09T17:23:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/</loc>
@@ -118,7 +118,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/</loc>
-        <lastmod>2014-03-08T20:24:33+08:00</lastmod>
+        <lastmod>2014-03-09T15:49:37+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/beautiful-data/</loc>
@@ -126,19 +126,27 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/coscup-2013/</loc>
-        <lastmod>2014-03-08T19:59:15+08:00</lastmod>
+        <lastmod>2014-03-09T15:46:42+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi/</loc>
-        <lastmod>2014-03-09T15:44:11+08:00</lastmod>
+        <lastmod>2014-03-09T15:47:48+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/nodejs-tip/</loc>
-        <lastmod>2014-03-09T15:35:03+08:00</lastmod>
+        <lastmod>2014-03-09T16:43:53+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/strongloop/</loc>
-        <lastmod>2014-03-08T22:15:01+08:00</lastmod>
+        <lastmod>2014-03-09T21:09:05+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de/</loc>
+        <lastmod>2014-03-09T20:50:49+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/</loc>
+        <lastmod>2014-03-09T17:58:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -146,7 +154,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-09T15:44:11+08:00</lastmod>
+        <lastmod>2014-03-09T23:21:37+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -154,6 +162,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-09T15:44:11+08:00</lastmod>
+        <lastmod>2014-03-09T23:21:37+08:00</lastmod>
     </url>
 </urlset>
