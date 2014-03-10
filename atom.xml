@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-10T21:19:48+08:00</updated>
+  <updated>2014-03-11T00:12:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Function Language]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/10/function-language/"/>
+    <updated>2014-03-10T22:49:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/10/function-language</id>
+    <content type="html"><![CDATA[<p>目前正在學習 common lisp 和 haskell。<br/>
+Function language的特性。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2 PHP 環境]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing/"/>
+    <updated>2014-03-10T22:49:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing</id>
+    <content type="html"><![CDATA[<p>記錄一下sublime text2 有用到package</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2013年參加過的活動]]></title>
@@ -344,43 +363,6 @@ hadoop分成多種版本，需要整理各種版本不同之處。</p>
     <id>http://fubuki.github.io/blog/2014/03/05/zookeeper</id>
     <content type="html"><![CDATA[<p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
 如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fluntd]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/04/fluntd/"/>
-    <updated>2014-03-04T21:42:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/04/fluntd</id>
-    <content type="html"><![CDATA[<p>用來收集log</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Browserchannel]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/04/browserchannel/"/>
-    <updated>2014-03-04T21:42:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/04/browserchannel</id>
-    <content type="html"><![CDATA[<p>google版的socketio，用於gmail和google doc的部分。</p>
-
-<!-- more -->
-
-
-<p><a href="https://github.com/josephg/node-browserchannel" title="node-browserchannel">node-browserchannel</a></p>
-
-<p>需要稍微測試一下與sockeio之間的不同點。</p>
-
-<p>記錄一下sever-side的參數</p>
-
-<p>defaultOptions = {
-  hostPrefixes: null,
-  base: &lsquo;/channel&rsquo;,
-  keepAliveInterval: 20 * 1000,
-  sessionTimeoutInterval: 30 * 1000,
-  cors: null,
-  corsAllowCredentials: false,
-  headers: null
-};</p>
 ]]></content>
   </entry>
   

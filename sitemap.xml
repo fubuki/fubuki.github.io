@@ -149,12 +149,20 @@
         <lastmod>2014-03-09T17:58:16+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing/</loc>
+        <lastmod>2014-03-11T00:11:06+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/10/function-language/</loc>
+        <lastmod>2014-03-11T00:12:16+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-09T23:21:37+08:00</lastmod>
+        <lastmod>2014-03-11T00:12:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -162,6 +170,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-09T23:21:37+08:00</lastmod>
+        <lastmod>2014-03-11T00:12:16+08:00</lastmod>
     </url>
 </urlset>
