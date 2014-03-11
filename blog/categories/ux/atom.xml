@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: UX | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/ux/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-12T00:22:46+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lean UX]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/11/lean-ux/"/>
+    <updated>2014-03-11T22:57:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/11/lean-ux</id>
+    <content type="html"><![CDATA[<p>What UI really is (and how UX confuses matters)</p>
+
+<p><a href="http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters">http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters</a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Ruby | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-12T00:22:46+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/"/>
+    <updated>2014-03-11T22:04:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
+    <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
+
+<ol>
+<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
+<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
+<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

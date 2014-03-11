@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-11T00:12:45+08:00</updated>
+  <updated>2014-03-12T00:22:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/"/>
+    <updated>2014-03-11T22:04:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
+    <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
+
+<ol>
+<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
+<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
+<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sockeio 使用心得]]></title>
@@ -108,18 +124,6 @@ get those changes which are fit for general consumption ready to submit back to 
 不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章"基于node.js与pomelo的消息推送平台"<br/>
 ，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，並且網易似乎是用這個框架建立他們的推播平台，<br/>
 看來是值得深入研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/"/>
-    <updated>2014-03-01T10:02:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm</id>
-    <content type="html"><![CDATA[<p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
-
-<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
-所以建議更新npm版本。</p>
 ]]></content>
   </entry>
   
