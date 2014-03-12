@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Zookeeper - Learning Blog</title>
+  <title>Riak - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，
-如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，
+  <meta name="description" content="之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
+不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
+剛好在次看到riak也許可以補足一些地方。
 ">
   
 
@@ -20,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/05/zookeeper">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/12/riak">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +84,7 @@
   
   <header>
     
-      <h1 class="entry-title">Zookeeper</h1>
+      <h1 class="entry-title">Riak</h1>
     
     
       <p class="meta">
@@ -99,7 +100,7 @@
   
 
 
-<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2014-03-12T23:09:59+08:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +110,9 @@
   </header>
 
 
-<div class="entry-content"><p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
-如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
+<div class="entry-content"><p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
+不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
+剛好在次看到riak也許可以補足一些地方。</p>
 </div>
 
 
@@ -133,12 +135,12 @@
   
 
 
-<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2014-03-12T23:09:59+08:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/zookeeper/'>zookeeper</a>
+    <a class='category' href='/blog/categories/nosql/'>nosql</a>
   
 </span>
 
@@ -154,10 +156,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/04/fluntd/" title="Previous Post: fluntd">&laquo; fluntd</a>
+        <a class="basic-alignment left" href="/blog/2014/03/11/lean-ux/" title="Previous Post: Lean UX">&laquo; Lean UX</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/05/hadoop/" title="Next Post: hadoop">hadoop &raquo;</a>
       
     </p>
   </footer>
@@ -285,8 +285,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/05/zookeeper/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/05/zookeeper/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/12/riak/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/03/12/riak/';
         var disqus_script = 'embed.js';
       
     (function () {

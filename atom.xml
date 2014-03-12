@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-12T00:22:46+08:00</updated>
+  <updated>2014-03-13T00:11:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Riak]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/12/riak/"/>
+    <updated>2014-03-12T23:09:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/12/riak</id>
+    <content type="html"><![CDATA[<p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
+不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
+剛好在次看到riak也許可以補足一些地方。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lean UX]]></title>
@@ -363,15 +374,6 @@ interactive X program to prompt users for a passphrase for ssh-add</p></blockquo
 <p>似乎是為了使用者在GUI界面下填入ssh相關資訊的程式，只要關掉他就好了，</p>
 
 <blockquote><p>unset SSH_ASKPASS</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[D3.js]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/d3-dot-js/"/>
-    <updated>2014-03-06T21:33:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/d3-dot-js</id>
-    <content type="html"><![CDATA[<p>資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。</p>
 ]]></content>
   </entry>
   
