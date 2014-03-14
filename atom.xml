@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-14T00:39:48+08:00</updated>
+  <updated>2014-03-15T00:37:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Mqtt]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/15/mqtt/"/>
+    <updated>2014-03-15T00:34:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/15/mqtt</id>
+    <content type="html"><![CDATA[<p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
+mqtt 相關的frontend部分開源。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Jsdc 2013 前端開發工具]]></title>
     <link href="http://fubuki.github.io/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/"/>
     <updated>2014-03-14T00:08:53+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju</id>
     <content type="html"><![CDATA[<p>記錄在jsdc 議程上看到的開發工具。</p>
+
+<ol>
+<li>livereload</li>
+<li>bower</li>
+<li>compass</li>
+<li>RequireJS</li>
+<li>r.js</li>
+<li>Guardfile</li>
+<li>grunt.js</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -340,32 +361,6 @@ get those changes which are fit for general consumption ready to submit back to 
     <updated>2014-03-06T22:27:21+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/06/requirejs</id>
     <content type="html"><![CDATA[<p>用來管理並且提高javascript載入的效率。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Webrtc]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/webrtc/"/>
-    <updated>2014-03-06T21:53:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/webrtc</id>
-    <content type="html"><![CDATA[<p>全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。</p>
-
-<!-- more -->
-
-
-
-
-<!-- Begin Fresh Tilled Soil Video Chat Embed Code -->
-
-
-<div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
-
-
-<script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script>
-
-
-<!-- End Fresh Tilled Soil Video Chat Embed Code -->
-
 ]]></content>
   </entry>
   
