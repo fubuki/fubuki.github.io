@@ -1,0 +1,10 @@
+---
+layout: post
+title: "mqtt"
+date: 2014-03-15 00:34:00 +0800
+comments: true
+categories: ["mqtt"]
+---
+
+mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
+mqtt 相關的frontend部分開源。

@@ -21,6 +21,7 @@ footer: true
 6. erlang
 7. lisp
 8. java
+9. R
 
 資料庫
 ======
@@ -34,3 +35,4 @@ footer: true
     2.  mongodb
     3.	redis
     4.	neo4j
+    5.  riak
