@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-15T00:37:00+08:00</updated>
+  <updated>2014-03-16T20:57:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coffeescript]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/16/coffeescript/"/>
+    <updated>2014-03-16T20:12:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/16/coffeescript</id>
+    <content type="html"><![CDATA[<p>CoffeeScript is a little language that compiles into JavaScript.</p>
+
+<p>可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
+等到Haskell比較熟練之類也許才能實際感覺到特別之處，目前暫時還是使用純javascript寫作。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HubSpot]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/16/hubspot/"/>
+    <updated>2014-03-16T20:01:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/16/hubspot</id>
+    <content type="html"><![CDATA[<p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
+<a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mqtt]]></title>
@@ -105,6 +127,8 @@ Function language的特性。</p>
 <li>Package Control</li>
 <li>phpcs</li>
 <li>DocBlockr</li>
+<li>SublimeCodeIntel</li>
+<li>SublimeLinter</li>
 </ol>
 
 ]]></content>
@@ -331,36 +355,6 @@ get those changes which are fit for general consumption ready to submit back to 
 
 <!-- more -->
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[POMELO]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/pomelo/"/>
-    <updated>2014-03-06T22:41:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/pomelo</id>
-    <content type="html"><![CDATA[<ol>
-<li><a href="http://pomelo.netease.com/" title="pomelo官網">pomelo官網</a></li>
-<li><a href="https://github.com/NetEase/pomelo" title="pomelo github">pomelo github</a></li>
-</ol>
-
-
-<!-- more -->
-
-
-<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，<br/>
-不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章&#8221;基于node.js与pomelo的消息推送平台&#8221;<br/>
-，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，並且網易似乎是用這個框架建立他們的推播平台，<br/>
-看來是值得深入研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Requirejs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/requirejs/"/>
-    <updated>2014-03-06T22:27:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/requirejs</id>
-    <content type="html"><![CDATA[<p>用來管理並且提高javascript載入的效率。</p>
 ]]></content>
   </entry>
   

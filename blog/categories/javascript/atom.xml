@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-15T00:37:00+08:00</updated>
+  <updated>2014-03-16T20:57:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HubSpot]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/16/hubspot/"/>
+    <updated>2014-03-16T20:01:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/16/hubspot</id>
+    <content type="html"><![CDATA[<p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
+<a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jsdc 2013 前端開發工具]]></title>

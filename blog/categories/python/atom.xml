@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-15T00:37:00+08:00</updated>
+  <updated>2014-03-16T20:57:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -43,7 +43,10 @@
     <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
     <updated>2014-02-27T23:00:57+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>python 的網路爬蟲框架。<br/>
+1. Items
+2. Spiders
+3. Selectors</p>
 ]]></content>
   </entry>
   
