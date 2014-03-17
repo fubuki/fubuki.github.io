@@ -1,0 +1,24 @@
+---
+layout: post
+title: "celery"
+date: 2014-03-17 21:19:12 +0800
+comments: true
+categories: celery
+---
+
+[celery] 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。
+
+It supports...
+==============
+**Message Transports**
+
+**Concurrency**
+
+**Result Stores**
+
+**Serialization** 
+
+
+[celery]: https://github.com/celery/celery

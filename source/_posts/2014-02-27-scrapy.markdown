@@ -5,3 +5,10 @@ date: 2014-02-27 23:00:57 +0800
 comments: true
 categories: python
 ---
+
+python 的網路爬蟲框架。  
+1. Items
+2. Spiders
+3. Selectors
+
+
