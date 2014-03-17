@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-16T20:57:25+08:00</updated>
+  <updated>2014-03-17T23:50:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Celery]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/17/celery/"/>
+    <updated>2014-03-17T21:19:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/17/celery</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。</p>
+
+<h1>It supports&hellip;</h1>
+
+<p><strong>Message Transports</strong></p>
+
+<p><strong>Concurrency</strong></p>
+
+<p><strong>Result Stores</strong></p>
+
+<p><strong>Serialization</strong></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coffeescript]]></title>
@@ -343,18 +364,6 @@ get those changes which are fit for general consumption ready to submit back to 
 
 
 <p>試驗傳送訊息，從php端傳給nodejs端，還需要測試其他功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Osdc 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/osdc/"/>
-    <updated>2014-03-06T22:57:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/osdc</id>
-    <content type="html"><![CDATA[<p>紀錄今年 osdc 有可能參加哪些議程。</p>
-
-<!-- more -->
-
 ]]></content>
   </entry>
   

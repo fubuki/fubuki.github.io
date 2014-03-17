@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm - Learning Blog</title>
+  <title>Celery - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
-所以建議更新npm版本。
-">
+  <meta name="description" content="celery 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。 It &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/17/celery">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' While Using Npm</h1>
+      <h1 class="entry-title">Celery</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@
   
 
 
-<time datetime="2014-03-01T10:02:19+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
+<time datetime="2014-03-17T21:19:12+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,10 +109,19 @@
   </header>
 
 
-<div class="entry-content"><p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
+<div class="entry-content"><p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。</p>
 
-<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
-所以建議更新npm版本。</p>
+<h1>It supports&hellip;</h1>
+
+<p><strong>Message Transports</strong></p>
+
+<p><strong>Concurrency</strong></p>
+
+<p><strong>Result Stores</strong></p>
+
+<p><strong>Serialization</strong></p>
 </div>
 
 
@@ -135,12 +144,12 @@
   
 
 
-<time datetime="2014-03-01T10:02:19+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
+<time datetime="2014-03-17T21:19:12+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/celery/'>celery</a>
   
 </span>
 
@@ -156,10 +165,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/01/nodejs-management/" title="Previous Post: nodejs management">&laquo; nodejs management</a>
+        <a class="basic-alignment left" href="/blog/2014/03/16/coffeescript/" title="Previous Post: coffeescript">&laquo; coffeescript</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/02/sass-and-less/" title="Next Post: Sass and Less">Sass and Less &raquo;</a>
       
     </p>
   </footer>
@@ -289,8 +296,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/17/celery/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/03/17/celery/';
         var disqus_script = 'embed.js';
       
     (function () {
