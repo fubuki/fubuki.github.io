@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-17T23:50:40+08:00</updated>
+  <updated>2014-03-18T23:43:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Node-gyp 撰寫nodejs模組]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/"/>
+    <updated>2014-03-18T21:07:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu</id>
+    <content type="html"><![CDATA[<p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
+參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
@@ -103,27 +113,6 @@ get those changes which are fit for general consumption ready to submit back to 
 4  cluster 模組利用到多核心cpu的效能。</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[POMELO]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/pomelo/"/>
-    <updated>2014-03-06T22:41:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/pomelo</id>
-    <content type="html"><![CDATA[<ol>
-<li><a href="http://pomelo.netease.com/" title="pomelo官網">pomelo官網</a></li>
-<li><a href="https://github.com/NetEase/pomelo" title="pomelo github">pomelo github</a></li>
-</ol>
-
-
-<!-- more -->
-
-
-<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，<br/>
-不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章"基于node.js与pomelo的消息推送平台"<br/>
-，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，並且網易似乎是用這個框架建立他們的推播平台，<br/>
-看來是值得深入研究。</p>
 ]]></content>
   </entry>
   

@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Mqtt - Learning Blog</title>
+  <title>Node-gyp 撰寫nodejs模組 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
-mqtt 相關的frontend部分開源。
+  <meta name="description" content="研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。
+參考一下 http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html
 ">
   
 
@@ -20,7 +20,7 @@ mqtt 相關的frontend部分開源。
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/15/mqtt">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +83,7 @@ mqtt 相關的frontend部分開源。
   
   <header>
     
-      <h1 class="entry-title">Mqtt</h1>
+      <h1 class="entry-title">Node-gyp 撰寫nodejs模組</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@ mqtt 相關的frontend部分開源。
   
 
 
-<time datetime="2014-03-15T00:34:00+08:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+<time datetime="2014-03-18T21:07:58+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +109,8 @@ mqtt 相關的frontend部分開源。
   </header>
 
 
-<div class="entry-content"><p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
-mqtt 相關的frontend部分開源。</p>
+<div class="entry-content"><p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
+參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
 </div>
 
 
@@ -133,12 +133,12 @@ mqtt 相關的frontend部分開源。</p>
   
 
 
-<time datetime="2014-03-15T00:34:00+08:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+<time datetime="2014-03-18T21:07:58+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/mqtt/'>mqtt</a>
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
   
 </span>
 
@@ -154,10 +154,10 @@ mqtt 相關的frontend部分開源。</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/" title="Previous Post: jsdc 2013 前端開發工具">&laquo; jsdc 2013 前端開發工具</a>
+        <a class="basic-alignment left" href="/blog/2014/03/17/celery/" title="Previous Post: celery">&laquo; celery</a>
       
       
-        <a class="basic-alignment right" href="/blog/2014/03/16/hubspot/" title="Next Post: HubSpot">HubSpot &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/03/18/mosca/" title="Next Post: mosca">mosca &raquo;</a>
       
     </p>
   </footer>
@@ -287,8 +287,8 @@ mqtt 相關的frontend部分開源。</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/15/mqtt/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/15/mqtt/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/';
         var disqus_script = 'embed.js';
       
     (function () {

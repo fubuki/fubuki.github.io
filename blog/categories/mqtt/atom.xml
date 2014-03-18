@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mqtt | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mqtt/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-17T23:50:40+08:00</updated>
+  <updated>2014-03-18T23:43:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mosca]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/18/mosca/"/>
+    <updated>2014-03-18T21:38:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/18/mosca</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/mcollina/mosca">mosca</a> 利用mqtt.js和Ascoltatori組成支援mqtt的server，後面可以接各種持久化方案，看了源碼可以自行實作跟持久化有關部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mqtt]]></title>

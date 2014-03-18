@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-17T23:50:40+08:00</updated>
+  <updated>2014-03-18T23:43:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mosca]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/18/mosca/"/>
+    <updated>2014-03-18T21:38:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/18/mosca</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/mcollina/mosca">mosca</a> 利用mqtt.js和Ascoltatori組成支援mqtt的server，後面可以接各種持久化方案，看了源碼可以自行實作跟持久化有關部分。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Node-gyp 撰寫nodejs模組]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/"/>
+    <updated>2014-03-18T21:07:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu</id>
+    <content type="html"><![CDATA[<p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
+參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Celery]]></title>
@@ -334,36 +353,6 @@ get those changes which are fit for general consumption ready to submit back to 
 
 
 <p>需要找時間將以上演算法實作一遍。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lucene]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/lucene/"/>
-    <updated>2014-03-08T00:10:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/lucene</id>
-    <content type="html"><![CDATA[<p>目前蠻熱門的分詞系統，之前只有測試到3.6版本，最近出了4.6的版本，因此特地複習一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rabbitmq Client Php and Nodejs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/"/>
-    <updated>2014-03-07T23:57:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs</id>
-    <content type="html"><![CDATA[<ul>
-<li>PHP<br/>
-<a href="https://github.com/pdezwart/php-amqp" title="php-amqp">php-amqp</a></li>
-<li>nodejs<br/>
-<a href="https://github.com/squaremo/rabbit.js" title="rabbit.js">rabbit.js</a><br/>
-<a href="https://github.com/postwait/node-amqp" title="node-amqp">node-amqp</a></li>
-</ul>
-
-
-<!-- more -->
-
-
-<p>試驗傳送訊息，從php端傳給nodejs端，還需要測試其他功能。</p>
 ]]></content>
   </entry>
   
