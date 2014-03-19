@@ -9,8 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="用來收集log
-">
+  <meta name="description" content="hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
+hadoop分成多種版本，需要整理各種版本不同之處。 1.2.X &ndash; current stable version, 1.2 release
+2.2.X &ndash; current &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +80,94 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/hadoop/">Hadoop</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T21:33:44+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/05/hadoop/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/05/hadoop/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
+hadoop分成多種版本，需要整理各種版本不同之處。</p>
+
+<ul>
+<li>1.2.X &ndash; current stable version, 1.2 release</li>
+<li>2.2.X &ndash; current stable 2.x version</li>
+<li>2.3.X &ndash; current 2.x version</li>
+<li>0.23.X &ndash; similar to 2.X.X but missing NN HA.</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/05/zookeeper/">Zookeeper</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/05/zookeeper/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/05/zookeeper/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
+如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -422,94 +511,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/01/nodejs-management/">Nodejs Management</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-01T09:54:37+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/01/nodejs-management/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/01/nodejs-management/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>pm2<br/>
-<a href="https://github.com/Unitech/pm2">https://github.com/Unitech/pm2</a></p>
-
-<p>nodemon<br/>
-<a href="http://nodemon.io/">http://nodemon.io/</a></p>
-
-<p>我個人比較中意的是pm2，目前生產環境都是用pm2比較沒有用nodemon，不過pm2的cluster功能使用上沒有我想像中好用
-，要使用了話程式結構上面需要調整。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/01/solr/">Solr</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-01T09:50:57+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/01/solr/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/01/solr/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>Apache Solr</h2>
-
-<p>目前用我用最多的開源搜尋引擎，還蠻好用的，主要用在database的全文搜尋，中文分詞的部分是配合IKAnalyzer分词<br/>
-Server部分使用solr自帶jetty或是使用tomcat。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -522,7 +523,33 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
 </div>
 <aside class="sidebar">
   
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
     
+      <li class="post">
+        <a href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/">Socketio 和 engine.io的差別</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/19/scrapy-example-code/">Scrapy Example Code</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/18/mosca/">Mosca</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/">Node-gyp 撰寫nodejs模組</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/17/celery/">Celery</a>
+      </li>
+    
+  </ul>
+</section>
+
 <section>
 <h1>分類</h1>
 <ul>
@@ -539,7 +566,7 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
   <li><a href='/blog/categories/machine-learing'>Machine-learing (1)</a></li>
   <li><a href='/blog/categories/mqtt'>Mqtt (2)</a></li>
   <li><a href='/blog/categories/nlp'>Nlp (1)</a></li>
-  <li><a href='/blog/categories/nodejs'>Nodejs (9)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (10)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (2)</a></li>
   <li><a href='/blog/categories/python'>Python (3)</a></li>
   <li><a href='/blog/categories/rabbitmq'>Rabbitmq (2)</a></li>
@@ -547,6 +574,7 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
   <li><a href='/blog/categories/ruby'>Ruby (1)</a></li>
   <li><a href='/blog/categories/sass'>Sass (1)</a></li>
   <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
+  <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
   <li><a href='/blog/categories/searchengine'>Searchengine (1)</a></li>
   <li><a href='/blog/categories/solr'>Solr (1)</a></li>
   <li><a href='/blog/categories/sublime-text'>Sublime-text (1)</a></li>
@@ -557,32 +585,6 @@ Server部分使用solr自帶jetty或是使用tomcat。</p>
 </ul>
 </section>
 
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/03/18/mosca/">Mosca</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/">Node-gyp 撰寫nodejs模組</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/17/celery/">Celery</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/16/coffeescript/">Coffeescript</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/16/hubspot/">HubSpot</a>
-      </li>
-    
-  </ul>
-</section>
 
 <section>
   <h1>GitHub Repos</h1>

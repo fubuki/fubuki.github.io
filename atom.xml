@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-18T23:43:08+08:00</updated>
+  <updated>2014-03-19T23:33:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
+    <updated>2014-03-19T22:42:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
+    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scrapy Example Code]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/"/>
+    <updated>2014-03-19T22:06:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/19/scrapy-example-code</id>
+    <content type="html"><![CDATA[<p>在scrapy官網上的scrapy範例。
+<a href="http://snipplr.com/all/tags/scrapy/">http://snipplr.com/all/tags/scrapy/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mosca]]></title>
@@ -319,40 +338,6 @@ get those changes which are fit for general consumption ready to submit back to 
 <li>不寫程式也可以玩 Data &mdash;&mdash;&ndash; Orange 套件使用與外掛開發</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Beautiful Data]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/beautiful-data/"/>
-    <updated>2014-03-08T10:11:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/beautiful-data</id>
-    <content type="html"><![CDATA[<p>測試 Beautiful Data 書中 ngram的範例。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[網頁相似度演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/"/>
-    <updated>2014-03-08T09:54:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa</id>
-    <content type="html"><![CDATA[<p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以快速判斷相似度。</p>
-
-<!-- more -->
-
-
-<p>目前看到的有以下幾種:</p>
-
-<ol>
-<li>I-Match</li>
-<li>Shingling</li>
-<li>SimHash</li>
-<li>SpotSigs</li>
-<li>Combined</li>
-</ol>
-
-
-<p>需要找時間將以上演算法實作一遍。</p>
 ]]></content>
   </entry>
   

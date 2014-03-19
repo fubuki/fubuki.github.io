@@ -199,12 +199,20 @@
         <lastmod>2014-03-18T23:37:44+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/</loc>
+        <lastmod>2014-03-19T22:09:02+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/</loc>
+        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-18T23:37:44+08:00</lastmod>
+        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -212,6 +220,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-18T23:37:44+08:00</lastmod>
+        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
     </url>
 </urlset>

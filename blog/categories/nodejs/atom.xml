@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-18T23:43:08+08:00</updated>
+  <updated>2014-03-19T23:33:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
+    <updated>2014-03-19T22:42:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
+    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Node-gyp 撰寫nodejs模組]]></title>
@@ -92,26 +101,6 @@ get those changes which are fit for general consumption ready to submit back to 
 <li> SL Module Loader – separate your app into modules loaded by config files</li>
 <li> SL MQ – MQ API with cluster integration, implemented over various message queues</li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs Tip]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/nodejs-tip/"/>
-    <updated>2014-03-08T22:11:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/nodejs-tip</id>
-    <content type="html"><![CDATA[<p>整理一些nodejs心得和技巧。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>生產環境使用pm2。</li>
-<li>使用 node-inspector 測試。</li>
-<li>Async 和 Q 處理非同步的問題。
-4  cluster 模組利用到多核心cpu的效能。</li>
-</ol>
 
 ]]></content>
   </entry>
