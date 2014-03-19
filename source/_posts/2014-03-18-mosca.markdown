@@ -1,0 +1,10 @@
+---
+layout: post
+title: "mosca"
+date: 2014-03-18 21:38:35 +0800
+comments: true
+categories: mqtt
+---
+[mosca] 利用mqtt.js和Ascoltatori組成支援mqtt的server，後面可以接各種持久化方案，看了源碼可以自行實作跟持久化有關部分。
+
+[mosca]:https://github.com/mcollina/mosca
