@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-19T23:33:53+08:00</updated>
+  <updated>2014-03-20T23:38:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spa (Single-page Application)]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/20/spa-single-page-application/"/>
+    <updated>2014-03-20T21:51:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/20/spa-single-page-application</id>
+    <content type="html"><![CDATA[<p>在一個網頁上呈現出如同桌面應用程式的操作經驗，MVVM是常與SPA一起提到的設計模式，目前我本身使用Knockout(一種MVVM的javascript framework)實現
+SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQuery到處綁定事件來的好管理。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
@@ -280,6 +290,7 @@ get those changes which are fit for general consumption ready to submit back to 
 <li>使用 node-inspector 測試。</li>
 <li>Async 和 Q 處理非同步的問題。
 4  cluster 模組利用到多核心cpu的效能。</li>
+<li>使用node-supervisor或是 nodemon線上更新程式碼。</li>
 </ol>
 
 ]]></content>
@@ -300,44 +311,6 @@ get those changes which are fit for general consumption ready to submit back to 
 来百度云吧，和我们一起改变百度云！改变云存储！ <br/>
 职位介绍：<a href="http://dwz.cn/eMWdq  ">http://dwz.cn/eMWdq  </a>
 请将简历发送至 spacehr@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coscup 2013]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/coscup-2013/"/>
-    <updated>2014-03-08T19:50:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/coscup-2013</id>
-    <content type="html"><![CDATA[<p>記錄一下 2013年有看的議程。</p>
-
-<!-- more -->
-
-
-<h1>第一天</h1>
-
-<ol>
-<li>高併發 (High Concurrency)、低延遲 (Low Latency)、可擴展 (Scalable)的廣告交易系統設計與演進</li>
-<li>純自由軟體的虛擬偶像歌手實作</li>
-<li>經驗分享：用 Javascript 實作注音輸入法</li>
-<li>Yet another introduction to Git &ndash; from the bottom up</li>
-<li>HTML5专业图像处理开源引擎-AlloyImage</li>
-<li>全台灣最宅的科科科技如何利用 MogileFS 儲存數千萬個音樂檔案</li>
-<li>黃金座談會：進擊的工程師 &mdash; 工程師究竟在公司做什麼？</li>
-<li>大陆地区网络状况简介</li>
-</ol>
-
-
-<h1>第二天</h1>
-
-<ol>
-<li>Hacking Models with R</li>
-<li>應用 Machine Learning 到你的 Data 上吧 &ndash; 從 R 開始</li>
-<li>Building Shiny Applications with R</li>
-<li>從R開始玩股票</li>
-<li>Python, F#, Golang and Friends</li>
-<li>不寫程式也可以玩 Data &mdash;&mdash;&ndash; Orange 套件使用與外掛開發</li>
-</ol>
-
 ]]></content>
   </entry>
   

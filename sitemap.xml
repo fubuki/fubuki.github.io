@@ -134,7 +134,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/nodejs-tip/</loc>
-        <lastmod>2014-03-09T16:43:53+08:00</lastmod>
+        <lastmod>2014-03-20T23:38:33+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/strongloop/</loc>
@@ -204,7 +204,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/</loc>
-        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
+        <lastmod>2014-03-20T21:51:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/20/spa-single-page-application/</loc>
+        <lastmod>2014-03-20T22:12:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -212,7 +216,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
+        <lastmod>2014-03-20T23:38:33+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -220,6 +224,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-19T23:32:35+08:00</lastmod>
+        <lastmod>2014-03-20T23:38:33+08:00</lastmod>
     </url>
 </urlset>
