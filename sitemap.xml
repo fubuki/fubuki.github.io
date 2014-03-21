@@ -52,7 +52,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/02/machine-learning/</loc>
-        <lastmod>2014-03-05T22:29:03+08:00</lastmod>
+        <lastmod>2014-03-21T23:57:28+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/03/elasticsearch/</loc>
@@ -211,12 +211,20 @@
         <lastmod>2014-03-20T22:12:16+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/03/21/apache-mahout/</loc>
+        <lastmod>2014-03-21T23:57:34+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/03/21/mysql-udf/</loc>
+        <lastmod>2014-03-21T23:48:18+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-20T23:38:33+08:00</lastmod>
+        <lastmod>2014-03-21T23:57:34+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -224,6 +232,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-20T23:38:33+08:00</lastmod>
+        <lastmod>2014-03-21T23:57:34+08:00</lastmod>
     </url>
 </urlset>

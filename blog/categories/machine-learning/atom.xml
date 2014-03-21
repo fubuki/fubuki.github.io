@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-21T23:57:46+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apache Mahout]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/21/apache-mahout/"/>
+    <updated>2014-03-21T23:42:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
+    <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
+之後等有空就來實現一些現實生活的例子。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Machine Learning 相關書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
+    <updated>2014-03-02T23:05:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
+    <content type="html"><![CDATA[<ol>
+<li>Machine.Learning.in.Action</li>
+<li>Natural.Language.Annotation.for.Machine.Learning</li>
+<li>Machine.Learning.for.Hackers</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

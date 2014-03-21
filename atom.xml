@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-20T23:38:53+08:00</updated>
+  <updated>2014-03-21T23:57:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mysql-udf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/21/mysql-udf/"/>
+    <updated>2014-03-21T23:42:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/21/mysql-udf</id>
+    <content type="html"><![CDATA[<p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
+所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
+solr的api更新資料。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apache Mahout]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/21/apache-mahout/"/>
+    <updated>2014-03-21T23:42:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
+    <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
+之後等有空就來實現一些現實生活的例子。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spa (Single-page Application)]]></title>
@@ -272,45 +293,6 @@ get those changes which are fit for general consumption ready to submit back to 
 <li> SL MQ – MQ API with cluster integration, implemented over various message queues</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs Tip]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/nodejs-tip/"/>
-    <updated>2014-03-08T22:11:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/nodejs-tip</id>
-    <content type="html"><![CDATA[<p>整理一些nodejs心得和技巧。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>生產環境使用pm2。</li>
-<li>使用 node-inspector 測試。</li>
-<li>Async 和 Q 處理非同步的問題。
-4  cluster 模組利用到多核心cpu的效能。</li>
-<li>使用node-supervisor或是 nodemon線上更新程式碼。</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[百度求職訊息]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi/"/>
-    <updated>2014-03-08T21:43:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi</id>
-    <content type="html"><![CDATA[<p>偶然看到的訊息，以前有些網站也出現這樣類似的訊息。</p>
-
-<!-- more -->
-
-
-<p>咦！这么巧你也喜欢研究html源代码! <br/>
-又这么巧我们急需像你这样的专业前端人士! <br/>
-来百度云吧，和我们一起改变百度云！改变云存储！ <br/>
-职位介绍：<a href="http://dwz.cn/eMWdq  ">http://dwz.cn/eMWdq  </a>
-请将简历发送至 spacehr@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）</p>
 ]]></content>
   </entry>
   
