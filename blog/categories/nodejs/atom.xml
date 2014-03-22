@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-21T23:58:55+08:00</updated>
+  <updated>2014-03-23T00:05:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Node-gyp Build Fails on NFS Because of Flock]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/"/>
+    <updated>2014-03-23T00:00:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock</id>
+    <content type="html"><![CDATA[<p>在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊<a href="https://github.com/TooTallNate/node-gyp/issues/147">issue</a>找到解答。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
@@ -72,36 +81,6 @@ with submitting our fixes (hacks!) back to the project – in many cases they on
 get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
 
 <p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Strongloop]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/strongloop/"/>
-    <updated>2014-03-08T22:14:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/strongloop</id>
-    <content type="html"><![CDATA[<p>之前在網路上無意找到的，幫助使用者建立nodejs的商業環境，
-將一些nodejs npm模組和strongloop本身開發的集成的工具。</p>
-
-<!-- more -->
-
-
-<ul>
-<li> Express – a web application framework</li>
-<li> Connect – a rich middleware framework</li>
-<li> Passport – a simple, unobtrusive authentication</li>
-<li> Mongoose – an mongodb object modeling library</li>
-<li> Async – higher-order functions and common patterns for asynchronous code</li>
-<li> Q – a tool for making and composing asynchronous promises in JavaScript</li>
-<li> Request – a simplified HTTP request client</li>
-<li> Socket.IO – cross-browser WebSocket for realtime apps</li>
-<li> Engine.IO – transport layer for real time data exchange</li>
-<li> SL Task Emitter– perform an unknown number of async tasks recursively</li>
-<li> SL Config Loader – recursively load config files</li>
-<li> SL Module Loader – separate your app into modules loaded by config files</li>
-<li> SL MQ – MQ API with cluster integration, implemented over various message queues</li>
-</ul>
-
 ]]></content>
   </entry>
   

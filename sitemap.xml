@@ -219,12 +219,22 @@
         <lastmod>2014-03-21T23:48:18+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/03/22/vim-vundle/</loc>
+        <lastmod>2014-03-22T10:15:11+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/
+        </loc>
+        <lastmod>2014-03-23T00:05:16+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-03-21T23:57:34+08:00</lastmod>
+        <lastmod>2014-03-23T00:05:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -232,6 +242,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-03-21T23:57:34+08:00</lastmod>
+        <lastmod>2014-03-23T00:05:16+08:00</lastmod>
     </url>
 </urlset>

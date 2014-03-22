@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-21T23:58:55+08:00</updated>
+  <updated>2014-03-23T00:05:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Node-gyp Build Fails on NFS Because of Flock]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/"/>
+    <updated>2014-03-23T00:00:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock</id>
+    <content type="html"><![CDATA[<p>在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊<a href="https://github.com/TooTallNate/node-gyp/issues/147">issue</a>找到解答。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Vundle]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/22/vim-vundle/"/>
+    <updated>2014-03-22T00:00:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/22/vim-vundle</id>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &ldquo;Vim Vundle&rdquo;
+date: 2014-03-22 09:58:45 +0800
+comments: true
+categories:
+&mdash;&ndash; [&ldquo;vim&rdquo;]</p>
+
+<p>之前安裝Vim的plugin都是去<a href="http://vim-scripts.org/vim/scripts.html">scripts</a>下載然後手動安裝，但是如此設定檔變的複雜後
+一來常會遇到沒有刪除乾淨的plugine。<br/>
+使用Vundle管理vim，安裝上跟刪除只要透過vundle就很方便也能保持設定檔簡潔，似乎能
+搜尋plugin，也能讓vundle去指定連結下載，目前正在試用之後可以上載到github上備份設定檔。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mysql-udf]]></title>
@@ -235,63 +265,6 @@ Function language的特性。</p>
 <li>pycon</li>
 <li>coscup</li>
 </ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sockeio 使用心得]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de/"/>
-    <updated>2014-03-09T15:57:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de</id>
-    <content type="html"><![CDATA[<p>記錄一下到目前使用socket.io遇到的問題。</p>
-
-<!-- more -->
-
-
-<p>使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
-事件驅動的部分。 比較有問題是在於scale out 的部分。</p>
-
-<p>之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能，不過socket.io會重復送出訊息，每個node會跟
-redis 訂閱訊息，才會發生這樣的情形，官網上是有用提供一個方案讓各個node透過redis溝通，就不會有上述的
-問題發生，不過尚未在高併發的環境下測試，也許會有其他問題。</p>
-
-<p>The Trello Tech Stack 這篇文章最後有提到以下的事情:</p>
-
-<blockquote><p>The Socket.io server currently has some problems with scaling up to more than 10K simultaneous client connections when using multiple processes and the Redis store, and the client has some issues that can cause it to open multiple connections to the same server, or not know that its connection has been severed. There are some issues
-with submitting our fixes (hacks!) back to the project – in many cases they only work with WebSockets (the only Socket.io transport we use). We are working to
-get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
-
-<p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Strongloop]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/strongloop/"/>
-    <updated>2014-03-08T22:14:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/strongloop</id>
-    <content type="html"><![CDATA[<p>之前在網路上無意找到的，幫助使用者建立nodejs的商業環境，
-將一些nodejs npm模組和strongloop本身開發的集成的工具。</p>
-
-<!-- more -->
-
-
-<ul>
-<li> Express – a web application framework</li>
-<li> Connect – a rich middleware framework</li>
-<li> Passport – a simple, unobtrusive authentication</li>
-<li> Mongoose – an mongodb object modeling library</li>
-<li> Async – higher-order functions and common patterns for asynchronous code</li>
-<li> Q – a tool for making and composing asynchronous promises in JavaScript</li>
-<li> Request – a simplified HTTP request client</li>
-<li> Socket.IO – cross-browser WebSocket for realtime apps</li>
-<li> Engine.IO – transport layer for real time data exchange</li>
-<li> SL Task Emitter– perform an unknown number of async tasks recursively</li>
-<li> SL Config Loader – recursively load config files</li>
-<li> SL Module Loader – separate your app into modules loaded by config files</li>
-<li> SL MQ – MQ API with cluster integration, implemented over various message queues</li>
-</ul>
 
 ]]></content>
   </entry>
