@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-23T00:16:43+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mysql-udf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/21/mysql-udf/"/>
+    <updated>2014-03-21T23:42:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/21/mysql-udf</id>
+    <content type="html"><![CDATA[<p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
+所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
+solr的api更新資料。</p>
+]]></content>
+  </entry>
+  
+</feed>
