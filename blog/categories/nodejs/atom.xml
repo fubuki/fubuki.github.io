@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-23T00:16:43+08:00</updated>
+  <updated>2014-03-23T22:18:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cloud9 Ide]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/cloud9-ide/"/>
+    <updated>2014-03-23T21:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/cloud9-ide</id>
+    <content type="html"><![CDATA[<p><a href="https://c9.io/">cloud9</a>是一款線上整合開發環境一年以前有使用過，當時使用上覺得反應速度不太好就沒有在使用了，
+不過可以學一下其中的架構，重要的是有持續維護，希望可以持續下去未來能夠使用閱覽器開發多種語言。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Node-gyp Build Fails on NFS Because of Flock]]></title>
@@ -54,33 +64,6 @@
 <li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sockeio 使用心得]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de/"/>
-    <updated>2014-03-09T15:57:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/09/sockeio-shi-yong-xin-de</id>
-    <content type="html"><![CDATA[<p>記錄一下到目前使用socket.io遇到的問題。</p>
-
-<!-- more -->
-
-
-<p>使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
-事件驅動的部分。 比較有問題是在於scale out 的部分。</p>
-
-<p>之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能，不過socket.io會重復送出訊息，每個node會跟
-redis 訂閱訊息，才會發生這樣的情形，官網上是有用提供一個方案讓各個node透過redis溝通，就不會有上述的
-問題發生，不過尚未在高併發的環境下測試，也許會有其他問題。</p>
-
-<p>The Trello Tech Stack 這篇文章最後有提到以下的事情:</p>
-
-<blockquote><p>The Socket.io server currently has some problems with scaling up to more than 10K simultaneous client connections when using multiple processes and the Redis store, and the client has some issues that can cause it to open multiple connections to the same server, or not know that its connection has been severed. There are some issues
-with submitting our fixes (hacks!) back to the project – in many cases they only work with WebSockets (the only Socket.io transport we use). We are working to
-get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
-
-<p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
 ]]></content>
   </entry>
   

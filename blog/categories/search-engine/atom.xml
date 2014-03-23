@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Search Engine | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/search-engine/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-23T22:18:34+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/03/elasticsearch/"/>
+    <updated>2014-03-03T21:51:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/03/elasticsearch</id>
+    <content type="html"><![CDATA[<p>elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，<br/>
+不過底層跟solr都是lucene，使用上要去抓取資料庫的內容要另外設定，我比較中意
+Solr只要將欄位設定好就可以直接使用。</p>
+
+<!-- more -->
+
+
+<p>目前維基百科和github都用elasticsearch解決他們搜尋功能，不知道背後是如何運用的，<br/>
+這邊要使用了話主要問題還是在cjk分詞，之前是用詞典的方式，如果換用HMM或是n-gram的方式
+來增加分詞的精確度是最要緊的。</p>
+]]></content>
+  </entry>
+  
+</feed>

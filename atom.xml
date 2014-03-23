@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-23T00:16:43+08:00</updated>
+  <updated>2014-03-23T22:18:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SenseiDB]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/senseidb/"/>
+    <updated>2014-03-23T21:46:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/senseidb</id>
+    <content type="html"><![CDATA[<p><a href="http://senseidb.com">sensei</a>是以前在學習hadoop時找到的，是一款跟hadoop集成的搜尋系統，第一次看到是在兩年前，最近在VM發現當時的建立的痕跡，
+特此紀錄一下以便日後研究。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cloud9 Ide]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/cloud9-ide/"/>
+    <updated>2014-03-23T21:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/cloud9-ide</id>
+    <content type="html"><![CDATA[<p><a href="https://c9.io/">cloud9</a>是一款線上整合開發環境一年以前有使用過，當時使用上覺得反應速度不太好就沒有在使用了，
+不過可以學一下其中的架構，重要的是有持續維護，希望可以持續下去未來能夠使用閱覽器開發多種語言。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Node-gyp Build Fails on NFS Because of Flock]]></title>
@@ -221,42 +241,6 @@ mqtt 相關的frontend部分開源。</p>
     <id>http://fubuki.github.io/blog/2014/03/10/function-language</id>
     <content type="html"><![CDATA[<p>目前正在學習 common lisp 和 haskell。<br/>
 Function language的特性。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sublime Text 2 PHP 環境]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing/"/>
-    <updated>2014-03-10T22:49:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing</id>
-    <content type="html"><![CDATA[<p>記錄一下sublime text2 有用到package。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>Package Control</li>
-<li>phpcs</li>
-<li>DocBlockr</li>
-<li>SublimeCodeIntel</li>
-<li>SublimeLinter</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2013年參加過的活動]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/"/>
-    <updated>2014-03-09T17:57:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong</id>
-    <content type="html"><![CDATA[<ol>
-<li>osdc</li>
-<li>jsdc</li>
-<li>pycon</li>
-<li>coscup</li>
-</ol>
-
 ]]></content>
   </entry>
   
