@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Hadoop | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-23T22:22:56+08:00</updated>
+  <updated>2014-03-23T22:26:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,16 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[SenseiDB]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/23/senseidb/"/>
-    <updated>2014-03-23T21:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/23/senseidb</id>
-    <content type="html"><![CDATA[<p><a href="http://senseidb.com">sensei</a>是以前在學習hadoop時找到的，是一款跟hadoop集成的搜尋系統，第一次看到是在兩年前，最近在VM發現當時的建立的痕跡，
-特此紀錄一下以便日後研究。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hadoop]]></title>
