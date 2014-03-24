@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-23T22:26:04+08:00</updated>
+  <updated>2014-03-24T21:52:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[exports和module.export區別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie/"/>
+    <updated>2014-03-24T21:19:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie</id>
+    <content type="html"><![CDATA[<p>exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
+去查網路都有推薦<a href="http://www.hacksparrow.com/node-js-exports-vs-module-exports.html">Node.js Module – exports vs module.exports</a>這篇文章。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cloud9 Ide]]></title>
@@ -48,22 +58,6 @@
     <id>http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu</id>
     <content type="html"><![CDATA[<p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
 參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/"/>
-    <updated>2014-03-11T22:04:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
-    <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
-
-<ol>
-<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
-<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
-<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
