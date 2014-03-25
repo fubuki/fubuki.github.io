@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Node-gyp Build Fails on NFS Because of Flock - Learning Blog</title>
+  <title>Amazon Dynamo - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊issue找到解答。
+  <meta name="description" content="amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。
 ">
   
 
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/25/amazon-dynamo">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Node-gyp Build Fails on NFS Because of Flock</h1>
+      <h1 class="entry-title">Amazon Dynamo</h1>
     
     
       <p class="meta">
@@ -98,7 +99,7 @@
   
 
 
-<time datetime="2014-03-23T00:00:00+08:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2014</time>
+<time datetime="2014-03-25T21:40:25+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -108,7 +109,8 @@
   </header>
 
 
-<div class="entry-content"><p>在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊<a href="https://github.com/TooTallNate/node-gyp/issues/147">issue</a>找到解答。</p>
+<div class="entry-content"><p>amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。</p>
 </div>
 
 
@@ -131,12 +133,12 @@
   
 
 
-<time datetime="2014-03-23T00:00:00+08:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2014</time>
+<time datetime="2014-03-25T21:40:25+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/nosql/'>nosql</a>
   
 </span>
 
@@ -152,10 +154,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/22/vim-vundle/" title="Previous Post: Vim Vundle">&laquo; Vim Vundle</a>
+        <a class="basic-alignment left" href="/blog/2014/03/24/exportshe-module-dot-exportqu-bie/" title="Previous Post: exports和module.export區別">&laquo; exports和module.export區別</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/23/cloud9-ide/" title="Next Post: cloud9 ide">cloud9 ide &raquo;</a>
       
     </p>
   </footer>
@@ -287,8 +287,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/25/amazon-dynamo/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/03/25/amazon-dynamo/';
         var disqus_script = 'embed.js';
       
     (function () {

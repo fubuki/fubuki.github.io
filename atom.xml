@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-24T21:57:47+08:00</updated>
+  <updated>2014-03-25T21:52:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Amazon Dynamo]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/25/amazon-dynamo/"/>
+    <updated>2014-03-25T21:40:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/25/amazon-dynamo</id>
+    <content type="html"><![CDATA[<p>amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[exports和module.export區別]]></title>
@@ -225,22 +235,6 @@ mqtt 相關的frontend部分開源。</p>
     <content type="html"><![CDATA[<p>What UI really is (and how UX confuses matters)</p>
 
 <p><a href="http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters">http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/"/>
-    <updated>2014-03-11T22:04:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
-    <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
-
-<ol>
-<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
-<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
-<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
