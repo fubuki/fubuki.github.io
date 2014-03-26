@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-03-26T22:03:56+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PageRank, EdgeRank, PeopleRank]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/"/>
+    <updated>2014-03-26T21:22:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank</id>
+    <content type="html"><![CDATA[<ol>
+<li>PageRank</li>
+<li>EdgeRank</li>
+<li>PeopleRank</li>
+</ol>
+
+
+<!-- more -->
+
+
+<h1>PagRank</h1>
+
+<p>google對網頁評分的演算法，用來算出網頁的權重，作為網頁排序的要素之一。<br/>
+<a href="http://ilpubs.stanford.edu:8090/422/">http://ilpubs.stanford.edu:8090/422/</a></p>
+
+<h1>EdgeRank</h1>
+
+<p>Facebook用來計算要顯示哪些動態給使用者。<br/>
+<a href="http://edgerank.net/">http://edgerank.net/</a></p>
+
+<h1>PeopleRank</h1>
+
+<p>類似PageRank，不過是用來測量使用者產出內容的價值。</p>
+]]></content>
+  </entry>
+  
+</feed>

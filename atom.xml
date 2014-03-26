@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-25T21:52:34+08:00</updated>
+  <updated>2014-03-26T22:03:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PageRank, EdgeRank, PeopleRank]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/"/>
+    <updated>2014-03-26T21:22:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank</id>
+    <content type="html"><![CDATA[<ol>
+<li>PageRank</li>
+<li>EdgeRank</li>
+<li>PeopleRank</li>
+</ol>
+
+
+<!-- more -->
+
+
+<h1>PagRank</h1>
+
+<p>google對網頁評分的演算法，用來算出網頁的權重，作為網頁排序的要素之一。<br/>
+<a href="http://ilpubs.stanford.edu:8090/422/">http://ilpubs.stanford.edu:8090/422/</a></p>
+
+<h1>EdgeRank</h1>
+
+<p>Facebook用來計算要顯示哪些動態給使用者。<br/>
+<a href="http://edgerank.net/">http://edgerank.net/</a></p>
+
+<h1>PeopleRank</h1>
+
+<p>類似PageRank，不過是用來測量使用者產出內容的價值。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Amazon Dynamo]]></title>
@@ -224,17 +255,6 @@ mqtt 相關的frontend部分開源。</p>
     <content type="html"><![CDATA[<p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
 不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
 剛好在次看到riak也許可以補足一些地方。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lean UX]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/11/lean-ux/"/>
-    <updated>2014-03-11T22:57:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/11/lean-ux</id>
-    <content type="html"><![CDATA[<p>What UI really is (and how UX confuses matters)</p>
-
-<p><a href="http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters">http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters</a></p>
 ]]></content>
   </entry>
   
