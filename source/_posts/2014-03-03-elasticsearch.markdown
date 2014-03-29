@@ -3,7 +3,7 @@ layout: post
 title: "elasticsearch"
 date: 2014-03-03 21:51:01 +0800
 comments: true
-categories: 
+categories: ['search engine']
 ---
 
 elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，  

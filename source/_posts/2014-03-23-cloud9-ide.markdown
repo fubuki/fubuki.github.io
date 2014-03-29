@@ -1,0 +1,13 @@
+---
+layout: post
+title: "cloud9 ide"
+date: 2014-03-23 21:41:52 +0800
+comments: true
+categories: ['nodejs']
+---
+
+[cloud9]是一款線上整合開發環境一年以前有使用過，當時使用上覺得反應速度不太好就沒有在使用了，
+不過可以學一下其中的架構，重要的是有持續維護，希望可以持續下去未來能夠使用閱覽器開發多種語言。
+
+
+[cloud9]: https://c9.io/

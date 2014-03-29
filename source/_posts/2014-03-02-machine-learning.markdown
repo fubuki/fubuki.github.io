@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "machine learning"
+title: "machine learning 相關書單"
 date: 2014-03-02 23:05:28 +0800
 comments: true
-categories:  machine-learing
+categories:  ["machine learning"]
 ---
 
 

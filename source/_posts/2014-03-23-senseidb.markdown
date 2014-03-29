@@ -1,0 +1,14 @@
+---
+layout: post
+title: "SenseiDB "
+date: 2014-03-23 21:46:27 +0800
+comments: true
+categories: ['search engine']
+---
+
+[sensei]是以前在學習hadoop時找到的，是一款跟hadoop集成的搜尋系統，第一次看到是在兩年前，最近在VM發現當時的建立的痕跡，
+特此紀錄一下以便日後研究。
+
+
+[sensei]: http://senseidb.com
+
