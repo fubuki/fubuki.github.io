@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nosql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nosql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-26T22:03:56+08:00</updated>
+  <updated>2014-03-29T22:15:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CAP理論]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/29/capli-lun/"/>
+    <updated>2014-03-29T20:14:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/29/capli-lun</id>
+    <content type="html"><![CDATA[<p>CAP理論是關於設計一個分散式計算系統需要考慮的問題。<br/>
+CAP理論可以分為以下三點；<br/>
+1. Consistency 節點之間資料的一致性
+2. Availability 如果有節點故障還是可以保證服務是可用的。
+3. Partition tolerance 一個系統因為通信出現問題時可能會造成系統分成多個群體，彼此無法通信導致部分訊息遺失。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Amazon Dynamo]]></title>

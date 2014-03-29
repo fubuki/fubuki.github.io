@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-26T22:03:52+08:00</updated>
+  <updated>2014-03-29T22:15:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CAP理論]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/29/capli-lun/"/>
+    <updated>2014-03-29T20:14:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/29/capli-lun</id>
+    <content type="html"><![CDATA[<p>CAP理論是關於設計一個分散式計算系統需要考慮的問題。<br/>
+CAP理論可以分為以下三點；<br/>
+1. Consistency 節點之間資料的一致性
+2. Availability 如果有節點故障還是可以保證服務是可用的。
+3. Partition tolerance 一個系統因為通信出現問題時可能會造成系統分成多個群體，彼此無法通信導致部分訊息遺失。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modernizr]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/29/modernizr/"/>
+    <updated>2014-03-29T20:14:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/29/modernizr</id>
+    <content type="html"><![CDATA[<p><a href="http://modernizr.com/">Modernizr</a> 是用來檢測閱覽器是否支援HTML5和CSS 3功能的函式庫，以前通常是偵測閱覽器的版本來決定不過有可能會出問題
+，如果直接判斷這個功能能不能使用直接使用一次就不會有例外狀況發生。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PageRank, EdgeRank, PeopleRank]]></title>
@@ -224,37 +247,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     <id>http://fubuki.github.io/blog/2014/03/15/mqtt</id>
     <content type="html"><![CDATA[<p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
 mqtt 相關的frontend部分開源。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jsdc 2013 前端開發工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/"/>
-    <updated>2014-03-14T00:08:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju</id>
-    <content type="html"><![CDATA[<p>記錄在jsdc 議程上看到的開發工具。</p>
-
-<ol>
-<li>livereload</li>
-<li>bower</li>
-<li>compass</li>
-<li>RequireJS</li>
-<li>r.js</li>
-<li>Guardfile</li>
-<li>grunt.js</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Riak]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/12/riak/"/>
-    <updated>2014-03-12T23:09:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/12/riak</id>
-    <content type="html"><![CDATA[<p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
-不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
-剛好在次看到riak也許可以補足一些地方。</p>
 ]]></content>
   </entry>
   

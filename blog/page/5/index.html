@@ -9,9 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
-hadoop分成多種版本，需要整理各種版本不同之處。 1.2.X &ndash; current stable version, 1.2 release
-2.2.X &ndash; current &hellip;">
+  <meta name="description" content="之前在使用git push 程式碼到github上面出現了上述的錯誤。看起來像是gtk跟ssh的問題，
+今天又遇到了就想辦法解決這個問題， ssh-askpass-gnome
+interactive X program to prompt users for a passphrase for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,92 @@ hadoop分成多種版本，需要整理各種版本不同之處。 1.2.X &ndash;
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display/">(Gnome-ssh-askpass:6593): Gtk-WARNING **: Cannot Open Display</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-06T21:33:56+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>之前在使用git push 程式碼到github上面出現了上述的錯誤。看起來像是gtk跟ssh的問題，<br/>
+今天又遇到了就想辦法解決這個問題，</p>
+
+<blockquote><p>ssh-askpass-gnome<br/>
+interactive X program to prompt users for a passphrase for ssh-add</p></blockquote>
+
+<p>似乎是為了使用者在GUI界面下填入ssh相關資訊的程式，只要關掉他就好了，</p>
+
+<blockquote><p>unset SSH_ASKPASS</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/06/d3-dot-js/">D3.js</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-06T21:33:26+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/06/d3-dot-js/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/06/d3-dot-js/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -430,87 +516,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/02/sass-and-less/">Sass and Less</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-02T17:07:46+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/02/sass-and-less/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/02/sass-and-less/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/">Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN&#8217; While Using Npm</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-01T10:02:19+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more">http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more</a></p>
-
-<p>npm改版導致的問題，似乎跟SSL有關，可以把SSL關掉不過會有安全上的問題，
-所以建議更新npm版本。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/6/">&larr; Older</a>
@@ -528,6 +533,14 @@ Solr只要將欄位設定好就可以直接使用。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/29/capli-lun/">CAP理論</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/29/modernizr/">Modernizr</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/26/pagerank-edgerank-peoplerank/">PageRank, EdgeRank, PeopleRank</a>
       </li>
     
@@ -537,14 +550,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
     
       <li class="post">
         <a href="/blog/2014/03/24/exportshe-module-dot-exportqu-bie/">exports和module.export區別</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/23/senseidb/">SenseiDB</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/23/cloud9-ide/">Cloud9 Ide</a>
       </li>
     
   </ul>
@@ -569,7 +574,7 @@ Solr只要將欄位設定好就可以直接使用。</p>
   <li><a href='/blog/categories/mysql'>Mysql (1)</a></li>
   <li><a href='/blog/categories/nlp'>Nlp (1)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (13)</a></li>
-  <li><a href='/blog/categories/nosql'>Nosql (3)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
   <li><a href='/blog/categories/python'>Python (3)</a></li>
   <li><a href='/blog/categories/rabbitmq'>Rabbitmq (2)</a></li>
   <li><a href='/blog/categories/redis'>Redis (2)</a></li>
