@@ -1,0 +1,17 @@
+---
+layout: post
+title: "CAP理論"
+date: 2014-03-29 20:14:32 +0800
+comments: true
+categories: ['nosql']
+---
+CAP理論是關於設計一個分散式計算系統需要考慮的問題。  
+<!-- more -->
+
+CAP理論可以分為以下三點；   
+1. Consistency 節點之間資料的一致性  
+2. Availability 如果有節點故障還是可以保證服務是可用的。  
+3. Partition tolerance 一個系統因為通信出現問題時造成系統分成多個群體，因而影響系統本身的運行。
+
+
+
