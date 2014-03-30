@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-29T22:45:23+08:00</updated>
+  <updated>2014-03-30T11:22:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Puppet]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/30/puppet/"/>
+    <updated>2014-03-30T09:35:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/30/puppet</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/puppetlabs/puppet">puppet</a>是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
+供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。</p>
+
+<p><a href="http://www.puppetcookbook.com/">puppetcookbook</a><br/>
+<a href="https://github.com/jordansissel/puppet-examples">puppet-examples</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CAP理論]]></title>
@@ -241,16 +254,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     <id>http://fubuki.github.io/blog/2014/03/16/hubspot</id>
     <content type="html"><![CDATA[<p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
 <a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mqtt]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/15/mqtt/"/>
-    <updated>2014-03-15T00:34:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/15/mqtt</id>
-    <content type="html"><![CDATA[<p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
-mqtt 相關的frontend部分開源。</p>
 ]]></content>
   </entry>
   
