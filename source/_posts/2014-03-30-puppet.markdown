@@ -1,0 +1,18 @@
+---
+layout: post
+title: "puppet"
+date: 2014-03-30 09:35:59 +0800
+comments: true
+categories: 
+---
+[puppet]是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
+供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。
+
+
+[puppetcookbook]  
+[puppet-examples]  
+
+
+[puppet]: https://github.com/puppetlabs/puppet
+[puppetcookbook]: http://www.puppetcookbook.com/
+[puppet-examples]: https://github.com/jordansissel/puppet-examples
