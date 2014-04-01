@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-03-30T11:22:05+08:00</updated>
+  <updated>2014-04-01T22:13:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[docker.io 和 Vagrant]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/01/docker-dot-io/"/>
+    <updated>2014-04-01T21:18:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/01/docker-dot-io</id>
+    <content type="html"><![CDATA[<p><a href="https://www.docker.io">docker.io</a> 是一種 <a href="http://en.wikipedia.org/wiki/LXC">LXC (LinuX Containers)</a>，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Puppet]]></title>
@@ -244,16 +255,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 
 <p>可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
 等到Haskell比較熟練之類也許才能實際感覺到特別之處，目前暫時還是使用純javascript寫作。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HubSpot]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/16/hubspot/"/>
-    <updated>2014-03-16T20:01:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/16/hubspot</id>
-    <content type="html"><![CDATA[<p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
-<a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
 ]]></content>
   </entry>
   
