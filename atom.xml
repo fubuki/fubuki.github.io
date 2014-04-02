@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-01T22:13:14+08:00</updated>
+  <updated>2014-04-02T22:25:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Projects That Power GitHub]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/02/projects-that-power-github/"/>
+    <updated>2014-04-02T21:25:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/02/projects-that-power-github</id>
+    <content type="html"><![CDATA[<p>GitHub放出他們自身使用的開源專案，詳細的內容可以在這裡找到<a href="https://github.com/showcases/projects-that-power-github">projects-that-power-github</a>，
+裡面有些工作上或是自身有在研究的專案，順便寫一下使用自己在哪些方面。</p>
+
+<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/defunkt/jquery-pjax">jquery-pjax</a> pushstate + ajax ，之前用來實現網頁無須刷新更新頁面的功能。</li>
+<li><a href="https://github.com/elasticsearch/elasticsearch">elasticsearch</a> 開源的搜尋引擎不過還是solr比較常用。</li>
+<li><a href="https://github.com/rails/rails">rails</a> 作為web的開發框架用起來還沒有比PHP熟悉。</li>
+<li><a href="https://github.com/antirez/redis">redis</a> 工作上使用場景比memcache還多的快取資料庫，除了用在存放一些列表和記數類的資料還有使用他的keyspace和pubsub功能。</li>
+<li><a href="https://github.com/jekyll/jekyll">jekyll</a> 目前用來寫blog。</li>
+<li><a href="https://github.com/github/hubot">hubot</a> 一個Bot的專案，可以使用coffee script擴充功能。</li>
+<li><a href="https://github.com/mbostock/d3">d3</a> 作為前端顯示圖表的函式庫，跟其他相關函式庫混用還蠻方便的。</li>
+<li><a href="https://github.com/zeroclipboard/zeroclipboard">zeroclipboard</a> 有時候讓使用者能夠直接複製網頁的內容到剪貼板上</li>
+<li><a href="https://github.com/puppetlabs/puppet">puppet</a> 目前正在學習如何用在管理和建置環境。
+10 <a href="https://github.com/bower/bower">bower</a> 用來管理網站套件。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[docker.io 和 Vagrant]]></title>
@@ -243,18 +270,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 <p><strong>Result Stores</strong></p>
 
 <p><strong>Serialization</strong></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coffeescript]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/16/coffeescript/"/>
-    <updated>2014-03-16T20:12:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/16/coffeescript</id>
-    <content type="html"><![CDATA[<p>CoffeeScript is a little language that compiles into JavaScript.</p>
-
-<p>可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
-等到Haskell比較熟練之類也許才能實際感覺到特別之處，目前暫時還是使用純javascript寫作。</p>
 ]]></content>
   </entry>
   
