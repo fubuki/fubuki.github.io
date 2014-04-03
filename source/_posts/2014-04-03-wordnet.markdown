@@ -1,0 +1,14 @@
+---
+layout: post
+title: "WordNet"
+date: 2014-04-03 21:38:45 +0800
+comments: true
+categories: ['nlp']
+---
+
+在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用[wordnet]實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
+其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。
+
+
+
+[wordnet]: wordnet.princeton.edu
