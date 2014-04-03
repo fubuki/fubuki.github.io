@@ -122,7 +122,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/beautiful-data/</loc>
-        <lastmod>2014-03-12T21:07:09+08:00</lastmod>
+        <lastmod>2014-04-03T22:22:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/08/coscup-2013/</loc>
@@ -269,12 +269,16 @@
         <lastmod>2014-04-02T22:24:38+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/04/03/wordnet/</loc>
+        <lastmod>2014-04-03T22:20:25+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-04-02T22:24:38+08:00</lastmod>
+        <lastmod>2014-04-03T22:22:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -282,6 +286,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-04-02T22:24:38+08:00</lastmod>
+        <lastmod>2014-04-03T22:22:06+08:00</lastmod>
     </url>
 </urlset>

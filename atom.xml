@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-02T22:25:13+08:00</updated>
+  <updated>2014-04-03T22:23:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WordNet]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/03/wordnet/"/>
+    <updated>2014-04-03T21:38:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/03/wordnet</id>
+    <content type="html"><![CDATA[<p>在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用<a href="wordnet.princeton.edu">wordnet</a>實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
+其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Projects That Power GitHub]]></title>
@@ -249,27 +259,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     <id>http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu</id>
     <content type="html"><![CDATA[<p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
 參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Celery]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/17/celery/"/>
-    <updated>2014-03-17T21:19:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/17/celery</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
-一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
-為基礎架構。</p>
-
-<h1>It supports&hellip;</h1>
-
-<p><strong>Message Transports</strong></p>
-
-<p><strong>Concurrency</strong></p>
-
-<p><strong>Result Stores</strong></p>
-
-<p><strong>Serialization</strong></p>
 ]]></content>
   </entry>
   

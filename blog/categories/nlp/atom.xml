@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: NLP | Learning Blog]]></title>
+  <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-02T22:25:13+08:00</updated>
+  <updated>2014-04-03T22:23:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WordNet]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/03/wordnet/"/>
+    <updated>2014-04-03T21:38:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/03/wordnet</id>
+    <content type="html"><![CDATA[<p>在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用<a href="wordnet.princeton.edu">wordnet</a>實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
+其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Beautiful Data]]></title>
