@@ -5,16 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>網頁相似度演算法 - Learning Blog</title>
+  <title>Nodejs 生產環境 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="計算出兩個網頁之間的相似度，在抓取網頁的時候可以快速判斷相似度。 目前看到的有以下幾種: I-Match
-Shingling
-SimHash
-SpotSigs
-Combined 需要找時間將以上演算法實作一遍。
-">
+  <meta name="description" content="記錄一下nodejs生產環境需要注意的事項。 nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。
+nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。
+nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -23,7 +20,7 @@ Combined 需要找時間將以上演算法實作一遍。
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -86,7 +83,7 @@ Combined 需要找時間將以上演算法實作一遍。
   
   <header>
     
-      <h1 class="entry-title">網頁相似度演算法</h1>
+      <h1 class="entry-title">Nodejs 生產環境</h1>
     
     
       <p class="meta">
@@ -102,7 +99,7 @@ Combined 需要找時間將以上演算法實作一遍。
   
 
 
-<time datetime="2014-03-08T09:54:22+08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
+<time datetime="2014-04-05T21:55:23+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -112,23 +109,20 @@ Combined 需要找時間將以上演算法實作一遍。
   </header>
 
 
-<div class="entry-content"><p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以快速判斷相似度。</p>
+<div class="entry-content"><p>記錄一下nodejs生產環境需要注意的事項。</p>
 
 <!-- more -->
 
 
-<p>目前看到的有以下幾種:</p>
-
 <ol>
-<li>I-Match</li>
-<li>Shingling</li>
-<li>SimHash</li>
-<li>SpotSigs</li>
-<li>Combined</li>
+<li>nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。</li>
+<li>nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。</li>
+<li>nodejs建立socket時增加可以建立的socket的數量。</li>
+<li>nodejs 有些使用模組是編譯過的，有些是純js撰寫成的，使用二進位編譯後的模組。</li>
+<li>在nodejs中事件流的處理會影響程式效能，目前有些用來處理事件流的模組慎選並去使用。</li>
+<li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
 </ol>
 
-
-<p>需要找時間將以上演算法實作一遍。</p>
 </div>
 
 
@@ -151,8 +145,14 @@ Combined 需要找時間將以上演算法實作一遍。
   
 
 
-<time datetime="2014-03-08T09:54:22+08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
+<time datetime="2014-04-05T21:55:23+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2014</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+  
+</span>
 
 
     </p>
@@ -166,10 +166,8 @@ Combined 需要找時間將以上演算法實作一遍。
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/08/lucene/" title="Previous Post: Lucene">&laquo; Lucene</a>
+        <a class="basic-alignment left" href="/blog/2014/04/03/wordnet/" title="Previous Post: WordNet">&laquo; WordNet</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/08/beautiful-data/" title="Next Post: Beautiful Data">Beautiful Data &raquo;</a>
       
     </p>
   </footer>
@@ -302,8 +300,8 @@ Combined 需要找時間將以上演算法實作一遍。
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/';
         var disqus_script = 'embed.js';
       
     (function () {

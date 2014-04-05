@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-03T22:23:23+08:00</updated>
+  <updated>2014-04-05T23:29:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs 生產環境]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/"/>
+    <updated>2014-04-05T21:55:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing</id>
+    <content type="html"><![CDATA[<p>記錄一下nodejs生產環境需要注意的事項。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。</li>
+<li>nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。</li>
+<li>nodejs建立socket時增加可以建立的socket的數量。</li>
+<li>nodejs 有些使用模組是編譯過的，有些是純js撰寫成的，使用二進位編譯後的模組。</li>
+<li>在nodejs中事件流的處理會影響程式效能，目前有些用來處理事件流的模組慎選並去使用。</li>
+<li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[exports和module.export區別]]></title>
@@ -48,16 +70,6 @@
     <updated>2014-03-19T22:42:06+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
     <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Node-gyp 撰寫nodejs模組]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/"/>
-    <updated>2014-03-18T21:07:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu</id>
-    <content type="html"><![CDATA[<p>研究一下關於撰寫nodejs模組的方法，原本是用node-waf後來換成node-gyp。<br/>
-參考一下 <a href="http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html">http://deadhorse.me/nodejs/2012/10/08/c_addon_in_nodejs_node_gyp.html</a></p>
 ]]></content>
   </entry>
   
