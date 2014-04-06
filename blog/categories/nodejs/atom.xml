@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-05T23:29:22+08:00</updated>
+  <updated>2014-04-06T16:57:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs Flow Control]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/"/>
+    <updated>2014-04-06T16:22:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control</id>
+    <content type="html"><![CDATA[<p>記錄一下流程控制相關的模組。<br/>
+1. <a href="https://github.com/creationix/step">step</a> <br/>
+2. <a href="https://github.com/kriskowal/q">Q</a><br/>
+3. <a href="https://github.com/kriszyp/node-promise">promise</a></p>
+
+<!-- more -->
+
+
+<p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
+避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
+有些人提供一些第三方的模組處理流程控制的部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nodejs 生產環境]]></title>
@@ -61,15 +80,6 @@
     <updated>2014-03-23T00:00:00+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock</id>
     <content type="html"><![CDATA[<p>在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊<a href="https://github.com/TooTallNate/node-gyp/issues/147">issue</a>找到解答。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
-    <updated>2014-03-19T22:42:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
-    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
 ]]></content>
   </entry>
   

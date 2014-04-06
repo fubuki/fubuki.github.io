@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-05T23:29:22+08:00</updated>
+  <updated>2014-04-06T16:57:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nodejs Flow Control]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/"/>
+    <updated>2014-04-06T16:22:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control</id>
+    <content type="html"><![CDATA[<p>記錄一下流程控制相關的模組。<br/>
+1. <a href="https://github.com/creationix/step">step</a> <br/>
+2. <a href="https://github.com/kriskowal/q">Q</a><br/>
+3. <a href="https://github.com/kriszyp/node-promise">promise</a></p>
+
+<!-- more -->
+
+
+<p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
+避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
+有些人提供一些第三方的模組處理流程控制的部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nodejs 生產環境]]></title>
@@ -262,15 +281,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     <id>http://fubuki.github.io/blog/2014/03/19/scrapy-example-code</id>
     <content type="html"><![CDATA[<p>在scrapy官網上的scrapy範例。
 <a href="http://snipplr.com/all/tags/scrapy/">http://snipplr.com/all/tags/scrapy/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mosca]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/18/mosca/"/>
-    <updated>2014-03-18T21:38:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/18/mosca</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/mcollina/mosca">mosca</a> 利用mqtt.js和Ascoltatori組成支援mqtt的server，後面可以接各種持久化方案，看了源碼可以自行實作跟持久化有關部分。</p>
 ]]></content>
   </entry>
   
