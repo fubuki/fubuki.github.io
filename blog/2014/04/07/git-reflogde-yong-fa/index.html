@@ -5,14 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Puppet - Learning Blog</title>
+  <title>Git-reflog的用法 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="puppet是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
-供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。 puppetcookbook
-puppet-examples
-">
+  <meta name="description" content="之前看到一篇去年的消息Jenkins開發者意外的抹消掉在github上一個月的commit，這跟Github的設定和
+使用者本身使用強制推送有關，如果想要知道詳細情形請參照&lsquo;這裡&rsquo;。 不過裡面比較引我注意的是他如何回復被蓋掉的部分，利用git- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +19,7 @@ puppet-examples
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/30/puppet">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/07/git-reflogde-yong-fa">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -84,7 +82,7 @@ puppet-examples
   
   <header>
     
-      <h1 class="entry-title">Puppet</h1>
+      <h1 class="entry-title">Git-reflog的用法</h1>
     
     
       <p class="meta">
@@ -100,7 +98,7 @@ puppet-examples
   
 
 
-<time datetime="2014-03-30T09:35:59+08:00" pubdate data-updated="true">Mar 30<span>th</span>, 2014</time>
+<time datetime="2014-04-07T21:11:57+08:00" pubdate data-updated="true">Apr 7<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -110,11 +108,41 @@ puppet-examples
   </header>
 
 
-<div class="entry-content"><p><a href="https://github.com/puppetlabs/puppet">puppet</a>是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
-供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。</p>
+<div class="entry-content"><p>之前看到一篇去年的消息Jenkins開發者意外的抹消掉在github上一個月的commit，這跟Github的設定和
+使用者本身使用強制推送有關，如果想要知道詳細情形請參照<a href="https://groups.google.com/forum/#!msg/jenkinsci-dev/-myjRIPcVwU/t4nkXONp8qgJ">&lsquo;這裡&rsquo;</a>。</p>
 
-<p><a href="http://www.puppetcookbook.com/">puppetcookbook</a><br/>
-<a href="https://github.com/jordansissel/puppet-examples">puppet-examples</a></p>
+<!-- more -->
+
+
+<p>不過裡面比較引我注意的是他如何回復被蓋掉的部分，利用git-reflog可以取得被刪除的commit，之後再開出
+一個新的分支取回原本的版本，這個跟git-log 的差異在git-log只會顯示過去提交過的記錄，但是reflog會顯示
+所有的變更紀錄，下面幾個我比較常用的指令都會紀錄在reflog裡面，藉此如果版本有問題了話更容易回復。</p>
+
+<ul>
+<li>branch</li>
+<li>commit</li>
+<li>checkout</li>
+<li>pull</li>
+<li>push</li>
+<li>merge</li>
+<li>clone</li>
+<li>branch</li>
+<li>stash</li>
+</ul>
+
+
+<h1>git-reflog OPTIONS</h1>
+
+<ul>
+<li><p>&mdash;stale-fix</p></li>
+<li><p>&mdash;expire=<time></p></li>
+<li><p>&mdash;expire-unreachable=<time></p></li>
+<li><p>&mdash;all</p></li>
+<li><p>&mdash;updateref</p></li>
+<li><p>&mdash;rewrite</p></li>
+<li><p>&mdash;verbose</p></li>
+</ul>
+
 </div>
 
 
@@ -137,8 +165,14 @@ puppet-examples
   
 
 
-<time datetime="2014-03-30T09:35:59+08:00" pubdate data-updated="true">Mar 30<span>th</span>, 2014</time>
+<time datetime="2014-04-07T21:11:57+08:00" pubdate data-updated="true">Apr 7<span>th</span>, 2014</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/git/'>git</a>
+  
+</span>
 
 
     </p>
@@ -152,10 +186,8 @@ puppet-examples
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/29/capli-lun/" title="Previous Post: CAP理論">&laquo; CAP理論</a>
+        <a class="basic-alignment left" href="/blog/2014/04/06/nodejs-flow-control/" title="Previous Post: nodejs flow control">&laquo; nodejs flow control</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/04/01/docker-dot-io/" title="Next Post: docker.io 和 Vagrant">docker.io 和 Vagrant &raquo;</a>
       
     </p>
   </footer>
@@ -288,8 +320,8 @@ puppet-examples
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/30/puppet/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/30/puppet/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/07/git-reflogde-yong-fa/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/07/git-reflogde-yong-fa/';
         var disqus_script = 'embed.js';
       
     (function () {
