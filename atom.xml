@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-11T22:55:42+08:00</updated>
+  <updated>2014-04-11T23:08:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -81,156 +81,6 @@ Master和Slave資料差別蠻有用的。</p>
 <p>這場比較硬一些，前面在講一些GC Language會遇到的問題並且給一些會導致Memory Leak的範例，
 之後在開始介紹C++的<a href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization">RAII</a>，這場主要在講程式關於記憶體方面的問題。</p>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Osdc 2014 First Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/"/>
-    <updated>2014-04-11T00:00:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day</id>
-    <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-body{
-  color:#444;
-  font-family:Georgia, Palatino, &#8216;Palatino Linotype&#8217;, Times, &#8216;Times New Roman&#8217;,
-              &#8220;Hiragino Sans GB&#8221;, &#8220;STXihei&#8221;, &#8220;微软雅黑&#8221;, serif;
-  font-size:12px;
-  line-height:1.5em;
-  background:#fefefe;
-  width: 45em;
-  margin: 10px auto;
-  padding: 1em;
-  outline: 1300px solid #FAFAFA;
-}
-
-a{ color: #0645ad; text-decoration:none;}
-a:visited{ color: #0b0080; }
-a:hover{ color: #06e; }
-a:active{ color:#faa700; }
-a:focus{ outline: thin dotted; }
-a:hover, a:active{ outline: 0; }
-
-span.backtick {
-  border:1px solid #EAEAEA;
-  border-radius:3px;
-  background:#F8F8F8;
-  padding:0 3px 0 3px;
-}
-
-::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
-::selection{background:rgba(255,255,0,0.3);color:#000}
-
-a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
-a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
-
-p{
-margin:1em 0;
-}
-
-img{
-max-width:100%;
-}
-
-h1,h2,h3,h4,h5,h6{
-font-weight:normal;
-color:#111;
-line-height:1em;
-}
-h4,h5,h6{ font-weight: bold; }
-h1{ font-size:2.5em; }
-h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
-h3{ font-size:1.5em; }
-h4{ font-size:1.2em; }
-h5{ font-size:1em; }
-h6{ font-size:0.9em; }
-
-blockquote{
-color:#666666;
-margin:0;
-padding-left: 3em;
-border-left: 0.5em #EEE solid;
-}
-hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
-
-
-pre , code, kbd, samp { 
-  color: #000; 
-  font-family: monospace; 
-  font-size: 0.88em; 
-  border-radius:3px;
-  background-color: #F8F8F8;
-  border: 1px solid #CCC; 
-}
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
-pre code { border: 0px !important; padding: 0;}
-code { padding: 0 3px 0 3px; }
-
-b, strong { font-weight: bold; }
-
-dfn { font-style: italic; }
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
-ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
-li p:last-child { margin:0 }
-dd { margin: 0 0 0 2em; }
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
-
-@media only screen and (min-width: 480px) {
-body{font-size:14px;}
-}
-
-@media only screen and (min-width: 768px) {
-body{font-size:16px;}
-}
-
-@media print {
-  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
-  body{font-size:12pt; max-width:100%; outline:none;}
-  a, a:visited { text-decoration: underline; }
-  hr { height: 1px; border:0; border-bottom:1px solid black; }
-  a[href]:after { content: &#8221; (&#8221; attr(href) &#8220;)&#8221;; }
-  abbr[title]:after { content: &#8221; (&#8221; attr(title) &#8220;)&#8221;; }
-  .ir a:after, a[href^=&#8221;javascript:&#8221;]:after, a[href^=&#8221;#&#8221;]:after { content: &#8220;&#8221;; }
-  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page :left { margin: 15mm 20mm 15mm 10mm; }
-  @page :right { margin: 15mm 10mm 15mm 20mm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
-}
-</style><title>2014-04-11-osdc-2014-first-day</title></head><body><hr />
-<p>layout: post
-title: &#8220;OSDC 2014 first day&#8221;
-date: 2014-04-11 21:23:36 +0800
-comments: true
-categories: [&#8216;open source&#8217;]</p>
-<hr />
-<p>記錄一下OSDC 2014第一天參加的議程
-<!-- more --></p>
-<h1 id="how-public-lab-collaborates-to-make-environmental-science-something-anyone-can-do">How Public Lab collaborates to make environmental science something anyone can do</h1>
-<p><a href="http://publiclab.org/">publiclab</a> </p>
-<h1 id="using-open-standards-and-open-source-to-manage-a-datacenter">Using Open Standards and Open Source to Manage a Datacenter</h1>
-<p>這個議程介紹一些在管理資料中心時使用哪些技巧和使用哪些開源軟體，講者是在cloudMosa。
-1. </p>
-<h1 id="sharding-and-scale-out-using-mysql-fabric">Sharding and Scale-out using MySQL Fabric</h1>
-<h1 id="mysql-utility">MySQL Utility</h1>
-<h1 id="getting-started-with-python-for-data-science">Getting started with Python for Data Science</h1>
-<h1 id="diy-data-mining-based">DIY一個Data Mining based的網路流量分析工具</h1>
-<h1 id="understanding-android-benchmarks">Understanding Android Benchmarks</h1>
-<h1 id="projecttox-free-as-in-freedom-skype-replacement">ProjectTox: Free as in freedom Skype replacement</h1>
-<h1 id="wzxhzdk-1-wzxhzdk-2-raii-c">有 <del>愛</del> RAII 的 C++</h1></body></html>]]></content>
   </entry>
   
   <entry>
@@ -515,6 +365,16 @@ solr的api更新資料。</p>
     <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
     <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
 之後等有空就來實現一些現實生活的例子。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Spa (Single-page Application)]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/20/spa-single-page-application/"/>
+    <updated>2014-03-20T21:51:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/20/spa-single-page-application</id>
+    <content type="html"><![CDATA[<p>在一個網頁上呈現出如同桌面應用程式的操作經驗，MVVM是常與SPA一起提到的設計模式，目前我本身使用Knockout(一種MVVM的javascript framework)實現
+SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQuery到處綁定事件來的好管理。</p>
 ]]></content>
   </entry>
   
