@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-04-11T22:55:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OSDC 2014 First Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/"/>
+    <updated>2014-04-11T21:23:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day</id>
+    <content type="html"><![CDATA[<p>記錄一下OSDC 2014第一天參加的議程</p>
+
+<!-- more -->
+
+
+<h1>How Public Lab collaborates to make environmental science something anyone can do</h1>
+
+<p>這議程讓我印象深刻，利用社群的力量關懷社會，使用風箏和數位相機做出空拍圖取得資料不一定要太昂貴的機器也可以達到相同的效果，
+只等待公家機關是不行的，藉由民間的力量關注環境的議題。<br/>
+<a href="http://publiclab.org/">publiclab</a></p>
+
+<h1>Using Open Standards and Open Source to Manage a Datacenter</h1>
+
+<p>這個議程介紹一些在管理資料中心時使用哪些技巧和使用哪些開源軟體，講者是在cloudMosa任職的，管理著'2k+ node'和 &lsquo;4個data center'。
+1. MRTG
+2. snmp
+3. specific MIBs
+4. RRD tool
+5. Munin</p>
+
+<h1>Sharding and Scale-out using MySQL Fabric</h1>
+
+<p>MySQL Fabric是oracle放出來用來擴展mysql的controller，讓程式透過Fabric存取mysql cluster，不過這場演講讓我印象深刻的是他說的英文還不錯，
+雖然有些地方還是有日本腔，但比我在日本旅行聽到的英文好的多。</p>
+
+<h1>MySQL Utility</h1>
+
+<p>跟上一場都是Oracle的講者，介紹在mysql workbench裡一個工具'MySQL Utility'，裡面有些功能在管理Mysql Cluster比較
+Master和Slave資料差別蠻有用的。</p>
+
+<h1>Getting started with Python for Data Science</h1>
+
+<p>介紹Data Science是什麼，列出一些Python 熱門的library和講者關注的library。</p>
+
+<h1>DIY一個Data Mining based的網路流量分析工具</h1>
+
+<p>講者是在康寧護專任職的網管，這場是介紹他寫的流量分析工具，不過似乎是基本的概念實現程式，裡面會有不少BUG，
+不過講者有放到網路上可以下載後改進架構。</p>
+
+<ol>
+<li>flow 格式的資料</li>
+<li>pmacct</li>
+<li>mysql</li>
+<li>php and perl</li>
+<li>mahout</li>
+<li>bootstrap and chartjs</li>
+</ol>
+
+
+<h1>Understanding Android Benchmarks</h1>
+
+<p>介紹Android Benchmarks有哪些方式，主要是測試CPU和Memory。</p>
+
+<h1>ProjectTox: Free as in freedom Skype replacement</h1>
+
+<p>之前就有看過ProjectTox，是為了取代Skype的開源通訊軟體，然後之所以有那麼多相關的分支是因為Tox本身是一個library，
+其他專案都是基於Tox建立的。</p>
+
+<h1>有 <del>愛</del> RAII 的 C++</h1>
+
+<p>這場比較硬一些，前面在講一些GC Language會遇到的問題並且給一些會導致Memory Leak的範例，
+之後在開始介紹C++的<a href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization">RAII</a>，這場主要在講程式關於記憶體方面的問題。</p>
+]]></content>
+  </entry>
+  
+</feed>
