@@ -286,7 +286,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/</loc>
-        <lastmod>2014-04-11T23:11:22+08:00</lastmod>
+        <lastmod>2014-04-12T19:26:37+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/04/12/osdc-2014-second-day/</loc>
+        <lastmod>2014-04-12T21:39:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -294,7 +298,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-04-11T23:11:22+08:00</lastmod>
+        <lastmod>2014-04-12T21:39:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -302,6 +306,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-04-11T23:11:22+08:00</lastmod>
+        <lastmod>2014-04-12T21:39:06+08:00</lastmod>
     </url>
 </urlset>
