@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Astreisk | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/astreisk/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-12T21:44:56+08:00</updated>
+  <updated>2014-04-12T22:30:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,14 @@
     <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
     <updated>2014-02-28T12:13:43+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
-    <content type="html"><![CDATA[<h2>voip</h2>
+    <content type="html"><![CDATA[<p>目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到
+類似的功能並且透過轉接卡也能夠跟市話通話。
+我就選擇Asterisk作為我的PBX，<a href="http://www.asterisk.org/">Asterisk</a>是什麼? 官網是這樣寫的。</p>
+
+<blockquote><p>What is Asterisk?
+Asterisk is like a box of Legos for people who want to create communications applications. It includes all the building blocks needed to create a PBX, an IVR system, a conference bridge and virtually any other communications app you can imagine.
+他是一個開源的PBX(用戶交換機)系統，PBX是用來處理電話交換功能讓一些公司和個人可以建立自己的通訊系統。
+為什麼選擇<a href="http://www.asterisk.org/">Asterisk</a>主要是因為我有在玩raspberry pi 然後看到 <a href="http://www.raspberry-asterisk.org/">Asterisk for Raspberry Pi</a> 並且o'reilly有出一本"Asterisk: The Definitive Guide"讓我想要試試看網路上也有不少討論區可以參考。</p></blockquote>
 ]]></content>
   </entry>
   
