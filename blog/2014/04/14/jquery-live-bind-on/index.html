@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>POMELO - Learning Blog</title>
+  <title>Jquery Bind, Live, Delegate, On - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="pomelo官網
-pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，
-不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章&#8221;基于node.js与pomelo的消息推送平台&# &hellip;">
+  <meta name="description" content="jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦jQuery演進短論（TonyQ）這個影片，講解的還蠻清楚的。 bind 以前我使用最多的綁定方式， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/06/pomelo">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
   
   <header>
     
-      <h1 class="entry-title">POMELO</h1>
+      <h1 class="entry-title">Jquery Bind, Live, Delegate, On</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
   
 
 
-<time datetime="2014-03-06T22:41:33+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time>
+<time datetime="2014-04-14T21:28:39+08:00" pubdate data-updated="true">Apr 14<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,19 +108,57 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
   </header>
 
 
-<div class="entry-content"><ol>
-<li><a href="http://pomelo.netease.com/" title="pomelo官網">pomelo官網</a></li>
-<li><a href="https://github.com/NetEase/pomelo" title="pomelo github">pomelo github</a></li>
-</ol>
+<div class="entry-content"><p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
 
+<h3>bind</h3>
 
-<!-- more -->
+<p>以前我使用最多的綁定方式，除了可以綁定jquery原有的函式也可以自訂事件名稱，在去觸發自訂事件，不過bind只能綁定一次如果使用者
+之後append一個新的節點就必須在重新綁定一次。</p>
 
+<pre><code>$(body).bind("click",function(){
+    console.log('click event');
+});
+</code></pre>
 
-<p>之前在閱覽nodejs scale方案時候發現的一個框架，當初看說明似乎是用來建立遊戲伺服器，就沒有在留意了，<br/>
-不過最近在研究取代gcm的手機推播方案時在京js 2013看到一篇文章&#8221;基于node.js与pomelo的消息推送平台&#8221;<br/>
-，是用pomelo建立推播平台，在github上也有分散式聊天系統的範例，並且網易似乎是用這個框架建立他們的推播平台，<br/>
-看來是值得深入研究。</p>
+<h3>live</h3>
+
+<p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
+如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
+
+<pre><code>$("#example").live("click",function(){
+    console.log('click event');
+});
+$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
+</code></pre>
+
+<h3>delegate</h3>
+
+<p>由於live 是透過監聽document的節點達成事件動態綁定，所以並不建議使用live而是使用delegate取代，使用方法如下，綁定的事件只會在#example下的
+li元素才會生效。</p>
+
+<pre><code>$("#example").delegate("li", "click", function () {  
+    console.log('click event');
+});  
+</code></pre>
+
+<h3>on</h3>
+
+<p>on是目前官方推薦使用的綁定方式，不論是bind和live都可以透過on去實現，如果有去看jquery的原始碼在某個版本之後bind和live以及delegate底層都是
+用on去實現了並且在1.10的時候live就被拿掉了，如果之後有空還需要整理一下on的實現方法。<br/>
+以下同等於bind的用法</p>
+
+<pre><code>$("#example").on("click",function(){
+    console.log('click event');
+});
+</code></pre>
+
+<p>以下同等於live的用法</p>
+
+<pre><code>$(document).on("click","#example",function(){
+    console.log('click event');
+});
+</code></pre>
 </div>
 
 
@@ -144,12 +181,12 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
   
 
 
-<time datetime="2014-03-06T22:41:33+08:00" pubdate data-updated="true">Mar 6<span>th</span>, 2014</time>
+<time datetime="2014-04-14T21:28:39+08:00" pubdate data-updated="true">Apr 14<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/jquery/'>jquery</a>
   
 </span>
 
@@ -165,10 +202,8 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/06/requirejs/" title="Previous Post: requirejs">&laquo; requirejs</a>
+        <a class="basic-alignment left" href="/blog/2014/04/12/osdc-2014-second-day/" title="Previous Post: OSDC 2014 second day">&laquo; OSDC 2014 second day</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/06/osdc/" title="Next Post: osdc 2014">osdc 2014 &raquo;</a>
       
     </p>
   </footer>
@@ -303,8 +338,8 @@ pomelo github 之前在閱覽nodejs scale方案時候發現的一個框架，當
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/06/pomelo/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/06/pomelo/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/';
         var disqus_script = 'embed.js';
       
     (function () {

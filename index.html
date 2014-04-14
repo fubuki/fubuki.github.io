@@ -9,7 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下OSDC 2014第二天(4/12)參加的議程 ">
+  <meta name="description" content="jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦jQuery演進短論（TonyQ）這個影片，講解的還蠻清楚的。 bind 以前我使用最多的綁定方式， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +79,95 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/14/jquery-live-bind-on/">Jquery Bind, Live, Delegate, On</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-14T21:28:39+08:00" pubdate data-updated="true">Apr 14<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/04/14/jquery-live-bind-on/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
+
+<h3>bind</h3>
+
+<p>以前我使用最多的綁定方式，除了可以綁定jquery原有的函式也可以自訂事件名稱，在去觸發自訂事件，不過bind只能綁定一次如果使用者
+之後append一個新的節點就必須在重新綁定一次。</p>
+
+<pre><code>$(body).bind("click",function(){
+    console.log('click event');
+});
+</code></pre>
+
+<h3>live</h3>
+
+<p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
+如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
+
+<pre><code>$("#example").live("click",function(){
+    console.log('click event');
+});
+$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
+</code></pre>
+
+<h3>delegate</h3>
+
+<p>由於live 是透過監聽document的節點達成事件動態綁定，所以並不建議使用live而是使用delegate取代，使用方法如下，綁定的事件只會在#example下的
+li元素才會生效。</p>
+
+<pre><code>$("#example").delegate("li", "click", function () {  
+    console.log('click event');
+});  
+</code></pre>
+
+<h3>on</h3>
+
+<p>on是目前官方推薦使用的綁定方式，不論是bind和live都可以透過on去實現，如果有去看jquery的原始碼在某個版本之後bind和live以及delegate底層都是
+用on去實現了並且在1.10的時候live就被拿掉了，如果之後有空還需要整理一下on的實現方法。<br/>
+以下同等於bind的用法</p>
+
+<pre><code>$("#example").on("click",function(){
+    console.log('click event');
+});
+</code></pre>
+
+<p>以下同等於live的用法</p>
+
+<pre><code>$(document).on("click","#example",function(){
+    console.log('click event');
+});
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -472,50 +562,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/29/capli-lun/">CAP理論</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-29T20:14:32+08:00" pubdate data-updated="true">Mar 29<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/29/capli-lun/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/29/capli-lun/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>CAP理論是關於設計一個分散式計算系統需要考慮的問題。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/03/29/capli-lun/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -529,6 +575,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/14/jquery-live-bind-on/">Jquery Bind, Live, Delegate, On</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/04/12/osdc-2014-second-day/">OSDC 2014 Second Day</a>
@@ -546,10 +596,6 @@
         <a href="/blog/2014/04/06/nodejs-flow-control/">Nodejs Flow Control</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/04/05/nodejs-sheng-chan-huan-jing/">Nodejs 生產環境</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -565,6 +611,7 @@
   <li><a href='/blog/categories/git'>Git (2)</a></li>
   <li><a href='/blog/categories/hadoop'>Hadoop (1)</a></li>
   <li><a href='/blog/categories/javascript'>Javascript (4)</a></li>
+  <li><a href='/blog/categories/jquery'>Jquery (1)</a></li>
   <li><a href='/blog/categories/less'>Less (1)</a></li>
   <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
   <li><a href='/blog/categories/machine-learning'>Machine learning (2)</a></li>
