@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-14T22:57:45+08:00</updated>
+  <updated>2014-04-15T23:15:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[中文分詞器]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/"/>
+    <updated>2014-04-15T20:55:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi</id>
+    <content type="html"><![CDATA[<p>記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。</p>
+
+<!-- more -->
+
+
+<p>目前有哪些中文分詞器。<br/>
+1. <a href="http://code.google.com/p/ik-analyzer/">IKAnalyzer</a><br/>
+2. <a href="https://code.google.com/p/mmseg4j/">mmseg4j</a><br/>
+3. <a href="https://code.google.com/p/paoding/">paoding</a><br/>
+4. <a href="https://github.com/fubuki/ansj_seg">ansj_seg</a></p>
+
+<p>中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典，不過有些新詞或是人名地名
+就沒有辦法處理，另外一點就在分詞速率，透過詞典分詞詞典越大分詞的時間就會越久。另外是使用機器學習透過語料庫訓練出模型例如HMM的方式也是
+需要透過既有的語料庫訓練。此外也能夠使用語言學上的規則方法不過我目前看到的分詞器大多都是詞典加統計模型。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WordNet]]></title>

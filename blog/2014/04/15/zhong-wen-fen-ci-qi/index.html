@@ -5,11 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Celery - Learning Blog</title>
+  <title>中文分詞器 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: celery">
+  <meta name="description" content="記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。 目前有哪些中文分詞器。
+1. IKAnalyzer
+2. mmseg4j
+3. paoding
+4. ansj_seg 中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/celery">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,36 +81,105 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Celery</h1>
+    
+      <h1 class="entry-title">中文分詞器</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-15T20:55:40+08:00" pubdate data-updated="true">Apr 15<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/17/celery/">Celery</a></h1>
-<time datetime="2014-03-17T21:19:12+08:00" pubdate><span class='month'>Mar</span> <span class='day'>17</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/celery/'>celery</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<p>目前有哪些中文分詞器。<br/>
+1. <a href="http://code.google.com/p/ik-analyzer/">IKAnalyzer</a><br/>
+2. <a href="https://code.google.com/p/mmseg4j/">mmseg4j</a><br/>
+3. <a href="https://code.google.com/p/paoding/">paoding</a><br/>
+4. <a href="https://github.com/fubuki/ansj_seg">ansj_seg</a></p>
 
+<p>中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典，不過有些新詞或是人名地名
+就沒有辦法處理，另外一點就在分詞速率，透過詞典分詞詞典越大分詞的時間就會越久。另外是使用機器學習透過語料庫訓練出模型例如HMM的方式也是
+需要透過既有的語料庫訓練。此外也能夠使用語言學上的規則方法不過我目前看到的分詞器大多都是詞典加統計模型。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-15T20:55:40+08:00" pubdate data-updated="true">Apr 15<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nlp/'>nlp</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/14/jquery-live-bind-on/" title="Previous Post: jquery bind, live, delegate, on">&laquo; jquery bind, live, delegate, on</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -230,7 +303,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

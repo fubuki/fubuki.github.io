@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-14T22:57:45+08:00</updated>
+  <updated>2014-04-15T23:15:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,12 +14,37 @@
 
   
   <entry>
+    <title type="html"><![CDATA[中文分詞器]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/"/>
+    <updated>2014-04-15T20:55:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi</id>
+    <content type="html"><![CDATA[<p>記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。</p>
+
+<!-- more -->
+
+
+<p>目前有哪些中文分詞器。<br/>
+1. <a href="http://code.google.com/p/ik-analyzer/">IKAnalyzer</a><br/>
+2. <a href="https://code.google.com/p/mmseg4j/">mmseg4j</a><br/>
+3. <a href="https://code.google.com/p/paoding/">paoding</a><br/>
+4. <a href="https://github.com/fubuki/ansj_seg">ansj_seg</a></p>
+
+<p>中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典，不過有些新詞或是人名地名
+就沒有辦法處理，另外一點就在分詞速率，透過詞典分詞詞典越大分詞的時間就會越久。另外是使用機器學習透過語料庫訓練出模型例如HMM的方式也是
+需要透過既有的語料庫訓練。此外也能夠使用語言學上的規則方法不過我目前看到的分詞器大多都是詞典加統計模型。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Jquery Bind, Live, Delegate, On]]></title>
     <link href="http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/"/>
     <updated>2014-04-14T21:28:39+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on</id>
     <content type="html"><![CDATA[<p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
 記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
+
+<!-- more -->
+
 
 <h3>bind</h3>
 
@@ -471,17 +496,6 @@ Master和Slave資料差別蠻有用的。</p>
 一來常會遇到沒有刪除乾淨的plugine。<br/>
 使用Vundle管理vim，安裝上跟刪除只要透過vundle就很方便也能保持設定檔簡潔，似乎能
 搜尋plugin，也能讓vundle去指定連結下載，目前正在試用之後可以上載到github上備份設定檔。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql-udf]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/21/mysql-udf/"/>
-    <updated>2014-03-21T23:42:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/21/mysql-udf</id>
-    <content type="html"><![CDATA[<p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
-所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
-solr的api更新資料。</p>
 ]]></content>
   </entry>
   

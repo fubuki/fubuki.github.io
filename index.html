@@ -9,8 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
-記錄一下那些函式的用法，如果要更詳細的解說推薦jQuery演進短論（TonyQ）這個影片，講解的還蠻清楚的。 bind 以前我使用最多的綁定方式， &hellip;">
+  <meta name="description" content="記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,6 +84,50 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/04/15/zhong-wen-fen-ci-qi/">中文分詞器</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-15T20:55:40+08:00" pubdate data-updated="true">Apr 15<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/04/15/zhong-wen-fen-ci-qi/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/04/15/zhong-wen-fen-ci-qi/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/04/14/jquery-live-bind-on/">Jquery Bind, Live, Delegate, On</a></h1>
     
     
@@ -114,56 +157,12 @@
   <div class="entry-content"><p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
 記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
 
-<h3>bind</h3>
-
-<p>以前我使用最多的綁定方式，除了可以綁定jquery原有的函式也可以自訂事件名稱，在去觸發自訂事件，不過bind只能綁定一次如果使用者
-之後append一個新的節點就必須在重新綁定一次。</p>
-
-<pre><code>$(body).bind("click",function(){
-    console.log('click event');
-});
-</code></pre>
-
-<h3>live</h3>
-
-<p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
-如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
-
-<pre><code>$("#example").live("click",function(){
-    console.log('click event');
-});
-$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
-</code></pre>
-
-<h3>delegate</h3>
-
-<p>由於live 是透過監聽document的節點達成事件動態綁定，所以並不建議使用live而是使用delegate取代，使用方法如下，綁定的事件只會在#example下的
-li元素才會生效。</p>
-
-<pre><code>$("#example").delegate("li", "click", function () {  
-    console.log('click event');
-});  
-</code></pre>
-
-<h3>on</h3>
-
-<p>on是目前官方推薦使用的綁定方式，不論是bind和live都可以透過on去實現，如果有去看jquery的原始碼在某個版本之後bind和live以及delegate底層都是
-用on去實現了並且在1.10的時候live就被拿掉了，如果之後有空還需要整理一下on的實現方法。<br/>
-以下同等於bind的用法</p>
-
-<pre><code>$("#example").on("click",function(){
-    console.log('click event');
-});
-</code></pre>
-
-<p>以下同等於live的用法</p>
-
-<pre><code>$(document).on("click","#example",function(){
-    console.log('click event');
-});
-</code></pre>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/04/14/jquery-live-bind-on/">Read on &rarr;</a>
+    </footer>
   
 
 
@@ -519,49 +518,6 @@ li元素才會生效。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/30/puppet/">Puppet</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-30T09:35:59+08:00" pubdate data-updated="true">Mar 30<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/30/puppet/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/30/puppet/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="https://github.com/puppetlabs/puppet">puppet</a>是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
-供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。</p>
-
-<p><a href="http://www.puppetcookbook.com/">puppetcookbook</a><br/>
-<a href="https://github.com/jordansissel/puppet-examples">puppet-examples</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -577,6 +533,10 @@ li元素才會生效。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/04/15/zhong-wen-fen-ci-qi/">中文分詞器</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/04/14/jquery-live-bind-on/">Jquery Bind, Live, Delegate, On</a>
       </li>
     
@@ -590,10 +550,6 @@ li元素才會生效。</p>
     
       <li class="post">
         <a href="/blog/2014/04/07/git-reflogde-yong-fa/">Git-reflog的用法</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/06/nodejs-flow-control/">Nodejs Flow Control</a>
       </li>
     
   </ul>
@@ -617,10 +573,10 @@ li元素才會生效。</p>
   <li><a href='/blog/categories/machine-learning'>Machine learning (2)</a></li>
   <li><a href='/blog/categories/mqtt'>Mqtt (2)</a></li>
   <li><a href='/blog/categories/mysql'>Mysql (1)</a></li>
-  <li><a href='/blog/categories/nlp'>Nlp (2)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (3)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (15)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
-  <li><a href='/blog/categories/open-source'>Open source (1)</a></li>
+  <li><a href='/blog/categories/open-source'>Open source (2)</a></li>
   <li><a href='/blog/categories/python'>Python (3)</a></li>
   <li><a href='/blog/categories/rabbitmq'>Rabbitmq (2)</a></li>
   <li><a href='/blog/categories/redis'>Redis (2)</a></li>

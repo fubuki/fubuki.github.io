@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Jquery | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jquery/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-14T22:57:45+08:00</updated>
+  <updated>2014-04-15T23:15:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -20,6 +20,9 @@
     <id>http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on</id>
     <content type="html"><![CDATA[<p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
 記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
+
+<!-- more -->
+
 
 <h3>bind</h3>
 
