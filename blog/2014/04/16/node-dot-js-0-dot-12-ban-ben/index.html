@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Lucene - Learning Blog</title>
+  <title>node.js 0.12 版本 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: lucene">
+  <meta name="description" content="nodejs 0.12版本出來了，多了一些新的API，改進Cluster的功能此外ES6 的特性在0.11.9也可以開啟使用。 Cork support for writable streams 這邊是提升tcp傳輸的效率，當數據流裡面的小數據結合成大數據在送出減少tcp和系統的調用。 tls &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/lucene">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,36 +77,123 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Lucene</h1>
+    
+      <h1 class="entry-title">node.js 0.12 版本</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-16T23:18:11+08:00" pubdate data-updated="true">Apr 16<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>nodejs 0.12版本出來了，多了一些新的API，改進Cluster的功能此外ES6 的特性在0.11.9也可以開啟使用。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/08/lucene/">Lucene</a></h1>
-<time datetime="2014-03-08T00:10:14+08:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lucene/'>lucene</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<h3>Cork support for writable streams</h3>
 
+<p>這邊是提升tcp傳輸的效率，當數據流裡面的小數據結合成大數據在送出減少tcp和系統的調用。</p>
+
+<h3>tls module</h3>
+
+<p>原本nodejs的tls模塊的效率提高了，之前有使用過http模組的tls功能不過沒有測試過他的效率。</p>
+
+<h3>Crypto performance improvements</h3>
+
+<p>改進加解密演算法的速度，不過我比較常用的主要在session方面的加密</p>
+
+<h3>Reduced garbage collector strain</h3>
+
+<p>0.12版本改寫了關於context的部分<a href="https://github.com/joyent/node/commit/756b622">multi-context refactoring</a>，藉此減少v8在multi-context的情形下，
+不會讓V8一直處理關於handle的問題。</p>
+
+<h3>Better cluster performance</h3>
+
+<p>這個改進我有可能比較常用到，目前在作nodejs applicacion的架構優化並且希望機器的資源能充分使用，然後這篇<a href="http://strongloop.com/strongblog/whats-new-in-node-js-v0-12-cluster-round-robin-load-balancing/">post</a>有提到
+如何改進cluster的效率。</p>
+
+<h3>Faster timers, faster setImmediate(), faster process.nextTick()</h3>
+
+<p>這部分是提升像是setTimeout之類API的效率，這裡就不太清楚了。</p>
+
+<p>原文在此<a href="http://strongloop.com/strongblog/performance-node-js-v-0-12-whats-new/">node-js-v-0-12-whats-new</a></p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-16T23:18:11+08:00" pubdate data-updated="true">Apr 16<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/15/zhong-wen-fen-ci-qi/" title="Previous Post: 中文分詞器">&laquo; 中文分詞器</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -230,7 +317,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
