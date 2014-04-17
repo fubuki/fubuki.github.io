@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-16T23:54:19+08:00</updated>
+  <updated>2014-04-17T23:01:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[四月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan/"/>
+    <updated>2014-04-17T22:54:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄四月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>The Clean Coder無暇的程式碼</li>
+<li>The Clean Coder無暇的程式碼 番外篇</li>
+<li>解密搜尋引擎 技術實戰</li>
+<li>易讀程式之美學－提升程式碼可讀性的簡單法則 (The Art of Readable Code)</li>
+<li>BAD DATA 技術手冊</li>
+<li>Interactive.Data.Visualization.for.the.Web</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[node.js 0.12 版本]]></title>
@@ -515,15 +537,6 @@ Master和Slave資料差別蠻有用的。</p>
     <id>http://fubuki.github.io/blog/2014/03/23/cloud9-ide</id>
     <content type="html"><![CDATA[<p><a href="https://c9.io/">cloud9</a>是一款線上整合開發環境一年以前有使用過，當時使用上覺得反應速度不太好就沒有在使用了，
 不過可以學一下其中的架構，重要的是有持續維護，希望可以持續下去未來能夠使用閱覽器開發多種語言。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Node-gyp Build Fails on NFS Because of Flock]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock/"/>
-    <updated>2014-03-23T00:00:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/23/node-gyp-build-fails-on-nfs-because-of-flock</id>
-    <content type="html"><![CDATA[<p>在下載一些使用node-gyp編譯的模組會遇到問題，後來發現在一些檔案系統會出問題，可以在這邊<a href="https://github.com/TooTallNate/node-gyp/issues/147">issue</a>找到解答。</p>
 ]]></content>
   </entry>
   
