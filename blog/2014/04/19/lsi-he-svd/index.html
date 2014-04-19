@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Lucene - Learning Blog</title>
+  <title>LSI 和 SVD - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: lucene">
+  <meta name="description" content="記錄在處理nlp問題時看到的專有名詞。 Latent semantic indexing (LSI) 照字面翻成潛在語義索引，一般搜尋引擎透過關鍵字索引文件，但是LSI是利用詞彙在不同語境下有不同語義去搜尋，
+因為使用者在搜尋文件時有可能因為一詞多義讓搜尋結果夾雜多餘的文件， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/lucene">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/19/lsi-he-svd">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,36 +78,105 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Lucene</h1>
+    
+      <h1 class="entry-title">LSI 和 SVD</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-19T19:44:28+08:00" pubdate data-updated="true">Apr 19<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>記錄在處理nlp問題時看到的專有名詞。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/08/lucene/">Lucene</a></h1>
-<time datetime="2014-03-08T00:10:14+08:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lucene/'>lucene</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_indexing">Latent semantic indexing</a> (LSI) 照字面翻成潛在語義索引，一般搜尋引擎透過關鍵字索引文件，但是LSI是利用詞彙在不同語境下有不同語義去搜尋，
+因為使用者在搜尋文件時有可能因為一詞多義讓搜尋結果夾雜多餘的文件，一義多詞則會讓一些文件沒有搜尋到的問題。</p>
 
+<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_analysis">Latent semantic analysis</a> (LSA) 潛在語義學，一般語義學主要研究詞彙的同義、相似、反義詞，而LSA主要是研究詞彙在文件中的關係，
+LSI假設詞彙在類似的文句中會有相近的意思，LSI利用tf-idf建立一個大型矩陣，行為詞列為文件值為tf-idf算出的權值。</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Singular_value_decomposition">Singular value decomposition</a> (SVD) 奇異值分解，一種矩陣分解方法，LSA使用SVD讓原本很大的矩陣降維。</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> 找出一個詞彙在一個文件中的重要程度。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-19T19:44:28+08:00" pubdate data-updated="true">Apr 19<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nlp/'>nlp</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/19/solr-with-mongo-connector/" title="Previous Post: solr with mongo-connector">&laquo; solr with mongo-connector</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -232,7 +302,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/19/lsi-he-svd/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/19/lsi-he-svd/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

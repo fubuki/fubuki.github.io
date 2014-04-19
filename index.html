@@ -9,8 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
-定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。 &hellip;">
+  <meta name="description" content="記錄在處理nlp問題時看到的專有名詞。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -85,6 +84,50 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/04/19/lsi-he-svd/">LSI 和 SVD</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-19T19:44:28+08:00" pubdate data-updated="true">Apr 19<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/04/19/lsi-he-svd/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/19/lsi-he-svd/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>記錄在處理nlp問題時看到的專有名詞。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/04/19/lsi-he-svd/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo-connector</a></h1>
     
     
@@ -134,181 +177,6 @@ replSet = example
 <p>接下來將照著github上Usage With Solr的說明使用即可，另外似乎可以搭配tailable cursor做出solr即時更新索引，之後在測試看看先加上
 其他中文分詞分析中文資料。</p>
 </div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo Connector</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-19T00:00:00+08:00" pubdate data-updated="true"></time>
-        
-           | <a href="/blog/2014/04/19/solr-with-mongo-connector/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-body{
-  color:#444;
-  font-family:Georgia, Palatino, &#8216;Palatino Linotype&#8217;, Times, &#8216;Times New Roman&#8217;,
-              &#8220;Hiragino Sans GB&#8221;, &#8220;STXihei&#8221;, &#8220;微软雅黑&#8221;, serif;
-  font-size:12px;
-  line-height:1.5em;
-  background:#fefefe;
-  width: 45em;
-  margin: 10px auto;
-  padding: 1em;
-  outline: 1300px solid #FAFAFA;
-}
-
-a{ color: #0645ad; text-decoration:none;}
-a:visited{ color: #0b0080; }
-a:hover{ color: #06e; }
-a:active{ color:#faa700; }
-a:focus{ outline: thin dotted; }
-a:hover, a:active{ outline: 0; }
-
-span.backtick {
-  border:1px solid #EAEAEA;
-  border-radius:3px;
-  background:#F8F8F8;
-  padding:0 3px 0 3px;
-}
-
-::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
-::selection{background:rgba(255,255,0,0.3);color:#000}
-
-a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
-a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
-
-p{
-margin:1em 0;
-}
-
-img{
-max-width:100%;
-}
-
-h1,h2,h3,h4,h5,h6{
-font-weight:normal;
-color:#111;
-line-height:1em;
-}
-h4,h5,h6{ font-weight: bold; }
-h1{ font-size:2.5em; }
-h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
-h3{ font-size:1.5em; }
-h4{ font-size:1.2em; }
-h5{ font-size:1em; }
-h6{ font-size:0.9em; }
-
-blockquote{
-color:#666666;
-margin:0;
-padding-left: 3em;
-border-left: 0.5em #EEE solid;
-}
-hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
-
-
-pre , code, kbd, samp { 
-  color: #000; 
-  font-family: monospace; 
-  font-size: 0.88em; 
-  border-radius:3px;
-  background-color: #F8F8F8;
-  border: 1px solid #CCC; 
-}
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
-pre code { border: 0px !important; padding: 0;}
-code { padding: 0 3px 0 3px; }
-
-b, strong { font-weight: bold; }
-
-dfn { font-style: italic; }
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
-ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
-li p:last-child { margin:0 }
-dd { margin: 0 0 0 2em; }
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
-
-@media only screen and (min-width: 480px) {
-body{font-size:14px;}
-}
-
-@media only screen and (min-width: 768px) {
-body{font-size:16px;}
-}
-
-@media print {
-  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
-  body{font-size:12pt; max-width:100%; outline:none;}
-  a, a:visited { text-decoration: underline; }
-  hr { height: 1px; border:0; border-bottom:1px solid black; }
-  a[href]:after { content: &#8221; (&#8221; attr(href) &#8220;)&#8221;; }
-  abbr[title]:after { content: &#8221; (&#8221; attr(title) &#8220;)&#8221;; }
-  .ir a:after, a[href^=&#8221;javascript:&#8221;]:after, a[href^=&#8221;#&#8221;]:after { content: &#8220;&#8221;; }
-  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page :left { margin: 15mm 20mm 15mm 10mm; }
-  @page :right { margin: 15mm 10mm 15mm 20mm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
-}
-</style><title>2014-04-19-solr-with-mongo-connector</title></head><body><hr />
-<p>layout: post
-title: &#8220;solr with mongo-connector&#8221;
-date: 2014-04-19 15:51:14 +0800
-comments: true
-categories: [&#8220;solr&#8221;]</p>
-<hr />
-<p>solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
-定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。</p>
-<p>solr與Mysql通訊是透過jdbc抓取資料庫裡的資料，而mongodb似乎也有類似的東西例如<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>和<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>，
-<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>網路有人使用過雖可以讓solr進行索引但是如果要跑增量索引就會出錯，<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>則沒看到有人使用在
-solr上的心得，之後有時間在測試。</p>
-<p>mongodb本身則有<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>這個解法，主要是利用Mongodb的oplog(類似Mysql的binlog)會記錄repset之間的操作，如此一來
-讓solr透過oplog就可以去更新索引並且由於oplog是即時的讓solr能更即時更新資料。</p>
-<p>如果要使用<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>首先要打開replset 產生oplog然後安裝mongo-connector，不過遇到一個奇妙的問題透過pip安裝後沒有直接
-連結到bin下之後透過git安裝就沒有問題了， 打開replset很簡單就/etc/mongodb.conf</p></body></html></div>
   
   
 
@@ -687,11 +555,11 @@ solr上的心得，之後有時間在測試。</p>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo-connector</a>
+        <a href="/blog/2014/04/19/lsi-he-svd/">LSI 和 SVD</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo Connector</a>
+        <a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo-connector</a>
       </li>
     
       <li class="post">
@@ -728,7 +596,7 @@ solr上的心得，之後有時間在測試。</p>
   <li><a href='/blog/categories/machine-learning'>Machine learning (2)</a></li>
   <li><a href='/blog/categories/mqtt'>Mqtt (2)</a></li>
   <li><a href='/blog/categories/mysql'>Mysql (1)</a></li>
-  <li><a href='/blog/categories/nlp'>Nlp (3)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (4)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (16)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
   <li><a href='/blog/categories/open-source'>Open source (2)</a></li>
