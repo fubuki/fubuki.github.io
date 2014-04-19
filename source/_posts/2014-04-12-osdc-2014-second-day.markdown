@@ -3,7 +3,7 @@ layout: post
 title: "OSDC 2014 second day"
 date: 2014-04-12 19:20:57 +0800
 comments: true
-categories: 
+categories: ['open source']
 ---
 
 記錄一下OSDC 2014第二天(4/12)參加的議程

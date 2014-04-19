@@ -3,8 +3,22 @@ layout: post
 title: "Asterisk"
 date: 2014-02-28 12:13:43 +0800
 comments: true
-categories: Astreisk
+categories: ["Astreisk"]
 ---
 
-voip
-----
+目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到
+類似的功能並且透過轉接卡也能夠跟市話通話。
+我就選擇Asterisk作為我的PBX，[Asterisk]是什麼? 官網是這樣寫的。
+> What is Asterisk?
+Asterisk is like a box of Legos for people who want to create communications applications. It includes all the building blocks needed to create a PBX, an IVR system, a conference bridge and virtually any other communications app you can imagine.
+
+他是一個開源的PBX(用戶交換機)系統，PBX是用來處理電話交換功能讓一些公司和個人可以建立自己的通訊系統。
+[Asterisk]: http://www.asterisk.org/
+
+為什麼選擇[Asterisk]主要是因為我有在玩raspberry pi 然後看到 [Asterisk for Raspberry Pi] 並且o'reilly有出一本"Asterisk: The Definitive Guide"讓我想要試試看網路上也有不少討論區可以參考。
+
+[Asterisk for Raspberry Pi]: http://www.raspberry-asterisk.org/
+
+
+
+[Asterisk]: http://www.asterisk.org/
