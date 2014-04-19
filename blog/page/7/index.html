@@ -9,10 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴展，如果取代redis作為pubsub的
-server，能夠存放尚未推送的訊息。 目前拿來測試PHP和Nodejs兩個語言，並且建立一個小型聊天應用。 channel
-exchange
-queues ">
+  <meta name="description" content="google版的socketio，用於gmail和google doc的部分。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,6 +78,89 @@ queues ">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/04/browserchannel/">Browserchannel</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-04T21:42:03+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/04/browserchannel/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/04/browserchannel/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>google版的socketio，用於gmail和google doc的部分。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/04/browserchannel/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/04/tmux/">Tmux</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-04T21:35:36+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/04/tmux/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/04/tmux/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>放置常用指令。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -436,99 +516,6 @@ redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利�
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/28/real-time-application/">Real-time-application</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-28T20:26:17+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/02/28/real-time-application/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/02/28/real-time-application/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
-
-<p>使用nodejs當 notification server，redis當message server，<br/>
-socket.io連接web browser推送訊息給前端。</p>
-
-<p>對手機目前使用node-gcm推送給手機</p>
-
-<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/28/asterisk/">Asterisk</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-28T12:13:43+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/02/28/asterisk/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/02/28/asterisk/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到
-類似的功能並且透過轉接卡也能夠跟市話通話。
-我就選擇Asterisk作為我的PBX，<a href="http://www.asterisk.org/">Asterisk</a>是什麼? 官網是這樣寫的。</p>
-
-<blockquote><p>What is Asterisk?
-Asterisk is like a box of Legos for people who want to create communications applications. It includes all the building blocks needed to create a PBX, an IVR system, a conference bridge and virtually any other communications app you can imagine.</p></blockquote>
-
-<p>他是一個開源的PBX(用戶交換機)系統，PBX是用來處理電話交換功能讓一些公司和個人可以建立自己的通訊系統。
-為什麼選擇<a href="http://www.asterisk.org/">Asterisk</a>主要是因為我有在玩raspberry pi 然後看到 <a href="http://www.raspberry-asterisk.org/">Asterisk for Raspberry Pi</a> 並且o&#8217;reilly有出一本&#8221;Asterisk: The Definitive Guide&#8221;讓我想要試試看網路上也有不少討論區可以參考。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/8/">&larr; Older</a>
@@ -546,6 +533,14 @@ Asterisk is like a box of Legos for people who want to create communications app
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo-connector</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/19/solr-with-mongo-connector/">Solr With Mongo Connector</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/04/17/si-yue-shu-dan/">四月書單</a>
       </li>
     
@@ -555,14 +550,6 @@ Asterisk is like a box of Legos for people who want to create communications app
     
       <li class="post">
         <a href="/blog/2014/04/15/zhong-wen-fen-ci-qi/">中文分詞器</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/14/jquery-live-bind-on/">Jquery Bind, Live, Delegate, On</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/12/osdc-2014-second-day/">OSDC 2014 Second Day</a>
       </li>
     
   </ul>
@@ -599,6 +586,7 @@ Asterisk is like a box of Legos for people who want to create communications app
   <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
   <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
   <li><a href='/blog/categories/search-engine'>Search engine (3)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (1)</a></li>
   <li><a href='/blog/categories/sublime-text'>Sublime-text (1)</a></li>
   <li><a href='/blog/categories/theano'>Theano (1)</a></li>
   <li><a href='/blog/categories/ux'>Ux (1)</a></li>

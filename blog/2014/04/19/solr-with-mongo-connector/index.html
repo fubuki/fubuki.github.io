@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Celery - Learning Blog</title>
+  <title>Solr With Mongo-connector - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="celery 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
-一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
-為基礎架構。 It &hellip;">
+  <meta name="description" content="solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
+定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/17/celery">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Celery</h1>
+      <h1 class="entry-title">Solr With Mongo-connector</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@
   
 
 
-<time datetime="2014-03-17T21:19:12+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
+<time datetime="2014-04-19T15:51:14+08:00" pubdate data-updated="true">Apr 19<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,19 +108,28 @@
   </header>
 
 
-<div class="entry-content"><p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
-一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
-為基礎架構。</p>
+<div class="entry-content"><p>solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
+定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。</p>
 
-<h1>It supports&hellip;</h1>
+<p>solr與Mysql通訊是透過jdbc抓取資料庫裡的資料，而mongodb似乎也有類似的東西例如<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>和<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>，
+<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>網路有人使用過雖可以讓solr進行索引但是如果要跑增量索引就會出錯，<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>則沒看到有人使用在
+solr上的心得，之後有時間在測試。</p>
 
-<p><strong>Message Transports</strong></p>
+<p>mongodb本身則有<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>這個解法，主要是利用Mongodb的oplog(類似Mysql的binlog)會記錄repset之間的操作，如此一來
+讓solr透過oplog就可以去更新索引並且由於oplog是即時的讓solr能更即時更新資料。</p>
 
-<p><strong>Concurrency</strong></p>
+<p>如果要使用<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>首先要打開replset 產生oplog然後安裝mongo-connector，不過遇到一個奇妙的問題透過pip安裝後沒有直接
+連結到bin下之後透過git安裝就沒有問題了，要使用replset很簡單，就把/etc/mongodb.conf下面這段設定打開，</p>
 
-<p><strong>Result Stores</strong></p>
+<pre><code># in replica set configuration, specify the name of the replica set
+replSet = example
+</code></pre>
 
-<p><strong>Serialization</strong></p>
+<p>之後在mongodb的shell裡下rs.initiate()指令即可，本台mongodb就變成PRIMARY了這時也可以加入其他台mongodb作replication，不過本次
+主要是要使用oplog讓solr導入資料製作索引就不需要加入其他台server了。</p>
+
+<p>接下來將照著github上Usage With Solr的說明使用即可，另外似乎可以搭配tailable cursor做出solr即時更新索引，之後在測試看看先加上
+其他中文分詞分析中文資料。</p>
 </div>
 
 
@@ -144,12 +152,12 @@
   
 
 
-<time datetime="2014-03-17T21:19:12+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
+<time datetime="2014-04-19T15:51:14+08:00" pubdate data-updated="true">Apr 19<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/celery/'>celery</a>
+    <a class='category' href='/blog/categories/solr/'>solr</a>
   
 </span>
 
@@ -165,10 +173,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/16/coffeescript/" title="Previous Post: coffeescript">&laquo; coffeescript</a>
+        <a class="basic-alignment left" href="/blog/2014/04/19/solr-with-mongo-connector/" title="Previous Post: Solr With Mongo Connector">&laquo; Solr With Mongo Connector</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/18/node-gyp-zhuan-xie-npmmo-zu/" title="Next Post: node-gyp 撰寫nodejs模組">node-gyp 撰寫nodejs模組 &raquo;</a>
       
     </p>
   </footer>
@@ -305,8 +311,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/17/celery/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/17/celery/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector/';
         var disqus_script = 'embed.js';
       
     (function () {
