@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Deep-learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-20T17:59:03+08:00</updated>
+  <updated>2014-04-20T23:27:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,8 @@
     <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
     <updated>2014-02-28T11:51:02+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
-    <content type="html"><![CDATA[<p><a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
+    <content type="html"><![CDATA[<p>python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
+<a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
 ]]></content>
   </entry>
   
@@ -27,11 +28,16 @@
     <link href="http://fubuki.github.io/blog/2014/02/27/deep-learing/"/>
     <updated>2014-02-27T23:27:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/27/deep-learing</id>
-    <content type="html"><![CDATA[<p>Deep learning slides<br/>
-<a href="http://www.slideshare.net/beam2d/deep-learning20140130">http://www.slideshare.net/beam2d/deep-learning20140130</a></p>
+    <content type="html"><![CDATA[<p>記錄收集的Deep learning slides  和文章</p>
 
 <!-- more -->
 
+
+<p><a href="http://www.slideshare.net/beam2d/deep-learning20140130  ">http://www.slideshare.net/beam2d/deep-learning20140130  </a>
+<a href="http://blog.csdn.net/abcjennifer/article/details/7826917  ">http://blog.csdn.net/abcjennifer/article/details/7826917  </a>
+<a href="http://www.slideshare.net/HiroshiYamakawa/2013-1219ss  ">http://www.slideshare.net/HiroshiYamakawa/2013-1219ss  </a>
+<a href="http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio/">http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio/</a>
+<a href="https://github.com/lisa-lab/DeepLearningTutorials">https://github.com/lisa-lab/DeepLearningTutorials</a></p>
 ]]></content>
   </entry>
   
