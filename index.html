@@ -9,7 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄從網路上看到關於git有用的設定。 1. git 加上顏色 git config --global color.ui true 2. git 自動補完指令和分支名 下載git-completion.bash ，然後在.bashrc 加入下面這段程式碼然後讓新的Bash生效就可以了。 if &hellip;">
+  <meta name="description" content="記錄從網路上看到關於git有用的設定。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -112,49 +112,12 @@
 
   <div class="entry-content"><p>記錄從網路上看到關於git有用的設定。</p>
 
-<h4>1. git 加上顏色</h4>
-
-<pre><code>    git config --global color.ui true
-</code></pre>
-
-<h4>2. git 自動補完指令和分支名</h4>
-
-<p>下載<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash">git-completion.bash </a>，然後在.bashrc 加入下面這段程式碼然後讓新的Bash生效就可以了。</p>
-
-<pre><code>    if [ -f ~/.git-completion.bash ]; then
-        . ~/.git-completion.bash
-    fi
-</code></pre>
-
-<h4>3. 顯示目前在哪個分支</h4>
-
-<p>下載<a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">git-prompt.sh</a>，然後在.bashrc加上下面指令，</p>
-
-<pre><code>    source ~/.git-prompt.sh
-    export PS1='$(__git_ps1 "(%s)") \W $'
-</code></pre>
-
-<p>之後就可以在git專案底下看到Bash顯示在哪個專案和分支。</p>
-
-<pre><code>    (master) Lucene $
-</code></pre>
-
-<h4>4. git alias</h4>
-
-<pre><code>    git config --global alias.check checkout
-    git config --global alias.cmt commit
-</code></pre>
-
-<h4>5. 設定git使用的編輯器和diff工具</h4>
-
-<p>下面的設定可以在~/.gitconfig修改。</p>
-
-<pre><code>    git config --global core.editor
-    git config --global diff.tool xxxxx
-    git config --global merge.tool xxxxxx
-</code></pre>
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/04/20/git-pian-hao-she-ding/">Read on &rarr;</a>
+    </footer>
   
 
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-20T12:57:41+08:00</updated>
+  <updated>2014-04-20T15:56:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-04-20T10:22:01+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/04/20/git-pian-hao-she-ding</id>
     <content type="html"><![CDATA[<p>記錄從網路上看到關於git有用的設定。</p>
+
+<!-- more -->
+
 
 <h4>1. git 加上顏色</h4>
 
