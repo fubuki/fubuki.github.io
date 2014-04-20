@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-19T22:49:07+08:00</updated>
+  <updated>2014-04-20T12:57:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -20,6 +20,9 @@
     <id>http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector</id>
     <content type="html"><![CDATA[<p>solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
 定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。</p>
+
+<!-- more -->
+
 
 <p>solr與Mysql通訊是透過jdbc抓取資料庫裡的資料，而mongodb似乎也有類似的東西例如<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>和<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>，
 <a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>網路有人使用過雖可以讓solr進行索引但是如果要跑增量索引就會出錯，<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>則沒看到有人使用在
