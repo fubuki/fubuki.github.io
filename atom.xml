@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-20T23:27:27+08:00</updated>
+  <updated>2014-04-22T23:52:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yeoman Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/22/yeoman-tool/"/>
+    <updated>2014-04-22T23:37:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/22/yeoman-tool</id>
+    <content type="html"><![CDATA[<p>Yeoman 是一個開發工具，讓使用者能夠建立自己的專案環境，之前在使用Phalcon的時候都需要重新建立開發環境，
+之前有看到利用Yeoman建立Angularjs的專案現在就在網路上看到<a href="https://www.npmjs.org/package/generator-phalcon">generator-phalcon</a>建立專案。</p>
+
+<!-- more -->
+
+
+<h3>Yemoan 內容</h3>
+
+<ol>
+<li>yo</li>
+<li>Grunt</li>
+<li>Bower</li>
+</ol>
+
+
+<h3>安裝Yeoman</h3>
+
+<pre><code>    npm install -g yo
+</code></pre>
+
+<h3>建立angular的專案</h3>
+
+<pre><code>    npm install -g generator-angular  
+    yo angular                         
+    bower install angular-ui           
+    grunt test                         
+    grunt server                       
+    grunt                              
+</code></pre>
+
+<h3>安裝Phalcon 模板</h3>
+
+<pre><code>    npm install generator-phalcon
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用git做程式碼debug]]></title>
@@ -607,37 +649,6 @@ Master和Slave資料差別蠻有用的。</p>
     <id>http://fubuki.github.io/blog/2014/03/29/modernizr</id>
     <content type="html"><![CDATA[<p><a href="http://modernizr.com/">Modernizr</a> 是用來檢測閱覽器是否支援HTML5和CSS 3功能的函式庫，以前通常是偵測閱覽器的版本來決定不過有可能會出問題
 ，如果直接判斷這個功能能不能使用直接使用一次就不會有例外狀況發生。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PageRank, EdgeRank, PeopleRank]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/"/>
-    <updated>2014-03-26T21:22:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank</id>
-    <content type="html"><![CDATA[<ol>
-<li>PageRank</li>
-<li>EdgeRank</li>
-<li>PeopleRank</li>
-</ol>
-
-
-<!-- more -->
-
-
-<h1>PagRank</h1>
-
-<p>google對網頁評分的演算法，用來算出網頁的權重，作為網頁排序的要素之一。<br/>
-<a href="http://ilpubs.stanford.edu:8090/422/">http://ilpubs.stanford.edu:8090/422/</a></p>
-
-<h1>EdgeRank</h1>
-
-<p>Facebook用來計算要顯示哪些動態給使用者。<br/>
-<a href="http://edgerank.net/">http://edgerank.net/</a></p>
-
-<h1>PeopleRank</h1>
-
-<p>類似PageRank，不過是用來測量使用者產出內容的價值。</p>
 ]]></content>
   </entry>
   
