@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-22T23:52:21+08:00</updated>
+  <updated>2014-04-23T00:27:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,7 @@
     <link href="http://fubuki.github.io/blog/2014/04/22/yeoman-tool/"/>
     <updated>2014-04-22T23:37:09+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/04/22/yeoman-tool</id>
-    <content type="html"><![CDATA[<p>Yeoman 是一個開發工具，讓使用者能夠建立自己的專案環境，之前在使用Phalcon的時候都需要重新建立開發環境，
+    <content type="html"><![CDATA[<p><a href="http://yeoman.io/">Yeoman</a> 是一個開發工具，讓使用者能夠建立自己的專案環境，之前在使用Phalcon的時候都需要重新建立開發環境，
 之前有看到利用Yeoman建立Angularjs的專案現在就在網路上看到<a href="https://www.npmjs.org/package/generator-phalcon">generator-phalcon</a>建立專案。</p>
 
 <!-- more -->
