@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-23T00:27:45+08:00</updated>
+  <updated>2014-04-23T22:11:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Information Retrieval]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/23/information-retrieval/"/>
+    <updated>2014-04-23T21:42:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/23/information-retrieval</id>
+    <content type="html"><![CDATA[<p><a href="IR">Information_retrieval</a>是指使用者在搜尋資訊的過程，而搜尋的資料有文字、圖像、影片、聲音，建構一個IR System包括以下幾種領域:</p>
+
+<!-- more -->
+
+
+<ol>
+<li>自然語言處理</li>
+<li>計算語言學</li>
+<li>訊號處理</li>
+<li>認知心理學</li>
+<li>模式識別</li>
+<li>Metadata</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yeoman Tool]]></title>
@@ -639,16 +661,6 @@ Master和Slave資料差別蠻有用的。</p>
 1. Consistency 節點之間資料的一致性<br/>
 2. Availability 如果有節點故障還是可以保證服務是可用的。<br/>
 3. Partition tolerance 一個系統因為通信出現問題時造成系統分成多個群體，因而影響系統本身的運行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Modernizr]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/29/modernizr/"/>
-    <updated>2014-03-29T20:14:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/29/modernizr</id>
-    <content type="html"><![CDATA[<p><a href="http://modernizr.com/">Modernizr</a> 是用來檢測閱覽器是否支援HTML5和CSS 3功能的函式庫，以前通常是偵測閱覽器的版本來決定不過有可能會出問題
-，如果直接判斷這個功能能不能使用直接使用一次就不會有例外狀況發生。</p>
 ]]></content>
   </entry>
   

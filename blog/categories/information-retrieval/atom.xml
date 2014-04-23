@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Information Retrieval | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/information-retrieval/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-04-23T22:11:48+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Information Retrieval]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/23/information-retrieval/"/>
+    <updated>2014-04-23T21:42:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/23/information-retrieval</id>
+    <content type="html"><![CDATA[<p><a href="IR">Information_retrieval</a>是指使用者在搜尋資訊的過程，而搜尋的資料有文字、圖像、影片、聲音，建構一個IR System包括以下幾種領域:</p>
+
+<!-- more -->
+
+
+<ol>
+<li>自然語言處理</li>
+<li>計算語言學</li>
+<li>訊號處理</li>
+<li>認知心理學</li>
+<li>模式識別</li>
+<li>Metadata</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
