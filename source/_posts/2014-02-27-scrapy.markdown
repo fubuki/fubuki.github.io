@@ -3,7 +3,7 @@ layout: post
 title: "Scrapy"
 date: 2014-02-27 23:00:57 +0800
 comments: true
-categories: python
+categories: ["python"]
 ---
 
 python 的網路爬蟲框架。  

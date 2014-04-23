@@ -3,7 +3,7 @@ layout: post
 title: "NoSql"
 date: 2014-02-28 11:53:32 +0800
 comments: true
-categories: nosql
+categories: ["nosql"]
 ---
 到目前學習過的nosql類型
 

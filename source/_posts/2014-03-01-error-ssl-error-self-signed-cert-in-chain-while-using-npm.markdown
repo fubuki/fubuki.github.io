@@ -3,7 +3,7 @@ layout: post
 title: "Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' while using npm"
 date: 2014-03-01 10:02:19 +0800
 comments: true
-categories: nodejs
+categories: ["nodejs"]
 ---
 
 http://blog.npmjs.org/post/78085451721/npms-self-signed-certificate-is-no-more  

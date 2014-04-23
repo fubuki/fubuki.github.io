@@ -3,6 +3,8 @@ layout: post
 title: "Theano"
 date: 2014-02-28 11:51:02 +0800
 comments: true
-categories: python theano deep-learning
+categories: ["python","theano","deep-learning"]
 ---
+
+python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
 http://deeplearning.net/software/theano/index.html

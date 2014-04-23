@@ -1,0 +1,25 @@
+---
+layout: post
+title: "LSI 和 SVD"
+date: 2014-04-19 19:44:28 +0800
+comments: true
+categories: ["nlp"]
+---
+記錄在處理nlp問題時看到的專有名詞。
+<!-- more -->
+
+[Latent semantic indexing] (LSI) 照字面翻成潛在語義索引，一般搜尋引擎透過關鍵字索引文件，但是LSI是利用詞彙在不同語境下有不同語義去搜尋，
+因為使用者在搜尋文件時有可能因為一詞多義讓搜尋結果夾雜多餘的文件，一義多詞則會讓一些文件沒有搜尋到的問題。
+
+[Latent semantic analysis] (LSA) 潛在語義學，一般語義學主要研究詞彙的同義、相似、反義詞，而LSA主要是研究詞彙在文件中的關係，
+LSI假設詞彙在類似的文句中會有相近的意思，LSI利用tf-idf建立一個大型矩陣，行為詞列為文件值為tf-idf算出的權值。
+
+[Singular value decomposition] (SVD) 奇異值分解，一種矩陣分解方法，LSA使用SVD讓原本很大的矩陣降維。
+
+[tf-idf] 找出一個詞彙在一個文件中的重要程度。
+
+
+[Latent semantic analysis]: http://en.wikipedia.org/wiki/Latent_semantic_analysis
+[Latent semantic indexing]: http://en.wikipedia.org/wiki/Latent_semantic_indexing
+[Singular value decomposition]: http://en.wikipedia.org/wiki/Singular_value_decomposition 
+[tf-idf]: http://en.wikipedia.org/wiki/Tf%E2%80%93idf
