@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Information Retrieval | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/information-retrieval/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-23T22:11:48+08:00</updated>
+  <updated>2014-04-23T22:20:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -30,6 +30,15 @@
 <li>認知心理學</li>
 <li>模式識別</li>
 <li>Metadata</li>
+</ol>
+
+
+<h3>參考資料</h3>
+
+<ol>
+<li><a href="http://nlp.stanford.edu/IR-book/">Introduction to Information Retrieval </a></li>
+<li><a href="http://www.mir2ed.org/">Modern Information Retrieval</a></li>
+<li><a href="http://nlg.csie.ntu.edu.tw/courses/IR/IR2009.html">IR course</a></li>
 </ol>
 
 ]]></content>
