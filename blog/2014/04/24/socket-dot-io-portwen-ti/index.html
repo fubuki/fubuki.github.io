@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>exports和module.export區別 - Learning Blog</title>
+  <title>socket.io Port問題 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
-去查網路都有推薦Node.js Module – exports vs module.exports這篇文章。
-">
+  <meta name="description" content="前端連接socket.io server遇到port問題的解決方法。 haproxy configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl using-haproxy-with-socket-io-and-ssl &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">exports和module.export區別</h1>
+      <h1 class="entry-title">socket.io Port問題</h1>
     
     
       <p class="meta">
@@ -99,7 +97,7 @@
   
 
 
-<time datetime="2014-03-24T21:19:20+08:00" pubdate data-updated="true">Mar 24<span>th</span>, 2014</time>
+<time datetime="2014-04-24T23:09:10+08:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +107,27 @@
   </header>
 
 
-<div class="entry-content"><p>exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
-去查網路都有推薦<a href="http://www.hacksparrow.com/node-js-exports-vs-module-exports.html">Node.js Module – exports vs module.exports</a>這篇文章。</p>
+<div class="entry-content"><p>前端連接socket.io server遇到port問題的解決方法。</p>
+
+<!-- more -->
+
+
+<h3>haproxy</h3>
+
+<p><a href="http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/">configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl</a> <br/>
+<a href="http://blog.carbonfive.com/2013/05/02/using-haproxy-with-socket-io-and-ssl/">using-haproxy-with-socket-io-and-ssl</a>  <br/>
+這個方法有在Centos上面實作過是可行的，網路也有不少設定可以參考，不過當初只有測試websocket的方法。</p>
+
+<h3>nginx</h3>
+
+<p><a href="http://blog.mixu.net/2011/08/13/nginx-websockets-ssl-and-socket-io-deployment/">nginx-websockets-ssl-and-socket-io-deployment</a><br/>
+nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實測過。</p>
+
+<h3>透過改寫xhr-polling</h3>
+
+<p><a href="http://stephenbelanger.com/2011/09/21/how-to-make-socket-io-work-behind-nginx-mostly/">how-to-make-socket-io-work-behind-nginx-mostly</a>  <br/>
+這個方法是改寫xhr-polling的方法，前端就可以不用加上port就可以直接連接server，但是就不能使用其他的
+連接方法了吧?</p>
 </div>
 
 
@@ -133,7 +150,7 @@
   
 
 
-<time datetime="2014-03-24T21:19:20+08:00" pubdate data-updated="true">Mar 24<span>th</span>, 2014</time>
+<time datetime="2014-04-24T23:09:10+08:00" pubdate data-updated="true">Apr 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -154,10 +171,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/23/senseidb/" title="Previous Post: SenseiDB ">&laquo; SenseiDB </a>
+        <a class="basic-alignment left" href="/blog/2014/04/24/git-flow/" title="Previous Post: Git-Flow">&laquo; Git-Flow</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/25/amazon-dynamo/" title="Next Post: Amazon  Dynamo">Amazon  Dynamo &raquo;</a>
       
     </p>
   </footer>
@@ -296,8 +311,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti/';
         var disqus_script = 'embed.js';
       
     (function () {
