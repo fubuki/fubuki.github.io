@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-25T22:37:11+08:00</updated>
+  <updated>2014-04-25T23:25:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,78 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/"/>
+    <updated>2014-04-25T22:47:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0</id>
+    <content type="html"><![CDATA[<p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
+目前程式升級有影響的部分。</p>
+
+<!-- more -->
+
+
+<h2>Authentication differences</h2>
+
+<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
+
+<pre><code>io.set('authorization', function (handshakeData, callback) {
+
+});
+</code></pre>
+
+<p>現在有&#8217;io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
+
+<pre><code>io.use(function(socket, next) {
+    var handshakeData = socket.request;
+    // make sure the handshake data looks good as before
+    // if error do this:
+        // next(new Error('not authorized');
+    // else just call next
+    next();
+});
+</code></pre>
+
+<h2>Starting the server</h2>
+
+<p>以前會使用listen但是在1.0版本就不用了。</p>
+
+<pre><code>var io = require('socket.io').listen(server);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var io = require('socket.io');
+var socket = io({ /* options */ })
+</code></pre>
+
+<h2>Exposed Events</h2>
+
+<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
+裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
+
+<h2>Configuration differences</h2>
+
+<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
+
+<pre><code>io.set(
+    'store' ,new RedisStore({
+        redisPub : pub,
+        redisSub : sub,
+        redisClient : client
+    })
+);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var socket = require('socket.io')({
+    // options go here
+});
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rubyconf 2014 First Day]]></title>
@@ -698,16 +770,6 @@ Master和Slave資料差別蠻有用的。</p>
 <li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WordNet]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/03/wordnet/"/>
-    <updated>2014-04-03T21:38:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/03/wordnet</id>
-    <content type="html"><![CDATA[<p>在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用<a href="wordnet.princeton.edu">wordnet</a>實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
-其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。</p>
 ]]></content>
   </entry>
   

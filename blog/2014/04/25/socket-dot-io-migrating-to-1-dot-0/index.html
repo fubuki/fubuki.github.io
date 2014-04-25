@@ -5,14 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nodejs Flow Control - Learning Blog</title>
+  <title>Socket.io Migrating to 1.0 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下流程控制相關的模組。
-1. step 2. Q
-3. promise 由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
-避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果， &hellip;">
+  <meta name="description" content="socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇Migrating-to-1.0可以參考，這邊就記錄
+目前程式升級有影響的部分。 Authentication differences 以前在作認證的時候是透過authorization這個事件，在建立socket. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -84,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Nodejs Flow Control</h1>
+      <h1 class="entry-title">Socket.io Migrating to 1.0</h1>
     
     
       <p class="meta">
@@ -100,7 +98,7 @@
   
 
 
-<time datetime="2014-04-06T16:22:06+08:00" pubdate data-updated="true">Apr 6<span>th</span>, 2014</time>
+<time datetime="2014-04-25T22:47:54+08:00" pubdate data-updated="true">Apr 25<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -110,17 +108,70 @@
   </header>
 
 
-<div class="entry-content"><p>記錄一下流程控制相關的模組。<br/>
-1. <a href="https://github.com/creationix/step">step</a> <br/>
-2. <a href="https://github.com/kriskowal/q">Q</a><br/>
-3. <a href="https://github.com/kriszyp/node-promise">promise</a></p>
+<div class="entry-content"><p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
+目前程式升級有影響的部分。</p>
 
 <!-- more -->
 
 
-<p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
-避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
-有些人提供一些第三方的模組處理流程控制的部分。</p>
+<h2>Authentication differences</h2>
+
+<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
+
+<pre><code>io.set('authorization', function (handshakeData, callback) {
+
+});
+</code></pre>
+
+<p>現在有&#8217;io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
+
+<pre><code>io.use(function(socket, next) {
+    var handshakeData = socket.request;
+    // make sure the handshake data looks good as before
+    // if error do this:
+        // next(new Error('not authorized');
+    // else just call next
+    next();
+});
+</code></pre>
+
+<h2>Starting the server</h2>
+
+<p>以前會使用listen但是在1.0版本就不用了。</p>
+
+<pre><code>var io = require('socket.io').listen(server);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var io = require('socket.io');
+var socket = io({ /* options */ })
+</code></pre>
+
+<h2>Exposed Events</h2>
+
+<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
+裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
+
+<h2>Configuration differences</h2>
+
+<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
+
+<pre><code>io.set(
+    'store' ,new RedisStore({
+        redisPub : pub,
+        redisSub : sub,
+        redisClient : client
+    })
+);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var socket = require('socket.io')({
+    // options go here
+});
+</code></pre>
 </div>
 
 
@@ -143,7 +194,7 @@
   
 
 
-<time datetime="2014-04-06T16:22:06+08:00" pubdate data-updated="true">Apr 6<span>th</span>, 2014</time>
+<time datetime="2014-04-25T22:47:54+08:00" pubdate data-updated="true">Apr 25<span>th</span>, 2014</time>
       
 
 <span class="categories">
@@ -164,10 +215,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/04/05/nodejs-sheng-chan-huan-jing/" title="Previous Post: nodejs 生產環境">&laquo; nodejs 生產環境</a>
+        <a class="basic-alignment left" href="/blog/2014/04/25/rubyconf-2014-first-day/" title="Previous Post: rubyconf 2014 first day">&laquo; rubyconf 2014 first day</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/04/07/git-reflogde-yong-fa/" title="Next Post: git-reflog的用法">git-reflog的用法 &raquo;</a>
       
     </p>
   </footer>
@@ -306,8 +355,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/';
         var disqus_script = 'embed.js';
       
     (function () {
