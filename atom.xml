@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-24T23:32:54+08:00</updated>
+  <updated>2014-04-25T22:08:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rubyconf 2014 First Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day/"/>
+    <updated>2014-04-25T20:56:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day</id>
+    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第一天(4/25)參加的議程</p>
+
+<!-- more -->
+
+
+<h3>Understanding Typing, Understanding Ruby</h3>
+
+<p>關於靜態型別跟動態型別語言各自會遇到的問題，這場收益蠻多了前面提到一些以前型別的問題
+，並且也提到其他語言在處理型別的方法。</p>
+
+<h3>RubyMotion Gets A Cool New Friend: mruby on iOS</h3>
+
+<p>使用ruby開發ios app，以前孤陋寡聞沒看過這個工具以後有機會可以拿來試試看。</p>
+
+<h3>Practice: Refactoring with tests</h3>
+
+<p>在講重構，不過前面講很多重構很重要然後要需要好好測試，後面就只有講一點點ruby裡面
+要怎麼做&hellip;.</p>
+
+<h3>Matz: Keynote</h3>
+
+<p>ruby的生父的議程</p>
+
+<h3>Teo-Happy Teams</h3>
+
+<p>怎樣成為快樂團隊，議程中提到不少常見但是沒有實踐的開發方法或是。</p>
+
+<h3>Tell a good story with Ruby</h3>
+
+<p>講者學習ruby的過程和建構一個ruby程式</p>
+
+<h3>10 Things to Make API Users Like You</h3>
+
+<p>怎麼設計API，聽了之後沒有比較新穎的想法，大部分在以前設計API就有看過了，不過比較有共鳴的是
+產生api文件，以前都是手動一個個寫說明文件常常會有參數或是輸出值對不上的問題。</p>
+
+<h3>Make Your Rails Backstage Better</h3>
+
+<p>講者說一下他當初開發後台的經驗，不過有可能使用rails沒有多久所有沒有什麼心得。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[socket.io Port問題]]></title>
@@ -661,33 +708,6 @@ Master和Slave資料差別蠻有用的。</p>
     <id>http://fubuki.github.io/blog/2014/04/03/wordnet</id>
     <content type="html"><![CDATA[<p>在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用<a href="wordnet.princeton.edu">wordnet</a>實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
 其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Projects That Power GitHub]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/02/projects-that-power-github/"/>
-    <updated>2014-04-02T21:25:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/02/projects-that-power-github</id>
-    <content type="html"><![CDATA[<p>GitHub放出他們自身使用的開源專案，詳細的內容可以在這裡找到<a href="https://github.com/showcases/projects-that-power-github">projects-that-power-github</a>，
-裡面有些工作上或是自身有在研究的專案，順便寫一下使用自己在哪些方面。</p>
-
-<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/defunkt/jquery-pjax">jquery-pjax</a> pushstate + ajax ，之前用來實現網頁無須刷新更新頁面的功能。</li>
-<li><a href="https://github.com/elasticsearch/elasticsearch">elasticsearch</a> 開源的搜尋引擎不過還是solr比較常用。</li>
-<li><a href="https://github.com/rails/rails">rails</a> 作為web的開發框架用起來還沒有比PHP熟悉。</li>
-<li><a href="https://github.com/antirez/redis">redis</a> 工作上使用場景比memcache還多的快取資料庫，除了用在存放一些列表和記數類的資料還有使用他的keyspace和pubsub功能。</li>
-<li><a href="https://github.com/jekyll/jekyll">jekyll</a> 目前用來寫blog。</li>
-<li><a href="https://github.com/github/hubot">hubot</a> 一個Bot的專案，可以使用coffee script擴充功能。</li>
-<li><a href="https://github.com/mbostock/d3">d3</a> 作為前端顯示圖表的函式庫，跟其他相關函式庫混用還蠻方便的。</li>
-<li><a href="https://github.com/zeroclipboard/zeroclipboard">zeroclipboard</a> 有時候讓使用者能夠直接複製網頁的內容到剪貼板上</li>
-<li><a href="https://github.com/puppetlabs/puppet">puppet</a> 目前正在學習如何用在管理和建置環境。
-10 <a href="https://github.com/bower/bower">bower</a> 用來管理網站套件。</li>
-</ol>
-
 ]]></content>
   </entry>
   
