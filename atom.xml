@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-25T23:25:18+08:00</updated>
+  <updated>2014-04-26T22:02:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rubyconf 2014 Second Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day/"/>
+    <updated>2014-04-26T20:29:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day</id>
+    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第二天(4/26)參加的議程</p>
+
+<!-- more -->
+
+
+<h3>Cores unleashed &ndash; Exploiting Parallelism in Ruby with STM (and a new VM)</h3>
+
+<p><a href="https://speakerdeck.com/brucehsu/rubyconf-dot-tw-2014-cores-unleashed-exploiting-parallelism-in-ruby-with-stm">slide</a></p>
+
+<h3>How the Principles of Ruby Inspired the Rails Girls Community</h3>
+
+<p>兩位講者如何認識，並且介紹Rails Girls社群怎麼成長的。</p>
+
+<h3>Ruby on Bioinformatics</h3>
+
+<p>使用ruby 處理生物資訊，列了不少gem但是有的是去使用其他語言的library吧，裡面也有提到使用neo4j處理
+個人的健康資料，不過跟ruby沒有太大的關係，現在比較常用還是perl和python吧。</p>
+
+<h3>the Guide to know Ruby implementation for non-C language programer</h3>
+
+<p>講者一開始說因為她的先生是寫ruby的programmer接觸ruby，之後就開始研究Ruby裡面的架構，
+講者介紹幾個方法去研究裡面的原始碼。</p>
+
+<h3>Growing Up &ndash; Bringing Concurrency to Ruby</h3>
+
+<p>一開始介紹jruby和jvm，然後說明 prcoess-level和thread-level的做法，concurency的法則和
+實現介紹一些實現no-block的library。</p>
+
+<h3>Extreme Makeover &ndash; Rubygems Edition</h3>
+
+<p>bundle，用來管理gem的依賴性，講者講了一些過去bundle的issue，ssl issue，搜尋Gem的效率過低，加上CDN，
+加入一些api，建立新的index。</p>
+
+<h3>sweaters as a service &ndash; adventures in electronic knitting</h3>
+
+<p>講者建立一個編織機器，只要上傳圖檔就可以編織出一個圖案，似乎是使用Ruby去控制不過沒有看到整個程式碼。</p>
+
+<h3>Improve and refactor ruby code easier</h3>
+
+<p>利用 synvert工具作ruby 的重構。</p>
+
+<h3>lightning talk</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
@@ -748,28 +798,6 @@ Master和Slave資料差別蠻有用的。</p>
 <p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
 避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
 有些人提供一些第三方的模組處理流程控制的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs 生產環境]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/"/>
-    <updated>2014-04-05T21:55:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing</id>
-    <content type="html"><![CDATA[<p>記錄一下nodejs生產環境需要注意的事項。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。</li>
-<li>nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。</li>
-<li>nodejs建立socket時增加可以建立的socket的數量。</li>
-<li>nodejs 有些使用模組是編譯過的，有些是純js撰寫成的，使用二進位編譯後的模組。</li>
-<li>在nodejs中事件流的處理會影響程式效能，目前有些用來處理事件流的模組慎選並去使用。</li>
-<li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
-</ol>
-
 ]]></content>
   </entry>
   
