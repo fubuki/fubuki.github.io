@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-26T22:02:33+08:00</updated>
+  <updated>2014-04-26T23:57:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[中文分词的最大匹配法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa/"/>
+    <updated>2014-04-26T22:49:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa</id>
+    <content type="html"><![CDATA[<p>記錄一下中文分詞的入門演算法。<br/>
+1. 最大正向匹配
+2. 最大逆向匹配
+3. 雙向匹配</p>
+
+<!-- more -->
+
+
+<p>中文分詞一開始是使用詞典作分詞，在分詞的過程中主要有幾個原則:  <br/>
+1. 切出來的詞彙越長越好，越長就能代表越複雜的意思，句子的意思也能更明確。<br/>
+2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
+
+<p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rubyconf 2014 Second Day]]></title>
@@ -779,25 +800,6 @@ Master和Slave資料差別蠻有用的。</p>
 <li><p>&mdash;verbose</p></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs Flow Control]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/"/>
-    <updated>2014-04-06T16:22:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control</id>
-    <content type="html"><![CDATA[<p>記錄一下流程控制相關的模組。<br/>
-1. <a href="https://github.com/creationix/step">step</a> <br/>
-2. <a href="https://github.com/kriskowal/q">Q</a><br/>
-3. <a href="https://github.com/kriszyp/node-promise">promise</a></p>
-
-<!-- more -->
-
-
-<p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
-避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
-有些人提供一些第三方的模組處理流程控制的部分。</p>
 ]]></content>
   </entry>
   

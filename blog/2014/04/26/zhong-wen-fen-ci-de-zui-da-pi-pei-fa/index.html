@@ -5,11 +5,15 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Javascript - Learning Blog</title>
+  <title>中文分词的最大匹配法 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: javascript">
+  <meta name="description" content="記錄一下中文分詞的入門演算法。
+1. 最大正向匹配
+2. 最大逆向匹配
+3. 雙向匹配 中文分詞一開始是使用詞典作分詞，在分詞的過程中主要有幾個原則: 1. 切出來的詞彙越長越好，越長就能代表越複雜的意思，句子的意思也能更明確。
+2. 切出來的分詞結果通常會有一些停用詞(stop words) &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/javascript">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,78 +81,104 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Javascript</h1>
+    
+      <h1 class="entry-title">中文分词的最大匹配法</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-26T22:49:17+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>記錄一下中文分詞的入門演算法。<br/>
+1. 最大正向匹配
+2. 最大逆向匹配
+3. 雙向匹配</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/16/hubspot/">HubSpot</a></h1>
-<time datetime="2014-03-16T20:01:55+08:00" pubdate><span class='month'>Mar</span> <span class='day'>16</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<p>中文分詞一開始是使用詞典作分詞，在分詞的過程中主要有幾個原則:  <br/>
+1. 切出來的詞彙越長越好，越長就能代表越複雜的意思，句子的意思也能更明確。<br/>
+2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
 
-
-
-<article>
-  
-<h1><a href="/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/">Jsdc 2013 前端開發工具</a></h1>
-<time datetime="2014-03-14T00:08:53+08:00" pubdate><span class='month'>Mar</span> <span class='day'>14</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/03/06/requirejs/">Requirejs</a></h1>
-<time datetime="2014-03-06T22:27:21+08:00" pubdate><span class='month'>Mar</span> <span class='day'>06</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/03/06/d3-dot-js/">D3.js</a></h1>
-<time datetime="2014-03-06T21:33:26+08:00" pubdate><span class='month'>Mar</span> <span class='day'>06</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/javascript/'>javascript</a></span>
-</footer>
-
-
-</article>
-
+<p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-26T22:49:17+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/nlp/'>nlp</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/26/rubyconf-2014-second-day/" title="Previous Post: rubyconf 2014 second day">&laquo; rubyconf 2014 second day</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -276,7 +306,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
