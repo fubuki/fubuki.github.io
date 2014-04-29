@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-26T23:57:25+08:00</updated>
+  <updated>2014-04-29T22:44:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -153,6 +153,19 @@ var socket = io({ /* options */ })
     // options go here
 });
 </code></pre>
+
+<h2>socket.io-adapter</h2>
+
+<p>原本在0.9版本之前有<code>store</code>的選項，到1.0版本之後就拿掉了換成<code>adapter</code>，然後官方有放出<a href="https://github.com/LearnBoost/socket.io-adapter">socket.io-adapter</a>讓開發者可以
+自行擴展，另外有一個<a href="https://github.com/Automattic/socket.io-redis">socket.io-redis</a>是官方放出來的參考範例，使用方法如下面所述。</p>
+
+<pre><code>var socketio = require('socket.io');
+var RedisStore = require('socket.io-redis');
+var io = socketio(3000, {});
+io.adapter(RedisStore({ host: host, port: port }));
+</code></pre>
+
+<p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
 ]]></content>
   </entry>
   

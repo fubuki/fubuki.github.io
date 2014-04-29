@@ -172,6 +172,19 @@ var socket = io({ /* options */ })
     // options go here
 });
 </code></pre>
+
+<h2>socket.io-adapter</h2>
+
+<p>原本在0.9版本之前有<code>store</code>的選項，到1.0版本之後就拿掉了換成<code>adapter</code>，然後官方有放出<a href="https://github.com/LearnBoost/socket.io-adapter">socket.io-adapter</a>讓開發者可以
+自行擴展，另外有一個<a href="https://github.com/Automattic/socket.io-redis">socket.io-redis</a>是官方放出來的參考範例，使用方法如下面所述。</p>
+
+<pre><code>var socketio = require('socket.io');
+var RedisStore = require('socket.io-redis');
+var io = socketio(3000, {});
+io.adapter(RedisStore({ host: host, port: port }));
+</code></pre>
+
+<p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
 </div>
 
 
@@ -199,7 +212,7 @@ var socket = io({ /* options */ })
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/socket-dot-io/'>socket.io</a>
   
 </span>
 
@@ -283,7 +296,7 @@ var socket = io({ /* options */ })
   <li><a href='/blog/categories/mqtt'>Mqtt (2)</a></li>
   <li><a href='/blog/categories/mysql'>Mysql (1)</a></li>
   <li><a href='/blog/categories/nlp'>Nlp (5)</a></li>
-  <li><a href='/blog/categories/nodejs'>Nodejs (18)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (14)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
   <li><a href='/blog/categories/open-source'>Open source (4)</a></li>
   <li><a href='/blog/categories/python'>Python (3)</a></li>
@@ -294,6 +307,7 @@ var socket = io({ /* options */ })
   <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
   <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
   <li><a href='/blog/categories/search-engine'>Search engine (3)</a></li>
+  <li><a href='/blog/categories/socket-io'>Socket.io (4)</a></li>
   <li><a href='/blog/categories/solr'>Solr (1)</a></li>
   <li><a href='/blog/categories/sublime-text'>Sublime-text (1)</a></li>
   <li><a href='/blog/categories/theano'>Theano (1)</a></li>

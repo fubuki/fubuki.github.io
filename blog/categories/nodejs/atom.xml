@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-26T23:57:25+08:00</updated>
+  <updated>2014-04-29T22:44:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,107 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/"/>
-    <updated>2014-04-25T22:47:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0</id>
-    <content type="html"><![CDATA[<p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
-目前程式升級有影響的部分。</p>
-
-<!-- more -->
-
-
-<h2>Authentication differences</h2>
-
-<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
-
-<pre><code>io.set('authorization', function (handshakeData, callback) {
-
-});
-</code></pre>
-
-<p>現在有'io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
-
-<pre><code>io.use(function(socket, next) {
-    var handshakeData = socket.request;
-    // make sure the handshake data looks good as before
-    // if error do this:
-        // next(new Error('not authorized');
-    // else just call next
-    next();
-});
-</code></pre>
-
-<h2>Starting the server</h2>
-
-<p>以前會使用listen但是在1.0版本就不用了。</p>
-
-<pre><code>var io = require('socket.io').listen(server);
-</code></pre>
-
-<p>vs</p>
-
-<pre><code>var io = require('socket.io');
-var socket = io({ /* options */ })
-</code></pre>
-
-<h2>Exposed Events</h2>
-
-<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
-裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
-
-<h2>Configuration differences</h2>
-
-<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
-
-<pre><code>io.set(
-    'store' ,new RedisStore({
-        redisPub : pub,
-        redisSub : sub,
-        redisClient : client
-    })
-);
-</code></pre>
-
-<p>vs</p>
-
-<pre><code>var socket = require('socket.io')({
-    // options go here
-});
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[socket.io Port問題]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti/"/>
-    <updated>2014-04-24T23:09:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti</id>
-    <content type="html"><![CDATA[<p>前端連接socket.io server遇到port問題的解決方法。</p>
-
-<!-- more -->
-
-
-<h3>haproxy</h3>
-
-<p><a href="http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/">configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl</a> <br/>
-<a href="http://blog.carbonfive.com/2013/05/02/using-haproxy-with-socket-io-and-ssl/">using-haproxy-with-socket-io-and-ssl</a>  <br/>
-這個方法有在Centos上面實作過是可行的，網路也有不少設定可以參考，不過當初只有測試websocket的方法。</p>
-
-<h3>nginx</h3>
-
-<p><a href="http://blog.mixu.net/2011/08/13/nginx-websockets-ssl-and-socket-io-deployment/">nginx-websockets-ssl-and-socket-io-deployment</a><br/>
-nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實測過。</p>
-
-<h3>透過改寫xhr-polling</h3>
-
-<p><a href="http://stephenbelanger.com/2011/09/21/how-to-make-socket-io-work-behind-nginx-mostly/">how-to-make-socket-io-work-behind-nginx-mostly</a>  <br/>
-這個方法是改寫xhr-polling的方法，前端就可以不用加上port就可以直接連接server，但是就不能使用其他的
-連接方法了吧?</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[node.js 0.12 版本]]></title>
@@ -192,6 +91,26 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
 <li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
 </ol>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[exports和module.export區別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie/"/>
+    <updated>2014-03-24T21:19:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/24/exportshe-module-dot-exportqu-bie</id>
+    <content type="html"><![CDATA[<p>exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
+去查網路都有推薦<a href="http://www.hacksparrow.com/node-js-exports-vs-module-exports.html">Node.js Module – exports vs module.exports</a>這篇文章。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cloud9 Ide]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/23/cloud9-ide/"/>
+    <updated>2014-03-23T21:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/23/cloud9-ide</id>
+    <content type="html"><![CDATA[<p><a href="https://c9.io/">cloud9</a>是一款線上整合開發環境一年以前有使用過，當時使用上覺得反應速度不太好就沒有在使用了，
+不過可以學一下其中的架構，重要的是有持續維護，希望可以持續下去未來能夠使用閱覽器開發多種語言。</p>
 ]]></content>
   </entry>
   

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: socket.io | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/socket-dot-io/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-04-29T22:44:45+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/"/>
+    <updated>2014-04-25T22:47:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0</id>
+    <content type="html"><![CDATA[<p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
+目前程式升級有影響的部分。</p>
+
+<!-- more -->
+
+
+<h2>Authentication differences</h2>
+
+<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
+
+<pre><code>io.set('authorization', function (handshakeData, callback) {
+
+});
+</code></pre>
+
+<p>現在有'io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
+
+<pre><code>io.use(function(socket, next) {
+    var handshakeData = socket.request;
+    // make sure the handshake data looks good as before
+    // if error do this:
+        // next(new Error('not authorized');
+    // else just call next
+    next();
+});
+</code></pre>
+
+<h2>Starting the server</h2>
+
+<p>以前會使用listen但是在1.0版本就不用了。</p>
+
+<pre><code>var io = require('socket.io').listen(server);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var io = require('socket.io');
+var socket = io({ /* options */ })
+</code></pre>
+
+<h2>Exposed Events</h2>
+
+<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
+裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
+
+<h2>Configuration differences</h2>
+
+<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
+
+<pre><code>io.set(
+    'store' ,new RedisStore({
+        redisPub : pub,
+        redisSub : sub,
+        redisClient : client
+    })
+);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var socket = require('socket.io')({
+    // options go here
+});
+</code></pre>
+
+<h2>socket.io-adapter</h2>
+
+<p>原本在0.9版本之前有<code>store</code>的選項，到1.0版本之後就拿掉了換成<code>adapter</code>，然後官方有放出<a href="https://github.com/LearnBoost/socket.io-adapter">socket.io-adapter</a>讓開發者可以
+自行擴展，另外有一個<a href="https://github.com/Automattic/socket.io-redis">socket.io-redis</a>是官方放出來的參考範例，使用方法如下面所述。</p>
+
+<pre><code>var socketio = require('socket.io');
+var RedisStore = require('socket.io-redis');
+var io = socketio(3000, {});
+io.adapter(RedisStore({ host: host, port: port }));
+</code></pre>
+
+<p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[socket.io Port問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti/"/>
+    <updated>2014-04-24T23:09:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti</id>
+    <content type="html"><![CDATA[<p>前端連接socket.io server遇到port問題的解決方法。</p>
+
+<!-- more -->
+
+
+<h3>haproxy</h3>
+
+<p><a href="http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/">configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl</a> <br/>
+<a href="http://blog.carbonfive.com/2013/05/02/using-haproxy-with-socket-io-and-ssl/">using-haproxy-with-socket-io-and-ssl</a>  <br/>
+這個方法有在Centos上面實作過是可行的，網路也有不少設定可以參考，不過當初只有測試websocket的方法。</p>
+
+<h3>nginx</h3>
+
+<p><a href="http://blog.mixu.net/2011/08/13/nginx-websockets-ssl-and-socket-io-deployment/">nginx-websockets-ssl-and-socket-io-deployment</a><br/>
+nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實測過。</p>
+
+<h3>透過改寫xhr-polling</h3>
+
+<p><a href="http://stephenbelanger.com/2011/09/21/how-to-make-socket-io-work-behind-nginx-mostly/">how-to-make-socket-io-work-behind-nginx-mostly</a>  <br/>
+這個方法是改寫xhr-polling的方法，前端就可以不用加上port就可以直接連接server，但是就不能使用其他的
+連接方法了吧?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
+    <updated>2014-03-19T22:42:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
+    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[socket.io 使用心得]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/09/socket.io-shi-yong-xin-de/"/>
+    <updated>2014-03-09T15:57:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/09/socket.io-shi-yong-xin-de</id>
+    <content type="html"><![CDATA[<p>記錄一下到目前使用socket.io遇到的問題。</p>
+
+<!-- more -->
+
+
+<p>使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
+事件驅動的部分。 比較有問題是在於scale out 的部分。</p>
+
+<p>之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能，不過socket.io會重復送出訊息，每個node會跟
+redis 訂閱訊息，才會發生這樣的情形，官網上是有用提供一個方案讓各個node透過redis溝通，就不會有上述的
+問題發生，不過尚未在高併發的環境下測試，也許會有其他問題。</p>
+
+<p>The Trello Tech Stack 這篇文章最後有提到以下的事情:</p>
+
+<blockquote><p>The Socket.io server currently has some problems with scaling up to more than 10K simultaneous client connections when using multiple processes and the Redis store, and the client has some issues that can cause it to open multiple connections to the same server, or not know that its connection has been severed. There are some issues
+with submitting our fixes (hacks!) back to the project – in many cases they only work with WebSockets (the only Socket.io transport we use). We are working to
+get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
+
+<p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
+]]></content>
+  </entry>
+  
+</feed>
