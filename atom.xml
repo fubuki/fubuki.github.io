@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-29T22:44:45+08:00</updated>
+  <updated>2014-04-30T23:50:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[五月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan/"/>
+    <updated>2014-04-30T23:36:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄五月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Testable.JavaScript</li>
+<li>Google軟體測試之道</li>
+<li>JavaScript The Definitive Guide</li>
+<li>JavaScript Patterns</li>
+<li>Learning JavaScript Design Patterns</li>
+<li>社群網站的資料探勘</li>
+<li>jQuery技术内幕：深入解析jQuery架构设计与实现原理</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[中文分词的最大匹配法]]></title>
@@ -770,49 +793,6 @@ Master和Slave資料差別蠻有用的。</p>
 
 <p>這場比較硬一些，前面在講一些GC Language會遇到的問題並且給一些會導致Memory Leak的範例，
 之後在開始介紹C++的<a href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization">RAII</a>，這場主要在講程式關於記憶體方面的問題。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git-reflog的用法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/07/git-reflogde-yong-fa/"/>
-    <updated>2014-04-07T21:11:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/07/git-reflogde-yong-fa</id>
-    <content type="html"><![CDATA[<p>之前看到一篇去年的消息Jenkins開發者意外的抹消掉在github上一個月的commit，這跟Github的設定和
-使用者本身使用強制推送有關，如果想要知道詳細情形請參照<a href="https://groups.google.com/forum/#!msg/jenkinsci-dev/-myjRIPcVwU/t4nkXONp8qgJ">&lsquo;這裡&rsquo;</a>。</p>
-
-<!-- more -->
-
-
-<p>不過裡面比較引我注意的是他如何回復被蓋掉的部分，利用git-reflog可以取得被刪除的commit，之後再開出
-一個新的分支取回原本的版本，這個跟git-log 的差異在git-log只會顯示過去提交過的記錄，但是reflog會顯示
-所有的變更紀錄，下面幾個我比較常用的指令都會紀錄在reflog裡面，藉此如果版本有問題了話更容易回復。</p>
-
-<ul>
-<li>branch</li>
-<li>commit</li>
-<li>checkout</li>
-<li>pull</li>
-<li>push</li>
-<li>merge</li>
-<li>clone</li>
-<li>branch</li>
-<li>stash</li>
-</ul>
-
-
-<h1>git-reflog OPTIONS</h1>
-
-<ul>
-<li><p>&mdash;stale-fix</p></li>
-<li><p>&mdash;expire=<time></p></li>
-<li><p>&mdash;expire-unreachable=<time></p></li>
-<li><p>&mdash;all</p></li>
-<li><p>&mdash;updateref</p></li>
-<li><p>&mdash;rewrite</p></li>
-<li><p>&mdash;verbose</p></li>
-</ul>
-
 ]]></content>
   </entry>
   

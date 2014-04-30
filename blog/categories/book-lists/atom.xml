@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-04-29T22:44:45+08:00</updated>
+  <updated>2014-04-30T23:50:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[五月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan/"/>
+    <updated>2014-04-30T23:36:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄五月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Testable.JavaScript</li>
+<li>Google軟體測試之道</li>
+<li>JavaScript The Definitive Guide</li>
+<li>JavaScript Patterns</li>
+<li>Learning JavaScript Design Patterns</li>
+<li>社群網站的資料探勘</li>
+<li>jQuery技术内幕：深入解析jQuery架构设计与实现原理</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[四月書單]]></title>
