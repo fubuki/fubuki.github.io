@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Git-Flow"
+date: 2014-04-24 21:55:19 +0800
+comments: true
+categories: ["git"]
+---
+
+在工作上使用git已經有一段時間了，跟同事一起開發專案時常有個問題，每個人在撰寫新功能時只有本人才知道
+這個分支裡面有實現哪些功能，通常快到上線的時候就大家你併我你併他的分支後在推上去，沒有一個工作流程可以
+遵循，之後有看到有篇文章描寫一個git工作流程:[A successful Git branching model]。
+<!-- more -->
+
+[A successful Git branching model]裡面主要敘述如何管理git的分支，可以做為一個團隊如何實踐專案工作
+流程的參考，然後最近才發現他有一個管理工具[git-flow]可以更容易去實踐這套工作流程，這邊也有篇管理工具的
+[介紹]，以後如果有空在推廣給同事使用吧。
+
+
+
+[git-flow]:https://github.com/danielkummer/git-flow-cheatsheet
+[A successful Git branching model]: http://nvie.com/posts/a-successful-git-branching-model/ 
+[介紹]: http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
+[ihower]: http://ihower.tw/blog/archives/5140
