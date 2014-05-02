@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Project Management | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/project-management/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-05-02T23:27:31+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[團隊管理工具清單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/02/tuan-dui-guan-li-gong-ju-qing-dan/"/>
+    <updated>2014-05-02T23:24:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/02/tuan-dui-guan-li-gong-ju-qing-dan</id>
+    <content type="html"><![CDATA[<p>記錄一下其他公司使用的開發工具。</p>
+
+<!-- more -->
+
+
+<ol>
+<li><a href="https://basecamp.com/">Basecamp</a></li>
+<li><a href="http://airbrake.io/">Airbrake</a></li>
+<li><a href="http://newrelic.com/">New Relic</a></li>
+<li><a href="https://codeclimate.com/">Code Climate</a></li>
+<li><a href="https://saucelabs.com/">Sauce Labs</a></li>
+<li><a href="http://www.zabbix.com/">Zabbix</a></li>
+<li><a href="https://circleci.com/">CircleCI</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
