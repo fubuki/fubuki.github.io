@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-03T20:57:32+08:00</updated>
+  <updated>2014-05-04T21:37:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Old IE Support Html5 Tag]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag/"/>
+    <updated>2014-05-04T20:28:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag</id>
+    <content type="html"><![CDATA[<p>舊版本IE支援 html5的方法<a href="https://github.com/aFarkas/html5shiv">html5shiv</a></p>
+
+<!-- more -->
+
+
+<pre><code>&lt;!--[if lt IE 9]&gt;
+    &lt;script src="bower_components/html5shiv/html5shiv.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+</code></pre>
+
+<p>jQuery 有 jQuery.support.html5Clone 會檢查閱覽器是否支援html5的tag，在
+jQuery 1.9以前的版本有jQuery.clean 會負責處理舊版IE在插入新的tag會遇到的issue。</p>
+
+<p>另外還有<code>display:inline</code>的問題，在閱覽器在解釋不支援的tag時樣式會預設為<code>display:inline</code>
+所以要Reset CSS。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery Core 1.9 Upgrade Guide]]></title>
@@ -649,68 +672,6 @@ replSet = example
 <p>中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典，不過有些新詞或是人名地名
 就沒有辦法處理，另外一點就在分詞速率，透過詞典分詞詞典越大分詞的時間就會越久。另外是使用機器學習透過語料庫訓練出模型例如HMM的方式也是
 需要透過既有的語料庫訓練。此外也能夠使用語言學上的規則方法不過我目前看到的分詞器大多都是詞典加統計模型。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jquery Bind, Live, Delegate, On]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/"/>
-    <updated>2014-04-14T21:28:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on</id>
-    <content type="html"><![CDATA[<p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
-記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
-
-<!-- more -->
-
-
-<h3>bind</h3>
-
-<p>以前我使用最多的綁定方式，除了可以綁定jquery原有的函式也可以自訂事件名稱，在去觸發自訂事件，不過bind只能綁定一次如果使用者
-之後append一個新的節點就必須在重新綁定一次。</p>
-
-<pre><code>$(body).bind("click",function(){
-    console.log('click event');
-});
-</code></pre>
-
-<h3>live</h3>
-
-<p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
-如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
-
-<pre><code>$("#example").live("click",function(){
-    console.log('click event');
-});
-$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
-</code></pre>
-
-<h3>delegate</h3>
-
-<p>由於live 是透過監聽document的節點達成事件動態綁定，所以並不建議使用live而是使用delegate取代，使用方法如下，綁定的事件只會在#example下的
-li元素才會生效。</p>
-
-<pre><code>$("#example").delegate("li", "click", function () {  
-    console.log('click event');
-});  
-</code></pre>
-
-<h3>on</h3>
-
-<p>on是目前官方推薦使用的綁定方式，不論是bind和live都可以透過on去實現，如果有去看jquery的原始碼在某個版本之後bind和live以及delegate底層都是
-用on去實現了並且在1.10的時候live就被拿掉了，如果之後有空還需要整理一下on的實現方法。<br/>
-以下同等於bind的用法</p>
-
-<pre><code>$("#example").on("click",function(){
-    console.log('click event');
-});
-</code></pre>
-
-<p>以下同等於live的用法</p>
-
-<pre><code>$(document).on("click","#example",function(){
-    console.log('click event');
-});
-</code></pre>
 ]]></content>
   </entry>
   
