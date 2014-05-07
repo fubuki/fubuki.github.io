@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Server | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/server/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-05-07T22:23:43+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Xsendfile 提升下載性能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng/"/>
+    <updated>2014-05-07T21:21:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng</id>
+    <content type="html"><![CDATA[<p>X-sendfile 可以讓Server控制下載的流程，讓開發者可以透過傳送特定的header控制存取檔案的權限。</p>
+
+<!-- more -->
+
+
+<p>下面三種伺服器支援的header，伺服器不一定會預設支援X-sendfile，需要自己開啟相關的模組。</p>
+
+<table border="1">
+ <tr>
+  <th>     web server  </th>
+  <th>     header  </th>
+ </tr>
+ <tr>
+  <td>     apache  </td>
+  <td>     X-Sendfile  </td>
+ </tr>
+ <tr>
+  <td>     nginx  </td>
+  <td>     X-Accel-Redirect  </td>
+ </tr>
+ <tr>
+  <td>     lighttpd  </td>
+  <td>     X-LIGHTTPD-send-file  </td>
+ </tr>
+</table>
+
+
+<p>nginx下 php的寫法。</p>
+
+<pre><code>&lt;?php
+$filePath = '/download/example.rar';
+header('Content-type: application/octet-stream');
+header('Content-Disposition: attachment; filename="' . basename($file) . '"');
+header('X-Accel-Redirect: '.$filePath);
+</code></pre>
+
+<p>nginx的 config設定。</p>
+
+<pre><code>location /protected/ {
+    internal;
+    alias   /some/path/; # note the trailing slash
+}
+</code></pre>
+
+<p>nginx header參數</p>
+
+<pre><code>X-Accel-Limit-Rate: 1024
+X-Accel-Buffering: yes|no
+X-Accel-Charset: utf-8
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
