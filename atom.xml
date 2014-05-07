@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-07T22:23:43+08:00</updated>
+  <updated>2014-05-07T22:30:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -69,142 +69,6 @@ X-Accel-Buffering: yes|no
 X-Accel-Charset: utf-8
 </code></pre>
 ]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Shi Yong Xsendfile Ti Sheng Xia Zai Xing Neng]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng/"/>
-    <updated>2014-05-07T00:00:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng</id>
-    <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><style>html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-body{
-  color:#444;
-  font-family:Georgia, Palatino, &#8216;Palatino Linotype&#8217;, Times, &#8216;Times New Roman&#8217;,
-              &#8220;Hiragino Sans GB&#8221;, &#8220;STXihei&#8221;, &#8220;微软雅黑&#8221;, serif;
-  font-size:12px;
-  line-height:1.5em;
-  background:#fefefe;
-  width: 45em;
-  margin: 10px auto;
-  padding: 1em;
-  outline: 1300px solid #FAFAFA;
-}
-
-a{ color: #0645ad; text-decoration:none;}
-a:visited{ color: #0b0080; }
-a:hover{ color: #06e; }
-a:active{ color:#faa700; }
-a:focus{ outline: thin dotted; }
-a:hover, a:active{ outline: 0; }
-
-span.backtick {
-  border:1px solid #EAEAEA;
-  border-radius:3px;
-  background:#F8F8F8;
-  padding:0 3px 0 3px;
-}
-
-::-moz-selection{background:rgba(255,255,0,0.3);color:#000}
-::selection{background:rgba(255,255,0,0.3);color:#000}
-
-a::-moz-selection{background:rgba(255,255,0,0.3);color:#0645ad}
-a::selection{background:rgba(255,255,0,0.3);color:#0645ad}
-
-p{
-margin:1em 0;
-}
-
-img{
-max-width:100%;
-}
-
-h1,h2,h3,h4,h5,h6{
-font-weight:normal;
-color:#111;
-line-height:1em;
-}
-h4,h5,h6{ font-weight: bold; }
-h1{ font-size:2.5em; }
-h2{ font-size:2em; border-bottom:1px solid silver; padding-bottom: 5px; }
-h3{ font-size:1.5em; }
-h4{ font-size:1.2em; }
-h5{ font-size:1em; }
-h6{ font-size:0.9em; }
-
-blockquote{
-color:#666666;
-margin:0;
-padding-left: 3em;
-border-left: 0.5em #EEE solid;
-}
-hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
-
-
-pre , code, kbd, samp { 
-  color: #000; 
-  font-family: monospace; 
-  font-size: 0.88em; 
-  border-radius:3px;
-  background-color: #F8F8F8;
-  border: 1px solid #CCC; 
-}
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 5px 12px;}
-pre code { border: 0px !important; padding: 0;}
-code { padding: 0 3px 0 3px; }
-
-b, strong { font-weight: bold; }
-
-dfn { font-style: italic; }
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
-ul, ol { margin: 1em 0; padding: 0 0 0 2em; }
-li p:last-child { margin:0 }
-dd { margin: 0 0 0 2em; }
-
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-
-table { border-collapse: collapse; border-spacing: 0; }
-td { vertical-align: top; }
-
-@media only screen and (min-width: 480px) {
-body{font-size:14px;}
-}
-
-@media only screen and (min-width: 768px) {
-body{font-size:16px;}
-}
-
-@media print {
-  * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
-  body{font-size:12pt; max-width:100%; outline:none;}
-  a, a:visited { text-decoration: underline; }
-  hr { height: 1px; border:0; border-bottom:1px solid black; }
-  a[href]:after { content: &#8221; (&#8221; attr(href) &#8220;)&#8221;; }
-  abbr[title]:after { content: &#8221; (&#8221; attr(title) &#8220;)&#8221;; }
-  .ir a:after, a[href^=&#8221;javascript:&#8221;]:after, a[href^=&#8221;#&#8221;]:after { content: &#8220;&#8221;; }
-  pre, blockquote { border: 1px solid #999; padding-right: 1em; page-break-inside: avoid; }
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page :left { margin: 15mm 20mm 15mm 10mm; }
-  @page :right { margin: 15mm 10mm 15mm 20mm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
-}
-</style><title>2014-05-07-shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng</title></head><body><hr />
-<p>layout: post
-title: &#8220;使用 xsendfile 提升下載性能&#8221;
-date: 2014-05-07 21:21:43 +0800
-comments: true
-categories: [&#8220;server&#8221;]</p>
-<hr /></body></html>]]></content>
   </entry>
   
   <entry>
@@ -804,6 +668,46 @@ replSet = example
 <li>Interactive.Data.Visualization.for.the.Web</li>
 </ol>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[node.js 0.12 版本]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben/"/>
+    <updated>2014-04-16T23:18:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben</id>
+    <content type="html"><![CDATA[<p>nodejs 0.12版本出來了，多了一些新的API，改進Cluster的功能此外ES6 的特性在0.11.9也可以開啟使用。</p>
+
+<!-- more -->
+
+
+<h3>Cork support for writable streams</h3>
+
+<p>這邊是提升tcp傳輸的效率，當數據流裡面的小數據結合成大數據在送出減少tcp和系統的調用。</p>
+
+<h3>tls module</h3>
+
+<p>原本nodejs的tls模塊的效率提高了，之前有使用過http模組的tls功能不過沒有測試過他的效率。</p>
+
+<h3>Crypto performance improvements</h3>
+
+<p>改進加解密演算法的速度，不過我比較常用的主要在session方面的加密</p>
+
+<h3>Reduced garbage collector strain</h3>
+
+<p>0.12版本改寫了關於context的部分<a href="https://github.com/joyent/node/commit/756b622">multi-context refactoring</a>，藉此減少v8在multi-context的情形下，
+不會讓V8一直處理關於handle的問題。</p>
+
+<h3>Better cluster performance</h3>
+
+<p>這個改進我有可能比較常用到，目前在作nodejs applicacion的架構優化並且希望機器的資源能充分使用，然後這篇<a href="http://strongloop.com/strongblog/whats-new-in-node-js-v0-12-cluster-round-robin-load-balancing/">post</a>有提到
+如何改進cluster的效率。</p>
+
+<h3>Faster timers, faster setImmediate(), faster process.nextTick()</h3>
+
+<p>這部分是提升像是setTimeout之類API的效率，這裡就不太清楚了。</p>
+
+<p>原文在此<a href="http://strongloop.com/strongblog/performance-node-js-v-0-12-whats-new/">node-js-v-0-12-whats-new</a></p>
 ]]></content>
   </entry>
   
