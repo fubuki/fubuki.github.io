@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-07T22:30:33+08:00</updated>
+  <updated>2014-05-09T23:52:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[研究jQuery原始碼]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma/"/>
+    <updated>2014-05-09T23:04:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma</id>
+    <content type="html"><![CDATA[<p>記錄一下研究jQuery的過程和方式。</p>
+
+<!-- more -->
+
+
+<p>要研究jQuery的原始碼可以先看<a href="http://robflaherty.github.io/jquery-annotated-source/">jquery-annotated-source</a>，裡面的版本是<code>1.6</code>有點舊，如果要看中文版可以推薦
+看"jQuery 技术内幕"這本書，雖然版本是<code>1.7</code>也算足夠了，如果要看最新的可以去<a href="https://github.com/jquery/jquery">jQuery</a>看到尚未編譯的原始碼，
+可以看到jQuery分成好幾個區塊，可以看到jQuery怎麼實現那些有趣的功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery Core 1.9 Upgrade Guide]]></title>
@@ -82,15 +98,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
     <updated>2014-03-06T22:27:21+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/06/requirejs</id>
     <content type="html"><![CDATA[<p>用來管理並且提高javascript載入的效率。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[D3.js]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/06/d3-dot-js/"/>
-    <updated>2014-03-06T21:33:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/06/d3-dot-js</id>
-    <content type="html"><![CDATA[<p>資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。</p>
 ]]></content>
   </entry>
   

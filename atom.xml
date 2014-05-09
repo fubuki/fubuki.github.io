@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-07T22:30:33+08:00</updated>
+  <updated>2014-05-09T23:52:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[研究jQuery原始碼]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma/"/>
+    <updated>2014-05-09T23:04:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma</id>
+    <content type="html"><![CDATA[<p>記錄一下研究jQuery的過程和方式。</p>
+
+<!-- more -->
+
+
+<p>要研究jQuery的原始碼可以先看<a href="http://robflaherty.github.io/jquery-annotated-source/">jquery-annotated-source</a>，裡面的版本是<code>1.6</code>有點舊，如果要看中文版可以推薦
+看&#8221;jQuery 技术内幕&#8221;這本書，雖然版本是<code>1.7</code>也算足夠了，如果要看最新的可以去<a href="https://github.com/jquery/jquery">jQuery</a>看到尚未編譯的原始碼，
+可以看到jQuery分成好幾個區塊，可以看到jQuery怎麼實現那些有趣的功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Xsendfile 提升下載性能]]></title>
@@ -668,46 +684,6 @@ replSet = example
 <li>Interactive.Data.Visualization.for.the.Web</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[node.js 0.12 版本]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben/"/>
-    <updated>2014-04-16T23:18:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/16/node-dot-js-0-dot-12-ban-ben</id>
-    <content type="html"><![CDATA[<p>nodejs 0.12版本出來了，多了一些新的API，改進Cluster的功能此外ES6 的特性在0.11.9也可以開啟使用。</p>
-
-<!-- more -->
-
-
-<h3>Cork support for writable streams</h3>
-
-<p>這邊是提升tcp傳輸的效率，當數據流裡面的小數據結合成大數據在送出減少tcp和系統的調用。</p>
-
-<h3>tls module</h3>
-
-<p>原本nodejs的tls模塊的效率提高了，之前有使用過http模組的tls功能不過沒有測試過他的效率。</p>
-
-<h3>Crypto performance improvements</h3>
-
-<p>改進加解密演算法的速度，不過我比較常用的主要在session方面的加密</p>
-
-<h3>Reduced garbage collector strain</h3>
-
-<p>0.12版本改寫了關於context的部分<a href="https://github.com/joyent/node/commit/756b622">multi-context refactoring</a>，藉此減少v8在multi-context的情形下，
-不會讓V8一直處理關於handle的問題。</p>
-
-<h3>Better cluster performance</h3>
-
-<p>這個改進我有可能比較常用到，目前在作nodejs applicacion的架構優化並且希望機器的資源能充分使用，然後這篇<a href="http://strongloop.com/strongblog/whats-new-in-node-js-v0-12-cluster-round-robin-load-balancing/">post</a>有提到
-如何改進cluster的效率。</p>
-
-<h3>Faster timers, faster setImmediate(), faster process.nextTick()</h3>
-
-<p>這部分是提升像是setTimeout之類API的效率，這裡就不太清楚了。</p>
-
-<p>原文在此<a href="http://strongloop.com/strongblog/performance-node-js-v-0-12-whats-new/">node-js-v-0-12-whats-new</a></p>
 ]]></content>
   </entry>
   
