@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Data Analysis | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/data-analysis/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-05-12T23:07:07+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Beautiful Evidence]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/12/beautiful-evidence/"/>
+    <updated>2014-05-12T22:34:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/12/beautiful-evidence</id>
+    <content type="html"><![CDATA[<p><a href="http://www.edwardtufte.com/tufte/books_be">Beautiful Evidence</a> 是在 <code>深入淺出資料分析</code>裡面提到的一本書，作者是<a href="http://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>，是一位統計學家，
+在做資料視覺化的時，常會不知道要選擇哪種圖表而<a href="http://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>有提出一些準則可以參考，而<a href="http://www.edwardtufte.com/tufte/books_be">Beautiful Evidence</a>便是
+一本關於data visualization的書，作者還有另外一本著作<code>Data Analysis for Public Policy</code>似乎是跟數據分析相關的書，
+之後有時間在研究。</p>
+]]></content>
+  </entry>
+  
+</feed>

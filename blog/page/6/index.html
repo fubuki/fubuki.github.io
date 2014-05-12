@@ -9,9 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。
-https://github.com/HubSpot
-">
+  <meta name="description" content="celery 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。 It &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,99 @@ https://github.com/HubSpot
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/17/celery/">Celery</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-17T21:19:12+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/17/celery/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/17/celery/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。</p>
+
+<h1>It supports&hellip;</h1>
+
+<p><strong>Message Transports</strong></p>
+
+<p><strong>Concurrency</strong></p>
+
+<p><strong>Result Stores</strong></p>
+
+<p><strong>Serialization</strong></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/16/coffeescript/">Coffeescript</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-16T20:12:32+08:00" pubdate data-updated="true">Mar 16<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/16/coffeescript/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/16/coffeescript/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>CoffeeScript is a little language that compiles into JavaScript.</p>
+
+<p>可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
+等到Haskell比較熟練之類也許才能實際感覺到特別之處，目前暫時還是使用純javascript寫作。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -423,95 +516,6 @@ Function language的特性。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/">2013年參加過的活動</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-09T17:57:40+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ol>
-<li>osdc</li>
-<li>jsdc</li>
-<li>pycon</li>
-<li>coscup</li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/09/socket.io-shi-yong-xin-de/">socket.io 使用心得</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-09T15:57:12+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/09/socket.io-shi-yong-xin-de/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/09/socket.io-shi-yong-xin-de/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>記錄一下到目前使用socket.io遇到的問題。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/03/09/socket.io-shi-yong-xin-de/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -529,6 +533,14 @@ Function language的特性。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/05/12/beautiful-evidence/">Beautiful Evidence</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/05/12/carrot2-clustering-engine/">Carrot2 : Clustering Engine</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma/">研究jQuery原始碼</a>
       </li>
     
@@ -538,14 +550,6 @@ Function language的特性。</p>
     
       <li class="post">
         <a href="/blog/2014/05/04/old-ie-support-html5-tag/">Old IE Support Html5 Tag</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/05/03/jquery-core-1-dot-9-upgrade-guide/">jQuery Core 1.9 Upgrade Guide</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/05/02/tuan-dui-guan-li-gong-ju-qing-dan/">團隊管理工具清單</a>
       </li>
     
   </ul>
@@ -559,6 +563,7 @@ Function language的特性。</p>
   <li><a href='/blog/categories/book-lists'>Book lists (2)</a></li>
   <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
   <li><a href='/blog/categories/celery'>Celery (1)</a></li>
+  <li><a href='/blog/categories/data-analysis'>Data analysis (1)</a></li>
   <li><a href='/blog/categories/deep-learning'>Deep-learning (2)</a></li>
   <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
   <li><a href='/blog/categories/git'>Git (5)</a></li>
@@ -584,7 +589,7 @@ Function language的特性。</p>
   <li><a href='/blog/categories/sass'>Sass (1)</a></li>
   <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
   <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
-  <li><a href='/blog/categories/search-engine'>Search engine (3)</a></li>
+  <li><a href='/blog/categories/search-engine'>Search engine (4)</a></li>
   <li><a href='/blog/categories/server'>Server (1)</a></li>
   <li><a href='/blog/categories/socketio'>Socketio (4)</a></li>
   <li><a href='/blog/categories/solr'>Solr (1)</a></li>

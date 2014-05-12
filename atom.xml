@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-09T23:52:00+08:00</updated>
+  <updated>2014-05-12T23:07:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Beautiful Evidence]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/12/beautiful-evidence/"/>
+    <updated>2014-05-12T22:34:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/12/beautiful-evidence</id>
+    <content type="html"><![CDATA[<p><a href="http://www.edwardtufte.com/tufte/books_be">Beautiful Evidence</a> 是在 <code>深入淺出資料分析</code>裡面提到的一本書，作者是<a href="http://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>，是一位統計學家，
+在做資料視覺化的時，常會不知道要選擇哪種圖表而<a href="http://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>有提出一些準則可以參考，而<a href="http://www.edwardtufte.com/tufte/books_be">Beautiful Evidence</a>便是
+一本關於data visualization的書，作者還有另外一本著作<code>Data Analysis for Public Policy</code>似乎是跟數據分析相關的書，
+之後有時間在研究。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Carrot2 : Clustering Engine]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/12/carrot2-clustering-engine/"/>
+    <updated>2014-05-12T22:22:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/12/carrot2-clustering-engine</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/carrot2/carrot2">Carrot2</a> 一個開源的分類引擎，之前在學習solr的時候就有看到這個開源專案，在<a href="http://search.carrot2.org/stable/search">search</a>有一個Carrot2的範例，
+是針對搜尋引擎得到的結果做分類，Carrot2本身也可以和Solr集成，也能支援中文分詞器，之後研究一下內部使用哪些演算法和
+如何跟solr結合。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[研究jQuery原始碼]]></title>
@@ -629,61 +652,6 @@ LSI假設詞彙在類似的文句中會有相近的意思，LSI利用tf-idf建�
 <p><a href="http://en.wikipedia.org/wiki/Singular_value_decomposition">Singular value decomposition</a> (SVD) 奇異值分解，一種矩陣分解方法，LSA使用SVD讓原本很大的矩陣降維。</p>
 
 <p><a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> 找出一個詞彙在一個文件中的重要程度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr With Mongo-connector]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector/"/>
-    <updated>2014-04-19T15:51:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector</id>
-    <content type="html"><![CDATA[<p>solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
-定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。</p>
-
-<!-- more -->
-
-
-<p>solr與Mysql通訊是透過jdbc抓取資料庫裡的資料，而mongodb似乎也有類似的東西例如<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>和<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>，
-<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>網路有人使用過雖可以讓solr進行索引但是如果要跑增量索引就會出錯，<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>則沒看到有人使用在
-solr上的心得，之後有時間在測試。</p>
-
-<p>mongodb本身則有<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>這個解法，主要是利用Mongodb的oplog(類似Mysql的binlog)會記錄repset之間的操作，如此一來
-讓solr透過oplog就可以去更新索引並且由於oplog是即時的讓solr能更即時更新資料。</p>
-
-<p>如果要使用<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>首先要打開replset 產生oplog然後安裝mongo-connector，不過遇到一個奇妙的問題透過pip安裝後沒有直接
-連結到bin下之後透過git安裝就沒有問題了，要使用replset很簡單，就把/etc/mongodb.conf下面這段設定打開，</p>
-
-<pre><code># in replica set configuration, specify the name of the replica set
-replSet = example
-</code></pre>
-
-<p>之後在mongodb的shell裡下rs.initiate()指令即可，本台mongodb就變成PRIMARY了這時也可以加入其他台mongodb作replication，不過本次
-主要是要使用oplog讓solr導入資料製作索引就不需要加入其他台server了。</p>
-
-<p>接下來將照著github上Usage With Solr的說明使用即可，另外似乎可以搭配tailable cursor做出solr即時更新索引，之後在測試看看先加上
-其他中文分詞分析中文資料。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[四月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan/"/>
-    <updated>2014-04-17T22:54:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄四月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>The Clean Coder無暇的程式碼</li>
-<li>The Clean Coder無暇的程式碼 番外篇</li>
-<li>解密搜尋引擎 技術實戰</li>
-<li>易讀程式之美學－提升程式碼可讀性的簡單法則 (The Art of Readable Code)</li>
-<li>BAD DATA 技術手冊</li>
-<li>Interactive.Data.Visualization.for.the.Web</li>
-</ol>
-
 ]]></content>
   </entry>
   
