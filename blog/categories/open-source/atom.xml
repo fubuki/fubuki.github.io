@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-14T21:58:15+08:00</updated>
+  <updated>2014-05-17T22:33:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,205 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon 2014 First Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/17/pycon-2014-first-day/"/>
+    <updated>2014-05-17T21:27:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/17/pycon-2014-first-day</id>
+    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第一天(5/17)參加的議程</p>
+
+<!-- more -->
+
+
+<h2>python powered analytics for business</h2>
+
+<p>Wes McKinney<br/>
+<code>python for data analysis</code> 和 <code>pandas</code>的作者</p>
+
+<p>python&rsquo;s role in 2014 for analytics</p>
+
+<p>how did we get here
+where are we going</p>
+
+<p>BI</p>
+
+<p>ETL</p>
+
+<p>介紹一些學習資源
+nbviewer.ipython.org</p>
+
+<p>viable alternative</p>
+
+<ul>
+<li>R</li>
+<li>Julia</li>
+<li>Proprietary: SAS, SPSS, StatusModel</li>
+<li>JVMLand</li>
+</ul>
+
+
+<p>PyData conferences</p>
+
+<p>why did pandas succeed</p>
+
+<p>an api optimized for
+terminal friendliness
+conposablility</p>
+
+<p>it took avillage</p>
+
+<p>Cython Numpy</p>
+
+<p>maplotlib scipy</p>
+
+<p>statsmodels ipython</p>
+
+<h3>guiding principle</h3>
+
+<h3>make the easy things easy</h3>
+
+<p>讀取資料
+分析資料
+回歸模型</p>
+
+<p>Medium Data</p>
+
+<p>scikit-learn</p>
+
+<h3>pandas the good and bad</h3>
+
+<p>1.ecosystem compatibility</p>
+
+<p>2.design for broad appeal</p>
+
+<p>3.the big data problem</p>
+
+<h3>broader data trends</h3>
+
+<p>python r julia growing  at expense of prorietary tools</p>
+
+<p>jvm-based big data ecosystem</p>
+
+<p>concurrent multicore programing</p>
+
+<h3>future</h3>
+
+<h3>distributed in-memory data analysis</h3>
+
+<h3>staying competitive</h3>
+
+<h3>community building</h3>
+
+<p>介紹datapad的功能</p>
+
+<h2>real-time visualiztion with python and d3.js</h2>
+
+<p>grs stock</p>
+
+<p>大部分都是在介紹作者的視覺化圖形，這些都是用d3.js產生的。</p>
+
+<h2>VapourSynth come doet it indicate thare avisynth will shutdown</h2>
+
+<p>vapoursynth</p>
+
+<p>demo a movie 一些影像處理效果</p>
+
+<p>avisynth structure</p>
+
+<p>VFW</p>
+
+<p>簡介如何使用api和參數。</p>
+
+<h2>Graph-Tool: The Efficient Network Analyzing Tool for Python</h2>
+
+<p>如何使用 Graph-Tool</p>
+
+<p>ux</p>
+
+<p>pickle</p>
+
+<h3>cerntrality measures</h3>
+
+<p>建立圖形並且使用圖形演算法分析圖形</p>
+
+<p>簡單離散數學</p>
+
+<p>可以使用於拓鋪學</p>
+
+<p> betweenness centrality</p>
+
+<p>eigenvector centrality</p>
+
+<p>numpy nan</p>
+
+<p>Top N</p>
+
+<p>SFDF</p>
+
+<p>ARF</p>
+
+<h2>python and science</h2>
+
+<p>講解python 在科學計算上的歷史和進展</p>
+
+<p>beyond numpy: a whole ecosystem</p>
+
+<p>trending topic at strata conference 2011 &ndash; 2014</p>
+
+<p>cs 109</p>
+
+<p>numfocus.org</p>
+
+<p>book</p>
+
+<p><a href="https://wakari.io/">https://wakari.io/</a></p>
+
+<p><a href="http://fivethirtyeight.com/">http://fivethirtyeight.com/</a></p>
+
+<h2>DMRL: A versatile Python tool to assess DNA methylation variation and identify DMRs</h2>
+
+<p>DNA sodium bisulfite</p>
+
+<p>bisulfite sequence alignment</p>
+
+<p>t-test
+ANOVA
+Fisher `s exact test</p>
+
+<p>methylation distance</p>
+
+<p>比較DNA序列 PYSAM</p>
+
+<p>Analysis wordflow</p>
+
+<p>前面一大部分都在介紹關於DNA 的基礎知識提到一些甲基化的東西</p>
+
+<h2>Hacking Models with Python</h2>
+
+<p>寫改數學模型 cluster liner respresion</p>
+
+<p>view point</p>
+
+<h2>Data Analysis in Python</h2>
+
+<p>介紹 library</p>
+
+<p>matplotlb
+scikit-learn
+statsmodel
+numba
+blaze</p>
+
+<h2>閃電秀</h2>
+
+<p>web bof TDD</p>
+
+<p>midi listener</p>
+
+<p>tornado</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rubyconf 2014 Second Day]]></title>
