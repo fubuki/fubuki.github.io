@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-17T22:33:53+08:00</updated>
+  <updated>2014-05-18T19:53:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,193 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon 2014 Second Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/"/>
+    <updated>2014-05-18T19:30:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day</id>
+    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第二天(5/1)參加的議程</p>
+
+<!-- more -->
+
+
+<h3>Keynote: Jessica McKellar</h3>
+
+<p>在世界各地從海底到太空都有人使用到python</p>
+
+<p>data.goc.uk</p>
+
+<p>KLP</p>
+
+<p>python on windows</p>
+
+<p>python on mobile</p>
+
+<p>Can I build mobile apps in python</p>
+
+<p>kivy</p>
+
+<p>程式語言排行</p>
+
+<p>PyPL</p>
+
+<p>說到 emscripten asm.js nodejs</p>
+
+<p>Pythonjs skulpt brvthon  work with js</p>
+
+<p>interactivepython.org</p>
+
+<p>think in python</p>
+
+<p>bnmentp/runestone github</p>
+
+<p>PSF</p>
+
+<p>PyLadies</p>
+
+<p>Sprints</p>
+
+<p>Grants rapberry pi</p>
+
+<h3>What Is Async, How Does It Work, and When Should I Use It?</h3>
+
+<p>pubsub pattern</p>
+
+<p>提到c10k問題 實現非同步的做法</p>
+
+<p>前面大部分偷在講關於非同步的概念</p>
+
+<ol>
+<li>twisted</li>
+<li>tornado</li>
+</ol>
+
+
+<p>後面開始講 asyncio</p>
+
+<p>Yes:</p>
+
+<ul>
+<li>slow backend</li>
+<li>websockets</li>
+<li>many connections</li>
+</ul>
+
+
+<p>NO:</p>
+
+<ul>
+<li>cpu-bound</li>
+<li>no async driver</li>
+<li>no async expertise</li>
+</ul>
+
+
+<h3>Building a Knowledge Graph &ndash; the new search engine technology</h3>
+
+<p>介紹一下知識圖譜
+利用dbpedia(struct data from wiki) 的資料，使用python處理資料在丟在solr裡面。</p>
+
+<p>synonym SynonymFilterFactory</p>
+
+<p>介紹solr本身有的搜尋類型</p>
+
+<p>Data source</p>
+
+<p>data.gov.tw</p>
+
+<p>open api</p>
+
+<h3>How to integrate Python into a Scala stack to build realtime predictive models</h3>
+
+<p>異種語言平台
+跟ML沒有太大的關係。</p>
+
+<p>Fliptop machine learning</p>
+
+<ul>
+<li>mathout</li>
+<li>Weka</li>
+<li>Scikit-learn</li>
+</ul>
+
+
+<p>Weka GPL</p>
+
+<p>mathout有些演算法沒有完全實踐</p>
+
+<p>所以使用Scikit-learn，所以就介紹怎麼讓Python跟Scala黏合。</p>
+
+<h4>Jython</h4>
+
+<p>有些使用c寫成的python library就無法使用
+JyNI
+還是無法支援 Numpy</p>
+
+<h4>Jepp</h4>
+
+<p>會一直創建 python 直譯器</p>
+
+<h4>thrift</h4>
+
+<p>No scala generator
+scrooge</p>
+
+<p>auto load balance</p>
+
+<h4>REST API</h4>
+
+<p>bottle</p>
+
+<p>Thrift v.s. REST</p>
+
+<h3>Keynote: Stephen McDonald</h3>
+
+<p>主要在介紹作者寫的mezzanine專案</p>
+
+<p>mezzanine manage cms system</p>
+
+<p>mathspace.co
+kou.io</p>
+
+<p>cms > site</p>
+
+<p>講者怎麼建立 mezzanine
+<a href="http://bit.ly/MezzBegins">http://bit.ly/MezzBegins</a></p>
+
+<ol>
+<li>constraints</li>
+<li>simplicity</li>
+<li>just django</li>
+</ol>
+
+
+<p>bit.ly/MezzLego</p>
+
+<p>bit.ly/MezzPackages</p>
+
+<h3>以廣告品項為基礎的行動廣告推薦系統: 以 Python Hadoop Streaming 實作</h3>
+
+<p>廣告投放平台</p>
+
+<p>CTR
+Click Through rate</p>
+
+<p>Conversion Rate
+maximize converstions</p>
+
+<p>最後6分鐘才有重點</p>
+
+<h3>Poster Session</h3>
+
+<p>後面兩場議程都沒去聽，跑去聽Poster session。</p>
+
+<p>跟line的開發人員聊了不少關於line 的架構。<br/>
+另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
+處理類似的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2014 First Day]]></title>
@@ -203,12 +390,6 @@ numba
 blaze</p>
 
 <h2>閃電秀</h2>
-
-<p>web bof TDD</p>
-
-<p>midi listener</p>
-
-<p>tornado</p>
 ]]></content>
   </entry>
   
@@ -374,76 +555,6 @@ nodejs 0.12 提供yield的功能<br/>
 第二部分是在"中研院"辦了第零次向日葵數位體驗營的過程和心得。</p>
 
 <h3>Lightning Talks</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OSDC 2014 First Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/"/>
-    <updated>2014-04-11T21:23:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day</id>
-    <content type="html"><![CDATA[<p>記錄一下OSDC 2014第一天(4/11)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>How Public Lab collaborates to make environmental science something anyone can do</h3>
-
-<p>這議程讓我印象深刻，利用社群的力量關懷社會，使用風箏和數位相機做出空拍圖取得資料不一定要太昂貴的機器也可以達到相同的效果，
-只等待公家機關是不行的，藉由民間的力量關注環境的議題。<br/>
-<a href="http://publiclab.org/">publiclab</a></p>
-
-<h3>Using Open Standards and Open Source to Manage a Datacenter</h3>
-
-<p>這個議程介紹一些在管理資料中心時使用哪些技巧和使用哪些開源軟體，講者是在cloudMosa任職的，管理著'2k+ node'和 &lsquo;4個data center'。
-1. MRTG
-2. snmp
-3. specific MIBs
-4. RRD tool
-5. Munin</p>
-
-<h3>Sharding and Scale-out using MySQL Fabric</h3>
-
-<p>MySQL Fabric是oracle放出來用來擴展mysql的controller，讓程式透過Fabric存取mysql cluster，不過這場演講讓我印象深刻的是他說的英文還不錯，
-雖然有些地方還是有日本腔，但比我在日本旅行聽到的英文好的多。</p>
-
-<h3>MySQL Utility</h3>
-
-<p>跟上一場都是Oracle的講者，介紹在mysql workbench裡一個工具'MySQL Utility'，裡面有些功能在管理Mysql Cluster比較
-Master和Slave資料差別蠻有用的。</p>
-
-<h3>Getting started with Python for Data Science</h3>
-
-<p>介紹Data Science是什麼，列出一些Python 熱門的library和講者關注的library。</p>
-
-<h3>DIY一個Data Mining based的網路流量分析工具</h3>
-
-<p>講者是在康寧護專任職的網管，這場是介紹他寫的流量分析工具，不過似乎是基本的概念實現程式，裡面會有不少BUG，
-不過講者有放到網路上可以下載後改進架構。</p>
-
-<ol>
-<li>flow 格式的資料</li>
-<li>pmacct</li>
-<li>mysql</li>
-<li>php and perl</li>
-<li>mahout</li>
-<li>bootstrap and chartjs</li>
-</ol>
-
-
-<h3>Understanding Android Benchmarks</h3>
-
-<p>介紹Android Benchmarks有哪些方式，主要是測試CPU和Memory。</p>
-
-<h3>ProjectTox: Free as in freedom Skype replacement</h3>
-
-<p>之前就有看過ProjectTox，是為了取代Skype的開源通訊軟體，然後之所以有那麼多相關的分支是因為Tox本身是一個library，
-其他專案都是基於Tox建立的。</p>
-
-<h3>有 <del>愛</del> RAII 的 C++</h3>
-
-<p>這場比較硬一些，前面在講一些GC Language會遇到的問題並且給一些會導致Memory Leak的範例，
-之後在開始介紹C++的<a href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization">RAII</a>，這場主要在講程式關於記憶體方面的問題。</p>
 ]]></content>
   </entry>
   

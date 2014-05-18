@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-17T22:33:53+08:00</updated>
+  <updated>2014-05-18T19:53:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,193 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon 2014 Second Day]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/"/>
+    <updated>2014-05-18T19:30:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day</id>
+    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第二天(5/1)參加的議程</p>
+
+<!-- more -->
+
+
+<h3>Keynote: Jessica McKellar</h3>
+
+<p>在世界各地從海底到太空都有人使用到python</p>
+
+<p>data.goc.uk</p>
+
+<p>KLP</p>
+
+<p>python on windows</p>
+
+<p>python on mobile</p>
+
+<p>Can I build mobile apps in python</p>
+
+<p>kivy</p>
+
+<p>程式語言排行</p>
+
+<p>PyPL</p>
+
+<p>說到 emscripten asm.js nodejs</p>
+
+<p>Pythonjs skulpt brvthon  work with js</p>
+
+<p>interactivepython.org</p>
+
+<p>think in python</p>
+
+<p>bnmentp/runestone github</p>
+
+<p>PSF</p>
+
+<p>PyLadies</p>
+
+<p>Sprints</p>
+
+<p>Grants rapberry pi</p>
+
+<h3>What Is Async, How Does It Work, and When Should I Use It?</h3>
+
+<p>pubsub pattern</p>
+
+<p>提到c10k問題 實現非同步的做法</p>
+
+<p>前面大部分偷在講關於非同步的概念</p>
+
+<ol>
+<li>twisted</li>
+<li>tornado</li>
+</ol>
+
+
+<p>後面開始講 asyncio</p>
+
+<p>Yes:</p>
+
+<ul>
+<li>slow backend</li>
+<li>websockets</li>
+<li>many connections</li>
+</ul>
+
+
+<p>NO:</p>
+
+<ul>
+<li>cpu-bound</li>
+<li>no async driver</li>
+<li>no async expertise</li>
+</ul>
+
+
+<h3>Building a Knowledge Graph &ndash; the new search engine technology</h3>
+
+<p>介紹一下知識圖譜
+利用dbpedia(struct data from wiki) 的資料，使用python處理資料在丟在solr裡面。</p>
+
+<p>synonym SynonymFilterFactory</p>
+
+<p>介紹solr本身有的搜尋類型</p>
+
+<p>Data source</p>
+
+<p>data.gov.tw</p>
+
+<p>open api</p>
+
+<h3>How to integrate Python into a Scala stack to build realtime predictive models</h3>
+
+<p>異種語言平台
+跟ML沒有太大的關係。</p>
+
+<p>Fliptop machine learning</p>
+
+<ul>
+<li>mathout</li>
+<li>Weka</li>
+<li>Scikit-learn</li>
+</ul>
+
+
+<p>Weka GPL</p>
+
+<p>mathout有些演算法沒有完全實踐</p>
+
+<p>所以使用Scikit-learn，所以就介紹怎麼讓Python跟Scala黏合。</p>
+
+<h4>Jython</h4>
+
+<p>有些使用c寫成的python library就無法使用
+JyNI
+還是無法支援 Numpy</p>
+
+<h4>Jepp</h4>
+
+<p>會一直創建 python 直譯器</p>
+
+<h4>thrift</h4>
+
+<p>No scala generator
+scrooge</p>
+
+<p>auto load balance</p>
+
+<h4>REST API</h4>
+
+<p>bottle</p>
+
+<p>Thrift v.s. REST</p>
+
+<h3>Keynote: Stephen McDonald</h3>
+
+<p>主要在介紹作者寫的mezzanine專案</p>
+
+<p>mezzanine manage cms system</p>
+
+<p>mathspace.co
+kou.io</p>
+
+<p>cms > site</p>
+
+<p>講者怎麼建立 mezzanine
+<a href="http://bit.ly/MezzBegins">http://bit.ly/MezzBegins</a></p>
+
+<ol>
+<li>constraints</li>
+<li>simplicity</li>
+<li>just django</li>
+</ol>
+
+
+<p>bit.ly/MezzLego</p>
+
+<p>bit.ly/MezzPackages</p>
+
+<h3>以廣告品項為基礎的行動廣告推薦系統: 以 Python Hadoop Streaming 實作</h3>
+
+<p>廣告投放平台</p>
+
+<p>CTR
+Click Through rate</p>
+
+<p>Conversion Rate
+maximize converstions</p>
+
+<p>最後6分鐘才有重點</p>
+
+<h3>Poster Session</h3>
+
+<p>後面兩場議程都沒去聽，跑去聽Poster session。</p>
+
+<p>跟line的開發人員聊了不少關於line 的架構。<br/>
+另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
+處理類似的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2014 First Day]]></title>
@@ -203,12 +390,6 @@ numba
 blaze</p>
 
 <h2>閃電秀</h2>
-
-<p>web bof TDD</p>
-
-<p>midi listener</p>
-
-<p>tornado</p>
 ]]></content>
   </entry>
   
@@ -757,38 +938,6 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
 <h3>安裝Phalcon 模板</h3>
 
 <pre><code>    npm install generator-phalcon
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用git做程式碼debug]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/20/shi-yong-gitzuo-cheng-shi-ma-debug/"/>
-    <updated>2014-04-20T17:02:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/20/shi-yong-gitzuo-cheng-shi-ma-debug</id>
-    <content type="html"><![CDATA[<p>專案在多人協作的環境下有時會出現不明原因的bug，通常是因為撰寫的人沒有發現並且沒有經過良好的測試並且又併入主分支，
-這導致bug隱藏在程式碼裡面，這邊就記錄一下平常使用git來找出問題點的方法。</p>
-
-<!-- more -->
-
-
-<p>通常如果知道出錯在哪個檔案可以透過git blame的指令找出此檔案最後修改的人是誰並且還可以得知最後的commit，並且還能夠
-下條件限定在某些行數，下面的指令可以顯示 index.php 100行到150行之間的資訊另外我看可以下 <code>-C</code> 的選項可以顯示這段
-程式碼的原始出處不過我一般沒有在使用。</p>
-
-<pre><code>    git blame -L 100,150 index.php
-</code></pre>
-
-<p>另外一種情形是不知道問題是出錯在哪一個部分，這時可以使用<code>git bisect</code>，這個指令可以讓使用者決定從哪邊開始是運作良好
-的commit，然後現在是有問題的commit，接下來會顯示從正常到有問題的commit之間還有多少筆commit並且開一個<code>no branch</code>的
-分支使用者讓測試，如果目前的commit是測試出來是正常的狀態便可以下<code>git bisect good</code>告訴 bisect目前的commit是正確的，
-如果是錯誤的就可以下<code>git bisect bad</code>說目前是錯誤的狀態，直到確定是在哪一筆commit出錯的，結束後下<code>git bisect reset</code>
-就可以回到原本的開發環境。</p>
-
-<pre><code>    git bisect start 開始執行bisect
-    git bisect bad   目前的commit是有問題的
-    git bisect good [commit] 目前已知的正常狀態是哪一個commit
-    git bisect reset 結束 bisect
 </code></pre>
 ]]></content>
   </entry>
