@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-18T20:10:15+08:00</updated>
+  <updated>2014-05-21T22:24:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LINE Developer Conference]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/21/line-developer-conference/"/>
+    <updated>2014-05-21T21:54:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/21/line-developer-conference</id>
+    <content type="html"><![CDATA[<p>LINE Developer Conference</p>
+
+<!-- more -->
+
+
+<p>LINE的開發者聚會，介紹跟LINE有關的東西， 不過很可惜的詳細的內容不會公佈到網路上，而且參加者似乎只有150名，
+只能從網路上參加者的文章窺知一二。</p>
+
+<p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
+<a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
+<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2014 Second Day]]></title>
@@ -897,48 +916,6 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
 <li><a href="http://nlg.csie.ntu.edu.tw/courses/IR/IR2009.html">IR course</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yeoman Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/22/yeoman-tool/"/>
-    <updated>2014-04-22T23:37:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/22/yeoman-tool</id>
-    <content type="html"><![CDATA[<p><a href="http://yeoman.io/">Yeoman</a> 是一個開發工具，讓使用者能夠建立自己的專案環境，之前在使用Phalcon的時候都需要重新建立開發環境，
-之前有看到利用Yeoman建立Angularjs的專案現在就在網路上看到<a href="https://www.npmjs.org/package/generator-phalcon">generator-phalcon</a>建立專案。</p>
-
-<!-- more -->
-
-
-<h3>Yemoan 內容</h3>
-
-<ol>
-<li>yo</li>
-<li>Grunt</li>
-<li>Bower</li>
-</ol>
-
-
-<h3>安裝Yeoman</h3>
-
-<pre><code>    npm install -g yo
-</code></pre>
-
-<h3>建立angular的專案</h3>
-
-<pre><code>    npm install -g generator-angular  
-    yo angular                         
-    bower install angular-ui           
-    grunt test                         
-    grunt server                       
-    grunt                              
-</code></pre>
-
-<h3>安裝Phalcon 模板</h3>
-
-<pre><code>    npm install generator-phalcon
-</code></pre>
 ]]></content>
   </entry>
   
