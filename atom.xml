@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-21T22:24:38+08:00</updated>
+  <updated>2014-05-22T23:13:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rolling cURL]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/22/rolling-curl/"/>
+    <updated>2014-05-22T22:51:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/22/rolling-curl</id>
+    <content type="html"><![CDATA[<p>cURL 是用來模擬各種http請求的工具，PHP也使用這個工具來取得網頁內容，或是呼叫一些API，
+但是使用上會存在一些效能上的問題，如果只是單純呼叫cURL可能會阻塞住，就必須更加巧妙的去使用cURL。</p>
+
+<!-- more -->
+
+
+<p><a href="http://www.searchtb.com/2012/06/rolling-curl-best-practices.html">Rolling cURL: PHP并发最佳实践</a>這篇文章有提到兩種寫法，都是使用<a href="http://se2.php.net/manual/en/function.curl-multi-exec.php">curl_multi_exec</a>去實踐，但是實踐的
+方法不太一樣可以仔細研究，在github上面也有些專案例如:<a href="https://github.com/jmathai/php-multi-curl">php-multi-curl</a>，可以看看裡面的原理，以提高
+cURL並發下的效能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LINE Developer Conference]]></title>
@@ -885,37 +902,6 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
 語法規則可以參考<a href="http://markdown.tw/">markdown.tw</a>，原本我是使用sublime text搭配插件撰寫markdown但是沒辦法立即看到結果，就另外使用
 <a href="http://markdownpad.com/">markdownPad 2</a>撰寫文章，不過最近發現一個開源專案<a href="https://github.com/joemccann/dillinger">dillinger</a>讓可以直接在閱覽器上編輯markdown文件，也能夠支援一
 些雲端硬碟存取文件。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information Retrieval]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/23/information-retrieval/"/>
-    <updated>2014-04-23T21:42:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/23/information-retrieval</id>
-    <content type="html"><![CDATA[<p><a href="IR">Information_retrieval</a>是指使用者在搜尋資訊的過程，而搜尋的資料有文字、圖像、影片、聲音，建構一個IR System包括以下幾種領域:</p>
-
-<!-- more -->
-
-
-<ol>
-<li>自然語言處理</li>
-<li>計算語言學</li>
-<li>訊號處理</li>
-<li>認知心理學</li>
-<li>模式識別</li>
-<li>Metadata</li>
-</ol>
-
-
-<h3>參考資料</h3>
-
-<ol>
-<li><a href="http://nlp.stanford.edu/IR-book/">Introduction to Information Retrieval </a></li>
-<li><a href="http://www.mir2ed.org/">Modern Information Retrieval</a></li>
-<li><a href="http://nlg.csie.ntu.edu.tw/courses/IR/IR2009.html">IR course</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
