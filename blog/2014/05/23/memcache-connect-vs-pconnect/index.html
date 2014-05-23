@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Sass and Less - Learning Blog</title>
+  <title>Memcached Connect vs Pconnect - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，
-">
+  <meta name="description" content="memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用memcached遇到的問題。 memcached 有分 connect 和 pconnect兩種方法，但是connect會斷掉連線，而pconnect會將連接持久化 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/02/sass-and-less">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Sass and Less</h1>
+      <h1 class="entry-title">Memcached Connect vs Pconnect</h1>
     
     
       <p class="meta">
@@ -98,7 +98,7 @@
   
 
 
-<time datetime="2014-03-02T17:07:46+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2014</time>
+<time datetime="2014-05-23T21:31:20+08:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -108,7 +108,16 @@
   </header>
 
 
-<div class="entry-content"><p>可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，</p>
+<div class="entry-content"><p>memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用memcached遇到的問題。</p>
+
+<!-- more -->
+
+
+<p>memcached 有分 connect 和 pconnect兩種方法，但是connect會斷掉連線，而pconnect會將連接持久化，從curr_connections可以看出
+兩者的不同，同一個網頁重整conncet的curr_connections數值不會一直增加，但是pconnet會上升到一個上限。</p>
+
+<p>但是在網路上有看到人說 fastcgi方式用長連接是無效的，這邊還需要了解關於pconnect是如何實作的。</p>
 </div>
 
 
@@ -131,12 +140,12 @@
   
 
 
-<time datetime="2014-03-02T17:07:46+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2014</time>
+<time datetime="2014-05-23T21:31:20+08:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/less/'>less</a>, <a class='category' href='/blog/categories/sass/'>sass</a>
+    <a class='category' href='/blog/categories/php/'>php</a>
   
 </span>
 
@@ -152,10 +161,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/01/error-ssl-error-self-signed-cert-in-chain-while-using-npm/" title="Previous Post: Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' while using npm">&laquo; Error: SSL Error: SELF_SIGNED_CERT_IN_CHAIN' while using npm</a>
+        <a class="basic-alignment left" href="/blog/2014/05/22/rolling-curl/" title="Previous Post: Rolling cURL">&laquo; Rolling cURL</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/02/machine-learning/" title="Next Post: machine learning 相關書單">machine learning 相關書單 &raquo;</a>
       
     </p>
   </footer>
@@ -299,8 +306,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/02/sass-and-less/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/02/sass-and-less/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/';
         var disqus_script = 'embed.js';
       
     (function () {
