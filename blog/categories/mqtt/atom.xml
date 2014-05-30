@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mqtt | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mqtt/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-28T22:03:23+08:00</updated>
+  <updated>2014-05-30T21:15:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MQTT Bridge]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/30/mqtt-bridge/"/>
+    <updated>2014-05-30T20:57:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/30/mqtt-bridge</id>
+    <content type="html"><![CDATA[<p>關於mqtt bridge的功能。</p>
+
+<!-- more -->
+
+
+<p>日前在研究各種 <code>MQTT Broker</code> 的方案，市面上有許多方案可以使用，原本是使用<a href="https://github.com/mcollina/mosca">mosca</a>作為server但是在處理離線訊息和擴展性上
+有些問題，此外讓手機端連接 <a href="https://github.com/mcollina/mosca">mosca</a> 作測試會出現 connection reset的問題，因此換用 <a href="http://mosquitto.org/">Mosquitto</a>作為替代方案，使用上沒出現
+什麼問題，在擴展性上有<a href="http://mqtt.org/wiki/doku.php/bridge_protocol">bridge_protocol</a>這個方案，可以讓一台broker作為bridge讓其他broker透過bridge互相溝通，也支援離線訊息
+的功能，詳細設定可以參考<a href="http://mosquitto.org/man/mosquitto-conf-5.html">mosquitto-conf</a>的bridge部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mosca]]></title>
