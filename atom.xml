@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-30T21:15:08+08:00</updated>
+  <updated>2014-05-31T23:01:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NAVER Line Protocol]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/31/naver-line-protocol/"/>
+    <updated>2014-05-31T22:38:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/31/naver-line-protocol</id>
+    <content type="html"><![CDATA[<p>研究關於Line 的通訊架構。</p>
+
+<!-- more -->
+
+
+<p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
+另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
+規格表可以做為日後開發類似功能的參考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MQTT Bridge]]></title>
@@ -852,53 +868,6 @@ io.adapter(RedisStore({ host: host, port: port }));
 </code></pre>
 
 <p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rubyconf 2014 First Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day/"/>
-    <updated>2014-04-25T20:56:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day</id>
-    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第一天(4/25)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Understanding Typing, Understanding Ruby</h3>
-
-<p>關於靜態型別跟動態型別語言各自會遇到的問題，這場收益蠻多了前面提到一些以前型別的問題
-，並且也提到其他語言在處理型別的方法。</p>
-
-<h3>RubyMotion Gets A Cool New Friend: mruby on iOS</h3>
-
-<p>使用ruby開發ios app，以前孤陋寡聞沒看過這個工具以後有機會可以拿來試試看。</p>
-
-<h3>Practice: Refactoring with tests</h3>
-
-<p>在講重構，不過前面講很多重構很重要然後要需要好好測試，後面就只有講一點點ruby裡面
-要怎麼做&hellip;.</p>
-
-<h3>Matz: Keynote</h3>
-
-<p>ruby的生父的議程</p>
-
-<h3>Teo-Happy Teams</h3>
-
-<p>怎樣成為快樂團隊，議程中提到不少常見但是沒有實踐的開發方法或是。</p>
-
-<h3>Tell a good story with Ruby</h3>
-
-<p>講者學習ruby的過程和建構一個ruby程式</p>
-
-<h3>10 Things to Make API Users Like You</h3>
-
-<p>怎麼設計API，聽了之後沒有比較新穎的想法，大部分在以前設計API就有看過了，不過比較有共鳴的是
-產生api文件，以前都是手動一個個寫說明文件常常會有參數或是輸出值對不上的問題。</p>
-
-<h3>Make Your Rails Backstage Better</h3>
-
-<p>講者說一下他當初開發後台的經驗，從原本使用gem到自製後台，不過有可能我使用rails沒有多久所有沒有什麼心得。</p>
 ]]></content>
   </entry>
   

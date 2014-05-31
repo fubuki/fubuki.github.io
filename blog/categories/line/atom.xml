@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: LINE | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-05-31T23:01:31+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[NAVER Line Protocol]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/31/naver-line-protocol/"/>
+    <updated>2014-05-31T22:38:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/31/naver-line-protocol</id>
+    <content type="html"><![CDATA[<p>研究關於Line 的通訊架構。</p>
+
+<!-- more -->
+
+
+<p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
+另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
+規格表可以做為日後開發類似功能的參考。</p>
+]]></content>
+  </entry>
+  
+</feed>
