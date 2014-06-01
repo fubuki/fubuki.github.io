@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-31T23:01:31+08:00</updated>
+  <updated>2014-06-01T21:47:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[六月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan/"/>
+    <updated>2014-06-01T21:34:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄六月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>MySQL技術內幕︰InnoDB存儲引擎（第2版）</li>
+<li>MySQL技術內幕︰ SQL編程</li>
+<li>數學之美</li>
+<li>資料之美</li>
+<li>Mastering Node.js</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NAVER Line Protocol]]></title>
@@ -783,91 +804,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
 <p>利用 synvert工具作ruby 的重構。</p>
 
 <h3>lightning talk</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/"/>
-    <updated>2014-04-25T22:47:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0</id>
-    <content type="html"><![CDATA[<p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
-目前程式升級有影響的部分。</p>
-
-<!-- more -->
-
-
-<h2>Authentication differences</h2>
-
-<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
-
-<pre><code>io.set('authorization', function (handshakeData, callback) {
-
-});
-</code></pre>
-
-<p>現在有&#8217;io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
-
-<pre><code>io.use(function(socket, next) {
-    var handshakeData = socket.request;
-    // make sure the handshake data looks good as before
-    // if error do this:
-        // next(new Error('not authorized');
-    // else just call next
-    next();
-});
-</code></pre>
-
-<h2>Starting the server</h2>
-
-<p>以前會使用listen但是在1.0版本就不用了。</p>
-
-<pre><code>var io = require('socket.io').listen(server);
-</code></pre>
-
-<p>vs</p>
-
-<pre><code>var io = require('socket.io');
-var socket = io({ /* options */ })
-</code></pre>
-
-<h2>Exposed Events</h2>
-
-<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
-裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
-
-<h2>Configuration differences</h2>
-
-<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
-
-<pre><code>io.set(
-    'store' ,new RedisStore({
-        redisPub : pub,
-        redisSub : sub,
-        redisClient : client
-    })
-);
-</code></pre>
-
-<p>vs</p>
-
-<pre><code>var socket = require('socket.io')({
-    // options go here
-});
-</code></pre>
-
-<h2>socket.io-adapter</h2>
-
-<p>原本在0.9版本之前有<code>store</code>的選項，到1.0版本之後就拿掉了換成<code>adapter</code>，然後官方有放出<a href="https://github.com/LearnBoost/socket.io-adapter">socket.io-adapter</a>讓開發者可以
-自行擴展，另外有一個<a href="https://github.com/Automattic/socket.io-redis">socket.io-redis</a>是官方放出來的參考範例，使用方法如下面所述。</p>
-
-<pre><code>var socketio = require('socket.io');
-var RedisStore = require('socket.io-redis');
-var io = socketio(3000, {});
-io.adapter(RedisStore({ host: host, port: port }));
-</code></pre>
-
-<p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
 ]]></content>
   </entry>
   

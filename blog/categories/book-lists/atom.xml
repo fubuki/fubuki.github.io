@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-05-31T23:01:31+08:00</updated>
+  <updated>2014-06-01T21:47:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[六月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan/"/>
+    <updated>2014-06-01T21:34:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄六月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>MySQL技術內幕︰InnoDB存儲引擎（第2版）</li>
+<li>MySQL技術內幕︰ SQL編程</li>
+<li>數學之美</li>
+<li>資料之美</li>
+<li>Mastering Node.js</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[五月書單]]></title>
