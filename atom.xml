@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-01T21:47:37+08:00</updated>
+  <updated>2014-06-02T23:51:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 內核研究資源]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan/"/>
+    <updated>2014-06-02T23:50:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan</id>
+    <content type="html"><![CDATA[<p>深入理解PHP内核 <a href="http://www.php-internals.com/book/">http://www.php-internals.com/book/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[六月書單]]></title>
@@ -754,56 +763,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
 2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
 
 <p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rubyconf 2014 Second Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day/"/>
-    <updated>2014-04-26T20:29:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day</id>
-    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第二天(4/26)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Cores unleashed &ndash; Exploiting Parallelism in Ruby with STM (and a new VM)</h3>
-
-<p><a href="https://speakerdeck.com/brucehsu/rubyconf-dot-tw-2014-cores-unleashed-exploiting-parallelism-in-ruby-with-stm">slide</a></p>
-
-<h3>How the Principles of Ruby Inspired the Rails Girls Community</h3>
-
-<p>兩位講者如何認識，並且介紹Rails Girls社群怎麼成長的。</p>
-
-<h3>Ruby on Bioinformatics</h3>
-
-<p>使用ruby 處理生物資訊，列了不少gem但是有的是去使用其他語言的library吧，裡面也有提到使用neo4j處理
-個人的健康資料，不過跟ruby沒有太大的關係，現在比較常用還是perl和python吧。</p>
-
-<h3>the Guide to know Ruby implementation for non-C language programer</h3>
-
-<p>講者一開始說因為她的先生是寫ruby的programmer接觸ruby，之後就開始研究Ruby裡面的架構，
-講者介紹幾個方法去研究裡面的原始碼。</p>
-
-<h3>Growing Up &ndash; Bringing Concurrency to Ruby</h3>
-
-<p>一開始介紹jruby和jvm，然後說明 prcoess-level和thread-level的做法，concurency的法則和
-實現介紹一些實現no-block的library。</p>
-
-<h3>Extreme Makeover &ndash; Rubygems Edition</h3>
-
-<p>bundle，用來管理gem的依賴性，講者講了一些過去bundle的issue，ssl issue，搜尋Gem的效率過低，加上CDN，
-加入一些api，建立新的index。</p>
-
-<h3>sweaters as a service &ndash; adventures in electronic knitting</h3>
-
-<p>講者建立一個編織機器，只要上傳圖檔就可以編織出一個圖案，似乎是使用Ruby去控制不過沒有看到整個程式碼。</p>
-
-<h3>Improve and refactor ruby code easier</h3>
-
-<p>利用 synvert工具作ruby 的重構。</p>
-
-<h3>lightning talk</h3>
 ]]></content>
   </entry>
   
