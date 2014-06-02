@@ -3,7 +3,7 @@ layout: post
 title: "real-time-application"
 date: 2014-02-28 20:26:17 +0800
 comments: true
-categories: nodejs
+categories: ["nodejs"]
 ---
 
 *** nodejs + socket.io + redis ***

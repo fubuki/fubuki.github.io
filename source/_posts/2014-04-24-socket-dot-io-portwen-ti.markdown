@@ -3,7 +3,7 @@ layout: post
 title: "socket.io Port問題"
 date: 2014-04-24 23:09:10 +0800
 comments: true
-categories: ["socket.io"]
+categories: ["socketio"]
 ---
 
 前端連接socket.io server遇到port問題的解決方法。

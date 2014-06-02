@@ -3,7 +3,7 @@ layout: post
 title: "socket.io 使用心得"
 date: 2014-03-09 15:57:12 +0800
 comments: true
-categories: ["socket.io"]
+categories: ["socketio"]
 ---
 
 記錄一下到目前使用socket.io遇到的問題。

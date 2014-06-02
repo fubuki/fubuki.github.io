@@ -3,7 +3,7 @@ layout: post
 title: "Socket.io Migrating to 1.0"
 date: 2014-04-25 22:47:54 +0800
 comments: true
-categories: ["socket.io"]
+categories: ["socketio"]
 ---
 
 socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇[Migrating-to-1.0]可以參考，這邊就記錄
