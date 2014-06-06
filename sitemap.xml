@@ -443,12 +443,18 @@
         <lastmod>2014-06-05T23:54:51+08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/
+        </loc>
+        <lastmod>2014-06-06T22:58:54+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-06-05T23:54:51+08:00</lastmod>
+        <lastmod>2014-06-06T22:58:54+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -456,6 +462,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-06-05T23:54:51+08:00</lastmod>
+        <lastmod>2014-06-06T22:58:54+08:00</lastmod>
     </url>
 </urlset>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-05T23:54:59+08:00</updated>
+  <updated>2014-06-06T22:59:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook Login JavaScript SDK 在 Webview下的問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/"/>
+    <updated>2014-06-06T22:31:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti</id>
+    <content type="html"><![CDATA[<p>在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
+，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout
+出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
+讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
+避免登入後會出現空白頁的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gearman 和 Beanstalk]]></title>
@@ -733,29 +746,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
 <li><a href="https://saucelabs.com/">Sauce Labs</a></li>
 <li><a href="http://www.zabbix.com/">Zabbix</a></li>
 <li><a href="https://circleci.com/">CircleCI</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[五月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan/"/>
-    <updated>2014-04-30T23:36:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/30/wu-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄五月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>Testable.JavaScript</li>
-<li>Google軟體測試之道</li>
-<li>JavaScript The Definitive Guide</li>
-<li>JavaScript Patterns</li>
-<li>Learning JavaScript Design Patterns</li>
-<li>社群網站的資料探勘</li>
-<li>jQuery技术内幕：深入解析jQuery架构设计与实现原理</li>
 </ol>
 
 ]]></content>
