@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-06T22:59:06+08:00</updated>
+  <updated>2014-06-08T23:59:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scaling Mqtt Server]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/08/scaling-mqtt-server/"/>
+    <updated>2014-06-08T23:59:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/08/scaling-mqtt-server</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook Login JavaScript SDK 在 Webview下的問題]]></title>
@@ -723,29 +732,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
 <li>$(&ldquo;input&rdquo;).attr(&ldquo;type&rdquo;, newValue) in oldIE</li>
 <li>&ldquo;hover&rdquo; pseudo-event</li>
 <li>移除一些jQuery沒有寫出來了函式拿掉 例如:jQuery.clean()。</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[團隊管理工具清單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/02/tuan-dui-guan-li-gong-ju-qing-dan/"/>
-    <updated>2014-05-02T23:24:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/02/tuan-dui-guan-li-gong-ju-qing-dan</id>
-    <content type="html"><![CDATA[<p>記錄一下其他公司使用的開發工具。</p>
-
-<!-- more -->
-
-
-<ol>
-<li><a href="https://basecamp.com/">Basecamp</a></li>
-<li><a href="http://airbrake.io/">Airbrake</a></li>
-<li><a href="http://newrelic.com/">New Relic</a></li>
-<li><a href="https://codeclimate.com/">Code Climate</a></li>
-<li><a href="https://saucelabs.com/">Sauce Labs</a></li>
-<li><a href="http://www.zabbix.com/">Zabbix</a></li>
-<li><a href="https://circleci.com/">CircleCI</a></li>
 </ol>
 
 ]]></content>
