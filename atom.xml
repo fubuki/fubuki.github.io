@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-08T23:59:10+08:00</updated>
+  <updated>2014-06-09T22:34:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,31 @@
     <link href="http://fubuki.github.io/blog/2014/06/08/scaling-mqtt-server/"/>
     <updated>2014-06-08T23:59:01+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/08/scaling-mqtt-server</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>目前測試過幾套mqtt broker，記錄一下使用過的心得和擴展方案。</p>
+
+<!-- more -->
+
+
+<p>目前用過以下幾種broker:<br/>
+1. <a href="https://github.com/mcollina/mosca">mosca</a><br/>
+2. <a href="http://www.rabbitmq.com/">rabbitmq</a><br/>
+3. <a href="http://mosquitto.org/">mosquitto</a></p>
+
+<h2>mosca</h2>
+
+<p>使用node.js寫成的broker，負責pubsub和持久化的部分可以由使用者自行自訂，程式碼也不會太過於龐大，原本
+要使用這個當mqtt server在擴展上可以透過共用pubsub和持久化的部分擴展，不過在處理offline message上有問題就放棄了。</p>
+
+<h2>rabbitmq</h2>
+
+<p>使用erlang寫成的broker，rabbitmq透過plugin的方式支援mqtt協定，支援到mqtt 3.1，rabbitmq原本就支援
+cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同時也能處理offline message的問題。</p>
+
+<h2>mosquitto</h2>
+
+<p>使用C語言寫成的，原本是利用mosquitto的bridge架構擴展server，不過在測試offline message的時候沒有辦法
+處理session的問題，server之間沒有共享session，但是如果能夠自行處理offline message的問題 mosquitto
+也是個不錯的選擇。</p>
 ]]></content>
   </entry>
   
