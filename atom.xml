@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-09T22:34:47+08:00</updated>
+  <updated>2014-06-10T22:08:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mosquitto Bridge Conf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/10/mosquitto-bridge-conf/"/>
+    <updated>2014-06-10T22:04:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/10/mosquitto-bridge-conf</id>
+    <content type="html"><![CDATA[<p>記錄一下 mosquitto bridge config的部分</p>
+
+<!-- more -->
+
+
+<p>cleansession</p>
+
+<p>當網路斷線的時候要不要清掉remote broker的連線資訊和訊息，預設是 false，但是不論是true 或是 false在某些情形下都會有問題。</p>
+
+<p>round_robin
+如果有多個bridge server 當第一個server當掉就會跳第二個server，然後會有兩種情形，會不會一直去測試第一個server能不能
+連接，或是直到當第二個server當掉才會去連接第一個server。</p>
+
+<p>start_type [ automatic | lazy | once ]</p>
+
+<p>automatic 會自動連接上bridge server。</p>
+
+<p>lazy 當收到的訊息超過一個門檻才會連接bridge server 當經過一個idle timeout 會斷開連結，這是為了在
+使用者只希望有需要發送訊息的時候才會連接 server</p>
+
+<p>once 會自動連接bridge server但是如果連接失敗就不會重連接。</p>
+
+<p>threshold count
+給start_type lazy使用，當收到多少訊息才會重開(從上面來看應該是連接bridge server才對)</p>
+
+<p>topic pattern [[[ out | in | both ] qos-level] local-prefix remote-prefix]</p>
+
+<p>topic # both 2 local/topic/ remote/topic/</p>
+
+<p>有哪些 topic會被分享給其他broker，並且可以重新對應topic的部分。</p>
+
+<p>try_private [ true | false ]</p>
+
+<p>設定這個server是一個bridge或是一個普通的客戶端，如果是這個sever是一個bridge會有loop detection，
+因此會消耗一些效能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scaling Mqtt Server]]></title>
@@ -725,39 +768,6 @@ jQuery 1.9以前的版本有jQuery.clean 會負責處理舊版IE在插入新的t
 
 <p>另外還有<code>display:inline</code>的問題，在閱覽器在解釋不支援的tag時樣式會預設為<code>display:inline</code>
 所以要Reset CSS。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery Core 1.9 Upgrade Guide]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/03/jquery-core-1-dot-9-upgrade-guide/"/>
-    <updated>2014-05-03T19:07:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/03/jquery-core-1-dot-9-upgrade-guide</id>
-    <content type="html"><![CDATA[<p>jQuery升級到1.9需要注意的事項。</p>
-
-<!-- more -->
-
-
-<p>詳細的內容在官網的<a href="http://jquery.com/upgrade-guide/1.9/">1.9 Upgrade Guide</a>有詳細說明，目前網站最常用的通常是1.7的版本，
-如果要遷移到1.9的版本要注意一下，因為1.9版本改變幅度蠻大的，之前在工作中一些寫法和
-plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href="https://github.com/jquery/jquery-migrate">jquery-migrate</a>讓開發者使用
-以前的特性，但是要注意有些特性就算裝上plugin也無法復原。</p>
-
-<h2>記錄一下工作上影響比較大的部分</h2>
-
-<ol>
-<li>拿掉.toggle(function, function, &hellip; ) 的用法，</li>
-<li>拿掉 jQuery.browser() 使用 Modernizr偵測閱覽器是否支援這個功能比較好。</li>
-<li>拿掉 live換用 on 。</li>
-<li>拿掉 die 換用 off 。</li>
-<li>Ajax 的全域事件要綁在document上面。</li>
-<li>jQuery(htmlString) versus jQuery(selectorString)</li>
-<li>.attr() versus .prop()</li>
-<li>$(&ldquo;input&rdquo;).attr(&ldquo;type&rdquo;, newValue) in oldIE</li>
-<li>&ldquo;hover&rdquo; pseudo-event</li>
-<li>移除一些jQuery沒有寫出來了函式拿掉 例如:jQuery.clean()。</li>
-</ol>
-
 ]]></content>
   </entry>
   
