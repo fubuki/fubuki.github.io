@@ -457,12 +457,16 @@
         <lastmod>2014-06-10T22:08:41+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/</loc>
+        <lastmod>2014-06-12T23:41:39+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-06-10T22:08:41+08:00</lastmod>
+        <lastmod>2014-06-12T23:41:39+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -470,6 +474,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-06-10T22:08:41+08:00</lastmod>
+        <lastmod>2014-06-12T23:41:39+08:00</lastmod>
     </url>
 </urlset>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-10T22:08:50+08:00</updated>
+  <updated>2014-06-12T23:45:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 參數文件和日誌]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/"/>
+    <updated>2014-06-12T23:41:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mosquitto Bridge Conf]]></title>
@@ -745,29 +754,6 @@ header('X-Accel-Redirect: '.$filePath);
 X-Accel-Buffering: yes|no
 X-Accel-Charset: utf-8
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Old IE Support Html5 Tag]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag/"/>
-    <updated>2014-05-04T20:28:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag</id>
-    <content type="html"><![CDATA[<p>舊版本IE支援 html5的方法<a href="https://github.com/aFarkas/html5shiv">html5shiv</a></p>
-
-<!-- more -->
-
-
-<pre><code>&lt;!--[if lt IE 9]&gt;
-    &lt;script src="bower_components/html5shiv/html5shiv.js"&gt;&lt;/script&gt;
-&lt;![endif]--&gt;
-</code></pre>
-
-<p>jQuery 有 jQuery.support.html5Clone 會檢查閱覽器是否支援html5的tag，在
-jQuery 1.9以前的版本有jQuery.clean 會負責處理舊版IE在插入新的tag會遇到的issue。</p>
-
-<p>另外還有<code>display:inline</code>的問題，在閱覽器在解釋不支援的tag時樣式會預設為<code>display:inline</code>
-所以要Reset CSS。</p>
 ]]></content>
   </entry>
   
