@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-12T23:45:12+08:00</updated>
+  <updated>2014-06-13T23:44:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,24 @@
     <link href="http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/"/>
     <updated>2014-06-12T23:41:39+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<h2>日誌</h2>
+
+<ol>
+<li>錯誤日誌</li>
+<li>慢查詢日誌</li>
+<li>查詢日誌</li>
+<li>二進位日誌</li>
+</ol>
+
+
+<h2>文件</h2>
+
+<ol>
+<li>表結構定義文件</li>
+<li>InnoDB儲存引擎文件</li>
+<li>參數文件</li>
+</ol>
+
 ]]></content>
   </entry>
   
