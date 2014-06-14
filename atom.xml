@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-13T23:44:48+08:00</updated>
+  <updated>2014-06-14T23:18:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox Os App Development]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development/"/>
+    <updated>2014-06-14T23:12:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="https://github.com/soapdog/firefoxos-quick-guide">firefoxos-quick-guide</a></li>
+<li><a href="http://www.slideshare.net/benko/how-to-start-developing-apps-for-firefox-os">how-to-start-developing-apps-for-firefox-os</a></li>
+<li><a href="https://developer.mozilla.org/zh-TW/Firefox_OS/Screencast_series:_App_Basics_for_Firefox_OS">App_Basics_for_Firefox_OS</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 參數文件和日誌]]></title>
@@ -713,64 +727,6 @@ blaze</p>
 <p>要研究jQuery的原始碼可以先看<a href="http://robflaherty.github.io/jquery-annotated-source/">jquery-annotated-source</a>，裡面的版本是<code>1.6</code>有點舊，如果要看中文版可以推薦
 看&#8221;jQuery 技术内幕&#8221;這本書，雖然版本是<code>1.7</code>也算足夠了，如果要看最新的可以去<a href="https://github.com/jquery/jquery">jQuery</a>看到尚未編譯的原始碼，
 可以看到jQuery分成好幾個區塊，可以看到jQuery怎麼實現那些有趣的功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Xsendfile 提升下載性能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng/"/>
-    <updated>2014-05-07T21:21:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/07/shi-yong-xsendfile-ti-sheng-xia-zai-xing-neng</id>
-    <content type="html"><![CDATA[<p>X-sendfile 可以讓Server控制下載的流程，讓開發者可以透過傳送特定的header控制存取檔案的權限。</p>
-
-<!-- more -->
-
-
-<p>下面三種伺服器支援的header，伺服器不一定會預設支援X-sendfile，需要自己開啟相關的模組。</p>
-
-<table border="1">
- <tr>
-  <th>     web server  </th>
-  <th>     header  </th>
- </tr>
- <tr>
-  <td>     apache  </td>
-  <td>     X-Sendfile  </td>
- </tr>
- <tr>
-  <td>     nginx  </td>
-  <td>     X-Accel-Redirect  </td>
- </tr>
- <tr>
-  <td>     lighttpd  </td>
-  <td>     X-LIGHTTPD-send-file  </td>
- </tr>
-</table>
-
-
-<p>nginx下 php的寫法。</p>
-
-<pre><code>&lt;?php
-$filePath = '/download/example.rar';
-header('Content-type: application/octet-stream');
-header('Content-Disposition: attachment; filename="' . basename($file) . '"');
-header('X-Accel-Redirect: '.$filePath);
-</code></pre>
-
-<p>nginx的 config設定。</p>
-
-<pre><code>location /protected/ {
-    internal;
-    alias   /some/path/; # note the trailing slash
-}
-</code></pre>
-
-<p>nginx header參數</p>
-
-<pre><code>X-Accel-Limit-Rate: 1024
-X-Accel-Buffering: yes|no
-X-Accel-Charset: utf-8
-</code></pre>
 ]]></content>
   </entry>
   
