@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-14T23:18:58+08:00</updated>
+  <updated>2014-06-14T23:22:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -22,6 +22,7 @@
 <li><a href="https://github.com/soapdog/firefoxos-quick-guide">firefoxos-quick-guide</a></li>
 <li><a href="http://www.slideshare.net/benko/how-to-start-developing-apps-for-firefox-os">how-to-start-developing-apps-for-firefox-os</a></li>
 <li><a href="https://developer.mozilla.org/zh-TW/Firefox_OS/Screencast_series:_App_Basics_for_Firefox_OS">App_Basics_for_Firefox_OS</a></li>
+<li><a href="http://buildingfirefoxos.com/">buildingfirefoxos</a></li>
 </ol>
 
 ]]></content>
