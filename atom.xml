@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-14T23:22:17+08:00</updated>
+  <updated>2014-06-15T23:56:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 分區表]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao/"/>
+    <updated>2014-06-15T23:49:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao</id>
+    <content type="html"><![CDATA[<p>記錄一下在MySQL下 分區表的種類和用法。</p>
+
+<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox Os App Development]]></title>
@@ -712,22 +724,6 @@ blaze</p>
     <content type="html"><![CDATA[<p><a href="https://github.com/carrot2/carrot2">Carrot2</a> 一個開源的分類引擎，之前在學習solr的時候就有看到這個開源專案，在<a href="http://search.carrot2.org/stable/search">search</a>有一個Carrot2的範例，
 是針對搜尋引擎得到的結果做分類，Carrot2本身也可以和Solr集成，也能支援中文分詞器，之後研究一下內部使用哪些演算法和
 如何跟solr結合。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[研究jQuery原始碼]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma/"/>
-    <updated>2014-05-09T23:04:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/09/yan-jiu-jqueryyuan-shi-ma</id>
-    <content type="html"><![CDATA[<p>記錄一下研究jQuery的過程和方式。</p>
-
-<!-- more -->
-
-
-<p>要研究jQuery的原始碼可以先看<a href="http://robflaherty.github.io/jquery-annotated-source/">jquery-annotated-source</a>，裡面的版本是<code>1.6</code>有點舊，如果要看中文版可以推薦
-看&#8221;jQuery 技术内幕&#8221;這本書，雖然版本是<code>1.7</code>也算足夠了，如果要看最新的可以去<a href="https://github.com/jquery/jquery">jQuery</a>看到尚未編譯的原始碼，
-可以看到jQuery分成好幾個區塊，可以看到jQuery怎麼實現那些有趣的功能。</p>
 ]]></content>
   </entry>
   

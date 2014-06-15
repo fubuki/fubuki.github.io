@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-14T23:22:17+08:00</updated>
+  <updated>2014-06-15T23:56:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 分區表]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao/"/>
+    <updated>2014-06-15T23:49:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao</id>
+    <content type="html"><![CDATA[<p>記錄一下在MySQL下 分區表的種類和用法。</p>
+
+<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 參數文件和日誌]]></title>
