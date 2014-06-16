@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-15T23:56:34+08:00</updated>
+  <updated>2014-06-16T21:48:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,6 +21,28 @@
     <content type="html"><![CDATA[<p>記錄一下在MySQL下 分區表的種類和用法。</p>
 
 <!-- more -->
+
+
+<h2>種類</h2>
+
+<ol>
+<li>RANGE分區</li>
+<li>LIST分區</li>
+<li>HASH分區</li>
+<li>KEY分區</li>
+<li>COLUMNS分區</li>
+</ol>
+
+
+<h2>用法</h2>
+
+<ol>
+<li>子分區</li>
+<li>根據日期作RANGE分區優化查詢速度</li>
+<li>LIST分區用於不連續離散的數值</li>
+<li>HASH和KEY用來均勻的分配數據到各個分區</li>
+<li>COLUMNS用在非整數類型的數值欄位</li>
+</ol>
 
 ]]></content>
   </entry>

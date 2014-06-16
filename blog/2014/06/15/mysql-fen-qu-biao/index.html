@@ -9,7 +9,15 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下在MySQL下 分區表的種類和用法。 ">
+  <meta name="description" content="記錄一下在MySQL下 分區表的種類和用法。 種類 RANGE分區
+LIST分區
+HASH分區
+KEY分區
+COLUMNS分區 用法 子分區
+根據日期作RANGE分區優化查詢速度
+LIST分區用於不連續離散的數值
+HASH和KEY用來均勻的分配數據到各個分區
+COLUMNS用在非整數類型的數值欄位 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -110,6 +118,28 @@
 <div class="entry-content"><p>記錄一下在MySQL下 分區表的種類和用法。</p>
 
 <!-- more -->
+
+
+<h2>種類</h2>
+
+<ol>
+<li>RANGE分區</li>
+<li>LIST分區</li>
+<li>HASH分區</li>
+<li>KEY分區</li>
+<li>COLUMNS分區</li>
+</ol>
+
+
+<h2>用法</h2>
+
+<ol>
+<li>子分區</li>
+<li>根據日期作RANGE分區優化查詢速度</li>
+<li>LIST分區用於不連續離散的數值</li>
+<li>HASH和KEY用來均勻的分配數據到各個分區</li>
+<li>COLUMNS用在非整數類型的數值欄位</li>
+</ol>
 
 </div>
 
