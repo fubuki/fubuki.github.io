@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-16T21:48:30+08:00</updated>
+  <updated>2014-06-16T23:25:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Telegram 新興的通訊軟體]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/16/xin-xing-de-tong-xun-ruan-ti/"/>
+    <updated>2014-06-16T23:08:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/16/xin-xing-de-tong-xun-ruan-ti</id>
+    <content type="html"><![CDATA[<p>最近在研究firefox os 的時候看到了<a href="https://telegram.org/">Telegram</a> 這款通訊軟體，他將API和通訊協定開源出來讓使用者可以建構自己的Client端，
+到目前有看到有好幾種平台的專案，在<a href="https://telegram.org/">Telegram</a>的官網可以看到不少特點，其中比較讓我看到興趣的安全性的特性，不過他卻沒有
+放出關於SERVER部分的架構還蠻可惜的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 分區表]]></title>
@@ -735,17 +746,6 @@ blaze</p>
 在做資料視覺化的時，常會不知道要選擇哪種圖表而<a href="http://en.wikipedia.org/wiki/Edward_Tufte">Edward Tufte</a>有提出一些準則可以參考，而<a href="http://www.edwardtufte.com/tufte/books_be">Beautiful Evidence</a>便是
 一本關於data visualization的書，作者還有另外一本著作<code>Data Analysis for Public Policy</code>似乎是跟數據分析相關的書，
 之後有時間在研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Carrot2 : Clustering Engine]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/12/carrot2-clustering-engine/"/>
-    <updated>2014-05-12T22:22:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/12/carrot2-clustering-engine</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/carrot2/carrot2">Carrot2</a> 一個開源的分類引擎，之前在學習solr的時候就有看到這個開源專案，在<a href="http://search.carrot2.org/stable/search">search</a>有一個Carrot2的範例，
-是針對搜尋引擎得到的結果做分類，Carrot2本身也可以和Solr集成，也能支援中文分詞器，之後研究一下內部使用哪些演算法和
-如何跟solr結合。</p>
 ]]></content>
   </entry>
   
