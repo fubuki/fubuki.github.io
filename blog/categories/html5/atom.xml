@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: HTML5 | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/html5/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-06-17T22:00:36+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HTML5 SSE]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/17/html5-sse/"/>
+    <updated>2014-06-17T21:40:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/17/html5-sse</id>
+    <content type="html"><![CDATA[<p>SSE全名為 Server-Sent Events 屬於HTML5的API， 讓Server端可以更新Client端的資料，看起來跟websocket很像，
+不過SSE是單向的，只能讓Server透過SSE傳輸資料給Client而websocket則是可以雙向的，不過如果只需要由Server
+即時更新資料給Client的應用例如顯示新聞或是股市的資料應該蠻適合的。</p>
+]]></content>
+  </entry>
+  
+</feed>
