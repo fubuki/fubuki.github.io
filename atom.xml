@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-17T22:00:36+08:00</updated>
+  <updated>2014-06-18T23:13:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached 1MB Limit]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit/"/>
+    <updated>2014-06-18T23:06:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit</id>
+    <content type="html"><![CDATA[<p>memcached在儲存單筆記錄的時候會有個限制，每筆記錄只能存放最大1MB的大小，以前沒有遇過這種問題，但是在最近一個
+專案上面突然遇到快取沒有作用的問題，後來發現有可能是存放的資料大於1MB的問題，在<a href="http://docs.oracle.com/cd/E17952_01/refman-5.6-en/ha-memcached-faq.html">ha-memcached-faq</a>裡面有說為什麼
+預設1MB和如何調整大小。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Conf 設定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/"/>
+    <updated>2014-06-18T22:56:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding</id>
+    <content type="html"><![CDATA[<p>記錄關於nginx 設定檔的配置。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML5 SSE]]></title>
@@ -537,214 +557,6 @@ maximize converstions</p>
 <p>跟line的開發人員聊了不少關於line 的架構。<br/>
 另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
 處理類似的東西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2014 First Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/17/pycon-2014-first-day/"/>
-    <updated>2014-05-17T21:27:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/17/pycon-2014-first-day</id>
-    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第一天(5/17)參加的議程</p>
-
-<!-- more -->
-
-
-<h2>python powered analytics for business</h2>
-
-<p>Wes McKinney<br/>
-<code>python for data analysis</code> 和 <code>pandas</code>的作者</p>
-
-<p>python&rsquo;s role in 2014 for analytics</p>
-
-<p>how did we get here
-where are we going</p>
-
-<p>BI</p>
-
-<p>ETL</p>
-
-<p>介紹一些學習資源
-nbviewer.ipython.org</p>
-
-<p>viable alternative</p>
-
-<ul>
-<li>R</li>
-<li>Julia</li>
-<li>Proprietary: SAS, SPSS, StatusModel</li>
-<li>JVMLand</li>
-</ul>
-
-
-<p>PyData conferences</p>
-
-<p>why did pandas succeed</p>
-
-<p>an api optimized for
-terminal friendliness
-conposablility</p>
-
-<p>it took avillage</p>
-
-<p>Cython Numpy</p>
-
-<p>maplotlib scipy</p>
-
-<p>statsmodels ipython</p>
-
-<h3>guiding principle</h3>
-
-<h3>make the easy things easy</h3>
-
-<p>讀取資料
-分析資料
-回歸模型</p>
-
-<p>Medium Data</p>
-
-<p>scikit-learn</p>
-
-<h3>pandas the good and bad</h3>
-
-<p>1.ecosystem compatibility</p>
-
-<p>2.design for broad appeal</p>
-
-<p>3.the big data problem</p>
-
-<h3>broader data trends</h3>
-
-<p>python r julia growing  at expense of prorietary tools</p>
-
-<p>jvm-based big data ecosystem</p>
-
-<p>concurrent multicore programing</p>
-
-<h3>future</h3>
-
-<h3>distributed in-memory data analysis</h3>
-
-<h3>staying competitive</h3>
-
-<h3>community building</h3>
-
-<p>介紹datapad的功能</p>
-
-<h2>real-time visualiztion with python and d3.js</h2>
-
-<p>grs stock</p>
-
-<p>大部分都是在介紹作者的視覺化圖形，這些都是用d3.js產生的。</p>
-
-<h2>VapourSynth come doet it indicate thare avisynth will shutdown</h2>
-
-<p>vapoursynth</p>
-
-<p>demo a movie 一些影像處理效果</p>
-
-<p>avisynth structure</p>
-
-<p>VFW</p>
-
-<p>簡介如何使用api和參數。</p>
-
-<h2>Graph-Tool: The Efficient Network Analyzing Tool for Python</h2>
-
-<p>如何使用 Graph-Tool</p>
-
-<p>ux</p>
-
-<p>pickle</p>
-
-<h3>cerntrality measures</h3>
-
-<p>建立圖形並且使用圖形演算法分析圖形</p>
-
-<p>簡單離散數學</p>
-
-<p>可以使用於拓鋪學</p>
-
-<p> betweenness centrality</p>
-
-<p>eigenvector centrality</p>
-
-<p>numpy nan</p>
-
-<p>Top N</p>
-
-<p>SFDF</p>
-
-<p>ARF</p>
-
-<h2>python and science</h2>
-
-<p>講解python 在科學計算上的歷史和進展</p>
-
-<p>beyond numpy: a whole ecosystem</p>
-
-<p>trending topic at strata conference 2011 &ndash; 2014</p>
-
-<p>cs 109</p>
-
-<p>numfocus.org</p>
-
-<p>book</p>
-
-<p><a href="https://wakari.io/">https://wakari.io/</a></p>
-
-<p><a href="http://fivethirtyeight.com/">http://fivethirtyeight.com/</a></p>
-
-<h2>DMRL: A versatile Python tool to assess DNA methylation variation and identify DMRs</h2>
-
-<p>DNA sodium bisulfite</p>
-
-<p>bisulfite sequence alignment</p>
-
-<p>t-test
-ANOVA
-Fisher `s exact test</p>
-
-<p>methylation distance</p>
-
-<p>比較DNA序列 PYSAM</p>
-
-<p>Analysis wordflow</p>
-
-<p>前面一大部分都在介紹關於DNA 的基礎知識提到一些甲基化的東西</p>
-
-<h2>Hacking Models with Python</h2>
-
-<p>寫改數學模型 cluster liner respresion</p>
-
-<p>view point</p>
-
-<h2>Data Analysis in Python</h2>
-
-<p>介紹 library</p>
-
-<p>matplotlb
-scikit-learn
-statsmodel
-numba
-blaze</p>
-
-<h2>閃電秀</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Phantomjs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/14/phantomjs/"/>
-    <updated>2014-05-14T21:19:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/14/phantomjs</id>
-    <content type="html"><![CDATA[<p><a href="http://phantomjs.org/">phantomjs</a> 是類似nodejs的工具，都是使用javascript驅動，不過nodejs是使用v8引擎而phatomjs是使用webkit，
-而webkit裡面除了js引擎的部分也有包含html渲染的部分，也因此phantomjs能夠生成html的頁面，就像是一個閱覽器。</p>
-
-<p>目前在專案上我最常使用phantomjs於頁面截圖和前端js測試，可以利用phantomjs取得某個網址的頁面然後保存下來，
-然後可以製作一個書籤服務並且加上網站截圖或是預覽圖的功能，phantomjs可以和Selenium針對前端作單元測試。</p>
-
-<p>一篇關於webkit的參考資料:<a href="http://www.paulirish.com/2013/webkit-for-developers/">webkit-for-developers</a></p>
 ]]></content>
   </entry>
   

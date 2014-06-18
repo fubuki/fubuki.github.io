@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-06-18T23:13:12+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached 1MB Limit]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit/"/>
+    <updated>2014-06-18T23:06:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit</id>
+    <content type="html"><![CDATA[<p>memcached在儲存單筆記錄的時候會有個限制，每筆記錄只能存放最大1MB的大小，以前沒有遇過這種問題，但是在最近一個
+專案上面突然遇到快取沒有作用的問題，後來發現有可能是存放的資料大於1MB的問題，在<a href="http://docs.oracle.com/cd/E17952_01/refman-5.6-en/ha-memcached-faq.html">ha-memcached-faq</a>裡面有說為什麼
+預設1MB和如何調整大小。</p>
+]]></content>
+  </entry>
+  
+</feed>

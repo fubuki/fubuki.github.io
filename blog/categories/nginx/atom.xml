@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-06-18T23:13:12+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Conf 設定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/"/>
+    <updated>2014-06-18T22:56:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding</id>
+    <content type="html"><![CDATA[<p>記錄關於nginx 設定檔的配置。</p>
+]]></content>
+  </entry>
+  
+</feed>
