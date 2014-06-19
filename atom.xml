@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-18T23:13:12+08:00</updated>
+  <updated>2014-06-19T22:59:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Upstream 反向代理的機制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi/"/>
+    <updated>2014-06-19T22:21:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi</id>
+    <content type="html"><![CDATA[<p>如何設定nginx 反向代理的功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached 1MB Limit]]></title>
@@ -30,6 +39,66 @@
     <updated>2014-06-18T22:56:40+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding</id>
     <content type="html"><![CDATA[<p>記錄關於nginx 設定檔的配置。</p>
+
+<!-- more -->
+
+
+<h2>分類</h2>
+
+<ol>
+<li>debug</li>
+<li>優化</li>
+<li>運行必備</li>
+<li>事件類型</li>
+</ol>
+
+
+<h2>debug用</h2>
+
+<ol>
+<li>deamon</li>
+<li>master_process</li>
+<li>error_log</li>
+<li>debug_points</li>
+<li>debug_connection</li>
+<li>worker_rlimit_core</li>
+<li>working_directory</li>
+</ol>
+
+
+<h2>優化</h2>
+
+<ol>
+<li>worker_processes</li>
+<li>worker_cpu_affinity</li>
+<li>ssl_engine</li>
+<li>timer_resolution</li>
+<li>worker_priority</li>
+</ol>
+
+
+<h2>運行必備</h2>
+
+<ol>
+<li>env 環境變數</li>
+<li>include</li>
+<li>pid file</li>
+<li>user</li>
+<li>worker_rlimit_nofile</li>
+</ol>
+
+
+<h2>事件類型</h2>
+
+<ol>
+<li>accept_mutex</li>
+<li>lock_file</li>
+<li>accept_mutex_dely</li>
+<li>multi_accept</li>
+<li>use epoll</li>
+<li>worker_connections</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -370,193 +439,6 @@ cURL並發下的效能。</p>
 <p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
 <a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
 <a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2014 Second Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/"/>
-    <updated>2014-05-18T19:30:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day</id>
-    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第二天(5/18)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Keynote: Jessica McKellar</h3>
-
-<p>在世界各地從海底到太空都有人使用到python</p>
-
-<p>data.goc.uk</p>
-
-<p>KLP</p>
-
-<p>python on windows</p>
-
-<p>python on mobile</p>
-
-<p>Can I build mobile apps in python</p>
-
-<p>kivy</p>
-
-<p>程式語言排行</p>
-
-<p>PyPL</p>
-
-<p>說到 emscripten asm.js nodejs</p>
-
-<p>Pythonjs skulpt brvthon  work with js</p>
-
-<p>interactivepython.org</p>
-
-<p>think in python</p>
-
-<p>bnmentp/runestone github</p>
-
-<p>PSF</p>
-
-<p>PyLadies</p>
-
-<p>Sprints</p>
-
-<p>Grants rapberry pi</p>
-
-<h3>What Is Async, How Does It Work, and When Should I Use It?</h3>
-
-<p>pubsub pattern</p>
-
-<p>提到c10k問題 實現非同步的做法</p>
-
-<p>前面大部分偷在講關於非同步的概念</p>
-
-<ol>
-<li>twisted</li>
-<li>tornado</li>
-</ol>
-
-
-<p>後面開始講 asyncio</p>
-
-<p>Yes:</p>
-
-<ul>
-<li>slow backend</li>
-<li>websockets</li>
-<li>many connections</li>
-</ul>
-
-
-<p>NO:</p>
-
-<ul>
-<li>cpu-bound</li>
-<li>no async driver</li>
-<li>no async expertise</li>
-</ul>
-
-
-<h3>Building a Knowledge Graph &ndash; the new search engine technology</h3>
-
-<p>介紹一下知識圖譜
-利用dbpedia(struct data from wiki) 的資料，使用python處理資料在丟在solr裡面。</p>
-
-<p>synonym SynonymFilterFactory</p>
-
-<p>介紹solr本身有的搜尋類型</p>
-
-<p>Data source</p>
-
-<p>data.gov.tw</p>
-
-<p>open api</p>
-
-<h3>How to integrate Python into a Scala stack to build realtime predictive models</h3>
-
-<p>異種語言平台
-跟ML沒有太大的關係。</p>
-
-<p>Fliptop machine learning</p>
-
-<ul>
-<li>mathout</li>
-<li>Weka</li>
-<li>Scikit-learn</li>
-</ul>
-
-
-<p>Weka GPL</p>
-
-<p>mathout有些演算法沒有完全實踐</p>
-
-<p>所以使用Scikit-learn，所以就介紹怎麼讓Python跟Scala黏合。</p>
-
-<h4>Jython</h4>
-
-<p>有些使用c寫成的python library就無法使用
-JyNI
-還是無法支援 Numpy</p>
-
-<h4>Jepp</h4>
-
-<p>會一直創建 python 直譯器</p>
-
-<h4>thrift</h4>
-
-<p>No scala generator
-scrooge</p>
-
-<p>auto load balance</p>
-
-<h4>REST API</h4>
-
-<p>bottle</p>
-
-<p>Thrift v.s. REST</p>
-
-<h3>Keynote: Stephen McDonald</h3>
-
-<p>主要在介紹作者寫的mezzanine專案</p>
-
-<p>mezzanine manage cms system</p>
-
-<p>mathspace.co
-kou.io</p>
-
-<p>cms > site</p>
-
-<p>講者怎麼建立 mezzanine
-<a href="http://bit.ly/MezzBegins">http://bit.ly/MezzBegins</a></p>
-
-<ol>
-<li>constraints</li>
-<li>simplicity</li>
-<li>just django</li>
-</ol>
-
-
-<p>bit.ly/MezzLego</p>
-
-<p>bit.ly/MezzPackages</p>
-
-<h3>以廣告品項為基礎的行動廣告推薦系統: 以 Python Hadoop Streaming 實作</h3>
-
-<p>廣告投放平台</p>
-
-<p>CTR
-Click Through rate</p>
-
-<p>Conversion Rate
-maximize converstions</p>
-
-<p>最後6分鐘才有重點</p>
-
-<h3>Poster Session</h3>
-
-<p>後面兩場議程都沒去聽，跑去聽Poster session。</p>
-
-<p>跟line的開發人員聊了不少關於line 的架構。<br/>
-另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
-處理類似的東西。</p>
 ]]></content>
   </entry>
   

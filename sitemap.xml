@@ -478,11 +478,15 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/</loc>
-        <lastmod>2014-06-18T23:03:53+08:00</lastmod>
+        <lastmod>2014-06-19T22:59:17+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit/</loc>
         <lastmod>2014-06-18T23:13:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi/</loc>
+        <lastmod>2014-06-19T22:26:57+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -490,7 +494,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-06-18T23:13:04+08:00</lastmod>
+        <lastmod>2014-06-19T22:59:17+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -498,6 +502,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-06-18T23:13:04+08:00</lastmod>
+        <lastmod>2014-06-19T22:59:17+08:00</lastmod>
     </url>
 </urlset>
