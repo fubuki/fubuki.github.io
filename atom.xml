@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-19T22:59:27+08:00</updated>
+  <updated>2014-06-20T23:30:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -19,6 +19,29 @@
     <updated>2014-06-19T22:21:25+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi</id>
     <content type="html"><![CDATA[<p>如何設定nginx 反向代理的功能。</p>
+
+<!-- more -->
+
+
+<h2>upstream 建立流程與機制</h2>
+
+<ol>
+<li>啟動upstream</li>
+<li>與上游伺服器建立連結</li>
+<li>發送請求給上游伺服器</li>
+<li>接收上游伺服器的響應頭部</li>
+<li>轉發跟不轉發響應</li>
+<li>結束upstream的請求</li>
+</ol>
+
+
+<h2>與upstream相關的原始碼</h2>
+
+<ol>
+<li>ngx_http_upstream_init</li>
+<li>ngx_http_upstream_init_request</li>
+</ol>
+
 ]]></content>
   </entry>
   

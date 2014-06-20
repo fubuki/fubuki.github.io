@@ -9,8 +9,12 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="如何設定nginx 反向代理的功能。
-">
+  <meta name="description" content="如何設定nginx 反向代理的功能。 upstream 建立流程與機制 啟動upstream
+與上游伺服器建立連結
+發送請求給上游伺服器
+接收上游伺服器的響應頭部
+轉發跟不轉發響應
+結束upstream的請求 與upstream相關的原始碼 ngx_http_upstream_init &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -109,6 +113,29 @@
 
 
 <div class="entry-content"><p>如何設定nginx 反向代理的功能。</p>
+
+<!-- more -->
+
+
+<h2>upstream 建立流程與機制</h2>
+
+<ol>
+<li>啟動upstream</li>
+<li>與上游伺服器建立連結</li>
+<li>發送請求給上游伺服器</li>
+<li>接收上游伺服器的響應頭部</li>
+<li>轉發跟不轉發響應</li>
+<li>結束upstream的請求</li>
+</ol>
+
+
+<h2>與upstream相關的原始碼</h2>
+
+<ol>
+<li>ngx_http_upstream_init</li>
+<li>ngx_http_upstream_init_request</li>
+</ol>
+
 </div>
 
 
