@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-20T23:30:30+08:00</updated>
+  <updated>2014-06-21T22:41:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 鎖的機制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi/"/>
+    <updated>2014-06-21T22:37:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi</id>
+    <content type="html"><![CDATA[<p>記錄並分析各種鎖。</p>
+
+<!-- more -->
+
+
+<h2>lock 和 latch</h2>
+
+<h2>鎖的種類</h2>
+
+<h2>鎖有可能造成的問題</h2>
+
+<h2>阻塞的問題</h2>
+
+<h2>dead lock</h2>
+
+<h1>Lock Escalation</h1>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx Upstream 反向代理的機制]]></title>
@@ -443,25 +467,6 @@ php 在使用memcached遇到的問題。</p>
 <p><a href="http://www.searchtb.com/2012/06/rolling-curl-best-practices.html">Rolling cURL: PHP并发最佳实践</a>這篇文章有提到兩種寫法，都是使用<a href="http://se2.php.net/manual/en/function.curl-multi-exec.php">curl_multi_exec</a>去實踐，但是實踐的
 方法不太一樣可以仔細研究，在github上面也有些專案例如:<a href="https://github.com/jmathai/php-multi-curl">php-multi-curl</a>，可以看看裡面的原理，以提高
 cURL並發下的效能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LINE Developer Conference]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/21/line-developer-conference/"/>
-    <updated>2014-05-21T21:54:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/21/line-developer-conference</id>
-    <content type="html"><![CDATA[<p>LINE Developer Conference</p>
-
-<!-- more -->
-
-
-<p>LINE的開發者聚會，介紹跟LINE有關的東西， 不過很可惜的詳細的內容不會公佈到網路上，而且參加者似乎只有150名，
-只能從網路上參加者的文章窺知一二。</p>
-
-<p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
-<a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
-<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
 ]]></content>
   </entry>
   

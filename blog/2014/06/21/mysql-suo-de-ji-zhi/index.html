@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Theano - Learning Blog</title>
+  <title>MySQL 鎖的機制 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
-http://deeplearning.net/software/theano/index.html
+  <meta name="description" content="記錄並分析各種鎖。 lock 和 latch 鎖的種類 鎖有可能造成的問題 阻塞的問題 dead lock Lock Escalation
 ">
   
 
@@ -20,7 +19,7 @@ http://deeplearning.net/software/theano/index.html
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/28/theano">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ http://deeplearning.net/software/theano/index.html
   
   <header>
     
-      <h1 class="entry-title">Theano</h1>
+      <h1 class="entry-title">MySQL 鎖的機制</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ http://deeplearning.net/software/theano/index.html
   
 
 
-<time datetime="2014-02-28T11:51:02+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-06-21T22:37:52+08:00" pubdate data-updated="true">Jun 21<span>st</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +108,22 @@ http://deeplearning.net/software/theano/index.html
   </header>
 
 
-<div class="entry-content"><p>python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
-<a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
+<div class="entry-content"><p>記錄並分析各種鎖。</p>
+
+<!-- more -->
+
+
+<h2>lock 和 latch</h2>
+
+<h2>鎖的種類</h2>
+
+<h2>鎖有可能造成的問題</h2>
+
+<h2>阻塞的問題</h2>
+
+<h2>dead lock</h2>
+
+<h1>Lock Escalation</h1>
 </div>
 
 
@@ -133,12 +146,12 @@ http://deeplearning.net/software/theano/index.html
   
 
 
-<time datetime="2014-02-28T11:51:02+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-06-21T22:37:52+08:00" pubdate data-updated="true">Jun 21<span>st</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/deep-learning/'>deep-learning</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/theano/'>theano</a>
+    <a class='category' href='/blog/categories/mysql/'>mysql</a>
   
 </span>
 
@@ -154,10 +167,8 @@ http://deeplearning.net/software/theano/index.html
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/28/redis-failover/" title="Previous Post: Redis Failover">&laquo; Redis Failover</a>
+        <a class="basic-alignment left" href="/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi/" title="Previous Post: nginx upstream 反向代理的機制">&laquo; nginx upstream 反向代理的機制</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/28/nosql/" title="Next Post: NoSql">NoSql &raquo;</a>
       
     </p>
   </footer>
@@ -307,8 +318,8 @@ http://deeplearning.net/software/theano/index.html
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/02/28/theano/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/02/28/theano/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi/';
         var disqus_script = 'embed.js';
       
     (function () {
