@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-22T23:35:01+08:00</updated>
+  <updated>2014-06-22T23:45:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python 和 HDF5]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/22/python-he-hdf5/"/>
+    <updated>2014-06-22T23:41:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/22/python-he-hdf5</id>
+    <content type="html"><![CDATA[<p>HDF5檔案格式: <a href="http://www.hdfgroup.org/HDF5/">HDF5</a><br/>
+HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL災難恢复]]></title>
@@ -446,24 +456,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 
 <p><a href="http://tech.naver.jp/blog/?p=2381">Adopting SPDY in Line – Part 1: An Overview</a>  <br/>
 <a href="http://tech.naver.jp/blog/?p=2729">Adopting SPDY in LINE – Part 2: The Details</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Connect vs Pconnect]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/"/>
-    <updated>2014-05-23T21:31:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect</id>
-    <content type="html"><![CDATA[<p>memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
-php 在使用memcached遇到的問題。</p>
-
-<!-- more -->
-
-
-<p>memcached 有分 connect 和 pconnect兩種方法，但是connect會斷掉連線，而pconnect會將連接持久化，從curr_connections可以看出
-兩者的不同，同一個網頁重整conncet的curr_connections數值不會一直增加，但是pconnet會上升到一個上限。</p>
-
-<p>但是在網路上有看到人說 fastcgi方式用長連接是無效的，這邊還需要了解關於pconnect是如何實作的。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-22T23:35:01+08:00</updated>
+  <updated>2014-06-22T23:45:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python 和 HDF5]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/22/python-he-hdf5/"/>
+    <updated>2014-06-22T23:41:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/22/python-he-hdf5</id>
+    <content type="html"><![CDATA[<p>HDF5檔案格式: <a href="http://www.hdfgroup.org/HDF5/">HDF5</a><br/>
+HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
