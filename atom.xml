@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-21T22:41:34+08:00</updated>
+  <updated>2014-06-22T23:35:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL災難恢复]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu/"/>
+    <updated>2014-06-22T23:30:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu</id>
+    <content type="html"><![CDATA[<p>MySQL 如何備份和恢復</p>
+
+<!-- more -->
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 鎖的機制]]></title>
@@ -33,7 +47,7 @@
 
 <h2>dead lock</h2>
 
-<h1>Lock Escalation</h1>
+<h2>Lock Escalation</h2>
 ]]></content>
   </entry>
   
@@ -450,23 +464,6 @@ php 在使用memcached遇到的問題。</p>
 兩者的不同，同一個網頁重整conncet的curr_connections數值不會一直增加，但是pconnet會上升到一個上限。</p>
 
 <p>但是在網路上有看到人說 fastcgi方式用長連接是無效的，這邊還需要了解關於pconnect是如何實作的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rolling cURL]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/22/rolling-curl/"/>
-    <updated>2014-05-22T22:51:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/22/rolling-curl</id>
-    <content type="html"><![CDATA[<p>cURL 是用來模擬各種http請求的工具，PHP也使用這個工具來取得網頁內容，或是呼叫一些API，
-但是使用上會存在一些效能上的問題，如果只是單純呼叫cURL可能會阻塞住，就必須更加巧妙的去使用cURL。</p>
-
-<!-- more -->
-
-
-<p><a href="http://www.searchtb.com/2012/06/rolling-curl-best-practices.html">Rolling cURL: PHP并发最佳实践</a>這篇文章有提到兩種寫法，都是使用<a href="http://se2.php.net/manual/en/function.curl-multi-exec.php">curl_multi_exec</a>去實踐，但是實踐的
-方法不太一樣可以仔細研究，在github上面也有些專案例如:<a href="https://github.com/jmathai/php-multi-curl">php-multi-curl</a>，可以看看裡面的原理，以提高
-cURL並發下的效能。</p>
 ]]></content>
   </entry>
   
