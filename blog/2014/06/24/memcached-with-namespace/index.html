@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Schedule - Learning Blog</title>
+  <title>Memcached With Namespace - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: schedule">
+  <meta name="description" content="memcached如何實作namespace的方法。 memcached沒有支援namespace所以沒辦法直接批量刪除鍵值，原本是可以直接拉出在memcached裡面的key然後只
+刪除想要刪除的鍵值，但是從取出所有key會很耗費資源所以不會考慮，之後有想過在DataBase的地方存放所有 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/schedule">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/24/memcached-with-namespace">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,36 +78,101 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Schedule</h1>
+    
+      <h1 class="entry-title">Memcached With Namespace</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-24T21:23:07+08:00" pubdate data-updated="true">Jun 24<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>memcached如何實作namespace的方法。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/03/06/osdc/">Osdc 2014</a></h1>
-<time datetime="2014-03-06T22:57:47+08:00" pubdate><span class='month'>Mar</span> <span class='day'>06</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/schedule/'>schedule</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
-
+<p>memcached沒有支援namespace所以沒辦法直接批量刪除鍵值，原本是可以直接拉出在memcached裡面的key然後只
+刪除想要刪除的鍵值，但是從取出所有key會很耗費資源所以不會考慮，之後有想過在DataBase的地方存放所有
+key然後就可以快速查詢想要批量刪除的鍵值，最後是使用Deleting by Namespace的方法，實作出namespace後
+透過namespace批量刪除，實作可以參考<a href="https://code.google.com/p/memcached/wiki/NewProgrammingTricks#Namespacing">NewProgrammingTricks</a>，其實他的主要想法是使用固定的key pattern
+實作namespace，在透過管理namespace的版本號讓舊的cache自然失效。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-24T21:23:07+08:00" pubdate data-updated="true">Jun 24<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/memcached/'>memcached</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/06/22/python-he-hdf5/" title="Previous Post: python 和 HDF5">&laquo; python 和 HDF5</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -245,7 +311,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/24/memcached-with-namespace/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/06/24/memcached-with-namespace/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
