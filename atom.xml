@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-24T22:21:39+08:00</updated>
+  <updated>2014-06-25T23:08:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/"/>
+    <updated>2014-06-25T23:05:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu</id>
+    <content type="html"><![CDATA[<p>記錄在使用推播時 Android 和 iOS 兩者不同之處。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached With Namespace]]></title>
@@ -436,23 +445,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 <p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
 另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
 規格表可以做為日後開發類似功能的參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MQTT Bridge]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/30/mqtt-bridge/"/>
-    <updated>2014-05-30T20:57:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/30/mqtt-bridge</id>
-    <content type="html"><![CDATA[<p>關於mqtt bridge的功能。</p>
-
-<!-- more -->
-
-
-<p>日前在研究各種 <code>MQTT Broker</code> 的方案，市面上有許多方案可以使用，原本是使用<a href="https://github.com/mcollina/mosca">mosca</a>作為server但是在處理離線訊息和擴展性上
-有些問題，此外讓手機端連接 <a href="https://github.com/mcollina/mosca">mosca</a> 作測試會出現 connection reset的問題，因此換用 <a href="http://mosquitto.org/">Mosquitto</a>作為替代方案，使用上沒出現
-什麼問題，在擴展性上有<a href="http://mqtt.org/wiki/doku.php/bridge_protocol">bridge_protocol</a>這個方案，可以讓一台broker作為bridge讓其他broker透過bridge互相溝通，也支援離線訊息
-的功能，詳細設定可以參考<a href="http://mosquitto.org/man/mosquitto-conf-5.html">mosquitto-conf</a>的bridge部分。</p>
 ]]></content>
   </entry>
   

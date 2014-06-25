@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Android | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-06-25T23:08:04+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/"/>
+    <updated>2014-06-25T23:05:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu</id>
+    <content type="html"><![CDATA[<p>記錄在使用推播時 Android 和 iOS 兩者不同之處。</p>
+]]></content>
+  </entry>
+  
+</feed>
