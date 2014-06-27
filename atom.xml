@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-26T23:29:29+08:00</updated>
+  <updated>2014-06-27T22:57:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HTML5 Polyfills]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/27/html5-polyfills/"/>
+    <updated>2014-06-27T22:46:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/27/html5-polyfills</id>
+    <content type="html"><![CDATA[<p><a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">What is a Polyfill?</a></p>
+
+<blockquote><p>A polyfill, or polyfiller, is a piece of code (or plug-in) that provides the technology that<br/>
+you, the developer, expect the browser to provide natively. Flattening the API landscape
+if you will.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
@@ -430,22 +443,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 <li>Mastering Node.js</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NAVER Line Protocol]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/31/naver-line-protocol/"/>
-    <updated>2014-05-31T22:38:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/31/naver-line-protocol</id>
-    <content type="html"><![CDATA[<p>研究關於Line 的通訊架構。</p>
-
-<!-- more -->
-
-
-<p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
-另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
-規格表可以做為日後開發類似功能的參考。</p>
 ]]></content>
   </entry>
   
