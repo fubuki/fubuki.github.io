@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-27T22:57:47+08:00</updated>
+  <updated>2014-06-28T23:52:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcache 調整]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng/"/>
+    <updated>2014-06-28T23:51:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng</id>
+    <content type="html"><![CDATA[<p>memcached tips</p>
+
+<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML5 Polyfills]]></title>
@@ -422,27 +434,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
     <updated>2014-06-02T23:50:44+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan</id>
     <content type="html"><![CDATA[<p>深入理解PHP内核 <a href="http://www.php-internals.com/book/">http://www.php-internals.com/book/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[六月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan/"/>
-    <updated>2014-06-01T21:34:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄六月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>MySQL技術內幕︰InnoDB存儲引擎（第2版）</li>
-<li>MySQL技術內幕︰ SQL編程</li>
-<li>數學之美</li>
-<li>資料之美</li>
-<li>Mastering Node.js</li>
-</ol>
-
 ]]></content>
   </entry>
   
