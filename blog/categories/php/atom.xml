@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-28T23:52:54+08:00</updated>
+  <updated>2014-06-29T23:27:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 之 Fastcgi_finish_request]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/"/>
+    <updated>2014-06-29T23:02:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request</id>
+    <content type="html"><![CDATA[<p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
+不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 內核研究資源]]></title>

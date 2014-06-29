@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Spa (Single-page Application) - Learning Blog</title>
+  <title>PHP 之 Fastcgi_finish_request - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="在一個網頁上呈現出如同桌面應用程式的操作經驗，MVVM是常與SPA一起提到的設計模式，目前我本身使用Knockout(一種MVVM的javascript framework)實現
-SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQuery到處綁定事件來的好管理。
-">
+  <meta name="description" content="PHP 在 fast-cgi 模式下有一個有趣的函式 fastcgi_finish_request 可以使用，在function.fastcgi-finish-request
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/20/spa-single-page-application">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   
   <header>
     
-      <h1 class="entry-title">Spa (Single-page Application)</h1>
+      <h1 class="entry-title">PHP 之 Fastcgi_finish_request</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   
 
 
-<time datetime="2014-03-20T21:51:39+08:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
+<time datetime="2014-06-29T23:02:40+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +108,9 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   </header>
 
 
-<div class="entry-content"><p>在一個網頁上呈現出如同桌面應用程式的操作經驗，MVVM是常與SPA一起提到的設計模式，目前我本身使用Knockout(一種MVVM的javascript framework)實現
-SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQuery到處綁定事件來的好管理。</p>
+<div class="entry-content"><p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
+不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
 </div>
 
 
@@ -133,8 +133,14 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   
 
 
-<time datetime="2014-03-20T21:51:39+08:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
+<time datetime="2014-06-29T23:02:40+08:00" pubdate data-updated="true">Jun 29<span>th</span>, 2014</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/php/'>php</a>
+  
+</span>
 
 
     </p>
@@ -148,10 +154,8 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/" title="Previous Post: socketio 和 engine.io的差別">&laquo; socketio 和 engine.io的差別</a>
+        <a class="basic-alignment left" href="/blog/2014/06/28/memcache-diao-zheng/" title="Previous Post: memcache 調整">&laquo; memcache 調整</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/21/apache-mahout/" title="Next Post: apache mahout">apache mahout &raquo;</a>
       
     </p>
   </footer>
@@ -303,8 +307,8 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/20/spa-single-page-application/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/20/spa-single-page-application/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/';
         var disqus_script = 'embed.js';
       
     (function () {

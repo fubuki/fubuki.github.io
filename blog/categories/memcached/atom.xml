@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-28T23:52:54+08:00</updated>
+  <updated>2014-06-29T23:27:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -22,6 +22,14 @@
 
 <!-- more -->
 
+
+<h2>啟動參數</h2>
+
+<h2>運行狀況</h2>
+
+<h2>memcached集群</h2>
+
+<h2>預熱</h2>
 ]]></content>
   </entry>
   

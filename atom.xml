@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-28T23:52:54+08:00</updated>
+  <updated>2014-06-29T23:27:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 之 Fastcgi_finish_request]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/"/>
+    <updated>2014-06-29T23:02:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request</id>
+    <content type="html"><![CDATA[<p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
+不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcache 調整]]></title>
@@ -22,6 +33,14 @@
 
 <!-- more -->
 
+
+<h2>啟動參數</h2>
+
+<h2>運行狀況</h2>
+
+<h2>memcached集群</h2>
+
+<h2>預熱</h2>
 ]]></content>
   </entry>
   
@@ -425,15 +444,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 <p>目前在工作上是用<a href="https://github.com/kr/beanstalkd">beanstalkd</a>作為消息隊列，由於使用人數少所以也不會有什麼問題，不過在PHP conf上面看到有人提了一個<a href="http://gearman.org/">gearman</a>的消息隊列，
 這兩個消息隊列都是用C語言撰寫的，在client library方面都有支援PHP和Node.js，不過似乎<a href="http://gearman.org/">gearman</a>的使用人數比較多的樣子，之後先研究這兩者
 的管理工具<a href="https://github.com/ptrofimov/beanstalk_console">beanstalk_console</a>和<a href="https://github.com/gaspaio/gearmanui">gearmanui</a>和擃展性。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 內核研究資源]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan/"/>
-    <updated>2014-06-02T23:50:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan</id>
-    <content type="html"><![CDATA[<p>深入理解PHP内核 <a href="http://www.php-internals.com/book/">http://www.php-internals.com/book/</a></p>
 ]]></content>
   </entry>
   
