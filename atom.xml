@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-29T23:27:24+08:00</updated>
+  <updated>2014-06-30T22:27:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[七月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan/"/>
+    <updated>2014-06-30T21:13:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄七月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>自然語言處理綜論</li>
+<li>统计自然语言处理基礎</li>
+<li>信息檢索導論</li>
+<li>Building.Polyfills</li>
+<li>Data Push Apps with HTML5 SSE</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 之 Fastcgi_finish_request]]></title>
@@ -428,22 +449,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
 讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
 避免登入後會出現空白頁的問題。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gearman 和 Beanstalk]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/05/gearman-he-beanstalk/"/>
-    <updated>2014-06-05T23:41:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/05/gearman-he-beanstalk</id>
-    <content type="html"><![CDATA[<p>記錄一下之後要研究和測試這兩種消息隊列。</p>
-
-<!-- more -->
-
-
-<p>目前在工作上是用<a href="https://github.com/kr/beanstalkd">beanstalkd</a>作為消息隊列，由於使用人數少所以也不會有什麼問題，不過在PHP conf上面看到有人提了一個<a href="http://gearman.org/">gearman</a>的消息隊列，
-這兩個消息隊列都是用C語言撰寫的，在client library方面都有支援PHP和Node.js，不過似乎<a href="http://gearman.org/">gearman</a>的使用人數比較多的樣子，之後先研究這兩者
-的管理工具<a href="https://github.com/ptrofimov/beanstalk_console">beanstalk_console</a>和<a href="https://github.com/gaspaio/gearmanui">gearmanui</a>和擃展性。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-29T23:27:24+08:00</updated>
+  <updated>2014-06-30T22:27:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[七月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan/"/>
+    <updated>2014-06-30T21:13:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄七月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>自然語言處理綜論</li>
+<li>统计自然语言处理基礎</li>
+<li>信息檢索導論</li>
+<li>Building.Polyfills</li>
+<li>Data Push Apps with HTML5 SSE</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[六月書單]]></title>
