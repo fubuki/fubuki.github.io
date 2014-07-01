@@ -527,12 +527,16 @@
         <lastmod>2014-06-30T22:08:04+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/</loc>
+        <lastmod>2014-07-01T23:37:24+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-06-30T22:08:04+08:00</lastmod>
+        <lastmod>2014-07-01T23:37:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -540,6 +544,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-06-30T22:08:04+08:00</lastmod>
+        <lastmod>2014-07-01T23:37:24+08:00</lastmod>
     </url>
 </urlset>

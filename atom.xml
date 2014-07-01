@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-30T22:27:57+08:00</updated>
+  <updated>2014-07-01T23:38:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php-fpm 優化參數]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/"/>
+    <updated>2014-07-01T23:30:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu</id>
+    <content type="html"><![CDATA[<p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[七月書單]]></title>
@@ -436,19 +445,6 @@ cluster的架構，並且session可以互相共享，讓rabbitmq在懭展的同�
 <p>使用C語言寫成的，原本是利用mosquitto的bridge架構擴展server，不過在測試offline message的時候沒有辦法
 處理session的問題，server之間沒有共享session，但是如果能夠自行處理offline message的問題 mosquitto
 也是個不錯的選擇。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Login JavaScript SDK 在 Webview下的問題]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/"/>
-    <updated>2014-06-06T22:31:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti</id>
-    <content type="html"><![CDATA[<p>在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
-，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout
-出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
-讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
-避免登入後會出現空白頁的問題。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-06-30T22:27:57+08:00</updated>
+  <updated>2014-07-01T23:38:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php-fpm 優化參數]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/"/>
+    <updated>2014-07-01T23:30:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu</id>
+    <content type="html"><![CDATA[<p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 之 Fastcgi_finish_request]]></title>
