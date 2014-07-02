@@ -9,8 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="warning pool www child exited on signal 9 (sigkill) after seconds from start
-">
+  <meta name="description" content="warning pool www child exited on signal 9 (sigkill) after seconds from start php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -109,6 +108,28 @@
 
 
 <div class="entry-content"><p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
+
+<!-- more -->
+
+
+<p>php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程，
+選擇哪個模式端看於硬體上記憶體大小的差別。</p>
+
+<h2>靜態或是動態</h2>
+
+<p>pm = static or dynamic</p>
+
+<h2>靜態方法</h2>
+
+<p>pm.max_children</p>
+
+<h2>動態方法</h2>
+
+<p>pm.start_servers</p>
+
+<p>pm.min_spare_servers</p>
+
+<p>pm.max_spare_servers</p>
 </div>
 
 
