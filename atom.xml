@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-04T23:32:57+08:00</updated>
+  <updated>2014-07-04T23:53:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -66,15 +66,15 @@
 
 <h2>靜態方法</h2>
 
-<p>pm.max_children</p>
+<p>pm.max_children : php-fpm 最大進程數</p>
 
 <h2>動態方法</h2>
 
-<p>pm.start_servers</p>
+<p>pm.start_servers : php-fpm 一開始創鍵的進程數</p>
 
-<p>pm.min_spare_servers</p>
+<p>pm.min_spare_servers : php-fpm 最小的進程數</p>
 
-<p>pm.max_spare_servers</p>
+<p>pm.max_spare_servers : php-fpm 最大進程數</p>
 ]]></content>
   </entry>
   
