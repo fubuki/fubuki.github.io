@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-04T23:53:02+08:00</updated>
+  <updated>2014-07-05T23:53:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -24,11 +24,11 @@
 
 
 <ol>
-<li>free -m</li>
-<li>ps aux &mdash;sort -rss</li>
-<li>ps -ylC xxx &mdash;sort:rss | awk &lsquo;{sum+=$8; ++n} END {print &ldquo;Tot=&#8221;sum&rdquo;(&ldquo;n&rdquo;)&ldquo;;print &#8220;Avg=&#8221;sum&rdquo;/&ldquo;n&rdquo;=&ldquo;sum/n/1024&#8221;MB&rdquo;}&rsquo;</li>
-<li>netstat -an | awk &lsquo;/^tcp/ {++s[$NF]} END {for(a in s) print a, s[a]}&rsquo;</li>
-<li>top</li>
+<li><code>free -m</code></li>
+<li><code>ps aux --sort -rss</code></li>
+<li><code>ps -ylC xxx --sort:rss | awk '{sum+=$8; ++n} END {print "Tot="sum"("n")";print "Avg="sum"/"n"="sum/n/1024"MB"}'</code></li>
+<li><code>netstat -an | awk '/^tcp/ {++s[$NF]} END {for(a in s) print a, s[a]}'</code></li>
+<li><code>top</code></li>
 </ol>
 
 ]]></content>
@@ -75,6 +75,12 @@
 <p>pm.min_spare_servers : php-fpm 最小的進程數</p>
 
 <p>pm.max_spare_servers : php-fpm 最大進程數</p>
+
+<h2>其他參數</h2>
+
+<p>pm.max_requests : 一個進程處理多少個請求後就重新啟動</p>
+
+<h2>參數大小設定規則</h2>
 ]]></content>
   </entry>
   

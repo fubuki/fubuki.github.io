@@ -10,8 +10,8 @@
 
   
   <meta name="description" content="記錄監控linux主機記憶體使用量的命令。 free -m
-ps aux &mdash;sort -rss
-ps -ylC xxx &mdash;sort:rss | awk &lsquo;{sum+=$8; ++n} END {print &ldquo;Tot=&#8221;sum&rdquo &hellip;">
+ps aux --sort -rss
+ps -ylC xxx --sort:rss | awk '{sum+=$8; ++n} END {print "Tot="sum"("n")";print "Avg="sum"/"n"="sum/n &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -115,11 +115,11 @@ ps -ylC xxx &mdash;sort:rss | awk &lsquo;{sum+=$8; ++n} END {print &ldquo;Tot=&#
 
 
 <ol>
-<li>free -m</li>
-<li>ps aux &mdash;sort -rss</li>
-<li>ps -ylC xxx &mdash;sort:rss | awk &lsquo;{sum+=$8; ++n} END {print &ldquo;Tot=&#8221;sum&rdquo;(&ldquo;n&rdquo;)&ldquo;;print &#8220;Avg=&#8221;sum&rdquo;/&ldquo;n&rdquo;=&ldquo;sum/n/1024&#8221;MB&rdquo;}&rsquo;</li>
-<li>netstat -an | awk &lsquo;/^tcp/ {++s[$NF]} END {for(a in s) print a, s[a]}&rsquo;</li>
-<li>top</li>
+<li><code>free -m</code></li>
+<li><code>ps aux --sort -rss</code></li>
+<li><code>ps -ylC xxx --sort:rss | awk '{sum+=$8; ++n} END {print "Tot="sum"("n")";print "Avg="sum"/"n"="sum/n/1024"MB"}'</code></li>
+<li><code>netstat -an | awk '/^tcp/ {++s[$NF]} END {for(a in s) print a, s[a]}'</code></li>
+<li><code>top</code></li>
 </ol>
 
 </div>

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-04T23:53:02+08:00</updated>
+  <updated>2014-07-05T23:53:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -41,6 +41,12 @@
 <p>pm.min_spare_servers : php-fpm 最小的進程數</p>
 
 <p>pm.max_spare_servers : php-fpm 最大進程數</p>
+
+<h2>其他參數</h2>
+
+<p>pm.max_requests : 一個進程處理多少個請求後就重新啟動</p>
+
+<h2>參數大小設定規則</h2>
 ]]></content>
   </entry>
   
