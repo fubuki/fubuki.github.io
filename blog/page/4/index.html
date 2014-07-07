@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="cURL 是用來模擬各種http請求的工具，PHP也使用這個工具來取得網頁內容，或是呼叫一些API，
-但是使用上會存在一些效能上的問題，如果只是單純呼叫cURL可能會阻塞住，就必須更加巧妙的去使用cURL。 ">
+  <meta name="description" content="memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用memcached遇到的問題。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,51 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/23/memcache-connect-vs-pconnect/">Memcached Connect vs Pconnect</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-23T21:31:20+08:00" pubdate data-updated="true">May 23<span>rd</span>, 2014</time>
+        
+           | <a href="/blog/2014/05/23/memcache-connect-vs-pconnect/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用memcached遇到的問題。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/05/23/memcache-connect-vs-pconnect/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -473,50 +518,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/04/old-ie-support-html5-tag/">Old IE Support Html5 Tag</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-04T20:28:03+08:00" pubdate data-updated="true">May 4<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/05/04/old-ie-support-html5-tag/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>舊版本IE支援 html5的方法<a href="https://github.com/aFarkas/html5shiv">html5shiv</a></p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/05/04/old-ie-support-html5-tag/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/5/">&larr; Older</a>
@@ -534,6 +535,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/07/07/register-shutdown-function-and-destructor/">Auto Restart Php Script by Register_shutdown_function and Pcntl_exec</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/07/04/linux-memory-monitor-commands/">Linux Memory Monitor Commands</a>
       </li>
     
@@ -547,10 +552,6 @@
     
       <li class="post">
         <a href="/blog/2014/06/30/qi-yue-shu-dan/">七月書單</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/06/29/php-zhi-fastcgi-finish-request/">PHP 之 Fastcgi_finish_request</a>
       </li>
     
   </ul>
@@ -591,7 +592,7 @@
   <li><a href='/blog/categories/nodejs'>Nodejs (14)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
   <li><a href='/blog/categories/open-source'>Open source (6)</a></li>
-  <li><a href='/blog/categories/php'>Php (5)</a></li>
+  <li><a href='/blog/categories/php'>Php (6)</a></li>
   <li><a href='/blog/categories/project-management'>Project management (1)</a></li>
   <li><a href='/blog/categories/python'>Python (4)</a></li>
   <li><a href='/blog/categories/rabbitmq'>Rabbitmq (2)</a></li>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-05T23:53:25+08:00</updated>
+  <updated>2014-07-07T23:36:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Auto Restart Php Script by Register_shutdown_function and Pcntl_exec]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor/"/>
+    <updated>2014-07-07T23:07:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor</id>
+    <content type="html"><![CDATA[<p>在使用PHP CLI 跑背景程式有時候會因為記憶體溢出或是其他原因導致程式停止執行，需要讓程式自行重新啟動。</p>
+
+<!-- more -->
+
+
+<p>register_shutdown_function 是可以讓PHP在意外終止的時候可以去執行特定函式，配合 <code>pcntl_exec()</code> 便可以
+完成當程式發生FatalError 時可以自動重新啟動。</p>
+
+<p>範例:</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux Memory Monitor Commands]]></title>
@@ -403,32 +420,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
 <li><a href="http://www.slideshare.net/benko/how-to-start-developing-apps-for-firefox-os">how-to-start-developing-apps-for-firefox-os</a></li>
 <li><a href="https://developer.mozilla.org/zh-TW/Firefox_OS/Screencast_series:_App_Basics_for_Firefox_OS">App_Basics_for_Firefox_OS</a></li>
 <li><a href="http://buildingfirefoxos.com/">buildingfirefoxos</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 參數文件和日誌]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/"/>
-    <updated>2014-06-12T23:41:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi</id>
-    <content type="html"><![CDATA[<h2>日誌</h2>
-
-<ol>
-<li>錯誤日誌</li>
-<li>慢查詢日誌</li>
-<li>查詢日誌</li>
-<li>二進位日誌</li>
-</ol>
-
-
-<h2>文件</h2>
-
-<ol>
-<li>表結構定義文件</li>
-<li>InnoDB儲存引擎文件</li>
-<li>參數文件</li>
 </ol>
 
 ]]></content>

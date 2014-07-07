@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Scrapy Example Code - Learning Blog</title>
+  <title>Auto Restart Php Script by Register_shutdown_function and Pcntl_exec - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="在scrapy官網上的scrapy範例。
-http://snipplr.com/all/tags/scrapy/
-">
+  <meta name="description" content="在使用PHP CLI 跑背景程式有時候會因為記憶體溢出或是其他原因導致程式停止執行，需要讓程式自行重新啟動。 register_shutdown_function 是可以讓PHP在意外終止的時候可以去執行特定函式，配合 pcntl_exec() 便可以
+完成當程式發生FatalError &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ http://snipplr.com/all/tags/scrapy/
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/19/scrapy-example-code">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ http://snipplr.com/all/tags/scrapy/
   
   <header>
     
-      <h1 class="entry-title">Scrapy Example Code</h1>
+      <h1 class="entry-title">Auto Restart Php Script by Register_shutdown_function and Pcntl_exec</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ http://snipplr.com/all/tags/scrapy/
   
 
 
-<time datetime="2014-03-19T22:06:39+08:00" pubdate data-updated="true">Mar 19<span>th</span>, 2014</time>
+<time datetime="2014-07-07T23:07:53+08:00" pubdate data-updated="true">Jul 7<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +108,15 @@ http://snipplr.com/all/tags/scrapy/
   </header>
 
 
-<div class="entry-content"><p>在scrapy官網上的scrapy範例。
-<a href="http://snipplr.com/all/tags/scrapy/">http://snipplr.com/all/tags/scrapy/</a></p>
+<div class="entry-content"><p>在使用PHP CLI 跑背景程式有時候會因為記憶體溢出或是其他原因導致程式停止執行，需要讓程式自行重新啟動。</p>
+
+<!-- more -->
+
+
+<p>register_shutdown_function 是可以讓PHP在意外終止的時候可以去執行特定函式，配合 <code>pcntl_exec()</code> 便可以
+完成當程式發生FatalError 時可以自動重新啟動。</p>
+
+<p>範例:</p>
 </div>
 
 
@@ -133,12 +139,12 @@ http://snipplr.com/all/tags/scrapy/
   
 
 
-<time datetime="2014-03-19T22:06:39+08:00" pubdate data-updated="true">Mar 19<span>th</span>, 2014</time>
+<time datetime="2014-07-07T23:07:53+08:00" pubdate data-updated="true">Jul 7<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/scrapy/'>scrapy</a>
+    <a class='category' href='/blog/categories/php/'>php</a>
   
 </span>
 
@@ -154,10 +160,8 @@ http://snipplr.com/all/tags/scrapy/
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/18/mosca/" title="Previous Post: mosca">&laquo; mosca</a>
+        <a class="basic-alignment left" href="/blog/2014/07/04/linux-memory-monitor-commands/" title="Previous Post: linux memory monitor commands">&laquo; linux memory monitor commands</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/" title="Next Post: socketio 和 engine.io的差別">socketio 和 engine.io的差別 &raquo;</a>
       
     </p>
   </footer>
@@ -310,8 +314,8 @@ http://snipplr.com/all/tags/scrapy/
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor/';
         var disqus_script = 'embed.js';
       
     (function () {
