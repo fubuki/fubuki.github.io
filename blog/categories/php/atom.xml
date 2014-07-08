@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-07T23:36:38+08:00</updated>
+  <updated>2014-07-08T23:29:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -26,7 +26,10 @@
 <p>register_shutdown_function 是可以讓PHP在意外終止的時候可以去執行特定函式，配合 <code>pcntl_exec()</code> 便可以
 完成當程式發生FatalError 時可以自動重新啟動。</p>
 
-<p>範例:</p>
+<script src="https://gist.github.com/fubuki/e621eb4844a975b9c0e1.js"></script>
+
+
+
 ]]></content>
   </entry>
   
