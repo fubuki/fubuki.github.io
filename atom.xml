@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-10T23:42:16+08:00</updated>
+  <updated>2014-07-11T00:01:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,9 +18,9 @@
     <link href="http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/"/>
     <updated>2014-07-10T23:39:38+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti</id>
-    <content type="html"><![CDATA[<p>介紹關於使用MySQL處理日期的相關問題。
-1. 生日問題
-2. 重疊問題
+    <content type="html"><![CDATA[<p>介紹關於使用MySQL處理日期的相關問題。<br/>
+1. 生日問題 <br/>
+2. 重疊問題 <br/>
 3. 星期數問題</p>
 ]]></content>
   </entry>
