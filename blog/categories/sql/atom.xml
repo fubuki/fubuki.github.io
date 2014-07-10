@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Sql | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/sql/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-07-10T23:42:16+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[SQL 日期經典問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/"/>
+    <updated>2014-07-10T23:39:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti</id>
+    <content type="html"><![CDATA[<p>介紹關於使用MySQL處理日期的相關問題。
+1. 生日問題
+2. 重疊問題
+3. 星期數問題</p>
+]]></content>
+  </entry>
+  
+</feed>

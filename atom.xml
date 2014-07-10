@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-09T23:56:18+08:00</updated>
+  <updated>2014-07-10T23:42:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SQL 日期經典問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/"/>
+    <updated>2014-07-10T23:39:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti</id>
+    <content type="html"><![CDATA[<p>介紹關於使用MySQL處理日期的相關問題。
+1. 生日問題
+2. 重疊問題
+3. 星期數問題</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[常用的幾種類型樹]]></title>
@@ -396,40 +408,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
     <content type="html"><![CDATA[<p>最近在研究firefox os 的時候看到了<a href="https://telegram.org/">Telegram</a> 這款通訊軟體，他將API和通訊協定開源出來讓使用者可以建構自己的Client端，
 到目前有看到有好幾種平台的專案，在<a href="https://telegram.org/">Telegram</a>的官網可以看到不少特點，其中比較讓我看到興趣的安全性的特性，可以透過研究
 <a href="https://github.com/zhukov/webogram">webogram</a>來作為手上專案的參考範例。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 分區表]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao/"/>
-    <updated>2014-06-15T23:49:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao</id>
-    <content type="html"><![CDATA[<p>記錄一下在MySQL下 分區表的種類和用法。</p>
-
-<!-- more -->
-
-
-<h2>種類</h2>
-
-<ol>
-<li>RANGE分區</li>
-<li>LIST分區</li>
-<li>HASH分區</li>
-<li>KEY分區</li>
-<li>COLUMNS分區</li>
-</ol>
-
-
-<h2>用法</h2>
-
-<ol>
-<li>子分區</li>
-<li>根據日期作RANGE分區優化查詢速度</li>
-<li>LIST分區用於不連續離散的數值</li>
-<li>HASH和KEY用來均勻的分配數據到各個分區</li>
-<li>COLUMNS用在非整數類型的數值欄位</li>
-</ol>
-
 ]]></content>
   </entry>
   
