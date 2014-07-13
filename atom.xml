@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-13T23:59:48+08:00</updated>
+  <updated>2014-07-14T00:08:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,13 @@
     <link href="http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji/"/>
     <updated>2014-07-13T23:59:32+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<ol>
+<li>Monitoring with Ganglia</li>
+<li>算法谜题</li>
+<li>内存数据管理</li>
+<li>编程原本</li>
+</ol>
+
 ]]></content>
   </entry>
   
