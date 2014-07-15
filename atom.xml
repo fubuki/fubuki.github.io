@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-15T22:51:35+08:00</updated>
+  <updated>2014-07-15T23:58:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,24 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Discourse Analysis]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/15/discourse-analysis/"/>
+    <updated>2014-07-15T23:21:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/15/discourse-analysis</id>
+    <content type="html"><![CDATA[<p>Discourse analysis : 在處理對話系統所建立的模型，用來分析句子跟句子之間的關係。<br/>
+可參考<a href="http://en.wikipedia.org/wiki/Discourse_analysis">wiki</a>獲得更詳細的解釋。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[自學機器學習的四種方法]]></title>
     <link href="http://fubuki.github.io/blog/2014/07/14/zi-xue-ji-qi-xue-xi-de-si-zhong-fang-fa/"/>
     <updated>2014-07-14T23:51:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/07/14/zi-xue-ji-qi-xue-xi-de-si-zhong-fang-fa</id>
     <content type="html"><![CDATA[<p>4 Self-Study Machine Learning Projects <a href="http://machinelearningmastery.com/self-study-machine-learning-projects/">原文</a>  <a href="http://blog.jobbole.com/67621/">中文版</a></p>
+
+<!-- more -->
+
 
 <h2>心得</h2>
 
@@ -371,75 +384,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
     <content type="html"><![CDATA[<p>memcached在儲存單筆記錄的時候會有個限制，每筆記錄只能存放最大1MB的大小，以前沒有遇過這種問題，但是在最近一個
 專案上面突然遇到快取沒有作用的問題，後來發現有可能是存放的資料大於1MB的問題，在<a href="http://docs.oracle.com/cd/E17952_01/refman-5.6-en/ha-memcached-faq.html">ha-memcached-faq</a>裡面有說為什麼
 預設1MB和如何調整大小。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx Conf 設定]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/"/>
-    <updated>2014-06-18T22:56:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding</id>
-    <content type="html"><![CDATA[<p>記錄關於nginx 設定檔的配置。</p>
-
-<!-- more -->
-
-
-<h2>分類</h2>
-
-<ol>
-<li>debug</li>
-<li>優化</li>
-<li>運行必備</li>
-<li>事件類型</li>
-</ol>
-
-
-<h2>debug用</h2>
-
-<ol>
-<li>deamon</li>
-<li>master_process</li>
-<li>error_log</li>
-<li>debug_points</li>
-<li>debug_connection</li>
-<li>worker_rlimit_core</li>
-<li>working_directory</li>
-</ol>
-
-
-<h2>優化</h2>
-
-<ol>
-<li>worker_processes</li>
-<li>worker_cpu_affinity</li>
-<li>ssl_engine</li>
-<li>timer_resolution</li>
-<li>worker_priority</li>
-</ol>
-
-
-<h2>運行必備</h2>
-
-<ol>
-<li>env 環境變數</li>
-<li>include</li>
-<li>pid file</li>
-<li>user</li>
-<li>worker_rlimit_nofile</li>
-</ol>
-
-
-<h2>事件類型</h2>
-
-<ol>
-<li>accept_mutex</li>
-<li>lock_file</li>
-<li>accept_mutex_dely</li>
-<li>multi_accept</li>
-<li>use epoll</li>
-<li>worker_connections</li>
-</ol>
-
 ]]></content>
   </entry>
   

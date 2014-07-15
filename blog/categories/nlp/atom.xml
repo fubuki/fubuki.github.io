@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
+  <title><![CDATA[Categories: NLP | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-15T22:51:35+08:00</updated>
+  <updated>2014-07-15T23:58:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,86 +14,12 @@
 
   
   <entry>
-    <title type="html"><![CDATA[中文分词的最大匹配法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa/"/>
-    <updated>2014-04-26T22:49:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa</id>
-    <content type="html"><![CDATA[<p>記錄一下中文分詞的入門演算法。<br/>
-1. 最大正向匹配
-2. 最大逆向匹配
-3. 雙向匹配</p>
-
-<!-- more -->
-
-
-<p>中文分詞一開始是使用詞典作分詞，在分詞的過程中主要有幾個原則:  <br/>
-1. 切出來的詞彙越長越好，越長就能代表越複雜的意思，句子的意思也能更明確。<br/>
-2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
-
-<p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LSI 和 SVD]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/19/lsi-he-svd/"/>
-    <updated>2014-04-19T19:44:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/19/lsi-he-svd</id>
-    <content type="html"><![CDATA[<p>記錄在處理nlp問題時看到的專有名詞。</p>
-
-<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_indexing">Latent semantic indexing</a> (LSI) 照字面翻成潛在語義索引，一般搜尋引擎透過關鍵字索引文件，但是LSI是利用詞彙在不同語境下有不同語義去搜尋，
-因為使用者在搜尋文件時有可能因為一詞多義讓搜尋結果夾雜多餘的文件，一義多詞則會讓一些文件沒有搜尋到的問題。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_analysis">Latent semantic analysis</a> (LSA) 潛在語義學，一般語義學主要研究詞彙的同義、相似、反義詞，而LSA主要是研究詞彙在文件中的關係，
-LSI假設詞彙在類似的文句中會有相近的意思，LSI利用tf-idf建立一個大型矩陣，行為詞列為文件值為tf-idf算出的權值。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Singular_value_decomposition">Singular value decomposition</a> (SVD) 奇異值分解，一種矩陣分解方法，LSA使用SVD讓原本很大的矩陣降維。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> 找出一個詞彙在一個文件中的重要程度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[中文分詞器]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi/"/>
-    <updated>2014-04-15T20:55:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/15/zhong-wen-fen-ci-qi</id>
-    <content type="html"><![CDATA[<p>記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。</p>
-
-<!-- more -->
-
-
-<p>目前有哪些中文分詞器。<br/>
-1. <a href="http://code.google.com/p/ik-analyzer/">IKAnalyzer</a><br/>
-2. <a href="https://code.google.com/p/mmseg4j/">mmseg4j</a><br/>
-3. <a href="https://code.google.com/p/paoding/">paoding</a><br/>
-4. <a href="https://github.com/fubuki/ansj_seg">ansj_seg</a></p>
-
-<p>中文分詞比較常見的是使用詞典進行分詞，使用這種方法最重要是詞典的內容，通常利用輸入法或是網路上放出來的詞典，不過有些新詞或是人名地名
-就沒有辦法處理，另外一點就在分詞速率，透過詞典分詞詞典越大分詞的時間就會越久。另外是使用機器學習透過語料庫訓練出模型例如HMM的方式也是
-需要透過既有的語料庫訓練。此外也能夠使用語言學上的規則方法不過我目前看到的分詞器大多都是詞典加統計模型。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WordNet]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/03/wordnet/"/>
-    <updated>2014-04-03T21:38:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/03/wordnet</id>
-    <content type="html"><![CDATA[<p>在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用<a href="wordnet.princeton.edu">wordnet</a>實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，
-其中有著同義詞集合並且描述之間的關係並且可以自由下載使用，雖然這個只支援英文不過國內似乎有支援中文的專案之後可以下載研究一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Beautiful Data]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/beautiful-data/"/>
-    <updated>2014-03-08T10:11:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/beautiful-data</id>
-    <content type="html"><![CDATA[<p>測試 Beautiful Data 書中 ngram的範例。</p>
+    <title type="html"><![CDATA[Discourse Analysis]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/15/discourse-analysis/"/>
+    <updated>2014-07-15T23:21:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/15/discourse-analysis</id>
+    <content type="html"><![CDATA[<p>Discourse analysis : 在處理對話系統所建立的模型，用來分析句子跟句子之間的關係。<br/>
+可參考<a href="http://en.wikipedia.org/wiki/Discourse_analysis">wiki</a>獲得更詳細的解釋。</p>
 ]]></content>
   </entry>
   
