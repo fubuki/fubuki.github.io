@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-15T23:58:02+08:00</updated>
+  <updated>2014-07-16T21:54:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Big Number]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/16/javascript-big-number/"/>
+    <updated>2014-07-16T21:06:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/16/javascript-big-number</id>
+    <content type="html"><![CDATA[<p>關於在javascript裡面處理大數字的問題。</p>
+
+<!-- more -->
+
+
+<p>在javascript所有的數字類型都是以double的方式實現的，普通的時候是夠用的不過有時會遇到問題，起因是PHP輸出json格式的字串給閱覽器然後使用javascript解析時，解析完的資料含有超過18位元數字，導致由於精度下降的錯誤結果，然後在PHP裡面沒有錯的原因是他使用String的格式存放但在輸出json格式的時候使用了<code>JSON_NUMERIC_CHECK</code>的參數導致所有的內含數字的字串全都變成數字類型輸出。</p>
+
+<p>之後我查看了JSON.stringify但是沒有參數可以處理這樣的問題，原本想自己寫一個處理JSON字串裡面有特大數字的函式庫，不過網路上已經有類似的函式庫可以使用，在此記錄一下，我是使用<a href="https://github.com/sidorares/json-bigint">json-bigint</a>去處理其他兩個是在找尋函式庫的時候找到的，不過只有第一個似乎比較符合我的需求。</p>
+
+<ol>
+<li><a href="https://github.com/sidorares/json-bigint">json-bigint</a></li>
+<li><a href="https://github.com/MikeMcl/big.js/">big.js</a></li>
+<li><a href="https://github.com/MikeMcl/bignumber.js/">bignumber.js</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Discourse Analysis]]></title>
@@ -373,17 +396,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
 <li>ngx_http_upstream_init_request</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached 1MB Limit]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit/"/>
-    <updated>2014-06-18T23:06:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit</id>
-    <content type="html"><![CDATA[<p>memcached在儲存單筆記錄的時候會有個限制，每筆記錄只能存放最大1MB的大小，以前沒有遇過這種問題，但是在最近一個
-專案上面突然遇到快取沒有作用的問題，後來發現有可能是存放的資料大於1MB的問題，在<a href="http://docs.oracle.com/cd/E17952_01/refman-5.6-en/ha-memcached-faq.html">ha-memcached-faq</a>裡面有說為什麼
-預設1MB和如何調整大小。</p>
 ]]></content>
   </entry>
   
