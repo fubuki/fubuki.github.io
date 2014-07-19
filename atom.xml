@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-18T23:29:11+08:00</updated>
+  <updated>2014-07-19T22:06:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,234 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[COSCUP 2014 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/19/coscup-2014-day-1/"/>
+    <updated>2014-07-19T20:56:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/19/coscup-2014-day-1</id>
+    <content type="html"><![CDATA[<p>記錄一下COSCUP 2014第一天(7/19)參加的議程</p>
+
+<!-- more -->
+
+
+<h2>Maker 《自造世代》</h2>
+
+<p>自造微型衛星  <br/>
+創新速度太快<br/>
+花時間抄襲反而會被超越<br/>
+共同創造<br/>
+生產更合意的產品<br/>
+可以複製我們的設計，但無法複製我們的社群</p>
+
+<p><a href="https://localmotors.com/">localmotors</a><br/>
+<a href="http://makerthemovie.com/">makerthemovie</a></p>
+
+<p>企業的阻力跟助力</p>
+
+<h2>ECMAScript 6 new syntax</h2>
+
+<p>ECMAScript 的歷史
+人非常滿</p>
+
+<p>New in Javascript</p>
+
+<p>ES6 Feature</p>
+
+<pre><code>Module
+Class
+Iterator
+Syntax
+</code></pre>
+
+<p>arrow function</p>
+
+<p>rest parameters</p>
+
+<p>spread operator</p>
+
+<p>destructing assign</p>
+
+<p>class 引入其他語言的物件
+跟以前用匿名函式實作不同</p>
+
+<p>map key-value</p>
+
+<p>for of</p>
+
+<p>iterable</p>
+
+<p>yield</p>
+
+<p>simbol</p>
+
+<p>anglurjs es6</p>
+
+<p>compile gulp</p>
+
+<h3>ES future</h3>
+
+<p>es 7 <br/>
+es 8</p>
+
+<p>HTML5DevConf: Doug Crockford &ldquo;Which Way Is Forward&rdquo; for JavaScript</p>
+
+<p>goto 消失的理由</p>
+
+<p>冒號</p>
+
+<p>traceur compile<br/>
+ES wiki<br/>
+Spec Draft</p>
+
+<h2>猎豹的DevRel ~ 一个商业公司的社区探索</h2>
+
+<p>開源社區在大陸遇到的問題。<br/>
+copu<br/>
+lug<br/>
+合法性<br/>
+社會團體登記管理條例<br/>
+社區困境<br/>
+監管<br/>
+用心體會<br/>
+被就業<br/>
+台灣 g0v</p>
+
+<p>夢斷代碼</p>
+
+<h2>Raspberry Pi最新動向和發佈兩年的體驗</h2>
+
+<p>rasspberry 應用</p>
+
+<p>pi transformer</p>
+
+<p>use on the edge of space</p>
+
+<p>pi camera use case</p>
+
+<p>pi no-ir camera</p>
+
+<p>fun with pi noir and filters</p>
+
+<p>社群
+pi-mote</p>
+
+<p>RPPA</p>
+
+<p>mag-pi</p>
+
+<h3>next</h3>
+
+<p>raspberry pi compute module</p>
+
+<p>rap pi B+</p>
+
+<p>iot development kit</p>
+
+<h2>實現在行動裝置的影像處理和智慧型辨識系統，建立流浪狗協尋及地圖分佈服務</h2>
+
+<p>FindDog.net 找狗網</p>
+
+<p>Emotion Recognition in Continuous Mandarin Chinese Speech</p>
+
+<p>動物心理學</p>
+
+<p>狗臉辨識</p>
+
+<p>UGC 模式</p>
+
+<p>data fusion</p>
+
+<p>光線</p>
+
+<p>體型</p>
+
+<p>姿勢</p>
+
+<p>wordnet
+類神經網路</p>
+
+<p>自己製作ios影像辨識  opencv
+沒有講太多技術細節</p>
+
+<h2>醫療相關的地理資訊視覺化</h2>
+
+<p>github repo: <a href="https://github.com/mcdlee/communitymedcare">https://github.com/mcdlee/communitymedcare</a><br/>
+slides: <a href="https://dl.dropboxusercontent.com/u/2806989/talk/20140719_COSCUP/index.html">https://dl.dropboxusercontent.com/u/2806989/talk/20140719_COSCUP/index.html</a></p>
+
+<p>三段五級預防醫學</p>
+
+<p>30歲健康檢查</p>
+
+<p>社區醫療群</p>
+
+<p>R ggmap geocode<br/>
+R + leafletr<br/>
+R + Rcharts<br/>
+R + shiny</p>
+
+<h3>The Future work</h3>
+
+<ol>
+<li><p>UI: permalink</p></li>
+<li><p>Backend:
+ geocode 以外的方法?<br/>
+ R 以外的方法?</p></li>
+<li><p>Spirit: 真正的開放資料<br/>
+診所地址如果開放的話，之後這個應用會更好</p></li>
+</ol>
+
+
+<h2>沃草，一場Open Data的實驗</h2>
+
+<p>如何傳播和行動</p>
+
+<p>低科技的科技部</p>
+
+<p>降低參與政治的難度</p>
+
+<p>國會無雙</p>
+
+<p>可以看到不少平常沒有看到的事情</p>
+
+<h2>The Noto Sans CJK Font and Its Making</h2>
+
+<p>google 放出新字體</p>
+
+<p>思源黑體</p>
+
+<p>很多字體的寫法並非依據台灣教育部規範的寫法</p>
+
+<p>noto = no + tofu</p>
+
+<p>希望處理unicode所有字</p>
+
+<p>異體字<br/>
+日文片假名寬度<br/>
+韓文與古韓文<br/>
+CFF格式</p>
+
+<p>CJKV Information Processing</p>
+
+<p>字體製作順序和過程</p>
+
+<h2>State of the unison: g0v 村情咨文</h2>
+
+<p>古代的科學期刊</p>
+
+<p>讓公民參加政治</p>
+
+<p>特殊政府對政府關係</p>
+
+<p>ngo ng0</p>
+
+<p>clay shirky how the internet will transform government</p>
+
+<p>科技可以改變多事情</p>
+
+<p>洗衣機讓女權提升</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[語意化版本]]></title>
@@ -363,20 +591,6 @@ key然後就可以快速查詢想要批量刪除的鍵值，最後是使用Delet
     <id>http://fubuki.github.io/blog/2014/06/22/python-he-hdf5</id>
     <content type="html"><![CDATA[<p>HDF5檔案格式: <a href="http://www.hdfgroup.org/HDF5/">HDF5</a><br/>
 HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL災難恢复]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu/"/>
-    <updated>2014-06-22T23:30:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu</id>
-    <content type="html"><![CDATA[<p>MySQL 如何備份和恢復</p>
-
-<!-- more -->
-
-
-
 ]]></content>
   </entry>
   
