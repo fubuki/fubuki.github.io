@@ -585,12 +585,16 @@
         <lastmod>2014-07-19T22:06:38+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/07/20/coscup-2014-day-2/</loc>
+        <lastmod>2014-07-20T22:44:02+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-07-19T22:06:38+08:00</lastmod>
+        <lastmod>2014-07-20T22:44:02+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -598,6 +602,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-07-19T22:06:38+08:00</lastmod>
+        <lastmod>2014-07-20T22:44:02+08:00</lastmod>
     </url>
 </urlset>
