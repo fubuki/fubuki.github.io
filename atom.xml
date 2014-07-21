@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-21T23:59:45+08:00</updated>
+  <updated>2014-07-22T00:05:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,14 @@
     <link href="http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit/"/>
     <updated>2014-07-21T23:57:50+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit</id>
-    <content type="html"><![CDATA[<p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤</p>
+    <content type="html"><![CDATA[<p>關於 ORA-01795的錯誤。</p>
+
+<!-- more -->
+
+
+<p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳<code>ORA-01795</code>錯誤，
+在網路上有不少解法，下面會記錄一下有哪些解法，不過由於工作上是使用phalcon 如果要使用網路上的解法就要轉用 <code>raw sql</code>
+的方式讀取資料庫。</p>
 ]]></content>
   </entry>
   

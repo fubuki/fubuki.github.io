@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤
-">
+  <meta name="description" content="關於 ORA-01795的錯誤。 在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳ORA-01795錯誤，
+在網路上有不少解法，下面會記錄一下有哪些解法，不過由於工作上是使用phalcon 如果要使用網路上的解法就要轉用 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -108,7 +108,14 @@
   </header>
 
 
-<div class="entry-content"><p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤</p>
+<div class="entry-content"><p>關於 ORA-01795的錯誤。</p>
+
+<!-- more -->
+
+
+<p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳<code>ORA-01795</code>錯誤，
+在網路上有不少解法，下面會記錄一下有哪些解法，不過由於工作上是使用phalcon 如果要使用網路上的解法就要轉用 <code>raw sql</code>
+的方式讀取資料庫。</p>
 </div>
 
 
