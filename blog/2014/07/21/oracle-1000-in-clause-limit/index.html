@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Javascript Big Number - Learning Blog</title>
+  <title>Oracle 1000 in Clause Limit - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="關於在javascript裡面處理大數字的問題。 在javascript所有的數字類型都是以double的方式實現的，普通的時候是夠用的不過有時會遇到問題，起因是PHP輸出json格式的字串給閱覽器然後使用javascript解析時，解析完的資料含有超過18位元數字，導致由於精度下降的錯誤結果， &hellip;">
+  <meta name="description" content="在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/16/javascript-big-number">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -81,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">Javascript Big Number</h1>
+      <h1 class="entry-title">Oracle 1000 in Clause Limit</h1>
     
     
       <p class="meta">
@@ -97,7 +98,7 @@
   
 
 
-<time datetime="2014-07-16T21:06:32+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2014</time>
+<time datetime="2014-07-21T23:57:50+08:00" pubdate data-updated="true">Jul 21<span>st</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -107,21 +108,7 @@
   </header>
 
 
-<div class="entry-content"><p>關於在javascript裡面處理大數字的問題。</p>
-
-<!-- more -->
-
-
-<p>在javascript所有的數字類型都是以double的方式實現的，普通的時候是夠用的不過有時會遇到問題，起因是PHP輸出json格式的字串給閱覽器然後使用javascript解析時，解析完的資料含有超過18位元數字，導致由於精度下降的錯誤結果，然後在PHP裡面沒有錯的原因是他使用String的格式存放但在輸出json格式的時候使用了<code>JSON_NUMERIC_CHECK</code>的參數導致所有的內含數字的字串全都變成數字類型輸出。</p>
-
-<p>之後我查看了JSON.stringify但是沒有參數可以處理這樣的問題，原本想自己寫一個處理JSON字串裡面有特大數字的函式庫，不過網路上已經有類似的函式庫可以使用，在此記錄一下，我是使用<a href="https://github.com/sidorares/json-bigint">json-bigint</a>去處理其他兩個是在找尋函式庫的時候找到的，不過只有第一個似乎比較符合我的需求。</p>
-
-<ol>
-<li><a href="https://github.com/sidorares/json-bigint">json-bigint</a></li>
-<li><a href="https://github.com/MikeMcl/big.js/">big.js</a></li>
-<li><a href="https://github.com/MikeMcl/bignumber.js/">bignumber.js</a></li>
-</ol>
-
+<div class="entry-content"><p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤</p>
 </div>
 
 
@@ -144,14 +131,8 @@
   
 
 
-<time datetime="2014-07-16T21:06:32+08:00" pubdate data-updated="true">Jul 16<span>th</span>, 2014</time>
+<time datetime="2014-07-21T23:57:50+08:00" pubdate data-updated="true">Jul 21<span>st</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/javascript/'>javascript</a>
-  
-</span>
 
 
     </p>
@@ -165,10 +146,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/07/15/discourse-analysis/" title="Previous Post: discourse analysis">&laquo; discourse analysis</a>
+        <a class="basic-alignment left" href="/blog/2014/07/20/coscup-e-wai-de-shou-huo/" title="Previous Post: COSCUP 額外的收穫">&laquo; COSCUP 額外的收穫</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/07/17/vim-xue-xi-zi-yuan/" title="Next Post: Vim 學習資源">Vim 學習資源 &raquo;</a>
       
     </p>
   </footer>
@@ -323,8 +302,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/16/javascript-big-number/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/07/16/javascript-big-number/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit/';
         var disqus_script = 'embed.js';
       
     (function () {

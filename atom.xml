@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-20T23:55:51+08:00</updated>
+  <updated>2014-07-21T23:59:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Oracle 1000 in Clause Limit]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit/"/>
+    <updated>2014-07-21T23:57:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/21/oracle-1000-in-clause-limit</id>
+    <content type="html"><![CDATA[<p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳錯誤</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[COSCUP 額外的收穫]]></title>
@@ -716,16 +725,6 @@ CFF格式</p>
 <blockquote><p>A polyfill, or polyfiller, is a piece of code (or plug-in) that provides the technology that<br/>
 you, the developer, expect the browser to provide natively. Flattening the API landscape
 if you will.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/"/>
-    <updated>2014-06-25T23:05:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu</id>
-    <content type="html"><![CDATA[<p>記錄在使用推播時 Android 和 iOS 兩者不同之處。<br/>
-<a href="http://blog.katty.in/4300">iOSとAndroidのプッシュ通知の開発の違いまとめ</a></p>
 ]]></content>
   </entry>
   
