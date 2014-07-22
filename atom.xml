@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-22T00:05:27+08:00</updated>
+  <updated>2014-07-23T01:03:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RabbitMQ ** WARNING ** Mnesia Is Overloaded]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded/"/>
+    <updated>2014-07-23T00:54:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded</id>
+    <content type="html"><![CDATA[<p>大坑待補</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Oracle 1000 in Clause Limit]]></title>
@@ -719,19 +728,6 @@ CFF格式</p>
 <h2>memcached集群</h2>
 
 <h2>預熱</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HTML5 Polyfills]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/27/html5-polyfills/"/>
-    <updated>2014-06-27T22:46:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/27/html5-polyfills</id>
-    <content type="html"><![CDATA[<p><a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">What is a Polyfill?</a></p>
-
-<blockquote><p>A polyfill, or polyfiller, is a piece of code (or plug-in) that provides the technology that<br/>
-you, the developer, expect the browser to provide natively. Flattening the API landscape
-if you will.</p></blockquote>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Rabbitmq | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/rabbitmq/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-22T00:05:27+08:00</updated>
+  <updated>2014-07-23T01:03:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RabbitMQ ** WARNING ** Mnesia Is Overloaded]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded/"/>
+    <updated>2014-07-23T00:54:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded</id>
+    <content type="html"><![CDATA[<p>大坑待補</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rabbitmq Client Php and Nodejs]]></title>
