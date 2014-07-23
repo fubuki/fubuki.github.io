@@ -1,0 +1,161 @@
+---
+layout: post
+title: "COSCUP 2014 day 2"
+date: 2014-07-20 22:34:38 +0800
+comments: true
+categories: 
+---
+
+記錄一下COSCUP 2014第二天(7/20)參加的議程
+<!-- more -->
+
+##從沒有人到超多人：g0v社群經驗
+
+open data 是什麼 可以吃嗎
+
+以憤怒為座標
+
+一個請小叮噹吃銅鑼燒的概念
+
+開源授權 irc 共筆寫作 github
+
+###開源金句
+
+
+推坑 開坑
+
+g0v motto
+
+
+因為沒有人是萬能的
+
+au 巨人
+
+社群的本質在確立
+
+elixus.org
+
+jedi ++
+
+permalink   
+share  
+collaborate
+
+G0v 2014 submmit
+
+## 適份適當地爬網路資料 – 解決Open Data燃眉之急時的必要之惡 / Do the Open Data web crawling in proper way within the principles of legal boundaries
+
+cc 授權
+
+自己的資料自己爬
+
+台灣創用CC計畫
+
+資料並不受財產權保護  
+當未達電子資料庫規模
+
+96-9-ec
+
+wto - trips 10之2項
+
+資料本無體 創意亦不含
+本來無窒礙 何須增門檻
+
+###案例 speed bus
+
+流量和負載
+以自然人方式爬資料
+
+其他合法權利的保護
+公平交易法
+個人資料保護法
+
+
+1. 所謂個人資料  人格權 書面同意 
+2. 書面同意 + 告知範圍
+3. 以合法公開的折衷機制
+
+開放知識定義
+
+量化 去識別化
+
+回報連結
+
+你的 我的 公眾領域
+
+##Open Source FabLab
+
+fabacaclerny.org
+
+who qualifies as a fab lab
+
+fab modules
+
+Barcelona 2014
+
+Rep rep 社群
+
+fan2 
+
+##MySQL Workbench 6.1導覽
+
+MySQL 5.6 改良的部分
+
+yum apt-get 安裝
+
+MySQL DMR 
+
+MySQL 5.7.2 Optimizer  JSON format
+
+Fabric
+
+mysql 工具集
+
+可以安裝測試sql指令
+
+Migration wizard
+
+MySQL Enterprise monitor
+
+##Open PIXNET
+
+pixnet emme api
+
+pixnet sdk
+
+用資料改變世界
+打造前所未見的創新服務
+用資料解決社會問題
+
+工商服務
+
+## 開源低成本多旋翼無人飛行器與公民社會議題應用
+
+多旋翼原理
+
+gsm + gps
+
+空拍
+
+水質監測
+
+## Lighting talk
+
+32小時前的發生的事情
+
+Openatc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

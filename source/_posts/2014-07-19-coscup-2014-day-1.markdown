@@ -1,0 +1,241 @@
+---
+layout: post
+title: "COSCUP 2014 day 1"
+date: 2014-07-19 20:56:05 +0800
+comments: true
+categories: 
+---
+
+記錄一下COSCUP 2014第一天(7/19)參加的議程
+<!-- more -->
+
+## Maker 《自造世代》
+
+自造微型衛星    
+創新速度太快  
+花時間抄襲反而會被超越  
+共同創造  
+生產更合意的產品  
+可以複製我們的設計，但無法複製我們的社群
+
+[localmotors]  
+[makerthemovie]
+
+[localmotors]:https://localmotors.com/
+[makerthemovie]:http://makerthemovie.com/
+
+企業的阻力跟助力
+
+## ECMAScript 6 new syntax
+
+ECMAScript 的歷史
+人非常滿
+
+New in Javascript
+
+ES6 Feature
+
+    Module
+    Class
+    Iterator
+    Syntax
+
+arrow function
+
+rest parameters
+
+spread operator
+
+destructing assign
+
+class 引入其他語言的物件
+跟以前用匿名函式實作不同
+
+map key-value
+
+for of
+
+iterable
+
+yield 
+
+simbol 
+
+anglurjs es6
+
+compile gulp
+
+###ES future
+es 7   
+es 8
+
+HTML5DevConf: Doug Crockford "Which Way Is Forward" for JavaScript 
+
+goto 消失的理由
+
+冒號
+
+traceur compile  
+ES wiki  
+Spec Draft  
+
+
+##猎豹的DevRel ~ 一个商业公司的社区探索
+
+開源社區在大陸遇到的問題。  
+copu  
+lug  
+合法性  
+社會團體登記管理條例  
+社區困境  
+監管  
+用心體會  
+被就業  
+台灣 g0v  
+
+夢斷代碼
+
+
+## Raspberry Pi最新動向和發佈兩年的體驗
+
+rasspberry 應用
+
+pi transformer
+
+use on the edge of space
+
+pi camera use case
+
+pi no-ir camera
+
+fun with pi noir and filters
+
+社群
+pi-mote
+
+RPPA
+
+mag-pi
+
+###next
+
+raspberry pi compute module
+
+rap pi B+
+
+iot development kit
+
+
+##實現在行動裝置的影像處理和智慧型辨識系統，建立流浪狗協尋及地圖分佈服務
+
+FindDog.net 找狗網
+
+Emotion Recognition in Continuous Mandarin Chinese Speech
+
+動物心理學
+
+狗臉辨識
+
+UGC 模式
+
+data fusion
+
+光線
+
+體型
+
+姿勢
+
+wordnet
+類神經網路
+
+自己製作ios影像辨識  opencv
+沒有講太多技術細節
+
+## 醫療相關的地理資訊視覺化
+
+
+github repo: [https://github.com/mcdlee/communitymedcare]  
+slides: [https://dl.dropboxusercontent.com/u/2806989/talk/20140719_COSCUP/index.html]
+
+[https://github.com/mcdlee/communitymedcare]: https://github.com/mcdlee/communitymedcare
+
+[https://dl.dropboxusercontent.com/u/2806989/talk/20140719_COSCUP/index.html]:https://dl.dropboxusercontent.com/u/2806989/talk/20140719_COSCUP/index.html
+
+三段五級預防醫學
+
+30歲健康檢查
+ 
+社區醫療群
+
+R ggmap geocode  
+R + leafletr  
+R + Rcharts  
+R + shiny  
+
+###The Future work  
+1. UI: permalink
+
+2. Backend:
+	geocode 以外的方法?  
+    R 以外的方法?
+
+3.  Spirit: 真正的開放資料  
+	診所地址如果開放的話，之後這個應用會更好
+
+
+## 沃草，一場Open Data的實驗
+
+如何傳播和行動
+
+低科技的科技部
+
+降低參與政治的難度
+
+國會無雙
+
+可以看到不少平常沒有看到的事情
+
+##The Noto Sans CJK Font and Its Making
+
+google 放出新字體
+
+思源黑體
+
+很多字體的寫法並非依據台灣教育部規範的寫法
+
+noto = no + tofu
+
+希望處理unicode所有字
+
+異體字  
+日文片假名寬度  
+韓文與古韓文  
+CFF格式  
+
+CJKV Information Processing
+
+字體製作順序和過程
+
+## State of the unison: g0v 村情咨文
+
+古代的科學期刊
+
+讓公民參加政治
+
+特殊政府對政府關係
+
+ngo ng0
+
+clay shirky how the internet will transform government
+
+科技可以改變多事情
+
+洗衣機讓女權提升
+
+
+
+
+
+
+

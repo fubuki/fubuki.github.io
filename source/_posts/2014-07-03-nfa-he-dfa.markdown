@@ -1,0 +1,21 @@
+---
+layout: post
+title: "NFA 和 DFA"
+date: 2014-07-03 23:53:18 +0800
+comments: true
+categories: 
+---
+
+##何謂 NFA 和 DFA
+
+NFA(Nondeterministic Finite Automaton):從一個狀態到另一個狀態是不確定的。
+
+DFA(Deterministic Finite Automaton):  可以檢查輸入字串是否符合這個狀態機。
+
+ε遷移
+
+##正規表現式 傳喚成 NFA 轉換成 DFA
+
+
+
+##NLP裡面的應用
