@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-23T01:03:36+08:00</updated>
+  <updated>2014-07-24T00:13:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 自動化測試]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi/"/>
+    <updated>2014-07-23T23:42:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi</id>
+    <content type="html"><![CDATA[<p>關於 PHP 自動化測試部分。</p>
+
+<!-- more -->
+
+
+<p><a href="http://phpunit.de/">浅析 PHP 官方自动化测试方法</a>
+<a href="https://github.com/sebastianbergmann/phpunit-selenium">phpunit-selenium</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Auto Restart Php Script by Register_shutdown_function and Pcntl_exec]]></title>
@@ -87,24 +102,6 @@
     <updated>2014-06-02T23:50:44+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/02/php-he-yan-jiu-zi-yuan</id>
     <content type="html"><![CDATA[<p>深入理解PHP内核 <a href="http://www.php-internals.com/book/">http://www.php-internals.com/book/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Connect vs Pconnect]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/"/>
-    <updated>2014-05-23T21:31:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect</id>
-    <content type="html"><![CDATA[<p>memcache目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
-php 在使用memcached遇到的問題。</p>
-
-<!-- more -->
-
-
-<p>memcached 有分 connect 和 pconnect兩種方法，但是connect會斷掉連線，而pconnect會將連接持久化，從curr_connections可以看出
-兩者的不同，同一個網頁重整conncet的curr_connections數值不會一直增加，但是pconnet會上升到一個上限。</p>
-
-<p>但是在網路上有看到人說 fastcgi方式用長連接是無效的，這邊還需要了解關於pconnect是如何實作的。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-23T01:03:36+08:00</updated>
+  <updated>2014-07-24T00:13:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,36 @@
 
   
   <entry>
+    <title type="html"><![CDATA[PHP 自動化測試]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi/"/>
+    <updated>2014-07-23T23:42:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi</id>
+    <content type="html"><![CDATA[<p>關於 PHP 自動化測試部分。</p>
+
+<!-- more -->
+
+
+<p><a href="http://phpunit.de/">浅析 PHP 官方自动化测试方法</a>
+<a href="https://github.com/sebastianbergmann/phpunit-selenium">phpunit-selenium</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[RabbitMQ ** WARNING ** Mnesia Is Overloaded]]></title>
     <link href="http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded/"/>
     <updated>2014-07-23T00:54:47+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded</id>
     <content type="html"><![CDATA[<p>大坑待補</p>
+
+<!-- more -->
+
+
+<p>在使用 <code>rabbitmq</code> 的時候出現一些奇怪的問題，可以連線但是無法訂閱 <code>topic</code>，還有 rabbitmq 關機跟開機很慢的問題，
+看 log 有一段是 <code>** WARNING ** Mnesia is overloaded"</code> ，網路上搜尋也有不少人有同樣的問題，在這邊記錄一下解法
+在測試看看行不行。</p>
+
+<p><a href="http://erlang.2086793.n4.nabble.com/Q-Mnesia-is-overloaded-td2098730.html">Q-Mnesia-is-overloaded-td2098730</a><br/>
+<a href="http://streamhacker.com/2008/12/10/how-to-eliminate-mnesia-overload-events/">How to Eliminate Mnesia Overload Events</a></p>
 ]]></content>
   </entry>
   
@@ -708,26 +733,6 @@ CFF格式</p>
     <content type="html"><![CDATA[<p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
 有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
 不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcache 調整]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng/"/>
-    <updated>2014-06-28T23:51:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng</id>
-    <content type="html"><![CDATA[<p>memcached tips</p>
-
-<!-- more -->
-
-
-<h2>啟動參數</h2>
-
-<h2>運行狀況</h2>
-
-<h2>memcached集群</h2>
-
-<h2>預熱</h2>
 ]]></content>
   </entry>
   
