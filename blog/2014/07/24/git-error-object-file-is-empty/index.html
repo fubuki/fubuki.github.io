@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>OSDC 2014 First Day - Learning Blog</title>
+  <title>Git Error Object File Is Empty - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下OSDC 2014第一天(4/11)參加的議程 How Public Lab collaborates to make environmental science something anyone can do 這議程讓我印象深刻，利用社群的力量關懷社會， &hellip;">
+  <meta name="description" content="昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
+整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。 error: object file .git/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -81,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">OSDC 2014 First Day</h1>
+      <h1 class="entry-title">Git Error Object File Is Empty</h1>
     
     
       <p class="meta">
@@ -97,7 +98,7 @@
   
 
 
-<time datetime="2014-04-11T21:23:36+08:00" pubdate data-updated="true">Apr 11<span>th</span>, 2014</time>
+<time datetime="2014-07-24T21:48:08+08:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -107,68 +108,16 @@
   </header>
 
 
-<div class="entry-content"><p>記錄一下OSDC 2014第一天(4/11)參加的議程</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<h3>How Public Lab collaborates to make environmental science something anyone can do</h3>
+<p>昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
+整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。</p>
 
-<p>這議程讓我印象深刻，利用社群的力量關懷社會，使用風箏和數位相機做出空拍圖取得資料不一定要太昂貴的機器也可以達到相同的效果，
-只等待公家機關是不行的，藉由民間的力量關注環境的議題。<br/>
-<a href="http://publiclab.org/">publiclab</a></p>
+<p>error: object file .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27 is empty
+fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
 
-<h3>Using Open Standards and Open Source to Manage a Datacenter</h3>
-
-<p>這個議程介紹一些在管理資料中心時使用哪些技巧和使用哪些開源軟體，講者是在cloudMosa任職的，管理著&#8217;2k+ node&#8217;和 &lsquo;4個data center&#8217;。
-1. MRTG
-2. snmp
-3. specific MIBs
-4. RRD tool
-5. Munin</p>
-
-<h3>Sharding and Scale-out using MySQL Fabric</h3>
-
-<p>MySQL Fabric是oracle放出來用來擴展mysql的controller，讓程式透過Fabric存取mysql cluster，不過這場演講讓我印象深刻的是他說的英文還不錯，
-雖然有些地方還是有日本腔，但比我在日本旅行聽到的英文好的多。</p>
-
-<h3>MySQL Utility</h3>
-
-<p>跟上一場都是Oracle的講者，介紹在mysql workbench裡一個工具&#8217;MySQL Utility&#8217;，裡面有些功能在管理Mysql Cluster比較
-Master和Slave資料差別蠻有用的。</p>
-
-<h3>Getting started with Python for Data Science</h3>
-
-<p>介紹Data Science是什麼，列出一些Python 熱門的library和講者關注的library。</p>
-
-<h3>DIY一個Data Mining based的網路流量分析工具</h3>
-
-<p>講者是在康寧護專任職的網管，這場是介紹他寫的流量分析工具，不過似乎是基本的概念實現程式，裡面會有不少BUG，
-不過講者有放到網路上可以下載後改進架構。</p>
-
-<ol>
-<li>flow 格式的資料</li>
-<li>pmacct</li>
-<li>mysql</li>
-<li>php and perl</li>
-<li>mahout</li>
-<li>bootstrap and chartjs</li>
-</ol>
-
-
-<h3>Understanding Android Benchmarks</h3>
-
-<p>介紹Android Benchmarks有哪些方式，主要是測試CPU和Memory。</p>
-
-<h3>ProjectTox: Free as in freedom Skype replacement</h3>
-
-<p>之前就有看過ProjectTox，是為了取代Skype的開源通訊軟體，然後之所以有那麼多相關的分支是因為Tox本身是一個library，
-其他專案都是基於Tox建立的。</p>
-
-<h3>有 <del>愛</del> RAII 的 C++</h3>
-
-<p>這場比較硬一些，前面在講一些GC Language會遇到的問題並且給一些會導致Memory Leak的範例，
-之後在開始介紹C++的<a href="http://en.wikipedia.org/wiki/Resource_Acquisition_Is_Initialization">RAII</a>，這場主要在講程式關於記憶體方面的問題。</p>
+<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
 </div>
 
 
@@ -191,12 +140,12 @@ Master和Slave資料差別蠻有用的。</p>
   
 
 
-<time datetime="2014-04-11T21:23:36+08:00" pubdate data-updated="true">Apr 11<span>th</span>, 2014</time>
+<time datetime="2014-07-24T21:48:08+08:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/open-source/'>open source</a>
+    <a class='category' href='/blog/categories/git/'>git</a>
   
 </span>
 
@@ -212,10 +161,8 @@ Master和Slave資料差別蠻有用的。</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/04/07/git-reflogde-yong-fa/" title="Previous Post: git-reflog的用法">&laquo; git-reflog的用法</a>
+        <a class="basic-alignment left" href="/blog/2014/07/23/php-zi-dong-hua-ce-shi/" title="Previous Post: PHP 自動化測試">&laquo; PHP 自動化測試</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/04/12/osdc-2014-second-day/" title="Next Post: OSDC 2014 second day">OSDC 2014 second day &raquo;</a>
       
     </p>
   </footer>
@@ -370,8 +317,8 @@ Master和Slave資料差別蠻有用的。</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/04/11/osdc-2014-first-day/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/';
         var disqus_script = 'embed.js';
       
     (function () {

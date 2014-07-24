@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-24T00:13:48+08:00</updated>
+  <updated>2014-07-24T22:32:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Error Object File Is Empty]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/"/>
+    <updated>2014-07-24T21:48:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
+整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。</p>
+
+<p>error: object file .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27 is empty
+fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
+
+<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 自動化測試]]></title>
@@ -722,17 +740,6 @@ CFF格式</p>
 <li>Data Push Apps with HTML5 SSE</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 之 Fastcgi_finish_request]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/"/>
-    <updated>2014-06-29T23:02:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request</id>
-    <content type="html"><![CDATA[<p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
-有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
-不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
 ]]></content>
   </entry>
   
