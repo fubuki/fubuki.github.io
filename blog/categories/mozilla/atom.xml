@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mozilla | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mozilla/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-07-25T23:58:38+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mozilla Webmaker]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker/"/>
+    <updated>2014-07-25T23:46:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker</id>
+    <content type="html"><![CDATA[<p>在參加 COSCUP 時，有一場議程有提到 Appmaker 這個工具可以輕易讓使用者
+開發 APP 並且發布到 firefox os 手機或是模擬器上面，看著 youtube上面的教學弄了一個煙火的APP，馬上
+可以看到效果，能夠給開發者建立一個原型。</p>
+
+<p>另外值得一提的是<a href="https://webmaker.org/zh-TW%3F">webmaker</a> 這個網站， Appmaker是在這個網站下面的其中一個工具，這個網站還有提供其他有趣
+的功能可以日後做為參考。</p>
+]]></content>
+  </entry>
+  
+</feed>
