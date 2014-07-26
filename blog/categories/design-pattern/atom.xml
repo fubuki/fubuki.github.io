@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Design Pattern | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/design-pattern/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-07-26T23:57:00+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Problem Frames]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/26/problem-frames/"/>
+    <updated>2014-07-26T23:46:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/26/problem-frames</id>
+    <content type="html"><![CDATA[<p>Design pattern 設計模式最有名是由GOF提出來的， 其實主要是整理軟體開發上一些問題的解法，
+之前以深入淺出設計模式為人門開始看的，但是看到最後卻只有一知半解，後來看到某個BLOG提到的
+<code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
+遇到開發上的困難時無法好好利用設計模式解決問題。</p>
+
+<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設集模式的書單。</p>
+]]></content>
+  </entry>
+  
+</feed>

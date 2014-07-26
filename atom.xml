@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-25T23:58:38+08:00</updated>
+  <updated>2014-07-26T23:57:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Problem Frames]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/26/problem-frames/"/>
+    <updated>2014-07-26T23:46:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/26/problem-frames</id>
+    <content type="html"><![CDATA[<p>Design pattern 設計模式最有名是由GOF提出來的， 其實主要是整理軟體開發上一些問題的解法，
+之前以深入淺出設計模式為人門開始看的，但是看到最後卻只有一知半解，後來看到某個BLOG提到的
+<code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
+遇到開發上的困難時無法好好利用設計模式解決問題。</p>
+
+<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設集模式的書單。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mozilla Webmaker]]></title>
@@ -696,43 +710,6 @@ CFF格式</p>
 <h2>正規表現式 傳喚成 NFA 轉換成 DFA</h2>
 
 <h2>NLP裡面的應用</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php-fpm 優化參數]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/"/>
-    <updated>2014-07-01T23:30:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu</id>
-    <content type="html"><![CDATA[<p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
-
-<!-- more -->
-
-
-<p>php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程，
-選擇哪個模式端看於硬體上記憶體大小的差別。</p>
-
-<h2>靜態或是動態</h2>
-
-<p>pm = static or dynamic</p>
-
-<h2>靜態方法</h2>
-
-<p>pm.max_children : php-fpm 最大進程數</p>
-
-<h2>動態方法</h2>
-
-<p>pm.start_servers : php-fpm 一開始創鍵的進程數</p>
-
-<p>pm.min_spare_servers : php-fpm 最小的進程數</p>
-
-<p>pm.max_spare_servers : php-fpm 最大進程數</p>
-
-<h2>其他參數</h2>
-
-<p>pm.max_requests : 一個進程處理多少個請求後就重新啟動</p>
-
-<h2>參數大小設定規則</h2>
 ]]></content>
   </entry>
   
