@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Design Pattern | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/design-pattern/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-26T23:57:00+08:00</updated>
+  <updated>2014-07-27T23:40:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -23,7 +23,7 @@
 <code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
 遇到開發上的困難時無法好好利用設計模式解決問題。</p>
 
-<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設集模式的書單。</p>
+<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設計模式的書單。</p>
 ]]></content>
   </entry>
   

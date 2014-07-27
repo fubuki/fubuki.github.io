@@ -616,7 +616,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/07/26/problem-frames/</loc>
-        <lastmod>2014-07-26T23:56:52+08:00</lastmod>
+        <lastmod>2014-07-26T23:59:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/07/27/klju-li/</loc>
+        <lastmod>2014-07-27T23:40:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -624,7 +628,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-07-26T23:56:52+08:00</lastmod>
+        <lastmod>2014-07-27T23:40:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -632,6 +636,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-07-26T23:56:52+08:00</lastmod>
+        <lastmod>2014-07-27T23:40:06+08:00</lastmod>
     </url>
 </urlset>

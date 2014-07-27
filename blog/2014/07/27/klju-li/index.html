@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Deep Learing - Learning Blog</title>
+  <title>KL距離 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄收集的Deep learning slides 和文章 http://www.slideshare.net/beam2d/deep-learning20140130 http://blog.csdn.net/abcjennifer/article/details/7826917 http:// &hellip;">
+  <meta name="description" content="在看統計自然語言基礎這本書看到的，又稱為相對熵，裡面有提到一種語言熵越大
+代表能傳輸的訊息量越大，也會讓語言處理起來更困難，因為熵越大代表不確定性越大
+更難預測。 下面幾個關鍵字要找時間重新看看，之前在大學上通訊原理跟信號處理有提到香農定理跟信噪比
+之類的東西， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/27/deep-learing">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/27/klju-li">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -81,7 +84,7 @@
   
   <header>
     
-      <h1 class="entry-title">Deep Learing</h1>
+      <h1 class="entry-title">KL距離</h1>
     
     
       <p class="meta">
@@ -97,7 +100,7 @@
   
 
 
-<time datetime="2014-02-27T23:27:52+08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2014</time>
+<time datetime="2014-07-27T23:08:27+08:00" pubdate data-updated="true">Jul 27<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -107,16 +110,24 @@
   </header>
 
 
-<div class="entry-content"><p>記錄收集的Deep learning slides  和文章</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<p><a href="http://www.slideshare.net/beam2d/deep-learning20140130  ">http://www.slideshare.net/beam2d/deep-learning20140130  </a>
-<a href="http://blog.csdn.net/abcjennifer/article/details/7826917  ">http://blog.csdn.net/abcjennifer/article/details/7826917  </a>
-<a href="http://www.slideshare.net/HiroshiYamakawa/2013-1219ss  ">http://www.slideshare.net/HiroshiYamakawa/2013-1219ss  </a>
-<a href="http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio/">http://www.reddit.com/r/MachineLearning/comments/1ysry1/ama_yoshua_bengio/</a>
-<a href="https://github.com/lisa-lab/DeepLearningTutorials">https://github.com/lisa-lab/DeepLearningTutorials</a></p>
+<p>在看<code>統計自然語言基礎</code>這本書看到的，又稱為相對熵，裡面有提到一種語言熵越大
+代表能傳輸的訊息量越大，也會讓語言處理起來更困難，因為熵越大代表不確定性越大
+更難預測。</p>
+
+<p>下面幾個關鍵字要找時間重新看看，之前在大學上通訊原理跟信號處理有提到香農定理跟信噪比
+之類的東西，當時是用來驗證某個編碼是否可以用來作為訊息傳輸用，沒有想到會在自然語言處理
+的部分在遇到。</p>
+
+<ol>
+<li>信息論</li>
+<li>噪音信道模型</li>
+<li>熵</li>
+<li>混亂度</li>
+</ol>
+
 </div>
 
 
@@ -139,12 +150,12 @@
   
 
 
-<time datetime="2014-02-27T23:27:52+08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2014</time>
+<time datetime="2014-07-27T23:08:27+08:00" pubdate data-updated="true">Jul 27<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/deep-learning/'>deep-learning</a>
+    <a class='category' href='/blog/categories/nlp/'>NLP</a>
   
 </span>
 
@@ -160,10 +171,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/27/scrapy/" title="Previous Post: Scrapy">&laquo; Scrapy</a>
+        <a class="basic-alignment left" href="/blog/2014/07/26/problem-frames/" title="Previous Post: Problem Frames">&laquo; Problem Frames</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/28/redis-failover/" title="Next Post: Redis Failover">Redis Failover &raquo;</a>
       
     </p>
   </footer>
@@ -320,8 +329,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/02/27/deep-learing/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/02/27/deep-learing/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/27/klju-li/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/27/klju-li/';
         var disqus_script = 'embed.js';
       
     (function () {

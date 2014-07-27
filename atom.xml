@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-26T23:57:00+08:00</updated>
+  <updated>2014-07-27T23:40:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[KL距離]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/27/klju-li/"/>
+    <updated>2014-07-27T23:08:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/27/klju-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看<code>統計自然語言基礎</code>這本書看到的，又稱為相對熵，裡面有提到一種語言熵越大
+代表能傳輸的訊息量越大，也會讓語言處理起來更困難，因為熵越大代表不確定性越大
+更難預測。</p>
+
+<p>下面幾個關鍵字要找時間重新看看，之前在大學上通訊原理跟信號處理有提到香農定理跟信噪比
+之類的東西，當時是用來驗證某個編碼是否可以用來作為訊息傳輸用，沒有想到會在自然語言處理
+的部分在遇到。</p>
+
+<ol>
+<li>信息論</li>
+<li>噪音信道模型</li>
+<li>熵</li>
+<li>混亂度</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Problem Frames]]></title>
@@ -23,7 +49,7 @@
 <code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
 遇到開發上的困難時無法好好利用設計模式解決問題。</p>
 
-<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設集模式的書單。</p>
+<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設計模式的書單。</p>
 ]]></content>
   </entry>
   
@@ -691,25 +717,6 @@ CFF格式</p>
 <li><code>top</code></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NFA 和 DFA]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/03/nfa-he-dfa/"/>
-    <updated>2014-07-03T23:53:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/03/nfa-he-dfa</id>
-    <content type="html"><![CDATA[<h2>何謂 NFA 和 DFA</h2>
-
-<p>NFA(Nondeterministic Finite Automaton):從一個狀態到另一個狀態是不確定的。</p>
-
-<p>DFA(Deterministic Finite Automaton):  可以檢查輸入字串是否符合這個狀態機。</p>
-
-<p>ε遷移</p>
-
-<h2>正規表現式 傳喚成 NFA 轉換成 DFA</h2>
-
-<h2>NLP裡面的應用</h2>
 ]]></content>
   </entry>
   
