@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Mqtt - Learning Blog</title>
+  <title>圍棋的UCT演算法 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: mqtt">
+  <meta name="description" content="在搜尋關於使用統計方法處理自然語言的時候意外看到的東西。 以前在大學在上關於人工智慧的課程有提到比起象棋、西洋棋，製作圍棋的人工智慧更困難，
+由於可能下的步數太多了導致複雜度比起上述的棋類遊戲還難製作。 到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.ioblog/categories/mqtt">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,92 +78,101 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Mqtt</h1>
+    
+      <h1 class="entry-title">圍棋的UCT演算法</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-29T23:03:06+08:00" pubdate data-updated="true">Jul 29<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>在搜尋關於使用統計方法處理自然語言的時候意外看到的東西。</p>
 
-  
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/06/10/mosquitto-bridge-conf/">Mosquitto Bridge Conf</a></h1>
-<time datetime="2014-06-10T22:04:53+08:00" pubdate><span class='month'>Jun</span> <span class='day'>10</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mqtt/'>mqtt</a></span>
-</footer>
+<!-- more -->
 
 
-</article>
+<p>以前在大學在上關於人工智慧的課程有提到比起象棋、西洋棋，製作圍棋的人工智慧更困難，
+由於可能下的步數太多了導致複雜度比起上述的棋類遊戲還難製作。</p>
 
-
-
-<article>
-  
-<h1><a href="/blog/2014/06/08/scaling-mqtt-server/">Scaling Mqtt Server</a></h1>
-<time datetime="2014-06-08T23:59:01+08:00" pubdate><span class='month'>Jun</span> <span class='day'>08</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mqtt/'>mqtt</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/05/30/mqtt-bridge/">MQTT Bridge</a></h1>
-<time datetime="2014-05-30T20:57:07+08:00" pubdate><span class='month'>May</span> <span class='day'>30</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mqtt/'>mqtt</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/03/18/mosca/">Mosca</a></h1>
-<time datetime="2014-03-18T21:38:35+08:00" pubdate><span class='month'>Mar</span> <span class='day'>18</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mqtt/'>mqtt</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2014/03/15/mqtt/">Mqtt</a></h1>
-<time datetime="2014-03-15T00:34:00+08:00" pubdate><span class='month'>Mar</span> <span class='day'>15</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/mqtt/'>mqtt</a></span>
-</footer>
-
-
-</article>
-
+<p>到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照
+<a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-29T23:03:06+08:00" pubdate data-updated="true">Jul 29<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/algorithm/'>algorithm</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/07/28/yu-yi-xiao-qi/" title="Previous Post: 語義消歧">&laquo; 語義消歧</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -308,7 +318,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

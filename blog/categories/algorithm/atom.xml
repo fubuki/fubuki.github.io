@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-28T23:57:54+08:00</updated>
+  <updated>2014-07-29T23:47:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[圍棋的UCT演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/"/>
+    <updated>2014-07-29T23:03:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa</id>
+    <content type="html"><![CDATA[<p>在搜尋關於使用統計方法處理自然語言的時候意外看到的東西。</p>
+
+<!-- more -->
+
+
+<p>以前在大學在上關於人工智慧的課程有提到比起象棋、西洋棋，製作圍棋的人工智慧更困難，
+由於可能下的步數太多了導致複雜度比起上述的棋類遊戲還難製作。</p>
+
+<p>到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照
+<a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[常用的幾種類型樹]]></title>

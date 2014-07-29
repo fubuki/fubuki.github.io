@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: NLP | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-28T23:57:54+08:00</updated>
+  <updated>2014-07-29T23:47:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[語義消歧]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi/"/>
+    <updated>2014-07-28T23:32:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>WSD （Word Sense Disambiguation）</li>
+<li>基於語料庫的消歧 (監督學習)</li>
+<li>基於詞典的消歧</li>
+<li>無監督消歧</li>
+<li>POS  (Part-of-speech tagging)</li>
+</ol>
+
+
+<p>語義代表一個詞所擁有的不同的意義，一個詞會因為上下文的關係而有不同的意義，
+也因此在做翻譯的時候會有混淆，不過目前我知道用來實作機器翻譯是用大量的統計
+資料譬如 google的 Ngram 所形成的統計模型。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[KL距離]]></title>

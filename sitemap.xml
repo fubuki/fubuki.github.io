@@ -10,7 +10,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/02/28/redis-failover/</loc>
-        <lastmod>2014-03-05T22:36:06+08:00</lastmod>
+        <lastmod>2014-07-29T21:16:56+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/02/28/theano/</loc>
@@ -38,7 +38,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/01/nodejs-management/</loc>
-        <lastmod>2014-03-01T12:03:16+08:00</lastmod>
+        <lastmod>2014-07-29T21:17:08+08:00</lastmod>
     </url>
     <url>
         <loc>
@@ -48,7 +48,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/02/sass-and-less/</loc>
-        <lastmod>2014-03-16T20:54:42+08:00</lastmod>
+        <lastmod>2014-07-29T21:17:27+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/02/machine-learning/</loc>
@@ -60,7 +60,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/03/rabbitmq/</loc>
-        <lastmod>2014-03-06T23:59:36+08:00</lastmod>
+        <lastmod>2014-07-29T21:17:36+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/03/04/tmux/</loc>
@@ -624,7 +624,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi/</loc>
-        <lastmod>2014-07-28T23:57:47+08:00</lastmod>
+        <lastmod>2014-07-29T21:16:11+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/</loc>
+        <lastmod>2014-07-29T23:47:22+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -632,7 +636,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-07-28T23:57:47+08:00</lastmod>
+        <lastmod>2014-07-29T23:47:22+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -640,6 +644,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-07-28T23:57:47+08:00</lastmod>
+        <lastmod>2014-07-29T23:47:22+08:00</lastmod>
     </url>
 </urlset>
