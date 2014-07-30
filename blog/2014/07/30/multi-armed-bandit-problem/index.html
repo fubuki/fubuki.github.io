@@ -5,15 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Firefox Os App Development - Learning Blog</title>
+  <title>Multi-armed Bandit Problem - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="
-firefoxos-quick-guide
-how-to-start-developing-apps-for-firefox-os
-App_Basics_for_Firefox_OS
-buildingfirefoxos ">
+  <meta name="description" content="吃角子老虎機問題。 在研究 UCT 演算法時有題到 UCB 這個東西，是為了解決Multi-armed_bandit類型的問題，要能在多個吃角子老虎機上找出最大收益
+，而為了解決這個問題的其中一個演算法就是 UCB 演算法，不過令我注意的是這本書 Bandit Algorithms for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +19,7 @@ buildingfirefoxos ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -85,7 +82,7 @@ buildingfirefoxos ">
   
   <header>
     
-      <h1 class="entry-title">Firefox Os App Development</h1>
+      <h1 class="entry-title">Multi-armed Bandit Problem</h1>
     
     
       <p class="meta">
@@ -101,7 +98,7 @@ buildingfirefoxos ">
   
 
 
-<time datetime="2014-06-14T23:12:13+08:00" pubdate data-updated="true">Jun 14<span>th</span>, 2014</time>
+<time datetime="2014-07-30T22:55:48+08:00" pubdate data-updated="true">Jul 30<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -111,13 +108,16 @@ buildingfirefoxos ">
   </header>
 
 
-<div class="entry-content"><ol>
-<li><a href="https://github.com/soapdog/firefoxos-quick-guide">firefoxos-quick-guide</a></li>
-<li><a href="http://www.slideshare.net/benko/how-to-start-developing-apps-for-firefox-os">how-to-start-developing-apps-for-firefox-os</a></li>
-<li><a href="https://developer.mozilla.org/zh-TW/Firefox_OS/Screencast_series:_App_Basics_for_Firefox_OS">App_Basics_for_Firefox_OS</a></li>
-<li><a href="http://buildingfirefoxos.com/">buildingfirefoxos</a></li>
-</ol>
+<div class="entry-content"><p>吃角子老虎機問題。</p>
 
+<!-- more -->
+
+
+<p>在研究 UCT 演算法時有題到 UCB 這個東西，是為了解決<a href="http://en.wikipedia.org/wiki/Multi-armed_bandit">Multi-armed_bandit</a>類型的問題，要能在多個吃角子老虎機上找出最大收益
+，而為了解決這個問題的其中一個演算法就是 UCB 演算法，不過令我注意的是這本書 <code>Bandit Algorithms for Website Optimization</code>這本書，
+仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
+
+<p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
 </div>
 
 
@@ -140,12 +140,12 @@ buildingfirefoxos ">
   
 
 
-<time datetime="2014-06-14T23:12:13+08:00" pubdate data-updated="true">Jun 14<span>th</span>, 2014</time>
+<time datetime="2014-07-30T22:55:48+08:00" pubdate data-updated="true">Jul 30<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/firefox-os/'>firefox os</a>
+    <a class='category' href='/blog/categories/algorithm/'>algorithm</a>
   
 </span>
 
@@ -161,10 +161,8 @@ buildingfirefoxos ">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/" title="Previous Post: MySQL 參數文件和日誌">&laquo; MySQL 參數文件和日誌</a>
+        <a class="basic-alignment left" href="/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/" title="Previous Post: 圍棋的UCT演算法">&laquo; 圍棋的UCT演算法</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/06/15/mysql-fen-qu-biao/" title="Next Post: MySQL 分區表">MySQL 分區表 &raquo;</a>
       
     </p>
   </footer>
@@ -319,8 +317,8 @@ buildingfirefoxos ">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem/';
         var disqus_script = 'embed.js';
       
     (function () {

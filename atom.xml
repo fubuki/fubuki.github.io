@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-30T00:05:11+08:00</updated>
+  <updated>2014-07-30T23:38:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Multi-armed Bandit Problem]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem/"/>
+    <updated>2014-07-30T22:55:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem</id>
+    <content type="html"><![CDATA[<p>吃角子老虎機問題。</p>
+
+<!-- more -->
+
+
+<p>在研究 UCT 演算法時有題到 UCB 這個東西，是為了解決<a href="http://en.wikipedia.org/wiki/Multi-armed_bandit">Multi-armed_bandit</a>類型的問題，要能在多個吃角子老虎機上找出最大收益
+，而為了解決這個問題的其中一個演算法就是 UCB 演算法，不過令我注意的是這本書 <code>Bandit Algorithms for Website Optimization</code>這本書，
+仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
+
+<p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[圍棋的UCT演算法]]></title>
@@ -28,6 +46,8 @@
 
 <p>到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照
 <a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
+
+<p>附註 UCB 演算法 Multi-armed Bandit，   Bandit Algorithms for Website Optimization</p>
 ]]></content>
   </entry>
   
@@ -703,20 +723,6 @@ CFF格式</p>
 <h3>簡介</h3>
 
 <p>判斷特定日期是星期幾，每周統計數量，計算工作日</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[常用的幾種類型樹]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/09/chang-yong-de-ji-zhong-lei-xing-shu/"/>
-    <updated>2014-07-09T23:54:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/09/chang-yong-de-ji-zhong-lei-xing-shu</id>
-    <content type="html"><![CDATA[<ol>
-<li>B-tree</li>
-<li>Red–black tree</li>
-<li>AVL tree</li>
-</ol>
-
 ]]></content>
   </entry>
   
