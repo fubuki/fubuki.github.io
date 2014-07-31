@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-07-30T23:38:16+08:00</updated>
+  <updated>2014-08-01T00:05:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 持續集成]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/31/php-chi-xu-ji-cheng/"/>
+    <updated>2014-07-31T23:49:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/31/php-chi-xu-ji-cheng</id>
+    <content type="html"><![CDATA[<p>記錄建立持續集成環境。</p>
+
+<!-- more -->
+
+
+<p>之前在工作上有使用 jenkins 搭建持續集成的環境，但是公司沒有導入，現在換用 PHPCI 自行建立一個，
+並且使用在正在開發的專案上，從 PHPCI 官網上有比較跟其他同類型的軟體的差異，不過還是等到實際使用後
+才能知道，之後也會在 node.js 上面搭建類似的環境。</p>
+
+<ol>
+<li><a href="http://www.slideshare.net/baterme/java-2013-java-developerday">java-2013-java-developerday</a></li>
+<li><a href="http://book.douban.com/subject/2580604/">持续集成</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Multi-armed Bandit Problem]]></title>
@@ -687,42 +709,6 @@ CFF格式</p>
 <li>编程原本</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SQL 日期經典問題]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/"/>
-    <updated>2014-07-10T23:39:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti</id>
-    <content type="html"><![CDATA[<p>介紹關於使用MySQL處理日期的相關問題。<br/>
-1. 生日問題 <br/>
-2. 重疊問題 <br/>
-3. 星期數問題</p>
-
-<!-- more -->
-
-
-<h2>生日問題</h2>
-
-<h3>簡介</h3>
-
-<p>查詢一個人最接近的生日日期，需要注意處理閏月的問題。</p>
-
-<h2>重疊問題</h2>
-
-<h3>簡介</h3>
-
-<p>主要是時間重疊的問題。
-1. 標示重疊
-2. 分組重疊
-3. 最大重疊會話術</p>
-
-<h2>星期數問題</h2>
-
-<h3>簡介</h3>
-
-<p>判斷特定日期是星期幾，每周統計數量，計算工作日</p>
 ]]></content>
   </entry>
   
