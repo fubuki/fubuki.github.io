@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-01T00:05:38+08:00</updated>
+  <updated>2014-08-01T23:52:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[八月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan/"/>
+    <updated>2014-08-01T23:35:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄八月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Bandit Algorithms for Website Optimization</li>
+<li>夢斷代碼</li>
+<li>Mastering.Search.Analytics：Measuring.SEO.SEM.and.Site.Search</li>
+<li>Python for Data Analysis</li>
+<li>深入php 面向对象、模式与实践</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[新收集的書籍]]></title>
@@ -88,28 +109,6 @@
 <li>Learning JavaScript Design Patterns</li>
 <li>社群網站的資料探勘</li>
 <li>jQuery技术内幕：深入解析jQuery架构设计与实现原理</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[四月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan/"/>
-    <updated>2014-04-17T22:54:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/17/si-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄四月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>The Clean Coder無暇的程式碼</li>
-<li>The Clean Coder無暇的程式碼 番外篇</li>
-<li>解密搜尋引擎 技術實戰</li>
-<li>易讀程式之美學－提升程式碼可讀性的簡單法則 (The Art of Readable Code)</li>
-<li>BAD DATA 技術手冊</li>
-<li>Interactive.Data.Visualization.for.the.Web</li>
 </ol>
 
 ]]></content>
