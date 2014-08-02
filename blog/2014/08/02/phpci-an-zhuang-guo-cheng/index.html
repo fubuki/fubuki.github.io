@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Strongloop - Learning Blog</title>
+  <title>Phpci 安裝過程 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="之前在網路上無意找到的，幫助使用者建立nodejs的商業環境，
-將一些nodejs npm模組和strongloop本身開發的集成的工具。 Express – a web application framework Connect – a rich middleware framework &hellip;">
+  <meta name="description" content="phpci 看起來是專門為 PHP 持續集成所做的， 這是他的github， 它的wiki有寫怎麼安裝，
+不過裝不起來所以在這邊記錄一下安裝過程。 我這邊是先從 github clone 一份下來，然後我資料庫使用 MariaDB ，server 使用 nginx，
+然後使用 composer &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/08/strongloop">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Strongloop</h1>
+      <h1 class="entry-title">Phpci 安裝過程</h1>
     
     
       <p class="meta">
@@ -98,7 +99,7 @@
   
 
 
-<time datetime="2014-03-08T22:14:42+08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
+<time datetime="2014-08-02T23:49:24+08:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -108,28 +109,15 @@
   </header>
 
 
-<div class="entry-content"><p>之前在網路上無意找到的，幫助使用者建立nodejs的商業環境，
-將一些nodejs npm模組和strongloop本身開發的集成的工具。</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<ul>
-<li> Express – a web application framework</li>
-<li> Connect – a rich middleware framework</li>
-<li> Passport – a simple, unobtrusive authentication</li>
-<li> Mongoose – an mongodb object modeling library</li>
-<li> Async – higher-order functions and common patterns for asynchronous code</li>
-<li> Q – a tool for making and composing asynchronous promises in JavaScript</li>
-<li> Request – a simplified HTTP request client</li>
-<li> Socket.IO – cross-browser WebSocket for realtime apps</li>
-<li> Engine.IO – transport layer for real time data exchange</li>
-<li> SL Task Emitter– perform an unknown number of async tasks recursively</li>
-<li> SL Config Loader – recursively load config files</li>
-<li> SL Module Loader – separate your app into modules loaded by config files</li>
-<li> SL MQ – MQ API with cluster integration, implemented over various message queues</li>
-</ul>
+<p><a href="https://www.phptesting.org/">phpci</a> 看起來是專門為 PHP 持續集成所做的， 這是他的<a href="https://github.com/Block8/PHPCI">github</a>， 它的wiki有寫怎麼安裝，
+不過裝不起來所以在這邊記錄一下安裝過程。</p>
 
+<p>我這邊是先從 github clone 一份下來，然後我資料庫使用 MariaDB ，server 使用 nginx，
+然後使用 composer 安裝必要的部分，但是它本身所以用的 framework 有bug 還要更新，但是
+還是有相同的錯誤出現。</p>
 </div>
 
 
@@ -152,12 +140,12 @@
   
 
 
-<time datetime="2014-03-08T22:14:42+08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
+<time datetime="2014-08-02T23:49:24+08:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/php/'>PHP</a>, <a class='category' href='/blog/categories/continuous-integration/'>continuous integration</a>
   
 </span>
 
@@ -173,10 +161,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/08/nodejs-tip/" title="Previous Post: nodejs tip">&laquo; nodejs tip</a>
+        <a class="basic-alignment left" href="/blog/2014/08/01/ba-yue-shu-dan/" title="Previous Post: 八月書單">&laquo; 八月書單</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/09/socket.io-shi-yong-xin-de/" title="Next Post: socket.io 使用心得">socket.io 使用心得 &raquo;</a>
       
     </p>
   </footer>
@@ -333,8 +319,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/08/strongloop/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/08/strongloop/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng/';
         var disqus_script = 'embed.js';
       
     (function () {
