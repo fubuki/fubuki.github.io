@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: NLP | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-02T23:57:50+08:00</updated>
+  <updated>2014-08-03T23:58:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PCFG]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/03/pcfg/"/>
+    <updated>2014-08-03T23:46:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/03/pcfg</id>
+    <content type="html"><![CDATA[<p>Probabilistic Context Free Grammar (PCFG)，之前有在編譯器原理和計算理論看過 <code>Context Free Grammar</code> 簡稱CFG，
+當初會提到 CFG 是因為CFG可以用來表達大多數的程式語言的語法， 然後這次在自然語言處理的部分看到PCFG，</p>
+
+<h3>定義</h3>
+
+<h3>語法分析</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[語義消歧]]></title>
@@ -98,28 +112,6 @@
 2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
 
 <p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LSI 和 SVD]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/19/lsi-he-svd/"/>
-    <updated>2014-04-19T19:44:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/19/lsi-he-svd</id>
-    <content type="html"><![CDATA[<p>記錄在處理nlp問題時看到的專有名詞。</p>
-
-<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_indexing">Latent semantic indexing</a> (LSI) 照字面翻成潛在語義索引，一般搜尋引擎透過關鍵字索引文件，但是LSI是利用詞彙在不同語境下有不同語義去搜尋，
-因為使用者在搜尋文件時有可能因為一詞多義讓搜尋結果夾雜多餘的文件，一義多詞則會讓一些文件沒有搜尋到的問題。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Latent_semantic_analysis">Latent semantic analysis</a> (LSA) 潛在語義學，一般語義學主要研究詞彙的同義、相似、反義詞，而LSA主要是研究詞彙在文件中的關係，
-LSI假設詞彙在類似的文句中會有相近的意思，LSI利用tf-idf建立一個大型矩陣，行為詞列為文件值為tf-idf算出的權值。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Singular_value_decomposition">Singular value decomposition</a> (SVD) 奇異值分解，一種矩陣分解方法，LSA使用SVD讓原本很大的矩陣降維。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">tf-idf</a> 找出一個詞彙在一個文件中的重要程度。</p>
 ]]></content>
   </entry>
   

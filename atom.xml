@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-02T23:57:50+08:00</updated>
+  <updated>2014-08-03T23:58:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Phpci 安裝過程]]></title>
+    <title type="html"><![CDATA[PCFG]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/03/pcfg/"/>
+    <updated>2014-08-03T23:46:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/03/pcfg</id>
+    <content type="html"><![CDATA[<p>Probabilistic Context Free Grammar (PCFG)，之前有在編譯器原理和計算理論看過 <code>Context Free Grammar</code> 簡稱CFG，
+當初會提到 CFG 是因為CFG可以用來表達大多數的程式語言的語法， 然後這次在自然語言處理的部分看到PCFG，</p>
+
+<h3>定義</h3>
+
+<h3>語法分析</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHPCI 安裝過程]]></title>
     <link href="http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng/"/>
     <updated>2014-08-02T23:49:24+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng</id>
@@ -694,24 +708,6 @@ CFF格式</p>
 <li><a href="https://github.com/sidorares/json-bigint">json-bigint</a></li>
 <li><a href="https://github.com/MikeMcl/big.js/">big.js</a></li>
 <li><a href="https://github.com/MikeMcl/bignumber.js/">bignumber.js</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Discourse Analysis]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/15/discourse-analysis/"/>
-    <updated>2014-07-15T23:21:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/15/discourse-analysis</id>
-    <content type="html"><![CDATA[<p>Discourse analysis : 在處理對話系統所建立的模型，用來分析句子跟句子之間的關係。<br/>
-可參考<a href="http://en.wikipedia.org/wiki/Discourse_analysis">wiki</a>獲得更詳細的解釋。</p>
-
-<h3>book</h3>
-
-<ol>
-<li>The Handbook of Discourse Analysis</li>
-<li>How to do Discourse Analysis: A Toolkit</li>
 </ol>
 
 ]]></content>
