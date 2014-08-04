@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-03T23:58:13+08:00</updated>
+  <updated>2014-08-04T23:58:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Explore-Exploit Trade-off]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off/"/>
+    <updated>2014-08-04T23:33:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>We call experimentation  exploration  and we call profit-maximization exploitation</code> 在 Bandit.Algorithms.for.Website.Optimization 書中看到關於 Explore-Exploit trade-off
+的定義，簡單來說在解決問題的成本和獲得的利潤上取得平衡，書中開頭的案例:為網站更換 LOGO， 傳統的做法是使用 AB TEST但是花大量的時間，所以從這邊我可以慢慢猜得出來如何跟
+Bandit Algorithms 有關。</p>
+
+<p>另外記錄一篇跟<code>Explore-Exploit trade-off</code>相關的有趣論文:<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=122779">Web-Scale Bayesian Click-Through Rate Prediction for Sponsored Search Advertising in Microsoft’s Bing Search Engine</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Multi-armed Bandit Problem]]></title>
@@ -93,31 +109,6 @@
 <h1>PeopleRank</h1>
 
 <p>類似PageRank，不過是用來測量使用者產出內容的價值。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[網頁相似度演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa/"/>
-    <updated>2014-03-08T09:54:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/08/wang-ye-xiang-si-du-yan-suan-fa</id>
-    <content type="html"><![CDATA[<p>計算出兩個網頁之間的相似度，在抓取網頁的時候可以快速判斷相似度。</p>
-
-<!-- more -->
-
-
-<p>目前看到的有以下幾種:</p>
-
-<ol>
-<li>I-Match</li>
-<li>Shingling</li>
-<li>SimHash</li>
-<li>SpotSigs</li>
-<li>Combined</li>
-</ol>
-
-
-<p>需要找時間將以上演算法實作一遍。</p>
 ]]></content>
   </entry>
   
