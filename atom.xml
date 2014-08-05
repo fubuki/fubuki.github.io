@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-04T23:58:44+08:00</updated>
+  <updated>2014-08-05T23:59:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery Mobile Form]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from/"/>
+    <updated>2014-08-05T23:54:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 jQuery Mobile 製作手機板用的表單，原本有在使用 <code>Twitter Bootstrap</code> 製作網站，最近想試試看
+使用<a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a> 製作看看， 目前工作上看到合作的設計師似乎只是使用Bootstrap的RWD功能，
+但是按鈕設計和排版上有點怪怪。</p>
+
+<p><a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Explore-Exploit Trade-off]]></title>
@@ -688,24 +704,6 @@ CFF格式</p>
     <content type="html"><![CDATA[<p>在開發程式的時候都會有個版號代表目前開發的階段，然後可以用版號管理之間的相依性，但是如何命名和哪個時候才要
 增加版號沒有一定的規則，之後在網路上看到<a href="http://semver.org/lang/zh-TW/">語意化版本</a>這邊文章可以做為參考，將版號分成三個部分，各自代表某些意義，
 這比之前只用兩個數字作為版號只要有功能新增就直接+1來的好也比較好懂。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Vim 學習資源]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/17/vim-xue-xi-zi-yuan/"/>
-    <updated>2014-07-17T23:53:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/17/vim-xue-xi-zi-yuan</id>
-    <content type="html"><![CDATA[<p>記錄一下收集的Vim學習資源</p>
-
-<!-- more -->
-
-
-<ol>
-<li>Practical Vim</li>
-<li><a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the Hard Way</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
