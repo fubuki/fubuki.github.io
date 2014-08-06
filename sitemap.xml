@@ -656,7 +656,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from/</loc>
-        <lastmod>2014-08-05T23:59:20+08:00</lastmod>
+        <lastmod>2014-08-06T22:57:58+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/08/06/texttiling-suan-fa/</loc>
+        <lastmod>2014-08-06T23:55:36+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -664,7 +668,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-08-05T23:59:20+08:00</lastmod>
+        <lastmod>2014-08-06T23:55:36+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -672,6 +676,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-08-05T23:59:20+08:00</lastmod>
+        <lastmod>2014-08-06T23:55:36+08:00</lastmod>
     </url>
 </urlset>

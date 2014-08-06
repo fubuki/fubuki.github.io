@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: NLP | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-05T23:59:26+08:00</updated>
+  <updated>2014-08-06T23:55:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TextTiling 算法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/06/texttiling-suan-fa/"/>
+    <updated>2014-08-06T23:50:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/06/texttiling-suan-fa</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>分割算法</h3>
+
+<ol>
+<li>cohesion scorer</li>
+<li>depth scorer</li>
+<li>boundary selector</li>
+</ol>
+
+
+<h3>cohesion scorer</h3>
+
+<ol>
+<li>Vector Space Scoring</li>
+<li>Block Comparison</li>
+<li>Vocabulary Introduction</li>
+</ol>
+
+
+<h3>目的</h3>
+
+<p>篇章分割，分析文章中使用者有興趣的部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PCFG]]></title>
@@ -94,27 +126,6 @@
 <li>How to do Discourse Analysis: A Toolkit</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[中文分词的最大匹配法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa/"/>
-    <updated>2014-04-26T22:49:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/26/zhong-wen-fen-ci-de-zui-da-pi-pei-fa</id>
-    <content type="html"><![CDATA[<p>記錄一下中文分詞的入門演算法。<br/>
-1. 最大正向匹配
-2. 最大逆向匹配
-3. 雙向匹配</p>
-
-<!-- more -->
-
-
-<p>中文分詞一開始是使用詞典作分詞，在分詞的過程中主要有幾個原則:  <br/>
-1. 切出來的詞彙越長越好，越長就能代表越複雜的意思，句子的意思也能更明確。<br/>
-2. 切出來的分詞結果通常會有一些停用詞(stop words)或是詞典裡沒有的詞導致會有多餘的字出現，那類的字越少越好。</p>
-
-<p>然後最上面提到的三個演算法其實都是對詞典作匹配，只是是從句子彺前往後匹配或者兩種方法都使用，之後有空用程式語言實踐一下演算法。</p>
 ]]></content>
   </entry>
   
