@@ -663,12 +663,16 @@
         <lastmod>2014-08-06T23:55:36+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/08/07/perceptron/</loc>
+        <lastmod>2014-08-07T23:56:27+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-08-06T23:55:36+08:00</lastmod>
+        <lastmod>2014-08-07T23:56:27+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -676,6 +680,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-08-06T23:55:36+08:00</lastmod>
+        <lastmod>2014-08-07T23:56:27+08:00</lastmod>
     </url>
 </urlset>
