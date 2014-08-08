@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-07T23:56:39+08:00</updated>
+  <updated>2014-08-08T23:51:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Boosting and Bagging]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/"/>
+    <updated>2014-08-08T23:28:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
+其中集成學習的兩種方法，下面整理一些學習資源。</p>
+
+<h3>boosting</h3>
+
+<h3>bagging</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[自然語言分類演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa/"/>
+    <updated>2014-08-08T22:32:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>紀錄一下在統計自然語言處理的看到的分類演算法。</p>
+
+<ol>
+<li>Logistic Regression</li>
+<li>Linear Discriminant Analysis</li>
+<li>Decision List</li>
+<li>Winnow algorithm</li>
+<li>Mistake N-Driven Online Linear Threshold Learning Algorithm</li>
+<li>Rocchio algorithm</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Perceptron Algorithm]]></title>
@@ -352,169 +391,6 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
 <p>在 oracle 使用 where in 的條件語句下遇到了一個問題，oracle 在使用超過1000個的 elemet會跳<code>ORA-01795</code>錯誤，
 在網路上有不少解法，下面會記錄一下有哪些解法，不過由於工作上是使用phalcon 如果要使用網路上的解法就要轉用 <code>raw sql</code>
 的方式讀取資料庫。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[COSCUP 額外的收穫]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/20/coscup-e-wai-de-shou-huo/"/>
-    <updated>2014-07-20T23:52:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/20/coscup-e-wai-de-shou-huo</id>
-    <content type="html"><![CDATA[<ol>
-<li>CJKV Information Processing, 2nd Edition</li>
-<li><a href="http://html5devconf.com/sessions.html">html5devconf</a></li>
-<li>夢斷代碼</li>
-<li>Emotion Recognition in Continuous Mandarin Chinese Speech</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[COSCUP 2014 Day 2]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/20/coscup-2014-day-2/"/>
-    <updated>2014-07-20T22:34:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/20/coscup-2014-day-2</id>
-    <content type="html"><![CDATA[<p>記錄一下COSCUP 2014第二天(7/20)參加的議程</p>
-
-<!-- more -->
-
-
-<h2>從沒有人到超多人：g0v社群經驗</h2>
-
-<p>open data 是什麼 可以吃嗎</p>
-
-<p>以憤怒為座標</p>
-
-<p>一個請小叮噹吃銅鑼燒的概念</p>
-
-<p>開源授權 irc 共筆寫作 github</p>
-
-<h3>開源金句</h3>
-
-<p>推坑 開坑</p>
-
-<p>g0v motto</p>
-
-<p>因為沒有人是萬能的</p>
-
-<p>au 巨人</p>
-
-<p>社群的本質在確立</p>
-
-<p>elixus.org</p>
-
-<p>jedi ++</p>
-
-<p>permalink <br/>
-share<br/>
-collaborate</p>
-
-<p>G0v 2014 submmit</p>
-
-<h2>適份適當地爬網路資料 – 解決Open Data燃眉之急時的必要之惡 / Do the Open Data web crawling in proper way within the principles of legal boundaries</h2>
-
-<p>cc 授權</p>
-
-<p>自己的資料自己爬</p>
-
-<p>台灣創用CC計畫</p>
-
-<p>資料並不受財產權保護<br/>
-當未達電子資料庫規模</p>
-
-<p>96-9-ec</p>
-
-<p>wto &ndash; trips 10之2項</p>
-
-<p>資料本無體 創意亦不含
-本來無窒礙 何須增門檻</p>
-
-<h3>案例 speed bus</h3>
-
-<p>流量和負載
-以自然人方式爬資料</p>
-
-<p>其他合法權利的保護
-公平交易法
-個人資料保護法</p>
-
-<ol>
-<li>所謂個人資料  人格權 書面同意</li>
-<li>書面同意 + 告知範圍</li>
-<li>以合法公開的折衷機制</li>
-</ol>
-
-
-<p>開放知識定義</p>
-
-<p>量化 去識別化</p>
-
-<p>回報連結</p>
-
-<p>你的 我的 公眾領域</p>
-
-<h2>Open Source FabLab</h2>
-
-<p>fabacaclerny.org</p>
-
-<p>who qualifies as a fab lab</p>
-
-<p>fab modules</p>
-
-<p>Barcelona 2014</p>
-
-<p>Rep rep 社群</p>
-
-<p>fan2</p>
-
-<h2>MySQL Workbench 6.1導覽</h2>
-
-<p>MySQL 5.6 改良的部分</p>
-
-<p>yum apt-get 安裝</p>
-
-<p>MySQL DMR</p>
-
-<p>MySQL 5.7.2 Optimizer  JSON format</p>
-
-<p>Fabric</p>
-
-<p>mysql 工具集</p>
-
-<p>可以安裝測試sql指令</p>
-
-<p>Migration wizard</p>
-
-<p>MySQL Enterprise monitor</p>
-
-<h2>Open PIXNET</h2>
-
-<p>pixnet emme api</p>
-
-<p>pixnet sdk</p>
-
-<p>用資料改變世界
-打造前所未見的創新服務
-用資料解決社會問題</p>
-
-<p>工商服務</p>
-
-<h2>開源低成本多旋翼無人飛行器與公民社會議題應用</h2>
-
-<p>多旋翼原理</p>
-
-<p>gsm + gps</p>
-
-<p>空拍</p>
-
-<p>水質監測</p>
-
-<h2>Lighting talk</h2>
-
-<p>32小時前的發生的事情</p>
-
-<p>Openatc</p>
 ]]></content>
   </entry>
   

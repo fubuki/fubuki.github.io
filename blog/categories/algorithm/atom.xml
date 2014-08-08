@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-07T23:56:39+08:00</updated>
+  <updated>2014-08-08T23:51:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Boosting and Bagging]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/"/>
+    <updated>2014-08-08T23:28:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
+其中集成學習的兩種方法，下面整理一些學習資源。</p>
+
+<h3>boosting</h3>
+
+<h3>bagging</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[自然語言分類演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa/"/>
+    <updated>2014-08-08T22:32:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>紀錄一下在統計自然語言處理的看到的分類演算法。</p>
+
+<ol>
+<li>Logistic Regression</li>
+<li>Linear Discriminant Analysis</li>
+<li>Decision List</li>
+<li>Winnow algorithm</li>
+<li>Mistake N-Driven Online Linear Threshold Learning Algorithm</li>
+<li>Rocchio algorithm</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Explore-Exploit Trade-off]]></title>
@@ -64,51 +103,6 @@ Bandit Algorithms 有關。</p>
 <a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
 
 <p>附註 UCB 演算法 Multi-armed Bandit，   Bandit Algorithms for Website Optimization</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[常用的幾種類型樹]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/09/chang-yong-de-ji-zhong-lei-xing-shu/"/>
-    <updated>2014-07-09T23:54:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/09/chang-yong-de-ji-zhong-lei-xing-shu</id>
-    <content type="html"><![CDATA[<ol>
-<li>B-tree</li>
-<li>Red–black tree</li>
-<li>AVL tree</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PageRank, EdgeRank, PeopleRank]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/"/>
-    <updated>2014-03-26T21:22:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank</id>
-    <content type="html"><![CDATA[<ol>
-<li>PageRank</li>
-<li>EdgeRank</li>
-<li>PeopleRank</li>
-</ol>
-
-
-<!-- more -->
-
-
-<h1>PagRank</h1>
-
-<p>google對網頁評分的演算法，用來算出網頁的權重，作為網頁排序的要素之一。<br/>
-<a href="http://ilpubs.stanford.edu:8090/422/">http://ilpubs.stanford.edu:8090/422/</a></p>
-
-<h1>EdgeRank</h1>
-
-<p>Facebook用來計算要顯示哪些動態給使用者。<br/>
-<a href="http://edgerank.net/">http://edgerank.net/</a></p>
-
-<h1>PeopleRank</h1>
-
-<p>類似PageRank，不過是用來測量使用者產出內容的價值。</p>
 ]]></content>
   </entry>
   
