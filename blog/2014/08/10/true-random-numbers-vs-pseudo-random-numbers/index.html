@@ -5,16 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Rabbitmq Client Php and Nodejs - Learning Blog</title>
+  <title>True Random Numbers vs. Pseudo-random Numbers - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="
-PHP
-php-amqp
-nodejs
-rabbit.js
-node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他功能。
+  <meta name="description" content=" Random_number_generation 紀錄一下產生隨機亂數的方法，以及一般計算機的產生亂數的問題。
 ">
   
 
@@ -24,7 +19,7 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -87,7 +82,7 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
   
   <header>
     
-      <h1 class="entry-title">Rabbitmq Client Php and Nodejs</h1>
+      <h1 class="entry-title">True Random Numbers vs. Pseudo-random Numbers</h1>
     
     
       <p class="meta">
@@ -103,7 +98,7 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
   
 
 
-<time datetime="2014-03-07T23:57:59+08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2014</time>
+<time datetime="2014-08-10T00:10:02+08:00" pubdate data-updated="true">Aug 10<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -113,19 +108,12 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
   </header>
 
 
-<div class="entry-content"><ul>
-<li>PHP<br/>
-<a href="https://github.com/pdezwart/php-amqp" title="php-amqp">php-amqp</a></li>
-<li>nodejs<br/>
-<a href="https://github.com/squaremo/rabbit.js" title="rabbit.js">rabbit.js</a><br/>
-<a href="https://github.com/postwait/node-amqp" title="node-amqp">node-amqp</a></li>
-</ul>
+<div class="entry-content"><!-- more -->
 
 
-<!-- more -->
+<p><a href="http://en.wikipedia.org/wiki/Random_number_generation">Random_number_generation</a></p>
 
-
-<p>試驗傳送訊息，從php端傳給nodejs端，還需要測試其他功能。</p>
+<p>紀錄一下產生隨機亂數的方法，以及一般計算機的產生亂數的問題。</p>
 </div>
 
 
@@ -148,14 +136,8 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
   
 
 
-<time datetime="2014-03-07T23:57:59+08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2014</time>
+<time datetime="2014-08-10T00:10:02+08:00" pubdate data-updated="true">Aug 10<span>th</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/rabbitmq/'>rabbitmq</a>
-  
-</span>
 
 
     </p>
@@ -169,10 +151,8 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/06/osdc/" title="Previous Post: osdc 2014">&laquo; osdc 2014</a>
+        <a class="basic-alignment left" href="/blog/2014/08/09/git-xue-xi-zi-yuan/" title="Previous Post: Git 學習資源">&laquo; Git 學習資源</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/08/lucene/" title="Next Post: Lucene">Lucene &raquo;</a>
       
     </p>
   </footer>
@@ -330,8 +310,8 @@ node-amqp 試驗傳送訊息，從php端傳給nodejs端，還需要測試其他�
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/07/rabbitmq-cliet-php-and-nodejs/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers/';
         var disqus_script = 'embed.js';
       
     (function () {

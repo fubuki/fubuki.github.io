@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-09T23:14:22+08:00</updated>
+  <updated>2014-08-10T00:16:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[True Random Numbers vs. Pseudo-random Numbers]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers/"/>
+    <updated>2014-08-10T00:10:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Random_number_generation">Random_number_generation</a></p>
+
+<p>紀錄一下產生隨機亂數的方法，以及一般計算機的產生亂數的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 學習資源]]></title>
@@ -379,25 +393,6 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
 
 <p><a href="http://phpunit.de/">浅析 PHP 官方自动化测试方法</a>
 <a href="https://github.com/sebastianbergmann/phpunit-selenium">phpunit-selenium</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[RabbitMQ ** WARNING ** Mnesia Is Overloaded]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded/"/>
-    <updated>2014-07-23T00:54:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/23/rabbitmq-star-star-warning-star-star-mnesia-is-overloaded</id>
-    <content type="html"><![CDATA[<p>大坑待補</p>
-
-<!-- more -->
-
-
-<p>在使用 <code>rabbitmq</code> 的時候出現一些奇怪的問題，可以連線但是無法訂閱 <code>topic</code>，還有 rabbitmq 關機跟開機很慢的問題，
-看 log 有一段是 <code>** WARNING ** Mnesia is overloaded"</code> ，網路上搜尋也有不少人有同樣的問題，在這邊記錄一下解法
-在測試看看行不行。</p>
-
-<p><a href="http://erlang.2086793.n4.nabble.com/Q-Mnesia-is-overloaded-td2098730.html">Q-Mnesia-is-overloaded-td2098730</a><br/>
-<a href="http://streamhacker.com/2008/12/10/how-to-eliminate-mnesia-overload-events/">How to Eliminate Mnesia Overload Events</a></p>
 ]]></content>
   </entry>
   
