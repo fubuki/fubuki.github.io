@@ -5,20 +5,17 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nginx Conf 設定 - Learning Blog</title>
+  <title>Git 學習資源 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄關於nginx 設定檔的配置。 分類 debug
-優化
-運行必備
-事件類型 debug用 deamon
-master_process
-error_log
-debug_points
-debug_connection
-worker_rlimit_core
-working_directory 優化 &hellip;">
+  <meta name="description" content=" 紀錄一下本身用來學習 Git 的資源 git &ndash; 简明指南
+Try Git
+Git Community Book 中文版
+Pro Git book
+Version Control with Git
+learnGitBranching
+Git权威指南 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -27,7 +24,7 @@ working_directory 優化 &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -90,7 +87,7 @@ working_directory 優化 &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Nginx Conf 設定</h1>
+      <h1 class="entry-title">Git 學習資源</h1>
     
     
       <p class="meta">
@@ -106,7 +103,7 @@ working_directory 優化 &hellip;">
   
 
 
-<time datetime="2014-06-18T22:56:40+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2014</time>
+<time datetime="2014-08-09T22:58:44+08:00" pubdate data-updated="true">Aug 9<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -116,65 +113,19 @@ working_directory 優化 &hellip;">
   </header>
 
 
-<div class="entry-content"><p>記錄關於nginx 設定檔的配置。</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<h2>分類</h2>
+<p>紀錄一下本身用來學習 Git 的資源</p>
 
 <ol>
-<li>debug</li>
-<li>優化</li>
-<li>運行必備</li>
-<li>事件類型</li>
-</ol>
-
-
-<h2>debug用</h2>
-
-<ol>
-<li>deamon</li>
-<li>master_process</li>
-<li>error_log</li>
-<li>debug_points</li>
-<li>debug_connection</li>
-<li>worker_rlimit_core</li>
-<li>working_directory</li>
-</ol>
-
-
-<h2>優化</h2>
-
-<ol>
-<li>worker_processes</li>
-<li>worker_cpu_affinity</li>
-<li>ssl_engine</li>
-<li>timer_resolution</li>
-<li>worker_priority</li>
-</ol>
-
-
-<h2>運行必備</h2>
-
-<ol>
-<li>env 環境變數</li>
-<li>include</li>
-<li>pid file</li>
-<li>user</li>
-<li>worker_rlimit_nofile</li>
-</ol>
-
-
-<h2>事件類型</h2>
-
-<ol>
-<li>accept_mutex</li>
-<li>lock_file</li>
-<li>accept_mutex_dely</li>
-<li>multi_accept</li>
-<li>use epoll</li>
-<li>worker_connections</li>
+<li><a href="http://rogerdudler.github.io/git-guide/index.html">git &ndash; 简明指南</a></li>
+<li><a href="https://try.github.io/">Try Git</a></li>
+<li><a href="http://gitbook.liuhui998.com/">Git Community Book 中文版</a></li>
+<li><a href="http://git-scm.com/book/zh-tw">Pro Git book</a></li>
+<li>Version Control with Git</li>
+<li><a href="http://pcottle.github.io/learnGitBranching/">learnGitBranching</a></li>
+<li>Git权威指南</li>
 </ol>
 
 </div>
@@ -199,12 +150,12 @@ working_directory 優化 &hellip;">
   
 
 
-<time datetime="2014-06-18T22:56:40+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2014</time>
+<time datetime="2014-08-09T22:58:44+08:00" pubdate data-updated="true">Aug 9<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nginx/'>nginx</a>
+    <a class='category' href='/blog/categories/git/'>git</a>
   
 </span>
 
@@ -220,10 +171,8 @@ working_directory 優化 &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/17/html5-sse/" title="Previous Post: HTML5 SSE">&laquo; HTML5 SSE</a>
+        <a class="basic-alignment left" href="/blog/2014/08/08/boosting-and-bagging/" title="Previous Post: boosting and bagging">&laquo; boosting and bagging</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/06/18/memcached-1mb-limit/" title="Next Post: memcached 1MB limit">memcached 1MB limit &raquo;</a>
       
     </p>
   </footer>
@@ -381,8 +330,8 @@ working_directory 優化 &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan/';
         var disqus_script = 'embed.js';
       
     (function () {

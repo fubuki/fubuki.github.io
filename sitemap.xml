@@ -644,7 +644,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/08/02/phpci-an-zhuang-guo-cheng/</loc>
-        <lastmod>2014-08-03T00:01:11+08:00</lastmod>
+        <lastmod>2014-08-09T22:56:58+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/08/03/pcfg/</loc>
@@ -675,12 +675,16 @@
         <lastmod>2014-08-08T23:51:16+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan/</loc>
+        <lastmod>2014-08-09T23:14:08+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-08-08T23:51:16+08:00</lastmod>
+        <lastmod>2014-08-09T23:14:08+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -688,6 +692,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-08-08T23:51:16+08:00</lastmod>
+        <lastmod>2014-08-09T23:14:08+08:00</lastmod>
     </url>
 </urlset>
