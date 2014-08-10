@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-10T00:16:41+08:00</updated>
+  <updated>2014-08-10T23:59:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -26,7 +26,15 @@
 
 <h3>boosting</h3>
 
+<p>AdaBoost（Adaptive Boosting）</p>
+
+<p>使用同一個訓練集， 每次訓練的時候針對有問題訓練資料加大權重，讓函數靠往有問題的訊息資料。</p>
+
 <h3>bagging</h3>
+
+<p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
+
+<h3>差別</h3>
 ]]></content>
   </entry>
   
