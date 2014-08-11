@@ -5,14 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Redis Failover - Learning Blog</title>
+  <title>jQuery Mobile Vclick , Tap and Click - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="
-redis-sentinel
-twenproxy
-redis_failover ">
+  <meta name="description" content="工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
+紀錄一下幾種點擊事件。
+可以參考in-jquery-mobile-whats-the-diff-between-tap-and-vclick Click 手機和桌面閱覽器都有支援，在 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +20,7 @@ redis_failover ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/02/28/redis-failover">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -84,7 +83,7 @@ redis_failover ">
   
   <header>
     
-      <h1 class="entry-title">Redis Failover</h1>
+      <h1 class="entry-title">jQuery Mobile Vclick , Tap and Click</h1>
     
     
       <p class="meta">
@@ -100,7 +99,7 @@ redis_failover ">
   
 
 
-<time datetime="2014-02-28T11:46:27+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-08-11T22:52:44+08:00" pubdate data-updated="true">Aug 11<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -110,12 +109,26 @@ redis_failover ">
   </header>
 
 
-<div class="entry-content"><ol>
-<li>redis-sentinel</li>
-<li>twenproxy</li>
-<li>redis_failover</li>
-</ol>
+<div class="entry-content"><!-- more -->
 
+
+<p>工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
+紀錄一下幾種點擊事件。
+可以參考<a href="http://stackoverflow.com/questions/15274809/in-jquery-mobile-whats-the-diff-between-tap-and-vclick">in-jquery-mobile-whats-the-diff-between-tap-and-vclick</a></p>
+
+<h3>Click</h3>
+
+<p>手機和桌面閱覽器都有支援，在 <code>android</code> 會有 Visible delay</p>
+
+<h3>Tap</h3>
+
+<p>只有手機閱覽器支援, no delay</p>
+
+<h3>VClick</h3>
+
+<p>手機和桌面閱覽器都有支援 no delay</p>
+
+<p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
 </div>
 
 
@@ -138,12 +151,12 @@ redis_failover ">
   
 
 
-<time datetime="2014-02-28T11:46:27+08:00" pubdate data-updated="true">Feb 28<span>th</span>, 2014</time>
+<time datetime="2014-08-11T22:52:44+08:00" pubdate data-updated="true">Aug 11<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/redis/'>redis</a>
+    <a class='category' href='/blog/categories/javascript/'>javascript</a>
   
 </span>
 
@@ -159,10 +172,8 @@ redis_failover ">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/02/27/deep-learing/" title="Previous Post: Deep learing">&laquo; Deep learing</a>
+        <a class="basic-alignment left" href="/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers/" title="Previous Post: True random numbers vs. pseudo-random numbers">&laquo; True random numbers vs. pseudo-random numbers</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/02/28/theano/" title="Next Post: Theano">Theano &raquo;</a>
       
     </p>
   </footer>
@@ -320,8 +331,8 @@ redis_failover ">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/02/28/redis-failover/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/02/28/redis-failover/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/';
         var disqus_script = 'embed.js';
       
     (function () {

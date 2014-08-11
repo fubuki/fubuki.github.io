@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-10T23:59:13+08:00</updated>
+  <updated>2014-08-11T23:47:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/"/>
+    <updated>2014-08-11T22:52:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
+紀錄一下幾種點擊事件。
+可以參考<a href="http://stackoverflow.com/questions/15274809/in-jquery-mobile-whats-the-diff-between-tap-and-vclick">in-jquery-mobile-whats-the-diff-between-tap-and-vclick</a></p>
+
+<h3>Click</h3>
+
+<p>手機和桌面閱覽器都有支援，在 <code>android</code> 會有 Visible delay</p>
+
+<h3>Tap</h3>
+
+<p>只有手機閱覽器支援, no delay</p>
+
+<h3>VClick</h3>
+
+<p>手機和桌面閱覽器都有支援 no delay</p>
+
+<p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[True Random Numbers vs. Pseudo-random Numbers]]></title>
@@ -386,21 +414,6 @@ Bandit Algorithms 有關。</p>
 fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
 
 <p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 自動化測試]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi/"/>
-    <updated>2014-07-23T23:42:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/23/php-zi-dong-hua-ce-shi</id>
-    <content type="html"><![CDATA[<p>關於 PHP 自動化測試部分。</p>
-
-<!-- more -->
-
-
-<p><a href="http://phpunit.de/">浅析 PHP 官方自动化测试方法</a>
-<a href="https://github.com/sebastianbergmann/phpunit-selenium">phpunit-selenium</a></p>
 ]]></content>
   </entry>
   

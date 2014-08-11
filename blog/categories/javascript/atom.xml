@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-10T23:59:13+08:00</updated>
+  <updated>2014-08-11T23:47:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/"/>
+    <updated>2014-08-11T22:52:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
+紀錄一下幾種點擊事件。
+可以參考<a href="http://stackoverflow.com/questions/15274809/in-jquery-mobile-whats-the-diff-between-tap-and-vclick">in-jquery-mobile-whats-the-diff-between-tap-and-vclick</a></p>
+
+<h3>Click</h3>
+
+<p>手機和桌面閱覽器都有支援，在 <code>android</code> 會有 Visible delay</p>
+
+<h3>Tap</h3>
+
+<p>只有手機閱覽器支援, no delay</p>
+
+<h3>VClick</h3>
+
+<p>手機和桌面閱覽器都有支援 no delay</p>
+
+<p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Big Number]]></title>
@@ -97,16 +125,6 @@ plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href=
 <li>移除一些jQuery沒有寫出來了函式拿掉 例如:jQuery.clean()。</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HubSpot]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/16/hubspot/"/>
-    <updated>2014-03-16T20:01:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/16/hubspot</id>
-    <content type="html"><![CDATA[<p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
-<a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
 ]]></content>
   </entry>
   
