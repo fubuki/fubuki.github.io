@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-11T23:47:25+08:00</updated>
+  <updated>2014-08-12T23:59:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq Process Leak]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/12/rabbitmq-process-leak/"/>
+    <updated>2014-08-12T23:51:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/12/rabbitmq-process-leak</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Rabbitmq server 不定期會當機，經過長時間觀察，發現是 erl process 不正常增長的關係， connection 的數量
+很正常但是 consumer 和 channel 的數量多出好幾倍，然後 queue的數量也不太對， 目前看得出來是 rabbitmq 的
+other process 所佔的記憶體大小超過設定的記憶體上限並且將主機的記憶體整個吃滿，導致 rabbitmq 整個 crash。</p>
+
+<p>目前運行的時候是一個 connecion 對應一個 channel 和 consumer 目前猜這是不是 queue 過多或是後端一次丟太多
+訊息讓 rabbitmq 來不及處理的關係還需要一段時間觀察。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
@@ -49,7 +66,8 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><a href="http://en.wikipedia.org/wiki/Random_number_generation">Random_number_generation</a></p>
+<p><a href="http://en.wikipedia.org/wiki/Random_number_generation">Random_number_generation</a>
+利用 <a href="http://en.wikipedia.org/wiki/Atmospheric_noise">Atmospheric noise</a> 的當亂數種子。</p>
 
 <p>紀錄一下產生隨機亂數的方法，以及一般計算機的產生亂數的問題。</p>
 ]]></content>
@@ -396,24 +414,6 @@ Bandit Algorithms 有關。</p>
 
 <p>另外值得一提的是<a href="https://webmaker.org/zh-TW%3F">webmaker</a> 這個網站， Appmaker是在這個網站下面的其中一個工具，這個網站還有提供其他有趣
 的功能可以日後做為參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Error Object File Is Empty]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/"/>
-    <updated>2014-07-24T21:48:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
-整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。</p>
-
-<p>error: object file .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27 is empty
-fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
-
-<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
 ]]></content>
   </entry>
   
