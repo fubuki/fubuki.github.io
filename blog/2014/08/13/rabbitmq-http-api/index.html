@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Nodejs 生產環境 - Learning Blog</title>
+  <title>Rabbitmq Http Api - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下nodejs生產環境需要注意的事項。 nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。
-nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。
-nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
+  <meta name="description" content=" rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
+的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +83,7 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Nodejs 生產環境</h1>
+      <h1 class="entry-title">Rabbitmq Http Api</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   
 
 
-<time datetime="2014-04-05T21:55:23+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2014</time>
+<time datetime="2014-08-13T23:51:29+08:00" pubdate data-updated="true">Aug 13<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,20 +109,11 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   </header>
 
 
-<div class="entry-content"><p>記錄一下nodejs生產環境需要注意的事項。</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<ol>
-<li>nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。</li>
-<li>nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。</li>
-<li>nodejs建立socket時增加可以建立的socket的數量。</li>
-<li>nodejs 有些使用模組是編譯過的，有些是純js撰寫成的，使用二進位編譯後的模組。</li>
-<li>在nodejs中事件流的處理會影響程式效能，目前有些用來處理事件流的模組慎選並去使用。</li>
-<li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
-</ol>
-
+<p>rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
+的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。</p>
 </div>
 
 
@@ -145,12 +136,12 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
   
 
 
-<time datetime="2014-04-05T21:55:23+08:00" pubdate data-updated="true">Apr 5<span>th</span>, 2014</time>
+<time datetime="2014-08-13T23:51:29+08:00" pubdate data-updated="true">Aug 13<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
+    <a class='category' href='/blog/categories/rabbitmq/'>rabbitmq</a>
   
 </span>
 
@@ -166,10 +157,8 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/04/03/wordnet/" title="Previous Post: WordNet">&laquo; WordNet</a>
+        <a class="basic-alignment left" href="/blog/2014/08/12/rabbitmq-process-leak/" title="Previous Post: rabbitmq process leak">&laquo; rabbitmq process leak</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/04/06/nodejs-flow-control/" title="Next Post: nodejs flow control">nodejs flow control &raquo;</a>
       
     </p>
   </footer>
@@ -327,8 +316,8 @@ nodejs建立socket時增加可以建立的socket的數量。 &hellip;">
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api/';
         var disqus_script = 'embed.js';
       
     (function () {

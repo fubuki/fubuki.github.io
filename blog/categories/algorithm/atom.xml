@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-12T23:59:13+08:00</updated>
+  <updated>2014-08-13T23:57:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -73,6 +73,15 @@
 Bandit Algorithms 有關。</p>
 
 <p>另外記錄一篇跟<code>Explore-Exploit trade-off</code>相關的有趣論文:<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=122779">Web-Scale Bayesian Click-Through Rate Prediction for Sponsored Search Advertising in Microsoft’s Bing Search Engine</a></p>
+
+<p>另外有幾篇關於A/B Testing 和 Bandit.Algorithms的比較的文章可以作為參考。</p>
+
+<ol>
+<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit Algorithm is Not “Better” than A/B Testing</a></li>
+<li><a href="http://stevehanov.ca/blog/index.php?id=132">20 lines of code that will beat A/B testing every time</a></li>
+<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit algorithms are superior to A/B testing</a></li>
+</ol>
+
 ]]></content>
   </entry>
   

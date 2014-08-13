@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-12T23:59:13+08:00</updated>
+  <updated>2014-08-13T23:57:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq Http Api]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api/"/>
+    <updated>2014-08-13T23:51:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
+的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rabbitmq Process Leak]]></title>
@@ -222,6 +235,15 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 Bandit Algorithms 有關。</p>
 
 <p>另外記錄一篇跟<code>Explore-Exploit trade-off</code>相關的有趣論文:<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=122779">Web-Scale Bayesian Click-Through Rate Prediction for Sponsored Search Advertising in Microsoft’s Bing Search Engine</a></p>
+
+<p>另外有幾篇關於A/B Testing 和 Bandit.Algorithms的比較的文章可以作為參考。</p>
+
+<ol>
+<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit Algorithm is Not “Better” than A/B Testing</a></li>
+<li><a href="http://stevehanov.ca/blog/index.php?id=132">20 lines of code that will beat A/B testing every time</a></li>
+<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit algorithms are superior to A/B testing</a></li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -400,20 +422,6 @@ Bandit Algorithms 有關。</p>
 遇到開發上的困難時無法好好利用設計模式解決問題。</p>
 
 <p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設計模式的書單。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mozilla Webmaker]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker/"/>
-    <updated>2014-07-25T23:46:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker</id>
-    <content type="html"><![CDATA[<p>在參加 COSCUP 時，有一場議程有提到 Appmaker 這個工具可以輕易讓使用者
-開發 APP 並且發布到 firefox os 手機或是模擬器上面，看著 youtube上面的教學弄了一個煙火的APP，馬上
-可以看到效果，能夠給開發者建立一個原型。</p>
-
-<p>另外值得一提的是<a href="https://webmaker.org/zh-TW%3F">webmaker</a> 這個網站， Appmaker是在這個網站下面的其中一個工具，這個網站還有提供其他有趣
-的功能可以日後做為參考。</p>
 ]]></content>
   </entry>
   

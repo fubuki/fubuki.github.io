@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Rabbitmq | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/rabbitmq/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-12T23:59:13+08:00</updated>
+  <updated>2014-08-13T23:57:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq Http Api]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api/"/>
+    <updated>2014-08-13T23:51:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
+的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rabbitmq Process Leak]]></title>
