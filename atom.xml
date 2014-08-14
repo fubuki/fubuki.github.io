@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-13T23:57:25+08:00</updated>
+  <updated>2014-08-14T23:41:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2 Erlang 環境設定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding/"/>
+    <updated>2014-08-14T21:52:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding</id>
+    <content type="html"><![CDATA[<p>建立 Sublime Text 2 的 erlang 開發環境。</p>
+
+<!-- more -->
+
+
+<p><a href="https://github.com/fjl/Sublime-Erlang">Sublime-Erlang</a> 和 <a href="https://github.com/ostinelli/SublimErl">SublimErl</a> 都是給 Sublime Text 2 的插件，不過從 Sublime 的 Package 看得出來原本就有支援 erlang 支援語法，
+目前還在測試 Sublime-Erlang 看有哪些突出的地方， 不過我希望有個完整的編譯環境會比較好。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rabbitmq Http Api]]></title>
@@ -408,20 +423,6 @@ Bandit Algorithms 有關。</p>
 <li>混亂度</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Problem Frames]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/26/problem-frames/"/>
-    <updated>2014-07-26T23:46:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/26/problem-frames</id>
-    <content type="html"><![CDATA[<p>Design pattern 設計模式最有名是由GOF提出來的， 其實主要是整理軟體開發上一些問題的解法，
-之前以深入淺出設計模式為人門開始看的，但是看到最後卻只有一知半解，後來看到某個BLOG提到的
-<code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
-遇到開發上的困難時無法好好利用設計模式解決問題。</p>
-
-<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設計模式的書單。</p>
 ]]></content>
   </entry>
   

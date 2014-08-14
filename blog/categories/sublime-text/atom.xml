@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sublime-text | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-13T23:57:25+08:00</updated>
+  <updated>2014-08-14T23:41:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2 Erlang 環境設定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding/"/>
+    <updated>2014-08-14T21:52:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding</id>
+    <content type="html"><![CDATA[<p>建立 Sublime Text 2 的 erlang 開發環境。</p>
+
+<!-- more -->
+
+
+<p><a href="https://github.com/fjl/Sublime-Erlang">Sublime-Erlang</a> 和 <a href="https://github.com/ostinelli/SublimErl">SublimErl</a> 都是給 Sublime Text 2 的插件，不過從 Sublime 的 Package 看得出來原本就有支援 erlang 支援語法，
+目前還在測試 Sublime-Erlang 看有哪些突出的地方， 不過我希望有個完整的編譯環境會比較好。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sublime Text 2 PHP 環境]]></title>
