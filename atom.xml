@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-14T23:41:50+08:00</updated>
+  <updated>2014-08-15T23:58:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Responsive Web Design]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/15/responsive-web-design/"/>
+    <updated>2014-08-15T23:52:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/15/responsive-web-design</id>
+    <content type="html"><![CDATA[<p>在網路上看到一篇跟 RWD 有關的文章在此紀錄一下。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>jqm</li>
+<li>以移動平台為主</li>
+<li>漸進增強</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sublime Text 2 Erlang 環境設定]]></title>
@@ -397,32 +416,6 @@ Bandit Algorithms 有關。</p>
 <p>語義代表一個詞所擁有的不同的意義，一個詞會因為上下文的關係而有不同的意義，
 也因此在做翻譯的時候會有混淆，不過目前我知道用來實作機器翻譯是用大量的統計
 資料譬如 google的 Ngram 所形成的統計模型。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[KL距離]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/27/klju-li/"/>
-    <updated>2014-07-27T23:08:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/27/klju-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看<code>統計自然語言基礎</code>這本書看到的，又稱為相對熵，裡面有提到一種語言熵越大
-代表能傳輸的訊息量越大，也會讓語言處理起來更困難，因為熵越大代表不確定性越大
-更難預測。</p>
-
-<p>下面幾個關鍵字要找時間重新看看，之前在大學上通訊原理跟信號處理有提到香農定理跟信噪比
-之類的東西，當時是用來驗證某個編碼是否可以用來作為訊息傳輸用，沒有想到會在自然語言處理
-的部分在遇到。</p>
-
-<ol>
-<li>信息論</li>
-<li>噪音信道模型</li>
-<li>熵</li>
-<li>混亂度</li>
-</ol>
-
 ]]></content>
   </entry>
   
