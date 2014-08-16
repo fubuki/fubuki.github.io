@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-15T23:58:05+08:00</updated>
+  <updated>2014-08-16T23:31:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tracking.js 臉部辨識的函式庫]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku/"/>
+    <updated>2014-08-16T23:06:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
+看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
+移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Responsive Web Design]]></title>
@@ -393,29 +407,6 @@ Bandit Algorithms 有關。</p>
 <a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
 
 <p>附註 UCB 演算法 Multi-armed Bandit，   Bandit Algorithms for Website Optimization</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[語義消歧]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi/"/>
-    <updated>2014-07-28T23:32:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>WSD （Word Sense Disambiguation）</li>
-<li>基於語料庫的消歧 (監督學習)</li>
-<li>基於詞典的消歧</li>
-<li>無監督消歧</li>
-<li>POS  (Part-of-speech tagging)</li>
-</ol>
-
-
-<p>語義代表一個詞所擁有的不同的意義，一個詞會因為上下文的關係而有不同的意義，
-也因此在做翻譯的時候會有混淆，不過目前我知道用來實作機器翻譯是用大量的統計
-資料譬如 google的 Ngram 所形成的統計模型。</p>
 ]]></content>
   </entry>
   

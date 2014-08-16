@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-15T23:58:05+08:00</updated>
+  <updated>2014-08-16T23:31:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tracking.js 臉部辨識的函式庫]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku/"/>
+    <updated>2014-08-16T23:06:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
+看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
+移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
@@ -92,39 +106,6 @@
 <p>要研究jQuery的原始碼可以先看<a href="http://robflaherty.github.io/jquery-annotated-source/">jquery-annotated-source</a>，裡面的版本是<code>1.6</code>有點舊，如果要看中文版可以推薦
 看"jQuery 技术内幕"這本書，雖然版本是<code>1.7</code>也算足夠了，如果要看最新的可以去<a href="https://github.com/jquery/jquery">jQuery</a>看到尚未編譯的原始碼，
 可以看到jQuery分成好幾個區塊，可以看到jQuery怎麼實現那些有趣的功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery Core 1.9 Upgrade Guide]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/03/jquery-core-1-dot-9-upgrade-guide/"/>
-    <updated>2014-05-03T19:07:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/03/jquery-core-1-dot-9-upgrade-guide</id>
-    <content type="html"><![CDATA[<p>jQuery升級到1.9需要注意的事項。</p>
-
-<!-- more -->
-
-
-<p>詳細的內容在官網的<a href="http://jquery.com/upgrade-guide/1.9/">1.9 Upgrade Guide</a>有詳細說明，目前網站最常用的通常是1.7的版本，
-如果要遷移到1.9的版本要注意一下，因為1.9版本改變幅度蠻大的，之前在工作中一些寫法和
-plugin就沒有辦法使用就降級到1.8版本，不過也能夠使用<a href="https://github.com/jquery/jquery-migrate">jquery-migrate</a>讓開發者使用
-以前的特性，但是要注意有些特性就算裝上plugin也無法復原。</p>
-
-<h2>記錄一下工作上影響比較大的部分</h2>
-
-<ol>
-<li>拿掉.toggle(function, function, &hellip; ) 的用法，</li>
-<li>拿掉 jQuery.browser() 使用 Modernizr偵測閱覽器是否支援這個功能比較好。</li>
-<li>拿掉 live換用 on 。</li>
-<li>拿掉 die 換用 off 。</li>
-<li>Ajax 的全域事件要綁在document上面。</li>
-<li>jQuery(htmlString) versus jQuery(selectorString)</li>
-<li>.attr() versus .prop()</li>
-<li>$(&ldquo;input&rdquo;).attr(&ldquo;type&rdquo;, newValue) in oldIE</li>
-<li>&ldquo;hover&rdquo; pseudo-event</li>
-<li>移除一些jQuery沒有寫出來了函式拿掉 例如:jQuery.clean()。</li>
-</ol>
-
 ]]></content>
   </entry>
   
