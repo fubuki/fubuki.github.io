@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Pycon 2014 Second Day - Learning Blog</title>
+  <title>Breach Browser - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下Pycon 2014第二天(5/18)參加的議程 Keynote: Jessica McKellar 在世界各地從海底到太空都有人使用到python data.goc.uk KLP python on windows python on mobile Can I build mobile &hellip;">
+  <meta name="description" content="breach 一款開源的閱覽器，從官網上面主打 Modular Hackable Open Source，Open Source 先不提，
+其他兩個特色似乎是希望可以讓使用者自行訂製介面並且新增功能，不過 firefox 也能達成類似的功能，
+但是我認為這套閱覽器也許能夠發展出自己一套路。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/17/breach-browser">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -81,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Pycon 2014 Second Day</h1>
+      <h1 class="entry-title">Breach Browser</h1>
     
     
       <p class="meta">
@@ -97,7 +99,7 @@
   
 
 
-<time datetime="2014-05-18T19:30:24+08:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
+<time datetime="2014-08-17T22:20:20+08:00" pubdate data-updated="true">Aug 17<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -107,185 +109,18 @@
   </header>
 
 
-<div class="entry-content"><p>記錄一下Pycon 2014第二天(5/18)參加的議程</p>
+<div class="entry-content"><!-- more -->
 
-<!-- more -->
 
+<p><a href="http://breach.cc/">breach</a> 一款開源的閱覽器，從官網上面主打 Modular Hackable Open Source，Open Source 先不提，
+其他兩個特色似乎是希望可以讓使用者自行訂製介面並且新增功能，不過 firefox 也能達成類似的功能，
+但是我認為這套閱覽器也許能夠發展出自己一套路。</p>
 
-<h3>Keynote: Jessica McKellar</h3>
+<p>另外吸引我一點是似乎是基於 node.js 開發的，之前有使用過 <a href="https://github.com/rogerwang/node-webkit">node-webkit</a>，可以讓 node.js 搭配
+webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> 似乎是更高一層的封裝，如果熟悉了話也許能夠實踐一些以前
+有趣的想法。</p>
 
-<p>在世界各地從海底到太空都有人使用到python</p>
-
-<p>data.goc.uk</p>
-
-<p>KLP</p>
-
-<p>python on windows</p>
-
-<p>python on mobile</p>
-
-<p>Can I build mobile apps in python</p>
-
-<p>kivy</p>
-
-<p>程式語言排行</p>
-
-<p>PyPL</p>
-
-<p>說到 emscripten asm.js nodejs</p>
-
-<p>Pythonjs skulpt brvthon  work with js</p>
-
-<p>interactivepython.org</p>
-
-<p>think in python</p>
-
-<p>bnmentp/runestone github</p>
-
-<p>PSF</p>
-
-<p>PyLadies</p>
-
-<p>Sprints</p>
-
-<p>Grants rapberry pi</p>
-
-<h3>What Is Async, How Does It Work, and When Should I Use It?</h3>
-
-<p>pubsub pattern</p>
-
-<p>提到c10k問題 實現非同步的做法</p>
-
-<p>前面大部分偷在講關於非同步的概念</p>
-
-<ol>
-<li>twisted</li>
-<li>tornado</li>
-</ol>
-
-
-<p>後面開始講 asyncio</p>
-
-<p>Yes:</p>
-
-<ul>
-<li>slow backend</li>
-<li>websockets</li>
-<li>many connections</li>
-</ul>
-
-
-<p>NO:</p>
-
-<ul>
-<li>cpu-bound</li>
-<li>no async driver</li>
-<li>no async expertise</li>
-</ul>
-
-
-<h3>Building a Knowledge Graph &ndash; the new search engine technology</h3>
-
-<p>介紹一下知識圖譜
-利用dbpedia(struct data from wiki) 的資料，使用python處理資料在丟在solr裡面。</p>
-
-<p>synonym SynonymFilterFactory</p>
-
-<p>介紹solr本身有的搜尋類型</p>
-
-<p>Data source</p>
-
-<p>data.gov.tw</p>
-
-<p>open api</p>
-
-<h3>How to integrate Python into a Scala stack to build realtime predictive models</h3>
-
-<p>異種語言平台
-跟ML沒有太大的關係。</p>
-
-<p>Fliptop machine learning</p>
-
-<ul>
-<li>mathout</li>
-<li>Weka</li>
-<li>Scikit-learn</li>
-</ul>
-
-
-<p>Weka GPL</p>
-
-<p>mathout有些演算法沒有完全實踐</p>
-
-<p>所以使用Scikit-learn，所以就介紹怎麼讓Python跟Scala黏合。</p>
-
-<h4>Jython</h4>
-
-<p>有些使用c寫成的python library就無法使用
-JyNI
-還是無法支援 Numpy</p>
-
-<h4>Jepp</h4>
-
-<p>會一直創建 python 直譯器</p>
-
-<h4>thrift</h4>
-
-<p>No scala generator
-scrooge</p>
-
-<p>auto load balance</p>
-
-<h4>REST API</h4>
-
-<p>bottle</p>
-
-<p>Thrift v.s. REST</p>
-
-<h3>Keynote: Stephen McDonald</h3>
-
-<p>主要在介紹作者寫的mezzanine專案</p>
-
-<p>mezzanine manage cms system</p>
-
-<p>mathspace.co
-kou.io</p>
-
-<p>cms > site</p>
-
-<p>講者怎麼建立 mezzanine
-<a href="http://bit.ly/MezzBegins">http://bit.ly/MezzBegins</a></p>
-
-<ol>
-<li>constraints</li>
-<li>simplicity</li>
-<li>just django</li>
-</ol>
-
-
-<p>bit.ly/MezzLego</p>
-
-<p>bit.ly/MezzPackages</p>
-
-<h3>以廣告品項為基礎的行動廣告推薦系統: 以 Python Hadoop Streaming 實作</h3>
-
-<p>廣告投放平台</p>
-
-<p>CTR
-Click Through rate</p>
-
-<p>Conversion Rate
-maximize converstions</p>
-
-<p>最後6分鐘才有重點</p>
-
-<h3>Poster Session</h3>
-
-<p>後面兩場議程都沒去聽，跑去聽Poster session。</p>
-
-<p>跟line的開發人員聊了不少關於line 的架構。<br/>
-另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
-處理類似的東西。</p>
+<p><a href="http://breach.cc/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html">The Experimentation Platform to Build a Next Generation Web Browser</a></p>
 </div>
 
 
@@ -308,14 +143,8 @@ maximize converstions</p>
   
 
 
-<time datetime="2014-05-18T19:30:24+08:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
+<time datetime="2014-08-17T22:20:20+08:00" pubdate data-updated="true">Aug 17<span>th</span>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/open-source/'>open source</a>
-  
-</span>
 
 
     </p>
@@ -329,10 +158,8 @@ maximize converstions</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/05/17/pycon-2014-first-day/" title="Previous Post: Pycon 2014 First Day">&laquo; Pycon 2014 First Day</a>
+        <a class="basic-alignment left" href="/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku/" title="Previous Post: Tracking.js 臉部辨識的函式庫">&laquo; Tracking.js 臉部辨識的函式庫</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/05/21/line-developer-conference/" title="Next Post: LINE Developer Conference">LINE Developer Conference &raquo;</a>
       
     </p>
   </footer>
@@ -490,8 +317,8 @@ maximize converstions</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/17/breach-browser/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/17/breach-browser/';
         var disqus_script = 'embed.js';
       
     (function () {

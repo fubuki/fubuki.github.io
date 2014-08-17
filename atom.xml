@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-16T23:31:04+08:00</updated>
+  <updated>2014-08-17T23:43:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Breach Browser]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/17/breach-browser/"/>
+    <updated>2014-08-17T22:20:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/17/breach-browser</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://breach.cc/">breach</a> 一款開源的閱覽器，從官網上面主打 Modular Hackable Open Source，Open Source 先不提，
+其他兩個特色似乎是希望可以讓使用者自行訂製介面並且新增功能，不過 firefox 也能達成類似的功能，
+但是我認為這套閱覽器也許能夠發展出自己一套路。</p>
+
+<p>另外吸引我一點是似乎是基於 node.js 開發的，之前有使用過 <a href="https://github.com/rogerwang/node-webkit">node-webkit</a>，可以讓 node.js 搭配
+webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> 似乎是更高一層的封裝，如果熟悉了話也許能夠實踐一些以前
+有趣的想法。</p>
+
+<p><a href="http://breach.cc/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html">The Experimentation Platform to Build a Next Generation Web Browser</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tracking.js 臉部辨識的函式庫]]></title>
@@ -387,26 +407,6 @@ Bandit Algorithms 有關。</p>
 仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
 
 <p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[圍棋的UCT演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/"/>
-    <updated>2014-07-29T23:03:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa</id>
-    <content type="html"><![CDATA[<p>在搜尋關於使用統計方法處理自然語言的時候意外看到的東西。</p>
-
-<!-- more -->
-
-
-<p>以前在大學在上關於人工智慧的課程有提到比起象棋、西洋棋，製作圍棋的人工智慧更困難，
-由於可能下的步數太多了導致複雜度比起上述的棋類遊戲還難製作。</p>
-
-<p>到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照
-<a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
-
-<p>附註 UCB 演算法 Multi-armed Bandit，   Bandit Algorithms for Website Optimization</p>
 ]]></content>
   </entry>
   
