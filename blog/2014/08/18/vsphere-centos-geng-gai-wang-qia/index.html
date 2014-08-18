@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Boosting and Bagging - Learning Blog</title>
+  <title>vSphere Centos 更改網卡 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
-其中集成學習的兩種方法，下面整理一些學習資源。 boosting AdaBoost（Adaptive Boosting） 使用同一個訓練集， &hellip;">
+  <meta name="description" content="使用 vSphere 的樣板 deploy 一個新的虛擬機器的時候會自動建分配一個 IP 給網卡，但是網卡卻是 eth1也無法直接指定固定 ip 所以需要修改下面這支檔案。 [root@localhost ~]# vim /etc/udev/rules.d/70-persistent-net. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">Boosting and Bagging</h1>
+      <h1 class="entry-title">vSphere Centos 更改網卡</h1>
     
     
       <p class="meta">
@@ -98,7 +97,7 @@
   
 
 
-<time datetime="2014-08-08T23:28:16+08:00" pubdate data-updated="true">Aug 8<span>th</span>, 2014</time>
+<time datetime="2014-08-18T22:51:39+08:00" pubdate data-updated="true">Aug 18<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -111,20 +110,16 @@
 <div class="entry-content"><!-- more -->
 
 
-<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
-其中集成學習的兩種方法，下面整理一些學習資源。</p>
+<p>使用 vSphere 的樣板 deploy 一個新的虛擬機器的時候會自動建分配一個 IP 給網卡，但是網卡卻是 eth1也無法直接指定固定 ip 所以需要修改下面這支檔案。</p>
 
-<h3>boosting</h3>
+<pre><code>[root@localhost ~]# vim /etc/udev/rules.d/70-persistent-net.rules
+</code></pre>
 
-<p>AdaBoost（Adaptive Boosting）</p>
+<p>裡面有對應的網卡名稱和 MAC 位址，將對應的網卡名稱改到 eth0 並且將 eth0 MAC 位址修改下面的檔案
+裡面，並且設定成 static 和指定 IP 然後重開機可以看到效果了。</p>
 
-<p>使用同一個訓練集， 每次訓練的時候針對有問題訓練資料加大權重，讓函數靠往有問題的訊息資料。</p>
-
-<h3>bagging</h3>
-
-<p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
-
-<h3>差別</h3>
+<pre><code>[root@localhost ~]# vim /etc/sysconfig/network-scripts/ifcfg-eth0
+</code></pre>
 </div>
 
 
@@ -147,12 +142,12 @@
   
 
 
-<time datetime="2014-08-08T23:28:16+08:00" pubdate data-updated="true">Aug 8<span>th</span>, 2014</time>
+<time datetime="2014-08-18T22:51:39+08:00" pubdate data-updated="true">Aug 18<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/algorithm/'>algorithm</a>
+    <a class='category' href='/blog/categories/linux/'>linux</a>
   
 </span>
 
@@ -168,10 +163,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa/" title="Previous Post: 自然語言分類演算法">&laquo; 自然語言分類演算法</a>
+        <a class="basic-alignment left" href="/blog/2014/08/17/breach-browser/" title="Previous Post: Breach browser">&laquo; Breach browser</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/08/09/git-xue-xi-zi-yuan/" title="Next Post: Git 學習資源">Git 學習資源 &raquo;</a>
       
     </p>
   </footer>
@@ -329,8 +322,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia/';
         var disqus_script = 'embed.js';
       
     (function () {

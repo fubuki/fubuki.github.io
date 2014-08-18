@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-17T23:43:54+08:00</updated>
+  <updated>2014-08-18T23:55:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[vSphere Centos 更改網卡]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia/"/>
+    <updated>2014-08-18T22:51:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 vSphere 的樣板 deploy 一個新的虛擬機器的時候會自動建分配一個 IP 給網卡，但是網卡卻是 eth1也無法直接指定固定 ip 所以需要修改下面這支檔案。</p>
+
+<pre><code>[root@localhost ~]# vim /etc/udev/rules.d/70-persistent-net.rules
+</code></pre>
+
+<p>裡面有對應的網卡名稱和 MAC 位址，將對應的網卡名稱改到 eth0 並且將 eth0 MAC 位址修改下面的檔案
+裡面，並且設定成 static 和指定 IP 然後重開機可以看到效果了。</p>
+
+<pre><code>[root@localhost ~]# vim /etc/sysconfig/network-scripts/ifcfg-eth0
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Breach Browser]]></title>
@@ -389,24 +410,6 @@ Bandit Algorithms 有關。</p>
 <li><a href="http://book.douban.com/subject/2580604/">持续集成</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Multi-armed Bandit Problem]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem/"/>
-    <updated>2014-07-30T22:55:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem</id>
-    <content type="html"><![CDATA[<p>吃角子老虎機問題。</p>
-
-<!-- more -->
-
-
-<p>在研究 UCT 演算法時有題到 UCB 這個東西，是為了解決<a href="http://en.wikipedia.org/wiki/Multi-armed_bandit">Multi-armed_bandit</a>類型的問題，要能在多個吃角子老虎機上找出最大收益
-，而為了解決這個問題的其中一個演算法就是 UCB 演算法，不過令我注意的是這本書 <code>Bandit Algorithms for Website Optimization</code>這本書，
-仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
-
-<p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
 ]]></content>
   </entry>
   
