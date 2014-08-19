@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-18T23:55:56+08:00</updated>
+  <updated>2014-08-19T23:58:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Softmax Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/19/softmax-algorithm/"/>
+    <updated>2014-08-19T23:53:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/19/softmax-algorithm</id>
+    <content type="html"><![CDATA[<p>解決 Multi-Armed Bandit Problem 的演算法</p>
+
+<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Boosting and Bagging]]></title>
@@ -100,26 +114,6 @@ Bandit Algorithms 有關。</p>
 仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
 
 <p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[圍棋的UCT演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa/"/>
-    <updated>2014-07-29T23:03:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/29/wei-qi-de-uctyan-suan-fa</id>
-    <content type="html"><![CDATA[<p>在搜尋關於使用統計方法處理自然語言的時候意外看到的東西。</p>
-
-<!-- more -->
-
-
-<p>以前在大學在上關於人工智慧的課程有提到比起象棋、西洋棋，製作圍棋的人工智慧更困難，
-由於可能下的步數太多了導致複雜度比起上述的棋類遊戲還難製作。</p>
-
-<p>到了現在意外看到了UCT演算法，似乎是基於蒙地卡羅法的樹狀搜尋演算法，詳細內容可以參照
-<a href="http://en.wikipedia.org/wiki/Monte-Carlo_tree_search">Monte-Carlo_tree_search</a>或是<a href="http://www.game.csie.ndhu.edu.tw/gamewiki/index.php/Monte_Carlo_Tree_Search">Monte_Carlo_Tree_Search</a>，看起來主要是用了Upper Confidence Bounds (UCB)，如果要真正理解就要需要實作一次了。</p>
-
-<p>附註 UCB 演算法 Multi-armed Bandit，   Bandit Algorithms for Website Optimization</p>
 ]]></content>
   </entry>
   
