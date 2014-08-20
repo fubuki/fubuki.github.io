@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Learning Blog</title>
+  <title>Flickr 如何使用 Redis 的 Sentinel - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="CoffeeScript is a little language that compiles into JavaScript. 可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
-等到Haskell比較熟練之類也許才能實際感覺到特別之處， &hellip;">
+  <meta name="description" content=" 今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 Redis Sentinel at Flickr， 裡面提到一些
+我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/page/14">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,15 +78,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/03/16/coffeescript/">Coffeescript</a></h1>
+      <h1 class="entry-title">Flickr 如何使用 Redis 的 Sentinel</h1>
     
     
       <p class="meta">
@@ -101,77 +99,32 @@
   
 
 
-<time datetime="2014-03-16T20:12:32+08:00" pubdate data-updated="true">Mar 16<span>th</span>, 2014</time>
+<time datetime="2014-08-20T23:42:05+08:00" pubdate data-updated="true">Aug 20<span>th</span>, 2014</time>
         
-           | <a href="/blog/2014/03/16/coffeescript/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/16/coffeescript/">Comments</a>
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>CoffeeScript is a little language that compiles into JavaScript.</p>
+<div class="entry-content"><!-- more -->
 
-<p>可以編譯成javascript的一種語言，融合一些語言的特性像是Python、Ruby、Haskell，
-等到Haskell比較熟練之類也許才能實際感覺到特別之處，目前暫時還是使用純javascript寫作。</p>
+
+<p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
+我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/16/hubspot/">HubSpot</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
 
-<time datetime="2014-03-16T20:01:55+08:00" pubdate data-updated="true">Mar 16<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/16/hubspot/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/16/hubspot/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。<br/>
-<a href="https://github.com/HubSpot">https://github.com/HubSpot</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/15/mqtt/">Mqtt</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -183,342 +136,42 @@
   
 
 
-<time datetime="2014-03-15T00:34:00+08:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/15/mqtt/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/15/mqtt/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
-mqtt 相關的frontend部分開源。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+<time datetime="2014-08-20T23:42:05+08:00" pubdate data-updated="true">Aug 20<span>th</span>, 2014</time>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/">Jsdc 2013 前端開發工具</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
+<span class="categories">
   
+    <a class='category' href='/blog/categories/redis/'>redis</a>
+  
+</span>
 
 
-<time datetime="2014-03-14T00:08:53+08:00" pubdate data-updated="true">Mar 14<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/14/jsdc-2013-ti-dao-de-kai-fa-gong-ju/">Comments</a>
-        
-      </p>
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>記錄在jsdc 議程上看到的開發工具。</p>
-
-<ol>
-<li>livereload</li>
-<li>bower</li>
-<li>compass</li>
-<li>RequireJS</li>
-<li>r.js</li>
-<li>Guardfile</li>
-<li>grunt.js</li>
-</ol>
-
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
+    
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/12/riak/">Riak</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-12T23:09:59+08:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/12/riak/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/12/riak/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
-不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
-剛好在次看到riak也許可以補足一些地方。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+        <a class="basic-alignment left" href="/blog/2014/08/19/softmax-algorithm/" title="Previous Post: Softmax Algorithm">&laquo; Softmax Algorithm</a>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/11/lean-ux/">Lean UX</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-11T22:57:58+08:00" pubdate data-updated="true">Mar 11<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/11/lean-ux/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/11/lean-ux/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>What UI really is (and how UX confuses matters)</p>
-
-<p><a href="http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters">http://feltpresence.com/articles/19-what-ui-really-is-and-how-ux-confuses-matters</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/">虛擬環境和多版本開發方案</a></h1>
-    
-    
-      <p class="meta">
-        
+    </p>
+  </footer>
+</article>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-11T22:04:51+08:00" pubdate data-updated="true">Mar 11<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>目前手邊上有用到的開發虛擬環境。</p>
-
-<ol>
-<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
-<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
-<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
-</ol>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/10/function-language/">Function Language</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-10T22:49:47+08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/10/function-language/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/10/function-language/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>目前正在學習 common lisp 和 haskell。<br/>
-Function language的特性。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/10/sublime-text-2-php-huan-jing/">Sublime Text 2 PHP 環境</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-10T22:49:25+08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/10/sublime-text-2-php-huan-jing/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>記錄一下sublime text2 有用到package。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/03/10/sublime-text-2-php-huan-jing/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/">2013年參加過的活動</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-09T17:57:40+08:00" pubdate data-updated="true">Mar 9<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/09/2013nian-can-jia-guo-de-huo-dong/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><ol>
-<li>osdc</li>
-<li>jsdc</li>
-<li>pycon</li>
-<li>coscup</li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/15/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/blog/page/13/">Newer &rarr;</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -614,7 +267,7 @@ Function language的特性。</p>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/fubuki">@fubuki</a> on GitHub
@@ -647,6 +300,7 @@ Function language的特性。</p>
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -661,7 +315,10 @@ Function language的特性。</p>
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

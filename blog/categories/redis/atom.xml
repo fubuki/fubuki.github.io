@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-20T23:33:35+08:00</updated>
+  <updated>2014-08-20T23:49:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Flickr 如何使用 Redis 的 Sentinel]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/"/>
+    <updated>2014-08-20T23:42:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
+我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Keyspace Notifications]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-20T23:33:35+08:00</updated>
+  <updated>2014-08-20T23:49:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Flickr 如何使用 Redis 的 Sentinel]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/"/>
+    <updated>2014-08-20T23:42:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
+我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Softmax Algorithm]]></title>
@@ -383,27 +396,6 @@ Bandit Algorithms 有關。</p>
 <p>我這邊是先從 github clone 一份下來，然後我資料庫使用 MariaDB ，server 使用 nginx，
 然後使用 composer 安裝必要的部分，但是它本身所以用的 framework 有bug 還要更新，但是
 還是有相同的錯誤出現。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[八月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan/"/>
-    <updated>2014-08-01T23:35:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄八月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>Bandit Algorithms for Website Optimization</li>
-<li>夢斷代碼</li>
-<li>Mastering.Search.Analytics：Measuring.SEO.SEM.and.Site.Search</li>
-<li>Python for Data Analysis</li>
-<li>深入php 面向对象、模式与实践</li>
-</ol>
-
 ]]></content>
   </entry>
   
