@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Git Error Object File Is Empty - Learning Blog</title>
+  <title>偵測 Android 的 APP 是否被移除了 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
-整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。 error: object file .git/ &hellip;">
+  <meta name="description" content="日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
+顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 not registered
+的錯誤訊息，查詢代表的意義是使用者移除的 APP， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Git Error Object File Is Empty</h1>
+      <h1 class="entry-title">偵測 Android 的 APP 是否被移除了</h1>
     
     
       <p class="meta">
@@ -98,7 +99,7 @@
   
 
 
-<time datetime="2014-07-24T21:48:08+08:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+<time datetime="2014-08-22T23:54:59+08:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -111,13 +112,9 @@
 <div class="entry-content"><!-- more -->
 
 
-<p>昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
-整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。</p>
-
-<p>error: object file .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27 is empty
-fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
-
-<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
+<p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
+顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
+的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
 </div>
 
 
@@ -140,12 +137,12 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
   
 
 
-<time datetime="2014-07-24T21:48:08+08:00" pubdate data-updated="true">Jul 24<span>th</span>, 2014</time>
+<time datetime="2014-08-22T23:54:59+08:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/git/'>git</a>
+    <a class='category' href='/blog/categories/android/'>android</a>
   
 </span>
 
@@ -161,10 +158,8 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/07/23/php-zi-dong-hua-ce-shi/" title="Previous Post: PHP 自動化測試">&laquo; PHP 自動化測試</a>
+        <a class="basic-alignment left" href="/blog/2014/08/21/koajs-xin-de-web-kuang-jia/" title="Previous Post: koajs 新的 web 框架">&laquo; koajs 新的 web 框架</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/07/25/mozilla-webmaker/" title="Next Post: Mozilla Webmaker">Mozilla Webmaker &raquo;</a>
       
     </p>
   </footer>
@@ -322,8 +317,8 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/';
         var disqus_script = 'embed.js';
       
     (function () {

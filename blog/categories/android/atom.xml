@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-22T23:03:16+08:00</updated>
+  <updated>2014-08-22T23:59:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[偵測 Android 的 APP 是否被移除了]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/"/>
+    <updated>2014-08-22T23:54:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
+顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
+的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
