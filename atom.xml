@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-21T23:26:55+08:00</updated>
+  <updated>2014-08-22T23:03:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -44,6 +44,12 @@
 
 <p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
 我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
+
+<p>另外 redis的作者針對文章做出回應 <a href="http://antirez.com/news/55">Reply to Aphyr attack to Sentinel</a> ，下面就是作者在文章裡提出的當初開發出 Sentinel 的目的，
+也知道會有 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a> 中提到的問題。</p>
+
+<pre><code>Redis Sentinel is a distributed *monitoring* system, with support for automatic failover.
+</code></pre>
 ]]></content>
   </entry>
   
