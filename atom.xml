@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-22T23:59:31+08:00</updated>
+  <updated>2014-08-23T22:55:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[10 Habits of a Happy Node Hacker]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/23/10-habits-of-a-happy-node-hacker/"/>
+    <updated>2014-08-23T22:18:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/23/10-habits-of-a-happy-node-hacker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看了篇文章，標題是 <a href="https://blog.heroku.com/archives/2014/3/11/node-habits?utm_source=nodeweekly&amp;utm_medium=email#6-use-environment-variables-to-configure-npm&amp;utm_source=ourjs.com">10 Habits of a Happy Node Hacker</a>，裡面列了一些小技巧跟知識大多是跟 npm 這個有關，
+那些技巧大多是讓開發者更容易管理專案的依賴庫， 裡面比較重要的我覺得是提到 <code>Harmony</code> 和 <code>Browserify</code> ，其他
+的通常在深入使用 npm 的時候或是在開發一個大型專案的就會學到了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[偵測 Android 的 APP 是否被移除了]]></title>
@@ -378,31 +392,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 但是按鈕設計和排版上有點怪怪的。</p>
 
 <p><a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Explore-Exploit Trade-off]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off/"/>
-    <updated>2014-08-04T23:33:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>We call experimentation  exploration  and we call profit-maximization exploitation</code> 在 Bandit.Algorithms.for.Website.Optimization 書中看到關於 Explore-Exploit trade-off
-的定義，簡單來說在解決問題的成本和獲得的利潤上取得平衡，書中開頭的案例:為網站更換 LOGO， 傳統的做法是使用 AB TEST但是花大量的時間，所以從這邊我可以慢慢猜得出來如何跟
-Bandit Algorithms 有關。</p>
-
-<p>另外記錄一篇跟<code>Explore-Exploit trade-off</code>相關的有趣論文:<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=122779">Web-Scale Bayesian Click-Through Rate Prediction for Sponsored Search Advertising in Microsoft’s Bing Search Engine</a></p>
-
-<p>另外有幾篇關於A/B Testing 和 Bandit.Algorithms的比較的文章可以作為參考。</p>
-
-<ol>
-<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit Algorithm is Not “Better” than A/B Testing</a></li>
-<li><a href="http://stevehanov.ca/blog/index.php?id=132">20 lines of code that will beat A/B testing every time</a></li>
-<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit algorithms are superior to A/B testing</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
