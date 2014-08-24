@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-24T00:12:41+08:00</updated>
+  <updated>2014-08-24T23:43:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github NodeLoad]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/24/github-nodeload/"/>
+    <updated>2014-08-24T23:18:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/24/github-nodeload</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在看一本書書名叫 <code>深入淺出 node.js</code> ， 裡面提到一個關於 node.js 在 github 上的應用名叫 <code>nodeload.</code>，使用 node.js 取代原本的
+ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href="https://github.com/benschmaus/nodeload">nodeload</a> 的倉庫，似乎很久沒維護了，也許只是找到同名的專案，不過可以在 github的
+官方 blog 參考下面兩篇文章讓開發者作為提供類似服務的參考。</p>
+
+<ol>
+<li><a href="https://github.com/blog/1089-nodeload-metrics">Nodeload Metrics</a></li>
+<li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[10 Habits of a Happy Node Hacker]]></title>
@@ -376,22 +396,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <h3>目的</h3>
 
 <p>篇章分割，分析文章中使用者有興趣的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery Mobile Form]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from/"/>
-    <updated>2014-08-05T23:54:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 jQuery Mobile 製作手機板用的表單，原本有在使用 <code>Twitter Bootstrap</code> 製作網站，最近想試試看
-使用<a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a> 製作看看， 目前工作上看到合作的設計師似乎只是使用Bootstrap的RWD功能，
-但是按鈕設計和排版上有點怪怪的。</p>
-
-<p><a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a></p>
 ]]></content>
   </entry>
   

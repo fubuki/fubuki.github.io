@@ -5,15 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>SQL 日期經典問題 - Learning Blog</title>
+  <title>Github NodeLoad - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="介紹關於使用MySQL處理日期的相關問題。
-1. 生日問題 2. 重疊問題 3. 星期數問題 生日問題 簡介 查詢一個人最接近的生日日期，需要注意處理閏月的問題。 重疊問題 簡介 主要是時間重疊的問題。
-1. 標示重疊
-2. 分組重疊
-3. 最大重疊會話術 星期數問題 簡介 判斷特定日期是星期幾， &hellip;">
+  <meta name="description" content="今天在看一本書書名叫 深入淺出 node.js ， 裡面提到一個關於 node.js 在 github 上的應用名叫 nodeload.，使用 node.js 取代原本的
+ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 nodeload 的倉庫，似乎很久沒維護了，也許只是找到同名的專案， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/24/github-nodeload">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -85,7 +82,7 @@
   
   <header>
     
-      <h1 class="entry-title">SQL 日期經典問題</h1>
+      <h1 class="entry-title">Github NodeLoad</h1>
     
     
       <p class="meta">
@@ -101,7 +98,7 @@
   
 
 
-<time datetime="2014-07-10T23:39:38+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+<time datetime="2014-08-24T23:18:12+08:00" pubdate data-updated="true">Aug 24<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -111,34 +108,18 @@
   </header>
 
 
-<div class="entry-content"><p>介紹關於使用MySQL處理日期的相關問題。<br/>
-1. 生日問題 <br/>
-2. 重疊問題 <br/>
-3. 星期數問題</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<h2>生日問題</h2>
+<p>今天在看一本書書名叫 <code>深入淺出 node.js</code> ， 裡面提到一個關於 node.js 在 github 上的應用名叫 <code>nodeload.</code>，使用 node.js 取代原本的
+ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href="https://github.com/benschmaus/nodeload">nodeload</a> 的倉庫，似乎很久沒維護了，也許只是找到同名的專案，不過可以在 github的
+官方 blog 參考下面兩篇文章讓開發者作為提供類似服務的參考。</p>
 
-<h3>簡介</h3>
+<ol>
+<li><a href="https://github.com/blog/1089-nodeload-metrics">Nodeload Metrics</a></li>
+<li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
+</ol>
 
-<p>查詢一個人最接近的生日日期，需要注意處理閏月的問題。</p>
-
-<h2>重疊問題</h2>
-
-<h3>簡介</h3>
-
-<p>主要是時間重疊的問題。
-1. 標示重疊
-2. 分組重疊
-3. 最大重疊會話術</p>
-
-<h2>星期數問題</h2>
-
-<h3>簡介</h3>
-
-<p>判斷特定日期是星期幾，每周統計數量，計算工作日</p>
 </div>
 
 
@@ -161,12 +142,12 @@
   
 
 
-<time datetime="2014-07-10T23:39:38+08:00" pubdate data-updated="true">Jul 10<span>th</span>, 2014</time>
+<time datetime="2014-08-24T23:18:12+08:00" pubdate data-updated="true">Aug 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/sql/'>sql</a>
+    <a class='category' href='/blog/categories/nodejs/'>nodejs</a>
   
 </span>
 
@@ -182,10 +163,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/07/09/chang-yong-de-ji-zhong-lei-xing-shu/" title="Previous Post: 常用的幾種類型樹">&laquo; 常用的幾種類型樹</a>
+        <a class="basic-alignment left" href="/blog/2014/08/23/10-habits-of-a-happy-node-hacker/" title="Previous Post: 10 Habits of a Happy Node Hacker">&laquo; 10 Habits of a Happy Node Hacker</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/07/13/xin-shou-ji-de-shu-ji/" title="Next Post: 新收集的書籍">新收集的書籍 &raquo;</a>
       
     </p>
   </footer>
@@ -343,8 +322,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/07/10/sql-ri-qi-jing-dian-wen-ti-sheng-ri-wen-ti/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/24/github-nodeload/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/24/github-nodeload/';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-24T00:12:41+08:00</updated>
+  <updated>2014-08-24T23:43:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github NodeLoad]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/24/github-nodeload/"/>
+    <updated>2014-08-24T23:18:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/24/github-nodeload</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在看一本書書名叫 <code>深入淺出 node.js</code> ， 裡面提到一個關於 node.js 在 github 上的應用名叫 <code>nodeload.</code>，使用 node.js 取代原本的
+ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href="https://github.com/benschmaus/nodeload">nodeload</a> 的倉庫，似乎很久沒維護了，也許只是找到同名的專案，不過可以在 github的
+官方 blog 參考下面兩篇文章讓開發者作為提供類似服務的參考。</p>
+
+<ol>
+<li><a href="https://github.com/blog/1089-nodeload-metrics">Nodeload Metrics</a></li>
+<li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[10 Habits of a Happy Node Hacker]]></title>
@@ -104,28 +124,6 @@
 <p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
 避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
 有些人提供一些第三方的模組處理流程控制的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs 生產環境]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing/"/>
-    <updated>2014-04-05T21:55:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/05/nodejs-sheng-chan-huan-jing</id>
-    <content type="html"><![CDATA[<p>記錄一下nodejs生產環境需要注意的事項。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>nodejs是非同步但是也有一些同步的API(例如讀取檔案)會影響nodejs的運行，要小心使用那些API。</li>
-<li>nodejs底層是使用V8引擎可以藉由調整V8的GC策略提升效能。</li>
-<li>nodejs建立socket時增加可以建立的socket的數量。</li>
-<li>nodejs 有些使用模組是編譯過的，有些是純js撰寫成的，使用二進位編譯後的模組。</li>
-<li>在nodejs中事件流的處理會影響程式效能，目前有些用來處理事件流的模組慎選並去使用。</li>
-<li>nodejs的session通常使用express處理，預設存放在記憶體內，建議替換到redis或是memcache的資料庫存放。</li>
-</ol>
-
 ]]></content>
   </entry>
   
