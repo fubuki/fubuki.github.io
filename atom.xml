@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-24T23:43:45+08:00</updated>
+  <updated>2014-08-25T23:52:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang分布式開發]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa/"/>
+    <updated>2014-08-25T23:35:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看完 Erlang教程的快速入門，對照之前研究 rabbitmq 的經驗很快就上手了，參照網路上的說明
+寫了一個範例，也看到 Erlang 在建立多個 Process 和通信上都很容易達成，另外也了解到 rabbitmq
+ 如何透過 .erlang.cookie 讓各個節點形成一個 cluster 的群集。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github NodeLoad]]></title>
@@ -364,38 +378,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <h3>定義</h3>
 
 <h3>例子</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TextTiling 算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/06/texttiling-suan-fa/"/>
-    <updated>2014-08-06T23:50:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/06/texttiling-suan-fa</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>分割算法</h3>
-
-<ol>
-<li>cohesion scorer</li>
-<li>depth scorer</li>
-<li>boundary selector</li>
-</ol>
-
-
-<h3>cohesion scorer</h3>
-
-<ol>
-<li>Vector Space Scoring</li>
-<li>Block Comparison</li>
-<li>Vocabulary Introduction</li>
-</ol>
-
-
-<h3>目的</h3>
-
-<p>篇章分割，分析文章中使用者有興趣的部分。</p>
 ]]></content>
   </entry>
   
