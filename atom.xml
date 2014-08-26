@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-25T23:52:44+08:00</updated>
+  <updated>2014-08-26T23:45:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rebar 備忘錄]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu/"/>
+    <updated>2014-08-26T23:32:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>安裝</h3>
+
+<pre><code>git clone https://github.com/rebar/rebar
+cd rebar
+./bootstrap
+sudo mv rebar /usr/local/bin 
+</code></pre>
+
+<h3>建立一個 app</h3>
+
+<pre><code>rebar create-app appid=erl-app
+</code></pre>
+
+<h3>編譯</h3>
+
+<pre><code>rebar compile
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang分布式開發]]></title>
@@ -360,24 +388,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <li>Rocchio algorithm</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Perceptron Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/07/perceptron/"/>
-    <updated>2014-08-07T23:35:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/07/perceptron</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最簡單的類神經網路，在學習文本分類時，為了提高演算法的性能需要調整函數的參數使用了梯度下降的方法。
-其中提到了感知器(Perceptron)，簡單來說是只有單層的類神經網路，並且因為感知器收斂定理(perceptron convergence theorem)
-可以保證在處理線性可分的問題確保感知器可以收斂，在線性不可分的問題上會出現問題。</p>
-
-<h3>定義</h3>
-
-<h3>例子</h3>
 ]]></content>
   </entry>
   
