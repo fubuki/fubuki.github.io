@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Zookeeper - Learning Blog</title>
+  <title>Android 記憶體分析工具 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，
-如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，
+  <meta name="description" content=" MAT 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
+藉此可以檢查哪理是有可能成為 memory leak 的地方。
 ">
   
 
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/05/zookeeper">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Zookeeper</h1>
+      <h1 class="entry-title">Android 記憶體分析工具</h1>
     
     
       <p class="meta">
@@ -99,7 +99,7 @@
   
 
 
-<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2014-08-27T23:14:38+08:00" pubdate data-updated="true">Aug 27<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +109,11 @@
   </header>
 
 
-<div class="entry-content"><p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
-如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
+<div class="entry-content"><!-- more -->
+
+
+<p><a href="http://www.eclipse.org/mat/">MAT</a> 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
+藉此可以檢查哪理是有可能成為 memory leak 的地方。</p>
 </div>
 
 
@@ -133,12 +136,12 @@
   
 
 
-<time datetime="2014-03-05T21:16:55+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2014</time>
+<time datetime="2014-08-27T23:14:38+08:00" pubdate data-updated="true">Aug 27<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/zookeeper/'>zookeeper</a>
+    <a class='category' href='/blog/categories/android/'>android</a>
   
 </span>
 
@@ -154,10 +157,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/04/fluntd/" title="Previous Post: fluntd">&laquo; fluntd</a>
+        <a class="basic-alignment left" href="/blog/2014/08/26/rebar-bei-wang-lu/" title="Previous Post: rebar 備忘錄">&laquo; rebar 備忘錄</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/05/hadoop/" title="Next Post: hadoop">hadoop &raquo;</a>
       
     </p>
   </footer>
@@ -316,8 +317,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/05/zookeeper/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/05/zookeeper/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-26T23:45:27+08:00</updated>
+  <updated>2014-08-27T23:48:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android 記憶體分析工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/"/>
+    <updated>2014-08-27T23:14:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.eclipse.org/mat/">MAT</a> 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
+藉此可以檢查哪理是有可能成為 memory leak 的地方。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rebar 備忘錄]]></title>
@@ -366,28 +379,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
 
 <h3>差別</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[自然語言分類演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa/"/>
-    <updated>2014-08-08T22:32:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>紀錄一下在統計自然語言處理的看到的分類演算法。</p>
-
-<ol>
-<li>Logistic Regression</li>
-<li>Linear Discriminant Analysis</li>
-<li>Decision List</li>
-<li>Winnow algorithm</li>
-<li>Mistake N-Driven Online Linear Threshold Learning Algorithm</li>
-<li>Rocchio algorithm</li>
-</ol>
-
 ]]></content>
   </entry>
   
