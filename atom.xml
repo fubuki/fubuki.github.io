@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-27T23:48:39+08:00</updated>
+  <updated>2014-08-28T23:54:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Gitlab 版本控制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi/"/>
+    <updated>2014-08-28T23:47:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
+所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android 記憶體分析工具]]></title>
@@ -354,31 +367,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <li>Git权威指南</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Boosting and Bagging]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/"/>
-    <updated>2014-08-08T23:28:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
-其中集成學習的兩種方法，下面整理一些學習資源。</p>
-
-<h3>boosting</h3>
-
-<p>AdaBoost（Adaptive Boosting）</p>
-
-<p>使用同一個訓練集， 每次訓練的時候針對有問題訓練資料加大權重，讓函數靠往有問題的訊息資料。</p>
-
-<h3>bagging</h3>
-
-<p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
-
-<h3>差別</h3>
 ]]></content>
   </entry>
   

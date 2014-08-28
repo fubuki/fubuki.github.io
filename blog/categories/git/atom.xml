@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-27T23:48:39+08:00</updated>
+  <updated>2014-08-28T23:54:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Gitlab 版本控制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi/"/>
+    <updated>2014-08-28T23:47:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
+所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 學習資源]]></title>
@@ -100,60 +113,6 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
     git bisect bad   目前的commit是有問題的
     git bisect good [commit] 目前已知的正常狀態是哪一個commit
     git bisect reset 結束 bisect
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 偏好設定]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/20/git-pian-hao-she-ding/"/>
-    <updated>2014-04-20T10:22:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/20/git-pian-hao-she-ding</id>
-    <content type="html"><![CDATA[<p>記錄從網路上看到關於git有用的設定。</p>
-
-<!-- more -->
-
-
-<h4>1. git 加上顏色</h4>
-
-<pre><code>    git config --global color.ui true
-</code></pre>
-
-<h4>2. git 自動補完指令和分支名</h4>
-
-<p>下載<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash">git-completion.bash </a>，然後在.bashrc 加入下面這段程式碼然後讓新的Bash生效就可以了。</p>
-
-<pre><code>    if [ -f ~/.git-completion.bash ]; then
-        . ~/.git-completion.bash
-    fi
-</code></pre>
-
-<h4>3. 顯示目前在哪個分支</h4>
-
-<p>下載<a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">git-prompt.sh</a>，然後在.bashrc加上下面指令，</p>
-
-<pre><code>    source ~/.git-prompt.sh
-    export PS1='$(__git_ps1 "(%s)") \W $'
-</code></pre>
-
-<p>之後就可以在git專案底下看到Bash顯示在哪個專案和分支。</p>
-
-<pre><code>    (master) Lucene $
-</code></pre>
-
-<h4>4. git alias</h4>
-
-<pre><code>    git config --global alias.check checkout
-    git config --global alias.cmt commit
-</code></pre>
-
-<h4>5. 設定git使用的編輯器和diff工具</h4>
-
-<p>下面的設定可以在~/.gitconfig修改。</p>
-
-<pre><code>    git config --global core.editor
-    git config --global diff.tool 
-    git config --global merge.tool 
 </code></pre>
 ]]></content>
   </entry>
