@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-29T23:53:03+08:00</updated>
+  <updated>2014-08-30T23:47:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Cnpm 建立私有的 Npm 服務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu/"/>
+    <updated>2014-08-30T23:40:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://cnpmjs.org/">cnpm</a> 可以讓使用者建立給企業用的 npm 服務，由於公司政策的關係有時候連接 npm 服務會有問題，
+並且如果有自製的套件有發布到多台機器上會有點麻煩，藉此可以利用 <a href="http://cnpmjs.org/">cnpm</a> 加速下載並且避開一些
+機器連網的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tig 和 Git]]></title>
@@ -343,21 +357,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 <p>手機和桌面閱覽器都有支援 no delay</p>
 
 <p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[True Random Numbers vs. Pseudo-random Numbers]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers/"/>
-    <updated>2014-08-10T00:10:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/10/true-random-numbers-vs-pseudo-random-numbers</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Random_number_generation">Random_number_generation</a>
-利用 <a href="http://en.wikipedia.org/wiki/Atmospheric_noise">Atmospheric noise</a> 的當亂數種子。</p>
-
-<p>紀錄一下產生隨機亂數的方法，以及一般計算機的產生亂數的問題。</p>
 ]]></content>
   </entry>
   

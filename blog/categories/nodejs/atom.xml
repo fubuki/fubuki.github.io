@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-29T23:53:03+08:00</updated>
+  <updated>2014-08-30T23:47:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Cnpm 建立私有的 Npm 服務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu/"/>
+    <updated>2014-08-30T23:40:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://cnpmjs.org/">cnpm</a> 可以讓使用者建立給企業用的 npm 服務，由於公司政策的關係有時候連接 npm 服務會有問題，
+並且如果有自製的套件有發布到多台機器上會有點麻煩，藉此可以利用 <a href="http://cnpmjs.org/">cnpm</a> 加速下載並且避開一些
+機器連網的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github NodeLoad]]></title>
@@ -105,25 +119,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 <p>這部分是提升像是setTimeout之類API的效率，這裡就不太清楚了。</p>
 
 <p>原文在此<a href="http://strongloop.com/strongblog/performance-node-js-v-0-12-whats-new/">node-js-v-0-12-whats-new</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nodejs Flow Control]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control/"/>
-    <updated>2014-04-06T16:22:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/06/nodejs-flow-control</id>
-    <content type="html"><![CDATA[<p>記錄一下流程控制相關的模組。<br/>
-1. <a href="https://github.com/creationix/step">step</a> <br/>
-2. <a href="https://github.com/kriskowal/q">Q</a><br/>
-3. <a href="https://github.com/kriszyp/node-promise">promise</a></p>
-
-<!-- more -->
-
-
-<p>由於nodejs是非同步的，所以流程控制是很重要的一部分，一般撰寫程式時會等待其他區塊的回傳參數，但是由於非同步的關係所以需要以嵌套的方式
-避免所需要的參數尚未回傳就執行下一步的函式導致未知的結果，如此一來就會出現多重嵌套的情形導致程式以後變的難以除錯並且看起來也很醜，所以
-有些人提供一些第三方的模組處理流程控制的部分。</p>
 ]]></content>
   </entry>
   
