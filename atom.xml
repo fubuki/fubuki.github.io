@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-30T23:47:24+08:00</updated>
+  <updated>2014-08-31T23:13:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[九月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan/"/>
+    <updated>2014-08-31T22:55:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>erlang programming</li>
+<li>資訊視覺圖表－讓資料變好看的大數據時代資料表達術</li>
+<li>Specification by Example</li>
+<li>编写高质量代码:改善JavaScript程序的188个建议</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Cnpm 建立私有的 Npm 服務]]></title>
@@ -329,34 +347,6 @@ other process 所佔的記憶體大小超過設定的記憶體上限並且將主
 
 <p>目前運行的時候是一個 connecion 對應一個 channel 和 consumer 目前猜這是不是 queue 過多或是後端一次丟太多
 訊息讓 rabbitmq 來不及處理的關係還需要一段時間觀察。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/"/>
-    <updated>2014-08-11T22:52:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
-紀錄一下幾種點擊事件。
-可以參考<a href="http://stackoverflow.com/questions/15274809/in-jquery-mobile-whats-the-diff-between-tap-and-vclick">in-jquery-mobile-whats-the-diff-between-tap-and-vclick</a></p>
-
-<h3>Click</h3>
-
-<p>手機和桌面閱覽器都有支援，在 <code>android</code> 會有 Visible delay</p>
-
-<h3>Tap</h3>
-
-<p>只有手機閱覽器支援, no delay</p>
-
-<h3>VClick</h3>
-
-<p>手機和桌面閱覽器都有支援 no delay</p>
-
-<p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
 ]]></content>
   </entry>
   
