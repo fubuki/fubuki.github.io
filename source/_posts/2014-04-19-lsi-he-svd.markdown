@@ -3,7 +3,7 @@ layout: post
 title: "LSI 和 SVD"
 date: 2014-04-19 19:44:28 +0800
 comments: true
-categories: ["nlp"]
+categories: ["NLP"]
 ---
 記錄在處理nlp問題時看到的專有名詞。
 <!-- more -->

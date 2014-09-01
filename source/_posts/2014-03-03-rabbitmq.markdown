@@ -3,7 +3,7 @@ layout: post
 title: "rabbitmq"
 date: 2014-03-03 21:51:20 +0800
 comments: true
-categories: rabbitmq
+categories: ["rabbitmq"]
 ---
 
 MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴展，如果取代redis作為pubsub的  

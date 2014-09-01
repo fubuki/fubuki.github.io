@@ -1,0 +1,20 @@
+---
+layout: post
+title: "tig 和 git"
+date: 2014-08-29 23:38:31 +0800
+comments: true
+categories: 
+---
+
+<!-- more -->
+
+日前在尋找編輯 git commit 的方法時，在一篇[文章]看到有人提到 [tig] 這個東西，能夠加強 git 在命令列環境
+下的操作，目前使用上最好用的是用來 commit 非常方便閱讀，另外一個是[tigrc]這個東西可以用來設定 [tig] 調整
+輸出的畫面。
+
+
+
+
+[tig]:https://github.com/jonas/tig
+[文章]:http://qiita.com/suino/items/b0dae7e00bd7165f79ea
+[tigrc]:http://blog.hifumi.info/2014/01/18/tigrc/

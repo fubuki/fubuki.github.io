@@ -3,7 +3,7 @@ layout: post
 title: "WordNet"
 date: 2014-04-03 21:38:45 +0800
 comments: true
-categories: ['nlp']
+categories: ["NLP"]
 ---
 
 在使用NLTK作詞性分析時，發現可以找出英文同義詞的功能，他是使用[wordnet]實現的，wordnet在維基上說是由普林斯頓大學建立的英文字典，

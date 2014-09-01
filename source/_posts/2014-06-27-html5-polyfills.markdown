@@ -3,7 +3,7 @@ layout: post
 title: "HTML5 Polyfills"
 date: 2014-06-27 22:46:26 +0800
 comments: true
-categories: ["html5"]
+categories: ["HTML5"]
 ---
 
 [What is a Polyfill?]  

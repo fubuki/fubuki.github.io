@@ -1,0 +1,21 @@
+---
+layout: post
+title: "PCFG"
+date: 2014-08-03 23:46:36 +0800
+comments: true
+categories: ["NLP"]
+---
+
+Probabilistic Context Free Grammar (PCFG)，之前有在編譯器原理和計算理論看過 `Context Free Grammar` 簡稱CFG，
+當初會提到 CFG 是因為CFG可以用來表達大多數的程式語言的語法， 然後這次在自然語言處理的部分看到PCFG，
+
+<!-- more -->
+
+
+###定義
+
+
+
+###語法分析
+
+

@@ -3,7 +3,7 @@ layout: post
 title: "nodejs management"
 date: 2014-03-01 09:54:37 +0800
 comments: true
-categories: nodejs
+categories: ["nodejs"]
 ---
 
 pm2  

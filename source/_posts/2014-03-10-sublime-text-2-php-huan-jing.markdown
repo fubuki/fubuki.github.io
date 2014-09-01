@@ -15,3 +15,4 @@ categories: sublime-text
 3. DocBlockr
 4. SublimeCodeIntel
 5. SublimeLinter
+6. ctag

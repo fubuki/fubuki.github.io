@@ -3,7 +3,7 @@ layout: post
 title: "中文分詞器"
 date: 2014-04-15 20:55:40 +0800
 comments: true
-categories: ['nlp']
+categories: ["NLP"]
 ---
 
 記錄一下中文分詞目前有哪些分詞並且主要使用哪些方法實現中文分詞。
