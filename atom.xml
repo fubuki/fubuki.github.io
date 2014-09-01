@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-31T23:13:09+08:00</updated>
+  <updated>2014-09-01T23:50:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Memory Allocation]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation/"/>
+    <updated>2014-09-01T23:42:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 記憶體分配器，redis 不知道從哪一個版本開始是預設使用 jemalloc，據說效能比預設的 glibc 的還要高，
+另外在網路上有人提到使用 TCMalloc 提高 nginx 和 redis的效能。</p>
+
+<ol>
+<li>jemalloc</li>
+<li>TCMalloc</li>
+<li>glibc</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[九月書單]]></title>
@@ -330,23 +350,6 @@ webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> �
 
 <p>rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
 的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rabbitmq Process Leak]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/12/rabbitmq-process-leak/"/>
-    <updated>2014-08-12T23:51:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/12/rabbitmq-process-leak</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Rabbitmq server 不定期會當機，經過長時間觀察，發現是 erl process 不正常增長的關係， connection 的數量
-很正常但是 consumer 和 channel 的數量多出好幾倍，然後 queue的數量也不太對， 目前看得出來是 rabbitmq 的
-other process 所佔的記憶體大小超過設定的記憶體上限並且將主機的記憶體整個吃滿，導致 rabbitmq 整個 crash。</p>
-
-<p>目前運行的時候是一個 connecion 對應一個 channel 和 consumer 目前猜這是不是 queue 過多或是後端一次丟太多
-訊息讓 rabbitmq 來不及處理的關係還需要一段時間觀察。</p>
 ]]></content>
   </entry>
   

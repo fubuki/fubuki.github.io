@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-08-31T23:13:09+08:00</updated>
+  <updated>2014-09-01T23:50:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Memory Allocation]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation/"/>
+    <updated>2014-09-01T23:42:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 記憶體分配器，redis 不知道從哪一個版本開始是預設使用 jemalloc，據說效能比預設的 glibc 的還要高，
+另外在網路上有人提到使用 TCMalloc 提高 nginx 和 redis的效能。</p>
+
+<ol>
+<li>jemalloc</li>
+<li>TCMalloc</li>
+<li>glibc</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flickr 如何使用 Redis 的 Sentinel]]></title>
