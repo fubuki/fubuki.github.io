@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-01T23:50:55+08:00</updated>
+  <updated>2014-09-01T23:58:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Scan 命令]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/"/>
+    <updated>2014-09-01T23:55:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 新的命令: Scan。</p>
+
+<p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
+<a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Memory Allocation]]></title>

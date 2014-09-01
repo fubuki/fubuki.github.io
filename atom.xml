@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-01T23:50:55+08:00</updated>
+  <updated>2014-09-01T23:58:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Scan 命令]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/"/>
+    <updated>2014-09-01T23:55:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 新的命令: Scan。</p>
+
+<p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
+<a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Memory Allocation]]></title>
@@ -337,19 +352,6 @@ webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> �
 
 <p><a href="https://github.com/fjl/Sublime-Erlang">Sublime-Erlang</a> 和 <a href="https://github.com/ostinelli/SublimErl">SublimErl</a> 都是給 Sublime Text 2 的插件，不過從 Sublime 的 Package 看得出來原本就有支援 erlang 支援語法，
 目前還在測試 Sublime-Erlang 看有哪些突出的地方， 不過我希望有個完整的編譯環境會比較好。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rabbitmq Http Api]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api/"/>
-    <updated>2014-08-13T23:51:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/13/rabbitmq-http-api</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>rabbitmq 的 Management Plugin 提供了 http 的接口讓開發者可以透過 API 控制， 直接透過 Management Plugin 提供
-的後台速度不太能恭維， 並且希望能夠透過這些 API 管理 rabbitmq裡的 queue。</p>
 ]]></content>
   </entry>
   

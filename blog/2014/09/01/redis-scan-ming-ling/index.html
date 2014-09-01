@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Php-fpm 優化參數 - Learning Blog</title>
+  <title>Redis Scan 命令 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="warning pool www child exited on signal 9 (sigkill) after seconds from start php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程， &hellip;">
+  <meta name="description" content=" redis 新的命令: Scan。 Redis Scan迭代器遍历操作原理（一）
+Redis Scan迭代器遍历操作原理（二）
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -81,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Php-fpm 優化參數</h1>
+      <h1 class="entry-title">Redis Scan 命令</h1>
     
     
       <p class="meta">
@@ -97,7 +99,7 @@
   
 
 
-<time datetime="2014-07-01T23:30:29+08:00" pubdate data-updated="true">Jul 1<span>st</span>, 2014</time>
+<time datetime="2014-09-01T23:55:29+08:00" pubdate data-updated="true">Sep 1<span>st</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -107,35 +109,13 @@
   </header>
 
 
-<div class="entry-content"><p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<p>php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程，
-選擇哪個模式端看於硬體上記憶體大小的差別。</p>
+<p>redis 新的命令: Scan。</p>
 
-<h2>靜態或是動態</h2>
-
-<p>pm = static or dynamic</p>
-
-<h2>靜態方法</h2>
-
-<p>pm.max_children : php-fpm 最大進程數</p>
-
-<h2>動態方法</h2>
-
-<p>pm.start_servers : php-fpm 一開始創鍵的進程數</p>
-
-<p>pm.min_spare_servers : php-fpm 最小的進程數</p>
-
-<p>pm.max_spare_servers : php-fpm 最大進程數</p>
-
-<h2>其他參數</h2>
-
-<p>pm.max_requests : 一個進程處理多少個請求後就重新啟動</p>
-
-<h2>參數大小設定規則</h2>
+<p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
+<a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
 </div>
 
 
@@ -158,12 +138,12 @@
   
 
 
-<time datetime="2014-07-01T23:30:29+08:00" pubdate data-updated="true">Jul 1<span>st</span>, 2014</time>
+<time datetime="2014-09-01T23:55:29+08:00" pubdate data-updated="true">Sep 1<span>st</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/php/'>php</a>
+    <a class='category' href='/blog/categories/redis/'>redis</a>
   
 </span>
 
@@ -179,10 +159,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/30/qi-yue-shu-dan/" title="Previous Post: 七月書單">&laquo; 七月書單</a>
+        <a class="basic-alignment left" href="/blog/2014/09/01/redis-memory-allocation/" title="Previous Post: redis memory allocation">&laquo; redis memory allocation</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/07/03/nfa-he-dfa/" title="Next Post: NFA 和 DFA">NFA 和 DFA &raquo;</a>
       
     </p>
   </footer>
@@ -341,8 +319,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/';
         var disqus_script = 'embed.js';
       
     (function () {
