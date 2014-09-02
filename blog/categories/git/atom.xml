@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-01T23:58:28+08:00</updated>
+  <updated>2014-09-02T23:38:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github 有趣的功能: Github-cheat-sheet]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet/"/>
+    <updated>2014-09-02T23:30:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gitlab 版本控制]]></title>
@@ -82,38 +94,6 @@ fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/obj
 <p><a href="http://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a>裡面主要敘述如何管理git的分支，可以做為一個團隊如何實踐專案工作
 流程的參考，然後最近才發現他有一個管理工具<a href="https://github.com/danielkummer/git-flow-cheatsheet">git-flow</a>可以更容易去實踐這套工作流程，這邊也有篇管理工具的
 <a href="http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html">介紹</a>，以後如果有空在推廣給同事使用吧。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用git做程式碼debug]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/20/shi-yong-gitzuo-cheng-shi-ma-debug/"/>
-    <updated>2014-04-20T17:02:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/20/shi-yong-gitzuo-cheng-shi-ma-debug</id>
-    <content type="html"><![CDATA[<p>專案在多人協作的環境下有時會出現不明原因的bug，通常是因為撰寫的人沒有發現並且沒有經過良好的測試並且又併入主分支，
-這導致bug隱藏在程式碼裡面，這邊就記錄一下平常使用git來找出問題點的方法。</p>
-
-<!-- more -->
-
-
-<p>通常如果知道出錯在哪個檔案可以透過git blame的指令找出此檔案最後修改的人是誰並且還可以得知最後的commit，並且還能夠
-下條件限定在某些行數，下面的指令可以顯示 index.php 100行到150行之間的資訊另外我看可以下 <code>-C</code> 的選項可以顯示這段
-程式碼的原始出處不過我一般沒有在使用。</p>
-
-<pre><code>    git blame -L 100,150 index.php
-</code></pre>
-
-<p>另外一種情形是不知道問題是出錯在哪一個部分，這時可以使用<code>git bisect</code>，這個指令可以讓使用者決定從哪邊開始是運作良好
-的commit，然後現在是有問題的commit，接下來會顯示從正常到有問題的commit之間還有多少筆commit並且開一個<code>no branch</code>的
-分支使用者讓測試，如果目前的commit是測試出來是正常的狀態便可以下<code>git bisect good</code>告訴 bisect目前的commit是正確的，
-如果是錯誤的就可以下<code>git bisect bad</code>說目前是錯誤的狀態，直到確定是在哪一筆commit出錯的，結束後下<code>git bisect reset</code>
-就可以回到原本的開發環境。</p>
-
-<pre><code>    git bisect start 開始執行bisect
-    git bisect bad   目前的commit是有問題的
-    git bisect good [commit] 目前已知的正常狀態是哪一個commit
-    git bisect reset 結束 bisect
-</code></pre>
 ]]></content>
   </entry>
   
