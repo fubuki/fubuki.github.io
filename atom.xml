@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-02T23:38:56+08:00</updated>
+  <updated>2014-09-02T23:55:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android NDK 環境建立]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li/"/>
+    <updated>2014-09-02T23:53:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>如何建立 Android 使用 NDK 的環境。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github 有趣的功能: Github-cheat-sheet]]></title>
@@ -328,27 +340,6 @@ webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> �
 <p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
 看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
 移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Responsive Web Design]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/15/responsive-web-design/"/>
-    <updated>2014-08-15T23:52:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/15/responsive-web-design</id>
-    <content type="html"><![CDATA[<p>在網路上看到一篇跟 RWD 有關的文章 <a href="http://mobiforge.com/design-development/mobile-web-content-adaptation-techniques">Mobile web content adaptation techniques</a> 在此紀錄一下。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>RWD</li>
-<li>以移動平台為主</li>
-<li>漸進增強</li>
-<li>Server端檢測技術 Server-side Adaptation</li>
-<li>混合方法</li>
-</ol>
-
 ]]></content>
   </entry>
   

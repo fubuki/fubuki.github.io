@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-02T23:38:56+08:00</updated>
+  <updated>2014-09-02T23:55:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,39 +14,14 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Android 記憶體分析工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/"/>
-    <updated>2014-08-27T23:14:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju</id>
+    <title type="html"><![CDATA[Android NDK 環境建立]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li/"/>
+    <updated>2014-09-02T23:53:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li</id>
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><a href="http://www.eclipse.org/mat/">MAT</a> 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
-藉此可以檢查哪理是有可能成為 memory leak 的地方。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[偵測 Android 的 APP 是否被移除了]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/"/>
-    <updated>2014-08-22T23:54:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
-顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
-的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/"/>
-    <updated>2014-06-25T23:05:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu</id>
-    <content type="html"><![CDATA[<p>記錄在使用推播時 Android 和 iOS 兩者不同之處。<br/>
-<a href="http://blog.katty.in/4300">iOSとAndroidのプッシュ通知の開発の違いまとめ</a></p>
+<p>如何建立 Android 使用 NDK 的環境。</p>
 ]]></content>
   </entry>
   
