@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-02T23:55:19+08:00</updated>
+  <updated>2014-09-03T23:54:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Gulp-starter]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/03/gulp-starter/"/>
+    <updated>2014-09-03T23:41:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/03/gulp-starter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在開發的時候使用 Grunt 建構專案，而在最近看到 Gulp 這項工具，是在 COSCUP 的議程上看到有人提到，
+發現兩者似乎是類似的東西然後引起我的興趣，便從 <a href="https://github.com/greypants/gulp-starter">gulp-starter</a> 開始研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android NDK 環境建立]]></title>
@@ -326,20 +339,6 @@ webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> �
 有趣的想法。</p>
 
 <p><a href="http://breach.cc/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html">The Experimentation Platform to Build a Next Generation Web Browser</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tracking.js 臉部辨識的函式庫]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku/"/>
-    <updated>2014-08-16T23:06:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
-看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
-移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
 ]]></content>
   </entry>
   
