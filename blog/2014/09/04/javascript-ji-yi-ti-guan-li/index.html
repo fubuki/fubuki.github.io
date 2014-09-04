@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Function Language - Learning Blog</title>
+  <title>Javascript 記憶體管理 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="目前正在學習 common lisp 和 haskell。
-Function language的特性。
-">
+  <meta name="description" content="最近看到這篇 javascript-memory-management-masterclass ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
+之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ Function language的特性。
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/03/10/function-language">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ Function language的特性。
   
   <header>
     
-      <h1 class="entry-title">Function Language</h1>
+      <h1 class="entry-title">Javascript 記憶體管理</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ Function language的特性。
   
 
 
-<time datetime="2014-03-10T22:49:47+08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
+<time datetime="2014-09-04T23:40:17+08:00" pubdate data-updated="true">Sep 4<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,8 +108,12 @@ Function language的特性。
   </header>
 
 
-<div class="entry-content"><p>目前正在學習 common lisp 和 haskell。<br/>
-Function language的特性。</p>
+<div class="entry-content"><!-- more -->
+
+
+<p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
+之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
+檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
 </div>
 
 
@@ -133,12 +136,12 @@ Function language的特性。</p>
   
 
 
-<time datetime="2014-03-10T22:49:47+08:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
+<time datetime="2014-09-04T23:40:17+08:00" pubdate data-updated="true">Sep 4<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/function-language/'>function language</a>
+    <a class='category' href='/blog/categories/javascript/'>javascript</a>
   
 </span>
 
@@ -154,10 +157,8 @@ Function language的特性。</p>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/03/10/sublime-text-2-php-huan-jing/" title="Previous Post: Sublime Text 2 PHP 環境">&laquo; Sublime Text 2 PHP 環境</a>
+        <a class="basic-alignment left" href="/blog/2014/09/03/gulp-starter/" title="Previous Post: gulp-starter">&laquo; gulp-starter</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/" title="Next Post: 虛擬環境和多版本開發方案">虛擬環境和多版本開發方案 &raquo;</a>
       
     </p>
   </footer>
@@ -317,8 +318,8 @@ Function language的特性。</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/03/10/function-language/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/03/10/function-language/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li/';
         var disqus_script = 'embed.js';
       
     (function () {

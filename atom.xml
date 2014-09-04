@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-03T23:54:58+08:00</updated>
+  <updated>2014-09-04T23:53:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript 記憶體管理]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li/"/>
+    <updated>2014-09-04T23:40:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
+之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
+檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gulp-starter]]></title>
@@ -35,6 +49,16 @@
 
 
 <p>如何建立 Android 使用 NDK 的環境。</p>
+
+<ol>
+<li>ADT</li>
+<li>NDK</li>
+<li>cygwin</li>
+</ol>
+
+
+<p>下載 Eclipse + ADT 就建立好基本的開發環境，在來下載 NDK 後在 Eclipse 指定 NDK 路徑，原本NDK 在 windows 環境下需要 cygwin 才能編譯。
+但是在 R7 之後的版本就內帶編譯環境而不需要 cygwin 的樣子，而舊版的 NDK 可以安裝 <a href="https://code.google.com/p/mini-cygwin/">mini-cygwin</a> 建立編譯環境取代安裝龐大的 cygwin。</p>
 ]]></content>
   </entry>
   
@@ -319,26 +343,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 
 <pre><code>[root@localhost ~]# vim /etc/sysconfig/network-scripts/ifcfg-eth0
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Breach Browser]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/17/breach-browser/"/>
-    <updated>2014-08-17T22:20:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/17/breach-browser</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://breach.cc/">breach</a> 一款開源的閱覽器，從官網上面主打 Modular Hackable Open Source，Open Source 先不提，
-其他兩個特色似乎是希望可以讓使用者自行訂製介面並且新增功能，不過 firefox 也能達成類似的功能，
-但是我認為這套閱覽器也許能夠發展出自己一套路。</p>
-
-<p>另外吸引我一點是似乎是基於 node.js 開發的，之前有使用過 <a href="https://github.com/rogerwang/node-webkit">node-webkit</a>，可以讓 node.js 搭配
-webkit 做出一些有趣應用， 而 <a href="http://breach.cc/">breach</a> 似乎是更高一層的封裝，如果熟悉了話也許能夠實踐一些以前
-有趣的想法。</p>
-
-<p><a href="http://breach.cc/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html">The Experimentation Platform to Build a Next Generation Web Browser</a></p>
 ]]></content>
   </entry>
   
