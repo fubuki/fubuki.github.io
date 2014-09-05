@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-05T23:58:35+08:00</updated>
+  <updated>2014-09-06T00:10:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -32,6 +32,43 @@
 
 <p>下載 Eclipse + ADT 就建立好基本的開發環境，在來下載 NDK 後在 Eclipse 指定 NDK 路徑，原本NDK 在 windows 環境下需要 cygwin 才能編譯。
 但是在 R7 之後的版本就內帶編譯環境而不需要 cygwin 的樣子，而舊版的 NDK 可以安裝 <a href="https://code.google.com/p/mini-cygwin/">mini-cygwin</a> 建立編譯環境取代安裝龐大的 cygwin。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android 記憶體分析工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/"/>
+    <updated>2014-08-27T23:14:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.eclipse.org/mat/">MAT</a> 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
+藉此可以檢查哪理是有可能成為 memory leak 的地方。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[偵測 Android 的 APP 是否被移除了]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/"/>
+    <updated>2014-08-22T23:54:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
+顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
+的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android 和 iOS在使用推播的不同處]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/"/>
+    <updated>2014-06-25T23:05:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu</id>
+    <content type="html"><![CDATA[<p>記錄在使用推播時 Android 和 iOS 兩者不同之處。<br/>
+<a href="http://blog.katty.in/4300">iOSとAndroidのプッシュ通知の開発の違いまとめ</a></p>
 ]]></content>
   </entry>
   

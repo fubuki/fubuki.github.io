@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: Jquery | Learning Blog]]></title>
+  <title><![CDATA[Categories: jQuery | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jquery/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-05T23:58:35+08:00</updated>
+  <updated>2014-09-06T00:10:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery Mobile Form]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from/"/>
+    <updated>2014-08-05T23:54:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/05/jquery-mobile-from</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 jQuery Mobile 製作手機板用的表單，原本有在使用 <code>Twitter Bootstrap</code> 製作網站，最近想試試看
+使用<a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a> 製作看看， 目前工作上看到合作的設計師似乎只是使用Bootstrap的RWD功能，
+但是按鈕設計和排版上有點怪怪的。</p>
+
+<p><a href="http://demos.jquerymobile.com/1.2.1/docs/forms/forms-all.html">jQuery Mobile Form</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jquery Bind, Live, Delegate, On]]></title>
