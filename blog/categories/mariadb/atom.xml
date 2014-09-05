@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mariadb | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mariadb/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-09-05T23:58:35+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mariadb and Tokudb]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb/"/>
+    <updated>2014-09-05T23:49:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近把虛擬機器上面的 MySQL 轉換成 MariaDB 兩者使用上沒有什麼不同，不過在 MariaDB 的官網上
+看到一個沒見過的 TokuDB，查詢之後發現是新的儲存引擎並且也可以用在 MySQL上面，以前主要是使用
+InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有另外一種選擇。</p>
+
+<p>參考資料</p>
+
+<ol>
+<li><a href="http://www.percona.com/blog/2014/06/23/getting-to-know-tokudb-for-mysql/">getting-to-know-tokudb-for-mysql</a></li>
+<li>github 上的源碼</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

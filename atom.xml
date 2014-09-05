@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-04T23:53:31+08:00</updated>
+  <updated>2014-09-05T23:58:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mariadb and Tokudb]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb/"/>
+    <updated>2014-09-05T23:49:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近把虛擬機器上面的 MySQL 轉換成 MariaDB 兩者使用上沒有什麼不同，不過在 MariaDB 的官網上
+看到一個沒見過的 TokuDB，查詢之後發現是新的儲存引擎並且也可以用在 MySQL上面，以前主要是使用
+InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有另外一種選擇。</p>
+
+<p>參考資料</p>
+
+<ol>
+<li><a href="http://www.percona.com/blog/2014/06/23/getting-to-know-tokudb-for-mysql/">getting-to-know-tokudb-for-mysql</a></li>
+<li>github 上的源碼</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript 記憶體管理]]></title>
@@ -322,27 +344,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 
 
 <p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[vSphere Centos 更改網卡]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia/"/>
-    <updated>2014-08-18T22:51:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/18/vsphere-centos-geng-gai-wang-qia</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 vSphere 的樣板 deploy 一個新的虛擬機器的時候會自動建分配一個 IP 給網卡，但是網卡卻是 eth1也無法直接指定固定 ip 所以需要修改下面這支檔案。</p>
-
-<pre><code>[root@localhost ~]# vim /etc/udev/rules.d/70-persistent-net.rules
-</code></pre>
-
-<p>裡面有對應的網卡名稱和 MAC 位址，將對應的網卡名稱改到 eth0 並且將 eth0 MAC 位址修改下面的檔案
-裡面，並且設定成 static 和指定 IP 然後重開機可以看到效果了。</p>
-
-<pre><code>[root@localhost ~]# vim /etc/sysconfig/network-scripts/ifcfg-eth0
-</code></pre>
 ]]></content>
   </entry>
   
