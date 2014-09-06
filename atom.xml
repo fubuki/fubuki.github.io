@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-06T00:10:39+08:00</updated>
+  <updated>2014-09-06T23:15:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub 設計CSS]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/06/github-she-ji-css/"/>
+    <updated>2014-09-06T22:36:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/06/github-she-ji-css</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://markdotto.com/2014/07/23/githubs-css/">GitHub’s CSS</a> 提到 GihHub 本身如何設計他們的 CSS 。文章裡面分成以下幾種部分。</p>
+
+<ul>
+<li>Quick facts</li>
+<li>Preprocessor</li>
+<li>Architecture</li>
+<li>Linting</li>
+<li>Two bundles</li>
+<li>Included via Sprockets</li>
+<li>Performance</li>
+<li>Documentation</li>
+<li>Primer</li>
+<li>Refactoring</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mariadb and Tokudb]]></title>
@@ -330,20 +356,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 
 <pre><code>Redis Sentinel is a distributed *monitoring* system, with support for automatic failover.
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Softmax Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/19/softmax-algorithm/"/>
-    <updated>2014-08-19T23:53:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/19/softmax-algorithm</id>
-    <content type="html"><![CDATA[<p>解決 Multi-Armed Bandit Problem 的演算法</p>
-
-<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
 ]]></content>
   </entry>
   
