@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-07T23:05:29+08:00</updated>
+  <updated>2014-09-08T23:19:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Cherry-pick]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/"/>
+    <updated>2014-09-08T22:46:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/08/git-cherry-pick</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
+合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
+避免分支合併到不需要的 commit。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[增強 Sublime Text 2 側欄功能]]></title>
@@ -329,27 +343,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 <p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
 顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
 的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Koajs 新的 Web 框架]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/21/koajs-xin-de-web-kuang-jia/"/>
-    <updated>2014-08-21T22:58:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/21/koajs-xin-de-web-kuang-jia</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>由原本 express 的團隊開發的新 web 框架， 主要的特點是使用 yield ，避免 callback 地獄，
-看了一下官網的文件如果寫過 express 就可以很容易上手了，在來就是多了解 Cascading 的部分，
-似乎可以參考一下這篇<a href="https://docs.djangoproject.com/en/1.6/topics/http/middleware/">文章</a>。</p>
-
-<ol>
-<li><a href="https://github.com/koajs/koa">https://github.com/koajs/koa</a></li>
-<li><a href="http://koajs.com/">http://koajs.com/</a></li>
-<li><a href="http://koajs.cn/">http://koajs.cn/</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

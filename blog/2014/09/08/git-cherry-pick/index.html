@@ -5,12 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>HTML5 Polyfills - Learning Blog</title>
+  <title>Git Cherry-pick - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="What is a Polyfill? A polyfill, or polyfiller, is a piece of code (or plug-in) that provides the technology that
-you, the developer, expect the &hellip;">
+  <meta name="description" content=" 在看 Android 核心剖析 時得知一個有趣的命令 git cherry-pick ，似乎是可以取得單獨的 commit 然後
+合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 git cherry-pick，
+避免分支合併到不需要的 commit。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +21,7 @@ you, the developer, expect the &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/06/27/html5-polyfills">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/09/08/git-cherry-pick">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -82,7 +84,7 @@ you, the developer, expect the &hellip;">
   
   <header>
     
-      <h1 class="entry-title">HTML5 Polyfills</h1>
+      <h1 class="entry-title">Git Cherry-pick</h1>
     
     
       <p class="meta">
@@ -98,7 +100,7 @@ you, the developer, expect the &hellip;">
   
 
 
-<time datetime="2014-06-27T22:46:26+08:00" pubdate data-updated="true">Jun 27<span>th</span>, 2014</time>
+<time datetime="2014-09-08T22:46:39+08:00" pubdate data-updated="true">Sep 8<span>th</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -108,11 +110,12 @@ you, the developer, expect the &hellip;">
   </header>
 
 
-<div class="entry-content"><p><a href="http://remysharp.com/2010/10/08/what-is-a-polyfill/">What is a Polyfill?</a></p>
+<div class="entry-content"><!-- more -->
 
-<blockquote><p>A polyfill, or polyfiller, is a piece of code (or plug-in) that provides the technology that<br/>
-you, the developer, expect the browser to provide natively. Flattening the API landscape
-if you will.</p></blockquote>
+
+<p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
+合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
+避免分支合併到不需要的 commit。</p>
 </div>
 
 
@@ -135,12 +138,12 @@ if you will.</p></blockquote>
   
 
 
-<time datetime="2014-06-27T22:46:26+08:00" pubdate data-updated="true">Jun 27<span>th</span>, 2014</time>
+<time datetime="2014-09-08T22:46:39+08:00" pubdate data-updated="true">Sep 8<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/html5/'>HTML5</a>
+    <a class='category' href='/blog/categories/git/'>git</a>
   
 </span>
 
@@ -156,10 +159,8 @@ if you will.</p></blockquote>
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/06/25/android-he-ioszai-shi-yong-tui-bo-de-bu-tong-chu/" title="Previous Post: Android 和 iOS在使用推播的不同處">&laquo; Android 和 iOS在使用推播的不同處</a>
+        <a class="basic-alignment left" href="/blog/2014/09/07/zeng-qiang-sublime-text-2-ce-lan-gong-neng/" title="Previous Post: 增強 Sublime Text 2 側欄功能">&laquo; 增強 Sublime Text 2 側欄功能</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/06/28/memcache-diao-zheng/" title="Next Post: memcache 調整">memcache 調整 &raquo;</a>
       
     </p>
   </footer>
@@ -318,8 +319,8 @@ if you will.</p></blockquote>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/06/27/html5-polyfills/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/06/27/html5-polyfills/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/';
         var disqus_script = 'embed.js';
       
     (function () {
