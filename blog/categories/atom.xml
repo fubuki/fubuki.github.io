@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-09-09T23:50:02+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[分散式系統的簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie/"/>
+    <updated>2014-09-09T23:01:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/">Distributed systems theory for the distributed systems engineer</a> 這篇文章介紹了一些分散式系統的概念，
+可以作為入門看一下裡面提到的東西，作者是回應一個在 twitter 上發問的問題而寫的文章，而在這篇<a href="https://twitter.com/gwenshap/status/497203248332165121">tweet</a>的後面
+也有其他可以參考的推文可以去研究研究。</p>
+]]></content>
+  </entry>
+  
+</feed>

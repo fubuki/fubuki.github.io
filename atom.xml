@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-08T23:19:20+08:00</updated>
+  <updated>2014-09-09T23:50:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[分散式系統的簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie/"/>
+    <updated>2014-09-09T23:01:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/">Distributed systems theory for the distributed systems engineer</a> 這篇文章介紹了一些分散式系統的概念，
+可以作為入門看一下裡面提到的東西，作者是回應一個在 twitter 上發問的問題而寫的文章，而在這篇<a href="https://twitter.com/gwenshap/status/497203248332165121">tweet</a>的後面
+也有其他可以參考的推文可以去研究研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Cherry-pick]]></title>
@@ -329,20 +343,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 <p>最近看了篇文章，標題是 <a href="https://blog.heroku.com/archives/2014/3/11/node-habits?utm_source=nodeweekly&amp;utm_medium=email#6-use-environment-variables-to-configure-npm&amp;utm_source=ourjs.com">10 Habits of a Happy Node Hacker</a>，裡面列了一些小技巧跟知識大多是跟 npm 這個有關，
 那些技巧大多是讓開發者更容易管理專案的依賴庫， 裡面比較重要的我覺得是提到 <code>Harmony</code> 和 <code>Browserify</code> ，其他
 的通常在深入使用 npm 的時候或是在開發一個大型專案的就會學到了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[偵測 Android 的 APP 是否被移除了]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao/"/>
-    <updated>2014-08-22T23:54:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/22/zhen-ce-android-de-app-shi-fou-bei-yi-chu-liao</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日前被要求能不能找出有多少人移除我們開發的 APP，關於這個問題似乎在 google play 的後台好像有
-顯示多少人移除 APP，不過沒辦法得知有有哪些人移除，後來在對 GCM 除錯的時候有的人會回傳 <code>not registered</code>
-的錯誤訊息，查詢代表的意義是使用者移除的 APP，便可以透過這個方法得知。</p>
 ]]></content>
   </entry>
   
