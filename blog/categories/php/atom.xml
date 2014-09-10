@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-09T23:50:02+08:00</updated>
+  <updated>2014-09-10T23:14:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP With Composer]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/10/php-with-composer/"/>
+    <updated>2014-09-10T22:52:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/10/php-with-composer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前在安裝 PHP 的插件通常是透過 PEAR 安裝的，然後每個插件就要手動一個個安裝，不過現在有 <a href="https://getcomposer.org/">composer</a> 這個相依性管理工具，
+用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
+
+<h3>安裝方法</h3>
+
+<h3>基本用法</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHPCI 安裝過程]]></title>
@@ -84,43 +101,6 @@
 
 
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php-fpm 優化參數]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu/"/>
-    <updated>2014-07-01T23:30:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/01/php-fpm-you-hua-can-shu</id>
-    <content type="html"><![CDATA[<p>warning pool www child exited on signal 9 (sigkill) after seconds from start</p>
-
-<!-- more -->
-
-
-<p>php-fpm管理進程的模式有靜態和動態，差別在於靜態會根據參數直接生成固定的進程，動態則是會動態調整所需要的進程，
-選擇哪個模式端看於硬體上記憶體大小的差別。</p>
-
-<h2>靜態或是動態</h2>
-
-<p>pm = static or dynamic</p>
-
-<h2>靜態方法</h2>
-
-<p>pm.max_children : php-fpm 最大進程數</p>
-
-<h2>動態方法</h2>
-
-<p>pm.start_servers : php-fpm 一開始創鍵的進程數</p>
-
-<p>pm.min_spare_servers : php-fpm 最小的進程數</p>
-
-<p>pm.max_spare_servers : php-fpm 最大進程數</p>
-
-<h2>其他參數</h2>
-
-<p>pm.max_requests : 一個進程處理多少個請求後就重新啟動</p>
-
-<h2>參數大小設定規則</h2>
 ]]></content>
   </entry>
   

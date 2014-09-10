@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-09T23:50:02+08:00</updated>
+  <updated>2014-09-10T23:14:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP With Composer]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/10/php-with-composer/"/>
+    <updated>2014-09-10T22:52:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/10/php-with-composer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前在安裝 PHP 的插件通常是透過 PEAR 安裝的，然後每個插件就要手動一個個安裝，不過現在有 <a href="https://getcomposer.org/">composer</a> 這個相依性管理工具，
+用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
+
+<h3>安裝方法</h3>
+
+<h3>基本用法</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[分散式系統的簡介]]></title>
@@ -329,20 +346,6 @@ ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href=
 <li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[10 Habits of a Happy Node Hacker]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/23/10-habits-of-a-happy-node-hacker/"/>
-    <updated>2014-08-23T22:18:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/23/10-habits-of-a-happy-node-hacker</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看了篇文章，標題是 <a href="https://blog.heroku.com/archives/2014/3/11/node-habits?utm_source=nodeweekly&amp;utm_medium=email#6-use-environment-variables-to-configure-npm&amp;utm_source=ourjs.com">10 Habits of a Happy Node Hacker</a>，裡面列了一些小技巧跟知識大多是跟 npm 這個有關，
-那些技巧大多是讓開發者更容易管理專案的依賴庫， 裡面比較重要的我覺得是提到 <code>Harmony</code> 和 <code>Browserify</code> ，其他
-的通常在深入使用 npm 的時候或是在開發一個大型專案的就會學到了。</p>
 ]]></content>
   </entry>
   
