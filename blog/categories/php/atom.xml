@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-10T23:14:27+08:00</updated>
+  <updated>2014-09-11T23:29:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The PHP Quality Assurance Toolchain]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain/"/>
+    <updated>2014-09-11T22:00:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在用 持續集成的時候找到這個 <a href="http://phpqatools.org/">The PHP Quality Assurance Toolchain</a> ，裡面介紹不少針對 PHP 開發有用的工具，
+能夠用來提高程式碼的品質。</p>
+
+<ol>
+<li>PHPUnit</li>
+<li>PHPLOC</li>
+<li>PHP_CodeSniffer</li>
+<li>hhvm-wrapper</li>
+<li>vfsStream</li>
+<li>PHP_Depend</li>
+<li>PHP Copy/Paste Detector</li>
+<li>phpDox</li>
+<li>Behat</li>
+<li>PHP Mess Detector</li>
+<li>PHP Dead Code Detector</li>
+<li>Jenkins PHP</li>
+</ol>
+
+
+<p>目前有用到的有</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP With Composer]]></title>
@@ -25,6 +56,10 @@
 用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
 
 <h3>安裝方法</h3>
+
+<pre><code>curl -sS https://getcomposer.org/installer | php  
+mv composer.phar /usr/local/bin/composer 
+</code></pre>
 
 <h3>基本用法</h3>
 ]]></content>
@@ -81,26 +116,6 @@
 
 <p><a href="http://phpunit.de/">浅析 PHP 官方自动化测试方法</a>
 <a href="https://github.com/sebastianbergmann/phpunit-selenium">phpunit-selenium</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Auto Restart Php Script by Register_shutdown_function and Pcntl_exec]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor/"/>
-    <updated>2014-07-07T23:07:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/07/register-shutdown-function-and-destructor</id>
-    <content type="html"><![CDATA[<p>在使用PHP CLI 跑背景程式有時候會因為記憶體溢出或是其他原因導致程式停止執行，需要讓程式自行重新啟動。</p>
-
-<!-- more -->
-
-
-<p>register_shutdown_function 是可以讓PHP在意外終止的時候可以去執行特定函式，配合 <code>pcntl_exec()</code> 便可以
-完成當程式發生FatalError 時可以自動重新啟動。</p>
-
-<script src="https://gist.github.com/fubuki/e621eb4844a975b9c0e1.js"></script>
-
-
-
 ]]></content>
   </entry>
   

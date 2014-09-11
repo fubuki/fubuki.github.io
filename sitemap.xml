@@ -828,7 +828,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/10/php-with-composer/</loc>
-        <lastmod>2014-09-10T23:14:14+08:00</lastmod>
+        <lastmod>2014-09-11T21:22:04+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain/</loc>
+        <lastmod>2014-09-11T23:22:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -836,7 +840,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-10T23:14:14+08:00</lastmod>
+        <lastmod>2014-09-11T23:22:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -844,6 +848,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-10T23:14:14+08:00</lastmod>
+        <lastmod>2014-09-11T23:22:16+08:00</lastmod>
     </url>
 </urlset>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-10T23:14:27+08:00</updated>
+  <updated>2014-09-11T23:29:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The PHP Quality Assurance Toolchain]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain/"/>
+    <updated>2014-09-11T22:00:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在用 持續集成的時候找到這個 <a href="http://phpqatools.org/">The PHP Quality Assurance Toolchain</a> ，裡面介紹不少針對 PHP 開發有用的工具，
+能夠用來提高程式碼的品質。</p>
+
+<ol>
+<li>PHPUnit</li>
+<li>PHPLOC</li>
+<li>PHP_CodeSniffer</li>
+<li>hhvm-wrapper</li>
+<li>vfsStream</li>
+<li>PHP_Depend</li>
+<li>PHP Copy/Paste Detector</li>
+<li>phpDox</li>
+<li>Behat</li>
+<li>PHP Mess Detector</li>
+<li>PHP Dead Code Detector</li>
+<li>Jenkins PHP</li>
+</ol>
+
+
+<p>目前有用到的有</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP With Composer]]></title>
@@ -25,6 +56,10 @@
 用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
 
 <h3>安裝方法</h3>
+
+<pre><code>curl -sS https://getcomposer.org/installer | php  
+mv composer.phar /usr/local/bin/composer 
+</code></pre>
 
 <h3>基本用法</h3>
 ]]></content>
@@ -326,26 +361,6 @@ sudo mv rebar /usr/local/bin
 <p>今天看完 Erlang教程的快速入門，對照之前研究 rabbitmq 的經驗很快就上手了，參照網路上的說明
 寫了一個範例，也看到 Erlang 在建立多個 Process 和通信上都很容易達成，另外也了解到 rabbitmq
  如何透過 .erlang.cookie 讓各個節點形成一個 cluster 的群集。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github NodeLoad]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/24/github-nodeload/"/>
-    <updated>2014-08-24T23:18:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/24/github-nodeload</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在看一本書書名叫 <code>深入淺出 node.js</code> ， 裡面提到一個關於 node.js 在 github 上的應用名叫 <code>nodeload.</code>，使用 node.js 取代原本的
-ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href="https://github.com/benschmaus/nodeload">nodeload</a> 的倉庫，似乎很久沒維護了，也許只是找到同名的專案，不過可以在 github的
-官方 blog 參考下面兩篇文章讓開發者作為提供類似服務的參考。</p>
-
-<ol>
-<li><a href="https://github.com/blog/1089-nodeload-metrics">Nodeload Metrics</a></li>
-<li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
