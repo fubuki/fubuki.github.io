@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-11T23:29:36+08:00</updated>
+  <updated>2014-09-12T23:51:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hippyvm and Hhvm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/12/hippyvm-and-hhvm/"/>
+    <updated>2014-09-12T22:54:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/12/hippyvm-and-hhvm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前在研究 Facebook架構的時候看到 <code>hhvm</code> 這個東西，把 PHP 編譯成二進位碼然後運行在虛擬機器上，
+而最近又看到另外一款類似的產品 <code>hippyvm</code>，據說比 <code>hhvm</code> 還要快。</p>
+
+<p><code>hhvm</code> 是用 C 和 C++ 撰寫的，而 <code>hippyvm</code> 是用 pypy 撰寫的，不過兩者都是將 PHP 運行在自己的虛擬機器上，
+也因此有些基於 zend engine 的插件應該無法直接使用，需要修改源碼才行，這也是當初沒有在工作上採用的原因，
+而是使用 phalcon 跟 Zephir 開發專案。</p>
+
+<p>目前在網路可以看到一些關於 hhvm 和 phalcon 之間比較的文章，兩者各有其優點，不過身旁看到的都是使用 phalcon 開發
+來提高 PHP 的性能，反而沒看到使用 hhvm 的人，但是不管怎樣這兩者能夠共同發展對 PHP 也是件好事。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The PHP Quality Assurance Toolchain]]></title>
@@ -347,20 +367,6 @@ sudo mv rebar /usr/local/bin
 
 <pre><code>rebar compile
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang分布式開發]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa/"/>
-    <updated>2014-08-25T23:35:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天看完 Erlang教程的快速入門，對照之前研究 rabbitmq 的經驗很快就上手了，參照網路上的說明
-寫了一個範例，也看到 Erlang 在建立多個 Process 和通信上都很容易達成，另外也了解到 rabbitmq
- 如何透過 .erlang.cookie 讓各個節點形成一個 cluster 的群集。</p>
 ]]></content>
   </entry>
   
