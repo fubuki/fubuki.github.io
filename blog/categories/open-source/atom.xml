@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-12T23:51:49+08:00</updated>
+  <updated>2014-09-13T20:10:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,429 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HadoopCon 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014/"/>
+    <updated>2014-09-13T19:15:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>那些你知道的，但還沒看過的 Big Data 風景 – 致 Hadooper</h3>
+
+<p>Fred 雲中象</p>
+
+<ol>
+<li>社群</li>
+<li>速度</li>
+<li>資料科學</li>
+<li>Hadoop</li>
+</ol>
+
+
+<h4>國內 hadoop 圈子裡的人</h4>
+
+<p>Jazz Wang</p>
+
+<pre><code>hadooper
+</code></pre>
+
+<p>Wisely Chen</p>
+
+<pre><code>推廣 Spark
+</code></pre>
+
+<h4>大資料處理上面處理的速度級別</h4>
+
+<ol>
+<li>Batch</li>
+<li>Near Real-time</li>
+<li>Real-time</li>
+</ol>
+
+
+<h4>資料科學需要哪些方面的能力</h4>
+
+<p>How a typical software vendor approaches Data Science<br/>
+PRISM 稜鏡計畫</p>
+
+<h4>Hadoop 分成那些版本</h4>
+
+<p>Hadoop 1<br/>
+Hadoop 2</p>
+
+<h3>Lambda Architecture Platform on SQL</h3>
+
+<p>講者為Line 的員工<br/>
+介紹一下講者和 Line office 目前在哪些地方</p>
+
+<h4>Data analytics workload</h4>
+
+<h4>batch processing</h4>
+
+<h4>Stream Processing</h4>
+
+<ol>
+<li>Apache Storm</li>
+<li>Norikra</li>
+</ol>
+
+
+<h4>Why Stream Processing</h4>
+
+<ol>
+<li>Less laterncy</li>
+<li>Less computing power</li>
+<li>No query schedule management</li>
+</ol>
+
+
+<h4>Disadvantage of Stream Processing</h4>
+
+<h4>Lambada Architecture Overview</h4>
+
+<h4>Twitter Summingbird</h4>
+
+<h4>Lambada Structure use sql</h4>
+
+<h4>UseCases in LINE</h4>
+
+<p>Prompt report for Ads service</p>
+
+<p>Summary of application server error log</p>
+
+<p>TMTOWTDI</p>
+
+<h4>A graph service for global web entities traversal and reputation evaluation based on HBase</h4>
+
+<p>趨勢在那些問題上使用 hadoop</p>
+
+<p>Malware的數量不斷成長</p>
+
+<p>介紹趨勢防護分成那幾層</p>
+
+<p>ThreatWeb Threat Enities as a Graph</p>
+
+<p>將 Malware的行為轉換成 Graph 然後使用 PageRank 處理圖形問題</p>
+
+<p>如何 store Graph data</p>
+
+<p>Property Graph Model</p>
+
+<p>使用 HBASE 存放 圖形資料</p>
+
+<p>分成 vertex edge 兩種 table</p>
+
+<h4>如何存取資料</h4>
+
+<p>包裹 原本 HBASE的API</p>
+
+<p>blueprints API</p>
+
+<h4>效能</h4>
+
+<p>HGraph</p>
+
+<p>PageRank Result</p>
+
+<p>DGA Discovered</p>
+
+<h4>Cleints</h4>
+
+<p>Real time Client</p>
+
+<p>Batch Client</p>
+
+<p>Graph Exploring Tools</p>
+
+<h4>SQL on Hadoop: a Perspective of a Cloud-based, Managed Service Provider</h4>
+
+<p>SQL Players on Hadoop</p>
+
+<p>Hive
+Spark sql</p>
+
+<p>Presto
+Impala
+Drill</p>
+
+<p>Norikra
+StreamSql</p>
+
+<p>Apache Tez</p>
+
+<h4>Why still use MapReduce</h4>
+
+<h4>Presto `s history</h4>
+
+<h4>Who use Presto</h4>
+
+<h4>Why select Presto</h4>
+
+<p>容易處理</p>
+
+<p>使用 SQL 語法</p>
+
+<p>Batch summary</p>
+
+<p>MapReduce &mdash; based</p>
+
+<p>Hive with Tez</p>
+
+<p>Spark and Spark SQL is a good alternative</p>
+
+<h3>Norikra: Stream processing by SQL</h3>
+
+<p>LINE 的 Analytics phalform team</p>
+
+<p>Norikra 使用 SQL 語法處理資料</p>
+
+<p>Esper EPL</p>
+
+<p>Wiht/Without Schema</p>
+
+<p>介紹一下 Norikra</p>
+
+<p>如何安裝 Norikra</p>
+
+<h4>use case 1</h4>
+
+<p>External API call report s for partners</p>
+
+<p><a href="http://developers.linecorp.com/blog/?p=3386">http://developers.linecorp.com/blog/?p=3386</a></p>
+
+<p>api error response summaries</p>
+
+<h4>use case 2</h4>
+
+<p>Prompt reports for Ad service console</p>
+
+<h4>use case 3</h4>
+
+<p>Realtime access dashboard on Google Platform</p>
+
+<p>Access log visualzation</p>
+
+<p>More queries more simplicity and less latency</p>
+
+<h3>Real-Time Streaming Data Computing for long-term undersea surveillance on top of Storm</h3>
+
+<p>核三廠 排水口 監視資料</p>
+
+<p>介紹 Storm 的架構</p>
+
+<p>魚群辨識</p>
+
+<p>確認鏡頭情形</p>
+
+<p>scalability programing</p>
+
+<p>DRPC</p>
+
+<p>海洋影像資料處理過程</p>
+
+<h3>Speed up Interactive Analytic Queries over Existing Big Data on Hadoop with Presto</h3>
+
+<p>使用 Presto 分析在 hadoop 上面的資料。</p>
+
+<p>SQL on/over Hadoop</p>
+
+<p>Presto 的架構</p>
+
+<p>可以支援多種 Database</p>
+
+<p>Base on DAG model</p>
+
+<p>Query 怎麼在 Presto上運行</p>
+
+<p>Node 參數設定</p>
+
+<p>Presto`s Roadmap</p>
+
+<p>Data visualization with Presto &ndash; Demo</p>
+
+<p>Grafana</p>
+
+<h3>Mahout 資料分析基礎入門</h3>
+
+<p>資料分析基礎入門</p>
+
+<p>分析工具</p>
+
+<ol>
+<li>scikit-learn</li>
+<li>R</li>
+<li>Weka, Matlab</li>
+<li>Mathout</li>
+</ol>
+
+
+<p>Introduction to apache mahout in youtube BTI360</p>
+
+<p>User Mode 直接使用內建指令</p>
+
+<p>Developer Mode 撰寫新的ML 演算法</p>
+
+<p>Hortonworks</p>
+
+<p>動動手玩推薦系統</p>
+
+<h4>參考資料</h4>
+
+<p>Frequent pattern analysis</p>
+
+<p>Mahout fpgrowth</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[COSCUP 2014 Day 2]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/20/coscup-2014-day-2/"/>
+    <updated>2014-07-20T22:34:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/20/coscup-2014-day-2</id>
+    <content type="html"><![CDATA[<p>記錄一下COSCUP 2014第二天(7/20)參加的議程</p>
+
+<!-- more -->
+
+
+<h2>從沒有人到超多人：g0v社群經驗</h2>
+
+<p>open data 是什麼 可以吃嗎</p>
+
+<p>以憤怒為座標</p>
+
+<p>一個請小叮噹吃銅鑼燒的概念</p>
+
+<p>開源授權 irc 共筆寫作 github</p>
+
+<h3>開源金句</h3>
+
+<p>推坑 開坑</p>
+
+<p>g0v motto</p>
+
+<p>因為沒有人是萬能的</p>
+
+<p>au 巨人</p>
+
+<p>社群的本質在確立</p>
+
+<p>elixus.org</p>
+
+<p>jedi ++</p>
+
+<p>permalink <br/>
+share<br/>
+collaborate</p>
+
+<p>G0v 2014 submmit</p>
+
+<h2>適份適當地爬網路資料 – 解決Open Data燃眉之急時的必要之惡 / Do the Open Data web crawling in proper way within the principles of legal boundaries</h2>
+
+<p>cc 授權</p>
+
+<p>自己的資料自己爬</p>
+
+<p>台灣創用CC計畫</p>
+
+<p>資料並不受財產權保護<br/>
+當未達電子資料庫規模</p>
+
+<p>96-9-ec</p>
+
+<p>wto &ndash; trips 10之2項</p>
+
+<p>資料本無體 創意亦不含
+本來無窒礙 何須增門檻</p>
+
+<h3>案例 speed bus</h3>
+
+<p>流量和負載
+以自然人方式爬資料</p>
+
+<p>其他合法權利的保護
+公平交易法
+個人資料保護法</p>
+
+<ol>
+<li>所謂個人資料  人格權 書面同意</li>
+<li>書面同意 + 告知範圍</li>
+<li>以合法公開的折衷機制</li>
+</ol>
+
+
+<p>開放知識定義</p>
+
+<p>量化 去識別化</p>
+
+<p>回報連結</p>
+
+<p>你的 我的 公眾領域</p>
+
+<h2>Open Source FabLab</h2>
+
+<p>fabacaclerny.org</p>
+
+<p>who qualifies as a fab lab</p>
+
+<p>fab modules</p>
+
+<p>Barcelona 2014</p>
+
+<p>Rep rep 社群</p>
+
+<p>fan2</p>
+
+<h2>MySQL Workbench 6.1導覽</h2>
+
+<p>MySQL 5.6 改良的部分</p>
+
+<p>yum apt-get 安裝</p>
+
+<p>MySQL DMR</p>
+
+<p>MySQL 5.7.2 Optimizer  JSON format</p>
+
+<p>Fabric</p>
+
+<p>mysql 工具集</p>
+
+<p>可以安裝測試sql指令</p>
+
+<p>Migration wizard</p>
+
+<p>MySQL Enterprise monitor</p>
+
+<h2>Open PIXNET</h2>
+
+<p>pixnet emme api</p>
+
+<p>pixnet sdk</p>
+
+<p>用資料改變世界
+打造前所未見的創新服務
+用資料解決社會問題</p>
+
+<p>工商服務</p>
+
+<h2>開源低成本多旋翼無人飛行器與公民社會議題應用</h2>
+
+<p>多旋翼原理</p>
+
+<p>gsm + gps</p>
+
+<p>空拍</p>
+
+<p>水質監測</p>
+
+<h2>Lighting talk</h2>
+
+<p>32小時前的發生的事情</p>
+
+<p>Openatc</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[COSCUP 2014 Day 1]]></title>
@@ -618,103 +1041,6 @@ numba
 blaze</p>
 
 <h2>閃電秀</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rubyconf 2014 Second Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day/"/>
-    <updated>2014-04-26T20:29:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/26/rubyconf-2014-second-day</id>
-    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第二天(4/26)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Cores unleashed &ndash; Exploiting Parallelism in Ruby with STM (and a new VM)</h3>
-
-<p><a href="https://speakerdeck.com/brucehsu/rubyconf-dot-tw-2014-cores-unleashed-exploiting-parallelism-in-ruby-with-stm">slide</a></p>
-
-<h3>How the Principles of Ruby Inspired the Rails Girls Community</h3>
-
-<p>兩位講者如何認識，並且介紹Rails Girls社群怎麼成長的。</p>
-
-<h3>Ruby on Bioinformatics</h3>
-
-<p>使用ruby 處理生物資訊，列了不少gem但是有的是去使用其他語言的library吧，裡面也有提到使用neo4j處理
-個人的健康資料，不過跟ruby沒有太大的關係，現在比較常用還是perl和python吧。</p>
-
-<h3>the Guide to know Ruby implementation for non-C language programer</h3>
-
-<p>講者一開始說因為她的先生是寫ruby的programmer接觸ruby，之後就開始研究Ruby裡面的架構，
-講者介紹幾個方法去研究裡面的原始碼。</p>
-
-<h3>Growing Up &ndash; Bringing Concurrency to Ruby</h3>
-
-<p>一開始介紹jruby和jvm，然後說明 prcoess-level和thread-level的做法，concurency的法則和
-實現介紹一些實現no-block的library。</p>
-
-<h3>Extreme Makeover &ndash; Rubygems Edition</h3>
-
-<p>bundle，用來管理gem的依賴性，講者講了一些過去bundle的issue，ssl issue，搜尋Gem的效率過低，加上CDN，
-加入一些api，建立新的index。</p>
-
-<h3>sweaters as a service &ndash; adventures in electronic knitting</h3>
-
-<p>講者建立一個編織機器，只要上傳圖檔就可以編織出一個圖案，似乎是使用Ruby去控制不過沒有看到整個程式碼。</p>
-
-<h3>Improve and refactor ruby code easier</h3>
-
-<p>利用 synvert工具作ruby 的重構。</p>
-
-<h3>lightning talk</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rubyconf 2014 First Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day/"/>
-    <updated>2014-04-25T20:56:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/25/rubyconf-2014-first-day</id>
-    <content type="html"><![CDATA[<p>記錄一下rubyconf 2014第一天(4/25)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Understanding Typing, Understanding Ruby</h3>
-
-<p>關於靜態型別跟動態型別語言各自會遇到的問題，這場收益蠻多了前面提到一些以前型別的問題
-，並且也提到其他語言在處理型別的方法。</p>
-
-<h3>RubyMotion Gets A Cool New Friend: mruby on iOS</h3>
-
-<p>使用ruby開發ios app，以前孤陋寡聞沒看過這個工具以後有機會可以拿來試試看。</p>
-
-<h3>Practice: Refactoring with tests</h3>
-
-<p>在講重構，不過前面講很多重構很重要然後要需要好好測試，後面就只有講一點點ruby裡面
-要怎麼做&hellip;.</p>
-
-<h3>Matz: Keynote</h3>
-
-<p>ruby的生父的議程</p>
-
-<h3>Teo-Happy Teams</h3>
-
-<p>怎樣成為快樂團隊，議程中提到不少常見但是沒有實踐的開發方法或是。</p>
-
-<h3>Tell a good story with Ruby</h3>
-
-<p>講者學習ruby的過程和建構一個ruby程式</p>
-
-<h3>10 Things to Make API Users Like You</h3>
-
-<p>怎麼設計API，聽了之後沒有比較新穎的想法，大部分在以前設計API就有看過了，不過比較有共鳴的是
-產生api文件，以前都是手動一個個寫說明文件常常會有參數或是輸出值對不上的問題。</p>
-
-<h3>Make Your Rails Backstage Better</h3>
-
-<p>講者說一下他當初開發後台的經驗，從原本使用gem到自製後台，不過有可能我使用rails沒有多久所有沒有什麼心得。</p>
 ]]></content>
   </entry>
   
