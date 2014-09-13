@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-13T20:10:16+08:00</updated>
+  <updated>2014-09-13T23:52:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xdebug : PHP Debug 工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju/"/>
+    <updated>2014-09-13T23:44:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>xdebug 為一款 PHP 用的除錯工具，透過 pecl 安裝後在 php.ini 打開就可以使用了，然後可以搭配 Sublime text 2 的
+xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以直接通知 server 需要開啟 xdebug 的環境。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HadoopCon 2014]]></title>
@@ -601,19 +614,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 
 <p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
 所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android 記憶體分析工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju/"/>
-    <updated>2014-08-27T23:14:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/27/android-ji-yi-ti-fen-xi-gong-ju</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.eclipse.org/mat/">MAT</a> 為 android 的記憶體分析工具，能夠讓開發者將 JAVA HEAP 的內容 dump 出來，
-藉此可以檢查哪理是有可能成為 memory leak 的地方。</p>
 ]]></content>
   </entry>
   

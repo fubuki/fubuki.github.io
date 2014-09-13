@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-13T20:10:16+08:00</updated>
+  <updated>2014-09-13T23:52:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Xdebug : PHP Debug 工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju/"/>
+    <updated>2014-09-13T23:44:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>xdebug 為一款 PHP 用的除錯工具，透過 pecl 安裝後在 php.ini 打開就可以使用了，然後可以搭配 Sublime text 2 的
+xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以直接通知 server 需要開啟 xdebug 的環境。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hippyvm and Hhvm]]></title>
@@ -99,28 +112,6 @@ mv composer.phar /usr/local/bin/composer
 <p>我這邊是先從 github clone 一份下來，然後我資料庫使用 MariaDB ，server 使用 nginx，
 然後使用 composer 安裝必要的部分，但是它本身所以用的 framework 有bug 還要更新，但是
 還是有相同的錯誤出現。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 持續集成]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/31/php-chi-xu-ji-cheng/"/>
-    <updated>2014-07-31T23:49:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/31/php-chi-xu-ji-cheng</id>
-    <content type="html"><![CDATA[<p>記錄建立持續集成環境。</p>
-
-<!-- more -->
-
-
-<p>之前在工作上有使用 jenkins 搭建持續集成的環境，但是公司沒有導入，現在換用 PHPCI 自行建立一個，
-並且使用在正在開發的專案上，從 PHPCI 官網上有比較跟其他同類型的軟體的差異，不過還是等到實際使用後
-才能知道，之後也會在 node.js 上面搭建類似的環境。</p>
-
-<ol>
-<li><a href="http://www.slideshare.net/baterme/java-2013-java-developerday">java-2013-java-developerday</a></li>
-<li><a href="http://book.douban.com/subject/2580604/">持续集成</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
