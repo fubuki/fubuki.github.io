@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-13T23:52:28+08:00</updated>
+  <updated>2014-09-14T20:53:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -36,6 +36,20 @@
 
 
 <p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tig 和 Git]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/29/tig-he-git/"/>
+    <updated>2014-08-29T23:38:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/29/tig-he-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前在尋找編輯 git commit 的方法時，在一篇<a href="http://qiita.com/suino/items/b0dae7e00bd7165f79ea">文章</a>看到有人提到 <a href="https://github.com/jonas/tig">tig</a> 這個東西，能夠加強 git 在命令列環境
+下的操作，目前使用上最好用的是用來 commit 非常方便閱讀，另外一個是<a href="http://blog.hifumi.info/2014/01/18/tigrc/">tigrc</a>這個東西可以用來設定 <a href="https://github.com/jonas/tig">tig</a> 調整
+輸出的畫面。</p>
 ]]></content>
   </entry>
   
@@ -72,24 +86,6 @@
 <li>Git权威指南</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Error Object File Is Empty]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty/"/>
-    <updated>2014-07-24T21:48:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/24/git-error-object-file-is-empty</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>昨天在使用 git 的時候發生了一件怪事，在 commit 的時候顯示下面的錯誤訊息，似乎是專案本身 git 的資訊出錯了，導致所以
-整個專案都有問題了，由於專案在github 上面有備份所以就直接 clone 一份下來，不過似乎是可以修好的。</p>
-
-<p>error: object file .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27 is empty
-fatal: loose object 7eb04b2f04cd57e890b010a465c755249ee57f27 (stored in .git/objects/7e/b04b2f04cd57e890b010a465c755249ee57f27) is corrupt</p>
-
-<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty">how to fix GIT error: object file is empty?</a> 這篇文章有提到怎麼修復，如果有在遇到相同的問題可以嘗試看看。</p>
 ]]></content>
   </entry>
   
