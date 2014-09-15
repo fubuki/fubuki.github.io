@@ -824,7 +824,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie/</loc>
-        <lastmod>2014-09-09T23:49:36+08:00</lastmod>
+        <lastmod>2014-09-15T23:55:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/10/php-with-composer/</loc>
@@ -851,12 +851,16 @@
         <lastmod>2014-09-14T20:52:36+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/09/15/zai-zhuan-an-shi-yong-scrum/</loc>
+        <lastmod>2014-09-15T23:54:59+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-14T20:52:36+08:00</lastmod>
+        <lastmod>2014-09-15T23:55:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -864,6 +868,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-14T20:52:36+08:00</lastmod>
+        <lastmod>2014-09-15T23:55:16+08:00</lastmod>
     </url>
 </urlset>

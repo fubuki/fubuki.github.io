@@ -9,9 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="puppet是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
-供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。 puppetcookbook
-puppet-examples
+  <meta name="description" content="docker.io 是一種 LXC (LinuX Containers)，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。
 ">
   
 
@@ -81,6 +81,47 @@ puppet-examples
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/01/docker-dot-io/">docker.io 和 Vagrant</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-01T21:18:05+08:00" pubdate data-updated="true">Apr 1<span>st</span>, 2014</time>
+        
+           | <a href="/blog/2014/04/01/docker-dot-io/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/01/docker-dot-io/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://www.docker.io">docker.io</a> 是一種 <a href="http://en.wikipedia.org/wiki/LXC">LXC (LinuX Containers)</a>，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -457,48 +498,6 @@ puppet-examples
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/22/vim-vundle/">Vim Vundle</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-22T09:58:45+08:00" pubdate data-updated="true">Mar 22<span>nd</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/22/vim-vundle/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/22/vim-vundle/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>之前安裝Vim的plugin都是去<a href="http://vim-scripts.org/vim/scripts.html">scripts</a>下載然後手動安裝，但是如此設定檔變的複雜後
-一來常會遇到沒有刪除乾淨的plugine。<br/>
-使用Vundle管理vim，安裝上跟刪除只要透過vundle就很方便也能保持設定檔簡潔，似乎能
-搜尋plugin，也能讓vundle去指定連結下載，目前正在試用之後可以上載到github上備份設定檔。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/16/">&larr; Older</a>
@@ -516,6 +515,10 @@ puppet-examples
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/09/15/zai-zhuan-an-shi-yong-scrum/">在專案使用 Scrum</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/09/14/git-pretty/">Git Pretty</a>
       </li>
     
@@ -531,17 +534,12 @@ puppet-examples
         <a href="/blog/2014/09/12/hippyvm-and-hhvm/">Hippyvm and Hhvm</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/09/11/the-php-quality-assurance-toolchain/">The PHP Quality Assurance Toolchain</a>
-      </li>
-    
   </ul>
 </section>
 
 <section>
 <h1>分類</h1>
 <ul>
-  <li><a href='/blog/categories/'> (1)</a></li>
   <li><a href='/blog/categories/algorithm'>Algorithm (9)</a></li>
   <li><a href='/blog/categories/android'>Android (4)</a></li>
   <li><a href='/blog/categories/astreisk'>Astreisk (1)</a></li>
@@ -552,6 +550,7 @@ puppet-examples
   <li><a href='/blog/categories/data-analysis'>Data analysis (1)</a></li>
   <li><a href='/blog/categories/deep-learning'>Deep-learning (2)</a></li>
   <li><a href='/blog/categories/design-pattern'>Design pattern (1)</a></li>
+  <li><a href='/blog/categories/distributed-system'>Distributed system (1)</a></li>
   <li><a href='/blog/categories/erlang'>Erlang (2)</a></li>
   <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
   <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
@@ -581,7 +580,7 @@ puppet-examples
   <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
   <li><a href='/blog/categories/open-source'>Open source (9)</a></li>
   <li><a href='/blog/categories/php'>Php (13)</a></li>
-  <li><a href='/blog/categories/project-management'>Project management (1)</a></li>
+  <li><a href='/blog/categories/project-management'>Project management (2)</a></li>
   <li><a href='/blog/categories/python'>Python (4)</a></li>
   <li><a href='/blog/categories/rabbitmq'>Rabbitmq (5)</a></li>
   <li><a href='/blog/categories/redis'>Redis (5)</a></li>
