@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-16T23:45:03+08:00</updated>
+  <updated>2014-09-16T23:59:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Cluster]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/16/redis-cluster/"/>
+    <updated>2014-09-16T23:58:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/16/redis-cluster</id>
+    <content type="html"><![CDATA[<p>官方 redis  cluster 的規範 和 php-redis library 目前的情況</p>
+
+<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Scan 命令]]></title>
@@ -90,20 +102,6 @@ z     Sorted set commands<br/>
 x     Expired events (events generated every time a key expires)<br/>
 e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
 A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Failover]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/redis-failover/"/>
-    <updated>2014-02-28T11:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/redis-failover</id>
-    <content type="html"><![CDATA[<ol>
-<li>redis-sentinel</li>
-<li>twenproxy</li>
-<li>redis_failover</li>
-</ol>
-
 ]]></content>
   </entry>
   
