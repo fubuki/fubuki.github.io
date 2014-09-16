@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-15T23:55:24+08:00</updated>
+  <updated>2014-09-16T23:45:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Compile Jdk Source Code]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/16/compile-jdk-source-code/"/>
+    <updated>2014-09-16T23:41:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/16/compile-jdk-source-code</id>
+    <content type="html"><![CDATA[<p>如何編譯 opend jdk 的 source code</p>
+
+<!-- more -->
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在專案使用 Scrum]]></title>
@@ -599,20 +613,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 <li>编写高质量代码:改善JavaScript程序的188个建议</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Cnpm 建立私有的 Npm 服務]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu/"/>
-    <updated>2014-08-30T23:40:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/30/shi-yong-cnpm-jian-li-si-you-de-npm-fu-wu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cnpmjs.org/">cnpm</a> 可以讓使用者建立給企業用的 npm 服務，由於公司政策的關係有時候連接 npm 服務會有問題，
-並且如果有自製的套件有發布到多台機器上會有點麻煩，藉此可以利用 <a href="http://cnpmjs.org/">cnpm</a> 加速下載並且避開一些
-機器連網的問題。</p>
 ]]></content>
   </entry>
   

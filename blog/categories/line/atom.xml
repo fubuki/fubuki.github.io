@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: LINE | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-15T23:55:24+08:00</updated>
+  <updated>2014-09-16T23:45:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -26,6 +26,25 @@
 <p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
 另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
 規格表可以做為日後開發類似功能的參考。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LINE Developer Conference]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/21/line-developer-conference/"/>
+    <updated>2014-05-21T21:54:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/21/line-developer-conference</id>
+    <content type="html"><![CDATA[<p>LINE Developer Conference</p>
+
+<!-- more -->
+
+
+<p>LINE的開發者聚會，介紹跟LINE有關的東西， 不過很可惜的詳細的內容不會公佈到網路上，而且參加者似乎只有150名，
+只能從網路上參加者的文章窺知一二。</p>
+
+<p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
+<a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
+<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
 ]]></content>
   </entry>
   
