@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-16T23:59:48+08:00</updated>
+  <updated>2014-09-17T23:39:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -22,6 +22,8 @@
 
 <!-- more -->
 
+
+<p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
 ]]></content>
   </entry>
   

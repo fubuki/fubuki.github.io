@@ -262,7 +262,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/04/01/docker-dot-io/</loc>
-        <lastmod>2014-04-01T22:12:54+08:00</lastmod>
+        <lastmod>2014-09-17T23:38:58+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/04/02/projects-that-power-github/</loc>
@@ -860,7 +860,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/16/redis-cluster/</loc>
-        <lastmod>2014-09-16T23:59:41+08:00</lastmod>
+        <lastmod>2014-09-17T23:10:13+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io/</loc>
+        <lastmod>2014-09-17T23:39:04+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -868,7 +872,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-16T23:59:41+08:00</lastmod>
+        <lastmod>2014-09-17T23:39:04+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -876,6 +880,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-16T23:59:41+08:00</lastmod>
+        <lastmod>2014-09-17T23:39:04+08:00</lastmod>
     </url>
 </urlset>

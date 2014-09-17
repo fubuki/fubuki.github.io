@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-16T23:59:48+08:00</updated>
+  <updated>2014-09-17T23:39:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install and Use docker.io]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io/"/>
+    <updated>2014-09-17T23:35:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io</id>
+    <content type="html"><![CDATA[<p>在 Centos 下安裝和使用 docker.io。</p>
+
+<!-- more -->
+
+
+<h3>安裝</h3>
+
+<h3>使用</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Cluster]]></title>
@@ -22,6 +38,8 @@
 
 <!-- more -->
 
+
+<p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
 ]]></content>
   </entry>
   
@@ -587,26 +605,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 
 <p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
 <a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Memory Allocation]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation/"/>
-    <updated>2014-09-01T23:42:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>redis 記憶體分配器，redis 不知道從哪一個版本開始是預設使用 jemalloc，據說效能比預設的 glibc 的還要高，
-另外在網路上有人提到使用 TCMalloc 提高 nginx 和 redis的效能。</p>
-
-<ol>
-<li>jemalloc</li>
-<li>TCMalloc</li>
-<li>glibc</li>
-</ol>
-
 ]]></content>
   </entry>
   
