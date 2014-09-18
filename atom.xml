@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-17T23:39:11+08:00</updated>
+  <updated>2014-09-18T23:37:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP Session Handler]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/18/php-session-handler/"/>
+    <updated>2014-09-18T23:16:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/18/php-session-handler</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在使用 node.js 搭建 WEB 聊天伺服器的時候，需要跟 PHP 端共用 session ，當時是使用 memcached 儲存 session 資訊，
+但是預設是使用 PHP 的序列化格式，所以換成 msgpack 和 igbinary 兩種格式測試，使用 <code>session_set_save_handler</code> 實現，
+如此一來透過 memcached 分享兩個平台的認證資訊。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Install and Use docker.io]]></title>
@@ -590,21 +604,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 
 
 <p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Scan 命令]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/"/>
-    <updated>2014-09-01T23:55:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>redis 新的命令: Scan，跟 KEYS 比起來不會有讓 Server 有阻塞住的問題。</p>
-
-<p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
-<a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
 ]]></content>
   </entry>
   
