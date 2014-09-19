@@ -9,8 +9,10 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="在 Centos 下安裝和使用 docker.io。 安裝 使用
-">
+  <meta name="description" content="在 Centos 下安裝和使用 docker.io。 安裝 Centos
+yum install docker-io
+service docker start Ubuntu
+curl -sSL https://get.docker.io/ubuntu/ | sudo sh 使用 docker &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -115,7 +117,24 @@
 
 <h3>安裝</h3>
 
+<pre><code>Centos
+yum install docker-io
+service docker start
+
+Ubuntu
+curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+</code></pre>
+
 <h3>使用</h3>
+
+<pre><code>docker pull centos
+docker run centos:latest cat /etc/centos-release
+</code></pre>
+
+<h3>建立 LAMP 環境</h3>
+
+<p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
+<a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
 </div>
 
 
@@ -183,6 +202,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/09/19/legy-line-event-gateway/">LEGY (LINE Event Gateway)</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/09/18/php-session-handler/">PHP Session Handler</a>
       </li>
     
@@ -196,10 +219,6 @@
     
       <li class="post">
         <a href="/blog/2014/09/16/compile-jdk-source-code/">Compile Jdk Source Code</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/09/15/zai-zhuan-an-shi-yong-scrum/">在專案使用 Scrum</a>
       </li>
     
   </ul>
@@ -234,7 +253,7 @@
   <li><a href='/blog/categories/jdk'>Jdk (1)</a></li>
   <li><a href='/blog/categories/jquery'>Jquery (2)</a></li>
   <li><a href='/blog/categories/less'>Less (1)</a></li>
-  <li><a href='/blog/categories/line'>Line (2)</a></li>
+  <li><a href='/blog/categories/line'>Line (3)</a></li>
   <li><a href='/blog/categories/linux'>Linux (2)</a></li>
   <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
   <li><a href='/blog/categories/machine-learning'>Machine learning (3)</a></li>

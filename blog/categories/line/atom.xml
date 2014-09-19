@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: LINE | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-18T23:37:00+08:00</updated>
+  <updated>2014-09-19T23:57:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LEGY (LINE Event Gateway)]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway/"/>
+    <updated>2014-09-19T23:44:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有機會看到 LINE　的整個架構圖的時候看到一個 LEGY 的區塊，看起來是負責跟 Client 端連結的部分，並且所有的平台都是透過 LEGY 跟後端程式連結，
+之後在 Line 的開發者大會跟一些 twitter上的訊息得知 LEGY (LINE Event Gateway) 使用 erlang 撰寫的組件，負責分發前端傳來的請求，據說之後會在 LINE Engineers' Blog 有
+更詳盡的介紹。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NAVER Line Protocol]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-18T23:37:00+08:00</updated>
+  <updated>2014-09-19T23:57:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -25,7 +25,24 @@
 
 <h3>安裝</h3>
 
+<pre><code>Centos
+yum install docker-io
+service docker start
+
+Ubuntu
+curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+</code></pre>
+
 <h3>使用</h3>
+
+<pre><code>docker pull centos
+docker run centos:latest cat /etc/centos-release
+</code></pre>
+
+<h3>建立 LAMP 環境</h3>
+
+<p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
+<a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
 ]]></content>
   </entry>
   
