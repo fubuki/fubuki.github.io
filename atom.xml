@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-20T23:29:39+08:00</updated>
+  <updated>2014-09-20T23:45:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture/"/>
+    <updated>2014-09-20T23:41:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
+和一些 Javascript 的設計模式。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
@@ -28,8 +41,6 @@
 <h3>使用閉包</h3>
 
 <h3>重寫 Constructor 構造函數</h3>
-
-<h2>#</h2>
 ]]></content>
   </entry>
   
@@ -608,19 +619,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 <p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
 之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
 檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gulp-starter]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/03/gulp-starter/"/>
-    <updated>2014-09-03T23:41:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/03/gulp-starter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在開發的時候使用 Grunt 建構專案，而在最近看到 Gulp 這項工具，是在 COSCUP 的議程上看到有人提到，
-發現兩者似乎是類似的東西然後引起我的興趣，便從 <a href="https://github.com/greypants/gulp-starter">gulp-starter</a> 開始研究。</p>
 ]]></content>
   </entry>
   

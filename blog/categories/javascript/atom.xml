@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-20T23:29:39+08:00</updated>
+  <updated>2014-09-20T23:45:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture/"/>
+    <updated>2014-09-20T23:41:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
+和一些 Javascript 的設計模式。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
@@ -28,8 +41,6 @@
 <h3>使用閉包</h3>
 
 <h3>重寫 Constructor 構造函數</h3>
-
-<h2>#</h2>
 ]]></content>
   </entry>
   
@@ -86,29 +97,6 @@
 <p>手機和桌面閱覽器都有支援 no delay</p>
 
 <p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Big Number]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/16/javascript-big-number/"/>
-    <updated>2014-07-16T21:06:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/16/javascript-big-number</id>
-    <content type="html"><![CDATA[<p>關於在javascript裡面處理大數字的問題。</p>
-
-<!-- more -->
-
-
-<p>在javascript所有的數字類型都是以double的方式實現的，普通的時候是夠用的不過有時會遇到問題，起因是PHP輸出json格式的字串給閱覽器然後使用javascript解析時，解析完的資料含有超過18位元數字，導致由於精度下降的錯誤結果，然後在PHP裡面沒有錯的原因是他使用String的格式存放但在輸出json格式的時候使用了<code>JSON_NUMERIC_CHECK</code>的參數導致所有的內含數字的字串全都變成數字類型輸出。</p>
-
-<p>之後我查看了JSON.stringify但是沒有參數可以處理這樣的問題，原本想自己寫一個處理JSON字串裡面有特大數字的函式庫，不過網路上已經有類似的函式庫可以使用，在此記錄一下，我是使用<a href="https://github.com/sidorares/json-bigint">json-bigint</a>去處理其他兩個是在找尋函式庫的時候找到的，不過只有第一個似乎比較符合我的需求。</p>
-
-<ol>
-<li><a href="https://github.com/sidorares/json-bigint">json-bigint</a></li>
-<li><a href="https://github.com/MikeMcl/big.js/">big.js</a></li>
-<li><a href="https://github.com/MikeMcl/bignumber.js/">bignumber.js</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

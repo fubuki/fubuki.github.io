@@ -876,7 +876,13 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern/</loc>
-        <lastmod>2014-09-20T23:28:59+08:00</lastmod>
+        <lastmod>2014-09-20T23:41:06+08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture/
+        </loc>
+        <lastmod>2014-09-20T23:45:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -884,7 +890,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-20T23:28:59+08:00</lastmod>
+        <lastmod>2014-09-20T23:45:06+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -892,6 +898,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-20T23:28:59+08:00</lastmod>
+        <lastmod>2014-09-20T23:45:06+08:00</lastmod>
     </url>
 </urlset>
