@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-19T23:57:05+08:00</updated>
+  <updated>2014-09-20T23:29:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern/"/>
+    <updated>2014-09-20T23:21:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Javascript 的單例模式確保對象在全域環境下只會有一個實例。</p>
+
+<h3>使用全域變數實現</h3>
+
+<h3>使用閉包</h3>
+
+<h3>重寫 Constructor 構造函數</h3>
+
+<h2>#</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LEGY (LINE Event Gateway)]]></title>
@@ -601,28 +621,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 
 <p>之前在開發的時候使用 Grunt 建構專案，而在最近看到 Gulp 這項工具，是在 COSCUP 的議程上看到有人提到，
 發現兩者似乎是類似的東西然後引起我的興趣，便從 <a href="https://github.com/greypants/gulp-starter">gulp-starter</a> 開始研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android NDK 環境建立]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li/"/>
-    <updated>2014-09-02T23:53:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>如何建立 Android 使用 NDK 的環境。</p>
-
-<ol>
-<li>ADT</li>
-<li>NDK</li>
-<li>cygwin</li>
-</ol>
-
-
-<p>下載 Eclipse + ADT 就建立好基本的開發環境，在來下載 NDK 後在 Eclipse 指定 NDK 路徑，原本NDK 在 windows 環境下需要 cygwin 才能編譯。
-但是在 R7 之後的版本就內帶編譯環境而不需要 cygwin 的樣子，而舊版的 NDK 可以安裝 <a href="https://code.google.com/p/mini-cygwin/">mini-cygwin</a> 建立編譯環境取代安裝龐大的 cygwin。</p>
 ]]></content>
   </entry>
   

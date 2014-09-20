@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-19T23:57:05+08:00</updated>
+  <updated>2014-09-20T23:29:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern/"/>
+    <updated>2014-09-20T23:21:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Javascript 的單例模式確保對象在全域環境下只會有一個實例。</p>
+
+<h3>使用全域變數實現</h3>
+
+<h3>使用閉包</h3>
+
+<h3>重寫 Constructor 構造函數</h3>
+
+<h2>#</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript 記憶體管理]]></title>
@@ -89,21 +109,6 @@
 <li><a href="https://github.com/MikeMcl/bignumber.js/">bignumber.js</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Phantomjs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/14/phantomjs/"/>
-    <updated>2014-05-14T21:19:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/14/phantomjs</id>
-    <content type="html"><![CDATA[<p><a href="http://phantomjs.org/">phantomjs</a> 是類似nodejs的工具，都是使用javascript驅動，不過nodejs是使用v8引擎而phatomjs是使用webkit，
-而webkit裡面除了js引擎的部分也有包含html渲染的部分，也因此phantomjs能夠生成html的頁面，就像是一個閱覽器。</p>
-
-<p>目前在專案上我最常使用phantomjs於頁面截圖和前端js測試，可以利用phantomjs取得某個網址的頁面然後保存下來，
-然後可以製作一個書籤服務並且加上網站截圖或是預覽圖的功能，phantomjs可以和Selenium針對前端作單元測試。</p>
-
-<p>一篇關於webkit的參考資料:<a href="http://www.paulirish.com/2013/webkit-for-developers/">webkit-for-developers</a></p>
 ]]></content>
   </entry>
   
