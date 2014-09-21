@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-20T23:45:14+08:00</updated>
+  <updated>2014-09-21T21:57:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/"/>
+    <updated>2014-09-21T21:43:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0</id>
+    <content type="html"><![CDATA[<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
+Sockert.io 分成哪些部分。</p>
+
+<ol>
+<li>engine.io</li>
+<li>engine.io-client</li>
+<li>engine.io-parser</li>
+<li>socket.io</li>
+<li>socket.io-adapter</li>
+<li>socket.io-client</li>
+<li>socket.io-parser</li>
+<li>socket.io-protocol</li>
+<li>socket.io-redis</li>
+<li>socket.io-emitter</li>
+</ol>
+
+
+<p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
+考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
@@ -605,20 +632,6 @@ InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有�
 <li>github 上的源碼</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript 記憶體管理]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li/"/>
-    <updated>2014-09-04T23:40:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
-之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
-檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
 ]]></content>
   </entry>
   
