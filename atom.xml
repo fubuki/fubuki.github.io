@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-21T21:57:54+08:00</updated>
+  <updated>2014-09-21T22:34:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,29 @@
 
   
   <entry>
+    <title type="html"><![CDATA[node.js and Php-fpm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/21/node-dot-js-and-php-fpm/"/>
+    <updated>2014-09-21T22:01:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/21/node-dot-js-and-php-fpm</id>
+    <content type="html"><![CDATA[<p>php-fpm 實現 fast-cgi 的規格來處理 php script，而 node.js 就可以透過 fast-cgi 執行跟 php-fpm 通信執行 php script。</p>
+
+<!-- more -->
+
+
+<p>網路上有一些已經時間 node.js 跟 fast-cgi 通信的 library，不過都有點舊，之前有實際跑了一下會有些問題，不過大致上
+從別人寫的 library 和 <a href="http://www.fastcgi.com/drupal/node/6?q=node/22">FastCGI Specification</a> 可以了解 fast-cgi 的通信接口，之後可以自己玩玩看。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
     <link href="http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/"/>
     <updated>2014-09-21T21:43:45+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0</id>
-    <content type="html"><![CDATA[<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
 Sockert.io 分成哪些部分。</p>
 
 <ol>
@@ -609,28 +627,6 @@ mv composer.phar /usr/local/bin/composer
 <li>Primer</li>
 <li>Refactoring</li>
 </ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mariadb and Tokudb]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb/"/>
-    <updated>2014-09-05T23:49:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/05/mariadb-and-tokudb</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近把虛擬機器上面的 MySQL 轉換成 MariaDB 兩者使用上沒有什麼不同，不過在 MariaDB 的官網上
-看到一個沒見過的 TokuDB，查詢之後發現是新的儲存引擎並且也可以用在 MySQL上面，以前主要是使用
-InnoDB， 可以比較一下兩者的優缺點也許在設計架構上可以有另外一種選擇。</p>
-
-<p>參考資料</p>
-
-<ol>
-<li><a href="http://www.percona.com/blog/2014/06/23/getting-to-know-tokudb-for-mysql/">getting-to-know-tokudb-for-mysql</a></li>
-<li>github 上的源碼</li>
-</ol>
 
 ]]></content>
   </entry>

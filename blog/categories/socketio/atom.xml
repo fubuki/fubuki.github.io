@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-21T21:57:54+08:00</updated>
+  <updated>2014-09-21T22:34:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/"/>
+    <updated>2014-09-21T21:43:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
+Sockert.io 分成哪些部分。</p>
+
+<ol>
+<li>engine.io</li>
+<li>engine.io-client</li>
+<li>engine.io-parser</li>
+<li>socket.io</li>
+<li>socket.io-adapter</li>
+<li>socket.io-client</li>
+<li>socket.io-parser</li>
+<li>socket.io-protocol</li>
+<li>socket.io-redis</li>
+<li>socket.io-emitter</li>
+</ol>
+
+
+<p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
+考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
