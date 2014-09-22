@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-21T22:34:28+08:00</updated>
+  <updated>2014-09-22T23:59:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[淘寶技術這十年]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/"/>
+    <updated>2014-09-22T23:53:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
+在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[node.js and Php-fpm]]></title>
@@ -54,7 +67,8 @@ Sockert.io 分成哪些部分。</p>
 
 
 <p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
-考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構。</p>
+考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構，在 <a href="https://github.com/Automattic/socket.io/issues/1457">Scalability of socket.io 1.0 in Node.js cluster</a>
+裡面有提到一些可以參考的例子。</p>
 ]]></content>
   </entry>
   
@@ -602,32 +616,6 @@ mv composer.phar /usr/local/bin/composer
 
 <p>最近有人問我 Sublime Text 可以不可以搜尋一次搜尋所有檔案，在網路上搜尋之後找到 <a href="https://github.com/titoBouzout/SideBarEnhancements">SideBarEnhancements</a> 這個套件，
 但是這個套件在 Package Control 找不到後來才發現現在只有支援 <code>Sublime Text 3</code> ， 如果要安裝可以參考這篇文章 <a href="http://stackoverflow.com/questions/21630440/no-more-sidebarenhacements-in-sublime-text-2">no-more-sidebarenhacements-in-sublime-text-2</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GitHub 設計CSS]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/06/github-she-ji-css/"/>
-    <updated>2014-09-06T22:36:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/06/github-she-ji-css</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://markdotto.com/2014/07/23/githubs-css/">GitHub’s CSS</a> 提到 GihHub 本身如何設計他們的 CSS 。文章裡面分成以下幾種部分。</p>
-
-<ul>
-<li>Quick facts</li>
-<li>Preprocessor</li>
-<li>Architecture</li>
-<li>Linting</li>
-<li>Two bundles</li>
-<li>Included via Sprockets</li>
-<li>Performance</li>
-<li>Documentation</li>
-<li>Primer</li>
-<li>Refactoring</li>
-</ul>
-
 ]]></content>
   </entry>
   

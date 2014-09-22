@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-21T22:34:28+08:00</updated>
+  <updated>2014-09-22T23:59:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[淘寶技術這十年]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/"/>
+    <updated>2014-09-22T23:53:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
+在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[九月書單]]></title>
@@ -83,27 +96,6 @@
 <li>信息檢索導論</li>
 <li>Building.Polyfills</li>
 <li>Data Push Apps with HTML5 SSE</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[六月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan/"/>
-    <updated>2014-06-01T21:34:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/01/liu-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄六月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>MySQL技術內幕︰InnoDB存儲引擎（第2版）</li>
-<li>MySQL技術內幕︰ SQL編程</li>
-<li>數學之美</li>
-<li>資料之美</li>
-<li>Mastering Node.js</li>
 </ol>
 
 ]]></content>

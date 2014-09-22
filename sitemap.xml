@@ -886,11 +886,15 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/</loc>
-        <lastmod>2014-09-21T22:13:02+08:00</lastmod>
+        <lastmod>2014-09-22T23:02:49+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/09/21/node-dot-js-and-php-fpm/</loc>
         <lastmod>2014-09-21T22:34:17+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/</loc>
+        <lastmod>2014-09-22T23:59:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -898,7 +902,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-21T22:34:17+08:00</lastmod>
+        <lastmod>2014-09-22T23:59:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -906,6 +910,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-21T22:34:17+08:00</lastmod>
+        <lastmod>2014-09-22T23:59:01+08:00</lastmod>
     </url>
 </urlset>

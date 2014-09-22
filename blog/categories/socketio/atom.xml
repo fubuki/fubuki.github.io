@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-21T22:34:28+08:00</updated>
+  <updated>2014-09-22T23:59:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -39,7 +39,8 @@ Sockert.io 分成哪些部分。</p>
 
 
 <p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
-考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構。</p>
+考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構，在 <a href="https://github.com/Automattic/socket.io/issues/1457">Scalability of socket.io 1.0 in Node.js cluster</a>
+裡面有提到一些可以參考的例子。</p>
 ]]></content>
   </entry>
   
