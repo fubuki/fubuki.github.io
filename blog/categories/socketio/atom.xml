@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-22T23:59:08+08:00</updated>
+  <updated>2014-09-23T23:58:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.IO Meetup]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup/"/>
+    <updated>2014-09-23T23:51:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup</id>
+    <content type="html"><![CDATA[<p>在日本的一場跟 Socket.IO 有關的會議。</p>
+
+<!-- more -->
+
+
+<p>在尋找跟 socket.io-adapter 相關的資訊的時候找到的，<a href="http://connpass.com/event/6911/">Socket.IO Meetup</a> 有邀請到 socket.io 的作者 <code>Guillermo</code>，
+裡面有些 LT 很蠻有趣的， 然後重點在於 <code>Guillermo</code> 的 keynote，需要尋找一下演講內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
@@ -164,33 +179,6 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
     <updated>2014-03-19T22:42:06+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
     <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[socket.io 使用心得]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/09/socket.io-shi-yong-xin-de/"/>
-    <updated>2014-03-09T15:57:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/09/socket.io-shi-yong-xin-de</id>
-    <content type="html"><![CDATA[<p>記錄一下到目前使用socket.io遇到的問題。</p>
-
-<!-- more -->
-
-
-<p>使用上是搭配redis對web做出即時推送服務，socket.io會自己幫我們做好與web溝通的部分，接下來就只是
-事件驅動的部分。 比較有問題是在於scale out 的部分。</p>
-
-<p>之前使用cluster功能讓nodejs能夠使用到多核心cpu的效能，不過socket.io會重復送出訊息，每個node會跟
-redis 訂閱訊息，才會發生這樣的情形，官網上是有用提供一個方案讓各個node透過redis溝通，就不會有上述的
-問題發生，不過尚未在高併發的環境下測試，也許會有其他問題。</p>
-
-<p>The Trello Tech Stack 這篇文章最後有提到以下的事情:</p>
-
-<blockquote><p>The Socket.io server currently has some problems with scaling up to more than 10K simultaneous client connections when using multiple processes and the Redis store, and the client has some issues that can cause it to open multiple connections to the same server, or not know that its connection has been severed. There are some issues
-with submitting our fixes (hacks!) back to the project – in many cases they only work with WebSockets (the only Socket.io transport we use). We are working to
-get those changes which are fit for general consumption ready to submit back to the project.</p></blockquote>
-
-<p>不過這篇<a href="http://blog.trello.com/the-trello-tech-stack/">文章</a>是2012年的事情，還需要仔細研究一下。</p>
 ]]></content>
   </entry>
   

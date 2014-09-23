@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-22T23:59:08+08:00</updated>
+  <updated>2014-09-23T23:58:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.IO Meetup]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup/"/>
+    <updated>2014-09-23T23:51:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup</id>
+    <content type="html"><![CDATA[<p>在日本的一場跟 Socket.IO 有關的會議。</p>
+
+<!-- more -->
+
+
+<p>在尋找跟 socket.io-adapter 相關的資訊的時候找到的，<a href="http://connpass.com/event/6911/">Socket.IO Meetup</a> 有邀請到 socket.io 的作者 <code>Guillermo</code>，
+裡面有些 LT 很蠻有趣的， 然後重點在於 <code>Guillermo</code> 的 keynote，需要尋找一下演講內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[淘寶技術這十年]]></title>
@@ -603,19 +618,6 @@ mv composer.phar /usr/local/bin/composer
 <p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
 合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
 避免分支合併到不需要的 commit。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[增強 Sublime Text 2 側欄功能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/07/zeng-qiang-sublime-text-2-ce-lan-gong-neng/"/>
-    <updated>2014-09-07T22:43:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/07/zeng-qiang-sublime-text-2-ce-lan-gong-neng</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近有人問我 Sublime Text 可以不可以搜尋一次搜尋所有檔案，在網路上搜尋之後找到 <a href="https://github.com/titoBouzout/SideBarEnhancements">SideBarEnhancements</a> 這個套件，
-但是這個套件在 Package Control 找不到後來才發現現在只有支援 <code>Sublime Text 3</code> ， 如果要安裝可以參考這篇文章 <a href="http://stackoverflow.com/questions/21630440/no-more-sidebarenhacements-in-sublime-text-2">no-more-sidebarenhacements-in-sublime-text-2</a>。</p>
 ]]></content>
   </entry>
   
