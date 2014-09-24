@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-23T23:58:41+08:00</updated>
+  <updated>2014-09-24T23:58:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/24/php-and-closure/"/>
+    <updated>2014-09-24T23:49:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/24/php-and-closure</id>
+    <content type="html"><![CDATA[<p>PHP 的閉包語法和用途。</p>
+
+<!-- more -->
+
+
+<p>PHP 在改版之後新增了一些其他語言的特性，閉包為其中一種，以前在撰寫 js 腳本的時候會用到閉包的結構，而 Lamdbda 比較像是
+從函數式語言來的。</p>
+
+<h3>語法</h3>
+
+<h3>用途</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP Session Handler]]></title>
@@ -88,27 +107,6 @@ xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以�
 
 
 <p>目前有用到的有</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP With Composer]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/10/php-with-composer/"/>
-    <updated>2014-09-10T22:52:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/10/php-with-composer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前在安裝 PHP 的插件通常是透過 PEAR 安裝的，然後每個插件就要手動一個個安裝，不過現在有 <a href="https://getcomposer.org/">composer</a> 這個相依性管理工具，
-用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
-
-<h3>安裝方法</h3>
-
-<pre><code>curl -sS https://getcomposer.org/installer | php  
-mv composer.phar /usr/local/bin/composer 
-</code></pre>
-
-<h3>基本用法</h3>
 ]]></content>
   </entry>
   

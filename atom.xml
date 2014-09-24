@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-23T23:58:41+08:00</updated>
+  <updated>2014-09-24T23:58:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/24/php-and-closure/"/>
+    <updated>2014-09-24T23:49:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/24/php-and-closure</id>
+    <content type="html"><![CDATA[<p>PHP 的閉包語法和用途。</p>
+
+<!-- more -->
+
+
+<p>PHP 在改版之後新增了一些其他語言的特性，閉包為其中一種，以前在撰寫 js 腳本的時候會用到閉包的結構，而 Lamdbda 比較像是
+從函數式語言來的。</p>
+
+<h3>語法</h3>
+
+<h3>用途</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socket.IO Meetup]]></title>
@@ -604,20 +623,6 @@ mv composer.phar /usr/local/bin/composer
 <p><a href="http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/">Distributed systems theory for the distributed systems engineer</a> 這篇文章介紹了一些分散式系統的概念，
 可以作為入門看一下裡面提到的東西，作者是回應一個在 twitter 上發問的問題而寫的文章，而在這篇<a href="https://twitter.com/gwenshap/status/497203248332165121">tweet</a>的後面
 也有其他可以參考的推文可以去研究研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Cherry-pick]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/"/>
-    <updated>2014-09-08T22:46:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/08/git-cherry-pick</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
-合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
-避免分支合併到不需要的 commit。</p>
 ]]></content>
   </entry>
   
