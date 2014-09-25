@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>LINE 的 安全性問題 - Learning Blog</title>
+  <meta name="author" content="Fubuki">
+
+  
+  <meta name="description" content="關於 LINE 的安全性問題。 日前看到在日本媒體有在報導韓國的國家情報局透過 LINE 收集訊息的事情，最後是由 LINE 的社長出面澄清此事，不過這讓我想去
+了解一下 LINE 在通信上是如何加密的保障他的安全性。 LINE 是使用 SPDY + thrift 傳輸資料，而 SPDY 是基於 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-48634116-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Learning Blog</a></h1>
+  
+    <h2>預定調和</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fubuki.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">LINE 的 安全性問題</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-25T22:32:14+08:00" pubdate data-updated="true">Sep 25<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>關於 LINE 的安全性問題。</p>
+
+<!-- more -->
+
+
+<p>日前看到在日本媒體有在報導韓國的國家情報局透過 LINE 收集訊息的事情，最後是由 LINE 的社長出面澄清此事，不過這讓我想去
+了解一下 LINE 在通信上是如何加密的保障他的安全性。</p>
+
+<p>LINE 是使用 SPDY + thrift 傳輸資料，而 SPDY 是基於 TLS 實現的本身就有加密，不過在舊的版本似乎沒有全部都走 TLS，在 LINE 的
+開發 BLOG 上有寫說由於 TLS 在移動網路上會增加連接時間和導致傳輸異常便允許沒加密的網路連線，不過後面有寫在 3.9.3 版本之後全部都走
+加密連線，似乎是透過 RSA 2048 bit 加密。</p>
+
+<pre><code>Updated on 2014/06/21: LINE 3.9.3 or newer versions encrypt all message data even on mobile network like 2G, 3G and LTE
+</code></pre>
+
+<p>另外在 BLOG 的文章裡也有提到其他關於安全性的事情，不過在 Server 的資料加密就沒有提到太多的部分。</p>
+
+<h3>參考文章</h3>
+
+<ol>
+<li><a href="http://blog.kazuhooku.com/2014/06/line.html">LINE「独自暗号化」のメリットと安全性について</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=2709">LINE Security – Simple, Safe, Secure</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=3262">LINEの暗号化について</a></li>
+<li><a href="http://inaz2.hatenablog.com/entry/2014/07/03/000900">Android版LINE Appの通信を覗いてみる</a></li>
+</ol>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-25T22:32:14+08:00" pubdate data-updated="true">Sep 25<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/line/'>LINE</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/09/24/php-and-closure/" title="Previous Post: PHP 的 Lambda 和 Closure">&laquo; PHP 的 Lambda 和 Closure</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/25/line-de-an-quan-xing-wen-ti/">LINE 的 安全性問題</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/24/php-and-closure/">PHP 的 Lambda 和 Closure</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/23/socket-dot-io-meetup/">Socket.IO Meetup</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/">淘寶技術這十年</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/09/21/node-dot-js-and-php-fpm/">node.js and Php-fpm</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+<h1>分類</h1>
+<ul>
+  <li><a href='/blog/categories/algorithm'>Algorithm (9)</a></li>
+  <li><a href='/blog/categories/android'>Android (4)</a></li>
+  <li><a href='/blog/categories/astreisk'>Astreisk (1)</a></li>
+  <li><a href='/blog/categories/book-lists'>Book lists (8)</a></li>
+  <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
+  <li><a href='/blog/categories/celery'>Celery (1)</a></li>
+  <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
+  <li><a href='/blog/categories/data-analysis'>Data analysis (1)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep-learning (2)</a></li>
+  <li><a href='/blog/categories/design-pattern'>Design pattern (1)</a></li>
+  <li><a href='/blog/categories/distributed-system'>Distributed system (1)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (2)</a></li>
+  <li><a href='/blog/categories/erlang'>Erlang (2)</a></li>
+  <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
+  <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
+  <li><a href='/blog/categories/frontend'>Frontend (2)</a></li>
+  <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
+  <li><a href='/blog/categories/git'>Git (11)</a></li>
+  <li><a href='/blog/categories/gulp'>Gulp (1)</a></li>
+  <li><a href='/blog/categories/hadoop'>Hadoop (1)</a></li>
+  <li><a href='/blog/categories/html5'>Html5 (2)</a></li>
+  <li><a href='/blog/categories/information-retrieval'>Information retrieval (1)</a></li>
+  <li><a href='/blog/categories/javascript'>Javascript (13)</a></li>
+  <li><a href='/blog/categories/jdk'>Jdk (1)</a></li>
+  <li><a href='/blog/categories/jquery'>Jquery (2)</a></li>
+  <li><a href='/blog/categories/less'>Less (1)</a></li>
+  <li><a href='/blog/categories/line'>Line (4)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (2)</a></li>
+  <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
+  <li><a href='/blog/categories/machine-learning'>Machine learning (3)</a></li>
+  <li><a href='/blog/categories/mariadb'>Mariadb (1)</a></li>
+  <li><a href='/blog/categories/markdown'>Markdown (1)</a></li>
+  <li><a href='/blog/categories/memcached'>Memcached (3)</a></li>
+  <li><a href='/blog/categories/mozilla'>Mozilla (1)</a></li>
+  <li><a href='/blog/categories/mqtt'>Mqtt (5)</a></li>
+  <li><a href='/blog/categories/mysql'>Mysql (5)</a></li>
+  <li><a href='/blog/categories/nginx'>Nginx (2)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (10)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (19)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
+  <li><a href='/blog/categories/open-source'>Open source (9)</a></li>
+  <li><a href='/blog/categories/php'>Php (15)</a></li>
+  <li><a href='/blog/categories/project-management'>Project management (2)</a></li>
+  <li><a href='/blog/categories/python'>Python (4)</a></li>
+  <li><a href='/blog/categories/rabbitmq'>Rabbitmq (5)</a></li>
+  <li><a href='/blog/categories/redis'>Redis (6)</a></li>
+  <li><a href='/blog/categories/ruby'>Ruby (1)</a></li>
+  <li><a href='/blog/categories/sass'>Sass (1)</a></li>
+  <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
+  <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
+  <li><a href='/blog/categories/search-engine'>Search engine (4)</a></li>
+  <li><a href='/blog/categories/server'>Server (1)</a></li>
+  <li><a href='/blog/categories/socketio'>Socketio (6)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (1)</a></li>
+  <li><a href='/blog/categories/sql'>Sql (1)</a></li>
+  <li><a href='/blog/categories/sublime-text'>Sublime-text (3)</a></li>
+  <li><a href='/blog/categories/theano'>Theano (1)</a></li>
+  <li><a href='/blog/categories/ux'>Ux (1)</a></li>
+  <li><a href='/blog/categories/vargrant'>Vargrant (1)</a></li>
+  <li><a href='/blog/categories/vim'>Vim (2)</a></li>
+  <li><a href='/blog/categories/webrtc'>Webrtc (1)</a></li>
+  <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
+</ul>
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/fubuki">@fubuki</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'fubuki',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Fubuki -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fubuki';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

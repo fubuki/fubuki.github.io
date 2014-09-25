@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-24T23:58:12+08:00</updated>
+  <updated>2014-09-25T23:30:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LINE 的 安全性問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti/"/>
+    <updated>2014-09-25T22:32:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti</id>
+    <content type="html"><![CDATA[<p>關於 LINE 的安全性問題。</p>
+
+<!-- more -->
+
+
+<p>日前看到在日本媒體有在報導韓國的國家情報局透過 LINE 收集訊息的事情，最後是由 LINE 的社長出面澄清此事，不過這讓我想去
+了解一下 LINE 在通信上是如何加密的保障他的安全性。</p>
+
+<p>LINE 是使用 SPDY + thrift 傳輸資料，而 SPDY 是基於 TLS 實現的本身就有加密，不過在舊的版本似乎沒有全部都走 TLS，在 LINE 的
+開發 BLOG 上有寫說由於 TLS 在移動網路上會增加連接時間和導致傳輸異常便允許沒加密的網路連線，不過後面有寫在 3.9.3 版本之後全部都走
+加密連線，似乎是透過 RSA 2048 bit 加密。</p>
+
+<pre><code>Updated on 2014/06/21: LINE 3.9.3 or newer versions encrypt all message data even on mobile network like 2G, 3G and LTE
+</code></pre>
+
+<p>另外在 BLOG 的文章裡也有提到其他關於安全性的事情，不過在 Server 的資料加密就沒有提到太多的部分。</p>
+
+<h3>參考文章</h3>
+
+<ol>
+<li><a href="http://blog.kazuhooku.com/2014/06/line.html">LINE「独自暗号化」のメリットと安全性について</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=2709">LINE Security – Simple, Safe, Secure</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=3262">LINEの暗号化について</a></li>
+<li><a href="http://inaz2.hatenablog.com/entry/2014/07/03/000900">Android版LINE Appの通信を覗いてみる</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
@@ -609,20 +643,6 @@ mv composer.phar /usr/local/bin/composer
 </code></pre>
 
 <h3>基本用法</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[分散式系統的簡介]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie/"/>
-    <updated>2014-09-09T23:01:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/09/fen-san-shi-xi-tong-de-jian-jie</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/">Distributed systems theory for the distributed systems engineer</a> 這篇文章介紹了一些分散式系統的概念，
-可以作為入門看一下裡面提到的東西，作者是回應一個在 twitter 上發問的問題而寫的文章，而在這篇<a href="https://twitter.com/gwenshap/status/497203248332165121">tweet</a>的後面
-也有其他可以參考的推文可以去研究研究。</p>
 ]]></content>
   </entry>
   
