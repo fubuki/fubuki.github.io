@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-25T23:30:47+08:00</updated>
+  <updated>2014-09-26T23:58:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[了解 OAuth 2.0 協定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/26/liao-jie-oauth-2-dot-0-xie-ding/"/>
+    <updated>2014-09-26T23:39:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/26/liao-jie-oauth-2-dot-0-xie-ding</id>
+    <content type="html"><![CDATA[<p>最近需要建立 OAuth 2.0 的服務便去尋找一些相關的資訊。</p>
+
+<!-- more -->
+
+
+<p><a href="http://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a> 描述關於整個 OAuth 2.0 的 SPEC，有人已經轉換成 <a href="https://gist.github.com/chitsaou/6590756">markdown 的版本</a>看完後
+便大致了解了目前在網路那些 OAuth 2.0 的 Library 並且去使用它們。</p>
+
+<p>目前工作上是使用 <a href="https://github.com/thephpleague/oauth2-server">oauth2-server</a> 這個專案，使用的是 <code>Password</code> 的 grant type，透過輸入帳密取得 token 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LINE 的 安全性問題]]></title>
@@ -622,27 +639,6 @@ StreamSql</p>
 
 
 <p>目前有用到的有</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP With Composer]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/10/php-with-composer/"/>
-    <updated>2014-09-10T22:52:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/10/php-with-composer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前在安裝 PHP 的插件通常是透過 PEAR 安裝的，然後每個插件就要手動一個個安裝，不過現在有 <a href="https://getcomposer.org/">composer</a> 這個相依性管理工具，
-用起來跟 NPM 感覺差不多，只要定義好需要用哪些套件和版本就會幫忙安裝好。</p>
-
-<h3>安裝方法</h3>
-
-<pre><code>curl -sS https://getcomposer.org/installer | php  
-mv composer.phar /usr/local/bin/composer 
-</code></pre>
-
-<h3>基本用法</h3>
 ]]></content>
   </entry>
   
