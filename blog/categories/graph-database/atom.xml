@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Graph Database | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/graph-database/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-09-27T23:51:09+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[安裝和使用 Neo4j]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/27/an-zhuang-he-shi-yong-neo4j/"/>
+    <updated>2014-09-27T23:45:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/27/an-zhuang-he-shi-yong-neo4j</id>
+    <content type="html"><![CDATA[<p>如何安裝和使用 Neo4j</p>
+
+<!-- more -->
+
+
+<h4>安裝</h4>
+
+<pre><code>wget -O - http://debian.neo4j.org/neotechnology.gpg.key| apt-key add - # Import our signing key
+echo 'deb http://debian.neo4j.org/repo stable/' &gt; /etc/apt/sources.list.d/neo4j.list # Create an Apt sources.list file
+aptitude update -y # Find out about the files in our repository
+aptitude install neo4j -y # Install Neo4j, community edition
+</code></pre>
+
+<h4>使用</h4>
+
+<p>開啟 <a href="http://server-ip:7474%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%B8%80%E5%80%8B">http://server-ip:7474%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%B8%80%E5%80%8B</a> web admin 然後就可以開始玩 Neo4j</p>
+]]></content>
+  </entry>
+  
+</feed>
