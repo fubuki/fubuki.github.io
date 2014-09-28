@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-27T23:51:09+08:00</updated>
+  <updated>2014-09-28T21:37:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -23,8 +23,27 @@
 <!-- more -->
 
 
+<p><a href="http://www.ustream.tv/recorded/49506480">影片</a></p>
+
 <p>在尋找跟 socket.io-adapter 相關的資訊的時候找到的，<a href="http://connpass.com/event/6911/">Socket.IO Meetup</a> 有邀請到 socket.io 的作者 <code>Guillermo</code>，
 裡面有些 LT 很蠻有趣的， 然後重點在於 <code>Guillermo</code> 的 keynote，需要尋找一下演講內容。</p>
+
+<h3>MQTT.IO</h3>
+
+<p><a href="https://speakerdeck.com/hakobera/mqtt-dot-io">MATT.IO</a></p>
+
+<h3>socket.io on SmartFx</h3>
+
+<p>投影片在這 <a href="http://www.slideshare.net/ssuser69ee9b/socketio-on-smartfx">socketio-on-smartfx</a>，似乎是跟 FX 有關的公司，利用 socket.io 更新前端的資料，投影片裡面有寫他們是用 <a href="https://github.com/takeshy/socket.io-reqev">socket.io-reqev</a> 開發的，
+包裹 socket.io 的 framework，裡面比較有趣的部分是 socket.io 會將自身的狀態更新到資料庫然後 web server 會從 DB 裡面隨機選出一個 socket.io的連結給 client。</p>
+
+<h3>Web-based multitrack recording</h3>
+
+<p><a href="https://github.com/kuu/WebMTR">WebMTR</a></p>
+
+<h3>Socket.IO 1.0 Client For Java</h3>
+
+<p><a href="https://speakerdeck.com/nkzawa/socket-dot-io-1-dot-0-client-for-javafalseshao-jie">Socket.IO 1.0 Client for Java</a></p>
 ]]></content>
   </entry>
   
