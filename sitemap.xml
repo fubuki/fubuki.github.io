@@ -917,12 +917,18 @@
         <lastmod>2014-09-27T23:50:45+08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://fubuki.github.io/blog/2014/09/28/shi-yong-domains-chu-li-node-dot-js-de-expectation/
+        </loc>
+        <lastmod>2014-09-28T23:36:58+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-28T21:37:38+08:00</lastmod>
+        <lastmod>2014-09-28T23:36:58+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -930,6 +936,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-28T21:37:38+08:00</lastmod>
+        <lastmod>2014-09-28T23:36:58+08:00</lastmod>
     </url>
 </urlset>
