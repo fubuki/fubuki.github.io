@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Astreisk | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/astreisk/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-28T23:37:06+08:00</updated>
+  <updated>2014-09-29T23:53:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,42 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Asterisk]]></title>
+    <title type="html"><![CDATA[Asterisk 的 sip.conf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf/"/>
+    <updated>2014-09-29T23:28:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Astreisk 的 sip 設定位於 <code>/etc/asterisk/sip.conf</code>，設定完後使用 softphone 進行測試，另外 LINE 的 VoIP 是使用 sip 和 rtp 構成的。
+參考<a href="http://www.st-asterisk.com/">Asterisk基本設定ガイド</a>裡面的文章</p>
+
+<h3>設定檔</h3>
+
+<p>[general]<br/>
+context=default<br/>
+port=5060<br/>
+bindaddr=0.0.0.0<br/>
+srvlookup=yes<br/>
+disallow=all<br/>
+allow=ulaw<br/>
+allow=alaw<br/>
+allow=gsm<br/>
+language=zh-tw</p>
+
+<p>[201]<br/>
+type=friend<br/>
+類型有 peer user friend<br/>
+defaultuser=201<br/>
+secret=pass<br/>
+密碼<br/>
+canreinvite=no<br/>
+host=dynamic</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk 簡介]]></title>
     <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
     <updated>2014-02-28T12:13:43+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>

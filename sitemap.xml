@@ -22,7 +22,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/02/28/asterisk/</loc>
-        <lastmod>2014-04-12T22:53:14+08:00</lastmod>
+        <lastmod>2014-09-29T23:35:14+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/02/28/real-time-application/</loc>
@@ -923,12 +923,16 @@
         <lastmod>2014-09-28T23:36:58+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf/</loc>
+        <lastmod>2014-09-29T23:52:50+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-09-28T23:36:58+08:00</lastmod>
+        <lastmod>2014-09-29T23:52:50+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -936,6 +940,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-09-28T23:36:58+08:00</lastmod>
+        <lastmod>2014-09-29T23:52:50+08:00</lastmod>
     </url>
 </urlset>

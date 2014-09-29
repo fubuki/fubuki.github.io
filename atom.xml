@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-28T23:37:06+08:00</updated>
+  <updated>2014-09-29T23:53:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk 的 sip.conf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf/"/>
+    <updated>2014-09-29T23:28:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Astreisk 的 sip 設定位於 <code>/etc/asterisk/sip.conf</code>，設定完後使用 softphone 進行測試，另外 LINE 的 VoIP 是使用 sip 和 rtp 構成的。
+參考<a href="http://www.st-asterisk.com/">Asterisk基本設定ガイド</a>裡面的文章</p>
+
+<h3>設定檔</h3>
+
+<p>[general]<br/>
+context=default<br/>
+port=5060<br/>
+bindaddr=0.0.0.0<br/>
+srvlookup=yes<br/>
+disallow=all<br/>
+allow=ulaw<br/>
+allow=alaw<br/>
+allow=gsm<br/>
+language=zh-tw</p>
+
+<p>[201]<br/>
+type=friend<br/>
+類型有 peer user friend<br/>
+defaultuser=201<br/>
+secret=pass<br/>
+密碼<br/>
+canreinvite=no<br/>
+host=dynamic</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Domains 處理 node.js 的 Expectation]]></title>
@@ -378,281 +413,6 @@ docker run centos:latest cat /etc/centos-release
 
 <p>xdebug 為一款 PHP 用的除錯工具，透過 pecl 安裝後在 php.ini 打開就可以使用了，然後可以搭配 Sublime text 2 的
 xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以直接通知 server 需要開啟 xdebug 的環境。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HadoopCon 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014/"/>
-    <updated>2014-09-13T19:15:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>那些你知道的，但還沒看過的 Big Data 風景 – 致 Hadooper</h3>
-
-<p>Fred 雲中象</p>
-
-<ol>
-<li>社群</li>
-<li>速度</li>
-<li>資料科學</li>
-<li>Hadoop</li>
-</ol>
-
-
-<h4>國內 hadoop 圈子裡的人</h4>
-
-<p>Jazz Wang</p>
-
-<pre><code>hadooper
-</code></pre>
-
-<p>Wisely Chen</p>
-
-<pre><code>推廣 Spark
-</code></pre>
-
-<h4>大資料處理上面處理的速度級別</h4>
-
-<ol>
-<li>Batch</li>
-<li>Near Real-time</li>
-<li>Real-time</li>
-</ol>
-
-
-<h4>資料科學需要哪些方面的能力</h4>
-
-<p>How a typical software vendor approaches Data Science<br/>
-PRISM 稜鏡計畫</p>
-
-<h4>Hadoop 分成那些版本</h4>
-
-<p>Hadoop 1<br/>
-Hadoop 2</p>
-
-<h3>Lambda Architecture Platform on SQL</h3>
-
-<p>講者為Line 的員工<br/>
-介紹一下講者和 Line office 目前在哪些地方</p>
-
-<h4>Data analytics workload</h4>
-
-<h4>batch processing</h4>
-
-<h4>Stream Processing</h4>
-
-<ol>
-<li>Apache Storm</li>
-<li>Norikra</li>
-</ol>
-
-
-<h4>Why Stream Processing</h4>
-
-<ol>
-<li>Less laterncy</li>
-<li>Less computing power</li>
-<li>No query schedule management</li>
-</ol>
-
-
-<h4>Disadvantage of Stream Processing</h4>
-
-<h4>Lambada Architecture Overview</h4>
-
-<h4>Twitter Summingbird</h4>
-
-<h4>Lambada Structure use sql</h4>
-
-<h4>UseCases in LINE</h4>
-
-<p>Prompt report for Ads service</p>
-
-<p>Summary of application server error log</p>
-
-<p>TMTOWTDI</p>
-
-<h4>A graph service for global web entities traversal and reputation evaluation based on HBase</h4>
-
-<p>趨勢在那些問題上使用 hadoop</p>
-
-<p>Malware的數量不斷成長</p>
-
-<p>介紹趨勢防護分成那幾層</p>
-
-<p>ThreatWeb Threat Enities as a Graph</p>
-
-<p>將 Malware的行為轉換成 Graph 然後使用 PageRank 處理圖形問題</p>
-
-<p>如何 store Graph data</p>
-
-<p>Property Graph Model</p>
-
-<p>使用 HBASE 存放 圖形資料</p>
-
-<p>分成 vertex edge 兩種 table</p>
-
-<h4>如何存取資料</h4>
-
-<p>包裹 原本 HBASE的API</p>
-
-<p>blueprints API</p>
-
-<h4>效能</h4>
-
-<p>HGraph</p>
-
-<p>PageRank Result</p>
-
-<p>DGA Discovered</p>
-
-<h4>Cleints</h4>
-
-<p>Real time Client</p>
-
-<p>Batch Client</p>
-
-<p>Graph Exploring Tools</p>
-
-<h4>SQL on Hadoop: a Perspective of a Cloud-based, Managed Service Provider</h4>
-
-<p>SQL Players on Hadoop</p>
-
-<p>Hive
-Spark sql</p>
-
-<p>Presto
-Impala
-Drill</p>
-
-<p>Norikra
-StreamSql</p>
-
-<p>Apache Tez</p>
-
-<h4>Why still use MapReduce</h4>
-
-<h4>Presto `s history</h4>
-
-<h4>Who use Presto</h4>
-
-<h4>Why select Presto</h4>
-
-<p>容易處理</p>
-
-<p>使用 SQL 語法</p>
-
-<p>Batch summary</p>
-
-<p>MapReduce &mdash; based</p>
-
-<p>Hive with Tez</p>
-
-<p>Spark and Spark SQL is a good alternative</p>
-
-<h3>Norikra: Stream processing by SQL</h3>
-
-<p>LINE 的 Analytics phalform team</p>
-
-<p>Norikra 使用 SQL 語法處理資料</p>
-
-<p>Esper EPL</p>
-
-<p>Wiht/Without Schema</p>
-
-<p>介紹一下 Norikra</p>
-
-<p>如何安裝 Norikra</p>
-
-<h4>use case 1</h4>
-
-<p>External API call report s for partners</p>
-
-<p><a href="http://developers.linecorp.com/blog/?p=3386">http://developers.linecorp.com/blog/?p=3386</a></p>
-
-<p>api error response summaries</p>
-
-<h4>use case 2</h4>
-
-<p>Prompt reports for Ad service console</p>
-
-<h4>use case 3</h4>
-
-<p>Realtime access dashboard on Google Platform</p>
-
-<p>Access log visualzation</p>
-
-<p>More queries more simplicity and less latency</p>
-
-<h3>Real-Time Streaming Data Computing for long-term undersea surveillance on top of Storm</h3>
-
-<p>核三廠 排水口 監視資料</p>
-
-<p>介紹 Storm 的架構</p>
-
-<p>魚群辨識</p>
-
-<p>確認鏡頭情形</p>
-
-<p>scalability programing</p>
-
-<p>DRPC</p>
-
-<p>海洋影像資料處理過程</p>
-
-<h3>Speed up Interactive Analytic Queries over Existing Big Data on Hadoop with Presto</h3>
-
-<p>使用 Presto 分析在 hadoop 上面的資料。</p>
-
-<p>SQL on/over Hadoop</p>
-
-<p>Presto 的架構</p>
-
-<p>可以支援多種 Database</p>
-
-<p>Base on DAG model</p>
-
-<p>Query 怎麼在 Presto上運行</p>
-
-<p>Node 參數設定</p>
-
-<p>Presto`s Roadmap</p>
-
-<p>Data visualization with Presto &ndash; Demo</p>
-
-<p>Grafana</p>
-
-<h3>Mahout 資料分析基礎入門</h3>
-
-<p>資料分析基礎入門</p>
-
-<p>分析工具</p>
-
-<ol>
-<li>scikit-learn</li>
-<li>R</li>
-<li>Weka, Matlab</li>
-<li>Mathout</li>
-</ol>
-
-
-<p>Introduction to apache mahout in youtube BTI360</p>
-
-<p>User Mode 直接使用內建指令</p>
-
-<p>Developer Mode 撰寫新的ML 演算法</p>
-
-<p>Hortonworks</p>
-
-<p>動動手玩推薦系統</p>
-
-<h4>參考資料</h4>
-
-<p>Frequent pattern analysis</p>
-
-<p>Mahout fpgrowth</p>
 ]]></content>
   </entry>
   
