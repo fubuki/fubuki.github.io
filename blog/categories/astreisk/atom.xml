@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Astreisk | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/astreisk/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-09-30T23:28:18+08:00</updated>
+  <updated>2014-10-01T23:39:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[安裝 Asterisk GUI]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui/"/>
+    <updated>2014-10-01T23:30:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近裝完 Ansterisk 後需要一個方便的 web 介面管理，在網路上找了一下就先使用了看起來很簡單的 <code>Asterisk GUI</code>。</p>
+
+<h4>安裝</h4>
+
+<p>可以使用 yum 或是直接下載源碼安裝，我是直接使用 yum安裝。</p>
+
+<pre><code>yum install asterisk-gui
+</code></pre>
+
+<h4>設定</h4>
+
+<p>需要設定 <code>http.conf</code> 和 <code>manager.conf</code> 這兩個檔案，這兩個檔案都在 <code>/etc/asterisk/</code> 底下，設定檔裡面都有簡單的說明，只要參照裡面的說明開啟選項即可，但是如果使用 yum 安裝似乎會有問題需要設定軟連結才能正確的開啟 Asterisk GUI。</p>
+
+<pre><code>ls /var/lib/asterisk/static-http/config &amp;&amp; rm -rf /usr/share/asterisk/static-http &amp;&amp; ln -s /var/lib/asterisk/static-http /usr/share/asterisk/static-http
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Asterisk 的 sip.conf]]></title>
