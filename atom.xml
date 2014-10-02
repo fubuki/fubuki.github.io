@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-01T23:39:28+08:00</updated>
+  <updated>2014-10-02T23:52:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第五回闇PHP勉強会]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/"/>
+    <updated>2014-10-02T23:35:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
+目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
+提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[安裝 Asterisk GUI]]></title>
@@ -152,6 +166,16 @@ aptitude install neo4j -y # Install Neo4j, community edition
 便大致了解了目前在網路那些 OAuth 2.0 的 Library 並且去使用它們。</p>
 
 <p>目前工作上是使用 <a href="https://github.com/thephpleague/oauth2-server">oauth2-server</a> 這個專案，使用的是 <code>Password</code> 的 grant type，透過輸入帳密取得 token 。</p>
+
+<h4>Grant type</h4>
+
+<ol>
+<li>Authorization Code</li>
+<li>Implicit</li>
+<li>Resource Owner Password Credentials</li>
+<li>Client Credentials</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -418,20 +442,6 @@ docker run centos:latest cat /etc/centos-release
 
 
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在專案使用 Scrum]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/15/zai-zhuan-an-shi-yong-scrum/"/>
-    <updated>2014-09-15T23:46:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/15/zai-zhuan-an-shi-yong-scrum</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近要帶人開發一個專案，想要實踐一下 Scrum 替代原有的瀑布式開發，買了 <code>告別瀑布，擁抱 Scrum</code> 來參考，
-另外也買了 <code>Specification by Example</code>， 目前工作上才會有東西不符合規格或是時間上的拖延導致開發進度
-出現了不少問題，所以現在是該學習一下關於專案管理的部分。</p>
 ]]></content>
   </entry>
   

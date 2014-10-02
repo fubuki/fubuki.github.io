@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Oauth | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/oauth/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-01T23:39:28+08:00</updated>
+  <updated>2014-10-02T23:52:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -27,6 +27,16 @@
 便大致了解了目前在網路那些 OAuth 2.0 的 Library 並且去使用它們。</p>
 
 <p>目前工作上是使用 <a href="https://github.com/thephpleague/oauth2-server">oauth2-server</a> 這個專案，使用的是 <code>Password</code> 的 grant type，透過輸入帳密取得 token 。</p>
+
+<h4>Grant type</h4>
+
+<ol>
+<li>Authorization Code</li>
+<li>Implicit</li>
+<li>Resource Owner Password Credentials</li>
+<li>Client Credentials</li>
+</ol>
+
 ]]></content>
   </entry>
   

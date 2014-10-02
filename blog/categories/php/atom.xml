@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-01T23:39:28+08:00</updated>
+  <updated>2014-10-02T23:52:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第五回闇PHP勉強会]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/"/>
+    <updated>2014-10-02T23:35:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
+目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
+提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
@@ -76,37 +90,6 @@ xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以�
 
 <p>目前在網路可以看到一些關於 hhvm 和 phalcon 之間比較的文章，兩者各有其優點，不過身旁看到的都是使用 phalcon 開發
 來提高 PHP 的性能，反而沒看到使用 hhvm 的人，但是不管怎樣這兩者能夠共同發展對 PHP 也是件好事。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The PHP Quality Assurance Toolchain]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain/"/>
-    <updated>2014-09-11T22:00:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/11/the-php-quality-assurance-toolchain</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在用 持續集成的時候找到這個 <a href="http://phpqatools.org/">The PHP Quality Assurance Toolchain</a> ，裡面介紹不少針對 PHP 開發有用的工具，
-能夠用來提高程式碼的品質。</p>
-
-<ol>
-<li>PHPUnit</li>
-<li>PHPLOC</li>
-<li>PHP_CodeSniffer</li>
-<li>hhvm-wrapper</li>
-<li>vfsStream</li>
-<li>PHP_Depend</li>
-<li>PHP Copy/Paste Detector</li>
-<li>phpDox</li>
-<li>Behat</li>
-<li>PHP Mess Detector</li>
-<li>PHP Dead Code Detector</li>
-<li>Jenkins PHP</li>
-</ol>
-
-
-<p>目前有用到的有</p>
 ]]></content>
   </entry>
   
