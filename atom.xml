@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-02T23:52:35+08:00</updated>
+  <updated>2014-10-03T23:40:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mixin and Trait in PHP]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php/"/>
+    <updated>2014-10-03T23:27:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h4>Mixin 設計模式</h4>
+
+<p><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript">mixinpatternjavascript</a>，將部分或是全部的類的屬性複製到另外一個類。</p>
+
+<h4>What is the Trait</h4>
+
+<p><a href="http://php.net/manual/en/language.oop5.traits.php">Trait</a> 是在 PHP 5.4 新增的特性，實現了類似 Mixin 模式的方法，讓開發者更容易讓程式碼 Reuse。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[第五回闇PHP勉強会]]></title>
@@ -428,20 +446,6 @@ docker run centos:latest cat /etc/centos-release
 
 
 <p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Compile Jdk Source Code]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/16/compile-jdk-source-code/"/>
-    <updated>2014-09-16T23:41:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/16/compile-jdk-source-code</id>
-    <content type="html"><![CDATA[<p>如何編譯 opend jdk 的 source code</p>
-
-<!-- more -->
-
-
-
 ]]></content>
   </entry>
   
