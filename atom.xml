@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-03T23:40:47+08:00</updated>
+  <updated>2014-10-04T23:23:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux 中分析記憶體的工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju/"/>
+    <updated>2014-10-04T23:18:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju</id>
+    <content type="html"><![CDATA[<p>列出一些網路上介紹的分析記憶體內容的工具</p>
+
+<!-- more -->
+
+
+<ol>
+<li>LiME</li>
+<li>Draugr</li>
+<li>Volatilitux</li>
+<li>Memfetch</li>
+<li>Memgrep</li>
+<li>Memdump</li>
+<li>foriana</li>
+</ol>
+
+
+<p>參考資料: [Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]</p>
+
+<p>[Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]:<a href="http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/">http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mixin and Trait in PHP]]></title>
@@ -432,20 +459,6 @@ docker run centos:latest cat /etc/centos-release
 
 <p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
 <a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Cluster]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/16/redis-cluster/"/>
-    <updated>2014-09-16T23:58:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/16/redis-cluster</id>
-    <content type="html"><![CDATA[<p>官方 redis  cluster 的規範 和 php-redis library 目前的情況</p>
-
-<!-- more -->
-
-
-<p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
 ]]></content>
   </entry>
   
