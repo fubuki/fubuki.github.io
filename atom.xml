@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-04T23:23:47+08:00</updated>
+  <updated>2014-10-05T22:37:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hadoop Lambda Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture/"/>
+    <updated>2014-10-05T22:16:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研討會上看到一個 <a href="http://lambda-architecture.net/">Lambda Architecture</a> 讓 hadoop 分析一些 Streaming data ，說明在需要一些需要即時分析資料並且回傳到前端的程式的情形下，
+資料處理速度需要非常快，因而採用了這樣一個架構， 目前我看到的組件是 hadoop 搭配 <a href="https://storm.incubator.apache.org/">storm</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 中分析記憶體的工具]]></title>
@@ -426,39 +439,6 @@ Sockert.io 分成哪些部分。</p>
 <p>之前在使用 node.js 搭建 WEB 聊天伺服器的時候，需要跟 PHP 端共用 session ，當時是使用 memcached 儲存 session 資訊，
 但是預設是使用 PHP 的序列化格式，所以換成 msgpack 和 igbinary 兩種格式測試，使用 <code>session_set_save_handler</code> 實現，
 如此一來透過 memcached 分享兩個平台的認證資訊。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install and Use docker.io]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io/"/>
-    <updated>2014-09-17T23:35:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io</id>
-    <content type="html"><![CDATA[<p>在 Centos 下安裝和使用 docker.io。</p>
-
-<!-- more -->
-
-
-<h3>安裝</h3>
-
-<pre><code>Centos
-yum install docker-io
-service docker start
-
-Ubuntu
-curl -sSL https://get.docker.io/ubuntu/ | sudo sh
-</code></pre>
-
-<h3>使用</h3>
-
-<pre><code>docker pull centos
-docker run centos:latest cat /etc/centos-release
-</code></pre>
-
-<h3>建立 LAMP 環境</h3>
-
-<p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
-<a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
 ]]></content>
   </entry>
   

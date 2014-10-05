@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Hadoop | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-04T23:23:47+08:00</updated>
+  <updated>2014-10-05T22:37:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hadoop Lambda Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture/"/>
+    <updated>2014-10-05T22:16:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研討會上看到一個 <a href="http://lambda-architecture.net/">Lambda Architecture</a> 讓 hadoop 分析一些 Streaming data ，說明在需要一些需要即時分析資料並且回傳到前端的程式的情形下，
+資料處理速度需要非常快，因而採用了這樣一個架構， 目前我看到的組件是 hadoop 搭配 <a href="https://storm.incubator.apache.org/">storm</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hadoop 版本]]></title>
