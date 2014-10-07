@@ -9,7 +9,7 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="記錄一下之後要研究和測試這兩種消息隊列。 ">
+  <meta name="description" content="目前測試過幾套mqtt broker，記錄一下使用過的心得和擴展方案。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,93 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/08/scaling-mqtt-server/">Scaling Mqtt Server</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-08T23:59:01+08:00" pubdate data-updated="true">Jun 8<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/06/08/scaling-mqtt-server/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/06/08/scaling-mqtt-server/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>目前測試過幾套mqtt broker，記錄一下使用過的心得和擴展方案。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/06/08/scaling-mqtt-server/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/">Facebook Login JavaScript SDK 在 Webview下的問題</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-06-06T22:31:54+08:00" pubdate data-updated="true">Jun 6<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
+，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout
+出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
+讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
+避免登入後會出現空白頁的問題。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -428,94 +515,6 @@ php 在使用memcached遇到的問題。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/21/line-developer-conference/">LINE Developer Conference</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-21T21:54:42+08:00" pubdate data-updated="true">May 21<span>st</span>, 2014</time>
-        
-           | <a href="/blog/2014/05/21/line-developer-conference/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/21/line-developer-conference/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>LINE Developer Conference</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/05/21/line-developer-conference/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/18/pycon-2014-second-day/">Pycon 2014 Second Day</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-05-18T19:30:24+08:00" pubdate data-updated="true">May 18<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/05/18/pycon-2014-second-day/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>記錄一下Pycon 2014第二天(5/18)參加的議程</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/05/18/pycon-2014-second-day/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/14/">&larr; Older</a>
@@ -533,6 +532,14 @@ php 在使用memcached遇到的問題。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/07/asterisk-pami-pagi/">Asterisk Pami Pagi</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/07/asterisk-realtime-architecture/">Asterisk Realtime Architecture</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/06/sip-library/">Sip Library</a>
       </li>
     
@@ -542,14 +549,6 @@ php 在使用memcached遇到的問題。</p>
     
       <li class="post">
         <a href="/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju/">Linux 中分析記憶體的工具</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/03/mixin-and-trait-in-php/">Mixin and Trait in PHP</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/">第五回闇PHP勉強会</a>
       </li>
     
   </ul>
@@ -612,7 +611,7 @@ php 在使用memcached遇到的問題。</p>
   <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
   <li><a href='/blog/categories/search-engine'>Search engine (4)</a></li>
   <li><a href='/blog/categories/server'>Server (1)</a></li>
-  <li><a href='/blog/categories/sip'>Sip (1)</a></li>
+  <li><a href='/blog/categories/sip'>Sip (3)</a></li>
   <li><a href='/blog/categories/socketio'>Socketio (6)</a></li>
   <li><a href='/blog/categories/solr'>Solr (1)</a></li>
   <li><a href='/blog/categories/sql'>Sql (1)</a></li>

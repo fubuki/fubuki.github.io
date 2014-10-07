@@ -9,9 +9,10 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
-去查網路都有推薦Node.js Module – exports vs module.exports這篇文章。
-">
+  <meta name="description" content="
+PageRank
+EdgeRank
+PeopleRank ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +81,95 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/26/pagerank-edgerank-peoplerank/">PageRank, EdgeRank, PeopleRank</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-26T21:22:05+08:00" pubdate data-updated="true">Mar 26<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/26/pagerank-edgerank-peoplerank/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ol>
+<li>PageRank</li>
+<li>EdgeRank</li>
+<li>PeopleRank</li>
+</ol>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/26/pagerank-edgerank-peoplerank/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/25/amazon-dynamo/">Amazon Dynamo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-25T21:40:25+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/03/25/amazon-dynamo/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/25/amazon-dynamo/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -403,85 +493,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/">Socketio 和 engine.io的差別</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-19T22:42:06+08:00" pubdate data-updated="true">Mar 19<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/19/scrapy-example-code/">Scrapy Example Code</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-03-19T22:06:39+08:00" pubdate data-updated="true">Mar 19<span>th</span>, 2014</time>
-        
-           | <a href="/blog/2014/03/19/scrapy-example-code/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>在scrapy官網上的scrapy範例。
-<a href="http://snipplr.com/all/tags/scrapy/">http://snipplr.com/all/tags/scrapy/</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/19/">&larr; Older</a>
@@ -499,6 +510,14 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/10/07/asterisk-pami-pagi/">Asterisk Pami Pagi</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/07/asterisk-realtime-architecture/">Asterisk Realtime Architecture</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/10/06/sip-library/">Sip Library</a>
       </li>
     
@@ -508,14 +527,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
     
       <li class="post">
         <a href="/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju/">Linux 中分析記憶體的工具</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/03/mixin-and-trait-in-php/">Mixin and Trait in PHP</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/">第五回闇PHP勉強会</a>
       </li>
     
   </ul>
@@ -578,7 +589,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
   <li><a href='/blog/categories/search-engine'>Search engine (4)</a></li>
   <li><a href='/blog/categories/server'>Server (1)</a></li>
-  <li><a href='/blog/categories/sip'>Sip (1)</a></li>
+  <li><a href='/blog/categories/sip'>Sip (3)</a></li>
   <li><a href='/blog/categories/socketio'>Socketio (6)</a></li>
   <li><a href='/blog/categories/solr'>Solr (1)</a></li>
   <li><a href='/blog/categories/sql'>Sql (1)</a></li>

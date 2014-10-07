@@ -955,12 +955,20 @@
         <lastmod>2014-10-06T23:53:51+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/10/07/asterisk-realtime-architecture/</loc>
+        <lastmod>2014-10-07T23:42:20+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi/</loc>
+        <lastmod>2014-10-07T23:46:41+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-06T23:53:51+08:00</lastmod>
+        <lastmod>2014-10-07T23:46:41+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -968,6 +976,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-06T23:53:51+08:00</lastmod>
+        <lastmod>2014-10-07T23:46:41+08:00</lastmod>
     </url>
 </urlset>

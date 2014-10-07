@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-06T23:53:57+08:00</updated>
+  <updated>2014-10-07T23:46:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk Pami Pagi]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi/"/>
+    <updated>2014-10-07T23:33:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 &ndash; Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk Realtime Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/07/asterisk-realtime-architecture/"/>
+    <updated>2014-10-07T23:32:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/07/asterisk-realtime-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>asterisk 可以透過 ODBC 跟 MySQL 連線然後在 MySQL 動態修改 sip user 的資訊，藉此不需要在 conf 裡面設定 sip user 的資訊。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sip Library]]></title>
@@ -414,38 +438,6 @@ Sockert.io 分成哪些部分。</p>
 
 <p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
 和一些 Javascript 的設計模式。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern/"/>
-    <updated>2014-09-20T23:21:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Javascript 的單例模式確保對象在全域環境下只會有一個實例。</p>
-
-<h3>使用全域變數實現</h3>
-
-<h3>使用閉包</h3>
-
-<h3>重寫 Constructor 構造函數</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LEGY (LINE Event Gateway)]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway/"/>
-    <updated>2014-09-19T23:44:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有機會看到 LINE　的整個架構圖的時候看到一個 LEGY 的區塊，看起來是負責跟 Client 端連結的部分，並且所有的平台都是透過 LEGY 跟後端程式連結，
-之後在 Line 的開發者大會跟一些 twitter上的訊息得知 LEGY (LINE Event Gateway) 使用 erlang 撰寫的組件，負責分發前端傳來的請求，據說之後會在 LINE Engineers&#8217; Blog 有
-更詳盡的介紹。</p>
 ]]></content>
   </entry>
   
