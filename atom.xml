@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-07T23:46:47+08:00</updated>
+  <updated>2014-10-08T23:42:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FreeSWITCH and Asterisk]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/08/freeswitch-and-asterisk/"/>
+    <updated>2014-10-08T23:27:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/08/freeswitch-and-asterisk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在書店找書的時候發現了一本 <code>FreeSWITCH权威指南</code>，因而發現了 <code>FreeSWITCH</code> 這套軟體，跟 Asterisk 一樣可以用來建構
+電話系統，然後在<code>FreeSWITCH背后的故事</code>這篇文章裡面有提到為何開發 FreeSWITCH。</p>
+
+<p>Asterisk 和 FreeSWITCH 在網路可以看到不少人在比較，似乎 FreeSWITCH 的效能比較高但是 Asterisk 比較老用的人似乎比較多，
+在中國那邊也有一個簡體中文的網站在專門介紹 FreeSWITCH，原本手上的工作是要用 Asterisk 不過有可能轉向使用 FreeSWITCH 試試。</p>
+
+<h3>FreeSWITCH 安裝方法</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Asterisk Pami Pagi]]></title>
@@ -425,19 +443,6 @@ Sockert.io 分成哪些部分。</p>
 <p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
 考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構，在 <a href="https://github.com/Automattic/socket.io/issues/1457">Scalability of socket.io 1.0 in Node.js cluster</a>
 裡面有提到一些可以參考的例子。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture/"/>
-    <updated>2014-09-20T23:41:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
-和一些 Javascript 的設計模式。</p>
 ]]></content>
   </entry>
   
