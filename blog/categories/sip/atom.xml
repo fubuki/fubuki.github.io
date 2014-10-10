@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sip | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sip/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-08T23:42:49+08:00</updated>
+  <updated>2014-10-10T22:25:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -28,6 +28,10 @@
 在中國那邊也有一個簡體中文的網站在專門介紹 FreeSWITCH，原本手上的工作是要用 Asterisk 不過有可能轉向使用 FreeSWITCH 試試。</p>
 
 <h3>FreeSWITCH 安裝方法</h3>
+
+<h4>從源碼安裝</h4>
+
+<h4>使用 apt 安裝</h4>
 ]]></content>
   </entry>
   

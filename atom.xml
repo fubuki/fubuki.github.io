@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-08T23:42:49+08:00</updated>
+  <updated>2014-10-10T22:25:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cucumber : BDD Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/10/cucumber-bdd-tool/"/>
+    <updated>2014-10-10T21:58:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/10/cucumber-bdd-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在看跟設計 API 有關的書，裡面提到了 <a href="http://cukes.info/">Cucumber</a>，讓開發者使用 <a href="https://github.com/cucumber/cucumber/wiki/Gherkin">Gherkin</a> 撰寫測試案例。</p>
+
+<h4>安裝</h4>
+
+<pre><code>composer global require 'behat/behat=2.4.*'
+</code></pre>
+
+<h4>撰寫</h4>
+
+<ol>
+<li>Features</li>
+<li>Scenarios</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/"/>
+    <updated>2014-10-09T23:36:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 之前新增了兩個資料類型 : Bitmap 和 HyperLogLogs，現在特別紀錄一下這兩種類型的差別和用途。</p>
+
+<h3>Bitmap</h3>
+
+<p>Bitmap 似乎是讓 string 類型可以有 bit 層級的操作命令，目前看起來可以用在紀錄會員活耀數。</p>
+
+<h3>HyperLogLogs</h3>
+
+<p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
+
+<p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[FreeSWITCH and Asterisk]]></title>
@@ -28,6 +75,10 @@
 在中國那邊也有一個簡體中文的網站在專門介紹 FreeSWITCH，原本手上的工作是要用 Asterisk 不過有可能轉向使用 FreeSWITCH 試試。</p>
 
 <h3>FreeSWITCH 安裝方法</h3>
+
+<h4>從源碼安裝</h4>
+
+<h4>使用 apt 安裝</h4>
 ]]></content>
   </entry>
   
@@ -397,52 +448,6 @@ aptitude install neo4j -y # Install Neo4j, community edition
 
 <p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
 在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[node.js and Php-fpm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/21/node-dot-js-and-php-fpm/"/>
-    <updated>2014-09-21T22:01:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/21/node-dot-js-and-php-fpm</id>
-    <content type="html"><![CDATA[<p>php-fpm 實現 fast-cgi 的規格來處理 php script，而 node.js 就可以透過 fast-cgi 執行跟 php-fpm 通信執行 php script。</p>
-
-<!-- more -->
-
-
-<p>網路上有一些已經時間 node.js 跟 fast-cgi 通信的 library，不過都有點舊，之前有實際跑了一下會有些問題，不過大致上
-從別人寫的 library 和 <a href="http://www.fastcgi.com/drupal/node/6?q=node/22">FastCGI Specification</a> 可以了解 fast-cgi 的通信接口，之後可以自己玩玩看。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/"/>
-    <updated>2014-09-21T21:43:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
-Sockert.io 分成哪些部分。</p>
-
-<ol>
-<li>engine.io</li>
-<li>engine.io-client</li>
-<li>engine.io-parser</li>
-<li>socket.io</li>
-<li>socket.io-adapter</li>
-<li>socket.io-client</li>
-<li>socket.io-parser</li>
-<li>socket.io-protocol</li>
-<li>socket.io-redis</li>
-<li>socket.io-emitter</li>
-</ol>
-
-
-<p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
-考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構，在 <a href="https://github.com/Automattic/socket.io/issues/1457">Scalability of socket.io 1.0 in Node.js cluster</a>
-裡面有提到一些可以參考的例子。</p>
 ]]></content>
   </entry>
   

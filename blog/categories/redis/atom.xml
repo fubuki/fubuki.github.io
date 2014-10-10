@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-08T23:42:49+08:00</updated>
+  <updated>2014-10-10T22:25:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/"/>
+    <updated>2014-10-09T23:36:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 之前新增了兩個資料類型 : Bitmap 和 HyperLogLogs，現在特別紀錄一下這兩種類型的差別和用途。</p>
+
+<h3>Bitmap</h3>
+
+<p>Bitmap 似乎是讓 string 類型可以有 bit 層級的操作命令，目前看起來可以用在紀錄會員活耀數。</p>
+
+<h3>HyperLogLogs</h3>
+
+<p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
+
+<p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Cluster]]></title>
@@ -78,32 +100,6 @@
 
 <pre><code>Redis Sentinel is a distributed *monitoring* system, with support for automatic failover.
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Keyspace Notifications]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications/"/>
-    <updated>2014-03-01T09:09:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications</id>
-    <content type="html"><![CDATA[<p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
-redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
-接受到相關的通知。</p>
-
-<!-- more -->
-
-
-<p>K     Keyspace events, published with <strong>keyspace@<db></strong> prefix.<br/>
-E     Keyevent events, published with <strong>keyevent@<db></strong> prefix.<br/>
-g     Generic commands (non-type specific) like DEL, EXPIRE, RENAME, &hellip;<br/>
-$     String commands<br/>
-l     List commands<br/>
-s     Set commands<br/>
-h     Hash commands<br/>
-z     Sorted set commands<br/>
-x     Expired events (events generated every time a key expires)<br/>
-e     Evicted events (events generated when a key is evicted for maxmemory)<br/>
-A     Alias for g$lshzxe, so that the &ldquo;AKE&rdquo; string means all the events.</p>
 ]]></content>
   </entry>
   

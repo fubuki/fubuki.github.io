@@ -964,7 +964,15 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/10/08/freeswitch-and-asterisk/</loc>
-        <lastmod>2014-10-08T23:41:55+08:00</lastmod>
+        <lastmod>2014-10-09T23:04:09+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/</loc>
+        <lastmod>2014-10-09T23:54:35+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/10/10/cucumber-bdd-tool/</loc>
+        <lastmod>2014-10-10T22:24:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -972,7 +980,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-08T23:41:55+08:00</lastmod>
+        <lastmod>2014-10-10T22:24:38+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -980,6 +988,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-08T23:41:55+08:00</lastmod>
+        <lastmod>2014-10-10T22:24:38+08:00</lastmod>
     </url>
 </urlset>
