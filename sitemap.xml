@@ -975,12 +975,16 @@
         <lastmod>2014-10-10T22:24:38+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/10/11/jsdc-2014-day-1/</loc>
+        <lastmod>2014-10-11T21:26:41+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-10T22:24:38+08:00</lastmod>
+        <lastmod>2014-10-11T21:26:41+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -988,6 +992,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-10T22:24:38+08:00</lastmod>
+        <lastmod>2014-10-11T21:26:41+08:00</lastmod>
     </url>
 </urlset>
