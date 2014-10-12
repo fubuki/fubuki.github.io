@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-11T22:19:54+08:00</updated>
+  <updated>2014-10-12T21:04:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC 2014 Day 2]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2/"/>
+    <updated>2014-10-12T20:46:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Panel Talk: Hello JSDC!</h3>
+
+<p>哪時需要開發一個新的 feacture libaray?</p>
+
+<p>程式開發而言是興趣還是工作?</p>
+
+<p>還有什麼其他興趣?</p>
+
+<p>如何規劃自己的時間</p>
+
+<p>如何變成專業的程式設計師?</p>
+
+<h3>Koa &ndash; Asynchronous Decorators as Middleware</h3>
+
+<p>列了一些 node.js clallback solutions</p>
+
+<p>ES6 Promises</p>
+
+<p>ES7 Async/Await with Promises</p>
+
+<p>Uses co for control flow</p>
+
+<h4>Koa vs. Express</h4>
+
+<ol>
+<li>Error handling</li>
+<li>Async/Await-style control folow</li>
+<li>Decorator pattern</li>
+</ol>
+
+
+<h4>Koa vs. Hapi</h4>
+
+<ol>
+<li>koa is lean, Hapi is robust</li>
+<li>Converntion (Hapi) vs. Configuration (Koa)</li>
+</ol>
+
+
+<h4>Koa 的使用場景</h4>
+
+<p>初學者使用 express ,團隊使用 hapi hapi 有良好的文件支援</p>
+
+<h3>Teaching Git and GitHub with Node.js</h3>
+
+<p>介紹 workshopper 這個開源專案，可以自己建立自己的教學工具。</p>
+
+<p>Git-it</p>
+
+<p>Use Git to Check Git</p>
+
+<p>Verifying lessons</p>
+
+<p>Git-it Lession</p>
+
+<p>介紹 Git-it Ecosystem</p>
+
+<p>使用 Request 呼叫 Github api</p>
+
+<p>reporobot server</p>
+
+<p><a href="https://education.github.com/pack">git-it</a></p>
+
+<h3>Leveraging ZMQ with Node.js</h3>
+
+<p>介紹 zeromq 並且支援那些通信方式。<br/>
+如何使用 zeromq 建立一個系統。</p>
+
+<h3>大型互聯網公司前端團隊的那些事兒</h3>
+
+<p>夜間模式:在環境光線太暗的時候將顏色變暗。</p>
+
+<p>使用JS控制圖片，讓圖片動起來。</p>
+
+<p>0.9 秒的故事:從 web 頁面轉成使用 navtive app。</p>
+
+<p>孔雀翎的故事:讓 PSD 自動轉成頁面。</p>
+
+<h3>Node.js, p2p and MAD SCIENCE</h3>
+
+<p>javascript and bittorrent</p>
+
+<p>bittorrent 的運作方式</p>
+
+<p><a href="https://github.com/mafintosh/torrent-stream">torrent-stream</a></p>
+
+<p><a href="https://github.com/mafintosh/peerwiki">peerflix</a>
+<a href="https://github.com/feross/instant.io">torrent-mount</a></p>
+
+<h3>GithHub 大冒險</h3>
+
+<p>GitHub 有 70%員工 遠端工作</p>
+
+<p>accessibility</p>
+
+<p>FRONT-END + DESIGN</p>
+
+<p>使用 hubot 執行自動化測試</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSDC 2014 Day 1]]></title>
@@ -514,40 +623,6 @@ aptitude install neo4j -y # Install Neo4j, community edition
 <h3>語法</h3>
 
 <h3>用途</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Socket.IO Meetup]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup/"/>
-    <updated>2014-09-23T23:51:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup</id>
-    <content type="html"><![CDATA[<p>在日本的一場跟 Socket.IO 有關的會議。</p>
-
-<!-- more -->
-
-
-<p><a href="http://www.ustream.tv/recorded/49506480">影片</a></p>
-
-<p>在尋找跟 socket.io-adapter 相關的資訊的時候找到的，<a href="http://connpass.com/event/6911/">Socket.IO Meetup</a> 有邀請到 socket.io 的作者 <code>Guillermo</code>，
-裡面有些 LT 很蠻有趣的， 然後重點在於 <code>Guillermo</code> 的 keynote，需要尋找一下演講內容。</p>
-
-<h3>MQTT.IO</h3>
-
-<p><a href="https://speakerdeck.com/hakobera/mqtt-dot-io">MATT.IO</a></p>
-
-<h3>socket.io on SmartFx</h3>
-
-<p>投影片在這 <a href="http://www.slideshare.net/ssuser69ee9b/socketio-on-smartfx">socketio-on-smartfx</a>，似乎是跟 FX 有關的公司，利用 socket.io 更新前端的資料，投影片裡面有寫他們是用 <a href="https://github.com/takeshy/socket.io-reqev">socket.io-reqev</a> 開發的，
-包裹 socket.io 的 framework，裡面比較有趣的部分是 socket.io 會將自身的狀態更新到資料庫然後 web server 會從 DB 裡面隨機選出一個 socket.io的連結給 client。</p>
-
-<h3>Web-based multitrack recording</h3>
-
-<p><a href="https://github.com/kuu/WebMTR">WebMTR</a></p>
-
-<h3>Socket.IO 1.0 Client For Java</h3>
-
-<p><a href="https://speakerdeck.com/nkzawa/socket-dot-io-1-dot-0-client-for-javafalseshao-jie">Socket.IO 1.0 Client for Java</a></p>
 ]]></content>
   </entry>
   

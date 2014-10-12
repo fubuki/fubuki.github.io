@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-11T22:19:54+08:00</updated>
+  <updated>2014-10-12T21:04:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,115 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC 2014 Day 2]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2/"/>
+    <updated>2014-10-12T20:46:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Panel Talk: Hello JSDC!</h3>
+
+<p>哪時需要開發一個新的 feacture libaray?</p>
+
+<p>程式開發而言是興趣還是工作?</p>
+
+<p>還有什麼其他興趣?</p>
+
+<p>如何規劃自己的時間</p>
+
+<p>如何變成專業的程式設計師?</p>
+
+<h3>Koa &ndash; Asynchronous Decorators as Middleware</h3>
+
+<p>列了一些 node.js clallback solutions</p>
+
+<p>ES6 Promises</p>
+
+<p>ES7 Async/Await with Promises</p>
+
+<p>Uses co for control flow</p>
+
+<h4>Koa vs. Express</h4>
+
+<ol>
+<li>Error handling</li>
+<li>Async/Await-style control folow</li>
+<li>Decorator pattern</li>
+</ol>
+
+
+<h4>Koa vs. Hapi</h4>
+
+<ol>
+<li>koa is lean, Hapi is robust</li>
+<li>Converntion (Hapi) vs. Configuration (Koa)</li>
+</ol>
+
+
+<h4>Koa 的使用場景</h4>
+
+<p>初學者使用 express ,團隊使用 hapi hapi 有良好的文件支援</p>
+
+<h3>Teaching Git and GitHub with Node.js</h3>
+
+<p>介紹 workshopper 這個開源專案，可以自己建立自己的教學工具。</p>
+
+<p>Git-it</p>
+
+<p>Use Git to Check Git</p>
+
+<p>Verifying lessons</p>
+
+<p>Git-it Lession</p>
+
+<p>介紹 Git-it Ecosystem</p>
+
+<p>使用 Request 呼叫 Github api</p>
+
+<p>reporobot server</p>
+
+<p><a href="https://education.github.com/pack">git-it</a></p>
+
+<h3>Leveraging ZMQ with Node.js</h3>
+
+<p>介紹 zeromq 並且支援那些通信方式。<br/>
+如何使用 zeromq 建立一個系統。</p>
+
+<h3>大型互聯網公司前端團隊的那些事兒</h3>
+
+<p>夜間模式:在環境光線太暗的時候將顏色變暗。</p>
+
+<p>使用JS控制圖片，讓圖片動起來。</p>
+
+<p>0.9 秒的故事:從 web 頁面轉成使用 navtive app。</p>
+
+<p>孔雀翎的故事:讓 PSD 自動轉成頁面。</p>
+
+<h3>Node.js, p2p and MAD SCIENCE</h3>
+
+<p>javascript and bittorrent</p>
+
+<p>bittorrent 的運作方式</p>
+
+<p><a href="https://github.com/mafintosh/torrent-stream">torrent-stream</a></p>
+
+<p><a href="https://github.com/mafintosh/peerwiki">peerflix</a>
+<a href="https://github.com/feross/instant.io">torrent-mount</a></p>
+
+<h3>GithHub 大冒險</h3>
+
+<p>GitHub 有 70%員工 遠端工作</p>
+
+<p>accessibility</p>
+
+<p>FRONT-END + DESIGN</p>
+
+<p>使用 hubot 執行自動化測試</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSDC 2014 Day 1]]></title>
@@ -774,193 +883,6 @@ CFF格式</p>
 <p>科技可以改變多事情</p>
 
 <p>洗衣機讓女權提升</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2014 Second Day]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day/"/>
-    <updated>2014-05-18T19:30:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/18/pycon-2014-second-day</id>
-    <content type="html"><![CDATA[<p>記錄一下Pycon 2014第二天(5/18)參加的議程</p>
-
-<!-- more -->
-
-
-<h3>Keynote: Jessica McKellar</h3>
-
-<p>在世界各地從海底到太空都有人使用到python</p>
-
-<p>data.goc.uk</p>
-
-<p>KLP</p>
-
-<p>python on windows</p>
-
-<p>python on mobile</p>
-
-<p>Can I build mobile apps in python</p>
-
-<p>kivy</p>
-
-<p>程式語言排行</p>
-
-<p>PyPL</p>
-
-<p>說到 emscripten asm.js nodejs</p>
-
-<p>Pythonjs skulpt brvthon  work with js</p>
-
-<p>interactivepython.org</p>
-
-<p>think in python</p>
-
-<p>bnmentp/runestone github</p>
-
-<p>PSF</p>
-
-<p>PyLadies</p>
-
-<p>Sprints</p>
-
-<p>Grants rapberry pi</p>
-
-<h3>What Is Async, How Does It Work, and When Should I Use It?</h3>
-
-<p>pubsub pattern</p>
-
-<p>提到c10k問題 實現非同步的做法</p>
-
-<p>前面大部分偷在講關於非同步的概念</p>
-
-<ol>
-<li>twisted</li>
-<li>tornado</li>
-</ol>
-
-
-<p>後面開始講 asyncio</p>
-
-<p>Yes:</p>
-
-<ul>
-<li>slow backend</li>
-<li>websockets</li>
-<li>many connections</li>
-</ul>
-
-
-<p>NO:</p>
-
-<ul>
-<li>cpu-bound</li>
-<li>no async driver</li>
-<li>no async expertise</li>
-</ul>
-
-
-<h3>Building a Knowledge Graph &ndash; the new search engine technology</h3>
-
-<p>介紹一下知識圖譜
-利用dbpedia(struct data from wiki) 的資料，使用python處理資料在丟在solr裡面。</p>
-
-<p>synonym SynonymFilterFactory</p>
-
-<p>介紹solr本身有的搜尋類型</p>
-
-<p>Data source</p>
-
-<p>data.gov.tw</p>
-
-<p>open api</p>
-
-<h3>How to integrate Python into a Scala stack to build realtime predictive models</h3>
-
-<p>異種語言平台
-跟ML沒有太大的關係。</p>
-
-<p>Fliptop machine learning</p>
-
-<ul>
-<li>mathout</li>
-<li>Weka</li>
-<li>Scikit-learn</li>
-</ul>
-
-
-<p>Weka GPL</p>
-
-<p>mathout有些演算法沒有完全實踐</p>
-
-<p>所以使用Scikit-learn，所以就介紹怎麼讓Python跟Scala黏合。</p>
-
-<h4>Jython</h4>
-
-<p>有些使用c寫成的python library就無法使用
-JyNI
-還是無法支援 Numpy</p>
-
-<h4>Jepp</h4>
-
-<p>會一直創建 python 直譯器</p>
-
-<h4>thrift</h4>
-
-<p>No scala generator
-scrooge</p>
-
-<p>auto load balance</p>
-
-<h4>REST API</h4>
-
-<p>bottle</p>
-
-<p>Thrift v.s. REST</p>
-
-<h3>Keynote: Stephen McDonald</h3>
-
-<p>主要在介紹作者寫的mezzanine專案</p>
-
-<p>mezzanine manage cms system</p>
-
-<p>mathspace.co
-kou.io</p>
-
-<p>cms > site</p>
-
-<p>講者怎麼建立 mezzanine
-<a href="http://bit.ly/MezzBegins">http://bit.ly/MezzBegins</a></p>
-
-<ol>
-<li>constraints</li>
-<li>simplicity</li>
-<li>just django</li>
-</ol>
-
-
-<p>bit.ly/MezzLego</p>
-
-<p>bit.ly/MezzPackages</p>
-
-<h3>以廣告品項為基礎的行動廣告推薦系統: 以 Python Hadoop Streaming 實作</h3>
-
-<p>廣告投放平台</p>
-
-<p>CTR
-Click Through rate</p>
-
-<p>Conversion Rate
-maximize converstions</p>
-
-<p>最後6分鐘才有重點</p>
-
-<h3>Poster Session</h3>
-
-<p>後面兩場議程都沒去聽，跑去聽Poster session。</p>
-
-<p>跟line的開發人員聊了不少關於line 的架構。<br/>
-另外看到<a href="http://raftconsensus.github.io/">raft</a>這個演算法，似乎是為了處理分散式系統一致的問題，另外有聽到JGroups這個工具似乎跟zookeeper是用來
-處理類似的東西。</p>
 ]]></content>
   </entry>
   
