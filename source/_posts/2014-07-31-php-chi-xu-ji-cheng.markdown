@@ -3,7 +3,7 @@ layout: post
 title: "PHP 持續集成 "
 date: 2014-07-31 23:49:14 +0800
 comments: true
-categories: ["PHP","continuous integration"]
+categories: ["php","continuous integration"]
 ---
 
 記錄建立持續集成環境。

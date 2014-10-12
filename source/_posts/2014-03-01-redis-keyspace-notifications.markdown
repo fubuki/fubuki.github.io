@@ -3,7 +3,7 @@ layout: post
 title: "Redis Keyspace Notifications"
 date: 2014-03-01 09:09:10 +0800
 comments: true
-categories: redis
+categories: ["redis"]
 ---
 http://redis.io/topics/notifications  
 redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能

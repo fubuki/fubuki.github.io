@@ -3,7 +3,7 @@ layout: post
 title: "D3.js"
 date: 2014-03-06 21:33:26 +0800
 comments: true
-categories: javascript
+categories: ["javascript"]
 ---
 
 資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。  

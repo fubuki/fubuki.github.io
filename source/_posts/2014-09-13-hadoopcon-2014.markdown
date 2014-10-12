@@ -1,0 +1,258 @@
+---
+layout: post
+title: "HadoopCon 2014"
+date: 2014-09-13 19:15:07 +0800
+comments: true
+categories: ['open source']
+---
+
+<!-- more -->
+
+
+###那些你知道的，但還沒看過的 Big Data 風景 – 致 Hadooper
+
+Fred 雲中象
+
+1. 社群
+2. 速度
+3. 資料科學
+4. Hadoop
+
+#### 國內 hadoop 圈子裡的人
+Jazz Wang
+
+	hadooper
+
+Wisely Chen
+
+	推廣 Spark
+
+#### 大資料處理上面處理的速度級別
+
+1. Batch
+2. Near Real-time
+3. Real-time
+
+####資料科學需要哪些方面的能力
+How a typical software vendor approaches Data Science  
+PRISM 稜鏡計畫  
+
+#### Hadoop 分成那些版本
+Hadoop 1  
+Hadoop 2
+
+###  Lambda Architecture Platform on SQL
+
+講者為Line 的員工  
+介紹一下講者和 Line office 目前在哪些地方
+
+####Data analytics workload
+
+####batch processing 
+
+####Stream Processing 
+
+1. Apache Storm 
+2. Norikra
+
+#### Why Stream Processing
+
+1. Less laterncy
+2. Less computing power
+3. No query schedule management
+
+#### Disadvantage of Stream Processing
+
+####Lambada Architecture Overview
+
+####Twitter Summingbird
+
+####Lambada Structure use sql
+
+####UseCases in LINE
+
+Prompt report for Ads service
+
+Summary of application server error log
+
+TMTOWTDI
+
+####A graph service for global web entities traversal and reputation evaluation based on HBase
+
+趨勢在那些問題上使用 hadoop
+
+Malware的數量不斷成長
+
+介紹趨勢防護分成那幾層
+
+ThreatWeb Threat Enities as a Graph
+
+將 Malware的行為轉換成 Graph 然後使用 PageRank 處理圖形問題 
+
+如何 store Graph data
+
+Property Graph Model
+
+使用 HBASE 存放 圖形資料
+
+分成 vertex edge 兩種 table
+
+####如何存取資料
+
+包裹 原本 HBASE的API
+
+blueprints API
+
+####效能
+
+HGraph
+
+PageRank Result
+ 
+DGA Discovered
+
+####Cleints
+
+Real time Client
+
+Batch Client
+
+Graph Exploring Tools
+
+
+#### SQL on Hadoop: a Perspective of a Cloud-based, Managed Service Provider
+
+SQL Players on Hadoop
+
+Hive
+Spark sql
+
+Presto 
+Impala
+Drill
+
+Norikra
+StreamSql
+
+Apache Tez
+
+####Why still use MapReduce
+
+####Presto `s history
+
+####Who use Presto
+
+####Why select Presto
+
+容易處理
+
+使用 SQL 語法
+
+Batch summary
+
+MapReduce -- based
+
+Hive with Tez
+
+Spark and Spark SQL is a good alternative
+
+### Norikra: Stream processing by SQL
+
+LINE 的 Analytics phalform team
+
+Norikra 使用 SQL 語法處理資料
+
+Esper EPL
+
+Wiht/Without Schema
+
+介紹一下 Norikra
+
+如何安裝 Norikra
+
+#### use case 1
+External API call report s for partners
+
+http://developers.linecorp.com/blog/?p=3386
+
+api error response summaries
+
+#### use case 2
+
+Prompt reports for Ad service console
+
+#### use case 3
+
+Realtime access dashboard on Google Platform
+
+Access log visualzation
+
+More queries more simplicity and less latency
+
+### Real-Time Streaming Data Computing for long-term undersea surveillance on top of Storm
+
+核三廠 排水口 監視資料
+
+介紹 Storm 的架構
+
+魚群辨識
+
+確認鏡頭情形
+
+scalability programing 
+
+DRPC
+
+海洋影像資料處理過程
+
+### Speed up Interactive Analytic Queries over Existing Big Data on Hadoop with Presto
+
+使用 Presto 分析在 hadoop 上面的資料。
+
+SQL on/over Hadoop
+
+Presto 的架構
+
+可以支援多種 Database
+
+Base on DAG model
+
+Query 怎麼在 Presto上運行
+
+Node 參數設定
+
+Presto`s Roadmap
+
+Data visualization with Presto - Demo
+
+Grafana
+
+### Mahout 資料分析基礎入門
+
+資料分析基礎入門
+
+分析工具
+
+1. scikit-learn
+2. R
+3. Weka, Matlab
+4. Mathout
+
+Introduction to apache mahout in youtube BTI360
+
+User Mode 直接使用內建指令
+
+Developer Mode 撰寫新的ML 演算法
+
+Hortonworks
+
+動動手玩推薦系統
+
+#### 參考資料
+Frequent pattern analysis
+
+Mahout fpgrowth
+
+
+
+

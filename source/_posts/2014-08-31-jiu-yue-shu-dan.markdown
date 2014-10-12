@@ -3,7 +3,7 @@ layout: post
 title: "九月書單"
 date: 2014-08-31 22:55:52 +0800
 comments: true
-categories: 
+categories: ["book lists"]
 ---
 
 <!-- more -->

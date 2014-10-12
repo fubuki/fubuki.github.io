@@ -3,7 +3,7 @@ layout: post
 title: "zookeeper"
 date: 2014-03-05 21:16:55 +0800
 comments: true
-categories: zookeeper
+categories: ["zookeeper"]
 ---
 
 Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，  

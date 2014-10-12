@@ -3,7 +3,7 @@ layout: post
 title: "docker.io 和 Vagrant"
 date: 2014-04-01 21:18:05 +0800
 comments: true
-categories: 
+categories: ["docker", "vargrant"]
 ---
 
 [docker.io] 是一種 [LXC (LinuX Containers)]，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，

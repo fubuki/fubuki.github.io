@@ -3,7 +3,7 @@ layout: post
 title: "PHPCI 安裝過程"
 date: 2014-08-02 23:49:24 +0800
 comments: true
-categories: ["PHP","continuous integration"]
+categories: ["php","continuous integration"]
 ---
 
 <!-- more -->

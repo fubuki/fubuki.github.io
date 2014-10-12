@@ -3,7 +3,7 @@ layout: post
 title: "COSCUP 2014 day 2"
 date: 2014-07-20 22:34:38 +0800
 comments: true
-categories: 
+categories: ['open source']
 ---
 
 記錄一下COSCUP 2014第二天(7/20)參加的議程

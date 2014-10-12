@@ -1,0 +1,151 @@
+---
+layout: post
+title: "JSDC 2014 Day 1"
+date: 2014-10-11 20:11:00 +0800
+comments: true
+categories: ["open source"]
+---
+
+<!-- more -->
+
+### Future of Enterprise Web Applications
+
+介紹一些建構js app工具
+
+js 框架
+
+What about micro-frameworks?
+
+主要介紹 ext js
+
+跟那些客戶合作開發應用
+
+
+### Use Node Modules In The Browser With Browserify
+
+js for cat
+
+art fo node
+
+browserfiy handbook
+
+nodeschool.io
+
+介紹 bowserify 的 plugin
+
+如何 npm 發布模組 
+
+介紹一些使用 bowserify 的有趣模組
+
+使用 bowserify 壓縮合併檔案
+
+### CNPM: 打造企業級私有NPM
+
+兩岸距離:最遙遠的距離
+
+Node.js in 誠品書店
+
+[scalenpm]
+[scalenpm]:https://scalenpm.org
+
+[Keeping The npm Registry Awesome]
+[Keeping The npm Registry Awesome]:http://blog.nodejs.org/2013/11/26/npm-post-mortem/
+
+為什麼要做CNPM
+
+CNPM 使用 MySQL 取代 Couchdb
+
+支付寶登入首頁使用 node.js
+
+
+### react/flux in Action
+
+React/Flux Facebook 開源的套件
+
+React 負責 view Flux 負責 model
+
+#### 誰在使用
+
+1. Facebook
+2. Instagram
+3. Github
+4. Firefox
+5. Yahoo Mail
+
+React 亮點
+* 元件式架構
+* VDOM虛擬頁面模型
+* JSX 標記語法
+
+####Flux 亮點
+
+* 一律重繪
+* 單向資料流
+
+My Feeling About AngularJS Over Time
+
+#### Case Study
+
+
+### Functional JavaScript, why or why not?
+
+
+[投影片]
+[投影片]:bit.ly/jsdc2014-funjs
+
+使用 Haskell 講解一些 Functional Programing 的概念。
+
+### RxJS for frontend developers.
+
+Observalbe : Collection + Time
+
+Rxjs 提供一些處理 async 的方法。
+
+### Micro Databases
+介紹一些小型資料庫。
+
+[Micro Databases]
+[Micro Databases]:https://github.com/substack/jsdc.tw-2014
+
+使用 Leveldb
+
+將資料存入 blob 格式裡
+
+hash-exchange
+
+forkdb
+
+有空可以玩玩 Leveldb 其他不太有興趣呀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

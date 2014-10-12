@@ -3,7 +3,7 @@ layout: post
 title: "LINE Developer Conference"
 date: 2014-05-21 21:54:42 +0800
 comments: true
-categories: 
+categories: ["LINE"]
 ---
 
 LINE Developer Conference

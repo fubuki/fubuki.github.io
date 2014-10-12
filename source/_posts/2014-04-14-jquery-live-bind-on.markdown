@@ -3,7 +3,7 @@ layout: post
 title: "jquery bind, live, delegate, on"
 date: 2014-04-14 21:28:39 +0800
 comments: true
-categories: ['jquery']
+categories: ['jQuery']
 ---
 
 jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
