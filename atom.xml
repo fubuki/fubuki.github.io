@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-12T21:04:58+08:00</updated>
+  <updated>2014-10-13T23:51:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Xhprof 測量 Php 函式效能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/13/xhprof-php/"/>
+    <updated>2014-10-13T23:45:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/13/xhprof-php</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有在尋找一些關於 PHP 除錯用的工具意外看到 <a href="https://github.com/phacility/xhprof">xhprof</a>，似乎可以測量 PHP function 層級的效能，之前在測試專案效能
+通常是透過 ab 去測試併發數，並沒有基於單一函式進行測試，透過這個工具應該更容易找出問題在哪，這邊有個<a href="https://blog.engineyard.com/collections/profiling-with-xhprof-and-xhgui/">教學</a>可以參考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSDC 2014 Day 2]]></title>
@@ -604,25 +617,6 @@ aptitude install neo4j -y # Install Neo4j, community edition
 <li><a href="http://inaz2.hatenablog.com/entry/2014/07/03/000900">Android版LINE Appの通信を覗いてみる</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/24/php-and-closure/"/>
-    <updated>2014-09-24T23:49:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/24/php-and-closure</id>
-    <content type="html"><![CDATA[<p>PHP 的閉包語法和用途。</p>
-
-<!-- more -->
-
-
-<p>PHP 在改版之後新增了一些其他語言的特性，閉包為其中一種，以前在撰寫 js 腳本的時候會用到閉包的結構，而 Lamdbda 比較像是
-從函數式語言來的。</p>
-
-<h3>語法</h3>
-
-<h3>用途</h3>
 ]]></content>
   </entry>
   

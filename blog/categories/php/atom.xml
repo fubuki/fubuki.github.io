@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-12T21:04:58+08:00</updated>
+  <updated>2014-10-13T23:51:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Xhprof 測量 Php 函式效能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/13/xhprof-php/"/>
+    <updated>2014-10-13T23:45:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/13/xhprof-php</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有在尋找一些關於 PHP 除錯用的工具意外看到 <a href="https://github.com/phacility/xhprof">xhprof</a>，似乎可以測量 PHP function 層級的效能，之前在測試專案效能
+通常是透過 ab 去測試併發數，並沒有基於單一函式進行測試，透過這個工具應該更容易找出問題在哪，這邊有個<a href="https://blog.engineyard.com/collections/profiling-with-xhprof-and-xhgui/">教學</a>可以參考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mixin and Trait in PHP]]></title>
@@ -75,19 +88,6 @@
 <p>之前在使用 node.js 搭建 WEB 聊天伺服器的時候，需要跟 PHP 端共用 session ，當時是使用 memcached 儲存 session 資訊，
 但是預設是使用 PHP 的序列化格式，所以換成 msgpack 和 igbinary 兩種格式測試，使用 <code>session_set_save_handler</code> 實現，
 如此一來透過 memcached 分享兩個平台的認證資訊。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Xdebug : PHP Debug 工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju/"/>
-    <updated>2014-09-13T23:44:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/13/xdebug-php-debug-gong-ju</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>xdebug 為一款 PHP 用的除錯工具，透過 pecl 安裝後在 php.ini 打開就可以使用了，然後可以搭配 Sublime text 2 的
-xdebug client 除錯，此外要在 chorme 安裝 xdebug 的插件後就可以直接通知 server 需要開啟 xdebug 的環境。</p>
 ]]></content>
   </entry>
   
