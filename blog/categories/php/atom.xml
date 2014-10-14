@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-13T23:51:52+08:00</updated>
+  <updated>2014-10-14T23:49:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 的加密方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/14/php-and-crypt/"/>
+    <updated>2014-10-14T22:09:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/14/php-and-crypt</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近需要生成一些加密字串，需要研究一下要採用哪種加密演算法， md5 跟 sha1 應該是不會列入考慮， 有可能會在 bcrypt 和 scrypt 兩者之間比較
+一下看是要選擇哪一個。</p>
+
+<ol>
+<li>crypt</li>
+<li>bcrypt</li>
+<li>scrypt</li>
+</ol>
+
+
+<h4>關於加密的文章</h4>
+
+<p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Xhprof 測量 Php 函式效能]]></title>
@@ -74,20 +98,6 @@
 <h3>語法</h3>
 
 <h3>用途</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP Session Handler]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/18/php-session-handler/"/>
-    <updated>2014-09-18T23:16:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/18/php-session-handler</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在使用 node.js 搭建 WEB 聊天伺服器的時候，需要跟 PHP 端共用 session ，當時是使用 memcached 儲存 session 資訊，
-但是預設是使用 PHP 的序列化格式，所以換成 msgpack 和 igbinary 兩種格式測試，使用 <code>session_set_save_handler</code> 實現，
-如此一來透過 memcached 分享兩個平台的認證資訊。</p>
 ]]></content>
   </entry>
   
