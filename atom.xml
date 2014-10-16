@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-15T23:45:14+08:00</updated>
+  <updated>2014-10-16T23:09:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elixir]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/16/elixir-language/"/>
+    <updated>2014-10-16T21:55:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/16/elixir-language</id>
+    <content type="html"><![CDATA[<p>elixir 基於 erlang vm 的一門函數式語言。</p>
+
+<!-- more -->
+
+
+<p>最近在網路上在看 o&#8217;reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
+發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
+ erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RESTful API 的版本控制]]></title>
@@ -609,30 +625,6 @@ serverDomain.run(function() {
 
 });
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[安裝和使用 Neo4j]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/27/an-zhuang-he-shi-yong-neo4j/"/>
-    <updated>2014-09-27T23:45:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/27/an-zhuang-he-shi-yong-neo4j</id>
-    <content type="html"><![CDATA[<p>如何安裝和使用 Neo4j</p>
-
-<!-- more -->
-
-
-<h4>安裝</h4>
-
-<pre><code>wget -O - http://debian.neo4j.org/neotechnology.gpg.key| apt-key add - # Import our signing key
-echo 'deb http://debian.neo4j.org/repo stable/' &gt; /etc/apt/sources.list.d/neo4j.list # Create an Apt sources.list file
-aptitude update -y # Find out about the files in our repository
-aptitude install neo4j -y # Install Neo4j, community edition
-</code></pre>
-
-<h4>使用</h4>
-
-<p>開啟 <a href="http://server-ip:7474%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%B8%80%E5%80%8B">http://server-ip:7474%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E4%B8%80%E5%80%8B</a> web admin 然後就可以開始玩 Neo4j</p>
 ]]></content>
   </entry>
   
