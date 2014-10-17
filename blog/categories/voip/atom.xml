@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Voip | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/voip/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-10-17T23:46:30+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Opus Codec]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/17/silk-codec/"/>
+    <updated>2014-10-17T23:37:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/17/silk-codec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>SILK 為 Skype 所使用的音訊編碼，有人跟我提過這個編碼蠻適合用在 VOIP 上面的編碼，
+後來去尋找相關資料發現一個 <a href="http://opus-codec.org/comparison/">opus-codec</a> 結合了 SILK 和 CELT 兩種編碼的優點然後 FreeSWITCH 也有支援，
+在 <a href="http://opus-codec.org/comparison/">opus-codec</a> 的官網上有關於編碼壓縮率和品質的比較圖，之後可以實際測試看看效果如何 。</p>
+]]></content>
+  </entry>
+  
+</feed>

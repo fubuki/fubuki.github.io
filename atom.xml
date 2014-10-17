@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-16T23:09:04+08:00</updated>
+  <updated>2014-10-17T23:46:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Opus Codec]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/17/silk-codec/"/>
+    <updated>2014-10-17T23:37:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/17/silk-codec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>SILK 為 Skype 所使用的音訊編碼，有人跟我提過這個編碼蠻適合用在 VOIP 上面的編碼，
+後來去尋找相關資料發現一個 <a href="http://opus-codec.org/comparison/">opus-codec</a> 結合了 SILK 和 CELT 兩種編碼的優點然後 FreeSWITCH 也有支援，
+在 <a href="http://opus-codec.org/comparison/">opus-codec</a> 的官網上有關於編碼壓縮率和品質的比較圖，之後可以實際測試看看效果如何 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elixir]]></title>
@@ -603,28 +617,6 @@ secret=pass<br/>
 密碼<br/>
 canreinvite=no<br/>
 host=dynamic</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Domains 處理 node.js 的 Expectation]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/28/shi-yong-domains-chu-li-node-dot-js-de-expectation/"/>
-    <updated>2014-09-28T22:47:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/28/shi-yong-domains-chu-li-node-dot-js-de-expectation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>寫 node.js 久了之後程式會慢慢變大因此有時會出現 <code>uncaughtException</code> 的問題，由於 node.js 異步的特性所以會無法抓取到錯誤並處理它，
-所以在 node.js 0.8 之後出現了 domains 的模組讓開發者使用。</p>
-
-<pre><code>var domain = require('domain');
-var d = domain.create();
-var serverDomain = domain.create();
-serverDomain.run(function() {
-
-
-});
-</code></pre>
 ]]></content>
   </entry>
   
