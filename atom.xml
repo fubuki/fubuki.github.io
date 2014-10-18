@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-17T23:46:30+08:00</updated>
+  <updated>2014-10-18T22:28:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,286 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHPConf Taiwan 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/18/phpconf-taiwan-2014/"/>
+    <updated>2014-10-18T21:44:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/18/phpconf-taiwan-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>新浪微博 LAMP 優化之路</h3>
+
+<p>PHP NG 主要作者<br/>
+每天20憶pv 50億 hits<br/>
+400台前端機器</p>
+
+<h4>2012年3月</h4>
+
+<p>使用 apache + php</p>
+
+<p>17w 行代碼導致很難維護</p>
+
+<ol>
+<li>性能優化</li>
+<li>架構優化</li>
+<li>基礎優化</li>
+<li>遠程優化</li>
+</ol>
+
+
+<p>Yaf c base framework 類似 phalcon
+只實現基本功能
+不需要 ORM</p>
+
+<h4>Weibo 擴展</h4>
+
+<ol>
+<li>Weibo conf</li>
+<li>Weibo Utils</li>
+</ol>
+
+
+<p>棄用 Smarty</p>
+
+<h4>結構優化 -解耦</h4>
+
+<ol>
+<li>Pagelate</li>
+<li>Bigpipe</li>
+</ol>
+
+
+<p>soa 的形式</p>
+
+<h4>結構優化 &ndash; Yar rpc framewrok</h4>
+
+<p>第一個 php和 rpc 並行的框架</p>
+
+<p>CBigpipe 加速</p>
+
+<p>前端 PHP 後端 C</p>
+
+<p>升級 PHP 5.4</p>
+
+<p>LAMP => LNMP</p>
+
+<p>踩了一些坑</p>
+
+<p>使用 Zend Optimizer Plus (O+) 替換 apcache</p>
+
+<p>快於7% 到 10%</p>
+
+<h4>性能優化 Yac</h4>
+
+<p>主要是無鎖共享
+使用 CRC 校驗資料使否出錯的問題</p>
+
+<h4>移動微博</h4>
+
+<p>移動佔到 70%以上</p>
+
+<p>服務器 cpu idel 5%</p>
+
+<p>PHP 異步調用</p>
+
+<p>jsond</p>
+
+<p>L0 和 L1 兩種類型的快取，分成本機和全域兩種</p>
+
+<p>為何使用無鎖? key 包含 CRC ，使用CRC跟值校驗 降低錯誤率</p>
+
+<h3>專案管理</h3>
+
+<p>本職 PM<br/>
+學生症候群<br/>
+寫書經驗</p>
+
+<h4>領導力</h4>
+
+<p>冒險心
+跳脫盒子
+嘗試</p>
+
+<h4>管理力</h4>
+
+<p>一致性
+遵循原則
+避免意外</p>
+
+<ol>
+<li>PM = 團隊的 API</li>
+<li>協助團隊看到全貌以便規劃調度</li>
+<li>統一方向與做事方法</li>
+</ol>
+
+
+<h4>總結</h4>
+
+<p>專案管理幫忙聚焦<br/>
+最小戰鬥單位的概念</p>
+
+<h3>whoscall &amp; mongodb</h3>
+
+<p>講者是 whoscall cto<br/>
+使用 mongodb 的經驗</p>
+
+<h4>What does Gogolook do?</h4>
+
+<p>Line whoscall<br/>
+Caller-ID Service<br/>
+介紹一下 mongodb 的基本性能
+1. mongos
+2. config server
+3. mongod</p>
+
+<h4>issue</h4>
+
+<p>0th gae &ndash;> aws<br/>
+Pass to laaS<br/>
+No operation issue in GAE<br/>
+MongoDB Production Notes<br/>
+Nginx + AWS Auto-Scalling</p>
+
+<p>The 1st issue<br/>
+Page Faults 很高<br/>
+Index are in Memorry  <br/>
+需要大量的 Memory<br/>
+刪除沒必要的 index<br/>
+升級 instance (scale-up)</p>
+
+<p>The 2nd issue<br/>
+資料量變大導致 DiskIO 問題<br/>
+需要更改 AWS 的設定</p>
+
+<p>The 3rd issue<br/>
+Lock rate 提高<br/>
+MongoDB concurrency<br/>
+一個 DB 只放 一個 collection<br/>
+其他方案
+非即時需要丟到 Queue 處理<br/>
+等 MongoDB 更新 document-lock的功能</p>
+
+<p>The 4th issue<br/>
+shard 間資料希望能平均<br/>
+由 config server 控制 <br/>
+三台 config server 之間的時間差異導致 balance 掛點因而loading 不平均。<br/>
+v2.6 可以 set time<br/>
+shard 時間不同步會導致交易時間不一致<br/>
+Object id 有使用到 timestamp 產生資料
+因此如果將時間調到過去的時間會導致 Object id 碰撞的問題</p>
+
+<p>Conclusion</p>
+
+<ol>
+<li>Index size fit in Memory</li>
+<li>Disk IO</li>
+<li>Database as Collection (&lt; 2.8)</li>
+<li>Time sync distributed system</li>
+</ol>
+
+
+<p>你還會選擇 MongoDB嗎?
+Redis
+elestic Search</p>
+
+<p>災後還原的方案</p>
+
+<h3>PHP Extension 開發實務 &ndash; 補齊 PHP 遺失的 $<em>PUT 與 $</em>DELETE (FirchTsai)</h3>
+
+<p>介紹一下 RESTful
+$<em>PUT<br/>
+$</em>DELETE<br/>
+違反了 RFC 2616 不應該實作到 PHP裡<br/>
+php://input<br/>
+處理 mulipart</p>
+
+<p>RFC 2388 mulipart 是什麼?</p>
+
+<p>別忘了 $_FILES</p>
+
+<p>EPV</p>
+
+<p>介紹Extension 的優點和架構<br/>
+主要是 SAPI 讓 server 與 php 溝通</p>
+
+<ol>
+<li>官方 Zend Extension API</li>
+<li>神秘版 Zend Extension API (for PHP4) 用來來知道有這個 API</li>
+<li>終極版 Zend Extension API == 直接看原始碼</li>
+</ol>
+
+
+<p>API 文件說明極少</p>
+
+<p>PHP_GINIT_FUNCTION
+PHP_GSHUTDOWN_FUNCTION</p>
+
+<p>PHP_MINIT_FUNCTION
+PHP_MSHUTDOWN_FUNCTION</p>
+
+<p>PHP_RINIT_FUNCTION
+PHP_RSHUTDOWN_FUNCTION</p>
+
+<p>PHP-FPM 直接將 model 掛載到身上因此不會多次呼叫 init 和 shutdown。</p>
+
+<p>config.m4 編譯環境<br/>
+config.w32</p>
+
+<p>php_epv.h 標頭檔<br/>
+epc.c 主要檔案</p>
+
+<p>編譯工具
+1. phpize
+2. configure
+3. make</p>
+
+<h3>Phalcon 進行式 (SDpower)</h3>
+
+<p>Phalcon Developer Tools<br/>
+講一些Phalcon 基礎大部分都用過了
+快速使用加密解密<br/>
+不可逆加密<br/>
+都是在 service.php 設定</p>
+
+<h3>Building Powerful command-line application with PHP (c9s)</h3>
+
+<p>主要是介紹 <a href="https://github.com/c9s/CLIFramework">CLIFramework</a>
+Features<br/>
+參考 GIT 的命令架構</p>
+
+<p>可以研究一下 zsh</p>
+
+<h3>實戰 HHVM Extension (Ricky)</h3>
+
+<p>介紹 HHVM</p>
+
+<p>Hack lang = 強型態的 PHP
+官方的文件
+goo.gl/PPB64m</p>
+
+<p>HHVM Extension requirement</p>
+
+<p>config.cmake</p>
+
+<p>fibionacci.php</p>
+
+<p>hphpize
+cmake
+make &amp;&amp; make install</p>
+
+<p>PHP檔案只能有一個並且要用 ext 開頭</p>
+
+<p>HNI(HHVM Native Interface)
+讓 Hack 和 C++ 混用
+類型互相對應</p>
+
+<p>RTFSC == Read The Fxck Source Code
+HHVM 密技<br/>
+JIT::VMRegAnchor</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Opus Codec]]></title>
@@ -582,41 +862,6 @@
 <li>設計模式的解析與活用</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Asterisk 的 sip.conf]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf/"/>
-    <updated>2014-09-29T23:28:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Astreisk 的 sip 設定位於 <code>/etc/asterisk/sip.conf</code>，設定完後使用 softphone 進行測試，另外 LINE 的 VoIP 是使用 sip 和 rtp 構成的。
-參考<a href="http://www.st-asterisk.com/">Asterisk基本設定ガイド</a>裡面的文章</p>
-
-<h3>設定檔</h3>
-
-<p>[general]<br/>
-context=default<br/>
-port=5060<br/>
-bindaddr=0.0.0.0<br/>
-srvlookup=yes<br/>
-disallow=all<br/>
-allow=ulaw<br/>
-allow=alaw<br/>
-allow=gsm<br/>
-language=zh-tw</p>
-
-<p>[201]<br/>
-type=friend<br/>
-類型有 peer user friend<br/>
-defaultuser=201<br/>
-secret=pass<br/>
-密碼<br/>
-canreinvite=no<br/>
-host=dynamic</p>
 ]]></content>
   </entry>
   
