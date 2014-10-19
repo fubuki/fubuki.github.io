@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-18T22:28:43+08:00</updated>
+  <updated>2014-10-19T20:54:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github 的 IDE : Atom]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/19/github-atom/"/>
+    <updated>2014-10-19T19:52:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/19/github-atom</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://atom.io/">Atom</a> 是 Github 基於 node.js + webkit 開發強調模組化的一款編輯器，看過源碼可以知道是使用 CoffeeScript 和 LESS 撰寫的，
+因此如果是 web 的開發者也能修改界面，裡面也集成了一些還蠻實用的功能，網路上有人說會有些不順的感覺不過我下載執行感覺起來還蠻順的，
+有些工作上要使用的 Package 也有人開發，之後如果使用順利的話會從 ST 換成 Atom。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHPConf Taiwan 2014]]></title>
@@ -844,24 +858,6 @@ JIT::VMRegAnchor</p>
 
 <pre><code>ls /var/lib/asterisk/static-http/config &amp;&amp; rm -rf /usr/share/asterisk/static-http &amp;&amp; ln -s /var/lib/asterisk/static-http /usr/share/asterisk/static-http
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[十月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/30/shi-yue-shu-dan/"/>
-    <updated>2014-09-30T22:13:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/30/shi-yue-shu-dan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>Build APIs You Won&rsquo;t Hate</li>
-<li>告別瀑布，擁抱 Scrum：解析微軟與 Adobe 如何在 30 天內開發出新軟體</li>
-<li>學徒模式：優秀軟體開發者的養成之路</li>
-<li>設計模式的解析與活用</li>
-</ol>
-
 ]]></content>
   </entry>
   

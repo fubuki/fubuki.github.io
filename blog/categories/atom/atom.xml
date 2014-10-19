@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Atom | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/atom/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-10-19T20:54:57+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Github 的 IDE : Atom]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/19/github-atom/"/>
+    <updated>2014-10-19T19:52:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/19/github-atom</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://atom.io/">Atom</a> 是 Github 基於 node.js + webkit 開發強調模組化的一款編輯器，看過源碼可以知道是使用 CoffeeScript 和 LESS 撰寫的，
+因此如果是 web 的開發者也能修改界面，裡面也集成了一些還蠻實用的功能，網路上有人說會有些不順的感覺不過我下載執行感覺起來還蠻順的，
+有些工作上要使用的 Package 也有人開發，之後如果使用順利的話會從 ST 換成 Atom。</p>
+]]></content>
+  </entry>
+  
+</feed>
