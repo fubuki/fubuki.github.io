@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-19T20:54:57+08:00</updated>
+  <updated>2014-10-20T22:53:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chocolatey : Windows 的套件管理工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/20/chocolatey/"/>
+    <updated>2014-10-20T21:53:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/20/chocolatey</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://chocolatey.org/">chocolatey</a> 是一款 Windows 用的套件管理工具，類似 Ubuntu 的 apt 和 Centos 的 yum，看了一下官網支援不少
+開源套件讓使用者能夠一個指令將軟體安裝好，此外也有 GUI 介面可以使用，目前看起來一些在 Linux 上面的開發套件都已經
+可以透過 <a href="https://chocolatey.org/">chocolatey</a> 安裝。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github 的 IDE : Atom]]></title>
@@ -832,32 +846,6 @@ JIT::VMRegAnchor</p>
 <p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
 目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
 提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[安裝 Asterisk GUI]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui/"/>
-    <updated>2014-10-01T23:30:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近裝完 Ansterisk 後需要一個方便的 web 介面管理，在網路上找了一下就先使用了看起來很簡單的 <code>Asterisk GUI</code>。</p>
-
-<h4>安裝</h4>
-
-<p>可以使用 yum 或是直接下載源碼安裝，我是直接使用 yum安裝。</p>
-
-<pre><code>yum install asterisk-gui
-</code></pre>
-
-<h4>設定</h4>
-
-<p>需要設定 <code>http.conf</code> 和 <code>manager.conf</code> 這兩個檔案，這兩個檔案都在 <code>/etc/asterisk/</code> 底下，設定檔裡面都有簡單的說明，只要參照裡面的說明開啟選項即可，但是如果使用 yum 安裝似乎會有問題需要設定軟連結才能正確的開啟 Asterisk GUI。</p>
-
-<pre><code>ls /var/lib/asterisk/static-http/config &amp;&amp; rm -rf /usr/share/asterisk/static-http &amp;&amp; ln -s /var/lib/asterisk/static-http /usr/share/asterisk/static-http
-</code></pre>
 ]]></content>
   </entry>
   

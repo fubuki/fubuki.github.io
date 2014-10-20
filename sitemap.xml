@@ -1008,7 +1008,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/10/19/github-atom/</loc>
-        <lastmod>2014-10-19T20:54:45+08:00</lastmod>
+        <lastmod>2014-10-19T21:26:52+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/10/20/chocolatey/</loc>
+        <lastmod>2014-10-20T22:53:05+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -1016,7 +1020,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-19T20:54:45+08:00</lastmod>
+        <lastmod>2014-10-20T22:53:05+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1024,6 +1028,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-19T20:54:45+08:00</lastmod>
+        <lastmod>2014-10-20T22:53:05+08:00</lastmod>
     </url>
 </urlset>
