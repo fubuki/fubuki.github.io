@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-20T22:53:14+08:00</updated>
+  <updated>2014-10-21T23:48:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Freeswitch 動態更改 Sip 使用者資訊]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/21/freeswitch-xml-curl/"/>
+    <updated>2014-10-21T22:29:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/21/freeswitch-xml-curl</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>freeswitch 預設是透過將 sip 使用者資訊寫入一份 xml 檔案，不過可以透過一些方法動態增加使用者資訊，
+目前可以透過 <code>xml_curl</code> 這個模塊將 freeswitch 一些行為使用 curl 的方式跟外部 server 連接認證使用者資料。</p>
+
+<h4>安裝 xml_curl</h4>
+
+<h4>載入 xml_curl</h4>
+
+<h4>設定 Freeswitch-Contrib</h4>
+
+<h4>動態增加使用者資料</h4>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Chocolatey : Windows 的套件管理工具]]></title>
@@ -832,20 +853,6 @@ JIT::VMRegAnchor</p>
 <h4>What is the Trait</h4>
 
 <p><a href="http://php.net/manual/en/language.oop5.traits.php">Trait</a> 是在 PHP 5.4 新增的特性，實現了類似 Mixin 模式的方法，讓開發者更容易讓程式碼 Reuse。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[第五回闇PHP勉強会]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/"/>
-    <updated>2014-10-02T23:35:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
-目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
-提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
 ]]></content>
   </entry>
   
