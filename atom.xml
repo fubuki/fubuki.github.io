@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-21T23:48:26+08:00</updated>
+  <updated>2014-10-22T23:08:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/22/git-patch/"/>
+    <updated>2014-10-22T22:28:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/22/git-patch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>有時需要將一些在本機上開發專案產生的修改部分丟給別人就可以使用 git 的 patch 功能。</p>
+
+<h3>git format-patch</h3>
+
+<p>git 本身用來製作 patch 的指令。</p>
+
+<pre><code>git format-patch
+git am xxx.patch
+</code></pre>
+
+<h3>git diff patch</h3>
+
+<p>使用 git diff 產生的 patch。</p>
+
+<pre><code>git diff prev_commit commit &gt; patch.diff 
+git apply patch.diff 
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Freeswitch 動態更改 Sip 使用者資訊]]></title>
@@ -835,24 +863,6 @@ JIT::VMRegAnchor</p>
 <p>參考資料: [Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]</p>
 
 <p>[Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]:<a href="http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/">http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mixin and Trait in PHP]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php/"/>
-    <updated>2014-10-03T23:27:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h4>Mixin 設計模式</h4>
-
-<p><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript">mixinpatternjavascript</a>，將部分或是全部的類的屬性複製到另外一個類。</p>
-
-<h4>What is the Trait</h4>
-
-<p><a href="http://php.net/manual/en/language.oop5.traits.php">Trait</a> 是在 PHP 5.4 新增的特性，實現了類似 Mixin 模式的方法，讓開發者更容易讓程式碼 Reuse。</p>
 ]]></content>
   </entry>
   

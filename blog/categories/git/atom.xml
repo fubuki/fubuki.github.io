@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-21T23:48:26+08:00</updated>
+  <updated>2014-10-22T23:08:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/22/git-patch/"/>
+    <updated>2014-10-22T22:28:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/22/git-patch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>有時需要將一些在本機上開發專案產生的修改部分丟給別人就可以使用 git 的 patch 功能。</p>
+
+<h3>git format-patch</h3>
+
+<p>git 本身用來製作 patch 的指令。</p>
+
+<pre><code>git format-patch
+git am xxx.patch
+</code></pre>
+
+<h3>git diff patch</h3>
+
+<p>使用 git diff 產生的 patch。</p>
+
+<pre><code>git diff prev_commit commit &gt; patch.diff 
+git apply patch.diff 
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Cherry-pick]]></title>
@@ -63,29 +91,6 @@
 
 <p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
 所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 學習資源]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan/"/>
-    <updated>2014-08-09T22:58:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/09/git-xue-xi-zi-yuan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>紀錄一下本身用來學習 Git 的資源</p>
-
-<ol>
-<li><a href="http://rogerdudler.github.io/git-guide/index.html">git &ndash; 简明指南</a></li>
-<li><a href="https://try.github.io/">Try Git</a></li>
-<li><a href="http://gitbook.liuhui998.com/">Git Community Book 中文版</a></li>
-<li><a href="http://git-scm.com/book/zh-tw">Pro Git book</a></li>
-<li>Version Control with Git</li>
-<li><a href="http://pcottle.github.io/learnGitBranching/">learnGitBranching</a></li>
-<li>Git权威指南</li>
-</ol>
-
 ]]></content>
   </entry>
   
