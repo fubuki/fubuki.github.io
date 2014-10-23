@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-23T21:30:07+08:00</updated>
+  <updated>2014-10-23T23:22:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook React]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/23/facebook-react/"/>
+    <updated>2014-10-23T23:04:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/23/facebook-react</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在參加 jsdc 2014 時看到一個很有趣的東西: react 和 flux， facebook 放出的開源專案，可以讓開發者很簡單的去建構前端服務，
+下面是他在<a href="http://facebook.github.io/react/index.html">官網</a>上面提到的特性，根據從在 jsdc 的議程聽到的部分似乎是很好上手的框架，從目前用過一些前端的框架雖然不能說
+哪個框架比較強大，但是這個 react 應該蠻適合團隊開發的，在開發前端的時候可以看到不少人沒有真的去了解前端閱覽器渲染的過程，
+導致寫出十分耗用資源的 javascript，但是透過 Virtual DOM 可以避免這種情形，這是我目前看到最吸引我的特點。</p>
+
+<ol>
+<li>JUST THE UI</li>
+<li>Virtual DOM</li>
+<li>Data flow</li>
+</ol>
+
+
+<p>學習資源:<a href="https://egghead.io/articles/gentle-introduction-to-the-react-flux-architecture">Gentle Introduction to the React Flux Architecture</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
@@ -69,34 +93,6 @@
 <p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
 看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
 移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery Mobile Vclick , Tap and Click]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click/"/>
-    <updated>2014-08-11T22:52:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/11/jquery-mobile-vclick-tap-and-click</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>工作上有需要製作Mobile Device用的網頁，以前有聽過有些閱覽器有些事件是不太一樣的，特此在這
-紀錄一下幾種點擊事件。
-可以參考<a href="http://stackoverflow.com/questions/15274809/in-jquery-mobile-whats-the-diff-between-tap-and-vclick">in-jquery-mobile-whats-the-diff-between-tap-and-vclick</a></p>
-
-<h3>Click</h3>
-
-<p>手機和桌面閱覽器都有支援，在 <code>android</code> 會有 Visible delay</p>
-
-<h3>Tap</h3>
-
-<p>只有手機閱覽器支援, no delay</p>
-
-<h3>VClick</h3>
-
-<p>手機和桌面閱覽器都有支援 no delay</p>
-
-<p>目前看到有人同時使用 <code>click</code> 和 <code>vclick</code> 綁定，使用上要注意的應該是 Visible delay。</p>
 ]]></content>
   </entry>
   

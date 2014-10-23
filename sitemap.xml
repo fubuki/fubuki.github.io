@@ -1023,12 +1023,16 @@
         <lastmod>2014-10-22T23:08:38+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/10/23/facebook-react/</loc>
+        <lastmod>2014-10-23T23:22:30+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-23T21:29:57+08:00</lastmod>
+        <lastmod>2014-10-23T23:22:30+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1036,6 +1040,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-23T21:29:57+08:00</lastmod>
+        <lastmod>2014-10-23T23:22:30+08:00</lastmod>
     </url>
 </urlset>

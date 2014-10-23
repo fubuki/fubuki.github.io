@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-23T21:30:07+08:00</updated>
+  <updated>2014-10-23T23:22:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook React]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/23/facebook-react/"/>
+    <updated>2014-10-23T23:04:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/23/facebook-react</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在參加 jsdc 2014 時看到一個很有趣的東西: react 和 flux， facebook 放出的開源專案，可以讓開發者很簡單的去建構前端服務，
+下面是他在<a href="http://facebook.github.io/react/index.html">官網</a>上面提到的特性，根據從在 jsdc 的議程聽到的部分似乎是很好上手的框架，從目前用過一些前端的框架雖然不能說
+哪個框架比較強大，但是這個 react 應該蠻適合團隊開發的，在開發前端的時候可以看到不少人沒有真的去了解前端閱覽器渲染的過程，
+導致寫出十分耗用資源的 javascript，但是透過 Virtual DOM 可以避免這種情形，這是我目前看到最吸引我的特點。</p>
+
+<ol>
+<li>JUST THE UI</li>
+<li>Virtual DOM</li>
+<li>Data flow</li>
+</ol>
+
+
+<p>學習資源:<a href="https://egghead.io/articles/gentle-introduction-to-the-react-flux-architecture">Gentle Introduction to the React Flux Architecture</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
@@ -836,33 +860,6 @@ JIT::VMRegAnchor</p>
 
 <p>最近在研討會上看到一個 <a href="http://lambda-architecture.net/">Lambda Architecture</a> 讓 hadoop 分析一些 Streaming data ，說明在需要一些需要即時分析資料並且回傳到前端的程式的情形下，
 資料處理速度需要非常快，因而採用了這樣一個架構， 目前我看到的組件是 hadoop 搭配 <a href="https://storm.incubator.apache.org/">storm</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux 中分析記憶體的工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju/"/>
-    <updated>2014-10-04T23:18:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/04/linux-zhong-fen-xi-ji-yi-ti-de-gong-ju</id>
-    <content type="html"><![CDATA[<p>列出一些網路上介紹的分析記憶體內容的工具</p>
-
-<!-- more -->
-
-
-<ol>
-<li>LiME</li>
-<li>Draugr</li>
-<li>Volatilitux</li>
-<li>Memfetch</li>
-<li>Memgrep</li>
-<li>Memdump</li>
-<li>foriana</li>
-</ol>
-
-
-<p>參考資料: [Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]</p>
-
-<p>[Top 8 Tools To Search Memory Under Linux / Unix [ Forensics Analysis]:<a href="http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/">http://www.cyberciti.biz/programming/linux-memory-forensics-analysis-tools/</a></p>
 ]]></content>
   </entry>
   
