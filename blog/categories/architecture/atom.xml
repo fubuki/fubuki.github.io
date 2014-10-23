@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-10-23T21:30:07+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[淘寶技術這十年]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/"/>
+    <updated>2014-09-22T23:53:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
+在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
+
+<h5>書中提到的技術列表</h5>
+
+<ol>
+<li><a href="http://tair.taobao.org/">tair</a></li>
+<li><a href="http://code.taobao.org/p/tfs/src/">tfs</a></li>
+<li><a href="http://sqlrelay.sourceforge.net/">sqlrelay</a></li>
+<li><a href="https://github.com/alibaba/cobar">cobar</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
