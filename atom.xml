@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-23T23:22:37+08:00</updated>
+  <updated>2014-10-24T22:27:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSON Web Token]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/24/json-web-token/"/>
+    <updated>2014-10-24T21:48:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/24/json-web-token</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 socket.io 時看到了一個東西； <a href="http://jwt.io/]">jwt</a> ， 後來在 mosca 也看到了相同的東西，尋找之後發現全名為 <code>JSON Web Token</code>，
+是用在加密 API 的回傳值，<a href="http://www.sitepoint.com/using-json-web-tokens-node-js/">Using JSON Web Tokens with Node.js</a> 這篇文章裡面有寫說 jwt 是怎麼加密，然後在 <a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-19">ietf</a> 有更詳細的規格，
+另外在 <a href="https://docs.auth0.com/scenarios-mqtt">Authenticating &amp; Authorizing Devices using MQTT with Auth0</a> 有寫如何跟 mosca server 一起使用，目前看起來是可以期待未來用在工作上面
+，github 上面已經有些範例和函式庫可以使用，也許可以用在目前有使用 mqtt 的應用程式上面提高安全性。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook React]]></title>
@@ -847,19 +862,6 @@ JIT::VMRegAnchor</p>
 <li><a href="http://doubango.org/">doubango</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hadoop Lambda Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture/"/>
-    <updated>2014-10-05T22:16:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/05/hadoop-lambda-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研討會上看到一個 <a href="http://lambda-architecture.net/">Lambda Architecture</a> 讓 hadoop 分析一些 Streaming data ，說明在需要一些需要即時分析資料並且回傳到前端的程式的情形下，
-資料處理速度需要非常快，因而採用了這樣一個架構， 目前我看到的組件是 hadoop 搭配 <a href="https://storm.incubator.apache.org/">storm</a>。</p>
 ]]></content>
   </entry>
   
