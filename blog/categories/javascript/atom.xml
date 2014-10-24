@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-24T22:27:33+08:00</updated>
+  <updated>2014-10-24T22:29:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSON Web Token]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/24/json-web-token/"/>
+    <updated>2014-10-24T21:48:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/24/json-web-token</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 socket.io 時看到了一個東西； <a href="http://jwt.io/]">jwt</a> ， 後來在 mosca 也看到了相同的東西，尋找之後發現全名為 <code>JSON Web Token</code>，
+是用在加密 API 的回傳值，<a href="http://www.sitepoint.com/using-json-web-tokens-node-js/">Using JSON Web Tokens with Node.js</a> 這篇文章裡面有寫說 jwt 是怎麼加密，然後在 <a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-19">ietf</a> 有更詳細的規格，
+另外在 <a href="https://docs.auth0.com/scenarios-mqtt">Authenticating &amp; Authorizing Devices using MQTT with Auth0</a> 有寫如何跟 mosca server 一起使用，目前看起來是可以期待未來用在工作上面
+，github 上面已經有些範例和函式庫可以使用，也許可以用在目前有使用 mqtt 的應用程式上面提高安全性。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook React]]></title>
@@ -79,20 +94,6 @@
 <p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
 之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
 檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tracking.js 臉部辨識的函式庫]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku/"/>
-    <updated>2014-08-16T23:06:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/16/tracking-dot-js-lian-bu-bian-shi-de-han-shi-ku</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日前在 infoq 看到一個跟臉部識別的函式庫 <a href="http://trackingjs.com/">trackingjs</a>，裡面包含了一些圖像處理的演算法，
-看官網上的說明和範例可以玩的範圍還蠻大的， 如果可以了話也許能夠把以前使用opencv製作的功能
-移植到閱覽器上面，另外 官網上有個 <a href="http://trackingjs.com/examples/color_hexgl.html">racing car</a> 的範例還蠻有趣的，利用這個函式庫寫出一個賽車遊戲。</p>
 ]]></content>
   </entry>
   
