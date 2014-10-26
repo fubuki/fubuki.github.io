@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-25T23:47:46+08:00</updated>
+  <updated>2014-10-26T17:00:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,76 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php Timeout]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/26/php-timeout/"/>
+    <updated>2014-10-26T13:38:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/26/php-timeout</id>
+    <content type="html"><![CDATA[<p>控制 PHP 的最長執行時間。</p>
+
+<!-- more -->
+
+
+<p>在執行 PHP 腳本的時候有可能因為程式邏輯上的問題或是為了取得外部的資料導致執行時間過久，而讓使用者等待回應的時間過長帶來不好的體驗，
+因此在 PHP 本身一些常用的函式庫或是伺服器設定會讓開發者設定 timeout 的時間。</p>
+
+<h4>nginx</h4>
+
+<ol>
+<li>fastcgi_connect_timeout</li>
+<li>fastcgi_send_timeout</li>
+<li>fastcgi_read_timeout</li>
+</ol>
+
+
+<h4>php-fpm</h4>
+
+<ol>
+<li>php-fpm.conf 的 request_terminate_timeout</li>
+</ol>
+
+
+<p>max_execution_time 和 set_time_limit 也能限制腳本執行的時間但是似乎在某些場景是有問題的。</p>
+
+<h4>curl</h4>
+
+<ol>
+<li>CURLOPT_TIMEOUT</li>
+<li>CURLOPT_TIMEOUT_MS</li>
+<li>CURLOPT_CONNECTTIMEOUT</li>
+<li>CURLOPT_CONNECTTIMEOUT_MS</li>
+<li>CURLOPT_DNS_CACHE_TIMEOUT</li>
+</ol>
+
+
+<h4>mysql</h4>
+
+<ol>
+<li>innodb_lock_wait_timeout</li>
+<li>libmysql 的 MYSQL_OPT_READ_TIMEOUT 和 MYSQL_OPT_WRITE_TIMEOUT</li>
+</ol>
+
+
+<h4>memcached</h4>
+
+<ol>
+<li>bool Memcache::connect ( string $host [, int $port [, int $timeout ]] )</li>
+<li>Memcached 要另外實現</li>
+</ol>
+
+
+<h4>redis</h4>
+
+<ol>
+<li>$redis->connect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5); // 2.5 sec timeout.</li>
+<li>$redis->pconnect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5, &lsquo;x&rsquo;); // x is sent as persistent_id and would be another connection the the three before.</li>
+</ol>
+
+
+<h4>其他</h4>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 的加密方案]]></title>
@@ -79,25 +149,6 @@
 <p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
 目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
 提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 的 Lambda 和 Closure]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/24/php-and-closure/"/>
-    <updated>2014-09-24T23:49:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/24/php-and-closure</id>
-    <content type="html"><![CDATA[<p>PHP 的閉包語法和用途。</p>
-
-<!-- more -->
-
-
-<p>PHP 在改版之後新增了一些其他語言的特性，閉包為其中一種，以前在撰寫 js 腳本的時候會用到閉包的結構，而 Lamdbda 比較像是
-從函數式語言來的。</p>
-
-<h3>語法</h3>
-
-<h3>用途</h3>
 ]]></content>
   </entry>
   
