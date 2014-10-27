@@ -1036,7 +1036,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/10/26/php-timeout/</loc>
-        <lastmod>2014-10-26T17:00:36+08:00</lastmod>
+        <lastmod>2014-10-27T22:59:15+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/10/27/android-unique-id/</loc>
+        <lastmod>2014-10-27T23:31:50+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -1044,7 +1048,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-10-26T17:00:36+08:00</lastmod>
+        <lastmod>2014-10-27T23:31:50+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1052,6 +1056,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-10-26T17:00:36+08:00</lastmod>
+        <lastmod>2014-10-27T23:31:50+08:00</lastmod>
     </url>
 </urlset>

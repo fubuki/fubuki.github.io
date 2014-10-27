@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-26T17:00:45+08:00</updated>
+  <updated>2014-10-27T23:31:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,43 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Php Timeout]]></title>
+    <title type="html"><![CDATA[Android Unique Id]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/27/android-unique-id/"/>
+    <updated>2014-10-27T22:59:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/27/android-unique-id</id>
+    <content type="html"><![CDATA[<p>如何取得 android 裝置的唯一編號。</p>
+
+<!-- more -->
+
+
+<p>目前有一些用來識別是否為同一個裝置的方法，不過都有各自的問題。</p>
+
+<ol>
+<li><p>Mac Address
+在沒有 wifi 或是沒有開啟 wifi 的裝置就無法取得 Mac Address。</p></li>
+<li><p>DeviceId(IMEI/MEID/ESN)
+非手機裝置會沒有 DeviceId，另外似乎有些產品會返回 null。</p></li>
+<li><p>Android ID
+有些廠商的裝置會有相同的 Android ID，但是是哪些廠商我就沒有看過有人寫出來。</p></li>
+<li><p>Serial Number
+在 2.3之後的版本可以透過 android.os.Build.SERIAL 取得 Serial Number，似乎需要 READ_PHONE_STATE的權限，</p></li>
+<li><p>UUID
+開發者可以在 APP 安裝時產生 UUID，但是就必須考慮到如何保存 UUID 的數值。</p></li>
+</ol>
+
+
+<p>參考:<br/>
+<a href="http://android-developers.blogspot.tw/2011/03/identifying-app-installations.html">Identifying App Installations</a><br/>
+<a href="http://www.pocketmagic.net/2011/02/android-unique-device-id/">Android Unique Device ID</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[控制 PHP 執行時間]]></title>
     <link href="http://fubuki.github.io/blog/2014/10/26/php-timeout/"/>
     <updated>2014-10-26T13:38:11+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/10/26/php-timeout</id>
-    <content type="html"><![CDATA[<p>控制 PHP 的最長執行時間。</p>
+    <content type="html"><![CDATA[<p>如何控制 PHP 的最長執行時間。</p>
 
 <!-- more -->
 
@@ -903,18 +935,6 @@ JIT::VMRegAnchor</p>
 <h4>從源碼安裝</h4>
 
 <h4>使用 apt 安裝</h4>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Asterisk Pami Pagi]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi/"/>
-    <updated>2014-10-07T23:33:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 &ndash; Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
 ]]></content>
   </entry>
   
