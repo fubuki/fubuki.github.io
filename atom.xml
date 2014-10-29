@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-29T22:55:09+08:00</updated>
+  <updated>2014-10-29T23:29:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang 相關論文]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen/"/>
+    <updated>2014-10-29T23:15:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen</id>
+    <content type="html"><![CDATA[<p>為了研究 erlang vm 尋找一些相關的論文。</p>
+
+<!-- more -->
+
+
+<p>目前應該會先讀1,2,7 這三篇論文，這三篇提到的東西我還蠻感興趣的，對於了解 erlang vm 應該會有不少幫助。</p>
+
+<ol>
+<li>Making reliable distributed systems in the presence of sodware errors</li>
+<li>Characterizing the Scalability of Erlang VM on Many-core Processors</li>
+<li>Exploring Alternative Memory Architectures for Erlang:Implementation and Performance Evaluation</li>
+<li>Efﬁcient memory management for concurrent programs that use message passing I,II</li>
+<li>Concurrent Programming in ERLANG</li>
+<li>On Preserving Term Sharing in the Erlang Virtual Machine</li>
+<li>Programming Distributed Erlang Applications:Pitfalls and Recipes</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Back-to-back User Agent ?]]></title>
@@ -905,28 +930,6 @@ JIT::VMRegAnchor</p>
 <li>Scenarios</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/"/>
-    <updated>2014-10-09T23:36:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>redis 之前新增了兩個資料類型 : Bitmap 和 HyperLogLogs，現在特別紀錄一下這兩種類型的差別和用途。</p>
-
-<h3>Bitmap</h3>
-
-<p>Bitmap 似乎是讓 string 類型可以有 bit 層級的操作命令，目前看起來可以用在紀錄會員活耀數。</p>
-
-<h3>HyperLogLogs</h3>
-
-<p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
-
-<p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
 ]]></content>
   </entry>
   
