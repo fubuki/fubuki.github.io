@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-30T23:15:44+08:00</updated>
+  <updated>2014-10-31T23:06:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[十一月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/31/11-booklist/"/>
+    <updated>2014-10-31T22:30:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/31/11-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>P2P 技術 stun</li>
+<li>Data.Science.at.the.Command.Line</li>
+<li>企业集成模式.设计、构建及部署消息传递解决方案</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached Repcached]]></title>
@@ -806,119 +823,6 @@ JIT::VMRegAnchor</p>
 <p>FRONT-END + DESIGN</p>
 
 <p>使用 hubot 執行自動化測試</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JSDC 2014 Day 1]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/11/jsdc-2014-day-1/"/>
-    <updated>2014-10-11T20:11:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/11/jsdc-2014-day-1</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Future of Enterprise Web Applications</h3>
-
-<p>介紹一些建構js app工具</p>
-
-<p>js 框架</p>
-
-<p>What about micro-frameworks?</p>
-
-<p>主要介紹 ext js</p>
-
-<p>跟那些客戶合作開發應用</p>
-
-<h3>Use Node Modules In The Browser With Browserify</h3>
-
-<p>js for cat</p>
-
-<p>art fo node</p>
-
-<p>browserfiy handbook</p>
-
-<p>nodeschool.io</p>
-
-<p>介紹 bowserify 的 plugin</p>
-
-<p>如何 npm 發布模組</p>
-
-<p>介紹一些使用 bowserify 的有趣模組</p>
-
-<p>使用 bowserify 壓縮合併檔案</p>
-
-<h3>CNPM: 打造企業級私有NPM</h3>
-
-<p>兩岸距離:最遙遠的距離</p>
-
-<p>Node.js in 誠品書店</p>
-
-<p><a href="http://blog.nodejs.org/2013/11/26/npm-post-mortem/">scalenpm</a>
-為什麼要做CNPM</p>
-
-<p>CNPM 使用 MySQL 取代 Couchdb</p>
-
-<p>支付寶登入首頁使用 node.js</p>
-
-<h3>react/flux in Action</h3>
-
-<p>React/Flux Facebook 開源的套件</p>
-
-<p>React 負責 view Flux 負責 model</p>
-
-<h4>誰在使用</h4>
-
-<ol>
-<li>Facebook</li>
-<li>Instagram</li>
-<li>Github</li>
-<li>Firefox</li>
-<li>Yahoo Mail</li>
-</ol>
-
-
-<p>React 亮點
-* 元件式架構
-* VDOM虛擬頁面模型
-* JSX 標記語法</p>
-
-<h4>Flux 亮點</h4>
-
-<ul>
-<li>一律重繪</li>
-<li>單向資料流</li>
-</ul>
-
-
-<p>My Feeling About AngularJS Over Time</p>
-
-<h4>Case Study</h4>
-
-<h3>Functional JavaScript, why or why not?</h3>
-
-<p><a href="bit.ly/jsdc2014-funjs">投影片</a>
-使用 Haskell 講解一些 Functional Programing 的概念。</p>
-
-<h3>RxJS for frontend developers.</h3>
-
-<p>Observalbe : Collection + Time</p>
-
-<p>Rxjs 提供一些處理 async 的方法。</p>
-
-<h3>Micro Databases</h3>
-
-<p>介紹一些小型資料庫。</p>
-
-<p><a href="https://github.com/substack/jsdc.tw-2014">Micro Databases</a>
-使用 Leveldb</p>
-
-<p>將資料存入 blob 格式裡</p>
-
-<p>hash-exchange</p>
-
-<p>forkdb</p>
-
-<p>有空可以玩玩 Leveldb 其他不太有興趣呀</p>
 ]]></content>
   </entry>
   

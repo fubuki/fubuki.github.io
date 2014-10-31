@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-10-30T23:15:44+08:00</updated>
+  <updated>2014-10-31T23:06:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[十一月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/31/11-booklist/"/>
+    <updated>2014-10-31T22:30:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/31/11-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>P2P 技術 stun</li>
+<li>Data.Science.at.the.Command.Line</li>
+<li>企业集成模式.设计、构建及部署消息传递解决方案</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[十月書單]]></title>
@@ -80,27 +97,6 @@
 <li>算法谜题</li>
 <li>内存数据管理</li>
 <li>编程原本</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[七月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan/"/>
-    <updated>2014-06-30T21:13:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/30/qi-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄七月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>自然語言處理綜論</li>
-<li>统计自然语言处理基礎</li>
-<li>信息檢索導論</li>
-<li>Building.Polyfills</li>
-<li>Data Push Apps with HTML5 SSE</li>
 </ol>
 
 ]]></content>
