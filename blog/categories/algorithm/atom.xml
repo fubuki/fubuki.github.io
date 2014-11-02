@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-01T23:39:24+08:00</updated>
+  <updated>2014-11-02T16:55:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/01/distributed-hash-table/"/>
+    <updated>2014-11-01T22:47:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/01/distributed-hash-table</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在許多 P2P 系統都有在使用 distributed hash table (DHT) 分享網路中的資訊。</p>
+
+<h3>特性</h3>
+
+<ol>
+<li>Autonomy and Decentralization</li>
+<li>Fault tolerance</li>
+<li>Scalability</li>
+</ol>
+
+
+<h3>架構</h3>
+
+<ol>
+<li>Chord</li>
+<li>Content-Addressable Network (CAN)</li>
+<li>Global Information Sharing Protocol (GISP)</li>
+<li>Kademlia</li>
+<li>Pastry</li>
+<li>Tapestry</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Softmax Algorithm]]></title>
@@ -96,24 +129,6 @@ Bandit Algorithms 有關。</p>
 <li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit algorithms are superior to A/B testing</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Multi-armed Bandit Problem]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem/"/>
-    <updated>2014-07-30T22:55:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/30/multi-armed-bandit-problem</id>
-    <content type="html"><![CDATA[<p>吃角子老虎機問題。</p>
-
-<!-- more -->
-
-
-<p>在研究 UCT 演算法時有題到 UCB 這個東西，是為了解決<a href="http://en.wikipedia.org/wiki/Multi-armed_bandit">Multi-armed_bandit</a>類型的問題，要能在多個吃角子老虎機上找出最大收益
-，而為了解決這個問題的其中一個演算法就是 UCB 演算法，不過令我注意的是這本書 <code>Bandit Algorithms for Website Optimization</code>這本書，
-仔細研究發現這類型的問題也能夠用來優化網站，可以列進下個月的書單了。</p>
-
-<p><a href="https://github.com/johnmyleswhite/BanditsBook">BanditsBook</a> 為 <code>Bandit Algorithms for Website Optimization</code>的範例程式碼。</p>
 ]]></content>
   </entry>
   

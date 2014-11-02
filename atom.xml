@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-01T23:39:24+08:00</updated>
+  <updated>2014-11-02T16:55:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -33,6 +33,16 @@
 
 
 <h3>架構</h3>
+
+<ol>
+<li>Chord</li>
+<li>Content-Addressable Network (CAN)</li>
+<li>Global Information Sharing Protocol (GISP)</li>
+<li>Kademlia</li>
+<li>Pastry</li>
+<li>Tapestry</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -305,11 +315,26 @@ git apply patch.diff
 
 <h4>安裝 xml_curl</h4>
 
+<p>下載 <a href="http://files.freeswitch.org/">http://files.freeswitch.org/</a> 的 freeswtich 原始碼，編輯 module.conf 將 xml_curl 的註解去除。</p>
+
+<pre><code>./configure  
+make mod_xml_curl-install
+</code></pre>
+
 <h4>載入 xml_curl</h4>
+
+<p>編輯 <code>/etc/freeswitch/autoload_configs</code> 重啟 freeswitch。<br/>
+也是可以使用 fs_cli Mod commands 載入模組。 <br/>
+編輯 xml_curl.conf.xml 讓 freeswitch 要怎麼跟後端的 web service 溝通。</p>
 
 <h4>設定 Freeswitch-Contrib</h4>
 
+<p>下載 <a href="https://freeswitch.org/stash/projects/FS/repos/freeswitch-contrib/browse">Freeswitch-Contrib</a>，在 <code>intralanman/PHP/fs_curl</code> 底下的程式碼放到可以執行 PHP 的伺服器，
+設定要使用哪種資料庫，伺服器上面要安裝 PDO 讓 PHP 可以跟資料庫連結。</p>
+
 <h4>動態增加使用者資料</h4>
+
+<p>最後更改資料庫的資料測試效果。</p>
 ]]></content>
   </entry>
   
