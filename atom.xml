@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-02T16:55:28+08:00</updated>
+  <updated>2014-11-02T21:07:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang Web Servers]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/02/erlang-server/"/>
+    <updated>2014-11-02T20:46:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/02/erlang-server</id>
+    <content type="html"><![CDATA[<p>收集一些目前比較熱門的 Erlang Web Servers。</p>
+
+<!-- more -->
+
+
+<h3>Web Servers</h3>
+
+<p>下面列一些比較活躍的項目，目前先使用 Mochiweb 練練手感，之前有用一個基於 Mochiweb + Rabbitmq 架設的聊天項目，感覺起來
+還不錯，之後在看看之間的優缺點。。</p>
+
+<h4>Mochiweb</h4>
+
+<p><a href="https://github.com/mochi/mochiweb">mochiweb</a></p>
+
+<h4>Cowboy</h4>
+
+<p><a href="https://github.com/ninenines/cowboy">cowboy</a></p>
+
+<h4>YAWS</h4>
+
+<p><a href="https://github.com/klacke/yaws">yaws</a></p>
+
+<h3>Web Framework</h3>
+
+<p>有些 Web Framework 可以選擇，可以參考這篇<a href="https://github.com/ChicagoBoss/ChicagoBoss/wiki/Comparison-of-Erlang-Web-Frameworks">比較</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
@@ -750,19 +783,6 @@ JIT::VMRegAnchor</p>
 <h4>關於加密的文章</h4>
 
 <p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Xhprof 測量 Php 函式效能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/13/xhprof-php/"/>
-    <updated>2014-10-13T23:45:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/13/xhprof-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有在尋找一些關於 PHP 除錯用的工具意外看到 <a href="https://github.com/phacility/xhprof">xhprof</a>，似乎可以測量 PHP function 層級的效能，之前在測試專案效能
-通常是透過 ab 去測試併發數，並沒有基於單一函式進行測試，透過這個工具應該更容易找出問題在哪，這邊有個<a href="https://blog.engineyard.com/collections/profiling-with-xhprof-and-xhgui/">教學</a>可以參考。</p>
 ]]></content>
   </entry>
   
