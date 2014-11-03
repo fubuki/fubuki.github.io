@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-02T21:07:01+08:00</updated>
+  <updated>2014-11-03T22:24:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coreos Docker]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/03/coreos-docker/"/>
+    <updated>2014-11-03T21:06:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/03/coreos-docker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://coreos.com/">coreos</a> 是基於 docker 可用來建立大型的運算平台的 linux 發行版本，從官網看來可以知道 coreos 是希望藉由建立群集然後在上面跑 docker 容器的方式
+擴展整個平台， coreos 裡面除了有 docker 之外有兩個東西還蠻有趣的，一個是 etcd 另外一個是 fleet，這兩個都有開源在 github 上面。</p>
+
+<h4>etcd</h4>
+
+<p>etcd 類似 zookeeper 的東西能夠檢查伺服器是否存活，裡面使用了 Raft 的演算法。</p>
+
+<h4>fleet</h4>
+
+<p><a href="https://coreos.com/blog/cluster-level-container-orchestration/">Cluster-Level Container Deployment with fleet</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang Web Servers]]></title>
@@ -759,30 +780,6 @@ JIT::VMRegAnchor</p>
 <li><a href="http://www.troyhunt.com/2014/02/your-api-versioning-is-wrong-which-is.html">Your API versioning is wrong, which is why I decided to do it 3 different wrong ways </a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 的加密方案]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/14/php-and-crypt/"/>
-    <updated>2014-10-14T22:09:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/14/php-and-crypt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近需要生成一些加密字串，需要研究一下要採用哪種加密演算法， md5 跟 sha1 應該是不會列入考慮， 有可能會在 bcrypt 和 scrypt 兩者之間比較
-一下看是要選擇哪一個。</p>
-
-<ol>
-<li>crypt</li>
-<li>bcrypt</li>
-<li>scrypt</li>
-</ol>
-
-
-<h4>關於加密的文章</h4>
-
-<p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
 ]]></content>
   </entry>
   
