@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sip | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sip/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-03T22:24:39+08:00</updated>
+  <updated>2014-11-04T22:07:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[P2PSIP]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/04/p2psip/"/>
+    <updated>2014-11-04T21:14:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/04/p2psip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>簡介</h3>
+
+<p>為了能夠建立去中心化的 SIP 網路，避免在傳統的 C/S 環境下由於一台 Server 失效的情況導致一個地區處於無法服務的狀態所設計的，
+Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用 P2PSIP 的方式而是用它自己的方式實現，在網路上有些分析 Skype 通信協定的論文可以參考，
+而 P2PSIP 本身有個<a href="http://www.p2psip.org/">官網</a>可以參考。</p>
+
+<h3>P2P 和 SIP 協定結合的方式</h3>
+
+<ol>
+<li>SIP over P2P</li>
+<li>P2P over SIP</li>
+</ol>
+
+
+<h3>函式庫</h3>
+
+<p><a href="https://code.google.com/p/sip2peer/">sip2peer</a> 實現 P2PSIP 協定。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Back-to-back User Agent ?]]></title>
@@ -94,18 +122,6 @@ make mod_xml_curl-install
 
 
 <p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 &ndash; Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Asterisk Realtime Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/07/asterisk-realtime-architecture/"/>
-    <updated>2014-10-07T23:32:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/07/asterisk-realtime-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>asterisk 可以透過 ODBC 跟 MySQL 連線然後在 MySQL 動態修改 sip user 的資訊，藉此不需要在 conf 裡面設定 sip user 的資訊。</p>
 ]]></content>
   </entry>
   

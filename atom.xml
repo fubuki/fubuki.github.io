@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-03T22:24:39+08:00</updated>
+  <updated>2014-11-04T22:07:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[P2PSIP]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/04/p2psip/"/>
+    <updated>2014-11-04T21:14:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/04/p2psip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>簡介</h3>
+
+<p>為了能夠建立去中心化的 SIP 網路，避免在傳統的 C/S 環境下由於一台 Server 失效的情況導致一個地區處於無法服務的狀態所設計的，
+Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用 P2PSIP 的方式而是用它自己的方式實現，在網路上有些分析 Skype 通信協定的論文可以參考，
+而 P2PSIP 本身有個<a href="http://www.p2psip.org/">官網</a>可以參考。</p>
+
+<h3>P2P 和 SIP 協定結合的方式</h3>
+
+<ol>
+<li>SIP over P2P</li>
+<li>P2P over SIP</li>
+</ol>
+
+
+<h3>函式庫</h3>
+
+<p><a href="https://code.google.com/p/sip2peer/">sip2peer</a> 實現 P2PSIP 協定。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coreos Docker]]></title>
@@ -727,59 +755,6 @@ JIT::VMRegAnchor</p>
 <p>最近在網路上在看 o&#8217;reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
 發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
  erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[RESTful API 的版本控制]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/15/api-version-control/"/>
-    <updated>2014-10-15T23:21:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/15/api-version-control</id>
-    <content type="html"><![CDATA[<p>紀錄一些如何對 RESTful API 進行版本控制的方法。</p>
-
-<!-- more -->
-
-
-<h4>URI</h4>
-
-<pre><code>https://api.example.com/v1/places
-</code></pre>
-
-<h4>Hostname</h4>
-
-<pre><code>https://api-v1.example.com/places
-</code></pre>
-
-<h4>Body and Query Params</h4>
-
-<pre><code>1 POST /places HTTP/1.1
-2 Host: api.example.com
-3 Content-Type: application/json
-4
-5 {
-6 "version" : "1.0"
-7 }
-</code></pre>
-
-<h4>Custom Request Header</h4>
-
-<p><a href="http://www.mnot.net/blog/2012/07/11/header_versioning">Bad HTTP API Smells: Version Headers</a></p>
-
-<h4>Content Negotiation</h4>
-
-<p><a href="https://developer.github.com/v3/media/#api-v3-media-type-and-the-future">Github Media Types</a></p>
-
-<h4>Content Negotiation for Resources</h4>
-
-<h4>Feature Flagging</h4>
-
-<h4>參考資料</h4>
-
-<ol>
-<li>Build APIs You Won’t Hate</li>
-<li><a href="http://www.troyhunt.com/2014/02/your-api-versioning-is-wrong-which-is.html">Your API versioning is wrong, which is why I decided to do it 3 different wrong ways </a></li>
-</ol>
-
 ]]></content>
   </entry>
   
