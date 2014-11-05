@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-04T22:07:48+08:00</updated>
+  <updated>2014-11-05T23:14:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rabbitmq Auth Plugin]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/05/rabbitmq-plugin/"/>
+    <updated>2014-11-05T22:49:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/05/rabbitmq-plugin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在使用 rabbitmq 建立系統時，由於會將 rabbitmq 暴露在外層所以需要認證 client 是否合法，原本 rabbitmq 提供的認證方式並不適合讓
+ client 都有自己的帳密進行認證，所以有想過撰寫一個中間層在 client 和 rabbitmq 之間進行認證，不過後來找到了 <a href="https://github.com/simonmacmullen/rabbitmq-auth-backend-http">rabbitmq-auth-backend-http</a>
+ 原來可以透過 rabbitmq plugin 擴增認證的方式，更仔細查詢似乎是跟 <code>SASL Authentication</code> 看來是 rabbitmq 已經有提供類似的機制給開發者了只是我沒有
+ 注意到而已。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[P2PSIP]]></title>
@@ -739,22 +754,6 @@ JIT::VMRegAnchor</p>
 <p>SILK 為 Skype 所使用的音訊編碼，有人跟我提過這個編碼蠻適合用在 VOIP 上面的編碼，
 後來去尋找相關資料發現一個 <a href="http://opus-codec.org/comparison/">opus-codec</a> 結合了 SILK 和 CELT 兩種編碼的優點然後 FreeSWITCH 也有支援，
 在 <a href="http://opus-codec.org/comparison/">opus-codec</a> 的官網上有關於編碼壓縮率和品質的比較圖，之後可以實際測試看看效果如何 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elixir]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/16/elixir-language/"/>
-    <updated>2014-10-16T21:55:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/16/elixir-language</id>
-    <content type="html"><![CDATA[<p>elixir 基於 erlang vm 的一門函數式語言。</p>
-
-<!-- more -->
-
-
-<p>最近在網路上在看 o&#8217;reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
-發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
- erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
 ]]></content>
   </entry>
   
