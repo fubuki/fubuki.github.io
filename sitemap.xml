@@ -1079,12 +1079,16 @@
         <lastmod>2014-11-05T23:12:31+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/11/06/pdo-mysql-persistent-connection/</loc>
+        <lastmod>2014-11-06T23:06:36+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-11-05T23:12:31+08:00</lastmod>
+        <lastmod>2014-11-06T23:06:36+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1092,6 +1096,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-11-05T23:12:31+08:00</lastmod>
+        <lastmod>2014-11-06T23:06:36+08:00</lastmod>
     </url>
 </urlset>

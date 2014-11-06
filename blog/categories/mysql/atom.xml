@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-05T23:14:00+08:00</updated>
+  <updated>2014-11-06T23:06:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 使用 PDO 與 Mysql 進行持久化連接]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/06/pdo-mysql-persistent-connection/"/>
+    <updated>2014-11-06T21:58:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/06/pdo-mysql-persistent-connection</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 PHP 裡面如果使用 PDO 連接 Mysql 有個 <code>PDO::ATTR_PERSISTENT</code> 的選項可以形成 <code>persistent connection</code>，其中的機制是在 PHP script 結束的時候將連線交由背後的進程管理，
+如果是使用 fastcgi 就會由 fastcgi 負責管理，另外從 <a href="http://eslizn.com/archives/39/">php持久化连接数据库</a> 的測試結果不管是用 apachehandle 或是 php-fpm 都可以支援持久化連線。</p>
+
+<p>在 <a href="http://stackoverflow.com/questions/3332074/what-are-the-disadvantages-of-using-persistent-connection-in-pdo/5541150#5541150">What are the disadvantages of using persistent connection in PDO</a> 裡面有提到一些持久化連線會導致的問題值得一看，另外在最近同事使用持久化連線的時候遇到了 <code>MySQL server has gone away</code>
+的問題，似乎是 PHP 端的持久化連線已經 lost 掉跟 mysql 的連線了但是卻沒有在次跟 mysql  重新連線的關係。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL災難恢复]]></title>
@@ -108,17 +124,6 @@
 <li>參數文件</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql-udf]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/21/mysql-udf/"/>
-    <updated>2014-03-21T23:42:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/21/mysql-udf</id>
-    <content type="html"><![CDATA[<p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
-所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
-solr的api更新資料。</p>
 ]]></content>
   </entry>
   
