@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content=" guard clause nested structure
-">
+  <meta name="description" content="在一個函數裡面通常會有多個 if else 的條件子句，這時會有下面兩種寫法。 Guard Clause Guard 有著防禦的意思，是在條件子句中直接離開函數，每個條件子句都是同一個階層。 if (xxx) { return;
+} if (yyy) { return } return; &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -111,9 +111,46 @@
 <div class="entry-content"><!-- more -->
 
 
-<h3>guard clause</h3>
+<p>在一個函數裡面通常會有多個 if else 的條件子句，這時會有下面兩種寫法。</p>
 
-<h3>nested structure</h3>
+<h3>Guard Clause</h3>
+
+<p>Guard 有著防禦的意思，是在條件子句中直接離開函數，每個條件子句都是同一個階層。</p>
+
+<pre><code>if (xxx) {
+    return;
+}
+
+if (yyy) {
+    return 
+}
+
+return;
+</code></pre>
+
+<h3>Nested Structure</h3>
+
+<p>在一個條件子句中還有多層的條件子句，因此會看到下面這種情形，導致之後別人維護會很難看懂整個程式的。</p>
+
+<pre><code>if (x == 1) {
+    // do something
+    if(y == 3) {
+        // do something
+        if(x == 4) {
+            // do something
+        } else {
+
+        }
+    } else {
+
+    }
+}
+</code></pre>
+
+<h3>感想</h3>
+
+<p>大部分時候我都是用 Guard Clause 的寫法，我覺得盡量減少 <code>if else</code> 的層級看起來比較好懂也比較容易給之後的人維護修改，可以很容易看
+出每個條件子句的用途為何。</p>
 </div>
 
 
