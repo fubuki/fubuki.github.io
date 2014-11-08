@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Erlang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/erlang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-07T15:06:48+08:00</updated>
+  <updated>2014-11-08T19:01:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform/"/>
+    <updated>2014-11-08T17:24:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>open telecom platform  (OTP)  是什麼</h3>
+
+<p>用來開發 erlang 的應用程式的一個平台，可以讓開發者建立一個用來開發分布式、高可用的應用程式。</p>
+
+<h3>OTP 包含哪些項目</h3>
+
+<ol>
+<li>erlang 的直譯器</li>
+<li>erlang 的編譯器</li>
+<li>通訊協定</li>
+<li><a href="http://en.wikipedia.org/wiki/Object_Request_Broker">Corba Object Request Broker</a></li>
+<li>static analysis tool called Dialyzer</li>
+<li><a href="http://en.wikipedia.org/wiki/Mnesia">Mnesia</a> 一個資料庫</li>
+<li>一些函式庫</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang Web Servers]]></title>
@@ -112,20 +139,6 @@ sudo mv rebar /usr/local/bin
 
 <pre><code>rebar compile
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang分布式開發]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa/"/>
-    <updated>2014-08-25T23:35:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/25/erlangfen-bu-shi-kai-fa</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天看完 Erlang教程的快速入門，對照之前研究 rabbitmq 的經驗很快就上手了，參照網路上的說明
-寫了一個範例，也看到 Erlang 在建立多個 Process 和通信上都很容易達成，另外也了解到 rabbitmq
- 如何透過 .erlang.cookie 讓各個節點形成一個 cluster 的群集。</p>
 ]]></content>
   </entry>
   

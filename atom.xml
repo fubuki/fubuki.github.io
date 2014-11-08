@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-07T15:06:48+08:00</updated>
+  <updated>2014-11-08T19:01:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform/"/>
+    <updated>2014-11-08T17:24:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>open telecom platform  (OTP)  是什麼</h3>
+
+<p>用來開發 erlang 的應用程式的一個平台，可以讓開發者建立一個用來開發分布式、高可用的應用程式。</p>
+
+<h3>OTP 包含哪些項目</h3>
+
+<ol>
+<li>erlang 的直譯器</li>
+<li>erlang 的編譯器</li>
+<li>通訊協定</li>
+<li><a href="http://en.wikipedia.org/wiki/Object_Request_Broker">Corba Object Request Broker</a></li>
+<li>static analysis tool called Dialyzer</li>
+<li><a href="http://en.wikipedia.org/wiki/Mnesia">Mnesia</a> 一個資料庫</li>
+<li>一些函式庫</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Guard Clause and Nested Structure]]></title>
@@ -513,20 +540,6 @@ make mod_xml_curl-install
 <p><a href="https://chocolatey.org/">chocolatey</a> 是一款 Windows 用的套件管理工具，類似 Ubuntu 的 apt 和 Centos 的 yum，看了一下官網支援不少
 開源套件讓使用者能夠一個指令將軟體安裝好，此外也有 GUI 介面可以使用，目前看起來一些在 Linux 上面的開發套件都已經
 可以透過 <a href="https://chocolatey.org/">chocolatey</a> 安裝。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github 的 IDE : Atom]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/19/github-atom/"/>
-    <updated>2014-10-19T19:52:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/19/github-atom</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://atom.io/">Atom</a> 是 Github 基於 node.js + webkit 開發強調模組化的一款編輯器，看過源碼可以知道是使用 CoffeeScript 和 LESS 撰寫的，
-因此如果是 web 的開發者也能修改界面，裡面也集成了一些還蠻實用的功能，網路上有人說會有些不順的感覺不過我下載執行感覺起來還蠻順的，
-有些工作上要使用的 Package 也有人開發，之後如果使用順利的話會從 ST 換成 Atom。</p>
 ]]></content>
   </entry>
   
