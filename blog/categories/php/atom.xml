@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-08T19:01:47+08:00</updated>
+  <updated>2014-11-09T21:36:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP: Thread-Safe Resource Manager]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager/"/>
+    <updated>2014-11-09T21:18:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager</id>
+    <content type="html"><![CDATA[<p>執行緒安全資源管理機制。</p>
+
+<!-- more -->
+
+
+<p><a href="http://blog.codinglabs.org/articles/zend-thread-safety.html">PHP中的线程安全</a>
+<a href="http://www.54chen.com/php-tech/what-is-tsrmls_cc.html">究竟什么是TSRMLS_CC？</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[控制 PHP 執行時間]]></title>
@@ -135,20 +150,6 @@
 <h4>What is the Trait</h4>
 
 <p><a href="http://php.net/manual/en/language.oop5.traits.php">Trait</a> 是在 PHP 5.4 新增的特性，實現了類似 Mixin 模式的方法，讓開發者更容易讓程式碼 Reuse。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[第五回闇PHP勉強会]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui/"/>
-    <updated>2014-10-02T23:35:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/02/di-wu-hui-an-phpmian-qiang-hui</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前在找跟 PHP 內部記憶體管理相關的資料找到的東西，日本那邊一個跟 PHP 有關的讀書會，這是<a href="http://sasezaki.hatenablog.com/entry/2014/03/16/042422">連結</a>。
-目前看完了 <code>入門Zend Memory Manager</code> 和 <code>こんなPHP開発者は嫌だ</code>，算是對 PHP 記憶體管理部分有些進入點，然後另外一篇投影片
-提到一些跟 PHP 開發者有關的玩笑還蠻有趣的，</p>
 ]]></content>
   </entry>
   

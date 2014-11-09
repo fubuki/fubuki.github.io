@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-08T19:01:47+08:00</updated>
+  <updated>2014-11-09T21:36:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP: Thread-Safe Resource Manager]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager/"/>
+    <updated>2014-11-09T21:18:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager</id>
+    <content type="html"><![CDATA[<p>執行緒安全資源管理機制。</p>
+
+<!-- more -->
+
+
+<p><a href="http://blog.codinglabs.org/articles/zend-thread-safety.html">PHP中的线程安全</a>
+<a href="http://www.54chen.com/php-tech/what-is-tsrmls_cc.html">究竟什么是TSRMLS_CC？</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
@@ -526,20 +541,6 @@ make mod_xml_curl-install
 <h4>動態增加使用者資料</h4>
 
 <p>最後更改資料庫的資料測試效果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chocolatey : Windows 的套件管理工具]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/20/chocolatey/"/>
-    <updated>2014-10-20T21:53:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/20/chocolatey</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://chocolatey.org/">chocolatey</a> 是一款 Windows 用的套件管理工具，類似 Ubuntu 的 apt 和 Centos 的 yum，看了一下官網支援不少
-開源套件讓使用者能夠一個指令將軟體安裝好，此外也有 GUI 介面可以使用，目前看起來一些在 Linux 上面的開發套件都已經
-可以透過 <a href="https://chocolatey.org/">chocolatey</a> 安裝。</p>
 ]]></content>
   </entry>
   
