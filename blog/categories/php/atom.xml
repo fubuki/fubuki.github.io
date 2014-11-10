@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-09T21:36:06+08:00</updated>
+  <updated>2014-11-10T23:24:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,47 @@
 
   
   <entry>
+    <title type="html"><![CDATA[PHP One-Time Passwords]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords/"/>
+    <updated>2014-11-10T22:02:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords</id>
+    <content type="html"><![CDATA[<p>使用 PHP 實現 One-Time Passwords (OTP) 。</p>
+
+<!-- more -->
+
+
+<h3>什麼是 OTP</h3>
+
+<p>OTP 簡單說是每次使用帳密登入都是使用密碼產生器產生一次性密碼，這樣比起傳統的密碼安全許多，
+但是需要額外裝置建構這個系統，目前似乎有人使用 email 和 sms 驗證。</p>
+
+<h3>RFC 文件</h3>
+
+<ol>
+<li><a href="http://tools.ietf.org/html/rfc2289">RFC 2289</a></li>
+<li><a href="http://tools.ietf.org/html/rfc1760">RFC 1760</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4226">RFC 4226</a></li>
+<li><a href="http://tools.ietf.org/html/rfc6238">RFC 6238</a></li>
+</ol>
+
+
+<h3>相關專案</h3>
+
+<ol>
+<li><a href="http://sourceforge.net/projects/php-otp/">PHP One-Time Passwords</a></li>
+<li><a href="https://github.com/rbakels/oath-php">oath-php</a></li>
+<li><a href="http://motp.sourceforge.net/">Mobile-OTP</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[PHP: Thread-Safe Resource Manager]]></title>
     <link href="http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager/"/>
     <updated>2014-11-09T21:18:29+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager</id>
-    <content type="html"><![CDATA[<p>執行緒安全資源管理機制。</p>
+    <content type="html"><![CDATA[<p>PHP 的執行緒安全資源管理機制。</p>
 
 <!-- more -->
 
@@ -132,24 +168,6 @@
 
 <p>之前有在尋找一些關於 PHP 除錯用的工具意外看到 <a href="https://github.com/phacility/xhprof">xhprof</a>，似乎可以測量 PHP function 層級的效能，之前在測試專案效能
 通常是透過 ab 去測試併發數，並沒有基於單一函式進行測試，透過這個工具應該更容易找出問題在哪，這邊有個<a href="https://blog.engineyard.com/collections/profiling-with-xhprof-and-xhgui/">教學</a>可以參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mixin and Trait in PHP]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php/"/>
-    <updated>2014-10-03T23:27:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/03/mixin-and-trait-in-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h4>Mixin 設計模式</h4>
-
-<p><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript">mixinpatternjavascript</a>，將部分或是全部的類的屬性複製到另外一個類。</p>
-
-<h4>What is the Trait</h4>
-
-<p><a href="http://php.net/manual/en/language.oop5.traits.php">Trait</a> 是在 PHP 5.4 新增的特性，實現了類似 Mixin 模式的方法，讓開發者更容易讓程式碼 Reuse。</p>
 ]]></content>
   </entry>
   
