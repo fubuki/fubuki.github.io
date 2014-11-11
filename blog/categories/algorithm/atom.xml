@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-10T23:24:33+08:00</updated>
+  <updated>2014-11-11T23:23:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[P2P NAT 穿越技術]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/11/p2p-nat/"/>
+    <updated>2014-11-11T23:09:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/11/p2p-nat</id>
+    <content type="html"><![CDATA[<p>P2P 在 NAT 環境的穿越技術。</p>
+
+<!-- more -->
+
+
+<h3>NAT 有哪些類型</h3>
+
+<ol>
+<li>Full Cone NAT</li>
+<li>Restricted Cone NAT</li>
+<li>Port Restricted Cone NAT</li>
+<li>Symmetric NAT</li>
+</ol>
+
+
+<h3>NAT 穿越技術</h3>
+
+<ol>
+<li>ALG</li>
+<li>MIDCOM</li>
+<li>STUN</li>
+<li>TURN</li>
+<li>FullProxy</li>
+<li>ICE</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
@@ -102,31 +136,6 @@
 <li>Winnow algorithm</li>
 <li>Mistake N-Driven Online Linear Threshold Learning Algorithm</li>
 <li>Rocchio algorithm</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Explore-Exploit Trade-off]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off/"/>
-    <updated>2014-08-04T23:33:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/04/explore-exploit-trade-off</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>We call experimentation  exploration  and we call profit-maximization exploitation</code> 在 Bandit.Algorithms.for.Website.Optimization 書中看到關於 Explore-Exploit trade-off
-的定義，簡單來說在解決問題的成本和獲得的利潤上取得平衡，書中開頭的案例:為網站更換 LOGO， 傳統的做法是使用 AB TEST但是花大量的時間，所以從這邊我可以慢慢猜得出來如何跟
-Bandit Algorithms 有關。</p>
-
-<p>另外記錄一篇跟<code>Explore-Exploit trade-off</code>相關的有趣論文:<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=122779">Web-Scale Bayesian Click-Through Rate Prediction for Sponsored Search Advertising in Microsoft’s Bing Search Engine</a></p>
-
-<p>另外有幾篇關於A/B Testing 和 Bandit.Algorithms的比較的文章可以作為參考。</p>
-
-<ol>
-<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit Algorithm is Not “Better” than A/B Testing</a></li>
-<li><a href="http://stevehanov.ca/blog/index.php?id=132">20 lines of code that will beat A/B testing every time</a></li>
-<li><a href="http://www.chrisstucchio.com/blog/2012/bandit_algorithms_vs_ab.html">Why Multi-armed Bandit algorithms are superior to A/B testing</a></li>
 </ol>
 
 ]]></content>
