@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-11T23:23:59+08:00</updated>
+  <updated>2014-11-12T23:17:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何安裝 Snort]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/12/snort-install/"/>
+    <updated>2014-11-12T21:26:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/12/snort-install</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.snort.org/">snort</a> 是一個入侵偵測系統，在網路上有一些現成的規則檔載入到 snort，也可以自行撰寫需要的規則。</p>
+
+<h3>下載 snort 和 daq。</h3>
+
+<pre><code>wget https://www.snort.org/downloads/snort/daq-2.0.4.tar.gz
+wget https://www.snort.org/downloads/snort/snort-2.9.7.0.tar.gz
+</code></pre>
+
+<h3>安裝 libdnet</h3>
+
+<p>在 ubuntu 底下安裝時會發現需要比較新的 <a href="https://code.google.com/p/libdnet/">libdnet</a> 版本，使用 <a href="http://www.ibm.com/developerworks/cn/linux/l-cn-checkinstall/">checkinstall</a> 建立 deb 檔後安裝。</p>
+
+<h3>安裝 daq 和 snort</h3>
+
+<h3>下載官方 RULE</h3>
+
+<pre><code>wget https://www.snort.org/rules/community
+tar -xvfz community.tar.gz -C /etc/snort/rules
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[P2P NAT 穿越技術]]></title>
@@ -523,30 +553,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 是用在加密 API 的回傳值，<a href="http://www.sitepoint.com/using-json-web-tokens-node-js/">Using JSON Web Tokens with Node.js</a> 這篇文章裡面有寫說 jwt 是怎麼加密，然後在 <a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-19">ietf</a> 有更詳細的規格，
 另外在 <a href="https://docs.auth0.com/scenarios-mqtt">Authenticating &amp; Authorizing Devices using MQTT with Auth0</a> 有寫如何跟 mosca server 一起使用，目前看起來是可以期待未來用在工作上面
 ，github 上面已經有些範例和函式庫可以使用，也許可以用在目前有使用 mqtt 的應用程式上面提高安全性。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook React]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/23/facebook-react/"/>
-    <updated>2014-10-23T23:04:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/23/facebook-react</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在參加 jsdc 2014 時看到一個很有趣的東西: react 和 flux， facebook 放出的開源專案，可以讓開發者很簡單的去建構前端服務，
-下面是他在<a href="http://facebook.github.io/react/index.html">官網</a>上面提到的特性，根據從在 jsdc 的議程聽到的部分似乎是很好上手的框架，從目前用過一些前端的框架雖然不能說
-哪個框架比較強大，但是這個 react 應該蠻適合團隊開發的，在開發前端的時候可以看到不少人沒有真的去了解前端閱覽器渲染的過程，
-導致寫出十分耗用資源的 javascript，但是透過 Virtual DOM 可以避免這種情形，這是我目前看到最吸引我的特點。</p>
-
-<ol>
-<li>JUST THE UI</li>
-<li>Virtual DOM</li>
-<li>Data flow</li>
-</ol>
-
-
-<p>學習資源:<a href="https://egghead.io/articles/gentle-introduction-to-the-react-flux-architecture">Gentle Introduction to the React Flux Architecture</a></p>
 ]]></content>
   </entry>
   
