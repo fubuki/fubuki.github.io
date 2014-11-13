@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Project Management | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/project-management/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-12T23:17:10+08:00</updated>
+  <updated>2014-11-13T23:21:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kanban管理]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/13/kanbanguan-li/"/>
+    <updated>2014-11-13T21:46:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/13/kanbanguan-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>什麼是 Kanban</h3>
+
+<p>之前有使用 <a href="https://trello.com">Trello</a> 後來可以查到了 Kanban 這個專案管理方式，Kanban 管理源自豐田生產系統，重點在於 JIT 這個 Pull 管理概念，
+為了讓整個專案流程能夠順暢進行。</p>
+
+<h3>看板種類</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在專案使用 Scrum]]></title>
