@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-13T23:21:15+08:00</updated>
+  <updated>2014-11-14T22:54:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fastsocket]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/14/fastsocket/"/>
+    <updated>2014-11-14T21:29:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/14/fastsocket</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/fastos/fastsocket">fastsocket</a> 是由新浪和清華一起開發的專案，可以提高網路 IO 的效率，雖然是蠻新的專案但是從 Github 已經看到不少人關注，不過最主要的是
+不需要更改上層應用程式的結構就可以使用這套系統，另外目前有新浪使用在生產環境下預計未來會慢慢提升使用率。</p>
+
+<p>目前下面三個專案可以順利跑在 <a href="https://github.com/fastos/fastsocket">fastsocket</a> 下。</p>
+
+<pre><code>1. haproxy
+2. nginx (Do disable accept mutex)
+3. lighttpd
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 中分析記憶體的工具]]></title>
