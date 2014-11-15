@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-14T22:54:18+08:00</updated>
+  <updated>2014-11-15T22:02:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,254 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JCConf TW 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014/"/>
+    <updated>2014-11-15T21:07:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>JDK8 與模式</h3>
+
+<ol>
+<li>Fluent ecorator</li>
+<li>In out in out shake it all about</li>
+<li>The lonely override</li>
+<li>monad</li>
+<li>functional reactive</li>
+</ol>
+
+
+<h4>Fluent Decorator</h4>
+
+<p>High order function : 輸入函式 輸出函式<br/>
+Lamda : code as data<br/>
+ThreadLocal<br/>
+使用 withInitial</p>
+
+<h4>Monad Patterns</h4>
+
+<p>Optional<br/>
+flatMap</p>
+
+<h4>Functional Reactive</h4>
+
+<p>很有趣的東西</p>
+
+<h3>Java 常見問題排查方法</h3>
+
+<h4>類衝突問題</h4>
+
+<h4>OOM Out of Memory</h4>
+
+<p>工具</p>
+
+<ol>
+<li>jstack</li>
+<li>btrace</li>
+<li>jmap</li>
+<li>google perftools</li>
+</ol>
+
+
+<h4>CPU 利用率問題</h4>
+
+<h4>應用沒響應問題</h4>
+
+<h4>分布式環境下應用交互超時問題</h4>
+
+<p><a href="http://www.slideshare.net/terryice/eagleeye-with-taobaojavaone">EagleEye</a></p>
+
+<h4>Java 進程異常退出問題</h4>
+
+<h3>EventBus and Reactive Programming on Android</h3>
+
+<h4>痛點</h4>
+
+<ol>
+<li>Android AsyncTask</li>
+<li>Loader</li>
+<li>Thread</li>
+<li>Callback 海</li>
+</ol>
+
+
+<h4>類似的東西</h4>
+
+<ol>
+<li>event-driven programming</li>
+<li>obsever pattern</li>
+<li>pub/sub pattern</li>
+<li>dataflow programming</li>
+</ol>
+
+
+<p><a href="https://github.com/ReactiveX/RxJava">RxJava</a></p>
+
+<h4>library</h4>
+
+<ol>
+<li>Otto from Square</li>
+<li>EventBus from greenrobot</li>
+</ol>
+
+
+<h4>Sticky Events</h4>
+
+<h3>老舊 Web 上雲端</h3>
+
+<p>ActiveCache</p>
+
+<p>無法維護的 WEB 專案的尊稱</p>
+
+<p>Crash 蹺蹺板</p>
+
+<p>guava CacheLoader</p>
+
+<p>Cached Refresh Schedule</p>
+
+<h3>Simplify Multi-Tenant Queries in ORM Frameworks</h3>
+
+<ol>
+<li>Separate Database 多資料庫</li>
+<li>Separate Schema  多表</li>
+<li>Discriminator Column 藉由欄位區分</li>
+</ol>
+
+
+<h4>ORM framework</h4>
+
+<p>JPA
+Hibernate
+EclipseLink</p>
+
+<h3>阿里 JVM 之路</h3>
+
+<h3>性能優化</h3>
+
+<ol>
+<li>Intrinsic</li>
+<li>CHIH &ndash; Off-Heap</li>
+<li>JFR 分析內部事件進行優化</li>
+</ol>
+
+
+<h4>JAVA 方法</h4>
+
+<ul>
+<li>Pure Java
+
+<ul>
+<li>JIT</li>
+<li>Intrinsic</li>
+</ul>
+</li>
+<li>JNI
+
+<ul>
+<li>開銷大，效率低</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Intrinsic 主要是將一些程式碼直接使用 CPU 指令執行</p>
+
+<h4>GCIH</h4>
+
+<ol>
+<li>Garbage Collector Invisable Heap</li>
+<li>讓 JVM 進程共享 GCIH 的資料</li>
+<li>限制 只能唯讀 如果是可寫會有問題</li>
+</ol>
+
+
+<h4>Java Flight Recorder</h4>
+
+<h4>種類</h4>
+
+<ol>
+<li>gc 相關</li>
+<li>線程同步相關</li>
+<li>JIT 相關</li>
+<li>類加載</li>
+<li>VMOperation</li>
+</ol>
+
+
+<p>在 OpenJDK 已有比較粗糙的實現</p>
+
+<p>如何實現</p>
+
+<h3>故障排查</h3>
+
+<ol>
+<li>增加可配置參數 新增一些統計數據</li>
+<li>與外部工具結合</li>
+</ol>
+
+
+<h3>回饋社區</h3>
+
+<ol>
+<li>Bug Fix</li>
+<li>阿里客製化的部分</li>
+</ol>
+
+
+<h3>Apache Kafka: A high-throughput distributed messaging system</h3>
+
+<p>介紹 Kafka 的特色</p>
+
+<p>Kafka 為何快</p>
+
+<p>Sequential vs Random</p>
+
+<p>In-Process Cache vs Page Cache</p>
+
+<p>Application Copy vs Zero Copying</p>
+
+<p>Constant Time</p>
+
+<p>apace-storm vs spark streaming</p>
+
+<h4>一些參考文章</h4>
+
+<p>The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</p>
+
+<h3>OpenJDK vs. Dalvik/ART virtual machine</h3>
+
+<p>從 Maxine VM 理解高效能 Java 虛擬機器運作原理</p>
+
+<p>Self VM Strongtalk vm hotspot vm cldc-hi</p>
+
+<p>說明了 JVM 的歷史</p>
+
+<p>重點在最佳化</p>
+
+<p>Runtime overhead Interpreter</p>
+
+<p>Dalvik VM in a nutshell</p>
+
+<p>Dalvik is Register-based</p>
+
+<p>Optimizing Dispatch</p>
+
+<p>dexopt</p>
+
+<p>Dalvik vs. ART</p>
+
+<h3>透過 ActiveMQ 在 Raspberry Pi 上的物聯網應用</h3>
+
+<p>介紹一些物聯網的協定
+1. AMQP
+2. MQTT
+3. XMPP
+4. STOMP</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fastsocket]]></title>
@@ -489,76 +737,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <p>參考:<br/>
 <a href="http://android-developers.blogspot.tw/2011/03/identifying-app-installations.html">Identifying App Installations</a><br/>
 <a href="http://www.pocketmagic.net/2011/02/android-unique-device-id/">Android Unique Device ID</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[控制 PHP 執行時間]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/26/php-timeout/"/>
-    <updated>2014-10-26T13:38:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/26/php-timeout</id>
-    <content type="html"><![CDATA[<p>如何控制 PHP 的最長執行時間。</p>
-
-<!-- more -->
-
-
-<p>在執行 PHP 腳本的時候有可能因為程式邏輯上的問題或是為了取得外部的資料導致執行時間過久，而讓使用者等待回應的時間過長帶來不好的體驗，
-因此在 PHP 本身一些常用的函式庫或是伺服器設定會讓開發者設定 timeout 的時間。</p>
-
-<h4>nginx</h4>
-
-<ol>
-<li>fastcgi_connect_timeout</li>
-<li>fastcgi_send_timeout</li>
-<li>fastcgi_read_timeout</li>
-</ol>
-
-
-<h4>php-fpm</h4>
-
-<ol>
-<li>php-fpm.conf 的 request_terminate_timeout</li>
-</ol>
-
-
-<p>max_execution_time 和 set_time_limit 也能限制腳本執行的時間但是似乎在某些場景是有問題的。</p>
-
-<h4>curl</h4>
-
-<ol>
-<li>CURLOPT_TIMEOUT</li>
-<li>CURLOPT_TIMEOUT_MS</li>
-<li>CURLOPT_CONNECTTIMEOUT</li>
-<li>CURLOPT_CONNECTTIMEOUT_MS</li>
-<li>CURLOPT_DNS_CACHE_TIMEOUT</li>
-</ol>
-
-
-<h4>mysql</h4>
-
-<ol>
-<li>innodb_lock_wait_timeout</li>
-<li>libmysql 的 MYSQL_OPT_READ_TIMEOUT 和 MYSQL_OPT_WRITE_TIMEOUT</li>
-</ol>
-
-
-<h4>memcached</h4>
-
-<ol>
-<li>bool Memcache::connect ( string $host [, int $port [, int $timeout ]] )</li>
-<li>Memcached 要另外實現</li>
-</ol>
-
-
-<h4>redis</h4>
-
-<ol>
-<li>$redis->connect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5); // 2.5 sec timeout.</li>
-<li>$redis->pconnect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5, &lsquo;x&rsquo;); // x is sent as persistent_id and would be another connection the the three before.</li>
-</ol>
-
-
-<h4>其他</h4>
 ]]></content>
   </entry>
   
