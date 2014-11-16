@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-15T22:02:31+08:00</updated>
+  <updated>2014-11-16T20:59:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[阿里客製化的 Jvm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/16/taobao-jvm/"/>
+    <updated>2014-11-16T20:13:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/16/taobao-jvm</id>
+    <content type="html"><![CDATA[<p>阿里基於 open jdk 開發的 jvm 版本。</p>
+
+<!-- more -->
+
+
+<p><a href="http://jvm.taobao.org">Taobao JVM</a> 裡面有如何打入補丁並且編譯的資訊，裡面有優化一些部分不過最主要有用的部分是它多了不少 Log 訊息方便開發者追蹤訊息，
+這邊有<a href="http://hellojava.info/?p=336">相關資訊</a> 包含一些阿里優化哪些部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JCConf TW 2014]]></title>
@@ -705,38 +720,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <p>在 RFC3261 裡面有定義何謂 Back-to-back user agent （B2BUA）? 是讓 client 端可以透過 B2BUA 使用 sip 協定建立連線，
 然後必須要一直保持連線， 以角色來說就像  FreeSWITCH 一樣，就算是使用 sip 建立連線之後利用 rtp 傳送訊息似乎也需要
  FreeSWITCH 幫忙，我原本以為 FreeSWITCH 只是幫忙建立連線但從規格書上看還是需要 FreeSWTICH 參與對話。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android Unique Id]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/27/android-unique-id/"/>
-    <updated>2014-10-27T22:59:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/27/android-unique-id</id>
-    <content type="html"><![CDATA[<p>如何取得 android 裝置的唯一編號。</p>
-
-<!-- more -->
-
-
-<p>目前有一些用來識別是否為同一個裝置的方法，不過都有各自的問題。</p>
-
-<ol>
-<li><p>Mac Address
-在沒有 wifi 或是沒有開啟 wifi 的裝置就無法取得 Mac Address。</p></li>
-<li><p>DeviceId(IMEI/MEID/ESN)
-非手機裝置會沒有 DeviceId，另外似乎有些產品會返回 null。</p></li>
-<li><p>Android ID
-有些廠商的裝置會有相同的 Android ID，但是是哪些廠商我就沒有看過有人寫出來。</p></li>
-<li><p>Serial Number
-在 2.3之後的版本可以透過 android.os.Build.SERIAL 取得 Serial Number，似乎需要 READ_PHONE_STATE的權限，</p></li>
-<li><p>UUID
-開發者可以在 APP 安裝時產生 UUID，但是就必須考慮到如何保存 UUID 的數值。</p></li>
-</ol>
-
-
-<p>參考:<br/>
-<a href="http://android-developers.blogspot.tw/2011/03/identifying-app-installations.html">Identifying App Installations</a><br/>
-<a href="http://www.pocketmagic.net/2011/02/android-unique-device-id/">Android Unique Device ID</a></p>
 ]]></content>
   </entry>
   

@@ -1116,7 +1116,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014/</loc>
-        <lastmod>2014-11-15T21:46:11+08:00</lastmod>
+        <lastmod>2014-11-16T20:15:51+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/11/16/taobao-jvm/</loc>
+        <lastmod>2014-11-16T20:59:39+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -1124,7 +1128,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-11-15T21:46:11+08:00</lastmod>
+        <lastmod>2014-11-16T20:59:39+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1132,6 +1136,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-11-15T21:46:11+08:00</lastmod>
+        <lastmod>2014-11-16T20:59:39+08:00</lastmod>
     </url>
 </urlset>
