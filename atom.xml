@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-16T20:59:48+08:00</updated>
+  <updated>2014-11-17T23:35:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Beanstalkd 設定特定時間執行任務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/17/beanstalkd-time-mission/"/>
+    <updated>2014-11-17T22:30:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/17/beanstalkd-time-mission</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近工作上需要設定在特定時間執行設定好的任務，原本是使用 Linux 的 crontab 定時檢查是否需要執行這個任務，
+然後將任務丟給 beanstalkd 執行，後來查詢 beanstalkd 和 celery 都有個 delay 的指令可以讓任務設定過多少時間後才執行。</p>
+
+<p><a href="http://docs.phalconphp.com/en/latest/reference/queue.html">phalcon beanstalkd</a> 裡面有寫在 put 的時候加上額外的參數 <code>array('priority' =&gt; 250, 'delay' =&gt; 10, 'ttr' =&gt; 3600)</code>。<br/>
+<a href="http://celery.readthedocs.org/en/latest/faq.html#module-celery.task.base">Can I schedule tasks to execute at a specific time?</a> 裡面有介紹 celey 如何指定時間處理。</p>
+
+<p>此外另外有一個想法是使用 Redis 的 <code>Keyspace Notifications</code>  設定一個鍵值跟過期時間然後使用一個進程監視過期的通知然後就可以設定在
+特定時間執行任務。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[阿里客製化的 Jvm]]></title>
@@ -706,20 +725,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <li>Programming Distributed Erlang Applications:Pitfalls and Recipes</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[何謂 Back-to-back User Agent ?]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/28/back-to-back-user-agent/"/>
-    <updated>2014-10-28T23:49:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/28/back-to-back-user-agent</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 RFC3261 裡面有定義何謂 Back-to-back user agent （B2BUA）? 是讓 client 端可以透過 B2BUA 使用 sip 協定建立連線，
-然後必須要一直保持連線， 以角色來說就像  FreeSWITCH 一樣，就算是使用 sip 建立連線之後利用 rtp 傳送訊息似乎也需要
- FreeSWITCH 幫忙，我原本以為 FreeSWITCH 只是幫忙建立連線但從規格書上看還是需要 FreeSWTICH 參與對話。</p>
 ]]></content>
   </entry>
   

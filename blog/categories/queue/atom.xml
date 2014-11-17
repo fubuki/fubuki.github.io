@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Queue | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/queue/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-16T20:59:48+08:00</updated>
+  <updated>2014-11-17T23:35:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Beanstalkd 設定特定時間執行任務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/17/beanstalkd-time-mission/"/>
+    <updated>2014-11-17T22:30:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/17/beanstalkd-time-mission</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近工作上需要設定在特定時間執行設定好的任務，原本是使用 Linux 的 crontab 定時檢查是否需要執行這個任務，
+然後將任務丟給 beanstalkd 執行，後來查詢 beanstalkd 和 celery 都有個 delay 的指令可以讓任務設定過多少時間後才執行。</p>
+
+<p><a href="http://docs.phalconphp.com/en/latest/reference/queue.html">phalcon beanstalkd</a> 裡面有寫在 put 的時候加上額外的參數 <code>array('priority' =&gt; 250, 'delay' =&gt; 10, 'ttr' =&gt; 3600)</code>。<br/>
+<a href="http://celery.readthedocs.org/en/latest/faq.html#module-celery.task.base">Can I schedule tasks to execute at a specific time?</a> 裡面有介紹 celey 如何指定時間處理。</p>
+
+<p>此外另外有一個想法是使用 Redis 的 <code>Keyspace Notifications</code>  設定一個鍵值跟過期時間然後使用一個進程監視過期的通知然後就可以設定在
+特定時間執行任務。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gearman 和 Beanstalk]]></title>
@@ -26,6 +45,27 @@
 <p>目前在工作上是用<a href="https://github.com/kr/beanstalkd">beanstalkd</a>作為消息隊列，由於使用人數少所以也不會有什麼問題，不過在PHP conf上面看到有人提了一個<a href="http://gearman.org/">gearman</a>的消息隊列，
 這兩個消息隊列都是用C語言撰寫的，在client library方面都有支援PHP和Node.js，不過似乎<a href="http://gearman.org/">gearman</a>的使用人數比較多的樣子，之後先研究這兩者
 的管理工具<a href="https://github.com/ptrofimov/beanstalk_console">beanstalk_console</a>和<a href="https://github.com/gaspaio/gearmanui">gearmanui</a>和擃展性。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Celery 簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/17/celery/"/>
+    <updated>2014-03-17T21:19:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/17/celery</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
+為基礎架構。</p>
+
+<h1>It supports&hellip;</h1>
+
+<p><strong>Message Transports</strong></p>
+
+<p><strong>Concurrency</strong></p>
+
+<p><strong>Result Stores</strong></p>
+
+<p><strong>Serialization</strong></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Jdk | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jdk/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-16T20:59:48+08:00</updated>
+  <updated>2014-11-17T23:35:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[阿里客製化的 Jvm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/16/taobao-jvm/"/>
+    <updated>2014-11-16T20:13:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/16/taobao-jvm</id>
+    <content type="html"><![CDATA[<p>阿里基於 open jdk 開發的 jvm 版本。</p>
+
+<!-- more -->
+
+
+<p><a href="http://jvm.taobao.org">Taobao JVM</a> 裡面有如何打入補丁並且編譯的資訊，裡面有優化一些部分不過最主要有用的部分是它多了不少 Log 訊息方便開發者追蹤訊息，
+這邊有<a href="http://hellojava.info/?p=336">相關資訊</a> 包含一些阿里優化哪些部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Compile Jdk Source Code]]></title>
