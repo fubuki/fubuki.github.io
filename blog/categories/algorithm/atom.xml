@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-17T23:35:27+08:00</updated>
+  <updated>2014-11-18T23:44:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[指紋的特徵提取和比對]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition/"/>
+    <updated>2014-11-18T22:44:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition</id>
+    <content type="html"><![CDATA[<p>列出指紋的特徵提取和比對的相關方法</p>
+
+<!-- more -->
+
+
+<h3>預處理</h3>
+
+<h3>特徵提取</h3>
+
+<h3>比對</h3>
+
+<ol>
+<li>局部場法</li>
+<li>特殊點法</li>
+<li>傅立葉轉換</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[P2P NAT 穿越技術]]></title>
@@ -116,28 +141,6 @@
 <p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
 
 <h3>差別</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[自然語言分類演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa/"/>
-    <updated>2014-08-08T22:32:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/08/zi-ran-yu-yan-fen-lei-yan-suan-fa</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>紀錄一下在統計自然語言處理的看到的分類演算法。</p>
-
-<ol>
-<li>Logistic Regression</li>
-<li>Linear Discriminant Analysis</li>
-<li>Decision List</li>
-<li>Winnow algorithm</li>
-<li>Mistake N-Driven Online Linear Threshold Learning Algorithm</li>
-<li>Rocchio algorithm</li>
-</ol>
-
 ]]></content>
   </entry>
   

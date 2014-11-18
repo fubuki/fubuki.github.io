@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-17T23:35:27+08:00</updated>
+  <updated>2014-11-18T23:44:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MariaDB Galera Cluster]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/18/mariadb-galera-cluster/"/>
+    <updated>2014-11-18T23:42:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/18/mariadb-galera-cluster</id>
+    <content type="html"><![CDATA[<p>建立 MariaDB Galera Cluster 架構。</p>
+
+<!-- more -->
+
+
+<p><a href="https://downloads.mariadb.org/mariadb-galera/">mariadb-galera</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[指紋的特徵提取和比對]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition/"/>
+    <updated>2014-11-18T22:44:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition</id>
+    <content type="html"><![CDATA[<p>列出指紋的特徵提取和比對的相關方法</p>
+
+<!-- more -->
+
+
+<h3>預處理</h3>
+
+<h3>特徵提取</h3>
+
+<h3>比對</h3>
+
+<ol>
+<li>局部場法</li>
+<li>特殊點法</li>
+<li>傅立葉轉換</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Beanstalkd 設定特定時間執行任務]]></title>
@@ -684,45 +723,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <li>Data.Science.at.the.Command.Line</li>
 <li>企业集成模式.设计、构建及部署消息传递解决方案</li>
 <li>高品質程式 軟體測試原則、實作與模式</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Repcached]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/30/memcached-repcached/"/>
-    <updated>2014-10-30T21:43:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/30/memcached-repcached</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 memecached 架構的時候發現了一個名叫 <a href="http://repcached.lab.klab.org/">repcached</a> 的東西，似乎日本那邊基於 memecached 開發出來的擴充版本，
-每台 memcached 都是 master 並且能夠互相同步，這邊有關於 repcached 的<a href="https://www.nic.ad.jp/ja/materials/iw/2008/proceedings/F2/IW2008-F2-08.pdf">說明</a>，跟之前使用 twemproxy 和 lib-memcached 擴展的方式不一樣，
-可以研究一下其中的機制。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang 相關論文]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen/"/>
-    <updated>2014-10-29T23:15:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen</id>
-    <content type="html"><![CDATA[<p>為了研究 erlang vm 尋找一些相關的論文。</p>
-
-<!-- more -->
-
-
-<p>目前應該會先讀1,2,7 這三篇論文，這三篇提到的東西我還蠻感興趣的，對於了解 erlang vm 應該會有不少幫助。</p>
-
-<ol>
-<li>Making reliable distributed systems in the presence of sodware errors</li>
-<li>Characterizing the Scalability of Erlang VM on Many-core Processors</li>
-<li>Exploring Alternative Memory Architectures for Erlang:Implementation and Performance Evaluation</li>
-<li>Efﬁcient memory management for concurrent programs that use message passing I,II</li>
-<li>Concurrent Programming in ERLANG</li>
-<li>On Preserving Term Sharing in the Erlang Virtual Machine</li>
-<li>Programming Distributed Erlang Applications:Pitfalls and Recipes</li>
 </ol>
 
 ]]></content>
