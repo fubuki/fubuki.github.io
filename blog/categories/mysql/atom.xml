@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-18T23:44:30+08:00</updated>
+  <updated>2014-11-19T23:20:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature/"/>
+    <updated>2014-11-19T22:13:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Added Features</h3>
+
+<ol>
+<li>提高安全性</li>
+<li>SQL mode changes</li>
+<li>即時更新表結構</li>
+<li>優化 InnoDB</li>
+<li>supports stacked diagnostics areas</li>
+<li>EXPLAIN 可以顯示更多資訊</li>
+<li>觸發</li>
+<li>新增 LOG 機制</li>
+<li>MySQL Test Suite</li>
+<li>mysql client</li>
+<li>Database name rewriting with mysqlbinlog</li>
+<li>HANDLER with partitioned tables</li>
+<li>Index condition pushdown support for partitioned tables</li>
+<li>WITHOUT VALIDATION support for ALTER TABLE &hellip; EXCHANGE PARTITION</li>
+<li>Master dump thread improvements</li>
+<li>Globalization improvements</li>
+<li>Changing the replication master without STOP SLAVE</li>
+</ol>
+
+
+<h3>Deprecated Features</h3>
+
+<h3>Removed Features</h3>
+
+<ol>
+<li>更改密碼加密格式</li>
+<li>移除一些資料類型</li>
+<li>使用 <code>Performance Schema tables</code> 取代 <code>SHOW ENGINE INNODB MUTEX</code></li>
+</ol>
+
+
+<p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 使用 PDO 與 Mysql 進行持久化連接]]></title>
@@ -96,32 +142,6 @@
 <li>LIST分區用於不連續離散的數值</li>
 <li>HASH和KEY用來均勻的分配數據到各個分區</li>
 <li>COLUMNS用在非整數類型的數值欄位</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 參數文件和日誌]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi/"/>
-    <updated>2014-06-12T23:41:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/12/mysql-can-shu-wen-jian-he-ri-zhi</id>
-    <content type="html"><![CDATA[<h2>日誌</h2>
-
-<ol>
-<li>錯誤日誌</li>
-<li>慢查詢日誌</li>
-<li>查詢日誌</li>
-<li>二進位日誌</li>
-</ol>
-
-
-<h2>文件</h2>
-
-<ol>
-<li>表結構定義文件</li>
-<li>InnoDB儲存引擎文件</li>
-<li>參數文件</li>
 </ol>
 
 ]]></content>

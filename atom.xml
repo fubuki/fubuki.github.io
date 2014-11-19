@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-18T23:44:30+08:00</updated>
+  <updated>2014-11-19T23:20:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature/"/>
+    <updated>2014-11-19T22:13:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Added Features</h3>
+
+<ol>
+<li>提高安全性</li>
+<li>SQL mode changes</li>
+<li>即時更新表結構</li>
+<li>優化 InnoDB</li>
+<li>supports stacked diagnostics areas</li>
+<li>EXPLAIN 可以顯示更多資訊</li>
+<li>觸發</li>
+<li>新增 LOG 機制</li>
+<li>MySQL Test Suite</li>
+<li>mysql client</li>
+<li>Database name rewriting with mysqlbinlog</li>
+<li>HANDLER with partitioned tables</li>
+<li>Index condition pushdown support for partitioned tables</li>
+<li>WITHOUT VALIDATION support for ALTER TABLE &hellip; EXCHANGE PARTITION</li>
+<li>Master dump thread improvements</li>
+<li>Globalization improvements</li>
+<li>Changing the replication master without STOP SLAVE</li>
+</ol>
+
+
+<h3>Deprecated Features</h3>
+
+<h3>Removed Features</h3>
+
+<ol>
+<li>更改密碼加密格式</li>
+<li>移除一些資料類型</li>
+<li>使用 <code>Performance Schema tables</code> 取代 <code>SHOW ENGINE INNODB MUTEX</code></li>
+</ol>
+
+
+<p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MariaDB Galera Cluster]]></title>
@@ -705,24 +751,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <li>Kademlia</li>
 <li>Pastry</li>
 <li>Tapestry</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[十一月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/31/11-booklist/"/>
-    <updated>2014-10-31T22:30:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/31/11-booklist</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>P2P 技術完全攻略</li>
-<li>Data.Science.at.the.Command.Line</li>
-<li>企业集成模式.设计、构建及部署消息传递解决方案</li>
-<li>高品質程式 軟體測試原則、實作與模式</li>
 </ol>
 
 ]]></content>
