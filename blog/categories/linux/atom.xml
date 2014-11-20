@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-19T23:20:57+08:00</updated>
+  <updated>2014-11-20T16:51:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/"/>
+    <updated>2014-11-20T16:15:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在一場演討會看到關於建立高可用架構的演講，紀錄一下使用到哪些專案跟相關訊息。</p>
+
+<p><code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code></p>
+
+<ol>
+<li><a href="http://www.drbd.org/">DRBD</a></li>
+<li><a href="http://clusterlabs.org/">Pacemaker</a></li>
+<li><a href="http://corosync.github.io/corosync/">Corosync</a></li>
+</ol>
+
+
+<h3>DRBD</h3>
+
+<p>DRBD (Distributed Replicated Block Device)</p>
+
+<h3>Pacemaker</h3>
+
+<p>管理 cluster 的工具。</p>
+
+<h3>Corosync</h3>
+
+<p>通信系統</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fastsocket]]></title>

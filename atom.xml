@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-19T23:20:57+08:00</updated>
+  <updated>2014-11-20T16:51:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/"/>
+    <updated>2014-11-20T16:15:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在一場演討會看到關於建立高可用架構的演講，紀錄一下使用到哪些專案跟相關訊息。</p>
+
+<p><code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code></p>
+
+<ol>
+<li><a href="http://www.drbd.org/">DRBD</a></li>
+<li><a href="http://clusterlabs.org/">Pacemaker</a></li>
+<li><a href="http://corosync.github.io/corosync/">Corosync</a></li>
+</ol>
+
+
+<h3>DRBD</h3>
+
+<p>DRBD (Distributed Replicated Block Device)</p>
+
+<h3>Pacemaker</h3>
+
+<p>管理 cluster 的工具。</p>
+
+<h3>Corosync</h3>
+
+<p>通信系統</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
@@ -720,39 +753,6 @@ Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用
 <h3>Web Framework</h3>
 
 <p>有些 Web Framework 可以選擇，可以參考這篇<a href="https://github.com/ChicagoBoss/ChicagoBoss/wiki/Comparison-of-Erlang-Web-Frameworks">比較</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/01/distributed-hash-table/"/>
-    <updated>2014-11-01T22:47:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/01/distributed-hash-table</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在許多 P2P 系統都有在使用 distributed hash table (DHT) 分享網路中的資訊。</p>
-
-<h3>特性</h3>
-
-<ol>
-<li>Autonomy and Decentralization</li>
-<li>Fault tolerance</li>
-<li>Scalability</li>
-</ol>
-
-
-<h3>架構</h3>
-
-<ol>
-<li>Chord</li>
-<li>Content-Addressable Network (CAN)</li>
-<li>Global Information Sharing Protocol (GISP)</li>
-<li>Kademlia</li>
-<li>Pastry</li>
-<li>Tapestry</li>
-</ol>
-
 ]]></content>
   </entry>
   
