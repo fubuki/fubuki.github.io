@@ -1,0 +1,24 @@
+---
+layout: post
+title: "使用 git patch 的功能"
+date: 2014-10-22 22:28:29 +0800
+comments: true
+categories: ["git"]
+---
+
+<!-- more -->
+
+有時需要將一些在本機上開發專案產生的修改部分丟給別人就可以使用 git 的 patch 功能。
+
+
+### git format-patch
+git 本身用來製作 patch 的指令。
+
+	git format-patch
+	git am xxx.patch
+
+### git diff patch
+使用 git diff 產生的 patch。
+
+	git diff prev_commit commit > patch.diff 
+	git apply patch.diff 

@@ -3,7 +3,7 @@ layout: post
 title: "Facebook login JavaScript SDK 在 webview下的問題"
 date: 2014-06-06 22:31:54 +0800
 comments: true
-categories: 
+categories: ["frontend"]
 ---
 在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
 ，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout

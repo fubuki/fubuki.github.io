@@ -3,7 +3,7 @@ layout: post
 title: "Gearman 和 Beanstalk"
 date: 2014-06-05 23:41:22 +0800
 comments: true
-categories: 
+categories: ["queue"]
 ---
 
 記錄一下之後要研究和測試這兩種消息隊列。

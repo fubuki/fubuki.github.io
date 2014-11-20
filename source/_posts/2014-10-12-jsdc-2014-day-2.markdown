@@ -1,0 +1,117 @@
+---
+layout: post
+title: "JSDC 2014 Day 2"
+date: 2014-10-12 20:46:32 +0800
+comments: true
+categories: ["open source"]
+---
+
+<!-- more -->
+
+
+### Panel Talk: Hello JSDC!
+
+哪時需要開發一個新的 feacture libaray?
+
+程式開發而言是興趣還是工作?
+
+還有什麼其他興趣?
+
+如何規劃自己的時間
+
+如何變成專業的程式設計師?
+
+
+### Koa - Asynchronous Decorators as Middleware
+
+列了一些 node.js clallback solutions
+
+ES6 Promises
+
+ES7 Async/Await with Promises
+
+Uses co for control flow
+
+####Koa vs. Express
+
+1. Error handling
+2. Async/Await-style control folow
+3. Decorator pattern
+
+####Koa vs. Hapi
+
+1. koa is lean, Hapi is robust
+2. Converntion (Hapi) vs. Configuration (Koa)
+
+#### Koa 的使用場景
+
+初學者使用 express ,團隊使用 hapi hapi 有良好的文件支援
+
+
+### Teaching Git and GitHub with Node.js
+
+介紹 workshopper 這個開源專案，可以自己建立自己的教學工具。
+
+Git-it 
+
+Use Git to Check Git
+
+Verifying lessons
+
+Git-it Lession 
+
+介紹 Git-it Ecosystem
+
+使用 Request 呼叫 Github api
+
+reporobot server
+
+[git-it]
+[git-it]:https://github.com/jlord/git-it
+
+[GitHub Education]
+[GitHub Education]:https://education.github.com/pack
+
+### Leveraging ZMQ with Node.js
+
+介紹 zeromq 並且支援那些通信方式。  
+如何使用 zeromq 建立一個系統。
+
+### 大型互聯網公司前端團隊的那些事兒
+
+夜間模式:在環境光線太暗的時候將顏色變暗。
+
+使用JS控制圖片，讓圖片動起來。
+
+0.9 秒的故事:從 web 頁面轉成使用 navtive app。
+
+孔雀翎的故事:讓 PSD 自動轉成頁面。
+
+### Node.js, p2p and MAD SCIENCE
+
+javascript and bittorrent
+
+bittorrent 的運作方式
+
+[torrent-stream]
+
+[torrent-stream]:https://github.com/mafintosh/torrent-stream
+
+[peerflix]
+[peerflix]:https://github.com/mafintosh/peerflix
+[peerwiki]
+[peerwiki]:https://github.com/mafintosh/peerwiki
+[torrent-mount]
+[torrent-mount]:https://github.com/mafintosh/torrent-mount
+[instant.io]
+[instant.io]:https://github.com/feross/instant.io
+
+### GithHub 大冒險
+
+GitHub 有 70%員工 遠端工作
+
+accessibility
+
+FRONT-END + DESIGN
+
+使用 hubot 執行自動化測試

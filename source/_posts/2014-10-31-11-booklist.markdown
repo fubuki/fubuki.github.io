@@ -1,0 +1,14 @@
+---
+layout: post
+title: "十一月書單"
+date: 2014-10-31 22:30:38 +0800
+comments: true
+categories: ["book lists"]
+---
+
+<!-- more -->
+
+1. P2P 技術完全攻略
+2. Data.Science.at.the.Command.Line
+3. 企业集成模式.设计、构建及部署消息传递解决方案
+4. 高品質程式 軟體測試原則、實作與模式

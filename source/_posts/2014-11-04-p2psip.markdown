@@ -1,0 +1,27 @@
+---
+layout: post
+title: "P2PSIP"
+date: 2014-11-04 21:14:44 +0800
+comments: true
+categories: ["sip"]
+---
+
+
+<!-- more -->
+
+### 簡介
+為了能夠建立去中心化的 SIP 網路，避免在傳統的 C/S 環境下由於一台 Server 失效的情況導致一個地區處於無法服務的狀態所設計的，
+Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用 P2PSIP 的方式而是用它自己的方式實現，在網路上有些分析 Skype 通信協定的論文可以參考，
+而 P2PSIP 本身有個[官網]可以參考。
+
+
+### P2P 和 SIP 協定結合的方式
+1. SIP over P2P
+2. P2P over SIP
+
+### 函式庫
+[sip2peer] 實現 P2PSIP 協定。
+
+
+[官網]:http://www.p2psip.org/
+[sip2peer]:https://code.google.com/p/sip2peer/

@@ -3,7 +3,7 @@ layout: post
 title: "Problem Frames"
 date: 2014-07-26 23:46:59 +0800
 comments: true
-categories: ["Design pattern"]
+categories: ["design pattern"]
 ---
 
 Design pattern 設計模式最有名是由GOF提出來的， 其實主要是整理軟體開發上一些問題的解法，

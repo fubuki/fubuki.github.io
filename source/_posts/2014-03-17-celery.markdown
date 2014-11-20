@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "celery"
+title: "celery 簡介"
 date: 2014-03-17 21:19:12 +0800
 comments: true
-categories: celery
+categories: ["queue"]
 ---
 
 [celery] 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立

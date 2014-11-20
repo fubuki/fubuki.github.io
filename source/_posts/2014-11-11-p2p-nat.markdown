@@ -1,0 +1,27 @@
+---
+layout: post
+title: "P2P NAT 穿越技術"
+date: 2014-11-11 23:09:17 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+P2P 在 NAT 環境的穿越技術。
+
+<!-- more -->
+
+
+### NAT 有哪些類型
+1. Full Cone NAT
+2. Restricted Cone NAT
+3. Port Restricted Cone NAT
+4. Symmetric NAT
+
+
+### NAT 穿越技術
+1. ALG
+2. MIDCOM
+3. STUN
+4. TURN
+5. FullProxy
+6. ICE
