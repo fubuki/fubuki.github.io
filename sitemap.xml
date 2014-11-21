@@ -1144,7 +1144,11 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/</loc>
-        <lastmod>2014-11-20T20:16:45+08:00</lastmod>
+        <lastmod>2014-11-20T20:17:35+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://fubuki.github.io/blog/2014/11/21/netbsd/</loc>
+        <lastmod>2014-11-21T23:50:21+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
@@ -1152,7 +1156,7 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-11-20T20:16:45+08:00</lastmod>
+        <lastmod>2014-11-21T23:50:21+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1160,6 +1164,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-11-20T20:16:45+08:00</lastmod>
+        <lastmod>2014-11-21T23:50:21+08:00</lastmod>
     </url>
 </urlset>
