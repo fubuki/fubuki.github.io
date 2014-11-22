@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-21T23:50:31+08:00</updated>
+  <updated>2014-11-22T08:42:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenContrail Info]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/22/opencontrail-info/"/>
+    <updated>2014-11-22T06:32:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/22/opencontrail-info</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.opencontrail.org/">OpenContrail</a> 用來建立 <a href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a> 系統的開源工具，這邊有相關文件的 <a href="http://www.sdnap.com/sdnap-post/2886.html">翻譯</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NetBSD 作業系統簡介]]></title>
@@ -715,34 +727,6 @@ return;
  client 都有自己的帳密進行認證，所以有想過撰寫一個中間層在 client 和 rabbitmq 之間進行認證，不過後來找到了 <a href="https://github.com/simonmacmullen/rabbitmq-auth-backend-http">rabbitmq-auth-backend-http</a>
  原來可以透過 rabbitmq plugin 擴增認證的方式，更仔細查詢似乎是跟 <code>SASL Authentication</code> 看來是 rabbitmq 已經有提供類似的機制給開發者了只是我沒有
  注意到而已。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[P2PSIP]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/04/p2psip/"/>
-    <updated>2014-11-04T21:14:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/04/p2psip</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>簡介</h3>
-
-<p>為了能夠建立去中心化的 SIP 網路，避免在傳統的 C/S 環境下由於一台 Server 失效的情況導致一個地區處於無法服務的狀態所設計的，
-Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用 P2PSIP 的方式而是用它自己的方式實現，在網路上有些分析 Skype 通信協定的論文可以參考，
-而 P2PSIP 本身有個<a href="http://www.p2psip.org/">官網</a>可以參考。</p>
-
-<h3>P2P 和 SIP 協定結合的方式</h3>
-
-<ol>
-<li>SIP over P2P</li>
-<li>P2P over SIP</li>
-</ol>
-
-
-<h3>函式庫</h3>
-
-<p><a href="https://code.google.com/p/sip2peer/">sip2peer</a> 實現 P2PSIP 協定。</p>
 ]]></content>
   </entry>
   
