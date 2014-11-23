@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-22T08:42:30+08:00</updated>
+  <updated>2014-11-23T15:08:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Tornado]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/23/python-tornado/"/>
+    <updated>2014-11-23T14:43:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/23/python-tornado</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python 和 HDF5]]></title>

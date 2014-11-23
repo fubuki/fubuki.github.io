@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-22T08:42:30+08:00</updated>
+  <updated>2014-11-23T15:08:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Tornado]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/23/python-tornado/"/>
+    <updated>2014-11-23T14:43:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/23/python-tornado</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenContrail Info]]></title>
@@ -712,21 +724,6 @@ return;
 
 <p>在 <a href="http://stackoverflow.com/questions/3332074/what-are-the-disadvantages-of-using-persistent-connection-in-pdo/5541150#5541150">What are the disadvantages of using persistent connection in PDO</a> 裡面有提到一些持久化連線會導致的問題值得一看，另外在最近同事使用持久化連線的時候遇到了 <code>MySQL server has gone away</code>
 的問題，似乎是 PHP 端的持久化連線已經 lost 掉跟 mysql 的連線了但是卻沒有在次跟 mysql  重新連線的關係。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rabbitmq Auth Plugin]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/05/rabbitmq-plugin/"/>
-    <updated>2014-11-05T22:49:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/05/rabbitmq-plugin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在使用 rabbitmq 建立系統時，由於會將 rabbitmq 暴露在外層所以需要認證 client 是否合法，原本 rabbitmq 提供的認證方式並不適合讓
- client 都有自己的帳密進行認證，所以有想過撰寫一個中間層在 client 和 rabbitmq 之間進行認證，不過後來找到了 <a href="https://github.com/simonmacmullen/rabbitmq-auth-backend-http">rabbitmq-auth-backend-http</a>
- 原來可以透過 rabbitmq plugin 擴增認證的方式，更仔細查詢似乎是跟 <code>SASL Authentication</code> 看來是 rabbitmq 已經有提供類似的機制給開發者了只是我沒有
- 注意到而已。</p>
 ]]></content>
   </entry>
   
