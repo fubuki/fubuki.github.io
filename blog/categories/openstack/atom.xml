@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: OpenStack | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/openstack/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-11-24T02:49:54+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OpenStack Swift]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/24/swiftstack/"/>
+    <updated>2014-11-24T02:00:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/24/swiftstack</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究與多租戶系統相關的資訊時看到了 <a href="https://www.swiftstack.com/">swiftstack</a>， 使用了 OpenStack 下的 Swift 項目技術的雲端儲存商，
+如果要試玩 Swift 可以直接安裝 <a href="https://www.swiftstack.com/">swiftstack</a> 而不需要安裝整個 OpenStack 。</p>
+]]></content>
+  </entry>
+  
+</feed>
