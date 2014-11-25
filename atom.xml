@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-24T02:49:54+08:00</updated>
+  <updated>2014-11-25T22:14:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/25/php-password-function/"/>
+    <updated>2014-11-25T21:57:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/25/php-password-function</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>PHP 5.5 新加了用來處理 Password 加密的功能，<a href="http://php.net/manual/en/ref.password.php">Password Hashing Functions</a> 裡面有列出新增的四個 function。</p>
+
+<h3>password_get_info</h3>
+
+<p>傳入一個加密字串取得。</p>
+
+<h3>password_hash</h3>
+
+<p>針對一個字串加密。</p>
+
+<h3>password_needs_rehash</h3>
+
+<p>當加密字串遺失了一些資訊時可以透過這個重新加密字串。</p>
+
+<h3>password_verify</h3>
+
+<p>確認字串和加密後的 hash 是否相同。</p>
+
+<h3>相關資訊</h3>
+
+<p><a href="https://wiki.php.net/rfc/password_hash">PHP RFC: password_hash() function behavior</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenStack Swift]]></title>
@@ -670,57 +702,6 @@ tar -xvfz community.tar.gz -C /etc/snort/rules
 <li>一些函式庫</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Guard Clause and Nested Structure]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/07/guard-clause-and-nested-structure/"/>
-    <updated>2014-11-07T08:18:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/07/guard-clause-and-nested-structure</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在一個函數裡面通常會有多個 if else 的條件子句，這時會有下面兩種寫法。</p>
-
-<h3>Guard Clause</h3>
-
-<p>Guard 有著防禦的意思，是在條件子句中直接離開函數，每個條件子句都是同一個階層。</p>
-
-<pre><code>if (xxx) {
-    return;
-}
-
-if (yyy) {
-    return 
-}
-
-return;
-</code></pre>
-
-<h3>Nested Structure</h3>
-
-<p>在一個條件子句中還有多層的條件子句，因此會看到下面這種情形，導致之後別人維護會很難看懂整個程式的。</p>
-
-<pre><code>if (x == 1) {
-    // do something
-    if(y == 3) {
-        // do something
-        if(x == 4) {
-            // do something
-        } else {
-
-        }
-    } else {
-
-    }
-}
-</code></pre>
-
-<h3>感想</h3>
-
-<p>大部分時候我都是用 Guard Clause 的寫法，我覺得盡量減少 <code>if else</code> 的層級看起來比較好懂也比較容易給之後的人維護修改，可以很容易看
-出每個條件子句的用途為何。</p>
 ]]></content>
   </entry>
   

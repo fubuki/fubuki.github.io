@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-24T02:49:54+08:00</updated>
+  <updated>2014-11-25T22:14:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/25/php-password-function/"/>
+    <updated>2014-11-25T21:57:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/25/php-password-function</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>PHP 5.5 新加了用來處理 Password 加密的功能，<a href="http://php.net/manual/en/ref.password.php">Password Hashing Functions</a> 裡面有列出新增的四個 function。</p>
+
+<h3>password_get_info</h3>
+
+<p>傳入一個加密字串取得。</p>
+
+<h3>password_hash</h3>
+
+<p>針對一個字串加密。</p>
+
+<h3>password_needs_rehash</h3>
+
+<p>當加密字串遺失了一些資訊時可以透過這個重新加密字串。</p>
+
+<h3>password_verify</h3>
+
+<p>確認字串和加密後的 hash 是否相同。</p>
+
+<h3>相關資訊</h3>
+
+<p><a href="https://wiki.php.net/rfc/password_hash">PHP RFC: password_hash() function behavior</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP One-Time Passwords]]></title>
@@ -155,19 +187,6 @@
 <h4>關於加密的文章</h4>
 
 <p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Xhprof 測量 Php 函式效能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/13/xhprof-php/"/>
-    <updated>2014-10-13T23:45:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/13/xhprof-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有在尋找一些關於 PHP 除錯用的工具意外看到 <a href="https://github.com/phacility/xhprof">xhprof</a>，似乎可以測量 PHP function 層級的效能，之前在測試專案效能
-通常是透過 ab 去測試併發數，並沒有基於單一函式進行測試，透過這個工具應該更容易找出問題在哪，這邊有個<a href="https://blog.engineyard.com/collections/profiling-with-xhprof-and-xhgui/">教學</a>可以參考。</p>
 ]]></content>
   </entry>
   
