@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-25T22:14:46+08:00</updated>
+  <updated>2014-11-26T23:29:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 15 Tips]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/26/docker-15-tips/"/>
+    <updated>2014-11-26T23:10:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/26/docker-15-tips</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes">15 Docker Tips in 5 Minutes</a> 裡面簡介了一些關於 Docker 小技巧。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
@@ -675,33 +687,6 @@ tar -xvfz community.tar.gz -C /etc/snort/rules
 
 <p><a href="http://blog.codinglabs.org/articles/zend-thread-safety.html">PHP中的线程安全</a>
 <a href="http://www.54chen.com/php-tech/what-is-tsrmls_cc.html">究竟什么是TSRMLS_CC？</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform/"/>
-    <updated>2014-11-08T17:24:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>open telecom platform  (OTP)  是什麼</h3>
-
-<p>用來開發 erlang 的應用程式的一個平台，可以讓開發者建立一個用來開發分布式、高可用的應用程式。</p>
-
-<h3>OTP 包含哪些項目</h3>
-
-<ol>
-<li>erlang 的直譯器</li>
-<li>erlang 的編譯器</li>
-<li>通訊協定</li>
-<li><a href="http://en.wikipedia.org/wiki/Object_Request_Broker">Corba Object Request Broker</a></li>
-<li>static analysis tool called Dialyzer</li>
-<li><a href="http://en.wikipedia.org/wiki/Mnesia">Mnesia</a> 一個資料庫</li>
-<li>一些函式庫</li>
-</ol>
-
 ]]></content>
   </entry>
   

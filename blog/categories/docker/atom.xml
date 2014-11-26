@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-25T22:14:46+08:00</updated>
+  <updated>2014-11-26T23:29:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 15 Tips]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/26/docker-15-tips/"/>
+    <updated>2014-11-26T23:10:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/26/docker-15-tips</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes">15 Docker Tips in 5 Minutes</a> 裡面簡介了一些關於 Docker 小技巧。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coreos Docker]]></title>
