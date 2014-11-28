@@ -1,0 +1,13 @@
+---
+layout: post
+title: "NetBSD 作業系統簡介"
+date: 2014-11-21 23:48:18 +0800
+comments: true
+categories: ["linux"]
+---
+
+<!-- more -->
+
+[NetBSD] 用來移植各種裝置的作業系統。
+
+[NetBSD]:http://www.netbsd.org/

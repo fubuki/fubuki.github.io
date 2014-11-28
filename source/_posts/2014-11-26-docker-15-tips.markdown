@@ -1,0 +1,15 @@
+---
+layout: post
+title: "docker 15 tips"
+date: 2014-11-26 23:10:32 +0800
+comments: true
+categories: ["docker"]
+---
+
+
+<!-- more -->
+
+[15 Docker Tips in 5 Minutes] 裡面簡介了一些關於 Docker 小技巧。
+
+
+[15 Docker Tips in 5 Minutes]:https://speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes

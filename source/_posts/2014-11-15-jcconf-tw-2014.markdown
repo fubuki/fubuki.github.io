@@ -1,0 +1,190 @@
+---
+layout: post
+title: "JCConf TW 2014"
+date: 2014-11-15 21:07:18 +0800
+comments: true
+categories: ["open source"]
+---
+
+<!-- more -->
+
+### JDK8 與模式 
+1. Fluent ecorator
+2. In out in out shake it all about
+3. The lonely override
+4. monad
+5. functional reactive 
+
+#### Fluent Decorator
+High order function : 輸入函式 輸出函式  
+Lamda : code as data  
+ThreadLocal  
+使用 withInitial
+
+####Monad Patterns
+Optional  
+flatMap
+
+#### Functional Reactive
+很有趣的東西
+
+### Java 常見問題排查方法
+
+#### 類衝突問題
+
+#### OOM Out of Memory
+工具
+
+1. jstack
+2. btrace
+3. jmap
+4. google perftools
+
+#### CPU 利用率問題
+
+#### 應用沒響應問題
+
+#### 分布式環境下應用交互超時問題
+[EagleEye]
+
+[EagleEye]:http://www.slideshare.net/terryice/eagleeye-with-taobaojavaone
+#### Java 進程異常退出問題
+
+### EventBus and Reactive Programming on Android
+#### 痛點
+1. Android AsyncTask
+2. Loader
+3. Thread
+4. Callback 海
+
+####類似的東西
+1. event-driven programming
+2. obsever pattern
+3. pub/sub pattern
+4. dataflow programming
+
+[RxJava]   
+[RxJava]:https://github.com/ReactiveX/RxJava
+
+#### library
+1. Otto from Square
+2. EventBus from greenrobot
+
+#### Sticky Events
+
+### 老舊 Web 上雲端
+ActiveCache
+
+無法維護的 WEB 專案的尊稱
+
+Crash 蹺蹺板
+
+guava CacheLoader
+
+
+Cached Refresh Schedule
+
+### Simplify Multi-Tenant Queries in ORM Frameworks
+
+1. Separate Database 多資料庫
+2. Separate Schema  多表
+3. Discriminator Column 藉由欄位區分
+
+#### ORM framework 
+JPA
+Hibernate 
+EclipseLink
+
+### 阿里 JVM 之路
+
+### 性能優化
+1. Intrinsic
+2. CHIH - Off-Heap
+3. JFR 分析內部事件進行優化
+
+#### JAVA 方法
+- Pure Java
+  - JIT
+  - Intrinsic
+- JNI
+  - 開銷大，效率低
+
+Intrinsic 主要是將一些程式碼直接使用 CPU 指令執行
+
+#### GCIH
+1. Garbage Collector Invisable Heap
+2. 讓 JVM 進程共享 GCIH 的資料
+3. 限制 只能唯讀 如果是可寫會有問題
+
+#### Java Flight Recorder
+#### 種類
+1. gc 相關
+2. 線程同步相關
+3. JIT 相關
+4. 類加載
+5. VMOperation
+
+在 OpenJDK 已有比較粗糙的實現
+
+如何實現
+
+### 故障排查
+1. 增加可配置參數 新增一些統計數據
+2. 與外部工具結合
+
+
+### 回饋社區
+1. Bug Fix
+2. 阿里客製化的部分
+
+### Apache Kafka: A high-throughput distributed messaging system
+
+介紹 Kafka 的特色
+
+Kafka 為何快
+
+Sequential vs Random
+
+In-Process Cache vs Page Cache
+
+Application Copy vs Zero Copying
+
+Constant Time
+
+apace-storm vs spark streaming
+
+####一些參考文章
+The Log: What every software engineer should know about real-time data's unifying abstraction
+
+
+### OpenJDK vs. Dalvik/ART virtual machine
+
+從 Maxine VM 理解高效能 Java 虛擬機器運作原理
+
+Self VM Strongtalk vm hotspot vm cldc-hi
+
+說明了 JVM 的歷史
+
+重點在最佳化
+
+Runtime overhead Interpreter
+
+Dalvik VM in a nutshell
+
+Dalvik is Register-based
+
+Optimizing Dispatch
+
+dexopt
+
+Dalvik vs. ART
+
+### 透過 ActiveMQ 在 Raspberry Pi 上的物聯網應用
+
+介紹一些物聯網的協定
+1. AMQP
+2. MQTT
+3. XMPP
+4. STOMP
+
+
