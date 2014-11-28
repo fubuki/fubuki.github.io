@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-27T02:29:51+08:00</updated>
+  <updated>2014-11-28T23:27:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Is Systemtap]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/28/what-is-systemtap/"/>
+    <updated>2014-11-28T23:17:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/28/what-is-systemtap</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sourceware.org/systemtap/">systemtap</a> 一個可以用來抓取 Linux kernal 訊息的工具，在以前開發 Linux 核心的時候要抓去內部的資訊都需要開發者插入程式碼然後重新編譯
+後才能顯示一些想要的資訊，但是後後來的核心版本提供了一個名叫 kprobe 機制，而 <a href="https://sourceware.org/systemtap/">systemtap</a> 便是藉由 kprobe 讓開發者更容易去抓取核心的運行資訊。</p>
+
+<h3>如何開啟 systemtap 功能</h3>
+
+<h3>範例</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關於處理 LOG 的事情]]></title>
@@ -111,22 +128,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[NetBSD 作業系統簡介]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/21/netbsd/"/>
-    <updated>2014-11-21T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/21/netbsd</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.netbsd.org/">NetBSD</a> 用來移植各種裝置的作業系統。</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[ZABBIX and Hinemos]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/"/>
-    <updated>2014-11-20T20:00:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos</id>
+    <link href="http://fubuki.github.io/blog/2014/11/21/zabbix-and-hinemos/"/>
+    <updated>2014-11-21T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/21/zabbix-and-hinemos</id>
     <content type="html"><![CDATA[<p>兩種監視系統。</p>
 
 <!-- more -->
@@ -155,21 +160,32 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/"/>
-    <updated>2014-11-20T16:15:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync</id>
+    <title type="html"><![CDATA[NetBSD 作業系統簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/21/netbsd/"/>
+    <updated>2014-11-21T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/21/netbsd</id>
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p>最近在一場演討會看到關於建立高可用架構的演講，紀錄一下使用到哪些專案跟相關訊息。</p>
+<p><a href="http://www.netbsd.org/">NetBSD</a> 用來移植各種裝置的作業系統。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync/"/>
+    <updated>2014-11-21T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync</id>
+    <content type="html"><![CDATA[<!-- more -->
 
-<p><code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code></p>
+
+<p>最近在一場演討會看到關於建立高可用架構的演講，演講題目為 <code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code>，
+裡面是講說如何使用 Pacemaker + DRBD  建立一個 HA 架構，紀錄一下使用到哪些專案跟其他相關訊息。</p>
 
 <ol>
 <li><a href="http://www.drbd.org/">DRBD</a></li>
-<li><a href="http://clusterlabs.org/">Pacemaker</a></li>
-<li><a href="http://corosync.github.io/corosync/">Corosync</a></li>
+<li><a href="Pacemaker">Pacemaker</a></li>
+<li><a href="Corosync">Corosync</a></li>
 </ol>
 
 
@@ -650,42 +666,6 @@ tar -xvfz community.tar.gz -C /etc/snort/rules
 <li>TURN</li>
 <li>FullProxy</li>
 <li>ICE</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP One-Time Passwords]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords/"/>
-    <updated>2014-11-10T22:02:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords</id>
-    <content type="html"><![CDATA[<p>使用 PHP 實現 One-Time Passwords (OTP) 。</p>
-
-<!-- more -->
-
-
-<h3>什麼是 OTP</h3>
-
-<p>OTP 簡單說是每次使用帳密登入都是使用密碼產生器產生一次性密碼，這樣比起傳統的密碼安全許多，
-但是需要額外裝置建構這個系統，目前似乎有人使用 email 和 sms 驗證。</p>
-
-<h3>RFC 文件</h3>
-
-<ol>
-<li><a href="http://tools.ietf.org/html/rfc2289">RFC 2289</a></li>
-<li><a href="http://tools.ietf.org/html/rfc1760">RFC 1760</a></li>
-<li><a href="http://tools.ietf.org/html/rfc4226">RFC 4226</a></li>
-<li><a href="http://tools.ietf.org/html/rfc6238">RFC 6238</a></li>
-</ol>
-
-
-<h3>相關專案</h3>
-
-<ol>
-<li><a href="http://sourceforge.net/projects/php-otp/">PHP One-Time Passwords</a></li>
-<li><a href="https://github.com/rbakels/oath-php">oath-php</a></li>
-<li><a href="http://motp.sourceforge.net/">Mobile-OTP</a></li>
 </ol>
 
 ]]></content>

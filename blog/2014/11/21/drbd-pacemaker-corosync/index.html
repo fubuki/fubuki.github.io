@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>ZABBIX and Hinemos - Learning Blog</title>
+  <title>使用 DRBD Pacemaker Corosync 建立高可用架構 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="兩種監視系統。 官網 ZABBIX
-Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併多種監視系統 hatohol
-">
+  <meta name="description" content="最近在一場演討會看到關於建立高可用架構的演講，演講題目為 【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう，
+裡面是講說如何使用 Pacemaker + DRBD 建立一個 HA 架構，紀錄一下使用到哪些專案跟其他相關訊息。 DRBD &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -83,7 +82,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   
   <header>
     
-      <h1 class="entry-title">ZABBIX and Hinemos</h1>
+      <h1 class="entry-title">使用 DRBD Pacemaker Corosync 建立高可用架構</h1>
     
     
       <p class="meta">
@@ -99,7 +98,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   
 
 
-<time datetime="2014-11-20T20:00:35+08:00" pubdate data-updated="true">Nov 20<span>th</span>, 2014</time>
+<time datetime="2014-11-21T23:48:18+08:00" pubdate data-updated="true">Nov 21<span>st</span>, 2014</time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://fubuki.github.io">Comments</a>
@@ -109,30 +108,30 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   </header>
 
 
-<div class="entry-content"><p>兩種監視系統。</p>
-
-<!-- more -->
+<div class="entry-content"><!-- more -->
 
 
-<h3>官網</h3>
+<p>最近在一場演討會看到關於建立高可用架構的演講，演講題目為 <code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code>，
+裡面是講說如何使用 Pacemaker + DRBD  建立一個 HA 架構，紀錄一下使用到哪些專案跟其他相關訊息。</p>
 
 <ol>
-<li><a href="http://www.zabbix.com/">ZABBIX</a></li>
-<li><a href="http://www.hinemos.info/">Hinemos</a></li>
+<li><a href="http://www.drbd.org/">DRBD</a></li>
+<li><a href="Pacemaker">Pacemaker</a></li>
+<li><a href="Corosync">Corosync</a></li>
 </ol>
 
 
-<h3>ZABBIX</h3>
+<h3>DRBD</h3>
 
-<p>使用 C 和 PHP 開發。</p>
+<p>DRBD (Distributed Replicated Block Device)</p>
 
-<h3>Hinemos</h3>
+<h3>Pacemaker</h3>
 
-<p>使用 JAVA 開發。</p>
+<p>管理 cluster 的工具。</p>
 
-<h3>合併多種監視系統</h3>
+<h3>Corosync</h3>
 
-<p><a href="http://www.hatohol.org/">hatohol</a></p>
+<p>通信系統</p>
 </div>
 
 
@@ -155,7 +154,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   
 
 
-<time datetime="2014-11-20T20:00:35+08:00" pubdate data-updated="true">Nov 20<span>th</span>, 2014</time>
+<time datetime="2014-11-21T23:48:18+08:00" pubdate data-updated="true">Nov 21<span>st</span>, 2014</time>
       
 
 <span class="categories">
@@ -176,7 +175,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/11/20/drbd-pacemaker-corosync/" title="Previous Post: 使用 DRBD Pacemaker Corosync 建立高可用架構">&laquo; 使用 DRBD Pacemaker Corosync 建立高可用架構</a>
+        <a class="basic-alignment left" href="/blog/2014/11/19/mysql-5-dot-7-new-feature/" title="Previous Post: MySQL 5.7 new feature">&laquo; MySQL 5.7 new feature</a>
       
       
         <a class="basic-alignment right" href="/blog/2014/11/21/netbsd/" title="Next Post: NetBSD 作業系統簡介">NetBSD 作業系統簡介 &raquo;</a>
@@ -200,6 +199,10 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/11/28/what-is-systemtap/">What Is Systemtap</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/11/27/process-log/">關於處理 LOG 的事情</a>
       </li>
     
@@ -213,10 +216,6 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
     
       <li class="post">
         <a href="/blog/2014/11/24/swiftstack/">OpenStack Swift</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/11/23/python-tornado/">Python Tornado</a>
       </li>
     
   </ul>
@@ -257,7 +256,7 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
   <li><a href='/blog/categories/jquery'>Jquery (2)</a></li>
   <li><a href='/blog/categories/less'>Less (1)</a></li>
   <li><a href='/blog/categories/line'>Line (4)</a></li>
-  <li><a href='/blog/categories/linux'>Linux (7)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (8)</a></li>
   <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
   <li><a href='/blog/categories/machine-learning'>Machine learning (3)</a></li>
   <li><a href='/blog/categories/mariadb'>Mariadb (2)</a></li>
@@ -355,8 +354,8 @@ Hinemos ZABBIX 使用 C 和 PHP 開發。 Hinemos 使用 JAVA 開發。 合併�
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/';
-        var disqus_url = 'http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/';
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync/';
         var disqus_script = 'embed.js';
       
     (function () {
