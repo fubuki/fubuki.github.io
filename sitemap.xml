@@ -1139,12 +1139,12 @@
         <lastmod>2014-11-19T23:20:50+08:00</lastmod>
     </url>
     <url>
-        <loc>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/</loc>
-        <lastmod>2014-11-28T23:29:55+08:00</lastmod>
+        <loc>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/</loc>
+        <lastmod>2014-11-28T23:31:15+08:00</lastmod>
     </url>
     <url>
-        <loc>http://fubuki.github.io/blog/2014/11/21/drbd-pacemaker-corosync/</loc>
-        <lastmod>2014-11-28T23:14:16+08:00</lastmod>
+        <loc>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/</loc>
+        <lastmod>2014-11-28T23:31:16+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/2014/11/21/netbsd/</loc>
@@ -1179,12 +1179,16 @@
         <lastmod>2014-11-28T23:26:53+08:00</lastmod>
     </url>
     <url>
+        <loc>http://fubuki.github.io/blog/2014/11/29/firefox-developer-edition/</loc>
+        <lastmod>2014-11-29T22:12:46+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://fubuki.github.io/robots.txt</loc>
         <lastmod>2014-02-27T22:27:01+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/</loc>
-        <lastmod>2014-11-28T23:29:55+08:00</lastmod>
+        <lastmod>2014-11-29T22:12:46+08:00</lastmod>
     </url>
     <url>
         <loc>http://fubuki.github.io/about/</loc>
@@ -1192,6 +1196,6 @@
     </url>
     <url>
         <loc>http://fubuki.github.io/blog/archives/</loc>
-        <lastmod>2014-11-28T23:29:55+08:00</lastmod>
+        <lastmod>2014-11-29T22:12:46+08:00</lastmod>
     </url>
 </urlset>
