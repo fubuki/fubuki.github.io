@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-29T22:13:38+08:00</updated>
+  <updated>2014-11-30T20:29:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/"/>
+    <updated>2014-11-30T19:45:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近將作業系統從 Ubuntu 12.04 LTS 升級到 14.04 LTS ，裡面的軟體也一併升級但是後來發現 gcc 只有到 <code>4.8</code> 的版本，沒有到最新的
+ <code>4.9</code> 版本，沒有辦法完整支持 <code>C++ 14</code> 的標準。</p>
+
+<p>原本要使用源碼直接編譯，但是發現在 Ubuntu 可以透過 apt 安裝 <code>g++ 4.9</code> ，下面記錄透過 apt 安裝的指令。</p>
+
+<pre><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install g++-4.9
+gcc-4.9 -v
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox Developer Edition]]></title>
@@ -619,36 +640,6 @@ EclipseLink</p>
 為了讓整個專案流程能夠順暢進行。</p>
 
 <h3>看板種類</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何安裝 Snort]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/12/snort-install/"/>
-    <updated>2014-11-12T21:26:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/12/snort-install</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.snort.org/">snort</a> 是一個入侵偵測系統，在網路上有一些現成的規則檔載入到 snort，也可以自行撰寫需要的規則。</p>
-
-<h3>下載 snort 和 daq。</h3>
-
-<pre><code>wget https://www.snort.org/downloads/snort/daq-2.0.4.tar.gz
-wget https://www.snort.org/downloads/snort/snort-2.9.7.0.tar.gz
-</code></pre>
-
-<h3>安裝 libdnet</h3>
-
-<p>在 ubuntu 底下安裝時會發現需要比較新的 <a href="https://code.google.com/p/libdnet/">libdnet</a> 版本，使用 <a href="http://www.ibm.com/developerworks/cn/linux/l-cn-checkinstall/">checkinstall</a> 建立 deb 檔後安裝。</p>
-
-<h3>安裝 daq 和 snort</h3>
-
-<h3>下載官方 RULE</h3>
-
-<pre><code>wget https://www.snort.org/rules/community
-tar -xvfz community.tar.gz -C /etc/snort/rules
-</code></pre>
 ]]></content>
   </entry>
   

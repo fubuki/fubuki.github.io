@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-29T22:13:38+08:00</updated>
+  <updated>2014-11-30T20:29:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/"/>
+    <updated>2014-11-30T19:45:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近將作業系統從 Ubuntu 12.04 LTS 升級到 14.04 LTS ，裡面的軟體也一併升級但是後來發現 gcc 只有到 <code>4.8</code> 的版本，沒有到最新的
+ <code>4.9</code> 版本，沒有辦法完整支持 <code>C++ 14</code> 的標準。</p>
+
+<p>原本要使用源碼直接編譯，但是發現在 Ubuntu 可以透過 apt 安裝 <code>g++ 4.9</code> ，下面記錄透過 apt 安裝的指令。</p>
+
+<pre><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install g++-4.9
+gcc-4.9 -v
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What Is Systemtap]]></title>
@@ -103,26 +124,6 @@
 <h3>Corosync</h3>
 
 <p>通信系統</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fastsocket]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/14/fastsocket/"/>
-    <updated>2014-11-14T21:29:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/14/fastsocket</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/fastos/fastsocket">fastsocket</a> 是由新浪和清華一起開發的專案，可以提高網路 IO 的效率，雖然是蠻新的專案但是從 Github 已經看到不少人關注，不過最主要的是
-不需要更改上層應用程式的結構就可以使用這套系統，另外目前有新浪使用在生產環境下預計未來會慢慢提升使用率。</p>
-
-<p>目前下面三個專案可以順利跑在 <a href="https://github.com/fastos/fastsocket">fastsocket</a> 下。</p>
-
-<pre><code>1. haproxy
-2. nginx (Do disable accept mutex)
-3. lighttpd
-</code></pre>
 ]]></content>
   </entry>
   
