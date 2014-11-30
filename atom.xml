@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-11-30T20:29:24+08:00</updated>
+  <updated>2014-12-01T02:44:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[安裝 Coreos]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/01/install-coreos/"/>
+    <updated>2014-12-01T01:19:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/01/install-coreos</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Coreos 在官網提供了不少安裝方式，我是使用它提供的 VMware 的映像檔安裝，下載之後解壓縮使用 VMware 啟動。</p>
+
+<pre><code>curl -LO http://alpha.release.core-os.net/amd64-usr/current/coreos_production_vmware_insecure.zip
+</code></pre>
+
+<p>下載的檔案裡面有個 <code>insecure_ssh_key</code>，這個映像檔裡面沒有提供帳密登入預設你要用公私鑰登入，我這邊使用
+<code>puttygen.exe</code> 載入 <code>insecure_ssh_key</code> 生成 putty 所吃的格式後使用 <code>core</code> 當作登入帳號便可以登入。</p>
+
+<pre><code>docker run -t -i ubuntu /bin/bash
+</code></pre>
+
+<p>整個映像檔大小不到 200M  架設起來很方便，目前有看到有公司考慮要將系統移除 docker 裡面利用 Coreos 建立環境，
+這也許可以參考未來架構的規劃。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
@@ -623,23 +647,6 @@ EclipseLink</p>
 2. nginx (Do disable accept mutex)
 3. lighttpd
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kanban管理]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/13/kanbanguan-li/"/>
-    <updated>2014-11-13T21:46:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/13/kanbanguan-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>什麼是 Kanban</h3>
-
-<p>之前有使用 <a href="https://trello.com">Trello</a> 後來可以查到了 Kanban 這個專案管理方式，Kanban 管理源自豐田生產系統，重點在於 JIT 這個 Pull 管理概念，
-為了讓整個專案流程能夠順暢進行。</p>
-
-<h3>看板種類</h3>
 ]]></content>
   </entry>
   
