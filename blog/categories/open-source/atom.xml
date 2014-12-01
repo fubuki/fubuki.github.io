@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -141,7 +141,7 @@ EclipseLink</p>
 
 <ol>
 <li>Intrinsic</li>
-<li>CHIH &ndash; Off-Heap</li>
+<li>CHIH - Off-Heap</li>
 <li>JFR 分析內部事件進行優化</li>
 </ol>
 
@@ -313,7 +313,7 @@ EclipseLink</p>
 
 <p>soa 的形式</p>
 
-<h4>結構優化 &ndash; Yar rpc framewrok</h4>
+<h4>結構優化 - Yar rpc framewrok</h4>
 
 <p>第一個 php和 rpc 並行的框架</p>
 
@@ -396,7 +396,7 @@ Caller-ID Service<br/>
 
 <h4>issue</h4>
 
-<p>0th gae &ndash;> aws<br/>
+<p>0th gae -> aws<br/>
 Pass to laaS<br/>
 No operation issue in GAE<br/>
 MongoDB Production Notes<br/>
@@ -446,7 +446,7 @@ elestic Search</p>
 
 <p>災後還原的方案</p>
 
-<h3>PHP Extension 開發實務 &ndash; 補齊 PHP 遺失的 $<em>PUT 與 $</em>DELETE (FirchTsai)</h3>
+<h3>PHP Extension 開發實務 - 補齊 PHP 遺失的 $<em>PUT 與 $</em>DELETE (FirchTsai)</h3>
 
 <p>介紹一下 RESTful
 $<em>PUT<br/>
@@ -561,7 +561,7 @@ JIT::VMRegAnchor</p>
 
 <p>如何變成專業的程式設計師?</p>
 
-<h3>Koa &ndash; Asynchronous Decorators as Middleware</h3>
+<h3>Koa - Asynchronous Decorators as Middleware</h3>
 
 <p>列了一些 node.js clallback solutions</p>
 
@@ -928,7 +928,7 @@ StreamSql</p>
 
 <p>Batch summary</p>
 
-<p>MapReduce &mdash; based</p>
+<p>MapReduce &ndash; based</p>
 
 <p>Hive with Tez</p>
 
@@ -1002,7 +1002,7 @@ StreamSql</p>
 
 <p>Presto`s Roadmap</p>
 
-<p>Data visualization with Presto &ndash; Demo</p>
+<p>Data visualization with Presto - Demo</p>
 
 <p>Grafana</p>
 

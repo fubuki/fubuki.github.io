@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: LINE | Learning Blog]]></title>
+  <title><![CDATA[Categories: Line | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -56,7 +56,7 @@
 
 
 <p>之前有機會看到 LINE　的整個架構圖的時候看到一個 LEGY 的區塊，看起來是負責跟 Client 端連結的部分，並且所有的平台都是透過 LEGY 跟後端程式連結，
-之後在 Line 的開發者大會跟一些 twitter上的訊息得知 LEGY (LINE Event Gateway) 使用 erlang 撰寫的組件，負責分發前端傳來的請求，據說之後會在 LINE Engineers' Blog 有
+之後在 Line 的開發者大會跟一些 twitter上的訊息得知 LEGY (LINE Event Gateway) 使用 erlang 撰寫的組件，負責分發前端傳來的請求，據說之後會在 LINE Engineers&#8217; Blog 有
 更詳盡的介紹。</p>
 ]]></content>
   </entry>
@@ -92,7 +92,7 @@
 
 <p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
 <a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
-<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
+<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 - プラットフォーム）</a></p>
 ]]></content>
   </entry>
   

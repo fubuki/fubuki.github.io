@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sip | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sip/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -121,7 +121,7 @@ make mod_xml_curl-install
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 &ndash; Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
+<p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 - Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
 ]]></content>
   </entry>
   

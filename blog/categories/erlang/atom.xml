@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Erlang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/erlang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -108,7 +108,7 @@
 <!-- more -->
 
 
-<p>最近在網路上在看 o'reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
+<p>最近在網路上在看 o&#8217;reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
 發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
  erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
 ]]></content>

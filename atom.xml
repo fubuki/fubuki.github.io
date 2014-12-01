@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -527,7 +527,7 @@ EclipseLink</p>
 
 <ol>
 <li>Intrinsic</li>
-<li>CHIH &ndash; Off-Heap</li>
+<li>CHIH - Off-Heap</li>
 <li>JFR 分析內部事件進行優化</li>
 </ol>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -98,7 +98,7 @@ Sockert.io 分成哪些部分。</p>
 });
 </code></pre>
 
-<p>現在有'io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
+<p>現在有&#8217;io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
 
 <pre><code>io.use(function(socket, next) {
     var handshakeData = socket.request;

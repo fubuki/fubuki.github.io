@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: jQuery | Learning Blog]]></title>
+  <title><![CDATA[Categories: Jquery | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jquery/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T09:09:02+08:00</updated>
+  <updated>2014-12-02T00:01:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -53,13 +53,11 @@
 <h3>live</h3>
 
 <p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
-如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
-
-<pre><code>$("#example").live("click",function(){
-    console.log('click event');
-});
-$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
-</code></pre>
+如果在程式碼裡使用太多live反而會讓降低javascript的效率。
+    $(&ldquo;#example&rdquo;).live(&ldquo;click&rdquo;,function(){
+        console.log(&lsquo;click event&rsquo;);
+    });
+    $(body).append(&lsquo;<div id = "example"> click here</div>&rsquo;);</p>
 
 <h3>delegate</h3>
 
