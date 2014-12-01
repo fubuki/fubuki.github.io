@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T02:44:42+08:00</updated>
+  <updated>2014-12-01T09:09:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[十二月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan/"/>
+    <updated>2014-12-01T07:39:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>高效能網站開發指南</li>
+<li>Search Analytics for Your Site</li>
+<li>並行之美學：撰寫平行應用程式的新手指南</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[安裝 Coreos]]></title>
@@ -627,26 +644,6 @@ EclipseLink</p>
 2. MQTT
 3. XMPP
 4. STOMP</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fastsocket]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/14/fastsocket/"/>
-    <updated>2014-11-14T21:29:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/14/fastsocket</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/fastos/fastsocket">fastsocket</a> 是由新浪和清華一起開發的專案，可以提高網路 IO 的效率，雖然是蠻新的專案但是從 Github 已經看到不少人關注，不過最主要的是
-不需要更改上層應用程式的結構就可以使用這套系統，另外目前有新浪使用在生產環境下預計未來會慢慢提升使用率。</p>
-
-<p>目前下面三個專案可以順利跑在 <a href="https://github.com/fastos/fastsocket">fastsocket</a> 下。</p>
-
-<pre><code>1. haproxy
-2. nginx (Do disable accept mutex)
-3. lighttpd
-</code></pre>
 ]]></content>
   </entry>
   

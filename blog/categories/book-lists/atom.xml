@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-01T02:44:42+08:00</updated>
+  <updated>2014-12-01T09:09:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[十二月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan/"/>
+    <updated>2014-12-01T07:39:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>高效能網站開發指南</li>
+<li>Search Analytics for Your Site</li>
+<li>並行之美學：撰寫平行應用程式的新手指南</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[十一月書單]]></title>
@@ -83,21 +100,6 @@
 <li>Mastering.Search.Analytics：Measuring.SEO.SEM.and.Site.Search</li>
 <li>Python for Data Analysis</li>
 <li>深入php 面向对象、模式与实践</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[新收集的書籍]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji/"/>
-    <updated>2014-07-13T23:59:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji</id>
-    <content type="html"><![CDATA[<ol>
-<li>Monitoring with Ganglia</li>
-<li>算法谜题</li>
-<li>内存数据管理</li>
-<li>编程原本</li>
 </ol>
 
 ]]></content>
