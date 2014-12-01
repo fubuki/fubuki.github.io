@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mozilla | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mozilla/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox Developer Edition]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/29/firefox-developer-edition/"/>
+    <updated>2014-11-29T21:06:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/29/firefox-developer-edition</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在 Mozilla 的電子報看到了 <a href="http://mozilla.com.tw/firefox/developer/">Firefox Developer Edition</a> : 一個為了開發者設計的閱覽器版本，這個版本似乎是直接將 <a href="https://github.com/campd/fxdt-adapters">fxdt-adapters</a> 包進去。</p>
+
+<p>這個開發者版本直接提供開發 <code>Firefox OS APP</code> 的功能叫做 <code>WebIDE</code> 可以直接在閱覽器編輯專案，裡面也有內建用來對網頁除錯的工具，
+之前我都是使用 firebug 測試網頁而兩者之間的差異還在研究中，另外也有一個可以讓使用者透過連接外部的裝置讓開發者在其他平台上除錯。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mozilla Webmaker]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker/"/>
+    <updated>2014-07-25T23:46:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/25/mozilla-webmaker</id>
+    <content type="html"><![CDATA[<p>在參加 COSCUP 時，有一場議程有提到 Appmaker 這個工具可以輕易讓使用者
+開發 APP 並且發布到 firefox os 手機或是模擬器上面，看著 youtube上面的教學弄了一個煙火的APP，馬上
+可以看到效果，能夠給開發者建立一個原型。</p>
+
+<p>另外值得一提的是<a href="https://webmaker.org/zh-TW%3F">webmaker</a> 這個網站， Appmaker是在這個網站下面的其中一個工具，這個網站還有提供其他有趣
+的功能可以日後做為參考。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Linux | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/"/>
+    <updated>2014-11-30T19:45:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近將作業系統從 Ubuntu 12.04 LTS 升級到 14.04 LTS ，裡面的軟體也一併升級但是後來發現 gcc 只有到 <code>4.8</code> 的版本，沒有到最新的
+ <code>4.9</code> 版本，沒有辦法完整支持 <code>C++ 14</code> 的標準。</p>
+
+<p>原本要使用源碼直接編譯，但是發現在 Ubuntu 可以透過 apt 安裝 <code>g++ 4.9</code> ，下面記錄透過 apt 安裝的指令。</p>
+
+<pre><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install g++-4.9
+gcc-4.9 -v
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Is Systemtap]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/28/what-is-systemtap/"/>
+    <updated>2014-11-28T23:17:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/28/what-is-systemtap</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sourceware.org/systemtap/">systemtap</a> 一個可以用來抓取 Linux kernal 訊息的工具，在以前開發 Linux 核心的時候要抓去內部的資訊都需要開發者插入程式碼然後重新編譯
+後才能顯示一些想要的資訊，但是後後來的核心版本提供了一個名叫 kprobe 機制，而 <a href="https://sourceware.org/systemtap/">systemtap</a> 便是藉由 kprobe 讓開發者更容易去抓取核心的運行資訊。</p>
+
+<h3>如何開啟 systemtap 功能</h3>
+
+<h3>範例</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NetBSD 作業系統簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/21/netbsd/"/>
+    <updated>2014-11-21T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/21/netbsd</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.netbsd.org/">NetBSD</a> 用來移植各種裝置的作業系統。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ZABBIX and Hinemos]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/"/>
+    <updated>2014-11-20T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos</id>
+    <content type="html"><![CDATA[<p>兩種監視系統。</p>
+
+<!-- more -->
+
+
+<h3>官網</h3>
+
+<ol>
+<li><a href="http://www.zabbix.com/">ZABBIX</a></li>
+<li><a href="http://www.hinemos.info/">Hinemos</a></li>
+</ol>
+
+
+<h3>ZABBIX</h3>
+
+<p>使用 C 和 PHP 開發。</p>
+
+<h3>Hinemos</h3>
+
+<p>使用 JAVA 開發。</p>
+
+<h3>合併多種監視系統</h3>
+
+<p><a href="http://www.hatohol.org/">hatohol</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/"/>
+    <updated>2014-11-20T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在一場演討會看到關於建立高可用架構的演講，演講題目為 <code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code>，
+裡面是講說如何使用 Pacemaker + DRBD  建立一個 HA 架構，紀錄一下使用到哪些專案跟其他相關訊息。</p>
+
+<ol>
+<li><a href="http://www.drbd.org/">DRBD</a></li>
+<li><a href="Pacemaker">Pacemaker</a></li>
+<li><a href="Corosync">Corosync</a></li>
+</ol>
+
+
+<h3>DRBD</h3>
+
+<p>DRBD (Distributed Replicated Block Device)</p>
+
+<h3>Pacemaker</h3>
+
+<p>管理 cluster 的工具。</p>
+
+<h3>Corosync</h3>
+
+<p>通信系統</p>
+]]></content>
+  </entry>
+  
+</feed>

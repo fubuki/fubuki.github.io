@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Php | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/25/php-password-function/"/>
+    <updated>2014-11-25T21:57:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/25/php-password-function</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>PHP 5.5 新加了用來處理 Password 加密的功能，<a href="http://php.net/manual/en/ref.password.php">Password Hashing Functions</a> 裡面有列出新增的四個 function。</p>
+
+<h3>password_get_info</h3>
+
+<p>傳入一個加密字串取得。</p>
+
+<h3>password_hash</h3>
+
+<p>針對一個字串加密。</p>
+
+<h3>password_needs_rehash</h3>
+
+<p>當加密字串遺失了一些資訊時可以透過這個重新加密字串。</p>
+
+<h3>password_verify</h3>
+
+<p>確認字串和加密後的 hash 是否相同。</p>
+
+<h3>相關資訊</h3>
+
+<p><a href="https://wiki.php.net/rfc/password_hash">PHP RFC: password_hash() function behavior</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP One-Time Passwords]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords/"/>
+    <updated>2014-11-10T22:02:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/10/php-one-time-passwords</id>
+    <content type="html"><![CDATA[<p>使用 PHP 實現 One-Time Passwords (OTP) 。</p>
+
+<!-- more -->
+
+
+<h3>什麼是 OTP</h3>
+
+<p>OTP 簡單說是每次使用帳密登入都是使用密碼產生器產生一次性密碼，這樣比起傳統的密碼安全許多，
+但是需要額外裝置建構這個系統，目前似乎有人使用 email 和 sms 驗證。</p>
+
+<h3>RFC 文件</h3>
+
+<ol>
+<li><a href="http://tools.ietf.org/html/rfc2289">RFC 2289</a></li>
+<li><a href="http://tools.ietf.org/html/rfc1760">RFC 1760</a></li>
+<li><a href="http://tools.ietf.org/html/rfc4226">RFC 4226</a></li>
+<li><a href="http://tools.ietf.org/html/rfc6238">RFC 6238</a></li>
+</ol>
+
+
+<h3>相關專案</h3>
+
+<ol>
+<li><a href="http://sourceforge.net/projects/php-otp/">PHP One-Time Passwords</a></li>
+<li><a href="https://github.com/rbakels/oath-php">oath-php</a></li>
+<li><a href="http://motp.sourceforge.net/">Mobile-OTP</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP: Thread-Safe Resource Manager]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager/"/>
+    <updated>2014-11-09T21:18:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/09/php-thread-safe-resource-manager</id>
+    <content type="html"><![CDATA[<p>PHP 的執行緒安全資源管理機制。</p>
+
+<!-- more -->
+
+
+<p><a href="http://blog.codinglabs.org/articles/zend-thread-safety.html">PHP中的线程安全</a>
+<a href="http://www.54chen.com/php-tech/what-is-tsrmls_cc.html">究竟什么是TSRMLS_CC？</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[控制 PHP 執行時間]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/26/php-timeout/"/>
+    <updated>2014-10-26T13:38:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/26/php-timeout</id>
+    <content type="html"><![CDATA[<p>如何控制 PHP 的最長執行時間。</p>
+
+<!-- more -->
+
+
+<p>在執行 PHP 腳本的時候有可能因為程式邏輯上的問題或是為了取得外部的資料導致執行時間過久，而讓使用者等待回應的時間過長帶來不好的體驗，
+因此在 PHP 本身一些常用的函式庫或是伺服器設定會讓開發者設定 timeout 的時間。</p>
+
+<h4>nginx</h4>
+
+<ol>
+<li>fastcgi_connect_timeout</li>
+<li>fastcgi_send_timeout</li>
+<li>fastcgi_read_timeout</li>
+</ol>
+
+
+<h4>php-fpm</h4>
+
+<ol>
+<li>php-fpm.conf 的 request_terminate_timeout</li>
+</ol>
+
+
+<p>max_execution_time 和 set_time_limit 也能限制腳本執行的時間但是似乎在某些場景是有問題的。</p>
+
+<h4>curl</h4>
+
+<ol>
+<li>CURLOPT_TIMEOUT</li>
+<li>CURLOPT_TIMEOUT_MS</li>
+<li>CURLOPT_CONNECTTIMEOUT</li>
+<li>CURLOPT_CONNECTTIMEOUT_MS</li>
+<li>CURLOPT_DNS_CACHE_TIMEOUT</li>
+</ol>
+
+
+<h4>mysql</h4>
+
+<ol>
+<li>innodb_lock_wait_timeout</li>
+<li>libmysql 的 MYSQL_OPT_READ_TIMEOUT 和 MYSQL_OPT_WRITE_TIMEOUT</li>
+</ol>
+
+
+<h4>memcached</h4>
+
+<ol>
+<li>bool Memcache::connect ( string $host [, int $port [, int $timeout ]] )</li>
+<li>Memcached 要另外實現</li>
+</ol>
+
+
+<h4>redis</h4>
+
+<ol>
+<li>$redis->connect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5); // 2.5 sec timeout.</li>
+<li>$redis->pconnect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5, &lsquo;x&rsquo;); // x is sent as persistent_id and would be another connection the the three before.</li>
+</ol>
+
+
+<h4>其他</h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Php 的加密方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/14/php-and-crypt/"/>
+    <updated>2014-10-14T22:09:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/14/php-and-crypt</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近需要生成一些加密字串，需要研究一下要採用哪種加密演算法， md5 跟 sha1 應該是不會列入考慮， 有可能會在 bcrypt 和 scrypt 兩者之間比較
+一下看是要選擇哪一個。</p>
+
+<ol>
+<li>crypt</li>
+<li>bcrypt</li>
+<li>scrypt</li>
+</ol>
+
+
+<h4>關於加密的文章</h4>
+
+<p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
+]]></content>
+  </entry>
+  
+</feed>

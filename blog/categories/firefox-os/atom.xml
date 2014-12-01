@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Firefox Os | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/firefox-os/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Firefox Os App Development]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development/"/>
+    <updated>2014-06-14T23:12:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/14/firefox-os-app-development</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="https://github.com/soapdog/firefoxos-quick-guide">firefoxos-quick-guide</a></li>
+<li><a href="http://www.slideshare.net/benko/how-to-start-developing-apps-for-firefox-os">how-to-start-developing-apps-for-firefox-os</a></li>
+<li><a href="https://developer.mozilla.org/zh-TW/Firefox_OS/Screencast_series:_App_Basics_for_Firefox_OS">App_Basics_for_Firefox_OS</a></li>
+<li><a href="http://buildingfirefoxos.com/">buildingfirefoxos</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

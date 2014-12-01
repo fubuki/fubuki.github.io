@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Design Pattern | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/design-pattern/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Guard Clause and Nested Structure]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/07/guard-clause-and-nested-structure/"/>
+    <updated>2014-11-07T08:18:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/07/guard-clause-and-nested-structure</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在一個函數裡面通常會有多個 if else 的條件子句，這時會有下面兩種寫法。</p>
+
+<h3>Guard Clause</h3>
+
+<p>Guard 有著防禦的意思，是在條件子句中直接離開函數，每個條件子句都是同一個階層。</p>
+
+<pre><code>if (xxx) {
+    return;
+}
+
+if (yyy) {
+    return 
+}
+
+return;
+</code></pre>
+
+<h3>Nested Structure</h3>
+
+<p>在一個條件子句中還有多層的條件子句，因此會看到下面這種情形，導致之後別人維護會很難看懂整個程式的。</p>
+
+<pre><code>if (x == 1) {
+    // do something
+    if(y == 3) {
+        // do something
+        if(x == 4) {
+            // do something
+        } else {
+
+        }
+    } else {
+
+    }
+}
+</code></pre>
+
+<h3>感想</h3>
+
+<p>大部分時候我都是用 Guard Clause 的寫法，我覺得盡量減少 <code>if else</code> 的層級看起來比較好懂也比較容易給之後的人維護修改，可以很容易看
+出每個條件子句的用途為何。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Problem Frames]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/26/problem-frames/"/>
+    <updated>2014-07-26T23:46:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/26/problem-frames</id>
+    <content type="html"><![CDATA[<p>Design pattern 設計模式最有名是由GOF提出來的， 其實主要是整理軟體開發上一些問題的解法，
+之前以深入淺出設計模式為人門開始看的，但是看到最後卻只有一知半解，後來看到某個BLOG提到的
+<code>Problem Frames</code> 才恍然大悟，我並不真正了解這個設計模式能夠解決什麼類型的問題，導致如果
+遇到開發上的困難時無法好好利用設計模式解決問題。</p>
+
+<p>之後需要看一下<a href="http://www.amazon.com/Problem-Frames-Analysing-Structuring-Development/dp/020159627X/ref=pd_sim_b_1?ie=UTF8&amp;refRID=1C3RGNNSA0J2RF13K5XJ">Problem Frames</a>然後在回去重看關於設計模式的書單。</p>
+]]></content>
+  </entry>
+  
+</feed>

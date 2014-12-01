@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: API | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/api/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RESTful API 的版本控制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/15/api-version-control/"/>
+    <updated>2014-10-15T23:21:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/15/api-version-control</id>
+    <content type="html"><![CDATA[<p>紀錄一些如何對 RESTful API 進行版本控制的方法。</p>
+
+<!-- more -->
+
+
+<h4>URI</h4>
+
+<pre><code>https://api.example.com/v1/places
+</code></pre>
+
+<h4>Hostname</h4>
+
+<pre><code>https://api-v1.example.com/places
+</code></pre>
+
+<h4>Body and Query Params</h4>
+
+<pre><code>1 POST /places HTTP/1.1
+2 Host: api.example.com
+3 Content-Type: application/json
+4
+5 {
+6 "version" : "1.0"
+7 }
+</code></pre>
+
+<h4>Custom Request Header</h4>
+
+<p><a href="http://www.mnot.net/blog/2012/07/11/header_versioning">Bad HTTP API Smells: Version Headers</a></p>
+
+<h4>Content Negotiation</h4>
+
+<p><a href="https://developer.github.com/v3/media/#api-v3-media-type-and-the-future">Github Media Types</a></p>
+
+<h4>Content Negotiation for Resources</h4>
+
+<h4>Feature Flagging</h4>
+
+<h4>參考資料</h4>
+
+<ol>
+<li>Build APIs You Won’t Hate</li>
+<li><a href="http://www.troyhunt.com/2014/02/your-api-versioning-is-wrong-which-is.html">Your API versioning is wrong, which is why I decided to do it 3 different wrong ways </a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

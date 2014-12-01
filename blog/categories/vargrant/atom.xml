@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Vargrant | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/vargrant/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[docker.io 和 Vagrant]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/01/docker-dot-io/"/>
+    <updated>2014-04-01T21:18:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/01/docker-dot-io</id>
+    <content type="html"><![CDATA[<p><a href="https://www.docker.io">docker.io</a> 是一種 <a href="http://en.wikipedia.org/wiki/LXC">LXC (LinuX Containers)</a>，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。</p>
+]]></content>
+  </entry>
+  
+</feed>

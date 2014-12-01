@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: LINE | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LINE 的 安全性問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti/"/>
+    <updated>2014-09-25T22:32:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/25/line-de-an-quan-xing-wen-ti</id>
+    <content type="html"><![CDATA[<p>關於 LINE 的安全性問題。</p>
+
+<!-- more -->
+
+
+<p>日前看到在日本媒體有在報導韓國的國家情報局透過 LINE 收集訊息的事情，最後是由 LINE 的社長出面澄清此事，不過這讓我想去
+了解一下 LINE 在通信上是如何加密的保障他的安全性。</p>
+
+<p>LINE 是使用 SPDY + thrift 傳輸資料，而 SPDY 是基於 TLS 實現的本身就有加密，不過在舊的版本似乎沒有全部都走 TLS，在 LINE 的
+開發 BLOG 上有寫說由於 TLS 在移動網路上會增加連接時間和導致傳輸異常便允許沒加密的網路連線，不過後面有寫在 3.9.3 版本之後全部都走
+加密連線，似乎是透過 RSA 2048 bit 加密。</p>
+
+<pre><code>Updated on 2014/06/21: LINE 3.9.3 or newer versions encrypt all message data even on mobile network like 2G, 3G and LTE
+</code></pre>
+
+<p>另外在 BLOG 的文章裡也有提到其他關於安全性的事情，不過在 Server 的資料加密就沒有提到太多的部分。</p>
+
+<h3>參考文章</h3>
+
+<ol>
+<li><a href="http://blog.kazuhooku.com/2014/06/line.html">LINE「独自暗号化」のメリットと安全性について</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=2709">LINE Security – Simple, Safe, Secure</a></li>
+<li><a href="http://developers.linecorp.com/blog/?p=3262">LINEの暗号化について</a></li>
+<li><a href="http://inaz2.hatenablog.com/entry/2014/07/03/000900">Android版LINE Appの通信を覗いてみる</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LEGY (LINE Event Gateway)]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway/"/>
+    <updated>2014-09-19T23:44:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/19/legy-line-event-gateway</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有機會看到 LINE　的整個架構圖的時候看到一個 LEGY 的區塊，看起來是負責跟 Client 端連結的部分，並且所有的平台都是透過 LEGY 跟後端程式連結，
+之後在 Line 的開發者大會跟一些 twitter上的訊息得知 LEGY (LINE Event Gateway) 使用 erlang 撰寫的組件，負責分發前端傳來的請求，據說之後會在 LINE Engineers' Blog 有
+更詳盡的介紹。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NAVER Line Protocol]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/31/naver-line-protocol/"/>
+    <updated>2014-05-31T22:38:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/31/naver-line-protocol</id>
+    <content type="html"><![CDATA[<p>研究關於Line 的通訊架構。</p>
+
+<!-- more -->
+
+
+<p>目前可以知道Line 有使用 SPDY ，不過<a href="http://blogs.ixiacom.com/ixia-blog/emulating-the-line-application/">emulating-the-line-application</a>有提到也有使用thrift用來控制訊息的部分，
+另外透過<a href="https://github.com/mvirkkunen/purple-line">purple-line</a>這個專案也能稍微了解Line的應用程式與伺服器之間互相通訊的過程，裡面也有一份<a href="http://altrepo.eu/git/line-protocol.git/">line-protocol</a>的
+規格表可以做為日後開發類似功能的參考。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[LINE Developer Conference]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/21/line-developer-conference/"/>
+    <updated>2014-05-21T21:54:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/21/line-developer-conference</id>
+    <content type="html"><![CDATA[<p>LINE Developer Conference</p>
+
+<!-- more -->
+
+
+<p>LINE的開發者聚會，介紹跟LINE有關的東西， 不過很可惜的詳細的內容不會公佈到網路上，而且參加者似乎只有150名，
+只能從網路上參加者的文章窺知一二。</p>
+
+<p><a href="http://line-hr.jp/archives/37147547.html">LINE Developer Conference 開催のお知らせ</a><br/>
+<a href="http://qiita.com/launcher_test/items/d2d0ddc4e11e1609bb31">LINE Developer Conference (インフラ)</a><br/>
+<a href="http://qiita.com/arumani/items/a09d70c5bde1bef3375b">LINE Developer Conference（Day 2 &ndash; プラットフォーム）</a></p>
+]]></content>
+  </entry>
+  
+</feed>

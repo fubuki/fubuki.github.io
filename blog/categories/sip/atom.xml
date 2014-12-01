@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Sip | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/sip/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[P2PSIP]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/04/p2psip/"/>
+    <updated>2014-11-04T21:14:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/04/p2psip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>簡介</h3>
+
+<p>為了能夠建立去中心化的 SIP 網路，避免在傳統的 C/S 環境下由於一台 Server 失效的情況導致一個地區處於無法服務的狀態所設計的，
+Skype 也是用 P2P 的方式建立它的通信網路，但是似乎不是使用 P2PSIP 的方式而是用它自己的方式實現，在網路上有些分析 Skype 通信協定的論文可以參考，
+而 P2PSIP 本身有個<a href="http://www.p2psip.org/">官網</a>可以參考。</p>
+
+<h3>P2P 和 SIP 協定結合的方式</h3>
+
+<ol>
+<li>SIP over P2P</li>
+<li>P2P over SIP</li>
+</ol>
+
+
+<h3>函式庫</h3>
+
+<p><a href="https://code.google.com/p/sip2peer/">sip2peer</a> 實現 P2PSIP 協定。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 Back-to-back User Agent ?]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/28/back-to-back-user-agent/"/>
+    <updated>2014-10-28T23:49:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/28/back-to-back-user-agent</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 RFC3261 裡面有定義何謂 Back-to-back user agent （B2BUA）? 是讓 client 端可以透過 B2BUA 使用 sip 協定建立連線，
+然後必須要一直保持連線， 以角色來說就像  FreeSWITCH 一樣，就算是使用 sip 建立連線之後利用 rtp 傳送訊息似乎也需要
+ FreeSWITCH 幫忙，我原本以為 FreeSWITCH 只是幫忙建立連線但從規格書上看還是需要 FreeSWTICH 參與對話。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Freeswitch 動態更改 Sip 使用者資訊]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/21/freeswitch-xml-curl/"/>
+    <updated>2014-10-21T22:29:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/21/freeswitch-xml-curl</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>freeswitch 預設是透過將 sip 使用者資訊寫入一份 xml 檔案，不過可以透過一些方法動態增加使用者資訊，
+目前可以透過 <code>xml_curl</code> 這個模塊將 freeswitch 一些行為使用 curl 的方式跟外部 server 連接認證使用者資料。</p>
+
+<h4>安裝 xml_curl</h4>
+
+<p>下載 <a href="http://files.freeswitch.org/">http://files.freeswitch.org/</a> 的 freeswtich 原始碼，編輯 module.conf 將 xml_curl 的註解去除。</p>
+
+<pre><code>./configure  
+make mod_xml_curl-install
+</code></pre>
+
+<h4>載入 xml_curl</h4>
+
+<p>編輯 <code>/etc/freeswitch/autoload_configs</code> 重啟 freeswitch。<br/>
+也是可以使用 fs_cli Mod commands 載入模組。 <br/>
+編輯 xml_curl.conf.xml 讓 freeswitch 要怎麼跟後端的 web service 溝通。</p>
+
+<h4>設定 Freeswitch-Contrib</h4>
+
+<p>下載 <a href="https://freeswitch.org/stash/projects/FS/repos/freeswitch-contrib/browse">Freeswitch-Contrib</a>，在 <code>intralanman/PHP/fs_curl</code> 底下的程式碼放到可以執行 PHP 的伺服器，
+設定要使用哪種資料庫，伺服器上面要安裝 PDO 讓 PHP 可以跟資料庫連結。</p>
+
+<h4>動態增加使用者資料</h4>
+
+<p>最後更改資料庫的資料測試效果。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FreeSWITCH and Asterisk]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/08/freeswitch-and-asterisk/"/>
+    <updated>2014-10-08T23:27:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/08/freeswitch-and-asterisk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在書店找書的時候發現了一本 <code>FreeSWITCH权威指南</code>，因而發現了 <code>FreeSWITCH</code> 這套軟體，跟 Asterisk 一樣可以用來建構
+電話系統，然後在<code>FreeSWITCH背后的故事</code>這篇文章裡面有提到為何開發 FreeSWITCH。</p>
+
+<p>Asterisk 和 FreeSWITCH 在網路可以看到不少人在比較，似乎 FreeSWITCH 的效能比較高但是 Asterisk 比較老用的人似乎比較多，
+在中國那邊也有一個簡體中文的網站在專門介紹 FreeSWITCH，原本手上的工作是要用 Asterisk 不過有可能轉向使用 FreeSWITCH 試試。</p>
+
+<h3>FreeSWITCH 安裝方法</h3>
+
+<h4>從源碼安裝</h4>
+
+<h4>使用 apt 安裝</h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk Pami Pagi]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi/"/>
+    <updated>2014-10-07T23:33:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/07/asterisk-pami-pagi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究讓 PHP 控制 Asterisk ，然後看到 <a href="http://www.slideshare.net/mgornstein/phpconf-2013">Phpconf 2013 &ndash; Agile Telephony Applications with PAMI and PAGI</a> 這篇投影片有提到一些可以參考的資料和 Library。</p>
+]]></content>
+  </entry>
+  
+</feed>

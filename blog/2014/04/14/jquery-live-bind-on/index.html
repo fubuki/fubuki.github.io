@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Jquery Bind, Live, Delegate, On - Learning Blog</title>
+  <meta name="author" content="Fubuki">
+
+  
+  <meta name="description" content="jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦jQuery演進短論（TonyQ）這個影片，講解的還蠻清楚的。 bind 以前我使用最多的綁定方式， &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-48634116-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Learning Blog</a></h1>
+  
+    <h2>預定調和</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fubuki.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Jquery Bind, Live, Delegate, On</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-14T21:28:39+08:00" pubdate data-updated="true">Apr 14<span>th</span>, 2014</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>jquery 用來綁定事件的方法有好幾種根據Jquery版本不同能支援的方法也有所不同，這篇文章就短暫
+記錄一下那些函式的用法，如果要更詳細的解說推薦<a href="http://www.youtube.com/watch?v=znroW8mH07o">jQuery演進短論（TonyQ）</a>這個影片，講解的還蠻清楚的。</p>
+
+<!-- more -->
+
+
+<h3>bind</h3>
+
+<p>以前我使用最多的綁定方式，除了可以綁定jquery原有的函式也可以自訂事件名稱，在去觸發自訂事件，不過bind只能綁定一次如果使用者
+之後append一個新的節點就必須在重新綁定一次。</p>
+
+<pre><code>$(body).bind("click",function(){
+    console.log('click event');
+});
+</code></pre>
+
+<h3>live</h3>
+
+<p>有時候會使用ajax動態在入新的內容，開發者希望能夠自動將事件綁定到新的內容裡面就會使用live的方式去綁定，不過由於live的實現方式
+如果在程式碼裡使用太多live反而會讓降低javascript的效率。</p>
+
+<pre><code>$("#example").live("click",function(){
+    console.log('click event');
+});
+$(body).append('&lt;div id = "example"&gt; click here&lt;/div&gt;');
+</code></pre>
+
+<h3>delegate</h3>
+
+<p>由於live 是透過監聽document的節點達成事件動態綁定，所以並不建議使用live而是使用delegate取代，使用方法如下，綁定的事件只會在#example下的
+li元素才會生效。</p>
+
+<pre><code>$("#example").delegate("li", "click", function () {  
+    console.log('click event');
+});  
+</code></pre>
+
+<h3>on</h3>
+
+<p>on是目前官方推薦使用的綁定方式，不論是bind和live都可以透過on去實現，如果有去看jquery的原始碼在某個版本之後bind和live以及delegate底層都是
+用on去實現了並且在1.10的時候live就被拿掉了，如果之後有空還需要整理一下on的實現方法。<br/>
+以下同等於bind的用法</p>
+
+<pre><code>$("#example").on("click",function(){
+    console.log('click event');
+});
+</code></pre>
+
+<p>以下同等於live的用法</p>
+
+<pre><code>$(document).on("click","#example",function(){
+    console.log('click event');
+});
+</code></pre>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-14T21:28:39+08:00" pubdate data-updated="true">Apr 14<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/jquery/'>jQuery</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/04/12/osdc-2014-second-day/" title="Previous Post: OSDC 2014 second day">&laquo; OSDC 2014 second day</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/04/15/zhong-wen-fen-ci-qi/" title="Next Post: 中文分詞器">中文分詞器 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/12/01/install-coreos/">安裝 Coreos</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/">在 Ubuntu 14.04 快速安裝 gcc-4.9</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/29/firefox-developer-edition/">Firefox Developer Edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/28/what-is-systemtap/">What Is Systemtap</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/11/27/process-log/">關於處理 LOG 的事情</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+<h1>分類</h1>
+<ul>
+  <li><a href='/blog/categories/algorithm'>Algorithm (12)</a></li>
+  <li><a href='/blog/categories/android'>Android (5)</a></li>
+  <li><a href='/blog/categories/api'>Api (1)</a></li>
+  <li><a href='/blog/categories/architecture'>Architecture (2)</a></li>
+  <li><a href='/blog/categories/astreisk'>Astreisk (3)</a></li>
+  <li><a href='/blog/categories/atom'>Atom (1)</a></li>
+  <li><a href='/blog/categories/bdd'>Bdd (1)</a></li>
+  <li><a href='/blog/categories/book-lists'>Book lists (9)</a></li>
+  <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
+  <li><a href='/blog/categories/chocolatey'>Chocolatey (1)</a></li>
+  <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
+  <li><a href='/blog/categories/data-analysis'>Data analysis (1)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep-learning (2)</a></li>
+  <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
+  <li><a href='/blog/categories/distributed-system'>Distributed system (1)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (5)</a></li>
+  <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
+  <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
+  <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
+  <li><a href='/blog/categories/frontend'>Frontend (3)</a></li>
+  <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
+  <li><a href='/blog/categories/git'>Git (12)</a></li>
+  <li><a href='/blog/categories/graph-database'>Graph database (1)</a></li>
+  <li><a href='/blog/categories/gulp'>Gulp (1)</a></li>
+  <li><a href='/blog/categories/hadoop'>Hadoop (2)</a></li>
+  <li><a href='/blog/categories/html5'>Html5 (2)</a></li>
+  <li><a href='/blog/categories/information-retrieval'>Information retrieval (1)</a></li>
+  <li><a href='/blog/categories/javascript'>Javascript (15)</a></li>
+  <li><a href='/blog/categories/jdk'>Jdk (2)</a></li>
+  <li><a href='/blog/categories/jquery'>Jquery (2)</a></li>
+  <li><a href='/blog/categories/less'>Less (1)</a></li>
+  <li><a href='/blog/categories/line'>Line (4)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (9)</a></li>
+  <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
+  <li><a href='/blog/categories/machine-learning'>Machine learning (3)</a></li>
+  <li><a href='/blog/categories/mariadb'>Mariadb (2)</a></li>
+  <li><a href='/blog/categories/markdown'>Markdown (1)</a></li>
+  <li><a href='/blog/categories/memcached'>Memcached (4)</a></li>
+  <li><a href='/blog/categories/mozilla'>Mozilla (2)</a></li>
+  <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
+  <li><a href='/blog/categories/mysql'>Mysql (7)</a></li>
+  <li><a href='/blog/categories/nginx'>Nginx (2)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (10)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (20)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
+  <li><a href='/blog/categories/oauth'>Oauth (1)</a></li>
+  <li><a href='/blog/categories/open-source'>Open source (13)</a></li>
+  <li><a href='/blog/categories/openstack'>Openstack (1)</a></li>
+  <li><a href='/blog/categories/php'>Php (23)</a></li>
+  <li><a href='/blog/categories/project-management'>Project management (3)</a></li>
+  <li><a href='/blog/categories/python'>Python (5)</a></li>
+  <li><a href='/blog/categories/queue'>Queue (3)</a></li>
+  <li><a href='/blog/categories/rabbitmq'>Rabbitmq (6)</a></li>
+  <li><a href='/blog/categories/redis'>Redis (7)</a></li>
+  <li><a href='/blog/categories/ruby'>Ruby (1)</a></li>
+  <li><a href='/blog/categories/sass'>Sass (1)</a></li>
+  <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
+  <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
+  <li><a href='/blog/categories/sdn'>Sdn (1)</a></li>
+  <li><a href='/blog/categories/search-engine'>Search engine (4)</a></li>
+  <li><a href='/blog/categories/server'>Server (1)</a></li>
+  <li><a href='/blog/categories/sip'>Sip (7)</a></li>
+  <li><a href='/blog/categories/snort'>Snort (1)</a></li>
+  <li><a href='/blog/categories/socketio'>Socketio (6)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (1)</a></li>
+  <li><a href='/blog/categories/sql'>Sql (1)</a></li>
+  <li><a href='/blog/categories/sublime-text'>Sublime-text (3)</a></li>
+  <li><a href='/blog/categories/theano'>Theano (1)</a></li>
+  <li><a href='/blog/categories/ux'>Ux (1)</a></li>
+  <li><a href='/blog/categories/vargrant'>Vargrant (1)</a></li>
+  <li><a href='/blog/categories/vim'>Vim (2)</a></li>
+  <li><a href='/blog/categories/voip'>Voip (1)</a></li>
+  <li><a href='/blog/categories/webrtc'>Webrtc (1)</a></li>
+  <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
+</ul>
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/fubuki">@fubuki</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'fubuki',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Fubuki -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fubuki';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/';
+        var disqus_url = 'http://fubuki.github.io/blog/2014/04/14/jquery-live-bind-on/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.IO Meetup]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup/"/>
+    <updated>2014-09-23T23:51:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/23/socket-dot-io-meetup</id>
+    <content type="html"><![CDATA[<p>在日本的一場跟 Socket.IO 有關的會議。</p>
+
+<!-- more -->
+
+
+<p><a href="http://www.ustream.tv/recorded/49506480">影片</a></p>
+
+<p>在尋找跟 socket.io-adapter 相關的資訊的時候找到的，<a href="http://connpass.com/event/6911/">Socket.IO Meetup</a> 有邀請到 socket.io 的作者 <code>Guillermo</code>，
+裡面有些 LT 很蠻有趣的， 然後重點在於 <code>Guillermo</code> 的 keynote，需要尋找一下演講內容。</p>
+
+<h3>MQTT.IO</h3>
+
+<p><a href="https://speakerdeck.com/hakobera/mqtt-dot-io">MATT.IO</a></p>
+
+<h3>socket.io on SmartFx</h3>
+
+<p>投影片在這 <a href="http://www.slideshare.net/ssuser69ee9b/socketio-on-smartfx">socketio-on-smartfx</a>，似乎是跟 FX 有關的公司，利用 socket.io 更新前端的資料，投影片裡面有寫他們是用 <a href="https://github.com/takeshy/socket.io-reqev">socket.io-reqev</a> 開發的，
+包裹 socket.io 的 framework，裡面比較有趣的部分是 socket.io 會將自身的狀態更新到資料庫然後 web server 會從 DB 裡面隨機選出一個 socket.io的連結給 client。</p>
+
+<h3>Web-based multitrack recording</h3>
+
+<p><a href="https://github.com/kuu/WebMTR">WebMTR</a></p>
+
+<h3>Socket.IO 1.0 Client For Java</h3>
+
+<p><a href="https://speakerdeck.com/nkzawa/socket-dot-io-1-dot-0-client-for-javafalseshao-jie">Socket.IO 1.0 Client for Java</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Socker.io 1.0 版本有哪些變動]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0/"/>
+    <updated>2014-09-21T21:43:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/21/whats-new-in-socket-dot-io-1-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://juriy.com/p/socket-io.html">What&rsquo;s new in Socket.IO 1.0</a>裡面介紹新版本的架構和哪些更動的地方，可以藉由這篇文章看出
+Sockert.io 分成哪些部分。</p>
+
+<ol>
+<li>engine.io</li>
+<li>engine.io-client</li>
+<li>engine.io-parser</li>
+<li>socket.io</li>
+<li>socket.io-adapter</li>
+<li>socket.io-client</li>
+<li>socket.io-parser</li>
+<li>socket.io-protocol</li>
+<li>socket.io-redis</li>
+<li>socket.io-emitter</li>
+</ol>
+
+
+<p>另外是關於 scale out 的問題，在 <a href="https://medium.com/@3rdeden/cluster-fucks-when-scaling-socket-io-2c8ad1153332">Cluster fucks when scaling Socket.IO</a> 有提到一些作者覺得當 socket.io scale out 需要
+考慮的事情，而在 1.0 版本裡面把 redis 的部分拆開了，可以換用其他方式實現 cluster 架構，在 <a href="https://github.com/Automattic/socket.io/issues/1457">Scalability of socket.io 1.0 in Node.js cluster</a>
+裡面有提到一些可以參考的例子。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Socket.io Migrating to 1.0]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0/"/>
+    <updated>2014-04-25T22:47:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/25/socket-dot-io-migrating-to-1-dot-0</id>
+    <content type="html"><![CDATA[<p>socket.io 已經有1.0版本了，所以免不了會有些大改動，wiki上面有一篇<a href="https://github.com/LearnBoost/socket.io/wiki/Migrating-to-1.0">Migrating-to-1.0</a>可以參考，這邊就記錄
+目前程式升級有影響的部分。</p>
+
+<!-- more -->
+
+
+<h2>Authentication differences</h2>
+
+<p>以前在作認證的時候是透過<code>authorization</code>這個事件，在建立socket.io連線根據cliet端傳回的參數作處理。</p>
+
+<pre><code>io.set('authorization', function (handshakeData, callback) {
+
+});
+</code></pre>
+
+<p>現在有'io.use()&lsquo;這個方法，在socket建立的時候執行傳入的函式。</p>
+
+<pre><code>io.use(function(socket, next) {
+    var handshakeData = socket.request;
+    // make sure the handshake data looks good as before
+    // if error do this:
+        // next(new Error('not authorized');
+    // else just call next
+    next();
+});
+</code></pre>
+
+<h2>Starting the server</h2>
+
+<p>以前會使用listen但是在1.0版本就不用了。</p>
+
+<pre><code>var io = require('socket.io').listen(server);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var io = require('socket.io');
+var socket = io({ /* options */ })
+</code></pre>
+
+<h2>Exposed Events</h2>
+
+<p>似乎有些舊版的事件在新版(1.0)就消失或是使用其他事件取代。<br/>
+裡面有提到一個socket.io-client manager (lib/manager.js)值得研究，以前沒有注意這個東西。</p>
+
+<h2>Configuration differences</h2>
+
+<p>以前設定socket.io的參數是用set之後是直接丟給socket.io。</p>
+
+<pre><code>io.set(
+    'store' ,new RedisStore({
+        redisPub : pub,
+        redisSub : sub,
+        redisClient : client
+    })
+);
+</code></pre>
+
+<p>vs</p>
+
+<pre><code>var socket = require('socket.io')({
+    // options go here
+});
+</code></pre>
+
+<h2>socket.io-adapter</h2>
+
+<p>原本在0.9版本之前有<code>store</code>的選項，到1.0版本之後就拿掉了換成<code>adapter</code>，然後官方有放出<a href="https://github.com/LearnBoost/socket.io-adapter">socket.io-adapter</a>讓開發者可以
+自行擴展，另外有一個<a href="https://github.com/Automattic/socket.io-redis">socket.io-redis</a>是官方放出來的參考範例，使用方法如下面所述。</p>
+
+<pre><code>var socketio = require('socket.io');
+var RedisStore = require('socket.io-redis');
+var io = socketio(3000, {});
+io.adapter(RedisStore({ host: host, port: port }));
+</code></pre>
+
+<p>這邊有一個參考的簡報<a href="http://www.slideshare.net/lagos.jp/socketio-10-25438209">socketio-10-25438209</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[socket.io Port問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti/"/>
+    <updated>2014-04-24T23:09:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/04/24/socket-dot-io-portwen-ti</id>
+    <content type="html"><![CDATA[<p>前端連接socket.io server遇到port問題的解決方法。</p>
+
+<!-- more -->
+
+
+<h3>haproxy</h3>
+
+<p><a href="http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/">configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl</a> <br/>
+<a href="http://blog.carbonfive.com/2013/05/02/using-haproxy-with-socket-io-and-ssl/">using-haproxy-with-socket-io-and-ssl</a>  <br/>
+這個方法有在Centos上面實作過是可行的，網路也有不少設定可以參考，不過當初只有測試websocket的方法。</p>
+
+<h3>nginx</h3>
+
+<p><a href="http://blog.mixu.net/2011/08/13/nginx-websockets-ssl-and-socket-io-deployment/">nginx-websockets-ssl-and-socket-io-deployment</a><br/>
+nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實測過。</p>
+
+<h3>透過改寫xhr-polling</h3>
+
+<p><a href="http://stephenbelanger.com/2011/09/21/how-to-make-socket-io-work-behind-nginx-mostly/">how-to-make-socket-io-work-behind-nginx-mostly</a>  <br/>
+這個方法是改寫xhr-polling的方法，前端就可以不用加上port就可以直接連接server，但是就不能使用其他的
+連接方法了吧?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
+    <updated>2014-03-19T22:42:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
+    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
+]]></content>
+  </entry>
+  
+</feed>

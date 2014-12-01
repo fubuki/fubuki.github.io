@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature/"/>
+    <updated>2014-11-19T22:13:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Added Features</h3>
+
+<ol>
+<li>提高安全性</li>
+<li>SQL mode changes</li>
+<li>即時更新表結構</li>
+<li>優化 InnoDB</li>
+<li>supports stacked diagnostics areas</li>
+<li>EXPLAIN 可以顯示更多資訊</li>
+<li>觸發</li>
+<li>新增 LOG 機制</li>
+<li>MySQL Test Suite</li>
+<li>mysql client</li>
+<li>Database name rewriting with mysqlbinlog</li>
+<li>HANDLER with partitioned tables</li>
+<li>Index condition pushdown support for partitioned tables</li>
+<li>WITHOUT VALIDATION support for ALTER TABLE &hellip; EXCHANGE PARTITION</li>
+<li>Master dump thread improvements</li>
+<li>Globalization improvements</li>
+<li>Changing the replication master without STOP SLAVE</li>
+</ol>
+
+
+<h3>Deprecated Features</h3>
+
+<h3>Removed Features</h3>
+
+<ol>
+<li>更改密碼加密格式</li>
+<li>移除一些資料類型</li>
+<li>使用 <code>Performance Schema tables</code> 取代 <code>SHOW ENGINE INNODB MUTEX</code></li>
+</ol>
+
+
+<p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 使用 PDO 與 Mysql 進行持久化連接]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/06/pdo-mysql-persistent-connection/"/>
+    <updated>2014-11-06T21:58:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/06/pdo-mysql-persistent-connection</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 PHP 裡面如果使用 PDO 連接 Mysql 有個 <code>PDO::ATTR_PERSISTENT</code> 的選項可以形成 <code>persistent connection</code>，其中的機制是在 PHP script 結束的時候將連線交由背後的進程管理，
+如果是使用 fastcgi 就會由 fastcgi 負責管理，另外從 <a href="http://eslizn.com/archives/39/">php持久化连接数据库</a> 的測試結果不管是用 apachehandle 或是 php-fpm 都可以支援持久化連線。</p>
+
+<p>在 <a href="http://stackoverflow.com/questions/3332074/what-are-the-disadvantages-of-using-persistent-connection-in-pdo/5541150#5541150">What are the disadvantages of using persistent connection in PDO</a> 裡面有提到一些持久化連線會導致的問題值得一看，另外在最近同事使用持久化連線的時候遇到了 <code>MySQL server has gone away</code>
+的問題，似乎是 PHP 端的持久化連線已經 lost 掉跟 mysql 的連線了但是卻沒有在次跟 mysql  重新連線的關係。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL災難恢复]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu/"/>
+    <updated>2014-06-22T23:30:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu</id>
+    <content type="html"><![CDATA[<p>MySQL 如何備份和恢復</p>
+
+<!-- more -->
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 鎖的機制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi/"/>
+    <updated>2014-06-21T22:37:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/21/mysql-suo-de-ji-zhi</id>
+    <content type="html"><![CDATA[<p>記錄並分析各種鎖。</p>
+
+<!-- more -->
+
+
+<h2>lock 和 latch</h2>
+
+<h2>鎖的種類</h2>
+
+<h2>鎖有可能造成的問題</h2>
+
+<h2>阻塞的問題</h2>
+
+<h2>dead lock</h2>
+
+<h2>Lock Escalation</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 分區表]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao/"/>
+    <updated>2014-06-15T23:49:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/15/mysql-fen-qu-biao</id>
+    <content type="html"><![CDATA[<p>記錄一下在MySQL下 分區表的種類和用法。</p>
+
+<!-- more -->
+
+
+<h2>種類</h2>
+
+<ol>
+<li>RANGE分區</li>
+<li>LIST分區</li>
+<li>HASH分區</li>
+<li>KEY分區</li>
+<li>COLUMNS分區</li>
+</ol>
+
+
+<h2>用法</h2>
+
+<ol>
+<li>子分區</li>
+<li>根據日期作RANGE分區優化查詢速度</li>
+<li>LIST分區用於不連續離散的數值</li>
+<li>HASH和KEY用來均勻的分配數據到各個分區</li>
+<li>COLUMNS用在非整數類型的數值欄位</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

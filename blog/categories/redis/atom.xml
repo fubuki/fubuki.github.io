@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Redis | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/"/>
+    <updated>2014-10-09T23:36:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 之前新增了兩個資料類型 : Bitmap 和 HyperLogLogs，現在特別紀錄一下這兩種類型的差別和用途。</p>
+
+<h3>Bitmap</h3>
+
+<p>Bitmap 似乎是讓 string 類型可以有 bit 層級的操作命令，目前看起來可以用在紀錄會員活耀數。</p>
+
+<h3>HyperLogLogs</h3>
+
+<p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
+
+<p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Cluster]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/16/redis-cluster/"/>
+    <updated>2014-09-16T23:58:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/16/redis-cluster</id>
+    <content type="html"><![CDATA[<p>官方 redis  cluster 的規範 和 php-redis library 目前的情況</p>
+
+<!-- more -->
+
+
+<p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Scan 命令]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling/"/>
+    <updated>2014-09-01T23:55:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-scan-ming-ling</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 新的命令: Scan，跟 KEYS 比起來不會有讓 Server 有阻塞住的問題。</p>
+
+<p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
+<a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Memory Allocation]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation/"/>
+    <updated>2014-09-01T23:42:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>redis 記憶體分配器，redis 不知道從哪一個版本開始是預設使用 jemalloc，據說效能比預設的 glibc 的還要高，
+另外在網路上有人提到使用 TCMalloc 提高 nginx 和 redis的效能。</p>
+
+<ol>
+<li>jemalloc</li>
+<li>TCMalloc</li>
+<li>glibc</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Flickr 如何使用 Redis 的 Sentinel]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/"/>
+    <updated>2014-08-20T23:42:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
+我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
+
+<p>另外 redis的作者針對文章做出回應 <a href="http://antirez.com/news/55">Reply to Aphyr attack to Sentinel</a> ，下面就是作者在文章裡提出的當初開發出 Sentinel 的目的，
+也知道會有 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a> 中提到的問題。</p>
+
+<pre><code>Redis Sentinel is a distributed *monitoring* system, with support for automatic failover.
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

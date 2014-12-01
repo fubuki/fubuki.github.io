@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[關於處理 LOG 的事情]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/27/process-log/"/>
+    <updated>2014-11-27T02:16:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/27/process-log</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在在研究 Apache Kafka 處理 LOG 的情報，最後發現我看到的資料都是 Jay Kreps 寫的， Jay Kreps 似乎是 Linkedln 的程式設計師，負責 Linkedln 的開源專案，
+這些專案裡面都是似乎都是用來處理 BIG DATA ，而 Jay Kreps 也寫了一些關於 BIG DATA 和 Linkedln 架構的技術文章，下面有列出最近在搜尋如何處理大量 LOG 的參考資料。</p>
+
+<p><a href="http://www.slideshare.net/JayKreps1/i-32858698">The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</a>
+<a href="http://shop.oreilly.com/product/0636920034339.do">I Heart Logs Event Data, Stream Processing, and Data Integration </a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[淘寶技術這十年]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/"/>
+    <updated>2014-09-22T23:53:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
+在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
+
+<h5>書中提到的技術列表</h5>
+
+<ol>
+<li><a href="http://tair.taobao.org/">tair</a></li>
+<li><a href="http://code.taobao.org/p/tfs/src/">tfs</a></li>
+<li><a href="http://sqlrelay.sourceforge.net/">sqlrelay</a></li>
+<li><a href="https://github.com/alibaba/cobar">cobar</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

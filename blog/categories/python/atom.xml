@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Python | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Python Tornado]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/23/python-tornado/"/>
+    <updated>2014-11-23T14:43:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/23/python-tornado</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Python 和 HDF5]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/22/python-he-hdf5/"/>
+    <updated>2014-06-22T23:41:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/22/python-he-hdf5</id>
+    <content type="html"><![CDATA[<p>HDF5檔案格式: <a href="http://www.hdfgroup.org/HDF5/">HDF5</a><br/>
+HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an/"/>
+    <updated>2014-03-11T22:04:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
+    <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
+
+<ol>
+<li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>
+<li>rvm <a href="https://rvm.io/">https://rvm.io/</a></li>
+<li>pyenv <a href="https://github.com/yyuu/pyenv">https://github.com/yyuu/pyenv</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Theano]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
+    <updated>2014-02-28T11:51:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
+    <content type="html"><![CDATA[<p>python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
+<a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scrapy]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/27/scrapy/"/>
+    <updated>2014-02-27T23:00:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/27/scrapy</id>
+    <content type="html"><![CDATA[<p>python 的網路爬蟲框架。<br/>
+1. Items
+2. Spiders
+3. Selectors</p>
+]]></content>
+  </entry>
+  
+</feed>

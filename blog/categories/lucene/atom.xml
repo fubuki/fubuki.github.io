@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Lucene | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/lucene/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/lucene/"/>
+    <updated>2014-03-08T00:10:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/lucene</id>
+    <content type="html"><![CDATA[<p>目前蠻熱門的分詞系統，之前只有測試到3.6版本，最近出了4.6的版本，因此特地複習一下。</p>
+]]></content>
+  </entry>
+  
+</feed>

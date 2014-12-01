@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[自學機器學習的四種方法]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/14/zi-xue-ji-qi-xue-xi-de-si-zhong-fang-fa/"/>
+    <updated>2014-07-14T23:51:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/14/zi-xue-ji-qi-xue-xi-de-si-zhong-fang-fa</id>
+    <content type="html"><![CDATA[<p>4 Self-Study Machine Learning Projects <a href="http://machinelearningmastery.com/self-study-machine-learning-projects/">原文</a>  <a href="http://blog.jobbole.com/67621/">中文版</a></p>
+
+<!-- more -->
+
+
+<h2>心得</h2>
+
+<p>這篇文章主要是提供初學者如何開始學習的方法，我覺得還蠻不錯，目前有些語言提供關於機器學習的函式庫，我這邊主要是用python的scikit-learn，因為可以直接搭配其他函式庫完成我想要的功能，雖然我也有使用R語言不過主要使用在統計跟產生圖表上，python這邊我可以直接搭配Scrapy和NLTK作出分析網路文章的功能。</p>
+
+<p>另外文章有提到挑選一個數據集，然後選擇一種最適合的算法去處理他，目前有不少公開資料可以使用，之前在弄Mahout的時候我也有有找跟電影相關的資料可以使用，但是我比較偏向自然語言處理這部分，去分析這篇留言的評論是負面還是正面以及文章推薦系統，不過我想文章作者想要初學者找一個資料去分析主要是希望能夠了解各種資料都有他適合的算法，而要選擇適合的算法是我覺得最困難的地方，因為不同類型資料有不同的特性，如果不是在那方面有相關知識的人是比較難處理。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apache Mahout]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/21/apache-mahout/"/>
+    <updated>2014-03-21T23:42:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
+    <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
+之後等有空就來實現一些現實生活的例子。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Machine Learning 相關書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
+    <updated>2014-03-02T23:05:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
+    <content type="html"><![CDATA[<ol>
+<li>Machine.Learning.in.Action</li>
+<li>Natural.Language.Annotation.for.Machine.Learning</li>
+<li>Machine.Learning.for.Hackers</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

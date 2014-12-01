@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Theano | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/theano/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Theano]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
+    <updated>2014-02-28T11:51:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
+    <content type="html"><![CDATA[<p>python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
+<a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Vim | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vim 學習資源]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/17/vim-xue-xi-zi-yuan/"/>
+    <updated>2014-07-17T23:53:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/17/vim-xue-xi-zi-yuan</id>
+    <content type="html"><![CDATA[<p>記錄一下收集的Vim學習資源</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Practical Vim</li>
+<li><a href="http://learnvimscriptthehardway.stevelosh.com/">Learn Vimscript the Hard Way</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Vundle]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/22/vim-vundle/"/>
+    <updated>2014-03-22T09:58:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/22/vim-vundle</id>
+    <content type="html"><![CDATA[<p>之前安裝Vim的plugin都是去<a href="http://vim-scripts.org/vim/scripts.html">scripts</a>下載然後手動安裝，但是如此設定檔變的複雜後
+一來常會遇到沒有刪除乾淨的plugine。<br/>
+使用Vundle管理vim，安裝上跟刪除只要透過vundle就很方便也能保持設定檔簡潔，似乎能
+搜尋plugin，也能讓vundle去指定連結下載，目前正在試用之後可以上載到github上備份設定檔。</p>
+]]></content>
+  </entry>
+  
+</feed>

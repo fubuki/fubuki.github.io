@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[指紋的特徵提取和比對]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition/"/>
+    <updated>2014-11-18T22:44:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition</id>
+    <content type="html"><![CDATA[<p>列出指紋的特徵提取和比對的相關方法</p>
+
+<!-- more -->
+
+
+<h3>預處理</h3>
+
+<h3>特徵提取</h3>
+
+<h3>比對</h3>
+
+<ol>
+<li>局部場法</li>
+<li>特殊點法</li>
+<li>傅立葉轉換</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[P2P NAT 穿越技術]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/11/p2p-nat/"/>
+    <updated>2014-11-11T23:09:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/11/p2p-nat</id>
+    <content type="html"><![CDATA[<p>P2P 在 NAT 環境的穿越技術。</p>
+
+<!-- more -->
+
+
+<h3>NAT 有哪些類型</h3>
+
+<ol>
+<li>Full Cone NAT</li>
+<li>Restricted Cone NAT</li>
+<li>Port Restricted Cone NAT</li>
+<li>Symmetric NAT</li>
+</ol>
+
+
+<h3>NAT 穿越技術</h3>
+
+<ol>
+<li>ALG</li>
+<li>MIDCOM</li>
+<li>STUN</li>
+<li>TURN</li>
+<li>FullProxy</li>
+<li>ICE</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/01/distributed-hash-table/"/>
+    <updated>2014-11-01T22:47:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/01/distributed-hash-table</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在許多 P2P 系統都有在使用 distributed hash table (DHT) 分享網路中的資訊。</p>
+
+<h3>特性</h3>
+
+<ol>
+<li>Autonomy and Decentralization</li>
+<li>Fault tolerance</li>
+<li>Scalability</li>
+</ol>
+
+
+<h3>架構</h3>
+
+<ol>
+<li>Chord</li>
+<li>Content-Addressable Network (CAN)</li>
+<li>Global Information Sharing Protocol (GISP)</li>
+<li>Kademlia</li>
+<li>Pastry</li>
+<li>Tapestry</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Softmax Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/19/softmax-algorithm/"/>
+    <updated>2014-08-19T23:53:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/19/softmax-algorithm</id>
+    <content type="html"><![CDATA[<p>解決 Multi-Armed Bandit Problem 的演算法</p>
+
+<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Boosting and Bagging]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/"/>
+    <updated>2014-08-08T23:28:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
+其中集成學習的兩種方法，下面整理一些學習資源。</p>
+
+<h3>boosting</h3>
+
+<p>AdaBoost（Adaptive Boosting）</p>
+
+<p>使用同一個訓練集， 每次訓練的時候針對有問題訓練資料加大權重，讓函數靠往有問題的訊息資料。</p>
+
+<h3>bagging</h3>
+
+<p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
+
+<h3>差別</h3>
+]]></content>
+  </entry>
+  
+</feed>

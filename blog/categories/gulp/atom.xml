@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Gulp | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/gulp/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Gulp-starter]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/03/gulp-starter/"/>
+    <updated>2014-09-03T23:41:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/03/gulp-starter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在開發的時候使用 Grunt 建構專案，而在最近看到 Gulp 這項工具，是在 COSCUP 的議程上看到有人提到，
+發現兩者似乎是類似的東西然後引起我的興趣，便從 <a href="https://github.com/greypants/gulp-starter">gulp-starter</a> 開始研究。</p>
+]]></content>
+  </entry>
+  
+</feed>

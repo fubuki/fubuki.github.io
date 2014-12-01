@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Erlang | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/erlang/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform/"/>
+    <updated>2014-11-08T17:24:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/08/erlang-open-telecom-platform</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>open telecom platform  (OTP)  是什麼</h3>
+
+<p>用來開發 erlang 的應用程式的一個平台，可以讓開發者建立一個用來開發分布式、高可用的應用程式。</p>
+
+<h3>OTP 包含哪些項目</h3>
+
+<ol>
+<li>erlang 的直譯器</li>
+<li>erlang 的編譯器</li>
+<li>通訊協定</li>
+<li><a href="http://en.wikipedia.org/wiki/Object_Request_Broker">Corba Object Request Broker</a></li>
+<li>static analysis tool called Dialyzer</li>
+<li><a href="http://en.wikipedia.org/wiki/Mnesia">Mnesia</a> 一個資料庫</li>
+<li>一些函式庫</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang Web Servers]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/02/erlang-server/"/>
+    <updated>2014-11-02T20:46:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/02/erlang-server</id>
+    <content type="html"><![CDATA[<p>收集一些目前比較熱門的 Erlang Web Servers。</p>
+
+<!-- more -->
+
+
+<h3>Web Servers</h3>
+
+<p>下面列一些比較活躍的項目，目前先使用 Mochiweb 練練手感，之前有用一個基於 Mochiweb + Rabbitmq 架設的聊天項目，感覺起來
+還不錯，之後在看看之間的優缺點。。</p>
+
+<h4>Mochiweb</h4>
+
+<p><a href="https://github.com/mochi/mochiweb">mochiweb</a></p>
+
+<h4>Cowboy</h4>
+
+<p><a href="https://github.com/ninenines/cowboy">cowboy</a></p>
+
+<h4>YAWS</h4>
+
+<p><a href="https://github.com/klacke/yaws">yaws</a></p>
+
+<h3>Web Framework</h3>
+
+<p>有些 Web Framework 可以選擇，可以參考這篇<a href="https://github.com/ChicagoBoss/ChicagoBoss/wiki/Comparison-of-Erlang-Web-Frameworks">比較</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang 相關論文]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen/"/>
+    <updated>2014-10-29T23:15:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/29/erlang-lun-wen</id>
+    <content type="html"><![CDATA[<p>為了研究 erlang vm 尋找一些相關的論文。</p>
+
+<!-- more -->
+
+
+<p>目前應該會先讀1,2,7 這三篇論文，這三篇提到的東西我還蠻感興趣的，對於了解 erlang vm 應該會有不少幫助。</p>
+
+<ol>
+<li>Making reliable distributed systems in the presence of sodware errors</li>
+<li>Characterizing the Scalability of Erlang VM on Many-core Processors</li>
+<li>Exploring Alternative Memory Architectures for Erlang:Implementation and Performance Evaluation</li>
+<li>Efﬁcient memory management for concurrent programs that use message passing I,II</li>
+<li>Concurrent Programming in ERLANG</li>
+<li>On Preserving Term Sharing in the Erlang Virtual Machine</li>
+<li>Programming Distributed Erlang Applications:Pitfalls and Recipes</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Elixir]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/16/elixir-language/"/>
+    <updated>2014-10-16T21:55:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/16/elixir-language</id>
+    <content type="html"><![CDATA[<p>elixir 基於 erlang vm 的一門函數式語言。</p>
+
+<!-- more -->
+
+
+<p>最近在網路上在看 o'reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
+發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
+ erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rebar 備忘錄]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu/"/>
+    <updated>2014-08-26T23:32:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>安裝</h3>
+
+<pre><code>git clone https://github.com/rebar/rebar
+cd rebar
+./bootstrap
+sudo mv rebar /usr/local/bin 
+</code></pre>
+
+<h3>建立一個 app</h3>
+
+<pre><code>rebar create-app appid=erl-app
+</code></pre>
+
+<h3>編譯</h3>
+
+<pre><code>rebar compile
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

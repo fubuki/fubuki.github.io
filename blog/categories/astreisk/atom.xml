@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Astreisk | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/astreisk/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[安裝 Asterisk GUI]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui/"/>
+    <updated>2014-10-01T23:30:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/01/installing-asterisk-gui</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近裝完 Ansterisk 後需要一個方便的 web 介面管理，在網路上找了一下就先使用了看起來很簡單的 <code>Asterisk GUI</code>。</p>
+
+<h4>安裝</h4>
+
+<p>可以使用 yum 或是直接下載源碼安裝，我是直接使用 yum安裝。</p>
+
+<pre><code>yum install asterisk-gui
+</code></pre>
+
+<h4>設定</h4>
+
+<p>需要設定 <code>http.conf</code> 和 <code>manager.conf</code> 這兩個檔案，這兩個檔案都在 <code>/etc/asterisk/</code> 底下，設定檔裡面都有簡單的說明，只要參照裡面的說明開啟選項即可，但是如果使用 yum 安裝似乎會有問題需要設定軟連結才能正確的開啟 Asterisk GUI。</p>
+
+<pre><code>ls /var/lib/asterisk/static-http/config &amp;&amp; rm -rf /usr/share/asterisk/static-http &amp;&amp; ln -s /var/lib/asterisk/static-http /usr/share/asterisk/static-http
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk 的 sip.conf]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf/"/>
+    <updated>2014-09-29T23:28:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/29/asterisk-de-sip-dot-conf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Astreisk 的 sip 設定位於 <code>/etc/asterisk/sip.conf</code>，設定完後使用 softphone 進行測試，另外 LINE 的 VoIP 是使用 sip 和 rtp 構成的。
+參考<a href="http://www.st-asterisk.com/">Asterisk基本設定ガイド</a>裡面的文章</p>
+
+<h3>設定檔</h3>
+
+<p>[general]<br/>
+context=default<br/>
+port=5060<br/>
+bindaddr=0.0.0.0<br/>
+srvlookup=yes<br/>
+disallow=all<br/>
+allow=ulaw<br/>
+allow=alaw<br/>
+allow=gsm<br/>
+language=zh-tw</p>
+
+<p>[201]<br/>
+type=friend<br/>
+類型有 peer user friend<br/>
+defaultuser=201<br/>
+secret=pass<br/>
+密碼<br/>
+canreinvite=no<br/>
+host=dynamic</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk 簡介]]></title>
+    <link href="http://fubuki.github.io/blog/2014/02/28/asterisk/"/>
+    <updated>2014-02-28T12:13:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/02/28/asterisk</id>
+    <content type="html"><![CDATA[<p>目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到
+類似的功能並且透過轉接卡也能夠跟市話通話。
+我就選擇Asterisk作為我的PBX，<a href="http://www.asterisk.org/">Asterisk</a>是什麼? 官網是這樣寫的。</p>
+
+<blockquote><p>What is Asterisk?
+Asterisk is like a box of Legos for people who want to create communications applications. It includes all the building blocks needed to create a PBX, an IVR system, a conference bridge and virtually any other communications app you can imagine.</p></blockquote>
+
+<p>他是一個開源的PBX(用戶交換機)系統，PBX是用來處理電話交換功能讓一些公司和個人可以建立自己的通訊系統。
+為什麼選擇<a href="http://www.asterisk.org/">Asterisk</a>主要是因為我有在玩raspberry pi 然後看到 <a href="http://www.raspberry-asterisk.org/">Asterisk for Raspberry Pi</a> 並且o'reilly有出一本"Asterisk: The Definitive Guide"讓我想要試試看網路上也有不少討論區可以參考。</p>
+]]></content>
+  </entry>
+  
+</feed>

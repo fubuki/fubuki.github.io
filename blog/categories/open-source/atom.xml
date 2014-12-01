@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JCConf TW 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014/"/>
+    <updated>2014-11-15T21:07:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>JDK8 與模式</h3>
+
+<ol>
+<li>Fluent ecorator</li>
+<li>In out in out shake it all about</li>
+<li>The lonely override</li>
+<li>monad</li>
+<li>functional reactive</li>
+</ol>
+
+
+<h4>Fluent Decorator</h4>
+
+<p>High order function : 輸入函式 輸出函式<br/>
+Lamda : code as data<br/>
+ThreadLocal<br/>
+使用 withInitial</p>
+
+<h4>Monad Patterns</h4>
+
+<p>Optional<br/>
+flatMap</p>
+
+<h4>Functional Reactive</h4>
+
+<p>很有趣的東西</p>
+
+<h3>Java 常見問題排查方法</h3>
+
+<h4>類衝突問題</h4>
+
+<h4>OOM Out of Memory</h4>
+
+<p>工具</p>
+
+<ol>
+<li>jstack</li>
+<li>btrace</li>
+<li>jmap</li>
+<li>google perftools</li>
+</ol>
+
+
+<h4>CPU 利用率問題</h4>
+
+<h4>應用沒響應問題</h4>
+
+<h4>分布式環境下應用交互超時問題</h4>
+
+<p><a href="http://www.slideshare.net/terryice/eagleeye-with-taobaojavaone">EagleEye</a></p>
+
+<h4>Java 進程異常退出問題</h4>
+
+<h3>EventBus and Reactive Programming on Android</h3>
+
+<h4>痛點</h4>
+
+<ol>
+<li>Android AsyncTask</li>
+<li>Loader</li>
+<li>Thread</li>
+<li>Callback 海</li>
+</ol>
+
+
+<h4>類似的東西</h4>
+
+<ol>
+<li>event-driven programming</li>
+<li>obsever pattern</li>
+<li>pub/sub pattern</li>
+<li>dataflow programming</li>
+</ol>
+
+
+<p><a href="https://github.com/ReactiveX/RxJava">RxJava</a></p>
+
+<h4>library</h4>
+
+<ol>
+<li>Otto from Square</li>
+<li>EventBus from greenrobot</li>
+</ol>
+
+
+<h4>Sticky Events</h4>
+
+<h3>老舊 Web 上雲端</h3>
+
+<p>ActiveCache</p>
+
+<p>無法維護的 WEB 專案的尊稱</p>
+
+<p>Crash 蹺蹺板</p>
+
+<p>guava CacheLoader</p>
+
+<p>Cached Refresh Schedule</p>
+
+<h3>Simplify Multi-Tenant Queries in ORM Frameworks</h3>
+
+<ol>
+<li>Separate Database 多資料庫</li>
+<li>Separate Schema  多表</li>
+<li>Discriminator Column 藉由欄位區分</li>
+</ol>
+
+
+<h4>ORM framework</h4>
+
+<p>JPA
+Hibernate
+EclipseLink</p>
+
+<h3>阿里 JVM 之路</h3>
+
+<h3>性能優化</h3>
+
+<ol>
+<li>Intrinsic</li>
+<li>CHIH &ndash; Off-Heap</li>
+<li>JFR 分析內部事件進行優化</li>
+</ol>
+
+
+<h4>JAVA 方法</h4>
+
+<ul>
+<li>Pure Java
+
+<ul>
+<li>JIT</li>
+<li>Intrinsic</li>
+</ul>
+</li>
+<li>JNI
+
+<ul>
+<li>開銷大，效率低</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Intrinsic 主要是將一些程式碼直接使用 CPU 指令執行</p>
+
+<h4>GCIH</h4>
+
+<ol>
+<li>Garbage Collector Invisable Heap</li>
+<li>讓 JVM 進程共享 GCIH 的資料</li>
+<li>限制 只能唯讀 如果是可寫會有問題</li>
+</ol>
+
+
+<h4>Java Flight Recorder</h4>
+
+<h4>種類</h4>
+
+<ol>
+<li>gc 相關</li>
+<li>線程同步相關</li>
+<li>JIT 相關</li>
+<li>類加載</li>
+<li>VMOperation</li>
+</ol>
+
+
+<p>在 OpenJDK 已有比較粗糙的實現</p>
+
+<p>如何實現</p>
+
+<h3>故障排查</h3>
+
+<ol>
+<li>增加可配置參數 新增一些統計數據</li>
+<li>與外部工具結合</li>
+</ol>
+
+
+<h3>回饋社區</h3>
+
+<ol>
+<li>Bug Fix</li>
+<li>阿里客製化的部分</li>
+</ol>
+
+
+<h3>Apache Kafka: A high-throughput distributed messaging system</h3>
+
+<p>介紹 Kafka 的特色</p>
+
+<p>Kafka 為何快</p>
+
+<p>Sequential vs Random</p>
+
+<p>In-Process Cache vs Page Cache</p>
+
+<p>Application Copy vs Zero Copying</p>
+
+<p>Constant Time</p>
+
+<p>apace-storm vs spark streaming</p>
+
+<h4>一些參考文章</h4>
+
+<p>The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</p>
+
+<h3>OpenJDK vs. Dalvik/ART virtual machine</h3>
+
+<p>從 Maxine VM 理解高效能 Java 虛擬機器運作原理</p>
+
+<p>Self VM Strongtalk vm hotspot vm cldc-hi</p>
+
+<p>說明了 JVM 的歷史</p>
+
+<p>重點在最佳化</p>
+
+<p>Runtime overhead Interpreter</p>
+
+<p>Dalvik VM in a nutshell</p>
+
+<p>Dalvik is Register-based</p>
+
+<p>Optimizing Dispatch</p>
+
+<p>dexopt</p>
+
+<p>Dalvik vs. ART</p>
+
+<h3>透過 ActiveMQ 在 Raspberry Pi 上的物聯網應用</h3>
+
+<p>介紹一些物聯網的協定
+1. AMQP
+2. MQTT
+3. XMPP
+4. STOMP</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHPConf Taiwan 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/18/phpconf-taiwan-2014/"/>
+    <updated>2014-10-18T21:44:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/18/phpconf-taiwan-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>新浪微博 LAMP 優化之路</h3>
+
+<p>PHP NG 主要作者<br/>
+每天20憶pv 50億 hits<br/>
+400台前端機器</p>
+
+<h4>2012年3月</h4>
+
+<p>使用 apache + php</p>
+
+<p>17w 行代碼導致很難維護</p>
+
+<ol>
+<li>性能優化</li>
+<li>架構優化</li>
+<li>基礎優化</li>
+<li>遠程優化</li>
+</ol>
+
+
+<p>Yaf c base framework 類似 phalcon
+只實現基本功能
+不需要 ORM</p>
+
+<h4>Weibo 擴展</h4>
+
+<ol>
+<li>Weibo conf</li>
+<li>Weibo Utils</li>
+</ol>
+
+
+<p>棄用 Smarty</p>
+
+<h4>結構優化 -解耦</h4>
+
+<ol>
+<li>Pagelate</li>
+<li>Bigpipe</li>
+</ol>
+
+
+<p>soa 的形式</p>
+
+<h4>結構優化 &ndash; Yar rpc framewrok</h4>
+
+<p>第一個 php和 rpc 並行的框架</p>
+
+<p>CBigpipe 加速</p>
+
+<p>前端 PHP 後端 C</p>
+
+<p>升級 PHP 5.4</p>
+
+<p>LAMP => LNMP</p>
+
+<p>踩了一些坑</p>
+
+<p>使用 Zend Optimizer Plus (O+) 替換 apcache</p>
+
+<p>快於7% 到 10%</p>
+
+<h4>性能優化 Yac</h4>
+
+<p>主要是無鎖共享
+使用 CRC 校驗資料使否出錯的問題</p>
+
+<h4>移動微博</h4>
+
+<p>移動佔到 70%以上</p>
+
+<p>服務器 cpu idel 5%</p>
+
+<p>PHP 異步調用</p>
+
+<p>jsond</p>
+
+<p>L0 和 L1 兩種類型的快取，分成本機和全域兩種</p>
+
+<p>為何使用無鎖? key 包含 CRC ，使用CRC跟值校驗 降低錯誤率</p>
+
+<h3>專案管理</h3>
+
+<p>本職 PM<br/>
+學生症候群<br/>
+寫書經驗</p>
+
+<h4>領導力</h4>
+
+<p>冒險心
+跳脫盒子
+嘗試</p>
+
+<h4>管理力</h4>
+
+<p>一致性
+遵循原則
+避免意外</p>
+
+<ol>
+<li>PM = 團隊的 API</li>
+<li>協助團隊看到全貌以便規劃調度</li>
+<li>統一方向與做事方法</li>
+</ol>
+
+
+<h4>總結</h4>
+
+<p>專案管理幫忙聚焦<br/>
+最小戰鬥單位的概念</p>
+
+<h3>whoscall &amp; mongodb</h3>
+
+<p>講者是 whoscall cto<br/>
+使用 mongodb 的經驗</p>
+
+<h4>What does Gogolook do?</h4>
+
+<p>Line whoscall<br/>
+Caller-ID Service<br/>
+介紹一下 mongodb 的基本性能
+1. mongos
+2. config server
+3. mongod</p>
+
+<h4>issue</h4>
+
+<p>0th gae &ndash;> aws<br/>
+Pass to laaS<br/>
+No operation issue in GAE<br/>
+MongoDB Production Notes<br/>
+Nginx + AWS Auto-Scalling</p>
+
+<p>The 1st issue<br/>
+Page Faults 很高<br/>
+Index are in Memorry  <br/>
+需要大量的 Memory<br/>
+刪除沒必要的 index<br/>
+升級 instance (scale-up)</p>
+
+<p>The 2nd issue<br/>
+資料量變大導致 DiskIO 問題<br/>
+需要更改 AWS 的設定</p>
+
+<p>The 3rd issue<br/>
+Lock rate 提高<br/>
+MongoDB concurrency<br/>
+一個 DB 只放 一個 collection<br/>
+其他方案
+非即時需要丟到 Queue 處理<br/>
+等 MongoDB 更新 document-lock的功能</p>
+
+<p>The 4th issue<br/>
+shard 間資料希望能平均<br/>
+由 config server 控制 <br/>
+三台 config server 之間的時間差異導致 balance 掛點因而loading 不平均。<br/>
+v2.6 可以 set time<br/>
+shard 時間不同步會導致交易時間不一致<br/>
+Object id 有使用到 timestamp 產生資料
+因此如果將時間調到過去的時間會導致 Object id 碰撞的問題</p>
+
+<p>Conclusion</p>
+
+<ol>
+<li>Index size fit in Memory</li>
+<li>Disk IO</li>
+<li>Database as Collection (&lt; 2.8)</li>
+<li>Time sync distributed system</li>
+</ol>
+
+
+<p>你還會選擇 MongoDB嗎?
+Redis
+elestic Search</p>
+
+<p>災後還原的方案</p>
+
+<h3>PHP Extension 開發實務 &ndash; 補齊 PHP 遺失的 $<em>PUT 與 $</em>DELETE (FirchTsai)</h3>
+
+<p>介紹一下 RESTful
+$<em>PUT<br/>
+$</em>DELETE<br/>
+違反了 RFC 2616 不應該實作到 PHP裡<br/>
+php://input<br/>
+處理 mulipart</p>
+
+<p>RFC 2388 mulipart 是什麼?</p>
+
+<p>別忘了 $_FILES</p>
+
+<p>EPV</p>
+
+<p>介紹Extension 的優點和架構<br/>
+主要是 SAPI 讓 server 與 php 溝通</p>
+
+<ol>
+<li>官方 Zend Extension API</li>
+<li>神秘版 Zend Extension API (for PHP4) 用來來知道有這個 API</li>
+<li>終極版 Zend Extension API == 直接看原始碼</li>
+</ol>
+
+
+<p>API 文件說明極少</p>
+
+<p>PHP_GINIT_FUNCTION
+PHP_GSHUTDOWN_FUNCTION</p>
+
+<p>PHP_MINIT_FUNCTION
+PHP_MSHUTDOWN_FUNCTION</p>
+
+<p>PHP_RINIT_FUNCTION
+PHP_RSHUTDOWN_FUNCTION</p>
+
+<p>PHP-FPM 直接將 model 掛載到身上因此不會多次呼叫 init 和 shutdown。</p>
+
+<p>config.m4 編譯環境<br/>
+config.w32</p>
+
+<p>php_epv.h 標頭檔<br/>
+epc.c 主要檔案</p>
+
+<p>編譯工具
+1. phpize
+2. configure
+3. make</p>
+
+<h3>Phalcon 進行式 (SDpower)</h3>
+
+<p>Phalcon Developer Tools<br/>
+講一些Phalcon 基礎大部分都用過了
+快速使用加密解密<br/>
+不可逆加密<br/>
+都是在 service.php 設定</p>
+
+<h3>Building Powerful command-line application with PHP (c9s)</h3>
+
+<p>主要是介紹 <a href="https://github.com/c9s/CLIFramework">CLIFramework</a>
+Features<br/>
+參考 GIT 的命令架構</p>
+
+<p>可以研究一下 zsh</p>
+
+<h3>實戰 HHVM Extension (Ricky)</h3>
+
+<p>介紹 HHVM</p>
+
+<p>Hack lang = 強型態的 PHP
+官方的文件
+goo.gl/PPB64m</p>
+
+<p>HHVM Extension requirement</p>
+
+<p>config.cmake</p>
+
+<p>fibionacci.php</p>
+
+<p>hphpize
+cmake
+make &amp;&amp; make install</p>
+
+<p>PHP檔案只能有一個並且要用 ext 開頭</p>
+
+<p>HNI(HHVM Native Interface)
+讓 Hack 和 C++ 混用
+類型互相對應</p>
+
+<p>RTFSC == Read The Fxck Source Code
+HHVM 密技<br/>
+JIT::VMRegAnchor</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC 2014 Day 2]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2/"/>
+    <updated>2014-10-12T20:46:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/12/jsdc-2014-day-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Panel Talk: Hello JSDC!</h3>
+
+<p>哪時需要開發一個新的 feacture libaray?</p>
+
+<p>程式開發而言是興趣還是工作?</p>
+
+<p>還有什麼其他興趣?</p>
+
+<p>如何規劃自己的時間</p>
+
+<p>如何變成專業的程式設計師?</p>
+
+<h3>Koa &ndash; Asynchronous Decorators as Middleware</h3>
+
+<p>列了一些 node.js clallback solutions</p>
+
+<p>ES6 Promises</p>
+
+<p>ES7 Async/Await with Promises</p>
+
+<p>Uses co for control flow</p>
+
+<h4>Koa vs. Express</h4>
+
+<ol>
+<li>Error handling</li>
+<li>Async/Await-style control folow</li>
+<li>Decorator pattern</li>
+</ol>
+
+
+<h4>Koa vs. Hapi</h4>
+
+<ol>
+<li>koa is lean, Hapi is robust</li>
+<li>Converntion (Hapi) vs. Configuration (Koa)</li>
+</ol>
+
+
+<h4>Koa 的使用場景</h4>
+
+<p>初學者使用 express ,團隊使用 hapi hapi 有良好的文件支援</p>
+
+<h3>Teaching Git and GitHub with Node.js</h3>
+
+<p>介紹 workshopper 這個開源專案，可以自己建立自己的教學工具。</p>
+
+<p>Git-it</p>
+
+<p>Use Git to Check Git</p>
+
+<p>Verifying lessons</p>
+
+<p>Git-it Lession</p>
+
+<p>介紹 Git-it Ecosystem</p>
+
+<p>使用 Request 呼叫 Github api</p>
+
+<p>reporobot server</p>
+
+<p><a href="https://education.github.com/pack">git-it</a></p>
+
+<h3>Leveraging ZMQ with Node.js</h3>
+
+<p>介紹 zeromq 並且支援那些通信方式。<br/>
+如何使用 zeromq 建立一個系統。</p>
+
+<h3>大型互聯網公司前端團隊的那些事兒</h3>
+
+<p>夜間模式:在環境光線太暗的時候將顏色變暗。</p>
+
+<p>使用JS控制圖片，讓圖片動起來。</p>
+
+<p>0.9 秒的故事:從 web 頁面轉成使用 navtive app。</p>
+
+<p>孔雀翎的故事:讓 PSD 自動轉成頁面。</p>
+
+<h3>Node.js, p2p and MAD SCIENCE</h3>
+
+<p>javascript and bittorrent</p>
+
+<p>bittorrent 的運作方式</p>
+
+<p><a href="https://github.com/mafintosh/torrent-stream">torrent-stream</a></p>
+
+<p><a href="https://github.com/mafintosh/peerwiki">peerflix</a>
+<a href="https://github.com/feross/instant.io">torrent-mount</a></p>
+
+<h3>GithHub 大冒險</h3>
+
+<p>GitHub 有 70%員工 遠端工作</p>
+
+<p>accessibility</p>
+
+<p>FRONT-END + DESIGN</p>
+
+<p>使用 hubot 執行自動化測試</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JSDC 2014 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/11/jsdc-2014-day-1/"/>
+    <updated>2014-10-11T20:11:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/11/jsdc-2014-day-1</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Future of Enterprise Web Applications</h3>
+
+<p>介紹一些建構js app工具</p>
+
+<p>js 框架</p>
+
+<p>What about micro-frameworks?</p>
+
+<p>主要介紹 ext js</p>
+
+<p>跟那些客戶合作開發應用</p>
+
+<h3>Use Node Modules In The Browser With Browserify</h3>
+
+<p>js for cat</p>
+
+<p>art fo node</p>
+
+<p>browserfiy handbook</p>
+
+<p>nodeschool.io</p>
+
+<p>介紹 bowserify 的 plugin</p>
+
+<p>如何 npm 發布模組</p>
+
+<p>介紹一些使用 bowserify 的有趣模組</p>
+
+<p>使用 bowserify 壓縮合併檔案</p>
+
+<h3>CNPM: 打造企業級私有NPM</h3>
+
+<p>兩岸距離:最遙遠的距離</p>
+
+<p>Node.js in 誠品書店</p>
+
+<p><a href="http://blog.nodejs.org/2013/11/26/npm-post-mortem/">scalenpm</a>
+為什麼要做CNPM</p>
+
+<p>CNPM 使用 MySQL 取代 Couchdb</p>
+
+<p>支付寶登入首頁使用 node.js</p>
+
+<h3>react/flux in Action</h3>
+
+<p>React/Flux Facebook 開源的套件</p>
+
+<p>React 負責 view Flux 負責 model</p>
+
+<h4>誰在使用</h4>
+
+<ol>
+<li>Facebook</li>
+<li>Instagram</li>
+<li>Github</li>
+<li>Firefox</li>
+<li>Yahoo Mail</li>
+</ol>
+
+
+<p>React 亮點
+* 元件式架構
+* VDOM虛擬頁面模型
+* JSX 標記語法</p>
+
+<h4>Flux 亮點</h4>
+
+<ul>
+<li>一律重繪</li>
+<li>單向資料流</li>
+</ul>
+
+
+<p>My Feeling About AngularJS Over Time</p>
+
+<h4>Case Study</h4>
+
+<h3>Functional JavaScript, why or why not?</h3>
+
+<p><a href="bit.ly/jsdc2014-funjs">投影片</a>
+使用 Haskell 講解一些 Functional Programing 的概念。</p>
+
+<h3>RxJS for frontend developers.</h3>
+
+<p>Observalbe : Collection + Time</p>
+
+<p>Rxjs 提供一些處理 async 的方法。</p>
+
+<h3>Micro Databases</h3>
+
+<p>介紹一些小型資料庫。</p>
+
+<p><a href="https://github.com/substack/jsdc.tw-2014">Micro Databases</a>
+使用 Leveldb</p>
+
+<p>將資料存入 blob 格式裡</p>
+
+<p>hash-exchange</p>
+
+<p>forkdb</p>
+
+<p>有空可以玩玩 Leveldb 其他不太有興趣呀</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HadoopCon 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014/"/>
+    <updated>2014-09-13T19:15:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/13/hadoopcon-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>那些你知道的，但還沒看過的 Big Data 風景 – 致 Hadooper</h3>
+
+<p>Fred 雲中象</p>
+
+<ol>
+<li>社群</li>
+<li>速度</li>
+<li>資料科學</li>
+<li>Hadoop</li>
+</ol>
+
+
+<h4>國內 hadoop 圈子裡的人</h4>
+
+<p>Jazz Wang</p>
+
+<pre><code>hadooper
+</code></pre>
+
+<p>Wisely Chen</p>
+
+<pre><code>推廣 Spark
+</code></pre>
+
+<h4>大資料處理上面處理的速度級別</h4>
+
+<ol>
+<li>Batch</li>
+<li>Near Real-time</li>
+<li>Real-time</li>
+</ol>
+
+
+<h4>資料科學需要哪些方面的能力</h4>
+
+<p>How a typical software vendor approaches Data Science<br/>
+PRISM 稜鏡計畫</p>
+
+<h4>Hadoop 分成那些版本</h4>
+
+<p>Hadoop 1<br/>
+Hadoop 2</p>
+
+<h3>Lambda Architecture Platform on SQL</h3>
+
+<p>講者為Line 的員工<br/>
+介紹一下講者和 Line office 目前在哪些地方</p>
+
+<h4>Data analytics workload</h4>
+
+<h4>batch processing</h4>
+
+<h4>Stream Processing</h4>
+
+<ol>
+<li>Apache Storm</li>
+<li>Norikra</li>
+</ol>
+
+
+<h4>Why Stream Processing</h4>
+
+<ol>
+<li>Less laterncy</li>
+<li>Less computing power</li>
+<li>No query schedule management</li>
+</ol>
+
+
+<h4>Disadvantage of Stream Processing</h4>
+
+<h4>Lambada Architecture Overview</h4>
+
+<h4>Twitter Summingbird</h4>
+
+<h4>Lambada Structure use sql</h4>
+
+<h4>UseCases in LINE</h4>
+
+<p>Prompt report for Ads service</p>
+
+<p>Summary of application server error log</p>
+
+<p>TMTOWTDI</p>
+
+<h4>A graph service for global web entities traversal and reputation evaluation based on HBase</h4>
+
+<p>趨勢在那些問題上使用 hadoop</p>
+
+<p>Malware的數量不斷成長</p>
+
+<p>介紹趨勢防護分成那幾層</p>
+
+<p>ThreatWeb Threat Enities as a Graph</p>
+
+<p>將 Malware的行為轉換成 Graph 然後使用 PageRank 處理圖形問題</p>
+
+<p>如何 store Graph data</p>
+
+<p>Property Graph Model</p>
+
+<p>使用 HBASE 存放 圖形資料</p>
+
+<p>分成 vertex edge 兩種 table</p>
+
+<h4>如何存取資料</h4>
+
+<p>包裹 原本 HBASE的API</p>
+
+<p>blueprints API</p>
+
+<h4>效能</h4>
+
+<p>HGraph</p>
+
+<p>PageRank Result</p>
+
+<p>DGA Discovered</p>
+
+<h4>Cleints</h4>
+
+<p>Real time Client</p>
+
+<p>Batch Client</p>
+
+<p>Graph Exploring Tools</p>
+
+<h4>SQL on Hadoop: a Perspective of a Cloud-based, Managed Service Provider</h4>
+
+<p>SQL Players on Hadoop</p>
+
+<p>Hive
+Spark sql</p>
+
+<p>Presto
+Impala
+Drill</p>
+
+<p>Norikra
+StreamSql</p>
+
+<p>Apache Tez</p>
+
+<h4>Why still use MapReduce</h4>
+
+<h4>Presto `s history</h4>
+
+<h4>Who use Presto</h4>
+
+<h4>Why select Presto</h4>
+
+<p>容易處理</p>
+
+<p>使用 SQL 語法</p>
+
+<p>Batch summary</p>
+
+<p>MapReduce &mdash; based</p>
+
+<p>Hive with Tez</p>
+
+<p>Spark and Spark SQL is a good alternative</p>
+
+<h3>Norikra: Stream processing by SQL</h3>
+
+<p>LINE 的 Analytics phalform team</p>
+
+<p>Norikra 使用 SQL 語法處理資料</p>
+
+<p>Esper EPL</p>
+
+<p>Wiht/Without Schema</p>
+
+<p>介紹一下 Norikra</p>
+
+<p>如何安裝 Norikra</p>
+
+<h4>use case 1</h4>
+
+<p>External API call report s for partners</p>
+
+<p><a href="http://developers.linecorp.com/blog/?p=3386">http://developers.linecorp.com/blog/?p=3386</a></p>
+
+<p>api error response summaries</p>
+
+<h4>use case 2</h4>
+
+<p>Prompt reports for Ad service console</p>
+
+<h4>use case 3</h4>
+
+<p>Realtime access dashboard on Google Platform</p>
+
+<p>Access log visualzation</p>
+
+<p>More queries more simplicity and less latency</p>
+
+<h3>Real-Time Streaming Data Computing for long-term undersea surveillance on top of Storm</h3>
+
+<p>核三廠 排水口 監視資料</p>
+
+<p>介紹 Storm 的架構</p>
+
+<p>魚群辨識</p>
+
+<p>確認鏡頭情形</p>
+
+<p>scalability programing</p>
+
+<p>DRPC</p>
+
+<p>海洋影像資料處理過程</p>
+
+<h3>Speed up Interactive Analytic Queries over Existing Big Data on Hadoop with Presto</h3>
+
+<p>使用 Presto 分析在 hadoop 上面的資料。</p>
+
+<p>SQL on/over Hadoop</p>
+
+<p>Presto 的架構</p>
+
+<p>可以支援多種 Database</p>
+
+<p>Base on DAG model</p>
+
+<p>Query 怎麼在 Presto上運行</p>
+
+<p>Node 參數設定</p>
+
+<p>Presto`s Roadmap</p>
+
+<p>Data visualization with Presto &ndash; Demo</p>
+
+<p>Grafana</p>
+
+<h3>Mahout 資料分析基礎入門</h3>
+
+<p>資料分析基礎入門</p>
+
+<p>分析工具</p>
+
+<ol>
+<li>scikit-learn</li>
+<li>R</li>
+<li>Weka, Matlab</li>
+<li>Mathout</li>
+</ol>
+
+
+<p>Introduction to apache mahout in youtube BTI360</p>
+
+<p>User Mode 直接使用內建指令</p>
+
+<p>Developer Mode 撰寫新的ML 演算法</p>
+
+<p>Hortonworks</p>
+
+<p>動動手玩推薦系統</p>
+
+<h4>參考資料</h4>
+
+<p>Frequent pattern analysis</p>
+
+<p>Mahout fpgrowth</p>
+]]></content>
+  </entry>
+  
+</feed>

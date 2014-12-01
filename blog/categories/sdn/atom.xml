@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: SDN | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/sdn/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[OpenContrail Info]]></title>
+    <link href="http://fubuki.github.io/blog/2014/11/22/opencontrail-info/"/>
+    <updated>2014-11-22T06:32:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/11/22/opencontrail-info</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.opencontrail.org/">OpenContrail</a> 用來建立 <a href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a> 系統的開源工具，這邊有相關文件的 <a href="http://www.sdnap.com/sdnap-post/2886.html">翻譯</a>。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Git | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/22/git-patch/"/>
+    <updated>2014-10-22T22:28:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/22/git-patch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>有時需要將一些在本機上開發專案產生的修改部分丟給別人就可以使用 git 的 patch 功能。</p>
+
+<h3>git format-patch</h3>
+
+<p>git 本身用來製作 patch 的指令。</p>
+
+<pre><code>git format-patch
+git am xxx.patch
+</code></pre>
+
+<h3>git diff patch</h3>
+
+<p>使用 git diff 產生的 patch。</p>
+
+<pre><code>git diff prev_commit commit &gt; patch.diff 
+git apply patch.diff 
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git Cherry-pick]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/"/>
+    <updated>2014-09-08T22:46:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/08/git-cherry-pick</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
+合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
+避免分支合併到不需要的 commit。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Github 有趣的功能: Github-cheat-sheet]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet/"/>
+    <updated>2014-09-02T23:30:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tig 和 Git]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/29/tig-he-git/"/>
+    <updated>2014-08-29T23:38:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/29/tig-he-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日前在尋找編輯 git commit 的方法時，在一篇<a href="http://qiita.com/suino/items/b0dae7e00bd7165f79ea">文章</a>看到有人提到 <a href="https://github.com/jonas/tig">tig</a> 這個東西，能夠加強 git 在命令列環境
+下的操作，目前使用上最好用的是用來 commit 非常方便閱讀，另外一個是<a href="http://blog.hifumi.info/2014/01/18/tigrc/">tigrc</a>這個東西可以用來設定 <a href="https://github.com/jonas/tig">tig</a> 調整
+輸出的畫面。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gitlab 版本控制]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi/"/>
+    <updated>2014-08-28T23:47:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
+所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
+]]></content>
+  </entry>
+  
+</feed>

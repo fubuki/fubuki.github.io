@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[十一月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/10/31/11-booklist/"/>
+    <updated>2014-10-31T22:30:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/10/31/11-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>P2P 技術完全攻略</li>
+<li>Data.Science.at.the.Command.Line</li>
+<li>企业集成模式.设计、构建及部署消息传递解决方案</li>
+<li>高品質程式 軟體測試原則、實作與模式</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[十月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/30/shi-yue-shu-dan/"/>
+    <updated>2014-09-30T22:13:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/30/shi-yue-shu-dan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Build APIs You Won&rsquo;t Hate</li>
+<li>告別瀑布，擁抱 Scrum：解析微軟與 Adobe 如何在 30 天內開發出新軟體</li>
+<li>學徒模式：優秀軟體開發者的養成之路</li>
+<li>設計模式的解析與活用</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[九月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan/"/>
+    <updated>2014-08-31T22:55:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>erlang programming</li>
+<li>資訊視覺圖表－讓資料變好看的大數據時代資料表達術</li>
+<li>Specification by Example</li>
+<li>编写高质量代码:改善JavaScript程序的188个建议</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[八月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan/"/>
+    <updated>2014-08-01T23:35:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan</id>
+    <content type="html"><![CDATA[<p>記錄八月要看完的書單。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Bandit Algorithms for Website Optimization</li>
+<li>夢斷代碼</li>
+<li>Mastering.Search.Analytics：Measuring.SEO.SEM.and.Site.Search</li>
+<li>Python for Data Analysis</li>
+<li>深入php 面向对象、模式与实践</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[新收集的書籍]]></title>
+    <link href="http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji/"/>
+    <updated>2014-07-13T23:59:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/07/13/xin-shou-ji-de-shu-ji</id>
+    <content type="html"><![CDATA[<ol>
+<li>Monitoring with Ganglia</li>
+<li>算法谜题</li>
+<li>内存数据管理</li>
+<li>编程原本</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

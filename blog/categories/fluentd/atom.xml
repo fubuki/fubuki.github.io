@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Fluentd | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/fluentd/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fluentd 和 Norikra]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/04/fluntd/"/>
+    <updated>2014-03-04T21:42:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/04/fluntd</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dev.classmethod.jp/cloud/aws/block_dos_attack_by_norikra/">Norikra+FluentdでDoS攻撃をブロックする仕組みを作ってみた</a> 使用 Fluntd 和 Norikra 處理 Server Log， Flunted 主是
+收集 Server 的 access log，然後丟給 Norikra 處理的樣子，而 Norikra 似乎可以用 SQL 的語法處理那些資料。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub 設計CSS]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/06/github-she-ji-css/"/>
+    <updated>2014-09-06T22:36:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/06/github-she-ji-css</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://markdotto.com/2014/07/23/githubs-css/">GitHub’s CSS</a> 提到 GihHub 本身如何設計他們的 CSS 。文章裡面分成以下幾種部分。</p>
+
+<ul>
+<li>Quick facts</li>
+<li>Preprocessor</li>
+<li>Architecture</li>
+<li>Linting</li>
+<li>Two bundles</li>
+<li>Included via Sprockets</li>
+<li>Performance</li>
+<li>Documentation</li>
+<li>Primer</li>
+<li>Refactoring</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook Login JavaScript SDK 在 Webview下的問題]]></title>
+    <link href="http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/"/>
+    <updated>2014-06-06T22:31:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti</id>
+    <content type="html"><![CDATA[<p>在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
+，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout
+出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
+讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
+避免登入後會出現空白頁的問題。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第43回 HTML5とか勉強会]]></title>
+    <link href="http://fubuki.github.io/blog/2014/05/28/di-43hui-html5tokamian-qiang-hui/"/>
+    <updated>2014-05-28T21:32:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/05/28/di-43hui-html5tokamian-qiang-hui</id>
+    <content type="html"><![CDATA[<p>記錄一下在網路上看到的情報。</p>
+
+<!-- more -->
+
+
+<p>在網路上尋找關於LINE既読機能相關情報找到的，有可能是因為LINE使用SPDY的關係才找到<a href="http://atnd.org/events/46252">第43回 HTML5とか勉強会</a>這篇文章。
+<a href="http://atnd.org/events/46252">第43回 HTML5とか勉強会</a>這次聚會介紹了一些關於HTTP相關的情報，其中也有包括SPDY，不過裡面大部分都有聽過人提過，除了QUIC這個
+新的協議，在這篇<a href="http://www.infoq.com/news/2014/02/quic">Google Wants to Speed Up the Internet with QUIC</a>有比較詳細的介紹。</p>
+
+<p>另外在裡面也有提到<a href="http://peerjs.com/">peerjs</a>這個專案，包裹WebRTC讓開發者更容易使用，日後可以玩玩看，順便在這裡記錄一下LINE最近關於SPDY的文章。</p>
+
+<p><a href="http://tech.naver.jp/blog/?p=2381">Adopting SPDY in Line – Part 1: An Overview</a>  <br/>
+<a href="http://tech.naver.jp/blog/?p=2729">Adopting SPDY in LINE – Part 2: The Details</a></p>
+]]></content>
+  </entry>
+  
+</feed>

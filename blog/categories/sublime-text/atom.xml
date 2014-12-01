@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Sublime-text | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/sublime-text/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-01T02:44:42+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[增強 Sublime Text 2 側欄功能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/09/07/zeng-qiang-sublime-text-2-ce-lan-gong-neng/"/>
+    <updated>2014-09-07T22:43:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/09/07/zeng-qiang-sublime-text-2-ce-lan-gong-neng</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近有人問我 Sublime Text 可以不可以搜尋一次搜尋所有檔案，在網路上搜尋之後找到 <a href="https://github.com/titoBouzout/SideBarEnhancements">SideBarEnhancements</a> 這個套件，
+但是這個套件在 Package Control 找不到後來才發現現在只有支援 <code>Sublime Text 3</code> ， 如果要安裝可以參考這篇文章 <a href="http://stackoverflow.com/questions/21630440/no-more-sidebarenhacements-in-sublime-text-2">no-more-sidebarenhacements-in-sublime-text-2</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2 Erlang 環境設定]]></title>
+    <link href="http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding/"/>
+    <updated>2014-08-14T21:52:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/08/14/sublime-text-2-erlang-huan-jing-she-ding</id>
+    <content type="html"><![CDATA[<p>建立 Sublime Text 2 的 erlang 開發環境。</p>
+
+<!-- more -->
+
+
+<p><a href="https://github.com/fjl/Sublime-Erlang">Sublime-Erlang</a> 和 <a href="https://github.com/ostinelli/SublimErl">SublimErl</a> 都是給 Sublime Text 2 的插件，不過從 Sublime 的 Package 看得出來原本就有支援 erlang 支援語法，
+目前還在測試 Sublime-Erlang 看有哪些突出的地方， 不過我希望有個完整的編譯環境會比較好。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sublime Text 2 PHP 環境]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing/"/>
+    <updated>2014-03-10T22:49:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/10/sublime-text-2-php-huan-jing</id>
+    <content type="html"><![CDATA[<p>記錄一下sublime text2 有用到package。</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Package Control</li>
+<li>phpcs</li>
+<li>DocBlockr</li>
+<li>SublimeCodeIntel</li>
+<li>SublimeLinter</li>
+<li>ctag</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
