@@ -10,4 +10,4 @@ categories: ["book lists"]
 
 1. 高效能網站開發指南
 2. Search Analytics for Your Site
-3. 
+3. 並行之美學：撰寫平行應用程式的新手指南
