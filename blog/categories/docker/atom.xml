@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-02T00:01:38+08:00</updated>
+  <updated>2014-12-03T23:23:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Fig]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/03/fig-and-docker/"/>
+    <updated>2014-12-03T23:05:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/03/fig-and-docker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.fig.sh/">fig</a> 是一個跟 docker 有關的命令列管理工具，看起來比 coreos 本身簡單許多適合初學者使用但是提供功能就比較少，
+不過在網路上看到有人有些轉換工具可以將 fig 產生的設定轉換成 coreos 所需的格式，所以可以先玩玩 fig 覺得不錯在
+轉用 coreos。</p>
+
+<p>下面官網在 ubuntu 下的安裝方法</p>
+
+<pre><code>curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`
+uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[安裝 Coreos]]></title>
@@ -100,17 +120,6 @@ docker run centos:latest cat /etc/centos-release
 
 <p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
 <a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[docker.io 和 Vagrant]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/01/docker-dot-io/"/>
-    <updated>2014-04-01T21:18:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/01/docker-dot-io</id>
-    <content type="html"><![CDATA[<p><a href="https://www.docker.io">docker.io</a> 是一種 <a href="http://en.wikipedia.org/wiki/LXC">LXC (LinuX Containers)</a>，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
-不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
-建立環境。</p>
 ]]></content>
   </entry>
   

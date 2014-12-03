@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-02T00:01:38+08:00</updated>
+  <updated>2014-12-03T23:23:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,10 +14,30 @@
 
   
   <entry>
+    <title type="html"><![CDATA[使用 Fig]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/03/fig-and-docker/"/>
+    <updated>2014-12-03T23:05:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/03/fig-and-docker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.fig.sh/">fig</a> 是一個跟 docker 有關的命令列管理工具，看起來比 coreos 本身簡單許多適合初學者使用但是提供功能就比較少，
+不過在網路上看到有人有些轉換工具可以將 fig 產生的設定轉換成 coreos 所需的格式，所以可以先玩玩 fig 覺得不錯在
+轉用 coreos。</p>
+
+<p>下面官網在 ubuntu 下的安裝方法</p>
+
+<pre><code>curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`
+uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[十二月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan/"/>
-    <updated>2014-12-01T07:39:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/01/shi-er-yue-shu-dan</id>
+    <link href="http://fubuki.github.io/blog/2014/12/02/shi-er-yue-shu-dan/"/>
+    <updated>2014-12-02T07:39:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/02/shi-er-yue-shu-dan</id>
     <content type="html"><![CDATA[<!-- more -->
 
 
@@ -396,254 +416,6 @@ gcc-4.9 -v
 
 <p><a href="http://jvm.taobao.org">Taobao JVM</a> 裡面有如何打入補丁並且編譯的資訊，裡面有優化一些部分不過最主要有用的部分是它多了不少 Log 訊息方便開發者追蹤訊息，
 這邊有<a href="http://hellojava.info/?p=336">相關資訊</a> 包含一些阿里優化哪些部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JCConf TW 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014/"/>
-    <updated>2014-11-15T21:07:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/15/jcconf-tw-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>JDK8 與模式</h3>
-
-<ol>
-<li>Fluent ecorator</li>
-<li>In out in out shake it all about</li>
-<li>The lonely override</li>
-<li>monad</li>
-<li>functional reactive</li>
-</ol>
-
-
-<h4>Fluent Decorator</h4>
-
-<p>High order function : 輸入函式 輸出函式<br/>
-Lamda : code as data<br/>
-ThreadLocal<br/>
-使用 withInitial</p>
-
-<h4>Monad Patterns</h4>
-
-<p>Optional<br/>
-flatMap</p>
-
-<h4>Functional Reactive</h4>
-
-<p>很有趣的東西</p>
-
-<h3>Java 常見問題排查方法</h3>
-
-<h4>類衝突問題</h4>
-
-<h4>OOM Out of Memory</h4>
-
-<p>工具</p>
-
-<ol>
-<li>jstack</li>
-<li>btrace</li>
-<li>jmap</li>
-<li>google perftools</li>
-</ol>
-
-
-<h4>CPU 利用率問題</h4>
-
-<h4>應用沒響應問題</h4>
-
-<h4>分布式環境下應用交互超時問題</h4>
-
-<p><a href="http://www.slideshare.net/terryice/eagleeye-with-taobaojavaone">EagleEye</a></p>
-
-<h4>Java 進程異常退出問題</h4>
-
-<h3>EventBus and Reactive Programming on Android</h3>
-
-<h4>痛點</h4>
-
-<ol>
-<li>Android AsyncTask</li>
-<li>Loader</li>
-<li>Thread</li>
-<li>Callback 海</li>
-</ol>
-
-
-<h4>類似的東西</h4>
-
-<ol>
-<li>event-driven programming</li>
-<li>obsever pattern</li>
-<li>pub/sub pattern</li>
-<li>dataflow programming</li>
-</ol>
-
-
-<p><a href="https://github.com/ReactiveX/RxJava">RxJava</a></p>
-
-<h4>library</h4>
-
-<ol>
-<li>Otto from Square</li>
-<li>EventBus from greenrobot</li>
-</ol>
-
-
-<h4>Sticky Events</h4>
-
-<h3>老舊 Web 上雲端</h3>
-
-<p>ActiveCache</p>
-
-<p>無法維護的 WEB 專案的尊稱</p>
-
-<p>Crash 蹺蹺板</p>
-
-<p>guava CacheLoader</p>
-
-<p>Cached Refresh Schedule</p>
-
-<h3>Simplify Multi-Tenant Queries in ORM Frameworks</h3>
-
-<ol>
-<li>Separate Database 多資料庫</li>
-<li>Separate Schema  多表</li>
-<li>Discriminator Column 藉由欄位區分</li>
-</ol>
-
-
-<h4>ORM framework</h4>
-
-<p>JPA
-Hibernate
-EclipseLink</p>
-
-<h3>阿里 JVM 之路</h3>
-
-<h3>性能優化</h3>
-
-<ol>
-<li>Intrinsic</li>
-<li>CHIH - Off-Heap</li>
-<li>JFR 分析內部事件進行優化</li>
-</ol>
-
-
-<h4>JAVA 方法</h4>
-
-<ul>
-<li>Pure Java
-
-<ul>
-<li>JIT</li>
-<li>Intrinsic</li>
-</ul>
-</li>
-<li>JNI
-
-<ul>
-<li>開銷大，效率低</li>
-</ul>
-</li>
-</ul>
-
-
-<p>Intrinsic 主要是將一些程式碼直接使用 CPU 指令執行</p>
-
-<h4>GCIH</h4>
-
-<ol>
-<li>Garbage Collector Invisable Heap</li>
-<li>讓 JVM 進程共享 GCIH 的資料</li>
-<li>限制 只能唯讀 如果是可寫會有問題</li>
-</ol>
-
-
-<h4>Java Flight Recorder</h4>
-
-<h4>種類</h4>
-
-<ol>
-<li>gc 相關</li>
-<li>線程同步相關</li>
-<li>JIT 相關</li>
-<li>類加載</li>
-<li>VMOperation</li>
-</ol>
-
-
-<p>在 OpenJDK 已有比較粗糙的實現</p>
-
-<p>如何實現</p>
-
-<h3>故障排查</h3>
-
-<ol>
-<li>增加可配置參數 新增一些統計數據</li>
-<li>與外部工具結合</li>
-</ol>
-
-
-<h3>回饋社區</h3>
-
-<ol>
-<li>Bug Fix</li>
-<li>阿里客製化的部分</li>
-</ol>
-
-
-<h3>Apache Kafka: A high-throughput distributed messaging system</h3>
-
-<p>介紹 Kafka 的特色</p>
-
-<p>Kafka 為何快</p>
-
-<p>Sequential vs Random</p>
-
-<p>In-Process Cache vs Page Cache</p>
-
-<p>Application Copy vs Zero Copying</p>
-
-<p>Constant Time</p>
-
-<p>apace-storm vs spark streaming</p>
-
-<h4>一些參考文章</h4>
-
-<p>The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</p>
-
-<h3>OpenJDK vs. Dalvik/ART virtual machine</h3>
-
-<p>從 Maxine VM 理解高效能 Java 虛擬機器運作原理</p>
-
-<p>Self VM Strongtalk vm hotspot vm cldc-hi</p>
-
-<p>說明了 JVM 的歷史</p>
-
-<p>重點在最佳化</p>
-
-<p>Runtime overhead Interpreter</p>
-
-<p>Dalvik VM in a nutshell</p>
-
-<p>Dalvik is Register-based</p>
-
-<p>Optimizing Dispatch</p>
-
-<p>dexopt</p>
-
-<p>Dalvik vs. ART</p>
-
-<h3>透過 ActiveMQ 在 Raspberry Pi 上的物聯網應用</h3>
-
-<p>介紹一些物聯網的協定
-1. AMQP
-2. MQTT
-3. XMPP
-4. STOMP</p>
 ]]></content>
   </entry>
   
