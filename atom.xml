@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-03T23:23:35+08:00</updated>
+  <updated>2014-12-04T23:22:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mysql 兼容方案]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/04/mysql-other-version/"/>
+    <updated>2014-12-04T10:45:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/04/mysql-other-version</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>列出幾個相容於 mysql 的開源方案。</p>
+
+<h3>Percona Mysql</h3>
+
+<p><a href="http://www.percona.com/">Percona</a> 出的版本，目前看到身邊的人大都是使用這家公司出版的 Mysql 建立商業環境，
+而且從它的討論區可以學習到不少如何對 Mysql 除錯的訊息。</p>
+
+<h3>MariaDB</h3>
+
+<p><a href="https://mariadb.org/">mariadb</a> 是 Mysql 的生父另外開發的版本，裡面多增加了 TokuDB 這個引擎，目前在國外看到有些人將資料庫從 Mysql 遷移到
+MariaDB，是值得期待的產品。</p>
+
+<h3>MySQL/Galera</h3>
+
+<p><a href="http://galeracluster.com/">galeracluster</a> 只有在網路上聽過這個版本，在找跟 Mysql Cluster 方案時看到有人提到，不過身邊的人似乎沒有人在使用這個版本。</p>
+
+<h3>WebScaleSQL</h3>
+
+<p>Google 和 Facebook、LinkedIn、Twitter 共同開發的版本，上述的公司都有處理巨量資料的需求，所以看起來應該會朝向處理巨量資料和
+佈署大規獏資料叢集的方向發展，不過我記得 Google 有決定當 MariaDB 成熟後將內部的 Mysql 資料庫遷移到 MariaDB，所以 MariaDB 和 WebScaleSQL
+兩者會有有不同發展方向跟應用場景。</p>
+
+<h3>InnoSQL</h3>
+
+<p><a href="https://github.com/NetEase/InnoSQL">InnoSQL</a> 是網易開發的 Mysql 分支，在它的 Github 上有列出改變了哪些部分，這些應該都是基於
+網易內部需要而修改的，也許可以透過那些特性思考一下網易是如何使用 Mysql 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Fig]]></title>
@@ -401,21 +438,6 @@ gcc-4.9 -v
 
 <p>此外另外有一個想法是使用 Redis 的 <code>Keyspace Notifications</code>  設定一個鍵值跟過期時間然後使用一個進程監視過期的通知然後就可以設定在
 特定時間執行任務。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[阿里客製化的 Jvm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/16/taobao-jvm/"/>
-    <updated>2014-11-16T20:13:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/16/taobao-jvm</id>
-    <content type="html"><![CDATA[<p>阿里基於 open jdk 開發的 jvm 版本。</p>
-
-<!-- more -->
-
-
-<p><a href="http://jvm.taobao.org">Taobao JVM</a> 裡面有如何打入補丁並且編譯的資訊，裡面有優化一些部分不過最主要有用的部分是它多了不少 Log 訊息方便開發者追蹤訊息，
-這邊有<a href="http://hellojava.info/?p=336">相關資訊</a> 包含一些阿里優化哪些部分。</p>
 ]]></content>
   </entry>
   
