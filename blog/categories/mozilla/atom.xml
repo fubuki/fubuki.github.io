@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mozilla | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mozilla/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-05T23:13:45+08:00</updated>
+  <updated>2014-12-06T23:43:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[開發 Firefox 附加元件]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/06/firefox-develop-addon/"/>
+    <updated>2014-12-06T23:32:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/06/firefox-develop-addon</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近想要開發一個 firefox 的附加元件擴展原先的書籤功能，所以收集一下官方的開發文件。</p>
+
+<ol>
+<li><a href="https://developer.mozilla.org/zh-TW/docs/XPCOM">XPCOM</a> 是用來開發 firefox 附加元件的物件模型。</li>
+<li><a href="https://developer.mozilla.org/en-US/Add-ons">Modify and extend Mozilla applications</a></li>
+<li><a href="https://blog.mozilla.org/addons/2014/06/05/how-to-develop-firefox-extension/">How to develop a Firefox extension</a></li>
+<li><a href="https://wiki.mozilla.org/Jetpack">Jetpack</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Firefox Developer Edition]]></title>

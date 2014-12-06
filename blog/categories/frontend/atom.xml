@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-05T23:13:45+08:00</updated>
+  <updated>2014-12-06T23:43:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[使用 Canvas Fingerprinting 追蹤閱覽器資訊]]></title>
+    <title type="html"><![CDATA[Canvas Fingerprinting]]></title>
     <link href="http://fubuki.github.io/blog/2014/12/05/fingerprinting/"/>
     <updated>2014-12-05T21:56:17+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/12/05/fingerprinting</id>
