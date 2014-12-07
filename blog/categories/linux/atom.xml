@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-06T23:43:12+08:00</updated>
+  <updated>2014-12-07T11:35:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[讓 Crontab 執行 30 秒任務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/07/crontab-second/"/>
+    <updated>2014-12-07T10:48:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/07/crontab-second</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>crontab 是 linux 用來執行定時任務的指令，但是他最多只能指定到分，如果要有設定 30 秒執行的任務就要比較特殊的做法。</p>
+
+<p>使用 sleep 指令延遲 30 秒執行，這樣就可以達成每 30 秒執行任務的功能。</p>
+
+<pre><code>* * * * * ntpdate -s time.stdtime.gov.tw
+* * * * * sleep 30 &amp;&amp;  ntpdate -s time.stdtime.gov.tw
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
@@ -92,38 +110,6 @@ gcc-4.9 -v
 <h3>合併多種監視系統</h3>
 
 <p><a href="http://www.hatohol.org/">hatohol</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 DRBD Pacemaker Corosync 建立高可用架構]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync/"/>
-    <updated>2014-11-20T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/20/drbd-pacemaker-corosync</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在一場演討會看到關於建立高可用架構的演講，演講題目為 <code>【入門】PostgreSQL + Pacemaker + DRBD で高可用性構成を構築してみよう</code>，
-裡面是講說如何使用 Pacemaker + DRBD  建立一個 HA 架構，紀錄一下使用到哪些專案跟其他相關訊息。</p>
-
-<ol>
-<li><a href="http://www.drbd.org/">DRBD</a></li>
-<li><a href="Pacemaker">Pacemaker</a></li>
-<li><a href="Corosync">Corosync</a></li>
-</ol>
-
-
-<h3>DRBD</h3>
-
-<p>DRBD (Distributed Replicated Block Device)</p>
-
-<h3>Pacemaker</h3>
-
-<p>管理 cluster 的工具。</p>
-
-<h3>Corosync</h3>
-
-<p>通信系統</p>
 ]]></content>
   </entry>
   

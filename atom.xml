@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-06T23:43:12+08:00</updated>
+  <updated>2014-12-07T11:35:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[讓 Crontab 執行 30 秒任務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/07/crontab-second/"/>
+    <updated>2014-12-07T10:48:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/07/crontab-second</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>crontab 是 linux 用來執行定時任務的指令，但是他最多只能指定到分，如果要有設定 30 秒執行的任務就要比較特殊的做法。</p>
+
+<p>使用 sleep 指令延遲 30 秒執行，這樣就可以達成每 30 秒執行任務的功能。</p>
+
+<pre><code>* * * * * ntpdate -s time.stdtime.gov.tw
+* * * * * sleep 30 &amp;&amp;  ntpdate -s time.stdtime.gov.tw
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開發 Firefox 附加元件]]></title>
@@ -419,20 +437,6 @@ gcc-4.9 -v
 
 
 <p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MariaDB Galera Cluster]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/18/mariadb-galera-cluster/"/>
-    <updated>2014-11-18T23:42:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/18/mariadb-galera-cluster</id>
-    <content type="html"><![CDATA[<p>建立 MariaDB Galera Cluster 架構。</p>
-
-<!-- more -->
-
-
-<p><a href="https://downloads.mariadb.org/mariadb-galera/">mariadb-galera</a></p>
 ]]></content>
   </entry>
   
