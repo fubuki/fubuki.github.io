@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-07T11:35:48+08:00</updated>
+  <updated>2014-12-08T22:21:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[VS2013 搭配 opencv-2.4.10]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/08/opencv-vs2013/"/>
+    <updated>2014-12-08T21:35:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/08/opencv-vs2013</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 <code>Visual Studio 2013</code> 下配置 OpenCV 開發環境。</p>
+
+<ol>
+<li>下載 OpenCV for Windows 的安裝檔並安裝，安裝檔會在目錄下生成 opencv 的函式庫。</li>
+<li>在環境變量裡的 Path 加入 opencv 的 bin 文件夾。</li>
+<li>在 <code>Visual Studio 2013</code> 的編譯設定裡加入相關函式庫。</li>
+<li>如果是 32 位元的環境就加入 x86， 64 位元就加入 x64 下的檔案</li>
+<li><code>VC++ 目錄</code> 的 <code>Include 目錄</code> 加入 opencv 的 include 目錄下的所有檔案，
+ 在<code>程式庫目錄</code> 下根據編譯環境加入 <code>x86\vc12\lib</code>。</li>
+<li>在連接器下輸入的其他相依性加入在 <code>x86\vc12\lib</code> 下 dll 檔案，這根據專案本身用到哪些 opencv 的功能
+ ，決定載入哪些 dll 膽案。</li>
+<li>撰寫測試用的 opencv 專案測試是否可以執行。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[讓 Crontab 執行 30 秒任務]]></title>
@@ -391,52 +416,6 @@ gcc-4.9 -v
 <h3>Corosync</h3>
 
 <p>通信系統</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature/"/>
-    <updated>2014-11-19T22:13:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Added Features</h3>
-
-<ol>
-<li>提高安全性</li>
-<li>SQL mode changes</li>
-<li>即時更新表結構</li>
-<li>優化 InnoDB</li>
-<li>supports stacked diagnostics areas</li>
-<li>EXPLAIN 可以顯示更多資訊</li>
-<li>觸發</li>
-<li>新增 LOG 機制</li>
-<li>MySQL Test Suite</li>
-<li>mysql client</li>
-<li>Database name rewriting with mysqlbinlog</li>
-<li>HANDLER with partitioned tables</li>
-<li>Index condition pushdown support for partitioned tables</li>
-<li>WITHOUT VALIDATION support for ALTER TABLE &hellip; EXCHANGE PARTITION</li>
-<li>Master dump thread improvements</li>
-<li>Globalization improvements</li>
-<li>Changing the replication master without STOP SLAVE</li>
-</ol>
-
-
-<h3>Deprecated Features</h3>
-
-<h3>Removed Features</h3>
-
-<ol>
-<li>更改密碼加密格式</li>
-<li>移除一些資料類型</li>
-<li>使用 <code>Performance Schema tables</code> 取代 <code>SHOW ENGINE INNODB MUTEX</code></li>
-</ol>
-
-
-<p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
 ]]></content>
   </entry>
   

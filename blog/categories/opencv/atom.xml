@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Opencv | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/opencv/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2014-12-08T22:21:14+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[VS2013 搭配 opencv-2.4.10]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/08/opencv-vs2013/"/>
+    <updated>2014-12-08T21:35:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/08/opencv-vs2013</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 <code>Visual Studio 2013</code> 下配置 OpenCV 開發環境。</p>
+
+<ol>
+<li>下載 OpenCV for Windows 的安裝檔並安裝，安裝檔會在目錄下生成 opencv 的函式庫。</li>
+<li>在環境變量裡的 Path 加入 opencv 的 bin 文件夾。</li>
+<li>在 <code>Visual Studio 2013</code> 的編譯設定裡加入相關函式庫。</li>
+<li>如果是 32 位元的環境就加入 x86， 64 位元就加入 x64 下的檔案</li>
+<li><code>VC++ 目錄</code> 的 <code>Include 目錄</code> 加入 opencv 的 include 目錄下的所有檔案，
+ 在<code>程式庫目錄</code> 下根據編譯環境加入 <code>x86\vc12\lib</code>。</li>
+<li>在連接器下輸入的其他相依性加入在 <code>x86\vc12\lib</code> 下 dll 檔案，這根據專案本身用到哪些 opencv 的功能
+ ，決定載入哪些 dll 膽案。</li>
+<li>撰寫測試用的 opencv 專案測試是否可以執行。</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
