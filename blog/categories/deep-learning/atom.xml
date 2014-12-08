@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categories: Deep-learning | Learning Blog]]></title>
+  <title><![CDATA[Categories: Deep Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-08T22:21:14+08:00</updated>
+  <updated>2014-12-09T02:51:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NeuralTalk : 從圖片生成文字描述的工具]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/09/neuraltalk/"/>
+    <updated>2014-12-09T02:31:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/09/neuraltalk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/karpathy/neuraltalk">NeuralTalk</a> 是相當有趣的工具，透過 <code>deep learning</code> 的方法可以將圖片的情境使用文字描述出來，
+這邊有不少 <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/">example</a> 可以看到運行的效果，在 Github 上面也放有原始碼可以自行下載測試效果。</p>
+
+<p>裡面使用了下面幾種模型:</p>
+
+<ol>
+<li>Vinyals et al. from Google (CNN + LSTM)</li>
+<li>Karpathy and Fei-Fei from Stanford (CNN + RNN)</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Theano]]></title>
