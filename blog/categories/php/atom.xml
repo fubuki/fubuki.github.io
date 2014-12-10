@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-09T02:51:44+08:00</updated>
+  <updated>2014-12-10T23:13:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ORA-01461: Can Bind a LONG Value Only for Insert Into a LONG Column]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column/"/>
+    <updated>2014-12-10T22:51:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在工作上遇到了 &ldquo;ORA-01461: can bind a LONG value only for insert into a LONG column&rdquo; 這個錯誤訊息，後來發現是
+因為有人在資料庫使用 <code>clob</code> 的關係，似乎是插入的字串超過了 4k 的長度。</p>
+
+<p>之前使用 <code>clob</code> 時應該是支援超過 4k 長度的字串，網路上找了一些大部分都是寫 JDBC 版本的問題，不過我們開發環境是 PHP，
+原本以為是 oracle client 版本跟資料庫不一樣導致的問題，不過兩者版本是一致的，後來用 <code>oci_bind_by_name</code> 就可以過去了，
+而在 phalcon 底下使用 phql bind param 的方式也能夠執行避免錯誤，似乎問題在於 phalcon 使用 pdo 實現 oracle 的問題，
+直接使用 model 賦值是無法成功寫入的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
@@ -163,30 +181,6 @@
 
 
 <h4>其他</h4>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 的加密方案]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/14/php-and-crypt/"/>
-    <updated>2014-10-14T22:09:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/14/php-and-crypt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近需要生成一些加密字串，需要研究一下要採用哪種加密演算法， md5 跟 sha1 應該是不會列入考慮， 有可能會在 bcrypt 和 scrypt 兩者之間比較
-一下看是要選擇哪一個。</p>
-
-<ol>
-<li>crypt</li>
-<li>bcrypt</li>
-<li>scrypt</li>
-</ol>
-
-
-<h4>關於加密的文章</h4>
-
-<p><a href="http://stackoverflow.com/questions/401656/secure-hash-and-salt-for-php-passwords/8050063">How to securely hash passwords?</a></p>
 ]]></content>
   </entry>
   

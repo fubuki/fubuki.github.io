@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-09T02:51:44+08:00</updated>
+  <updated>2014-12-10T23:13:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ORA-01461: Can Bind a LONG Value Only for Insert Into a LONG Column]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column/"/>
+    <updated>2014-12-10T22:51:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在工作上遇到了 &ldquo;ORA-01461: can bind a LONG value only for insert into a LONG column&rdquo; 這個錯誤訊息，後來發現是
+因為有人在資料庫使用 <code>clob</code> 的關係，似乎是插入的字串超過了 4k 的長度。</p>
+
+<p>之前使用 <code>clob</code> 時應該是支援超過 4k 長度的字串，網路上找了一些大部分都是寫 JDBC 版本的問題，不過我們開發環境是 PHP，
+原本以為是 oracle client 版本跟資料庫不一樣導致的問題，不過兩者版本是一致的，後來用 <code>oci_bind_by_name</code> 就可以過去了，
+而在 phalcon 底下使用 phql bind param 的方式也能夠執行避免錯誤，似乎問題在於 phalcon 使用 pdo 實現 oracle 的問題，
+直接使用 model 賦值是無法成功寫入的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NeuralTalk : 從圖片生成文字描述的工具]]></title>
@@ -373,38 +391,6 @@ gcc-4.9 -v
 
 
 <p><a href="http://www.netbsd.org/">NetBSD</a> 用來移植各種裝置的作業系統。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ZABBIX and Hinemos]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/"/>
-    <updated>2014-11-20T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos</id>
-    <content type="html"><![CDATA[<p>兩種監視系統。</p>
-
-<!-- more -->
-
-
-<h3>官網</h3>
-
-<ol>
-<li><a href="http://www.zabbix.com/">ZABBIX</a></li>
-<li><a href="http://www.hinemos.info/">Hinemos</a></li>
-</ol>
-
-
-<h3>ZABBIX</h3>
-
-<p>使用 C 和 PHP 開發。</p>
-
-<h3>Hinemos</h3>
-
-<p>使用 JAVA 開發。</p>
-
-<h3>合併多種監視系統</h3>
-
-<p><a href="http://www.hatohol.org/">hatohol</a></p>
 ]]></content>
   </entry>
   
