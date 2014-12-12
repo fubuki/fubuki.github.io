@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-11T23:22:35+08:00</updated>
+  <updated>2014-12-12T23:17:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lighttpd 搭配 Fastcgi 和 Webpy]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py/"/>
+    <updated>2014-12-12T00:18:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究別人寫的專案看到使用 Lighttpd 跑 Python 的程式碼，透過 Fastcgi 跟 Python 程式碼溝通，
+Python 端則是使用 <a href="http://webpy.org">Webpy</a>，環境可以參考 <a href="http://webpy.org/cookbook/fastcgi-lighttpd">Webpy + LightTTPD with FastCGi</a>。</p>
+
+<pre><code>apt-get install lighttpd
+vim /etc/lighttpd/lighttpd.conf
+
+fastcgi.server = ( "/app.py" =&gt;
+(( "socket" =&gt; "/tmp/fastcgi.socket",
+    "bin-path" =&gt; "/var/www/html/app.py",
+    "max-procs" =&gt; 1,
+    "bin-environment" =&gt; (
+    "REAL_SCRIPT_NAME" =&gt; ""
+    ),
+    "check-local" =&gt; "disable"
+))
+)
+
+easy_install web.py
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[分散式檔案系統]]></title>
@@ -424,18 +454,6 @@ gcc-4.9 -v
 
 
 <p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenContrail Info]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/22/opencontrail-info/"/>
-    <updated>2014-11-22T06:32:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/22/opencontrail-info</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.opencontrail.org/">OpenContrail</a> 用來建立 <a href="http://en.wikipedia.org/wiki/Software-defined_networking">SDN</a> 系統的開源工具，這邊有相關文件的 <a href="http://www.sdnap.com/sdnap-post/2886.html">翻譯</a>。</p>
 ]]></content>
   </entry>
   
