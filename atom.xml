@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-12T23:17:04+08:00</updated>
+  <updated>2014-12-13T23:31:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[管理 Linux 啟動執行的服務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/13/linux-start-service/"/>
+    <updated>2014-12-13T23:09:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/13/linux-start-service</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
+另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
+決定服務要在哪個時候執行。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lighttpd 搭配 Fastcgi 和 Webpy]]></title>
@@ -442,18 +456,6 @@ gcc-4.9 -v
 
 <p>最近在研究與多租戶系統相關的資訊時看到了 <a href="https://www.swiftstack.com/">swiftstack</a>， 使用了 OpenStack 下的 Swift 項目技術的雲端儲存商，
 如果要試玩 Swift 可以直接安裝 <a href="https://www.swiftstack.com/">swiftstack</a> 而不需要安裝整個 OpenStack 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Tornado]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/23/python-tornado/"/>
-    <updated>2014-11-23T14:43:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/23/python-tornado</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
 ]]></content>
   </entry>
   

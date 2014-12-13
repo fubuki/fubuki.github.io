@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-12T23:17:04+08:00</updated>
+  <updated>2014-12-13T23:31:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[管理 Linux 啟動執行的服務]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/13/linux-start-service/"/>
+    <updated>2014-12-13T23:09:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/13/linux-start-service</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
+另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
+決定服務要在哪個時候執行。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[讓 Crontab 執行 30 秒任務]]></title>
@@ -78,38 +92,6 @@ gcc-4.9 -v
 
 
 <p><a href="http://www.netbsd.org/">NetBSD</a> 用來移植各種裝置的作業系統。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ZABBIX and Hinemos]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos/"/>
-    <updated>2014-11-20T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/20/zabbix-and-hinemos</id>
-    <content type="html"><![CDATA[<p>兩種監視系統。</p>
-
-<!-- more -->
-
-
-<h3>官網</h3>
-
-<ol>
-<li><a href="http://www.zabbix.com/">ZABBIX</a></li>
-<li><a href="http://www.hinemos.info/">Hinemos</a></li>
-</ol>
-
-
-<h3>ZABBIX</h3>
-
-<p>使用 C 和 PHP 開發。</p>
-
-<h3>Hinemos</h3>
-
-<p>使用 JAVA 開發。</p>
-
-<h3>合併多種監視系統</h3>
-
-<p><a href="http://www.hatohol.org/">hatohol</a></p>
 ]]></content>
   </entry>
   
