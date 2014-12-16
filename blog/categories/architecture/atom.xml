@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-15T22:56:11+08:00</updated>
+  <updated>2014-12-16T23:49:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Aeron Message Protocol]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol/"/>
+    <updated>2014-12-16T23:24:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近發現了一個跟消息系統有關的的開源專案: <a href="https://github.com/real-logic/Aeron">Aeron</a> ，目前已經手上是用過好幾種消息系統每種都有他們的特性，
+所以是否還需要另外新的消息系統? 這篇 <a href="http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html">Aeron: Do we really need another messaging system?</a> 可以讀讀，了解
+跟為何開發這個系統。</p>
+
+<p>上面的文章有提到其他消息系統像是瑞士刀， <a href="https://github.com/real-logic/Aeron">Aeron</a> 則像是一把手術刀，沒有提供太多功能，並且是放在 tcp 的層級使用，
+看起來是用來建立系統低階的部分高階的部分在讓開發者另外去解決，這讓我感覺有點像 zeroMQ 但是文章裡面卻說是不一樣的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關於處理 LOG 的事情]]></title>

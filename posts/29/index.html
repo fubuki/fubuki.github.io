@@ -9,8 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。
-">
+  <meta name="description" content="之前在使用git push 程式碼到github上面出現了上述的錯誤。看起來像是gtk跟ssh的問題，
+今天又遇到了就想辦法解決這個問題， ssh-askpass-gnome
+interactive X program to prompt users for a passphrase for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +80,43 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/06/gnome-ssh-askpass-6593-gtk-warning-star-star-cannot-open-display/">(Gnome-ssh-askpass:6593): Gtk-WARNING **: Cannot Open Display</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-06T21:33:56+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>6</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:33 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>之前在使用git push 程式碼到github上面出現了上述的錯誤。看起來像是gtk跟ssh的問題，<br/>
+今天又遇到了就想辦法解決這個問題，</p>
+
+<blockquote><p>ssh-askpass-gnome<br/>
+interactive X program to prompt users for a passphrase for ssh-add</p></blockquote>
+
+<p>似乎是為了使用者在GUI界面下填入ssh相關資訊的程式，只要關掉他就好了，</p>
+
+<blockquote><p>unset SSH_ASKPASS</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -381,35 +419,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/02/sass-and-less/">Sass and Less</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-02T17:07:46+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>2</span><span class='date-suffix'>nd</span>, <span class='date-year'>2014</span></span> <span class='time'>5:07 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/30">&larr; Older</a>
@@ -427,6 +436,10 @@ Solr只要將欄位設定好就可以直接使用。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/12/16/aeron-message-protocol/">Aeron Message Protocol</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/12/15/apache-wsgi-python/">在 Apache 安裝上 Wsgi 執行 Django</a>
       </li>
     
@@ -442,10 +455,6 @@ Solr只要將欄位設定好就可以直接使用。</p>
         <a href="/blog/2014/12/12/lighttpd-fastcgi-web-dot-py/">Lighttpd 搭配 Fastcgi 和 Webpy</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2014/12/11/distributed-filesystem/">分散式檔案系統</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -455,7 +464,7 @@ Solr只要將欄位設定好就可以直接使用。</p>
   <li><a href='/blog/categories/algorithm'>Algorithm (12)</a></li>
   <li><a href='/blog/categories/android'>Android (5)</a></li>
   <li><a href='/blog/categories/api'>Api (1)</a></li>
-  <li><a href='/blog/categories/architecture'>Architecture (2)</a></li>
+  <li><a href='/blog/categories/architecture'>Architecture (3)</a></li>
   <li><a href='/blog/categories/astreisk'>Astreisk (3)</a></li>
   <li><a href='/blog/categories/atom'>Atom (1)</a></li>
   <li><a href='/blog/categories/bdd'>Bdd (1)</a></li>

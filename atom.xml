@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-15T22:56:11+08:00</updated>
+  <updated>2014-12-16T23:49:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Aeron Message Protocol]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol/"/>
+    <updated>2014-12-16T23:24:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近發現了一個跟消息系統有關的的開源專案: <a href="https://github.com/real-logic/Aeron">Aeron</a> ，目前已經手上是用過好幾種消息系統每種都有他們的特性，
+所以是否還需要另外新的消息系統? 這篇 <a href="http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html">Aeron: Do we really need another messaging system?</a> 可以讀讀，了解
+跟為何開發這個系統。</p>
+
+<p>上面的文章有提到其他消息系統像是瑞士刀， <a href="https://github.com/real-logic/Aeron">Aeron</a> 則像是一把手術刀，沒有提供太多功能，並且是放在 tcp 的層級使用，
+看起來是用來建立系統低階的部分高階的部分在讓開發者另外去解決，這讓我感覺有點像 zeroMQ 但是文章裡面卻說是不一樣的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在 Apache 安裝上 Wsgi 執行 Django]]></title>
@@ -450,18 +467,6 @@ gcc-4.9 -v
 
 <p><a href="http://www.slideshare.net/JayKreps1/i-32858698">The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</a>
 <a href="http://shop.oreilly.com/product/0636920034339.do">I Heart Logs Event Data, Stream Processing, and Data Integration </a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker 15 Tips]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/26/docker-15-tips/"/>
-    <updated>2014-11-26T23:10:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/26/docker-15-tips</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes">15 Docker Tips in 5 Minutes</a> 裡面簡介了一些關於 Docker 小技巧。</p>
 ]]></content>
   </entry>
   
