@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-16T23:49:52+08:00</updated>
+  <updated>2014-12-17T22:38:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx 添加 Lua 的模組]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/17/nginx-lua/"/>
+    <updated>2014-12-17T00:25:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/17/nginx-lua</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Nginx 可以藉由安裝 <a href="https://github.com/openresty/lua-nginx-module">lua-nginx-module</a> 支持 Lua，但是要安裝模組就必須從原始碼開始編譯，這邊就記錄一下
+在 Centos 上面的安裝過程。</p>
+
+<h3>下載 nginx 的原始碼</h3>
+
+<pre><code>wget http://nginx.org/download/nginx-1.7.7.tar.gz
+tar zxf nginx-1.7.7.tar.gz
+</code></pre>
+
+<h3>下載相關模組</h3>
+
+<ol>
+<li><a href="https://github.com/openresty/lua-nginx-module">lua-nginx-module</a> 支援 Lua 的模組</li>
+<li><a href="https://github.com/simpl/ngx_devel_kit">ngx_devel_kit</a> Nginx 的開發工具有些模組需要這個套件</li>
+<li><a href="http://luajit.org/">LuaJIT</a> Lua 的模組需要它編譯出來的 library</li>
+<li><a href="https://github.com/openresty/set-misc-nginx-module">set-misc-nginx-module</a> 增加 nginx 支援的語法，順便編譯進去增強 nginx 的功能</li>
+</ol>
+
+
+<h3>編譯參數</h3>
+
+<pre><code>./configure --prefix=/opt/nginx \
+     --add-module=/root/ngx_devel_kit \
+     --add-module=/root/lua-nginx-module \
+     --add-module=/root/set-misc-nginx-module 
+
+make &amp;&amp; make install
+</code></pre>
+
+<h3>設定成服務</h3>
+
+<pre><code>ln -s /opt/nginx/sbin/nginx /usr/sbin/nginx
+
+vim /etc/init.d/nginx
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx Upstream 反向代理的機制]]></title>
