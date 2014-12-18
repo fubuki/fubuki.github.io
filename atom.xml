@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-17T22:38:27+08:00</updated>
+  <updated>2014-12-18T23:22:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[在 Centos 6 安裝 Ffmpeg Flvtool++ Qtfaststart]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/18/ffmpeg-flvtool-plus-plus-qtfaststart/"/>
+    <updated>2014-12-18T22:43:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/18/ffmpeg-flvtool-plus-plus-qtfaststart</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h4>ffmpeg</h4>
+
+<p>在 Centos 上面使用 yum 安裝的 ffmpeg 版本都太舊了，版本只有到 0.6 而已目前最新已經到 2.5 了，
+另外使用 yum 安裝的 ffmpeg 似乎沒有把一些我需要的編碼加進去導致沒有支援 flv 的轉碼。</p>
+
+<p>目前看到網路上有很多教程解說如何從原始碼安裝 ffmpeg ，但是在編譯的時候在跑 x264 的時候就沒有辦法通過編譯
+，最後參考這篇 <a href="http://wiki.razuna.com/display/ecp/FFMpeg+Installation+on+CentOS+and+RedHat">Install FFMpeg</a> 才能編譯過去。看起來也許是之前的函式庫沒有移除乾淨所導致的。</p>
+
+<h4>qtfaststart</h4>
+
+<p><a href="https://github.com/danielgtaylor/qtfaststart">qtfaststart</a> 是用來轉 mp4 的相關工具，直接透過 pypi 安裝即可。</p>
+
+<pre><code>easy_install qtfaststart
+</code></pre>
+
+<h4>flvtool++</h4>
+
+<p>網路上有 <a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a> 和 flvtool2 這兩者似乎是類似的東西用來處理 flv 檔案， yum 源裡面是有 flvtool2
+<a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a> 只能自行編譯安裝。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx 添加 Lua 的模組]]></title>
@@ -480,23 +510,6 @@ gcc-4.9 -v
 
 <p>這個開發者版本直接提供開發 <code>Firefox OS APP</code> 的功能叫做 <code>WebIDE</code> 可以直接在閱覽器編輯專案，裡面也有內建用來對網頁除錯的工具，
 之前我都是使用 firebug 測試網頁而兩者之間的差異還在研究中，另外也有一個可以讓使用者透過連接外部的裝置讓開發者在其他平台上除錯。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What Is Systemtap]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/28/what-is-systemtap/"/>
-    <updated>2014-11-28T23:17:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/28/what-is-systemtap</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://sourceware.org/systemtap/">systemtap</a> 一個可以用來抓取 Linux kernal 訊息的工具，在以前開發 Linux 核心的時候要抓去內部的資訊都需要開發者插入程式碼然後重新編譯
-後才能顯示一些想要的資訊，但是後後來的核心版本提供了一個名叫 kprobe 機制，而 <a href="https://sourceware.org/systemtap/">systemtap</a> 便是藉由 kprobe 讓開發者更容易去抓取核心的運行資訊。</p>
-
-<h3>如何開啟 systemtap 功能</h3>
-
-<h3>範例</h3>
 ]]></content>
   </entry>
   
