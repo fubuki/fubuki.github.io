@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-18T23:22:55+08:00</updated>
+  <updated>2014-12-19T23:35:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[添加 Flv Keyframes 支持拖動撥放]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/19/nginx-yamdi-flvtool/"/>
+    <updated>2014-12-19T22:36:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/19/nginx-yamdi-flvtool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>目前在研究在多種裝置上面支援播放影片，目前看到有使用下面幾種方式:</p>
+
+<ol>
+<li>RTMP/RTMPT</li>
+<li>RTSP</li>
+<li>HTTP</li>
+<li>MMS</li>
+<li>HLS</li>
+</ol>
+
+
+<p>而手上有 mp4 和 flv 以及 m3u8 三種格式需要播放，目前是先選用 nginx 透過 HTTP 播放這樣需要安裝的套件比較少，
+如果要使用 CDN 擴展也比較方便，但是除了原本的 m3u8 格式可以支援拖動撥放，另外兩個要使用其他工具添加 keyframes 才能讓
+播放器不需要載入全部檔案就可以撥放，下面記錄目前有使用哪些工具添加 keyframes。</p>
+
+<h3>flv</h3>
+
+<ol>
+<li><a href="http://yamdi.sourceforge.net/">yamdi</a></li>
+<li><a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a></li>
+</ol>
+
+
+<h3>mp4</h3>
+
+<ol>
+<li><a href="https://github.com/danielgtaylor/qtfaststart">qtfaststart</a></li>
+<li>MP4Box</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[在 Centos 6 安裝 Ffmpeg Flvtool++ Qtfaststart]]></title>
@@ -28,6 +69,8 @@
 
 <p>目前看到網路上有很多教程解說如何從原始碼安裝 ffmpeg ，但是在編譯的時候在跑 x264 的時候就沒有辦法通過編譯
 ，最後參考這篇 <a href="http://wiki.razuna.com/display/ecp/FFMpeg+Installation+on+CentOS+and+RedHat">Install FFMpeg</a> 才能編譯過去。看起來也許是之前的函式庫沒有移除乾淨所導致的。</p>
+
+<p>下面兩個是讓 mp4 和 flv 檔案可以透過 http 的方式拖動撥放</p>
 
 <h4>qtfaststart</h4>
 
@@ -93,23 +136,6 @@ sudo apt-get update
 sudo apt-get install g++-4.9
 gcc-4.9 -v
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What Is Systemtap]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/28/what-is-systemtap/"/>
-    <updated>2014-11-28T23:17:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/28/what-is-systemtap</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://sourceware.org/systemtap/">systemtap</a> 一個可以用來抓取 Linux kernal 訊息的工具，在以前開發 Linux 核心的時候要抓去內部的資訊都需要開發者插入程式碼然後重新編譯
-後才能顯示一些想要的資訊，但是後後來的核心版本提供了一個名叫 kprobe 機制，而 <a href="https://sourceware.org/systemtap/">systemtap</a> 便是藉由 kprobe 讓開發者更容易去抓取核心的運行資訊。</p>
-
-<h3>如何開啟 systemtap 功能</h3>
-
-<h3>範例</h3>
 ]]></content>
   </entry>
   
