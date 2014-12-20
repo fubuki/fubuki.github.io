@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-19T23:35:53+08:00</updated>
+  <updated>2014-12-20T23:01:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Docker 建立 Ffmpeg 環境]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg/"/>
+    <updated>2014-12-20T22:33:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p> 之前在安裝 FFmpeg 的時候吃了不少苦頭，然後未來也有可能會需要更新一些已經有安裝的 Server，所以嘗試一下使用 docker 建立
+  ffmpeg 環境，目前有找到 <a href="https://registry.hub.docker.com/u/cellofellow/ffmpeg/">cellofellow/ffmpeg</a> 這個 docker file 可以使用， docker file 安裝指令如下:</p>
+
+<p>  docker pull cellofellow/ffmpeg
+  docker run -i -t cellofellow/ffmpeg /bin/bash</p>
+
+<p>安裝後進去就可以使用最新版的 ffmpeg 下面是他的編譯參數目前手上會用的編碼都有包進去了，比較有問題的是 <code>libfdk-aac</code> 與
+ <code>libfaac</code> 的差別，兩個似乎都是用來解 FAAC 的，不過從網路上的資訊來看是 libfdk-aac 比較好。</p>
+
+<pre><code>configuration: 
+--extra-libs=-ldl 
+--enable-gpl 
+--enable-libass 
+--enable-libfdk-aac 
+--enable-libmp3lame 
+--enable-libopus 
+--enable-libtheora 
+--enable-libvorbis 
+--enable-libvpx 
+--enable-libx264 
+--enable-libx265 
+--enable-nonfree
+</code></pre>
+
+<p>題外話在網路上有看到 Cookpad 也有用 docker 建立影音轉碼平台 : <a href="http://techlife.cookpad.com/entry/ffmpeg_and_imagemagick_setup_with_docker">Dockerでffmpegもimagemagickも怖くないという話</a>，
+裡面的的 docker file 也有放出來 <a href="https://github.com/cookpad/janiConverter">janiConverter</a> 讓人使用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[添加 Flv Keyframes 支持拖動撥放]]></title>
@@ -517,27 +554,6 @@ uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
 
 <p>整個映像檔大小不到 200M  架設起來很方便，目前有看到有公司考慮要將系統移除 docker 裡面利用 Coreos 建立環境，
 這也許可以參考未來架構的規劃。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/"/>
-    <updated>2014-11-30T19:45:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近將作業系統從 Ubuntu 12.04 LTS 升級到 14.04 LTS ，裡面的軟體也一併升級但是後來發現 gcc 只有到 <code>4.8</code> 的版本，沒有到最新的
- <code>4.9</code> 版本，沒有辦法完整支持 <code>C++ 14</code> 的標準。</p>
-
-<p>原本要使用源碼直接編譯，但是發現在 Ubuntu 可以透過 apt 安裝 <code>g++ 4.9</code> ，下面記錄透過 apt 安裝的指令。</p>
-
-<pre><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get install g++-4.9
-gcc-4.9 -v
-</code></pre>
 ]]></content>
   </entry>
   

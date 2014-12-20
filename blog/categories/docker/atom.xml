@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-19T23:35:53+08:00</updated>
+  <updated>2014-12-20T23:01:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Docker 建立 Ffmpeg 環境]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg/"/>
+    <updated>2014-12-20T22:33:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p> 之前在安裝 FFmpeg 的時候吃了不少苦頭，然後未來也有可能會需要更新一些已經有安裝的 Server，所以嘗試一下使用 docker 建立
+  ffmpeg 環境，目前有找到 <a href="https://registry.hub.docker.com/u/cellofellow/ffmpeg/">cellofellow/ffmpeg</a> 這個 docker file 可以使用， docker file 安裝指令如下:</p>
+
+<p>  docker pull cellofellow/ffmpeg
+  docker run -i -t cellofellow/ffmpeg /bin/bash</p>
+
+<p>安裝後進去就可以使用最新版的 ffmpeg 下面是他的編譯參數目前手上會用的編碼都有包進去了，比較有問題的是 <code>libfdk-aac</code> 與
+ <code>libfaac</code> 的差別，兩個似乎都是用來解 FAAC 的，不過從網路上的資訊來看是 libfdk-aac 比較好。</p>
+
+<pre><code>configuration: 
+--extra-libs=-ldl 
+--enable-gpl 
+--enable-libass 
+--enable-libfdk-aac 
+--enable-libmp3lame 
+--enable-libopus 
+--enable-libtheora 
+--enable-libvorbis 
+--enable-libvpx 
+--enable-libx264 
+--enable-libx265 
+--enable-nonfree
+</code></pre>
+
+<p>題外話在網路上有看到 Cookpad 也有用 docker 建立影音轉碼平台 : <a href="http://techlife.cookpad.com/entry/ffmpeg_and_imagemagick_setup_with_docker">Dockerでffmpegもimagemagickも怖くないという話</a>，
+裡面的的 docker file 也有放出來 <a href="https://github.com/cookpad/janiConverter">janiConverter</a> 讓人使用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Fig]]></title>
@@ -87,39 +124,6 @@ uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
 <h4>fleet</h4>
 
 <p><a href="https://coreos.com/blog/cluster-level-container-orchestration/">Cluster-Level Container Deployment with fleet</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install and Use docker.io]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io/"/>
-    <updated>2014-09-17T23:35:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/17/install-and-use-docker-dot-io</id>
-    <content type="html"><![CDATA[<p>在 Centos 下安裝和使用 docker.io。</p>
-
-<!-- more -->
-
-
-<h3>安裝</h3>
-
-<pre><code>Centos
-yum install docker-io
-service docker start
-
-Ubuntu
-curl -sSL https://get.docker.io/ubuntu/ | sudo sh
-</code></pre>
-
-<h3>使用</h3>
-
-<pre><code>docker pull centos
-docker run centos:latest cat /etc/centos-release
-</code></pre>
-
-<h3>建立 LAMP 環境</h3>
-
-<p>docker-io 藉由映像檔建立環境，所有想說可不可以藉由 docker 快速建立 LAMP 的環境，在網路上找了一下有人寫了類似的東西，
-<a href="http://knowledge.sakura.ad.jp/tech/1811/">これから始める「DockerでかんたんLAMP環境 for CentOS」</a> 和 <a href="https://github.com/kunihirotanaka/docker-centos-lamp">docker-centos-lamp</a> 作為參考。</p>
 ]]></content>
   </entry>
   
