@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-20T23:01:41+08:00</updated>
+  <updated>2014-12-21T23:31:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,27 @@
 
   
   <entry>
-    <title type="html"><![CDATA[使用 Docker 建立 Ffmpeg 環境]]></title>
+    <title type="html"><![CDATA[Openresty Server]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/21/ngx-openresty/"/>
+    <updated>2014-12-21T22:59:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/21/ngx-openresty</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://openresty.org/">openresty</a> 為核心是 nginx 在外加一些第三方模組的版本。</p>
+
+<p>之前在研究 nginx 跟 Lua 結合的資訊時看到了一篇 <a href="http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1">ngx_openresty: an Nginx ecosystem glued by Lua</a>，
+裡面介紹了 <a href="https://github.com/openresty/ngx_openresty">ngx-openresty</a> ，並且介紹了這個基於 nginx 擴展版本裡面有哪些功能，並且從文章標題就可以
+得知裡面使用 Lua 整合整個生態系統。</p>
+
+<p><a href="http://openresty.org/">openresty</a> 從官網看到可以透過編寫 Lua 腳本跟 mysql,redis 連線做出反向代理的功能，另外也有看到有人
+使用 Lua 編寫影音加密的 Http LiveStream 的功能，看起來可以考慮將一些應用層的東西轉移到 ngix 上面藉此提高
+網站的效率。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Docker 建立 FFmpeg 環境]]></title>
     <link href="http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg/"/>
     <updated>2014-12-20T22:33:21+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg</id>
@@ -530,30 +550,6 @@ uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
 <li>並行之美學：撰寫平行應用程式的新手指南</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[安裝 Coreos]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/01/install-coreos/"/>
-    <updated>2014-12-01T01:19:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/01/install-coreos</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Coreos 在官網提供了不少安裝方式，我是使用它提供的 VMware 的映像檔安裝，下載之後解壓縮使用 VMware 啟動。</p>
-
-<pre><code>curl -LO http://alpha.release.core-os.net/amd64-usr/current/coreos_production_vmware_insecure.zip
-</code></pre>
-
-<p>下載的檔案裡面有個 <code>insecure_ssh_key</code>，這個映像檔裡面沒有提供帳密登入預設你要用公私鑰登入，我這邊使用
-<code>puttygen.exe</code> 載入 <code>insecure_ssh_key</code> 生成 putty 所吃的格式後使用 <code>core</code> 當作登入帳號便可以登入。</p>
-
-<pre><code>docker run -t -i ubuntu /bin/bash
-</code></pre>
-
-<p>整個映像檔大小不到 200M  架設起來很方便，目前有看到有公司考慮要將系統移除 docker 裡面利用 Coreos 建立環境，
-這也許可以參考未來架構的規劃。</p>
 ]]></content>
   </entry>
   
