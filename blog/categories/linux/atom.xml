@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-21T23:31:12+08:00</updated>
+  <updated>2014-12-22T23:31:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[分析 Vmcore 和 vmcore-dmesg.txt]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt/"/>
+    <updated>2014-12-22T23:11:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在試玩 docker 的時候，因為不知名因素導致系統直接重啟，後來發現是整個內核 crash 原因是似乎是跟 <code>device-mapper</code> 脫不了關係，
+看他 console 列出的最後訊息可以得知在 <code>/var/crash</code> 生成了兩個文件: <code>vmcore</code> 和 <code>vmcore-dmesg.txt</code>。</p>
+
+<p>在 <code>/var/crash</code> 下面的兩個文件是記錄了系統 Crash 時的最後訊息，可以透過這些文件追蹤發生了什麼事，要追蹤需要使用幾個工具: kdump 和 crash
+，kdump 是讓系統 Crash 時將內核的訊息 dump 到硬碟上以供使用者除錯， crash 是可以去分析 <code>vmcore</code> 的內容，但是需要 vmlinux 的檔案才能分析
+ vmcore 的內容， vmlinux 需要跟目前的系統核心相同。</p>
+
+<p> 另外一個 vmcore-dmesg.txt 檔案是記錄一些系統資訊和 Crash 時的資訊，雖然沒有比 vmcore 詳細但是也可以作為參考，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[添加 Flv Keyframes 支持拖動撥放]]></title>
@@ -114,27 +133,6 @@
 
 <pre><code>* * * * * ntpdate -s time.stdtime.gov.tw
 * * * * * sleep 30 &amp;&amp;  ntpdate -s time.stdtime.gov.tw
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在 Ubuntu 14.04 快速安裝 gcc-4.9]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04/"/>
-    <updated>2014-11-30T19:45:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/30/gcc-4-dot-9-on-ubuntu-14-dot-04</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近將作業系統從 Ubuntu 12.04 LTS 升級到 14.04 LTS ，裡面的軟體也一併升級但是後來發現 gcc 只有到 <code>4.8</code> 的版本，沒有到最新的
- <code>4.9</code> 版本，沒有辦法完整支持 <code>C++ 14</code> 的標準。</p>
-
-<p>原本要使用源碼直接編譯，但是發現在 Ubuntu 可以透過 apt 安裝 <code>g++ 4.9</code> ，下面記錄透過 apt 安裝的指令。</p>
-
-<pre><code>sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get install g++-4.9
-gcc-4.9 -v
 </code></pre>
 ]]></content>
   </entry>
