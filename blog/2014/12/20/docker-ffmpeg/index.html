@@ -103,8 +103,9 @@
 <p> 之前在安裝 FFmpeg 的時候吃了不少苦頭，然後未來也有可能會需要更新一些已經有安裝的 Server，所以嘗試一下使用 docker 建立
   ffmpeg 環境，目前有找到 <a href="https://registry.hub.docker.com/u/cellofellow/ffmpeg/">cellofellow/ffmpeg</a> 這個 docker file 可以使用， docker file 安裝指令如下:</p>
 
-<p>  docker pull cellofellow/ffmpeg
-  docker run -i -t cellofellow/ffmpeg /bin/bash</p>
+<pre><code>docker pull cellofellow/ffmpeg  
+docker run -i -t cellofellow/ffmpeg /bin/bash
+</code></pre>
 
 <p>安裝後進去就可以使用最新版的 ffmpeg 下面是他的編譯參數目前手上會用的編碼都有包進去了，比較有問題的是 <code>libfdk-aac</code> 與
  <code>libfaac</code> 的差別，兩個似乎都是用來解 FAAC 的，不過從網路上的資訊來看是 libfdk-aac 比較好。</p>
@@ -180,6 +181,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/12/23/docker-storage/">Docker 的 Storage Driver</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/12/22/vmcore-dmesg-dot-txt/">分析 Vmcore 和 vmcore-dmesg.txt</a>
       </li>
     
@@ -193,10 +198,6 @@
     
       <li class="post">
         <a href="/blog/2014/12/19/nginx-yamdi-flvtool/">添加 Flv Keyframes 支持拖動撥放</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/18/ffmpeg-flvtool-plus-plus-qtfaststart/">在 Centos 6 安裝 Ffmpeg Flvtool++ Qtfaststart</a>
       </li>
     
   </ul>
@@ -220,7 +221,7 @@
   <li><a href='/blog/categories/deep-learning'>Deep learning (3)</a></li>
   <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
   <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
-  <li><a href='/blog/categories/docker'>Docker (7)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (8)</a></li>
   <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
   <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
   <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>

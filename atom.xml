@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-22T23:31:19+08:00</updated>
+  <updated>2014-12-23T23:01:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 的 Storage Driver]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/23/docker-storage/"/>
+    <updated>2014-12-23T21:46:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/23/docker-storage</id>
+    <content type="html"><![CDATA[<p>最近似乎是因為 docker 的 Storage Driver 關係導致 Kernel Bug 所以要研究一下這一個部分。</p>
+
+<!-- more -->
+
+
+<p>如果在命令列下 <code>docker -D info</code> 其中就可以看到目前機器上的 Storage Driver 是什麼，目前我手上兩種 Linux 發行版，
+在 ubuntu 14.04LTS 下可以看是 <code>aufs</code>，如果是在 centos 6 會是 <code>device-mapper</code>，另外 docker 還有支援 Btrfs。</p>
+
+<h4>　Aufs</h4>
+
+<p>目前只有在 Debain 系列的 Linux 版本才有包進內核裡的檔案系統，開發者是名叫<code>岡島順治郎</code>的日本人，從網路上的評價
+來看 Aufs 似乎是個蠻不錯的檔案系統，但是由於一些原因一直不能加進 Linux 的內核裡面，原因似乎是代碼寫的不太好的原因。</p>
+
+<p>官網在這 <a href="http://aufs.sourceforge.net/">Aufs</a> 另有一些可以研究的東西 <code>Union mount</code> 和 <code>UnionFS</code>.</p>
+
+<h4>Device-mapper</h4>
+
+<p><a href="http://www.ibm.com/developerworks/cn/linux/l-devmapper/index.html">Linux 内核中的 Device Mapper 機制</a></p>
+
+<h4>Btrfs</h4>
+
+<p>Oracle 開發的檔案系統，從 2007 年開始開發，已經有穩定版可以使用，目前 facebook 有在測試這個檔案系統。</p>
+
+<p>wiki : <a href="https://btrfs.wiki.kernel.org/index.php/Main_Page">btrfs</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[分析 Vmcore 和 vmcore-dmesg.txt]]></title>
@@ -63,8 +95,9 @@
 <p> 之前在安裝 FFmpeg 的時候吃了不少苦頭，然後未來也有可能會需要更新一些已經有安裝的 Server，所以嘗試一下使用 docker 建立
   ffmpeg 環境，目前有找到 <a href="https://registry.hub.docker.com/u/cellofellow/ffmpeg/">cellofellow/ffmpeg</a> 這個 docker file 可以使用， docker file 安裝指令如下:</p>
 
-<p>  docker pull cellofellow/ffmpeg
-  docker run -i -t cellofellow/ffmpeg /bin/bash</p>
+<pre><code>docker pull cellofellow/ffmpeg  
+docker run -i -t cellofellow/ffmpeg /bin/bash
+</code></pre>
 
 <p>安裝後進去就可以使用最新版的 ffmpeg 下面是他的編譯參數目前手上會用的編碼都有包進去了，比較有問題的是 <code>libfdk-aac</code> 與
  <code>libfaac</code> 的差別，兩個似乎都是用來解 FAAC 的，不過從網路上的資訊來看是 libfdk-aac 比較好。</p>
@@ -532,26 +565,6 @@ MariaDB，是值得期待的產品。</p>
 
 <p><a href="https://github.com/NetEase/InnoSQL">InnoSQL</a> 是網易開發的 Mysql 分支，在它的 Github 上有列出改變了哪些部分，這些應該都是基於
 網易內部需要而修改的，也許可以透過那些特性思考一下網易是如何使用 Mysql 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Fig]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/03/fig-and-docker/"/>
-    <updated>2014-12-03T23:05:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/03/fig-and-docker</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.fig.sh/">fig</a> 是一個跟 docker 有關的命令列管理工具，看起來比 coreos 本身簡單許多適合初學者使用但是提供功能就比較少，
-不過在網路上看到有人有些轉換工具可以將 fig 產生的設定轉換成 coreos 所需的格式，所以可以先玩玩 fig 覺得不錯在
-轉用 coreos。</p>
-
-<p>下面官網在 ubuntu 下的安裝方法</p>
-
-<pre><code>curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`
-uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
-</code></pre>
 ]]></content>
   </entry>
   
