@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-23T23:01:49+08:00</updated>
+  <updated>2014-12-24T23:43:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kibana 資料可視化項目]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/24/kibana/"/>
+    <updated>2014-12-24T22:57:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/24/kibana</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/elasticsearch/kibana">kibana</a> 是基於 ElasticSearch 建立的資料可視化項目</p>
+
+<!-- more -->
+
+
+<p>之前有使用 ElasticSearch 建立資料庫的搜尋服務，其中也有透過 logstash 收集伺服器上面的 LOG 檔案傳給 ElasticSearch
+進行處理然後透過 API 呼叫取得處理過的資料顯示在後台上。</p>
+
+<p>LOG檔的訊息通常大量並且雜亂的，而且都帶有時間標記，所以為了讓人使用這些大量的資料就必須要有個可以分析並且顯示的後台，
+所以看到網路上有出一個 <a href="https://github.com/elasticsearch/kibana">kibana</a> 的資料可視化項目，</p>
+
+<p><a href="https://github.com/elasticsearch/kibana">kibana</a> 安裝很簡單，比較麻煩的反而是將 LOG 檔透過 logstash 丟到 ElasticSearch 中處理，之後的步驟可以參考這個 <a href="http://kibana.logstash.es/">教程</a>
+，建立所需要的環境之後便可以開始分析機器上面的 LOG 檔案。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker 的 Storage Driver]]></title>
@@ -528,43 +549,6 @@ easy_install web.py
 之類的操作得出的編碼就可以用來當作識別用戶的一種方法。</p>
 
 <p>這邊有一篇相關論文可以參考 <a href="http://cseweb.ucsd.edu/~hovav/papers/ms12.html">Pixel Perfect: Fingerprinting Canvas in HTML5</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql 兼容方案]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/04/mysql-other-version/"/>
-    <updated>2014-12-04T10:45:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/04/mysql-other-version</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>列出幾個相容於 mysql 的開源方案。</p>
-
-<h3>Percona Mysql</h3>
-
-<p><a href="http://www.percona.com/">Percona</a> 出的版本，目前看到身邊的人大都是使用這家公司出版的 Mysql 建立商業環境，
-而且從它的討論區可以學習到不少如何對 Mysql 除錯的訊息。</p>
-
-<h3>MariaDB</h3>
-
-<p><a href="https://mariadb.org/">mariadb</a> 是 Mysql 的生父另外開發的版本，裡面多增加了 TokuDB 這個引擎，目前在國外看到有些人將資料庫從 Mysql 遷移到
-MariaDB，是值得期待的產品。</p>
-
-<h3>MySQL/Galera</h3>
-
-<p><a href="http://galeracluster.com/">galeracluster</a> 只有在網路上聽過這個版本，在找跟 Mysql Cluster 方案時看到有人提到，不過身邊的人似乎沒有人在使用這個版本。</p>
-
-<h3>WebScaleSQL</h3>
-
-<p>Google 和 Facebook、LinkedIn、Twitter 共同開發的版本，上述的公司都有處理巨量資料的需求，所以看起來應該會朝向處理巨量資料和
-佈署大規獏資料叢集的方向發展，不過我記得 Google 有決定當 MariaDB 成熟後將內部的 Mysql 資料庫遷移到 MariaDB，所以 MariaDB 和 WebScaleSQL
-兩者會有有不同發展方向跟應用場景。</p>
-
-<h3>InnoSQL</h3>
-
-<p><a href="https://github.com/NetEase/InnoSQL">InnoSQL</a> 是網易開發的 Mysql 分支，在它的 Github 上有列出改變了哪些部分，這些應該都是基於
-網易內部需要而修改的，也許可以透過那些特性思考一下網易是如何使用 Mysql 。</p>
 ]]></content>
   </entry>
   
