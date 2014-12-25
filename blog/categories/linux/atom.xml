@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-24T23:43:16+08:00</updated>
+  <updated>2014-12-25T23:02:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Centos 6 升級核心到 3.18]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18/"/>
+    <updated>2014-12-25T01:21:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天把手上的 Centos 的核心從 2.6 升級到 3.18，順便紀錄一下升級的過程。</p>
+
+<p>先下載新版的 Linux Kernel 檔案並且解壓縮。</p>
+
+<pre><code>wget  https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.1.tar.gz
+tar zxf linux-3.18.1.tar.gz
+</code></pre>
+
+<p>設定編譯選項，我原本找不到舊的編譯檔案，後來在 <code>/usr/src/kernel</code> 底下找到。</p>
+
+<pre><code>cp /usr/src/kernel/config .config
+make menuconfig
+</code></pre>
+
+<p>開始編譯核心和模組，加上 -j 參數使用多核心編譯。</p>
+
+<pre><code>make -j bzImage 
+make -j modules 
+make -j modules_install 
+</code></pre>
+
+<p>安裝並且修正開機順序後重開機。</p>
+
+<pre><code>make install
+vim /etc/grub.conf
+reboot
+</code></pre>
+
+<p>重開機後就可以看到核心已經變成 3.18 版本，不過卻出現另外一個問題，當我要使用 <code>docker</code>
+的時候卻出現 iptables 的錯誤，最後發現是編譯的時候沒有將 NAT 的模組編譯進去所導致的問題，
+之後重新編譯就可以了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[分析 Vmcore 和 vmcore-dmesg.txt]]></title>
@@ -116,24 +158,6 @@
 <p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
 另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
 決定服務要在哪個時候執行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[讓 Crontab 執行 30 秒任務]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/07/crontab-second/"/>
-    <updated>2014-12-07T10:48:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/07/crontab-second</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>crontab 是 linux 用來執行定時任務的指令，但是他最多只能指定到分，如果要有設定 30 秒執行的任務就要比較特殊的做法。</p>
-
-<p>使用 sleep 指令延遲 30 秒執行，這樣就可以達成每 30 秒執行任務的功能。</p>
-
-<pre><code>* * * * * ntpdate -s time.stdtime.gov.tw
-* * * * * sleep 30 &amp;&amp;  ntpdate -s time.stdtime.gov.tw
-</code></pre>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-24T23:43:16+08:00</updated>
+  <updated>2014-12-25T23:02:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Centos 6 升級核心到 3.18]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18/"/>
+    <updated>2014-12-25T01:21:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天把手上的 Centos 的核心從 2.6 升級到 3.18，順便紀錄一下升級的過程。</p>
+
+<p>先下載新版的 Linux Kernel 檔案並且解壓縮。</p>
+
+<pre><code>wget  https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.1.tar.gz
+tar zxf linux-3.18.1.tar.gz
+</code></pre>
+
+<p>設定編譯選項，我原本找不到舊的編譯檔案，後來在 <code>/usr/src/kernel</code> 底下找到。</p>
+
+<pre><code>cp /usr/src/kernel/config .config
+make menuconfig
+</code></pre>
+
+<p>開始編譯核心和模組，加上 -j 參數使用多核心編譯。</p>
+
+<pre><code>make -j bzImage 
+make -j modules 
+make -j modules_install 
+</code></pre>
+
+<p>安裝並且修正開機順序後重開機。</p>
+
+<pre><code>make install
+vim /etc/grub.conf
+reboot
+</code></pre>
+
+<p>重開機後就可以看到核心已經變成 3.18 版本，不過卻出現另外一個問題，當我要使用 <code>docker</code>
+的時候卻出現 iptables 的錯誤，最後發現是編譯的時候沒有將 NAT 的模組編譯進去所導致的問題，
+之後重新編譯就可以了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kibana 資料可視化項目]]></title>
@@ -530,25 +572,6 @@ easy_install web.py
 <li><a href="https://wiki.mozilla.org/Jetpack">Jetpack</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Canvas Fingerprinting]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/05/fingerprinting/"/>
-    <updated>2014-12-05T21:56:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/05/fingerprinting</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前的網站都是使用 cookie 追蹤使用者所以現在的閱覽器通常會提供私密模式讓網站無法在機器
-上寫入 cookie，所以最近看到有網站使用 <a href="http://en.wikipedia.org/wiki/Canvas_fingerprinting">Canvas fingerprinting</a> 的技術追蹤用戶。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Canvas_fingerprinting">Canvas fingerprinting</a> 的原理是用 html5 的 Canvas 功能繪製圖片產生識別碼，由於每台機器
-在繪製圖片的時候所使用繪製引擎和參數不同所以使用產生出的圖片便不會全部相同，在經過 hash
-之類的操作得出的編碼就可以用來當作識別用戶的一種方法。</p>
-
-<p>這邊有一篇相關論文可以參考 <a href="http://cseweb.ucsd.edu/~hovav/papers/ms12.html">Pixel Perfect: Fingerprinting Canvas in HTML5</a>。</p>
 ]]></content>
   </entry>
   
