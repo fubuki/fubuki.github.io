@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-25T23:02:25+08:00</updated>
+  <updated>2014-12-26T23:43:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,62 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Kernel 安裝 Aufs]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/26/kernel-aufs/"/>
+    <updated>2014-12-26T23:18:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/26/kernel-aufs</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前研究 Docker 了解了有一個 aufs 檔案系統，所以就想安裝來玩玩看。</p>
+
+<h4>概要</h4>
+
+<p>我是用手上的 Centos 6 測試的，安裝前要先下載下面幾個檔案，然後使用 <code>aufs3-standalone</code> 給
+aufs3-linux 打上補丁然後在 config 時打開 aufs 的選項後編譯核心即可。</p>
+
+<ol>
+<li>aufs3-linux</li>
+<li>aufs3-standalone</li>
+<li>aufs-util git://git.code.sf.net/p/aufs/aufs-util</li>
+</ol>
+
+
+<h4>下載</h4>
+
+<pre><code>git clone git://github.com/sfjro/aufs3-linux.git
+git clone git://git.code.sf.net/p/aufs/aufs-util
+cd aufs3-linux
+git clone git://git.code.sf.net/p/aufs/aufs3-standalone
+</code></pre>
+
+<h4>切換版本</h4>
+
+<p>切換 <code>aufs3-linux</code> 和 <code>aufs3-standalone</code> 的版本，目前支援到最新的 3.18 版本，
+但是要注意兩個版本要一致。</p>
+
+<h4>打上補丁</h4>
+
+<pre><code>aufs3-standalone/aufs3-kbuild.patch
+aufs3-standalone/aufs3-base.patch
+aufs3-standalone/aufs3-mmap.patch
+aufs3-standalone/aufs3-standalone.patch
+</code></pre>
+
+<h4>從aufs3-standalone 複製必要的檔案到 kernel</h4>
+
+<pre><code>{Documentation,fs}
+include/linux/aufs_type.h 
+include/uapi/linux/aufs_type.h
+</code></pre>
+
+<h4>最後</h4>
+
+<p>打開 aufs 的編譯選項，然後編譯核心重開機後還需要安裝 <code>aufs-util</code>，這樣 aufs 才能正常運作。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Centos 6 升級核心到 3.18]]></title>
@@ -144,20 +200,6 @@ reboot
 
 <p>網路上有 <a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a> 和 flvtool2 這兩者似乎是類似的東西用來處理 flv 檔案， yum 源裡面是有 flvtool2
 <a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a> 只能自行編譯安裝。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[管理 Linux 啟動執行的服務]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/13/linux-start-service/"/>
-    <updated>2014-12-13T23:09:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/13/linux-start-service</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
-另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
-決定服務要在哪個時候執行。</p>
 ]]></content>
   </entry>
   
