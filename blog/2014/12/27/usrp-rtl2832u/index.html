@@ -107,7 +107,7 @@
 <p>目前從網路上來看直接買硬體不太便宜但是有使用電視棒的替代入門方案，電視棒裡面的 rtl2832u 晶片
 可以用來接收無線電的訊號，利用這個特性將訊號接入 PC 然後使用軟體解調訊號，剛好手上有個沒人
 使用的電視棒， 就參考這篇 <a href="http://wiki.spench.net/wiki/USRP_Interfaces#Installer">教學</a> 架設平台，過程中最重要的更換電視棒的驅動程式這樣 SRP 的軟體才
-抓得到電視棒，我是透過 HDSRP 處理電波訊號。</p>
+抓得到電視棒，我是透過 HDSDR 處理電波訊號。</p>
 
 <p>最後雖然架起來了但是似乎抓不到無線電訊號，我連 FM 也抓不到只有抓到一些雜訊，看起來是天線太爛了，
 也有可能是電視本身的問題，之後在露天找一下相關的商品測試。</p>
@@ -152,6 +152,8 @@
         <a class="basic-alignment left" href="/blog/2014/12/26/kernel-aufs/" title="Previous Post: linux kernel 安裝 aufs ">&laquo; linux kernel 安裝 aufs </a>
       
       
+        <a class="basic-alignment right" href="/blog/2014/12/28/docker-volumes/" title="Next Post: Docker 的 Volumes 功能">Docker 的 Volumes 功能 &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -163,6 +165,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/12/28/docker-volumes/">Docker 的 Volumes 功能</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/12/27/usrp-rtl2832u/">USRP + Rtl2832u 接收無線電</a>
@@ -178,10 +184,6 @@
     
       <li class="post">
         <a href="/blog/2014/12/24/kibana/">Kibana 資料可視化項目</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/12/23/docker-storage/">Docker 的 Storage Driver</a>
       </li>
     
   </ul>
@@ -205,7 +207,7 @@
   <li><a href='/blog/categories/deep-learning'>Deep learning (3)</a></li>
   <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
   <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
-  <li><a href='/blog/categories/docker'>Docker (8)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (9)</a></li>
   <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
   <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
   <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>

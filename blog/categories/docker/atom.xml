@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-27T23:07:34+08:00</updated>
+  <updated>2014-12-28T23:25:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 的 Volumes 功能]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/28/docker-volumes/"/>
+    <updated>2014-12-28T22:51:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/28/docker-volumes</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在用 Docker 建立的 FFmpeg 的容器時，想要建立的直接在容器裡面寫入檔案執行轉檔，然後看到了 Docker 有類似掛載的功能，
+可以建立 Volumes 讓各個不同的容器共用，之後如果有升級或是跟其他容器結合形成一個服務平台可以採取這樣的做法。</p>
+
+<p>另外有看到一篇蠻有趣的文章 : <a href="http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker">How to deal with persistent storage (e.g. databases) in docker</a>，裡面的回答有提到一個東西
+ <code>data only container</code>，似乎是建立一個專門掛載 Volumes 的 container ，從這篇 <a href="http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html">Tiny Docker Pieces, Loosely Joined</a> 最後面
+ 有提到一些關於這樣做法的好處，似乎是能更好管理 Volumes 裡面的內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker 的 Storage Driver]]></title>
@@ -124,18 +141,6 @@ uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
 
 <p>整個映像檔大小不到 200M  架設起來很方便，目前有看到有公司考慮要將系統移除 docker 裡面利用 Coreos 建立環境，
 這也許可以參考未來架構的規劃。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker 15 Tips]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/26/docker-15-tips/"/>
-    <updated>2014-11-26T23:10:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/26/docker-15-tips</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://speakerdeck.com/bmorearty/15-docker-tips-in-5-minutes">15 Docker Tips in 5 Minutes</a> 裡面簡介了一些關於 Docker 小技巧。</p>
 ]]></content>
   </entry>
   
