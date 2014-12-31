@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-30T23:13:15+08:00</updated>
+  <updated>2014-12-31T22:44:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/31/2015-1-booklist/"/>
+    <updated>2014-12-31T22:06:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/31/2015-1-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Becoming a Better Programmer</li>
+<li>Designing the Search Experience: The Information Architecture of Discovery</li>
+<li>FreeSWITCH 權威指南</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yum 出現 Cannot Retrieve Metalink for Repository: Epel 的錯誤]]></title>
@@ -544,63 +561,6 @@ fastcgi.server = ( "/app.py" =&gt;
 
 easy_install web.py
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[分散式檔案系統]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/11/distributed-filesystem/"/>
-    <updated>2014-12-11T22:50:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/11/distributed-filesystem</id>
-    <content type="html"><![CDATA[<p>紀錄一下目前有看過哪些分散式檔案系統。</p>
-
-<!-- more -->
-
-
-<p>在以前 Google 內部使用自行開發的 GFS 作為檔案系統，並且將相關論文開放給外界參考後生出了 hadoop 之類的軟體，
-而現在有不少生產環境使用了分散式檔案系統，</p>
-
-<ol>
-<li>HDFS</li>
-<li>LeoFS</li>
-<li>MogileFS</li>
-<li>ZFS</li>
-<li>FastDFS</li>
-<li>GlusterFS</li>
-<li>GridFS</li>
-<li>TFS</li>
-</ol>
-
-
-<h3>HDFS</h3>
-
-<p>hadoop 所使用的檔案系統。</p>
-
-<h3>LeoFS</h3>
-
-<p>以前同事待的公司使用 DFS 系統。</p>
-
-<h3>MogileFS</h3>
-
-<p>KKBOX 內部使用 MogileFS 存放音樂資料。</p>
-
-<h3>ZFS</h3>
-
-<p>由 SUN 所開發檔案系統，一開始是在 Solaris 才有的後來有人移植到各種作業系統上。</p>
-
-<h3>FastDFS</h3>
-
-<h3>GlusterFS</h3>
-
-<p>目前似乎由 Red Hat 維護。</p>
-
-<h3>GridFS</h3>
-
-<p>MongoDB  使用的一種檔案系統。</p>
-
-<h3>TFS</h3>
-
-<p>淘寶開發的檔案系統。</p>
 ]]></content>
   </entry>
   

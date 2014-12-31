@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-30T23:13:15+08:00</updated>
+  <updated>2014-12-31T22:44:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2014/12/31/2015-1-booklist/"/>
+    <updated>2014-12-31T22:06:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/12/31/2015-1-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Becoming a Better Programmer</li>
+<li>Designing the Search Experience: The Information Architecture of Discovery</li>
+<li>FreeSWITCH 權威指南</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[十二月書單]]></title>
@@ -79,27 +96,6 @@
 <li>資訊視覺圖表－讓資料變好看的大數據時代資料表達術</li>
 <li>Specification by Example</li>
 <li>编写高质量代码:改善JavaScript程序的188个建议</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[八月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan/"/>
-    <updated>2014-08-01T23:35:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/01/ba-yue-shu-dan</id>
-    <content type="html"><![CDATA[<p>記錄八月要看完的書單。</p>
-
-<!-- more -->
-
-
-<ol>
-<li>Bandit Algorithms for Website Optimization</li>
-<li>夢斷代碼</li>
-<li>Mastering.Search.Analytics：Measuring.SEO.SEM.and.Site.Search</li>
-<li>Python for Data Analysis</li>
-<li>深入php 面向对象、模式与实践</li>
 </ol>
 
 ]]></content>

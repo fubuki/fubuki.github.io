@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Open Source | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-30T23:13:15+08:00</updated>
+  <updated>2014-12-31T22:44:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -737,7 +737,7 @@ JIT::VMRegAnchor</p>
 
 <h3>Functional JavaScript, why or why not?</h3>
 
-<p><a href="bit.ly/jsdc2014-funjs">投影片</a>
+<p><a href="http://bit.ly/jsdc2014-funjs">投影片</a>
 使用 Haskell 講解一些 Functional Programing 的概念。</p>
 
 <h3>RxJS for frontend developers.</h3>
