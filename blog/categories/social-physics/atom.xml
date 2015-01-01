@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Social Physics | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/social-physics/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-01-01T22:41:50+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Social Physics]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/01/social-physics/"/>
+    <updated>2015-01-01T22:21:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/01/social-physics</id>
+    <content type="html"><![CDATA[<p>關於什麼是 Social Physics ?</p>
+
+<!-- more -->
+
+
+<ol>
+<li><a href="http://socialphysics.media.mit.edu/about/">MIT Media Lab</a></li>
+<li><a href="http://www.amazon.com/Social-Physics-Spread-Lessons-Science/dp/1594205655">Social Physics: How Good Ideas Spread—The Lessons from a New Science</a></li>
+<li><a href="https://www.youtube.com/watch?v=HMBl0ttu-Ow">Sandy Pentland: &ldquo;Social Physics: How Good Ideas Spread&rdquo; | Talks at Google</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

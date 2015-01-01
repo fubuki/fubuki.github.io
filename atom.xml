@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2014-12-31T22:44:13+08:00</updated>
+  <updated>2015-01-01T22:41:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Social Physics]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/01/social-physics/"/>
+    <updated>2015-01-01T22:21:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/01/social-physics</id>
+    <content type="html"><![CDATA[<p>關於什麼是 Social Physics ?</p>
+
+<!-- more -->
+
+
+<ol>
+<li><a href="http://socialphysics.media.mit.edu/about/">MIT Media Lab</a></li>
+<li><a href="http://www.amazon.com/Social-Physics-Spread-Lessons-Science/dp/1594205655">Social Physics: How Good Ideas Spread—The Lessons from a New Science</a></li>
+<li><a href="https://www.youtube.com/watch?v=HMBl0ttu-Ow">Sandy Pentland: &ldquo;Social Physics: How Good Ideas Spread&rdquo; | Talks at Google</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一月書單]]></title>
@@ -531,36 +550,6 @@ vim /etc/init.d/nginx
 <p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
 另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
 決定服務要在哪個時候執行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lighttpd 搭配 Fastcgi 和 Webpy]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py/"/>
-    <updated>2014-12-12T00:18:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究別人寫的專案看到使用 Lighttpd 跑 Python 的程式碼，透過 Fastcgi 跟 Python 程式碼溝通，
-Python 端則是使用 <a href="http://webpy.org">Webpy</a>，環境可以參考 <a href="http://webpy.org/cookbook/fastcgi-lighttpd">Webpy + LightTTPD with FastCGi</a>。</p>
-
-<pre><code>apt-get install lighttpd
-vim /etc/lighttpd/lighttpd.conf
-
-fastcgi.server = ( "/app.py" =&gt;
-(( "socket" =&gt; "/tmp/fastcgi.socket",
-    "bin-path" =&gt; "/var/www/html/app.py",
-    "max-procs" =&gt; 1,
-    "bin-environment" =&gt; (
-    "REAL_SCRIPT_NAME" =&gt; ""
-    ),
-    "check-local" =&gt; "disable"
-))
-)
-
-easy_install web.py
-</code></pre>
 ]]></content>
   </entry>
   
