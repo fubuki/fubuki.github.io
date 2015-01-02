@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-01T22:41:50+08:00</updated>
+  <updated>2015-01-02T23:47:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parallel Sum and Prefix Scan]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan/"/>
+    <updated>2015-01-02T23:26:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>PRAM (Parallel random-access machine)</p>
+
+<p>使用多緒函式庫實踐兩種平行演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Social Physics]]></title>
@@ -536,20 +550,6 @@ vim /etc/init.d/nginx
 
 <p>目前 node.js 的走向偏向將目前的版本穩定，但是這些核心成員更希望能夠聽取社區的聲音增加新的功能而成立了
 <a href="http://nodeforward.org/">nodeforward</a> 然後過不久後就放出 <a href="http://iojs.org/">Io.js</a>，在這邊 <a href="http://blog.izs.me/post/104685388058/io-js">What is io.js?</a> 有寫出他們跳出來做的目的跟未來的方向。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[管理 Linux 啟動執行的服務]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/13/linux-start-service/"/>
-    <updated>2014-12-13T23:09:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/13/linux-start-service</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 Liinux 使用 <code>update--rc.d</code> 或是 <code>chkconfig</code> 管理開機時要啟動哪些服務，兩者用法是類似的，
-另外還有 Ubuntu 底下也有 <code>rcconf</code> 和 <code>sysv-rc-conf</code> 可以使用，不過上面的指令會提到關於執行 level 的概念
-決定服務要在哪個時候執行。</p>
 ]]></content>
   </entry>
   

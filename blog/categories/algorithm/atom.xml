@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-01T22:41:50+08:00</updated>
+  <updated>2015-01-02T23:47:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parallel Sum and Prefix Scan]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan/"/>
+    <updated>2015-01-02T23:26:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>PRAM (Parallel random-access machine)</p>
+
+<p>使用多緒函式庫實踐兩種平行演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[指紋的特徵提取和比對]]></title>
@@ -116,31 +130,6 @@
 
 
 <p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Boosting and Bagging]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging/"/>
-    <updated>2014-08-08T23:28:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/08/boosting-and-bagging</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Ensemble learning (集成學習)，似乎是混合多個學習演算法提高結果的精確度 ，而 boosting 和 bagging便是
-其中集成學習的兩種方法，下面整理一些學習資源。</p>
-
-<h3>boosting</h3>
-
-<p>AdaBoost（Adaptive Boosting）</p>
-
-<p>使用同一個訓練集， 每次訓練的時候針對有問題訓練資料加大權重，讓函數靠往有問題的訊息資料。</p>
-
-<h3>bagging</h3>
-
-<p>每次訓練函數的時候從資料取出子資料集，然後多次訓練函數，最後有多個分類函數以投票方式分類新的資料。</p>
-
-<h3>差別</h3>
 ]]></content>
   </entry>
   
