@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-02T23:47:23+08:00</updated>
+  <updated>2015-01-03T22:58:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[取得 Android 的原始碼]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/03/android-source/"/>
+    <updated>2015-01-03T22:20:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/03/android-source</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><p>安裝 repo</p>
+
+<p> curl <a href="https://storage.googleapis.com/git-repo-downloads/repo">https://storage.googleapis.com/git-repo-downloads/repo</a> > /usr/bin/repo
+ chmod  a+x /usr/bin/repo</p></li>
+<li><p>建立文件夾下載程式碼</p>
+
+<p> mkdir andorid_source
+ cd andorid_source
+ repo init -u <a href="https://android.googlesource.com/platform/manifest">https://android.googlesource.com/platform/manifest</a>
+ repo sync</p></li>
+</ol>
+
+
+<p>參考 : <a href="https://source.android.com/source/downloading.html">Downloading the Source</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parallel Sum and Prefix Scan]]></title>
@@ -534,22 +560,6 @@ vim /etc/init.d/nginx
 </code></pre>
 
 <p>使用 ldconfig 指定 lib 位置後重新編譯安裝 mode_wsgi 就建立好環境了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Io.js]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/14/io-dot-js/"/>
-    <updated>2014-12-14T22:29:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/14/io-dot-js</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到一個消息，出了一個 node.js 的分支 <a href="http://iojs.org/">Io.js</a>，是由原本開發的 node.js 的核心成員另外跳出來的作的，
-原因是不滿 <a href="https://www.joyent.com/technology/nodejs">joyent</a> 的管理風格。</p>
-
-<p>目前 node.js 的走向偏向將目前的版本穩定，但是這些核心成員更希望能夠聽取社區的聲音增加新的功能而成立了
-<a href="http://nodeforward.org/">nodeforward</a> 然後過不久後就放出 <a href="http://iojs.org/">Io.js</a>，在這邊 <a href="http://blog.izs.me/post/104685388058/io-js">What is io.js?</a> 有寫出他們跳出來做的目的跟未來的方向。</p>
 ]]></content>
   </entry>
   
