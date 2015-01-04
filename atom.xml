@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-03T22:58:40+08:00</updated>
+  <updated>2015-01-04T22:30:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Opencv 加上 Intel IP TBB 支援]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv/"/>
+    <updated>2015-01-04T22:17:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>參照 <a href="https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison">OpenCV 3.0.0-beta ( IPP &amp; TBB enabled ) on Yocto with Intel® Edison</a> 替手上的 OpenCV 加上多緒支援。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[取得 Android 的原始碼]]></title>
@@ -525,41 +537,6 @@ vim /etc/init.d/nginx
 
 <p>上面的文章有提到其他消息系統像是瑞士刀， <a href="https://github.com/real-logic/Aeron">Aeron</a> 則像是一把手術刀，沒有提供太多功能，並且是放在 tcp 的層級使用，
 看起來是用來建立系統低階的部分高階的部分在讓開發者另外去解決，這讓我感覺有點像 zeroMQ 但是文章裡面卻說是不一樣的東西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在 Apache 安裝上 Wsgi 執行 Django]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/15/apache-wsgi-python/"/>
-    <updated>2014-12-15T21:57:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/15/apache-wsgi-python</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>apache 上面可以藉由安裝 mod_wsgi 執行 python 的程式碼，這邊記錄一下在 Centos 上面的安裝過程。</p>
-
-<p>Apache 和 python 一開始就安裝在機器上面了，然後 django 和 web.py 則是透過 <code>pip</code> 或是 <code>easy_install</code> 安裝,以為很簡單卻卡在安裝 mod_wsgi 上面。</p>
-
-<p>原本是透過 <a href="https://code.google.com/p/modwsgi/">mod_wsgi</a> 的原始碼編譯，但是出現下面的錯誤:</p>
-
-<pre><code>apxs:Error: Command failed with rc=65536
-</code></pre>
-
-<p>原因在官網的 <a href="https://code.google.com/p/modwsgi/wiki/InstallationIssues">Installation Issues</a> 有提到是因為 python 和 apache 的版本不合，一個為 32 位元一個為 64 位元就會
-出現這種錯誤，只能重新編譯。</p>
-
-<p>後來試著用 <code>yum install mod_wsgi</code> 成功安裝但是在 apache 的 error log 出現 <code>ImportError: No module named web</code> ，
-在 web.py 的官網建議加入檔案路徑加入環境變數，不過還是失敗。</p>
-
-<p>最後發現是 python 版本的問題，機器上面安裝兩種 python 的版本 2.6 和 2.7， yum 透過 2.6 編譯 mod_wsgi 與程式使用的
- 2.7 不同而導致這個問題，最後下載 python 原始碼重新編譯才行。</p>
-
-<p> 下載 python 的原始碼並且在 configure 加上 &ndash;enable-shared 編譯安裝，安裝後執行 python 遇到下面的錯誤，找不到 lib 的路徑。</p>
-
-<pre><code>python: error while loading shared libraries: libpython2.7.so.1.0: cannot open shared object file: No such file or directory
-</code></pre>
-
-<p>使用 ldconfig 指定 lib 位置後重新編譯安裝 mode_wsgi 就建立好環境了。</p>
 ]]></content>
   </entry>
   

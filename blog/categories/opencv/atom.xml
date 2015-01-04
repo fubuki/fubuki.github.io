@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Opencv | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/opencv/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-03T22:58:40+08:00</updated>
+  <updated>2015-01-04T22:30:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Opencv 加上 Intel IP TBB 支援]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv/"/>
+    <updated>2015-01-04T22:17:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>參照 <a href="https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison">OpenCV 3.0.0-beta ( IPP &amp; TBB enabled ) on Yocto with Intel® Edison</a> 替手上的 OpenCV 加上多緒支援。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[VS2013 搭配 opencv-2.4.10]]></title>
