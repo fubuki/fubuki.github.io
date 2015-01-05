@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-04T22:30:34+08:00</updated>
+  <updated>2015-01-05T23:05:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,25 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Opencv 加上 Intel IP TBB 支援]]></title>
+    <title type="html"><![CDATA[Mysql 顯示進程列表]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/05/mysql-show-process/"/>
+    <updated>2015-01-05T22:12:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/05/mysql-show-process</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>檢查目前 mysql 有多少進程，並且可以看出有多少連線，目前有在跑哪些 sql 和執行了多久，
+有時網站變慢可以從列表中觀察是哪些 sql 拖慢系統的速度，另外也可以透過 kill 直接殺掉進程。</p>
+
+<pre><code>show processlist;
+show full processlist;
+kill
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Opencv 加上 Intel IPP TBB 支援]]></title>
     <link href="http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv/"/>
     <updated>2015-01-04T22:17:05+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/01/04/intel-ip-tbb-opencv</id>
@@ -520,23 +538,6 @@ make &amp;&amp; make install
 
 vim /etc/init.d/nginx
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Aeron Message Protocol]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol/"/>
-    <updated>2014-12-16T23:24:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/16/aeron-message-protocol</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近發現了一個跟消息系統有關的的開源專案: <a href="https://github.com/real-logic/Aeron">Aeron</a> ，目前已經手上是用過好幾種消息系統每種都有他們的特性，
-所以是否還需要另外新的消息系統? 這篇 <a href="http://highscalability.com/blog/2014/11/17/aeron-do-we-really-need-another-messaging-system.html">Aeron: Do we really need another messaging system?</a> 可以讀讀，了解
-跟為何開發這個系統。</p>
-
-<p>上面的文章有提到其他消息系統像是瑞士刀， <a href="https://github.com/real-logic/Aeron">Aeron</a> 則像是一把手術刀，沒有提供太多功能，並且是放在 tcp 的層級使用，
-看起來是用來建立系統低階的部分高階的部分在讓開發者另外去解決，這讓我感覺有點像 zeroMQ 但是文章裡面卻說是不一樣的東西。</p>
 ]]></content>
   </entry>
   

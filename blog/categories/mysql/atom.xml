@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-04T22:30:34+08:00</updated>
+  <updated>2015-01-05T23:05:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mysql 顯示進程列表]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/05/mysql-show-process/"/>
+    <updated>2015-01-05T22:12:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/05/mysql-show-process</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>檢查目前 mysql 有多少進程，並且可以看出有多少連線，目前有在跑哪些 sql 和執行了多久，
+有時網站變慢可以從列表中觀察是哪些 sql 拖慢系統的速度，另外也可以透過 kill 直接殺掉進程。</p>
+
+<pre><code>show processlist;
+show full processlist;
+kill
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mysqldump 備份資料庫指令]]></title>
@@ -127,20 +145,6 @@ MariaDB，是值得期待的產品。</p>
 
 <p>在 <a href="http://stackoverflow.com/questions/3332074/what-are-the-disadvantages-of-using-persistent-connection-in-pdo/5541150#5541150">What are the disadvantages of using persistent connection in PDO</a> 裡面有提到一些持久化連線會導致的問題值得一看，另外在最近同事使用持久化連線的時候遇到了 <code>MySQL server has gone away</code>
 的問題，似乎是 PHP 端的持久化連線已經 lost 掉跟 mysql 的連線了但是卻沒有在次跟 mysql  重新連線的關係。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL災難恢复]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu/"/>
-    <updated>2014-06-22T23:30:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/22/mysql-zai-nan-hui-fu</id>
-    <content type="html"><![CDATA[<p>MySQL 如何備份和恢復</p>
-
-<!-- more -->
-
-
-
 ]]></content>
   </entry>
   
