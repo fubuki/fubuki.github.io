@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: C++ | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/c-plus-plus/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-01-06T23:44:26+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Undefined Behavior and Sequence Points]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/06/undefined-behavior-and-sequence-points/"/>
+    <updated>2015-01-06T23:27:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/06/undefined-behavior-and-sequence-points</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在看編譯原理的書時看到了 <a href="http://stackoverflow.com/questions/4176328/undefined-behavior-and-sequence-points">Undefined Behavior and Sequence Points</a> ，這兩個跟編譯器實作有關，通常在寫程式的時候應該是不會寫出有 <code>Undefined Behavior</code> 的片段，而 <code>Sequence Points</code> 跟 <code>side affetct</code> 比較有關。</p>
+
+<p><code>Undefined Behavior</code> 簡單說是有些程式碼由於在標準( ex: C++11)裡面沒有定義會輸出怎樣的結果，所以便會交給 Compiler 的開發者自行
+實作，導致這類的程式碼會有不可預期的結果。</p>
+
+<p><code>Sequence Points</code> 是程式執行到某一個點時，前面的 <code>side affetct</code> 已經結束，後面的 <code>side affetct</code> 還沒有開始。</p>
+]]></content>
+  </entry>
+  
+</feed>
