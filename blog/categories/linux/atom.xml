@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-07T23:36:16+08:00</updated>
+  <updated>2015-01-08T23:53:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Strace 跟蹤進程]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/08/strace-nginx/"/>
+    <updated>2015-01-08T23:28:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/08/strace-nginx</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前使用 lighttpd + web.py 架設環境時不知道什麼原因跑不起來，但是 log 裡面沒有顯示可用的訊息除錯，
+後來學到使用 <code>strace</code> 追蹤 lighttpd 的運行過程，查到是有模組沒有安裝造成的。</p>
+
+<p>直接運行</p>
+
+<pre><code>strace -ff lighttpd -D -f /etc/lighttpd/lighttpd.conf
+</code></pre>
+
+<p>透過 pid 跟蹤</p>
+
+<p>透過 port 跟蹤</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yum 出現 Cannot Retrieve Metalink for Repository: Epel 的錯誤]]></title>
@@ -144,47 +166,6 @@ reboot
  vmcore 的內容， vmlinux 需要跟目前的系統核心相同。</p>
 
 <p> 另外一個 vmcore-dmesg.txt 檔案是記錄一些系統資訊和 Crash 時的資訊，雖然沒有比 vmcore 詳細但是也可以作為參考，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[添加 Flv Keyframes 支持拖動撥放]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/19/nginx-yamdi-flvtool/"/>
-    <updated>2014-12-19T22:36:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/19/nginx-yamdi-flvtool</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>目前在研究在多種裝置上面支援播放影片，目前看到有使用下面幾種方式:</p>
-
-<ol>
-<li>RTMP/RTMPT</li>
-<li>RTSP</li>
-<li>HTTP</li>
-<li>MMS</li>
-<li>HLS</li>
-</ol>
-
-
-<p>而手上有 mp4 和 flv 以及 m3u8 三種格式需要播放，目前是先選用 nginx 透過 HTTP 播放這樣需要安裝的套件比較少，
-如果要使用 CDN 擴展也比較方便，但是除了原本的 m3u8 格式可以支援拖動撥放，另外兩個要使用其他工具添加 keyframes 才能讓
-播放器不需要載入全部檔案就可以撥放，下面記錄目前有使用哪些工具添加 keyframes。</p>
-
-<h3>flv</h3>
-
-<ol>
-<li><a href="http://yamdi.sourceforge.net/">yamdi</a></li>
-<li><a href="https://github.com/Elbandi/flvtool-pp">flvtool++</a></li>
-</ol>
-
-
-<h3>mp4</h3>
-
-<ol>
-<li><a href="https://github.com/danielgtaylor/qtfaststart">qtfaststart</a></li>
-<li>MP4Box</li>
-</ol>
-
 ]]></content>
   </entry>
   
