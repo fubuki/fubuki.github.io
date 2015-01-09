@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-08T23:53:19+08:00</updated>
+  <updated>2015-01-09T23:58:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Information Foraging]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/09/information-foraging-theory/"/>
+    <updated>2015-01-09T23:08:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/09/information-foraging-theory</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在 <code>設計搜索體驗：搜索的藝術與科學</code> 這本書的 <code>Information Seeking</code> 的章節看到這個名詞 <code>Information Foraging</code>，
+網路上看到有人翻譯成信息覓食理論，是把人搜尋情報視為一種覓食行為，藉此研究使用者是怎麼從一個網頁轉移到到下一個網頁。</p>
+
+<p>另外書中有提到理論生態學的東西，說明 <code>Information Foraging</code> 源自於生態學裡面的覓食理論，相關的有 Optimal foraging theory，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Strace 跟蹤進程]]></title>
@@ -434,44 +449,6 @@ reboot
 <p><a href="http://openresty.org/">openresty</a> 從官網看到可以透過編寫 Lua 腳本跟 mysql,redis 連線做出反向代理的功能，另外也有看到有人
 使用 Lua 編寫影音加密的 Http LiveStream 的功能，看起來可以考慮將一些應用層的東西轉移到 ngix 上面藉此提高
 網站的效率。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Docker 建立 FFmpeg 環境]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg/"/>
-    <updated>2014-12-20T22:33:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/20/docker-ffmpeg</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p> 之前在安裝 FFmpeg 的時候吃了不少苦頭，然後未來也有可能會需要更新一些已經有安裝的 Server，所以嘗試一下使用 docker 建立
-  ffmpeg 環境，目前有找到 <a href="https://registry.hub.docker.com/u/cellofellow/ffmpeg/">cellofellow/ffmpeg</a> 這個 docker file 可以使用， docker file 安裝指令如下:</p>
-
-<pre><code>docker pull cellofellow/ffmpeg  
-docker run -i -t cellofellow/ffmpeg /bin/bash
-</code></pre>
-
-<p>安裝後進去就可以使用最新版的 ffmpeg 下面是他的編譯參數目前手上會用的編碼都有包進去了，比較有問題的是 <code>libfdk-aac</code> 與
- <code>libfaac</code> 的差別，兩個似乎都是用來解 FAAC 的，不過從網路上的資訊來看是 libfdk-aac 比較好。</p>
-
-<pre><code>configuration: 
---extra-libs=-ldl 
---enable-gpl 
---enable-libass 
---enable-libfdk-aac 
---enable-libmp3lame 
---enable-libopus 
---enable-libtheora 
---enable-libvorbis 
---enable-libvpx 
---enable-libx264 
---enable-libx265 
---enable-nonfree
-</code></pre>
-
-<p>題外話在網路上有看到 Cookpad 也有用 docker 建立影音轉碼平台 : <a href="http://techlife.cookpad.com/entry/ffmpeg_and_imagemagick_setup_with_docker">Dockerでffmpegもimagemagickも怖くないという話</a>，
-裡面的的 docker file 也有放出來 <a href="https://github.com/cookpad/janiConverter">janiConverter</a> 讓人使用。</p>
 ]]></content>
   </entry>
   
