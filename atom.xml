@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-09T23:58:58+08:00</updated>
+  <updated>2015-01-10T23:43:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[C 語言的巨集]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/10/define-multi-line/"/>
+    <updated>2015-01-10T22:43:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/10/define-multi-line</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在研究 Phalcon 的語法時看到下面這種定義巨集的程式碼，跟以前直接用大括號寫成 Function 的方式不一樣，
+後來在別人的網誌看到這兩種的差別，直接使用 Function 的區塊寫法如果沒有注意寫法在預編譯的時候展開可能導致錯誤。</p>
+
+<pre><code>/** Get the current hash key without copying the hash key */
+#define PHALCON_GET_HKEY(var, hash, hash_position) \
+    do { \
+        PHALCON_INIT_NVAR_PNULL(var); \
+        phalcon_get_current_key(&amp;var, hash, &amp;hash_position TSRMLS_CC); \
+    } while (0)
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Information Foraging]]></title>
@@ -429,26 +450,6 @@ reboot
  vmcore 的內容， vmlinux 需要跟目前的系統核心相同。</p>
 
 <p> 另外一個 vmcore-dmesg.txt 檔案是記錄一些系統資訊和 Crash 時的資訊，雖然沒有比 vmcore 詳細但是也可以作為參考，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openresty Server]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/21/ngx-openresty/"/>
-    <updated>2014-12-21T22:59:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/21/ngx-openresty</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://openresty.org/">openresty</a> 為核心是 nginx 在外加一些第三方模組的版本。</p>
-
-<p>之前在研究 nginx 跟 Lua 結合的資訊時看到了一篇 <a href="http://agentzh.org/misc/slides/ngx-openresty-ecosystem/#1">ngx_openresty: an Nginx ecosystem glued by Lua</a>，
-裡面介紹了 <a href="https://github.com/openresty/ngx_openresty">ngx-openresty</a> ，並且介紹了這個基於 nginx 擴展版本裡面有哪些功能，並且從文章標題就可以
-得知裡面使用 Lua 整合整個生態系統。</p>
-
-<p><a href="http://openresty.org/">openresty</a> 從官網看到可以透過編寫 Lua 腳本跟 mysql,redis 連線做出反向代理的功能，另外也有看到有人
-使用 Lua 編寫影音加密的 Http LiveStream 的功能，看起來可以考慮將一些應用層的東西轉移到 ngix 上面藉此提高
-網站的效率。</p>
 ]]></content>
   </entry>
   
