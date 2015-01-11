@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Io.js"
+date: 2014-12-14 22:29:30 +0800
+comments: true
+categories: ["nodejs"]
+---
+
+
+<!-- more -->
+
+最近看到一個消息，出了一個 node.js 的分支 [Io.js]，是由原本開發的 node.js 的核心成員另外跳出來的作的，
+原因是不滿 [joyent] 的管理風格。
+
+目前 node.js 的走向偏向將目前的版本穩定，但是這些核心成員更希望能夠聽取社區的聲音增加新的功能而成立了
+[nodeforward] 然後過不久後就放出 [Io.js]，在這邊 [What is io.js?] 有寫出他們跳出來做的目的跟未來的方向。
+
+
+[What is io.js?]:http://blog.izs.me/post/104685388058/io-js
+[Io.js]:http://iojs.org/
+[nodeforward]:http://nodeforward.org/
+[joyent]:https://www.joyent.com/technology/nodejs

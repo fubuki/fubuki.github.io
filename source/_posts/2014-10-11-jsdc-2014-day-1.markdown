@@ -91,7 +91,7 @@ My Feeling About AngularJS Over Time
 
 
 [投影片]
-[投影片]:bit.ly/jsdc2014-funjs
+[投影片]:http://bit.ly/jsdc2014-funjs
 
 使用 Haskell 講解一些 Functional Programing 的概念。
 

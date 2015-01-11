@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "十二月書單"
-date: 2014-12-01 07:39:21 +0800
+date: 2014-12-02 07:39:21 +0800
 comments: true
 categories: ["book lists"]
 ---

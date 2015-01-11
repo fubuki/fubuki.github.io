@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Nginx 添加 Lua 的模組"
+date: 2014-12-17 00:25:04 +0800
+comments: true
+categories: ["nginx"]
+---
+
+<!-- more -->
+
+Nginx 可以藉由安裝 [lua-nginx-module] 支持 Lua，但是要安裝模組就必須從原始碼開始編譯，這邊就記錄一下
+在 Centos 上面的安裝過程。
+
+
+	
+### 下載 nginx 的原始碼	
+	wget http://nginx.org/download/nginx-1.7.7.tar.gz
+	tar zxf nginx-1.7.7.tar.gz
+
+### 下載相關模組
+	
+1. [lua-nginx-module] 支援 Lua 的模組
+2. [ngx_devel_kit] Nginx 的開發工具有些模組需要這個套件
+3. [LuaJIT] Lua 的模組需要它編譯出來的 library 
+4. [set-misc-nginx-module] 增加 nginx 支援的語法，順便編譯進去增強 nginx 的功能
+
+### 編譯參數
+	./configure --prefix=/opt/nginx \
+         --add-module=/root/ngx_devel_kit \
+         --add-module=/root/lua-nginx-module \
+         --add-module=/root/set-misc-nginx-module 
+	
+	make && make install
+
+
+### 設定成服務
+	ln -s /opt/nginx/sbin/nginx /usr/sbin/nginx
+	
+	vim /etc/init.d/nginx
+
+[lua-nginx-module]:https://github.com/openresty/lua-nginx-module
+[ngx_devel_kit]:https://github.com/simpl/ngx_devel_kit
+[set-misc-nginx-module]:https://github.com/openresty/set-misc-nginx-module
+[LuaJIT]:http://luajit.org/

@@ -2,19 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-<<<<<<< HEAD
 url: http://fubuki.github.io
-title: Learning Blog
+title: "Learning Blog"
 subtitle: 預定調和
 author: Fubuki
-simple_search: http://google.com/search
-=======
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
 simple_search: https://www.google.com/search
->>>>>>> 3345fa5897377c5a5aebc7c637ca985894cde88a
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")

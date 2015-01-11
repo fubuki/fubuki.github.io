@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Kibana 資料可視化項目"
+date: 2014-12-24 22:57:33 +0800
+comments: true
+categories: ["search engine"]
+---
+
+[kibana] 是基於 ElasticSearch 建立的資料可視化項目
+
+<!-- more -->
+
+之前有使用 ElasticSearch 建立資料庫的搜尋服務，其中也有透過 logstash 收集伺服器上面的 LOG 檔案傳給 ElasticSearch 
+進行處理然後透過 API 呼叫取得處理過的資料顯示在後台上。
+
+
+LOG檔的訊息通常大量並且雜亂的，而且都帶有時間標記，所以為了讓人使用這些大量的資料就必須要有個可以分析並且顯示的後台，
+所以看到網路上有出一個 [kibana] 的資料可視化項目，
+
+
+[kibana] 安裝很簡單，比較麻煩的反而是將 LOG 檔透過 logstash 丟到 ElasticSearch 中處理，之後的步驟可以參考這個 [教程]
+，建立所需要的環境之後便可以開始分析機器上面的 LOG 檔案。
+
+
+
+
+
+[教程]:http://kibana.logstash.es/
+[kibana]:https://github.com/elasticsearch/kibana

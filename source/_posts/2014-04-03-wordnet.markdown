@@ -11,4 +11,4 @@ categories: ["NLP"]
 
 
 
-[wordnet]: wordnet.princeton.edu
+[wordnet]: http://wordnet.princeton.edu/

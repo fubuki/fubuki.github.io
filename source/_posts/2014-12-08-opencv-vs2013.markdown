@@ -1,0 +1,22 @@
+---
+layout: post
+title: "VS2013 搭配 opencv-2.4.10"
+date: 2014-12-08 21:35:38 +0800
+comments: true
+categories: ["opencv"]
+---
+
+<!-- more -->
+
+在 `Visual Studio 2013` 下配置 OpenCV 開發環境。
+
+
+1. 下載 OpenCV for Windows 的安裝檔並安裝，安裝檔會在目錄下生成 opencv 的函式庫。
+2. 在環境變量裡的 Path 加入 opencv 的 bin 文件夾。
+3. 在 `Visual Studio 2013` 的編譯設定裡加入相關函式庫。
+4. 如果是 32 位元的環境就加入 x86， 64 位元就加入 x64 下的檔案
+5. `VC++ 目錄` 的 `Include 目錄` 加入 opencv 的 include 目錄下的所有檔案， 
+    在`程式庫目錄` 下根據編譯環境加入 `x86\vc12\lib`。
+6. 在連接器下輸入的其他相依性加入在 `x86\vc12\lib` 下 dll 檔案，這根據專案本身用到哪些 opencv 的功能
+	，決定載入哪些 dll 膽案。
+7. 撰寫測試用的 opencv 專案測試是否可以執行。

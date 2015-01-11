@@ -4,7 +4,7 @@ title: "Deep learing"
 date: 2014-02-27 23:27:52 +0800
 comments: true
 author: Fubuki
-categories: ["deep-learning"]
+categories: ["deep learning"]
 ---
 記錄收集的Deep learning slides  和文章
 <!-- more -->

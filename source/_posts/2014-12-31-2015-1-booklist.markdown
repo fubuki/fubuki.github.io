@@ -1,0 +1,13 @@
+---
+layout: post
+title: "一月書單"
+date: 2014-12-31 22:06:46 +0800
+comments: true
+categories: ["book lists"]
+---
+
+<!-- more -->
+
+1. Becoming a Better Programmer
+2. Designing the Search Experience: The Information Architecture of Discovery
+3. FreeSWITCH 權威指南

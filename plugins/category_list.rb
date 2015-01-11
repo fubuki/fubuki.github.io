@@ -46,6 +46,7 @@ module Jekyll
     def write_to_sidebar
       puts ' => Creating Categories Sidebar'
       html = "<ul>\n"
+      @categories = self.categories
       # case insensitive sorting
       @categories.keys.sort_by{ |str| str.downcase }.each do |category|
         url = get_category_url category
