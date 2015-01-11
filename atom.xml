@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-10T23:43:21+08:00</updated>
+  <updated>2015-01-11T22:09:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[在 VM 上面安裝 GNURadio]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/11/gnuradio/"/>
+    <updated>2015-01-11T20:09:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/11/gnuradio</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近開始玩起 SDR 接收無線電訊號，於是另外安裝安裝 <a href="http://gnuradio.microembedded.com/">GNU Radio</a> 用來處理無線電訊號，一開始
+是使用安裝好的 Live cd 測試能否接收到訊號，測試沒問題後就透過 <a href="http://gnuradio.org/redmine/projects/gnuradio/wiki/UbuntuInstall">UbuntuInstall</a> 這篇教學自行安裝。</p>
+
+<p><a href="http://gnuradio.microembedded.com/">GNU Radio</a> 可以透過圖形直接對接收到的訊號進行處理，也可以透過 Python 撰寫程式碼，不過需要先去
+複習大學的數位訊號處理。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[C 語言的巨集]]></title>
@@ -431,25 +447,6 @@ reboot
 <p>Oracle 開發的檔案系統，從 2007 年開始開發，已經有穩定版可以使用，目前 facebook 有在測試這個檔案系統。</p>
 
 <p>wiki : <a href="https://btrfs.wiki.kernel.org/index.php/Main_Page">btrfs</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[分析 Vmcore 和 vmcore-dmesg.txt]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt/"/>
-    <updated>2014-12-22T23:11:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在試玩 docker 的時候，因為不知名因素導致系統直接重啟，後來發現是整個內核 crash 原因是似乎是跟 <code>device-mapper</code> 脫不了關係，
-看他 console 列出的最後訊息可以得知在 <code>/var/crash</code> 生成了兩個文件: <code>vmcore</code> 和 <code>vmcore-dmesg.txt</code>。</p>
-
-<p>在 <code>/var/crash</code> 下面的兩個文件是記錄了系統 Crash 時的最後訊息，可以透過這些文件追蹤發生了什麼事，要追蹤需要使用幾個工具: kdump 和 crash
-，kdump 是讓系統 Crash 時將內核的訊息 dump 到硬碟上以供使用者除錯， crash 是可以去分析 <code>vmcore</code> 的內容，但是需要 vmlinux 的檔案才能分析
- vmcore 的內容， vmlinux 需要跟目前的系統核心相同。</p>
-
-<p> 另外一個 vmcore-dmesg.txt 檔案是記錄一些系統資訊和 Crash 時的資訊，雖然沒有比 vmcore 詳細但是也可以作為參考，</p>
 ]]></content>
   </entry>
   
