@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-11T22:09:34+08:00</updated>
+  <updated>2015-01-12T23:33:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu 安裝 Zsh]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/12/linux-zsh/"/>
+    <updated>2015-01-12T23:26:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/12/linux-zsh</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>安裝 zsh</p>
+
+<pre><code>apt-get install zsh
+</code></pre>
+
+<p>安裝 <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a></p>
+
+<pre><code>wget --no-check-certificate http://install.ohmyz.sh -O - | bash
+</code></pre>
+
+<p>重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Strace 跟蹤進程]]></title>
@@ -147,25 +169,6 @@ reboot
 <p>重開機後就可以看到核心已經變成 3.18 版本，不過卻出現另外一個問題，當我要使用 <code>docker</code>
 的時候卻出現 iptables 的錯誤，最後發現是編譯的時候沒有將 NAT 的模組編譯進去所導致的問題，
 之後重新編譯就可以了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[分析 Vmcore 和 vmcore-dmesg.txt]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt/"/>
-    <updated>2014-12-22T23:11:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/22/vmcore-dmesg-dot-txt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在試玩 docker 的時候，因為不知名因素導致系統直接重啟，後來發現是整個內核 crash 原因是似乎是跟 <code>device-mapper</code> 脫不了關係，
-看他 console 列出的最後訊息可以得知在 <code>/var/crash</code> 生成了兩個文件: <code>vmcore</code> 和 <code>vmcore-dmesg.txt</code>。</p>
-
-<p>在 <code>/var/crash</code> 下面的兩個文件是記錄了系統 Crash 時的最後訊息，可以透過這些文件追蹤發生了什麼事，要追蹤需要使用幾個工具: kdump 和 crash
-，kdump 是讓系統 Crash 時將內核的訊息 dump 到硬碟上以供使用者除錯， crash 是可以去分析 <code>vmcore</code> 的內容，但是需要 vmlinux 的檔案才能分析
- vmcore 的內容， vmlinux 需要跟目前的系統核心相同。</p>
-
-<p> 另外一個 vmcore-dmesg.txt 檔案是記錄一些系統資訊和 Crash 時的資訊，雖然沒有比 vmcore 詳細但是也可以作為參考，</p>
 ]]></content>
   </entry>
   
