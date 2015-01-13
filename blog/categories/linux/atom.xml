@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-12T23:33:16+08:00</updated>
+  <updated>2015-01-13T23:28:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Single User Mode 修改 Linux 密碼]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode/"/>
+    <updated>2015-01-13T22:19:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在管理虛擬機的時候有些機器以前人部署的，所以完全無法得知登入密碼，後來透過網路得知 Linux 有個
+ <code>Single User Mode</code> 可以讓使用者這個模式不用密碼登入主機，然後就可以透過 <code>passwd</code> 更改密碼。</p>
+
+<p> 要進入 <code>Single User Mode</code> 是要在開機時在 Grub 選單在開機的指令後面加上 single 參數，然後 ctrl + x 開機
+ 就會進入 <code>Single User Mode</code> ，但是在我的 ubuntu 14.04 LTS 上面測試卻行不通，會顯示 <code>give root password for maintenance single</code>
+ 這串訊息，這時就要用另外一種方法。</p>
+
+<p> 如果使用 single 參數行不通就換成 <code>rw init=/bin/bash</code>， 然後按下 ctrl + x 開機就會直接進去主機，之後使用 passwd 更改密碼即可。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ubuntu 安裝 Zsh]]></title>
@@ -127,48 +146,6 @@ include/uapi/linux/aufs_type.h
 <h4>最後</h4>
 
 <p>打開 aufs 的編譯選項，然後編譯核心重開機後還需要安裝 <code>aufs-util</code>，這樣 aufs 才能正常運作。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Centos 6 升級核心到 3.18]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18/"/>
-    <updated>2014-12-25T01:21:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/25/centos-6-upgrade-to-3-dot-18</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天把手上的 Centos 的核心從 2.6 升級到 3.18，順便紀錄一下升級的過程。</p>
-
-<p>先下載新版的 Linux Kernel 檔案並且解壓縮。</p>
-
-<pre><code>wget  https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.18.1.tar.gz
-tar zxf linux-3.18.1.tar.gz
-</code></pre>
-
-<p>設定編譯選項，我原本找不到舊的編譯檔案，後來在 <code>/usr/src/kernel</code> 底下找到。</p>
-
-<pre><code>cp /usr/src/kernel/config .config
-make menuconfig
-</code></pre>
-
-<p>開始編譯核心和模組，加上 -j 參數使用多核心編譯。</p>
-
-<pre><code>make -j bzImage 
-make -j modules 
-make -j modules_install 
-</code></pre>
-
-<p>安裝並且修正開機順序後重開機。</p>
-
-<pre><code>make install
-vim /etc/grub.conf
-reboot
-</code></pre>
-
-<p>重開機後就可以看到核心已經變成 3.18 版本，不過卻出現另外一個問題，當我要使用 <code>docker</code>
-的時候卻出現 iptables 的錯誤，最後發現是編譯的時候沒有將 NAT 的模組編譯進去所導致的問題，
-之後重新編譯就可以了。</p>
 ]]></content>
   </entry>
   
