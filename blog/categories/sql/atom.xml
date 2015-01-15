@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-14T23:30:09+08:00</updated>
+  <updated>2015-01-15T23:19:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sql Join 的類型]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/15/sql-join/"/>
+    <updated>2015-01-15T22:51:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/15/sql-join</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一篇關於介紹 sql join 的文章 <a href="http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins">Visual Representation of SQL Joins</a>，裡面把所有的 join 形式解說一遍，並且
+有程式碼和圖片搭配，看完就可以了解怎麼使用 sql 的 join 語法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SQL 日期經典問題]]></title>

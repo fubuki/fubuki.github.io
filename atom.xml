@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-14T23:30:09+08:00</updated>
+  <updated>2015-01-15T23:19:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sql Join 的類型]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/15/sql-join/"/>
+    <updated>2015-01-15T22:51:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/15/sql-join</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一篇關於介紹 sql join 的文章 <a href="http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins">Visual Representation of SQL Joins</a>，裡面把所有的 join 形式解說一遍，並且
+有程式碼和圖片搭配，看完就可以了解怎麼使用 sql 的 join 語法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 掛載 Samba 目錄的方法]]></title>
@@ -354,62 +367,6 @@ kill
 也有可能是電視本身的問題，之後在露天找一下相關的商品測試。</p>
 
 <h4>安裝過程</h4>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux Kernel 安裝 Aufs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/26/kernel-aufs/"/>
-    <updated>2014-12-26T23:18:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/26/kernel-aufs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前研究 Docker 了解了有一個 aufs 檔案系統，所以就想安裝來玩玩看。</p>
-
-<h4>概要</h4>
-
-<p>我是用手上的 Centos 6 測試的，安裝前要先下載下面幾個檔案，然後使用 <code>aufs3-standalone</code> 給
-aufs3-linux 打上補丁然後在 config 時打開 aufs 的選項後編譯核心即可。</p>
-
-<ol>
-<li>aufs3-linux</li>
-<li>aufs3-standalone</li>
-<li>aufs-util git://git.code.sf.net/p/aufs/aufs-util</li>
-</ol>
-
-
-<h4>下載</h4>
-
-<pre><code>git clone git://github.com/sfjro/aufs3-linux.git
-git clone git://git.code.sf.net/p/aufs/aufs-util
-cd aufs3-linux
-git clone git://git.code.sf.net/p/aufs/aufs3-standalone
-</code></pre>
-
-<h4>切換版本</h4>
-
-<p>切換 <code>aufs3-linux</code> 和 <code>aufs3-standalone</code> 的版本，目前支援到最新的 3.18 版本，
-但是要注意兩個版本要一致。</p>
-
-<h4>打上補丁</h4>
-
-<pre><code>aufs3-standalone/aufs3-kbuild.patch
-aufs3-standalone/aufs3-base.patch
-aufs3-standalone/aufs3-mmap.patch
-aufs3-standalone/aufs3-standalone.patch
-</code></pre>
-
-<h4>從aufs3-standalone 複製必要的檔案到 kernel</h4>
-
-<pre><code>{Documentation,fs}
-include/linux/aufs_type.h 
-include/uapi/linux/aufs_type.h
-</code></pre>
-
-<h4>最後</h4>
-
-<p>打開 aufs 的編譯選項，然後編譯核心重開機後還需要安裝 <code>aufs-util</code>，這樣 aufs 才能正常運作。</p>
 ]]></content>
   </entry>
   
