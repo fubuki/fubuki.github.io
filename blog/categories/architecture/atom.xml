@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-15T23:19:43+08:00</updated>
+  <updated>2015-01-16T23:47:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LMAX Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/16/lmax-architecture/"/>
+    <updated>2015-01-16T22:37:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/16/lmax-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://martinfowler.com/articles/lmax.html">The LMAX Architecture</a> 一個高吞吐量的金融交易平台，是由 LMAX Exchange 基於 JVM 所建立的架構，文章裡面提到一些他們如何做到每秒六百萬訂單的
+方法，另外這邊有 <a href="http://www.infoq.com/presentations/LMAX">LMAX - How to Do 100K TPS at Less than 1ms Latency</a> 文章作者的演講。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Aeron Message Protocol]]></title>
