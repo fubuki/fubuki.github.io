@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-16T23:47:01+08:00</updated>
+  <updated>2015-01-17T23:48:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux Taskset 指令]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/17/linux-taskset/"/>
+    <updated>2015-01-17T23:20:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/17/linux-taskset</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Linux 有個 taskset 指令可以在多核環境下指定特定的 Process 在某個 CPU 下運行，這個指令是看到有人用在 node.js 腳本上，
+由於 node.js 本身如果沒有特別處理是無法發揮多核的效能，所以建立多個 node.js Process 然後個別指定每個 CPU 上面，這樣
+就可以將使用到多核的效能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 掛載 Samba 目錄的方法]]></title>
@@ -90,23 +104,6 @@ umount /srv
 <p>透過 pid 跟蹤</p>
 
 <p>透過 port 跟蹤</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yum 出現 Cannot Retrieve Metalink for Repository: Epel 的錯誤]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/30/cannot-retrieve-metalink-for-repository-epel/"/>
-    <updated>2014-12-30T22:49:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/30/cannot-retrieve-metalink-for-repository-epel</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 Centos 6 上面更新套件的時候出現了 <code>Cannot retrieve metalink for repository: epel</code> 的錯誤，
-命令列是寫說是因為 SSL 連線出問題，後來從網路上看到是要更新 <a href="http://en.wikipedia.org/wiki/Network_Security_Services">nss</a> 這個套件。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Network_Security_Services">nss</a> 全名是 <code>Network Security Services</code> 似乎是負責網路加密傳送的功能，不知道是版本的關係才會出現
- SSL 問題，在網路上也到有一些加密的問題也是出自於 <a href="http://en.wikipedia.org/wiki/Network_Security_Services">nss</a>，而在 MDN 也有一篇 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Overview">Overview of NSS</a> 的文章，
- 裡面也說明 nss 是一個開源的加密函式庫，而 Yum 有使用到 nss 處理 SSL 加密連線。</p>
 ]]></content>
   </entry>
   
