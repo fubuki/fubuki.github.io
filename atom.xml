@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-17T23:48:26+08:00</updated>
+  <updated>2015-01-18T22:45:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HITS Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/18/hits-algorithm/"/>
+    <updated>2015-01-18T22:16:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/18/hits-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>HITS(Hyperlink lnduccd Topic Search)算法根據 URL 的演算法，跟 Page Rank 不同的地方是 HITS 針對已搜尋出來了的結果
+進行排序，所以會每次的查詢都會計算一次結果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux Taskset 指令]]></title>
@@ -336,24 +349,6 @@ kill
 <p><a href="http://en.wikipedia.org/wiki/Network_Security_Services">nss</a> 全名是 <code>Network Security Services</code> 似乎是負責網路加密傳送的功能，不知道是版本的關係才會出現
  SSL 問題，在網路上也到有一些加密的問題也是出自於 <a href="http://en.wikipedia.org/wiki/Network_Security_Services">nss</a>，而在 MDN 也有一篇 <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/Overview">Overview of NSS</a> 的文章，
  裡面也說明 nss 是一個開源的加密函式庫，而 Yum 有使用到 nss 處理 SSL 加密連線。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysqldump 備份資料庫指令]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/29/mysqldump/"/>
-    <updated>2014-12-29T21:26:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/29/mysqldump</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近幫別人整理資料庫發現資料表的結構設計不當導致資料過多的時候效率變很差，原本更改資料表的結構
-但是由於手上沒有 root 權限的帳號，資料庫也不能停機開啟 <code>safe mode</code>，所以只能先刪除資料。</p>
-
-<p>目前 MySQL 資料庫最常用 <a href="http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html">mysqldump</a> 備份，在 MySQL 官網有詳細的解說裡面有很多選項可以使用，但是
-目前最常用到的選項是 <code>-single-transaction</code> 和 <code>-lock-all-tables</code>，<code>-single-transaction</code> 是在備份
-資料前開啟交易，讓資料能夠盡量完整匯出，而 <code>-lock-all-tables</code> 則是給 MyISAM 這類不支援 transaction
- 的資料表所用，他會在備份時 Lock Table 為 READ LOCAL 狀態，只允許 <a href="http://dev.mysql.com/doc/refman/5.0/en/concurrent-inserts.html">Concurrent Inserts</a>。</p>
 ]]></content>
   </entry>
   

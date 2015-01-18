@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-17T23:48:26+08:00</updated>
+  <updated>2015-01-18T22:45:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HITS Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/18/hits-algorithm/"/>
+    <updated>2015-01-18T22:16:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/18/hits-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>HITS(Hyperlink lnduccd Topic Search)算法根據 URL 的演算法，跟 Page Rank 不同的地方是 HITS 針對已搜尋出來了的結果
+進行排序，所以會每次的查詢都會計算一次結果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parallel Sum and Prefix Scan]]></title>
@@ -116,20 +129,6 @@
 <li>Tapestry</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Softmax Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/19/softmax-algorithm/"/>
-    <updated>2014-08-19T23:53:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/19/softmax-algorithm</id>
-    <content type="html"><![CDATA[<p>解決 Multi-Armed Bandit Problem 的演算法</p>
-
-<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Softmax_function">Softmax_function</a></p>
 ]]></content>
   </entry>
   
