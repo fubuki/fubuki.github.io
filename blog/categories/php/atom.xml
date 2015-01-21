@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-20T23:48:45+08:00</updated>
+  <updated>2015-01-21T22:59:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[討厭 PHP 的原因]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so/"/>
+    <updated>2015-01-21T22:39:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so</id>
+    <content type="html"><![CDATA[<p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ORA-01461: Can Bind a LONG Value Only for Insert Into a LONG Column]]></title>
@@ -111,76 +120,6 @@
 
 <p><a href="http://blog.codinglabs.org/articles/zend-thread-safety.html">PHP中的线程安全</a>
 <a href="http://www.54chen.com/php-tech/what-is-tsrmls_cc.html">究竟什么是TSRMLS_CC？</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[控制 PHP 執行時間]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/26/php-timeout/"/>
-    <updated>2014-10-26T13:38:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/26/php-timeout</id>
-    <content type="html"><![CDATA[<p>如何控制 PHP 的最長執行時間。</p>
-
-<!-- more -->
-
-
-<p>在執行 PHP 腳本的時候有可能因為程式邏輯上的問題或是為了取得外部的資料導致執行時間過久，而讓使用者等待回應的時間過長帶來不好的體驗，
-因此在 PHP 本身一些常用的函式庫或是伺服器設定會讓開發者設定 timeout 的時間。</p>
-
-<h4>nginx</h4>
-
-<ol>
-<li>fastcgi_connect_timeout</li>
-<li>fastcgi_send_timeout</li>
-<li>fastcgi_read_timeout</li>
-</ol>
-
-
-<h4>php-fpm</h4>
-
-<ol>
-<li>php-fpm.conf 的 request_terminate_timeout</li>
-</ol>
-
-
-<p>max_execution_time 和 set_time_limit 也能限制腳本執行的時間但是似乎在某些場景是有問題的。</p>
-
-<h4>curl</h4>
-
-<ol>
-<li>CURLOPT_TIMEOUT</li>
-<li>CURLOPT_TIMEOUT_MS</li>
-<li>CURLOPT_CONNECTTIMEOUT</li>
-<li>CURLOPT_CONNECTTIMEOUT_MS</li>
-<li>CURLOPT_DNS_CACHE_TIMEOUT</li>
-</ol>
-
-
-<h4>mysql</h4>
-
-<ol>
-<li>innodb_lock_wait_timeout</li>
-<li>libmysql 的 MYSQL_OPT_READ_TIMEOUT 和 MYSQL_OPT_WRITE_TIMEOUT</li>
-</ol>
-
-
-<h4>memcached</h4>
-
-<ol>
-<li>bool Memcache::connect ( string $host [, int $port [, int $timeout ]] )</li>
-<li>Memcached 要另外實現</li>
-</ol>
-
-
-<h4>redis</h4>
-
-<ol>
-<li>$redis->connect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5); // 2.5 sec timeout.</li>
-<li>$redis->pconnect(&lsquo;127.0.0.1&rsquo;, 6379, 2.5, &lsquo;x&rsquo;); // x is sent as persistent_id and would be another connection the the three before.</li>
-</ol>
-
-
-<h4>其他</h4>
 ]]></content>
   </entry>
   

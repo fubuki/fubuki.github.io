@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-20T23:48:45+08:00</updated>
+  <updated>2015-01-21T22:59:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[討厭 PHP 的原因]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so/"/>
+    <updated>2015-01-21T22:39:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so</id>
+    <content type="html"><![CDATA[<p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[小世界理論]]></title>
@@ -319,25 +328,6 @@ kill
 <p>PRAM (Parallel random-access machine)</p>
 
 <p>使用多緒函式庫實踐兩種平行演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Social Physics]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/01/social-physics/"/>
-    <updated>2015-01-01T22:21:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/01/social-physics</id>
-    <content type="html"><![CDATA[<p>關於什麼是 Social Physics ?</p>
-
-<!-- more -->
-
-
-<ol>
-<li><a href="http://socialphysics.media.mit.edu/about/">MIT Media Lab</a></li>
-<li><a href="http://www.amazon.com/Social-Physics-Spread-Lessons-Science/dp/1594205655">Social Physics: How Good Ideas Spread—The Lessons from a New Science</a></li>
-<li><a href="https://www.youtube.com/watch?v=HMBl0ttu-Ow">Sandy Pentland: &ldquo;Social Physics: How Good Ideas Spread&rdquo; | Talks at Google</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
