@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-22T23:48:02+08:00</updated>
+  <updated>2015-01-23T23:34:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Category Theory]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/23/category-theory/"/>
+    <updated>2015-01-23T23:18:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/23/category-theory</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在國外一場研討會看到一篇 <a href="http://alissapajer.github.io/conferenceslides/craftconf2014/#/">Functional Examples from Category Theory</a> 的議程是跟數學的 <a href="http://en.wikipedia.org/wiki/Category_theory">Category theory</a> 有關的東西，
+正好跟最近在看的<code>細胞自動機</code>和<code>語義學習</code>有關，因此記錄一下。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Barabási–Albert Model]]></title>
@@ -308,32 +321,6 @@ kill
 
 
 <p>參照 <a href="https://software.intel.com/en-us/articles/opencv-300-beta-ipp-tbb-enabled-on-yocto-with-intel-edison">OpenCV 3.0.0-beta ( IPP &amp; TBB enabled ) on Yocto with Intel® Edison</a> 替手上的 OpenCV 加上多緒支援。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[取得 Android 的原始碼]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/03/android-source/"/>
-    <updated>2015-01-03T22:20:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/03/android-source</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><p>安裝 repo</p>
-
-<p> curl <a href="https://storage.googleapis.com/git-repo-downloads/repo">https://storage.googleapis.com/git-repo-downloads/repo</a> > /usr/bin/repo
- chmod  a+x /usr/bin/repo</p></li>
-<li><p>建立文件夾下載程式碼</p>
-
-<p> mkdir andorid_source
- cd andorid_source
- repo init -u <a href="https://android.googlesource.com/platform/manifest">https://android.googlesource.com/platform/manifest</a>
- repo sync</p></li>
-</ol>
-
-
-<p>參考 : <a href="https://source.android.com/source/downloading.html">Downloading the Source</a></p>
 ]]></content>
   </entry>
   
