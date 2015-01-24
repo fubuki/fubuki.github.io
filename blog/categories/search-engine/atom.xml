@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Search Engine | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/search-engine/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-23T23:34:27+08:00</updated>
+  <updated>2015-01-24T22:52:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[鏈結分析 : SocSciBot]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/24/socscibot/"/>
+    <updated>2015-01-24T22:44:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/24/socscibot</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>鏈結分析用的程式 <a href="http://socscibot.wlv.ac.uk/">socscibot</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Barabási–Albert Model]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/22/barabasi-albert-model/"/>
+    <updated>2015-01-22T23:44:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/22/barabasi-albert-model</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>複雜網路理論</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model">Barabási–Albert model</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Information Foraging]]></title>
@@ -57,34 +83,6 @@
     <content type="html"><![CDATA[<p><a href="https://github.com/carrot2/carrot2">Carrot2</a> 一個開源的分類引擎，之前在學習solr的時候就有看到這個開源專案，在<a href="http://search.carrot2.org/stable/search">search</a>有一個Carrot2的範例，
 是針對搜尋引擎得到的結果做分類，Carrot2本身也可以和Solr集成，也能支援中文分詞器，之後研究一下內部使用哪些演算法和
 如何跟solr結合。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SenseiDB]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/23/senseidb/"/>
-    <updated>2014-03-23T21:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/23/senseidb</id>
-    <content type="html"><![CDATA[<p><a href="http://senseidb.com">sensei</a>是以前在學習hadoop時找到的，是一款跟hadoop集成的搜尋系統，第一次看到是在兩年前，最近在VM發現當時的建立的痕跡，
-特此紀錄一下以便日後研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/03/elasticsearch/"/>
-    <updated>2014-03-03T21:51:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/03/elasticsearch</id>
-    <content type="html"><![CDATA[<p>elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，<br/>
-不過底層跟solr都是lucene，使用上要去抓取資料庫的內容要另外設定，我比較中意
-Solr只要將欄位設定好就可以直接使用。</p>
-
-<!-- more -->
-
-
-<p>目前維基百科和github都用elasticsearch解決他們搜尋功能，不知道背後是如何運用的，<br/>
-這邊要使用了話主要問題還是在cjk分詞，之前是用詞典的方式，如果換用HMM或是n-gram的方式
-來增加分詞的精確度是最要緊的。</p>
 ]]></content>
   </entry>
   
