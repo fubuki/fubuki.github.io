@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-24T22:52:26+08:00</updated>
+  <updated>2015-01-25T21:29:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx 的 Worker_cpu_affinity 參數]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/25/nginx-worker-cpu-affinity/"/>
+    <updated>2015-01-25T21:13:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/25/nginx-worker-cpu-affinity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>nginx 可以藉由使用 <code>worker_cpu_affinity</code> 在多核分配進程在哪幾顆 CPU 下執行。</p>
+
+<p>四核四個進程</p>
+
+<pre><code>worker_processes 4;
+worker_cpu_affinity 1000 0100 0010 0001;
+</code></pre>
+
+<p>四核兩個進程</p>
+
+<pre><code>worker_processes 2;
+worker_cpu_affinity 1000 0001;
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[鏈結分析 : SocSciBot]]></title>
@@ -303,24 +327,6 @@ umount /srv
 實作，導致這類的程式碼會有不可預期的結果。</p>
 
 <p><code>Sequence Points</code> 是程式執行到某一個點時，前面的 <code>side affetct</code> 已經結束，後面的 <code>side affetct</code> 還沒有開始。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql 顯示進程列表]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/05/mysql-show-process/"/>
-    <updated>2015-01-05T22:12:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/05/mysql-show-process</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>檢查目前 mysql 有多少進程，並且可以看出有多少連線，目前有在跑哪些 sql 和執行了多久，
-有時網站變慢可以從列表中觀察是哪些 sql 拖慢系統的速度，另外也可以透過 kill 直接殺掉進程。</p>
-
-<pre><code>show processlist;
-show full processlist;
-kill
-</code></pre>
 ]]></content>
   </entry>
   

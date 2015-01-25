@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-24T22:52:26+08:00</updated>
+  <updated>2015-01-25T21:29:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx 的 Worker_cpu_affinity 參數]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/25/nginx-worker-cpu-affinity/"/>
+    <updated>2015-01-25T21:13:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/25/nginx-worker-cpu-affinity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>nginx 可以藉由使用 <code>worker_cpu_affinity</code> 在多核分配進程在哪幾顆 CPU 下執行。</p>
+
+<p>四核四個進程</p>
+
+<pre><code>worker_processes 4;
+worker_cpu_affinity 1000 0100 0010 0001;
+</code></pre>
+
+<p>四核兩個進程</p>
+
+<pre><code>worker_processes 2;
+worker_cpu_affinity 1000 0001;
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx-systemtap-toolkit]]></title>
@@ -120,75 +144,6 @@ vim /etc/init.d/nginx
 <ol>
 <li>ngx_http_upstream_init</li>
 <li>ngx_http_upstream_init_request</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx Conf 設定]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/"/>
-    <updated>2014-06-18T22:56:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding</id>
-    <content type="html"><![CDATA[<p>記錄關於nginx 設定檔的配置。</p>
-
-<!-- more -->
-
-
-<h2>分類</h2>
-
-<ol>
-<li>debug</li>
-<li>優化</li>
-<li>運行必備</li>
-<li>事件類型</li>
-</ol>
-
-
-<h2>debug用</h2>
-
-<ol>
-<li>deamon</li>
-<li>master_process</li>
-<li>error_log</li>
-<li>debug_points</li>
-<li>debug_connection</li>
-<li>worker_rlimit_core</li>
-<li>working_directory</li>
-</ol>
-
-
-<h2>優化</h2>
-
-<ol>
-<li>worker_processes</li>
-<li>worker_cpu_affinity</li>
-<li>ssl_engine</li>
-<li>timer_resolution</li>
-<li>worker_priority</li>
-</ol>
-
-
-<h2>運行必備</h2>
-
-<ol>
-<li>env 環境變數</li>
-<li>include</li>
-<li>pid file</li>
-<li>user</li>
-<li>worker_rlimit_nofile</li>
-</ol>
-
-
-<h2>事件類型</h2>
-
-<ol>
-<li>accept_mutex</li>
-<li>lock_file</li>
-<li>accept_mutex_dely</li>
-<li>multi_accept</li>
-<li>use epoll</li>
-<li>worker_connections</li>
 </ol>
 
 ]]></content>
