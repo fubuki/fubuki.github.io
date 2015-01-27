@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-26T23:51:28+08:00</updated>
+  <updated>2015-01-27T23:39:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Event Sourcing Pattern]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern/"/>
+    <updated>2015-01-27T23:03:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在看 LMAX 的架構的時候，提到利用 <code>Event Sourcing</code> 這個模式開發程式可以完全在記憶體裡面運算，提升程式運算的效能，
+那個時候尚未了解 <code>Event Sourcing</code> 是何物，今天就紀錄一下研究的資料: <a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a>。</p>
+
+<p><a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Golang 開發環境]]></title>
@@ -313,20 +328,6 @@ umount /srv
 <p>透過 pid 跟蹤</p>
 
 <p>透過 port 跟蹤</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx-systemtap-toolkit]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/07/nginx-systemtap-toolkit/"/>
-    <updated>2015-01-07T21:52:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/07/nginx-systemtap-toolkit</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有學到使用 <code>systemtap</code> 跟蹤內核的行為，這樣用來了解程式的行為十分有幫助，而今天看到了一個使用
-<code>systemtap</code> 測試分析 nginx 的工具 : <a href="https://github.com/openresty/nginx-systemtap-toolkit">nginx-systemtap-toolkit</a>， 這個工具可以用來查看 nginx 內部各個
-區塊實際執行的情形，在他的網頁有很多命令可以使用，如果遇到 strace 還不能解決的情形可以透過的工具查詢。</p>
 ]]></content>
   </entry>
   
