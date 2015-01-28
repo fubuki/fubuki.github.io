@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-27T23:39:47+08:00</updated>
+  <updated>2015-01-28T23:45:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSON-LD]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/28/json-ld/"/>
+    <updated>2015-01-28T23:29:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/28/json-ld</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://json-ld.org/">JSON for Linking Data</a> 在 JSON 上面添加新的規格，似乎是希望讓機器能夠更有效的處理資料。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Event Sourcing Pattern]]></title>
@@ -306,28 +318,6 @@ umount /srv
 網路上看到有人翻譯成信息覓食理論，是把人搜尋情報視為一種覓食行為，藉此研究使用者是怎麼從一個網頁轉移到到下一個網頁。</p>
 
 <p>另外書中有提到理論生態學的東西，說明 <code>Information Foraging</code> 源自於生態學裡面的覓食理論，相關的有 Optimal foraging theory，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Strace 跟蹤進程]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/08/strace-nginx/"/>
-    <updated>2015-01-08T23:28:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/08/strace-nginx</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前使用 lighttpd + web.py 架設環境時不知道什麼原因跑不起來，但是 log 裡面沒有顯示可用的訊息除錯，
-後來學到使用 <code>strace</code> 追蹤 lighttpd 的運行過程，查到是有模組沒有安裝造成的。</p>
-
-<p>直接運行</p>
-
-<pre><code>strace -ff lighttpd -D -f /etc/lighttpd/lighttpd.conf
-</code></pre>
-
-<p>透過 pid 跟蹤</p>
-
-<p>透過 port 跟蹤</p>
 ]]></content>
   </entry>
   
