@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-28T23:45:52+08:00</updated>
+  <updated>2015-01-29T23:46:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Torch 平台]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/29/facebook-torch/"/>
+    <updated>2015-01-29T23:38:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/29/facebook-torch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://torch.ch">torch</a> 是一個 Machine learning 平台，裡面支援不少演算法， <a href="https://research.facebook.com/ai">FAIR</a> 最近放出基於這個平台的工具:<a href="https://github.com/facebook/fbcunn">fbcunn</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSON-LD]]></title>
@@ -303,21 +315,6 @@ umount /srv
         phalcon_get_current_key(&amp;var, hash, &amp;hash_position TSRMLS_CC); \
     } while (0)
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information Foraging]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/09/information-foraging-theory/"/>
-    <updated>2015-01-09T23:08:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/09/information-foraging-theory</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在 <code>設計搜索體驗：搜索的藝術與科學</code> 這本書的 <code>Information Seeking</code> 的章節看到這個名詞 <code>Information Foraging</code>，
-網路上看到有人翻譯成信息覓食理論，是把人搜尋情報視為一種覓食行為，藉此研究使用者是怎麼從一個網頁轉移到到下一個網頁。</p>
-
-<p>另外書中有提到理論生態學的東西，說明 <code>Information Foraging</code> 源自於生態學裡面的覓食理論，相關的有 Optimal foraging theory，</p>
 ]]></content>
   </entry>
   
