@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-29T23:46:05+08:00</updated>
+  <updated>2015-01-30T23:48:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[二月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/30/2015-2-booklist/"/>
+    <updated>2015-01-30T23:16:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/30/2015-2-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>搜索引擎：信息檢索實踐</li>
+<li>鏈結分析</li>
+<li>Mastering OpenCV with Practical Computer Vision Projects</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Torch 平台]]></title>
@@ -294,27 +311,6 @@ umount /srv
 
 <p><a href="http://gnuradio.microembedded.com/">GNU Radio</a> 可以透過圖形直接對接收到的訊號進行處理，也可以透過 Python 撰寫程式碼，不過需要先去
 複習大學的數位訊號處理。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[C 語言的巨集]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/10/define-multi-line/"/>
-    <updated>2015-01-10T22:43:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/10/define-multi-line</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在研究 Phalcon 的語法時看到下面這種定義巨集的程式碼，跟以前直接用大括號寫成 Function 的方式不一樣，
-後來在別人的網誌看到這兩種的差別，直接使用 Function 的區塊寫法如果沒有注意寫法在預編譯的時候展開可能導致錯誤。</p>
-
-<pre><code>/** Get the current hash key without copying the hash key */
-#define PHALCON_GET_HKEY(var, hash, hash_position) \
-    do { \
-        PHALCON_INIT_NVAR_PNULL(var); \
-        phalcon_get_current_key(&amp;var, hash, &amp;hash_position TSRMLS_CC); \
-    } while (0)
-</code></pre>
 ]]></content>
   </entry>
   
