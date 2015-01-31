@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-30T23:48:10+08:00</updated>
+  <updated>2015-01-31T23:14:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WhatsApp 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/31/whatapp/"/>
+    <updated>2015-01-31T23:06:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/31/whatapp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second</a>
+<a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That&rsquo;s &lsquo;Billion&rsquo; with a &lsquo;B&rsquo;: Scaling to the Next Level at WhatsApp</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Event Sourcing Pattern]]></title>
@@ -38,6 +51,14 @@
 
 <p><a href="http://martinfowler.com/articles/lmax.html">The LMAX Architecture</a> 一個高吞吐量的金融交易平台，是由 LMAX Exchange 基於 JVM 所建立的架構，文章裡面提到一些他們如何做到每秒六百萬訂單的
 方法，另外這邊有 <a href="http://www.infoq.com/presentations/LMAX">LMAX - How to Do 100K TPS at Less than 1ms Latency</a> 文章作者的演講。</p>
+
+<ol>
+<li>Event Source</li>
+<li>全都在記憶體裡面運算</li>
+<li>由於 Event Source 的關係要另外處理持久化的問題</li>
+<li>Disruptor 的 RingBuffer 結構</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -71,29 +92,6 @@
 
 <p><a href="http://www.slideshare.net/JayKreps1/i-32858698">The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</a>
 <a href="http://shop.oreilly.com/product/0636920034339.do">I Heart Logs Event Data, Stream Processing, and Data Integration </a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[淘寶技術這十年]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian/"/>
-    <updated>2014-09-22T23:53:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/22/tao-bao-ji-shu-zhe-shi-nian</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看完了<code>淘寶技術這十年</code>這本書，道盡淘寶技術的發展，從 LAMP 到 JAVA 這其中有些想法可以參考，
-在擴展上和建構整個系統的歷史上可以看到淘寶如何建構 DB CDN Cache 還有硬體的過程。</p>
-
-<h5>書中提到的技術列表</h5>
-
-<ol>
-<li><a href="http://tair.taobao.org/">tair</a></li>
-<li><a href="http://code.taobao.org/p/tfs/src/">tfs</a></li>
-<li><a href="http://sqlrelay.sourceforge.net/">sqlrelay</a></li>
-<li><a href="https://github.com/alibaba/cobar">cobar</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

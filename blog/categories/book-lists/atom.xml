@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Book Lists | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/book-lists/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-30T23:48:10+08:00</updated>
+  <updated>2015-01-31T23:14:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[二月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/30/2015-2-booklist/"/>
+    <updated>2015-01-30T23:16:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/30/2015-2-booklist</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>搜索引擎：信息檢索實踐</li>
+<li>鏈結分析</li>
+<li>Mastering OpenCV with Practical Computer Vision Projects</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一月書單]]></title>
@@ -78,24 +95,6 @@
 <li>告別瀑布，擁抱 Scrum：解析微軟與 Adobe 如何在 30 天內開發出新軟體</li>
 <li>學徒模式：優秀軟體開發者的養成之路</li>
 <li>設計模式的解析與活用</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[九月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan/"/>
-    <updated>2014-08-31T22:55:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/31/jiu-yue-shu-dan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>erlang programming</li>
-<li>資訊視覺圖表－讓資料變好看的大數據時代資料表達術</li>
-<li>Specification by Example</li>
-<li>编写高质量代码:改善JavaScript程序的188个建议</li>
 </ol>
 
 ]]></content>

@@ -105,6 +105,14 @@
 
 <p><a href="http://martinfowler.com/articles/lmax.html">The LMAX Architecture</a> 一個高吞吐量的金融交易平台，是由 LMAX Exchange 基於 JVM 所建立的架構，文章裡面提到一些他們如何做到每秒六百萬訂單的
 方法，另外這邊有 <a href="http://www.infoq.com/presentations/LMAX">LMAX - How to Do 100K TPS at Less than 1ms Latency</a> 文章作者的演講。</p>
+
+<ol>
+<li>Event Source</li>
+<li>全都在記憶體裡面運算</li>
+<li>由於 Event Source 的關係要另外處理持久化的問題</li>
+<li>Disruptor 的 RingBuffer 結構</li>
+</ol>
+
 </div>
 
 
@@ -165,6 +173,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/01/31/whatapp/">WhatsApp 的架構</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/01/30/2015-2-booklist/">二月書單</a>
       </li>
     
@@ -180,10 +192,6 @@
         <a href="/blog/2015/01/27/event-sourcing-pattern/">Event Sourcing Pattern</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/01/26/golang-kai-fa-huan-jing/">Golang 開發環境</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -193,12 +201,11 @@
   <li><a href='/blog/categories/algorithm'>Algorithm (14)</a></li>
   <li><a href='/blog/categories/android'>Android (7)</a></li>
   <li><a href='/blog/categories/api'>Api (1)</a></li>
-  <li><a href='/blog/categories/architecture'>Architecture (5)</a></li>
+  <li><a href='/blog/categories/architecture'>Architecture (6)</a></li>
   <li><a href='/blog/categories/astreisk'>Astreisk (3)</a></li>
   <li><a href='/blog/categories/atom'>Atom (1)</a></li>
   <li><a href='/blog/categories/bdd'>Bdd (1)</a></li>
-  <li><a href='/blog/categories/book-lists'>Book lists (11)</a></li>
-  <li><a href='/blog/categories/books-list'>Books list (1)</a></li>
+  <li><a href='/blog/categories/book-lists'>Book lists (12)</a></li>
   <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
   <li><a href='/blog/categories/c'>C (1)</a></li>
   <li><a href='/blog/categories/c-'>C++ (1)</a></li>

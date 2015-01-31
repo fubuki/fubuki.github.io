@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-30T23:48:10+08:00</updated>
+  <updated>2015-01-31T23:14:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WhatsApp 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/31/whatapp/"/>
+    <updated>2015-01-31T23:06:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/31/whatapp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second</a>
+<a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That&rsquo;s &lsquo;Billion&rsquo; with a &lsquo;B&rsquo;: Scaling to the Next Level at WhatsApp</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[二月書單]]></title>
@@ -224,6 +237,14 @@ worker_cpu_affinity 1000 0001;
 
 <p><a href="http://martinfowler.com/articles/lmax.html">The LMAX Architecture</a> 一個高吞吐量的金融交易平台，是由 LMAX Exchange 基於 JVM 所建立的架構，文章裡面提到一些他們如何做到每秒六百萬訂單的
 方法，另外這邊有 <a href="http://www.infoq.com/presentations/LMAX">LMAX - How to Do 100K TPS at Less than 1ms Latency</a> 文章作者的演講。</p>
+
+<ol>
+<li>Event Source</li>
+<li>全都在記憶體裡面運算</li>
+<li>由於 Event Source 的關係要另外處理持久化的問題</li>
+<li>Disruptor 的 RingBuffer 結構</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -295,22 +316,6 @@ umount /srv
 </code></pre>
 
 <p>重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[在 VM 上面安裝 GNURadio]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/11/gnuradio/"/>
-    <updated>2015-01-11T20:09:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/11/gnuradio</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近開始玩起 SDR 接收無線電訊號，於是另外安裝安裝 <a href="http://gnuradio.microembedded.com/">GNU Radio</a> 用來處理無線電訊號，一開始
-是使用安裝好的 Live cd 測試能否接收到訊號，測試沒問題後就透過 <a href="http://gnuradio.org/redmine/projects/gnuradio/wiki/UbuntuInstall">UbuntuInstall</a> 這篇教學自行安裝。</p>
-
-<p><a href="http://gnuradio.microembedded.com/">GNU Radio</a> 可以透過圖形直接對接收到的訊號進行處理，也可以透過 Python 撰寫程式碼，不過需要先去
-複習大學的數位訊號處理。</p>
 ]]></content>
   </entry>
   
