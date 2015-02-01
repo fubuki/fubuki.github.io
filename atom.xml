@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-01-31T23:14:31+08:00</updated>
+  <updated>2015-02-01T23:54:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Leveldb 感想]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/01/leveldb/"/>
+    <updated>2015-02-01T23:47:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/01/leveldb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/leveldb">Leveldb</a> 是一個 key-value 的儲存系統，是將資料直接存放在硬碟上而不是記憶體上面。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WhatsApp 的架構]]></title>
@@ -145,6 +157,8 @@ worker_cpu_affinity 1000 0001;
 
 <p>在國外一場研討會看到一篇 <a href="http://alissapajer.github.io/conferenceslides/craftconf2014/#/">Functional Examples from Category Theory</a> 的議程是跟數學的 <a href="http://en.wikipedia.org/wiki/Category_theory">Category theory</a> 有關的東西，
 正好跟最近在看的<code>細胞自動機</code>和<code>語義學習</code>有關，因此記錄一下。</p>
+
+<p>日本那邊的 Category Theory 學習資料: <a href="http://nineties.github.io/category-seminar/#/">2013年 圏論勉強会 資料</a>。</p>
 ]]></content>
   </entry>
   
@@ -294,28 +308,6 @@ umount /srv
  這串訊息，這時就要用另外一種方法。</p>
 
 <p> 如果使用 single 參數行不通就換成 <code>rw init=/bin/bash</code>， 然後按下 ctrl + x 開機就會直接進去主機，之後使用 passwd 更改密碼即可。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ubuntu 安裝 Zsh]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/12/linux-zsh/"/>
-    <updated>2015-01-12T23:26:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/12/linux-zsh</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>安裝 zsh</p>
-
-<pre><code>apt-get install zsh
-</code></pre>
-
-<p>安裝 <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a></p>
-
-<pre><code>wget --no-check-certificate http://install.ohmyz.sh -O - | bash
-</code></pre>
-
-<p>重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。</p>
 ]]></content>
   </entry>
   
