@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-01T23:54:10+08:00</updated>
+  <updated>2015-02-02T23:35:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Perfect Hash Function]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/02/perfect-hash-function/"/>
+    <updated>2015-02-02T22:44:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/02/perfect-hash-function</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到 <code>Perfect Hash Function</code> 這個東西，是可以避免 Conflict 的 Hash 函數，這類的函數主要是靜態的集合，但是也有動態的
+<a href="http://en.wikipedia.org/wiki/Dynamic_perfect_hashing">Dynamic perfect hashing</a>，目前有看到 <a href="http://www.ibm.com/developerworks/cn/linux/l-gperf.html">使用 gperf 实现高效的 C/C++ 命令行处理</a> 這篇文章是解說 <code>Perfect Hash Function</code> 的應用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HITS Algorithm]]></title>
@@ -94,39 +107,6 @@
 <li>TURN</li>
 <li>FullProxy</li>
 <li>ICE</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Distributed Hash Table 理論]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/01/distributed-hash-table/"/>
-    <updated>2014-11-01T22:47:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/01/distributed-hash-table</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在許多 P2P 系統都有在使用 distributed hash table (DHT) 分享網路中的資訊。</p>
-
-<h3>特性</h3>
-
-<ol>
-<li>Autonomy and Decentralization</li>
-<li>Fault tolerance</li>
-<li>Scalability</li>
-</ol>
-
-
-<h3>架構</h3>
-
-<ol>
-<li>Chord</li>
-<li>Content-Addressable Network (CAN)</li>
-<li>Global Information Sharing Protocol (GISP)</li>
-<li>Kademlia</li>
-<li>Pastry</li>
-<li>Tapestry</li>
 </ol>
 
 ]]></content>

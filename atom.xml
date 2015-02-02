@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-01T23:54:10+08:00</updated>
+  <updated>2015-02-02T23:35:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Perfect Hash Function]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/02/perfect-hash-function/"/>
+    <updated>2015-02-02T22:44:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/02/perfect-hash-function</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到 <code>Perfect Hash Function</code> 這個東西，是可以避免 Conflict 的 Hash 函數，這類的函數主要是靜態的集合，但是也有動態的
+<a href="http://en.wikipedia.org/wiki/Dynamic_perfect_hashing">Dynamic perfect hashing</a>，目前有看到 <a href="http://www.ibm.com/developerworks/cn/linux/l-gperf.html">使用 gperf 实现高效的 C/C++ 命令行处理</a> 這篇文章是解說 <code>Perfect Hash Function</code> 的應用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Leveldb 感想]]></title>
@@ -289,25 +302,6 @@ worker_cpu_affinity 1000 0001;
 <pre><code>mount -t cifs -o username="root",password="toor" //host ip/srv /srv
 umount /srv
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Single User Mode 修改 Linux 密碼]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode/"/>
-    <updated>2015-01-13T22:19:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在管理虛擬機的時候有些機器以前人部署的，所以完全無法得知登入密碼，後來透過網路得知 Linux 有個
- <code>Single User Mode</code> 可以讓使用者這個模式不用密碼登入主機，然後就可以透過 <code>passwd</code> 更改密碼。</p>
-
-<p> 要進入 <code>Single User Mode</code> 是要在開機時在 Grub 選單在開機的指令後面加上 single 參數，然後 ctrl + x 開機
- 就會進入 <code>Single User Mode</code> ，但是在我的 ubuntu 14.04 LTS 上面測試卻行不通，會顯示 <code>give root password for maintenance single</code>
- 這串訊息，這時就要用另外一種方法。</p>
-
-<p> 如果使用 single 參數行不通就換成 <code>rw init=/bin/bash</code>， 然後按下 ctrl + x 開機就會直接進去主機，之後使用 passwd 更改密碼即可。</p>
 ]]></content>
   </entry>
   
