@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-02T23:35:21+08:00</updated>
+  <updated>2015-02-03T23:40:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Swarm Intelligence]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/03/swarm-intelligence/"/>
+    <updated>2015-02-03T23:33:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/03/swarm-intelligence</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看關於研究人類在網路世界的行為動力學看到的東西: <a href="http://en.wikipedia.org/wiki/Swarm_intelligence">Swarm intelligence</a> ， 在人工智慧方面應用的蠻廣的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Perfect Hash Function]]></title>
@@ -285,23 +297,6 @@ worker_cpu_affinity 1000 0001;
 
 <p>今天看到一篇關於介紹 sql join 的文章 <a href="http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins">Visual Representation of SQL Joins</a>，裡面把所有的 join 形式解說一遍，並且
 有程式碼和圖片搭配，看完就可以了解怎麼使用 sql 的 join 語法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux 掛載 Samba 目錄的方法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/14/linux-mount-samba/"/>
-    <updated>2015-01-14T23:19:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/14/linux-mount-samba</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近幫人建立一個根據正式機的鏡像系統，需要掛載在多台主機掛載相同的目錄，所以紀錄一下掛載的方法，
-以前有用 <code>smbfs</code> 掛載但是比較新的版本似乎只能用 <code>cifs</code>。</p>
-
-<pre><code>mount -t cifs -o username="root",password="toor" //host ip/srv /srv
-umount /srv
-</code></pre>
 ]]></content>
   </entry>
   
