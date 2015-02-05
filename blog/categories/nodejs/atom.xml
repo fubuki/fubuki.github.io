@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-04T23:21:42+08:00</updated>
+  <updated>2015-02-05T23:49:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Node Apns ECONNRESET]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/05/node-js-econnreset/"/>
+    <updated>2015-02-05T23:43:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/05/node-js-econnreset</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
+在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
+斷線後，自行重新連線。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Io.js]]></title>
@@ -77,26 +91,6 @@ serverDomain.run(function() {
 <p><a href="http://cnpmjs.org/">cnpm</a> 可以讓使用者建立給企業用的 npm 服務，由於公司政策的關係有時候連接 npm 服務會有問題，
 並且如果有自製的套件有發布到多台機器上會有點麻煩，藉此可以利用 <a href="http://cnpmjs.org/">cnpm</a> 加速下載並且避開一些
 機器連網的問題。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github NodeLoad]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/24/github-nodeload/"/>
-    <updated>2014-08-24T23:18:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/24/github-nodeload</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在看一本書書名叫 <code>深入淺出 node.js</code> ， 裡面提到一個關於 node.js 在 github 上的應用名叫 <code>nodeload.</code>，使用 node.js 取代原本的
-ruby 提供從倉庫下載打包好的原始碼的服務，不過去查 <a href="https://github.com/benschmaus/nodeload">nodeload</a> 的倉庫，似乎很久沒維護了，也許只是找到同名的專案，不過可以在 github的
-官方 blog 參考下面兩篇文章讓開發者作為提供類似服務的參考。</p>
-
-<ol>
-<li><a href="https://github.com/blog/1089-nodeload-metrics">Nodeload Metrics</a></li>
-<li><a href="https://github.com/blog/678-meet-nodeload-the-new-download-server">Meet Nodeload, the new Download server</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-04T23:21:42+08:00</updated>
+  <updated>2015-02-05T23:49:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Node Apns ECONNRESET]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/05/node-js-econnreset/"/>
+    <updated>2015-02-05T23:43:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/05/node-js-econnreset</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
+在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
+斷線後，自行重新連線。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[OpenRefine]]></title>
     <link href="http://fubuki.github.io/blog/2015/02/04/openrefine/"/>
     <updated>2015-02-04T23:16:03+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/02/04/openrefine</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a> 可以用來處理 <code>Bad Data</code> 的工具。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a> 可以用來處理 <code>Bad Data</code> 的工具。</p>
 ]]></content>
   </entry>
   
@@ -272,27 +289,6 @@ worker_cpu_affinity 1000 0001;
 <p>Linux 有個 taskset 指令可以在多核環境下指定特定的 Process 在某個 CPU 下運行，這個指令是看到有人用在 node.js 腳本上，
 由於 node.js 本身如果沒有特別處理是無法發揮多核的效能，所以建立多個 node.js Process 然後個別指定每個 CPU 上面，這樣
 就可以將使用到多核的效能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LMAX Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/16/lmax-architecture/"/>
-    <updated>2015-01-16T22:37:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/16/lmax-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://martinfowler.com/articles/lmax.html">The LMAX Architecture</a> 一個高吞吐量的金融交易平台，是由 LMAX Exchange 基於 JVM 所建立的架構，文章裡面提到一些他們如何做到每秒六百萬訂單的
-方法，另外這邊有 <a href="http://www.infoq.com/presentations/LMAX">LMAX - How to Do 100K TPS at Less than 1ms Latency</a> 文章作者的演講。</p>
-
-<ol>
-<li>Event Source</li>
-<li>全都在記憶體裡面運算</li>
-<li>由於 Event Source 的關係要另外處理持久化的問題</li>
-<li>Disruptor 的 RingBuffer 結構</li>
-</ol>
-
 ]]></content>
   </entry>
   
