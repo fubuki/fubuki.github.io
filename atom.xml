@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-05T23:49:31+08:00</updated>
+  <updated>2015-02-06T23:52:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[KMP AC BF BM 演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf/"/>
+    <updated>2015-02-06T23:29:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>可以用於字串匹配的問題。</p>
+
+<ol>
+<li>Knuth–Morris–Pratt Algorithm</li>
+<li>Aho-Corasick Algorithm</li>
+<li>Brute Force Algorithm</li>
+<li>Boyer-Moore Algorithm</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Node Apns ECONNRESET]]></title>
@@ -275,20 +295,6 @@ worker_cpu_affinity 1000 0001;
 
 <p>HITS(Hyperlink lnduccd Topic Search)算法根據 URL 的演算法，跟 Page Rank 不同的地方是 HITS 針對已搜尋出來了的結果
 進行排序，所以會每次的查詢都會計算一次結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux Taskset 指令]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/17/linux-taskset/"/>
-    <updated>2015-01-17T23:20:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/17/linux-taskset</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Linux 有個 taskset 指令可以在多核環境下指定特定的 Process 在某個 CPU 下運行，這個指令是看到有人用在 node.js 腳本上，
-由於 node.js 本身如果沒有特別處理是無法發揮多核的效能，所以建立多個 node.js Process 然後個別指定每個 CPU 上面，這樣
-就可以將使用到多核的效能。</p>
 ]]></content>
   </entry>
   

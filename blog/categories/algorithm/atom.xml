@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-05T23:49:31+08:00</updated>
+  <updated>2015-02-06T23:52:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[KMP AC BF BM 演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf/"/>
+    <updated>2015-02-06T23:29:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>可以用於字串匹配的問題。</p>
+
+<ol>
+<li>Knuth–Morris–Pratt Algorithm</li>
+<li>Aho-Corasick Algorithm</li>
+<li>Brute Force Algorithm</li>
+<li>Boyer-Moore Algorithm</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Perfect Hash Function]]></title>
@@ -73,40 +93,6 @@
 <li>局部場法</li>
 <li>特殊點法</li>
 <li>傅立葉轉換</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[P2P NAT 穿越技術]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/11/p2p-nat/"/>
-    <updated>2014-11-11T23:09:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/11/p2p-nat</id>
-    <content type="html"><![CDATA[<p>P2P 在 NAT 環境的穿越技術。</p>
-
-<!-- more -->
-
-
-<h3>NAT 有哪些類型</h3>
-
-<ol>
-<li>Full Cone NAT</li>
-<li>Restricted Cone NAT</li>
-<li>Port Restricted Cone NAT</li>
-<li>Symmetric NAT</li>
-</ol>
-
-
-<h3>NAT 穿越技術</h3>
-
-<ol>
-<li>ALG</li>
-<li>MIDCOM</li>
-<li>STUN</li>
-<li>TURN</li>
-<li>FullProxy</li>
-<li>ICE</li>
 </ol>
 
 ]]></content>

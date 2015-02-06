@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Data Analysis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/data-analysis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-05T23:49:31+08:00</updated>
+  <updated>2015-02-06T23:52:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenRefine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/04/openrefine/"/>
+    <updated>2015-02-04T23:16:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/04/openrefine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a> 可以用來處理 <code>Bad Data</code> 的工具。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Beautiful Evidence]]></title>
