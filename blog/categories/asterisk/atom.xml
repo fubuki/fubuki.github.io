@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Asterisk | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/asterisk/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-02-07T23:44:14+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk LDAP]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/07/asterisk-ldap/"/>
+    <updated>2015-02-07T23:41:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/07/asterisk-ldap</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Asterisk 使用 <a href="http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/ExternalServices_id291590.html">LDAP</a> 作認證。</p>
+]]></content>
+  </entry>
+  
+</feed>

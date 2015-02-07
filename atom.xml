@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-06T23:52:07+08:00</updated>
+  <updated>2015-02-07T23:44:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Asterisk LDAP]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/07/asterisk-ldap/"/>
+    <updated>2015-02-07T23:41:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/07/asterisk-ldap</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Asterisk 使用 <a href="http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/ExternalServices_id291590.html">LDAP</a> 作認證。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[KMP AC BF BM 演算法]]></title>
@@ -282,19 +294,6 @@ worker_cpu_affinity 1000 0001;
 
 
 <p>一系列關於 Android 性能的影片: <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIKEOXh5TwZEv89aofHzNCiu">Android Performance Patterns</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HITS Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/18/hits-algorithm/"/>
-    <updated>2015-01-18T22:16:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/18/hits-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>HITS(Hyperlink lnduccd Topic Search)算法根據 URL 的演算法，跟 Page Rank 不同的地方是 HITS 針對已搜尋出來了的結果
-進行排序，所以會每次的查詢都會計算一次結果。</p>
 ]]></content>
   </entry>
   
