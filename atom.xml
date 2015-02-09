@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-08T23:46:41+08:00</updated>
+  <updated>2015-02-09T23:55:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Actors Concurrency]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/09/actors-concurrency/"/>
+    <updated>2015-02-09T23:53:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/09/actors-concurrency</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Actor_model">Actor model</a> 一個 concurrency model。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scss Sass Less 的比較]]></title>
@@ -281,20 +293,6 @@ worker_cpu_affinity 1000 0001;
 
 
 <p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[小世界理論]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/20/small-world-network/"/>
-    <updated>2015-01-20T23:46:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/20/small-world-network</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Small-world_network">Small-world network</a></p>
-
-<p>冪定律</p>
 ]]></content>
   </entry>
   
