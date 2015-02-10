@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-09T23:55:19+08:00</updated>
+  <updated>2015-02-10T23:04:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Stack Overflow 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou/"/>
+    <updated>2015-02-10T23:00:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Stack Overflow 是很有名的程式設計師用的問答網站， 下面兩篇文章介紹 Stack Overflow 怎麼使用 25 台伺服器撐起整個服務。</p>
+
+<ol>
+<li><a href="http://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/">What it takes to run Stack Overflow</a></li>
+<li><a href="http://www.dev-metal.com/architecture-stackoverflow/">The architecture of StackOverflow</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Actors Concurrency]]></title>
@@ -281,18 +299,6 @@ worker_cpu_affinity 1000 0001;
 <p>複雜網路理論</p>
 
 <p><a href="http://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model">Barabási–Albert model</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[討厭 PHP 的原因]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so/"/>
-    <updated>2015-01-21T22:39:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
 ]]></content>
   </entry>
   

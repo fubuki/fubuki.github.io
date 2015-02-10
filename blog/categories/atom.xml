@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-02-10T23:04:49+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Stack Overflow 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou/"/>
+    <updated>2015-02-10T23:00:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Stack Overflow 是很有名的程式設計師用的問答網站， 下面兩篇文章介紹 Stack Overflow 怎麼使用 25 台伺服器撐起整個服務。</p>
+
+<ol>
+<li><a href="http://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/">What it takes to run Stack Overflow</a></li>
+<li><a href="http://www.dev-metal.com/architecture-stackoverflow/">The architecture of StackOverflow</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
