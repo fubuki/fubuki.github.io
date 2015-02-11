@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-10T23:04:49+08:00</updated>
+  <updated>2015-02-11T23:33:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Stack Overflow 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou/"/>
+    <updated>2015-02-10T23:00:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Stack Overflow 是很有名的程式設計師用的問答網站， 下面兩篇文章介紹 Stack Overflow 怎麼使用 25 台伺服器撐起整個服務。</p>
+
+<ol>
+<li><a href="http://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/">What it takes to run Stack Overflow</a></li>
+<li><a href="http://www.dev-metal.com/architecture-stackoverflow/">The architecture of StackOverflow</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WhatsApp 的架構]]></title>
@@ -76,22 +94,6 @@
 
 <p>上面的文章有提到其他消息系統像是瑞士刀， <a href="https://github.com/real-logic/Aeron">Aeron</a> 則像是一把手術刀，沒有提供太多功能，並且是放在 tcp 的層級使用，
 看起來是用來建立系統低階的部分高階的部分在讓開發者另外去解決，這讓我感覺有點像 zeroMQ 但是文章裡面卻說是不一樣的東西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關於處理 LOG 的事情]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/27/process-log/"/>
-    <updated>2014-11-27T02:16:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/27/process-log</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在在研究 Apache Kafka 處理 LOG 的情報，最後發現我看到的資料都是 Jay Kreps 寫的， Jay Kreps 似乎是 Linkedln 的程式設計師，負責 Linkedln 的開源專案，
-這些專案裡面都是似乎都是用來處理 BIG DATA ，而 Jay Kreps 也寫了一些關於 BIG DATA 和 Linkedln 架構的技術文章，下面有列出最近在搜尋如何處理大量 LOG 的參考資料。</p>
-
-<p><a href="http://www.slideshare.net/JayKreps1/i-32858698">The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</a>
-<a href="http://shop.oreilly.com/product/0636920034339.do">I Heart Logs Event Data, Stream Processing, and Data Integration </a></p>
 ]]></content>
   </entry>
   

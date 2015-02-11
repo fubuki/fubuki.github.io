@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-10T23:04:49+08:00</updated>
+  <updated>2015-02-11T23:33:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WEB Cache 技術 CSI,SSI,ESI]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi/"/>
+    <updated>2015-02-11T23:30:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuOUF6OHhSNW1FWUU/edit?pli=1">When dynamic becomes static: the next step in web caching techniques</a></p>
+
+<ol>
+<li>CSI</li>
+<li>SSI</li>
+<li>ESI</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stack Overflow 的架構]]></title>
@@ -285,20 +304,6 @@ worker_cpu_affinity 1000 0001;
 正好跟最近在看的<code>細胞自動機</code>和<code>語義學習</code>有關，因此記錄一下。</p>
 
 <p>日本那邊的 Category Theory 學習資料: <a href="http://nineties.github.io/category-seminar/#/">2013年 圏論勉強会 資料</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Barabási–Albert Model]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/22/barabasi-albert-model/"/>
-    <updated>2015-01-22T23:44:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/22/barabasi-albert-model</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>複雜網路理論</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model">Barabási–Albert model</a></p>
 ]]></content>
   </entry>
   
