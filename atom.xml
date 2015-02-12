@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-11T23:33:51+08:00</updated>
+  <updated>2015-02-12T23:21:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Css Framework]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/12/css-framework/"/>
+    <updated>2015-02-12T23:08:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/12/css-framework</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>收集一些以前沒用過的 css framework。</p>
+
+<ol>
+<li><a href="http://montagestudio.com/montagejs/">MontageJS</a></li>
+<li><a href="http://www.52framework.com/">52framework</a></li>
+<li><a href="http://gumbyframework.com/">Gumby</a></li>
+<li><a href="http://semantic-ui.com/">Semantic UI</a></li>
+<li><a href="http://www.columnal.com/">Columnal</a></li>
+<li><a href="http://purecss.io/">Pure</a></li>
+<li><a href="http://getclank.com/">CLANK</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WEB Cache 技術 CSI,SSI,ESI]]></title>
@@ -289,21 +312,6 @@ worker_cpu_affinity 1000 0001;
 
 
 <p>鏈結分析用的程式 <a href="http://socscibot.wlv.ac.uk/">socscibot</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Category Theory]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/23/category-theory/"/>
-    <updated>2015-01-23T23:18:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/23/category-theory</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在國外一場研討會看到一篇 <a href="http://alissapajer.github.io/conferenceslides/craftconf2014/#/">Functional Examples from Category Theory</a> 的議程是跟數學的 <a href="http://en.wikipedia.org/wiki/Category_theory">Category theory</a> 有關的東西，
-正好跟最近在看的<code>細胞自動機</code>和<code>語義學習</code>有關，因此記錄一下。</p>
-
-<p>日本那邊的 Category Theory 學習資料: <a href="http://nineties.github.io/category-seminar/#/">2013年 圏論勉強会 資料</a>。</p>
 ]]></content>
   </entry>
   
