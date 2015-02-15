@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-14T23:41:08+08:00</updated>
+  <updated>2015-02-15T23:13:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Data Mining Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm/"/>
+    <updated>2015-02-15T23:11:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>C4.5</li>
+<li>k-Means</li>
+<li>SVM</li>
+<li>Apriori</li>
+<li>EM</li>
+<li>PageRank</li>
+<li>AdaBoost</li>
+<li>kNN</li>
+<li>Naive Bayes
+10 CART</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[KMP AC BF BM 演算法]]></title>
@@ -70,31 +94,6 @@
 <p>PRAM (Parallel random-access machine)</p>
 
 <p>使用多緒函式庫實踐兩種平行演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[指紋的特徵提取和比對]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition/"/>
-    <updated>2014-11-18T22:44:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/18/fingerprint-recognition</id>
-    <content type="html"><![CDATA[<p>列出指紋的特徵提取和比對的相關方法</p>
-
-<!-- more -->
-
-
-<h3>預處理</h3>
-
-<h3>特徵提取</h3>
-
-<h3>比對</h3>
-
-<ol>
-<li>局部場法</li>
-<li>特殊點法</li>
-<li>傅立葉轉換</li>
-</ol>
-
 ]]></content>
   </entry>
   

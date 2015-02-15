@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-14T23:41:08+08:00</updated>
+  <updated>2015-02-15T23:13:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Data Mining Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm/"/>
+    <updated>2015-02-15T23:11:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>C4.5</li>
+<li>k-Means</li>
+<li>SVM</li>
+<li>Apriori</li>
+<li>EM</li>
+<li>PageRank</li>
+<li>AdaBoost</li>
+<li>kNN</li>
+<li>Naive Bayes
+10 CART</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown 擴展語法]]></title>
@@ -287,23 +311,6 @@
 那個時候尚未了解 <code>Event Sourcing</code> 是何物，今天就紀錄一下研究的資料: <a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a>。</p>
 
 <p><a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Golang 開發環境]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing/"/>
-    <updated>2015-01-26T23:37:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://golang.org/doc/code.html">How to Write Go Code</a> 要先了解 go 的目錄結構，目前有個 wide 的 web ide 可以測試看看。</p>
-
-<pre><code>apt-get install gccgo-go
-mkdir mygo
-export GOPATH=~/mygo
-</code></pre>
 ]]></content>
   </entry>
   

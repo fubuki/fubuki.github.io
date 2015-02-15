@@ -9,8 +9,9 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
-之後等有空就來實現一些現實生活的例子。
+  <meta name="description" content="mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
+所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
+solr的api更新資料。
 ">
   
 
@@ -79,6 +80,40 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/21/mysql-udf/">Mysql-udf</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-21T23:42:53+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>11:42 pm</span></time>
+        
+           | <a href="/blog/2014/03/21/mysql-udf/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/21/mysql-udf/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
+所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
+solr的api更新資料。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -388,39 +423,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/15/mqtt/">Mqtt</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-15T00:34:00+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>12:34 am</span></time>
-        
-           | <a href="/blog/2014/03/15/mqtt/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/15/mqtt/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>mqtt 協定，之後有可能利用mqtt製作手機推播系統，雖然網易方面有將框架開源卻沒有把跟
-mqtt 相關的frontend部分開源。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/33">&larr; Older</a>
@@ -438,6 +440,10 @@ mqtt 相關的frontend部分開源。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/02/15/data-mining-algorithm/">Data Mining Algorithm</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/02/14/markdown-kuo-zhan-yu-fa/">Markdown 擴展語法</a>
       </li>
     
@@ -453,17 +459,13 @@ mqtt 相關的frontend部分開源。</p>
         <a href="/blog/2015/02/11/web-cache-csi-ssi-esi/">WEB Cache 技術 CSI,SSI,ESI</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/02/10/stack-overflow-de-jia-gou/">Stack Overflow 的架構</a>
-      </li>
-    
   </ul>
 </section>
 
 <section>
 <h1>分類</h1>
 <ul>
-  <li><a href='/blog/categories/algorithm'>Algorithm (16)</a></li>
+  <li><a href='/blog/categories/algorithm'>Algorithm (17)</a></li>
   <li><a href='/blog/categories/android'>Android (7)</a></li>
   <li><a href='/blog/categories/api'>Api (1)</a></li>
   <li><a href='/blog/categories/architecture'>Architecture (7)</a></li>
@@ -502,7 +504,7 @@ mqtt 相關的frontend部分開源。</p>
   <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
   <li><a href='/blog/categories/machine-learning'>Machine learning (4)</a></li>
   <li><a href='/blog/categories/mariadb'>Mariadb (2)</a></li>
-  <li><a href='/blog/categories/markdown'>Markdown (1)</a></li>
+  <li><a href='/blog/categories/markdown'>Markdown (2)</a></li>
   <li><a href='/blog/categories/memcached'>Memcached (4)</a></li>
   <li><a href='/blog/categories/mozilla'>Mozilla (3)</a></li>
   <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
