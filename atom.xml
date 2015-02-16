@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-15T23:13:26+08:00</updated>
+  <updated>2015-02-16T23:54:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Atom 編寫 Jade]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/16/jade-atom/"/>
+    <updated>2015-02-16T23:30:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/16/jade-atom</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在使用 express 建立監控服務，使用 <a href="http://jade-lang.com/">jade</a> 當作樣板引擎，一開始不太順手跟剛開始寫 python 的感覺一樣，
+後來寫起來感覺很不錯，atom 有預覽可以看編譯出來的 html 長什麼樣子。</p>
+
+<p><a href="http://jade-lang.com/">jade</a> 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
+就能有高亮和預覽的功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Data Mining Algorithm]]></title>
@@ -296,21 +312,6 @@
 
 
 <p><a href="http://json-ld.org/">JSON for Linking Data</a> 在 JSON 上面添加新的規格，似乎是希望讓機器能夠更有效的處理資料。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Event Sourcing Pattern]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern/"/>
-    <updated>2015-01-27T23:03:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在看 LMAX 的架構的時候，提到利用 <code>Event Sourcing</code> 這個模式開發程式可以完全在記憶體裡面運算，提升程式運算的效能，
-那個時候尚未了解 <code>Event Sourcing</code> 是何物，今天就紀錄一下研究的資料: <a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a>。</p>
-
-<p><a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a></p>
 ]]></content>
   </entry>
   
