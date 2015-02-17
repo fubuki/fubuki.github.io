@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-16T23:54:54+08:00</updated>
+  <updated>2015-02-17T23:49:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Merkle Tree]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/17/merkle-tree/"/>
+    <updated>2015-02-17T23:45:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/17/merkle-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
+似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Data Mining Algorithm]]></title>
@@ -80,20 +93,6 @@
 
 <p>HITS(Hyperlink lnduccd Topic Search)算法根據 URL 的演算法，跟 Page Rank 不同的地方是 HITS 針對已搜尋出來了的結果
 進行排序，所以會每次的查詢都會計算一次結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Parallel Sum and Prefix Scan]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan/"/>
-    <updated>2015-01-02T23:26:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/02/parallel-sum-prefix-scan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>PRAM (Parallel random-access machine)</p>
-
-<p>使用多緒函式庫實踐兩種平行演算法。</p>
 ]]></content>
   </entry>
   

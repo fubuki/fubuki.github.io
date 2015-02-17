@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-16T23:54:54+08:00</updated>
+  <updated>2015-02-17T23:49:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Merkle Tree]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/17/merkle-tree/"/>
+    <updated>2015-02-17T23:45:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/17/merkle-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
+似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Atom 編寫 Jade]]></title>
@@ -300,18 +313,6 @@
 
 
 <p><a href="http://torch.ch">torch</a> 是一個 Machine learning 平台，裡面支援不少演算法， <a href="https://research.facebook.com/ai">FAIR</a> 最近放出基於這個平台的工具:<a href="https://github.com/facebook/fbcunn">fbcunn</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JSON-LD]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/28/json-ld/"/>
-    <updated>2015-01-28T23:29:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/28/json-ld</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://json-ld.org/">JSON for Linking Data</a> 在 JSON 上面添加新的規格，似乎是希望讓機器能夠更有效的處理資料。</p>
 ]]></content>
   </entry>
   
