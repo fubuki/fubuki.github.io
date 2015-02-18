@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-17T23:49:59+08:00</updated>
+  <updated>2015-02-18T17:38:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Codis : A Redis Proxy]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy/"/>
+    <updated>2015-02-18T10:04:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>這星期看到<code>豌豆荚</code>分享他們怎麼設計 Redis 的架構，裡面提到他們使用 <code>Twemproxy</code> 和 reids cluster 的心得，
+但是他們似乎都不太滿意因此自行撰寫了 <a href="https://github.com/wandoulabs/codis">codis</a>。</p>
+
+<p><a href="https://github.com/wandoulabs/codis">codis</a> 是用 C 和 GO 撰寫的 proxy，看起來類似 <code>Twemproxy</code>，不過他跟 <code>Twemproxy</code> 不一樣的地方在提供動態 <code>scale</code>
+和監控後台的功能，但是效能上開發人員說會慢 20% 左右。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
@@ -81,25 +97,6 @@
 <li>glibc</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Flickr 如何使用 Redis 的 Sentinel]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel/"/>
-    <updated>2014-08-20T23:42:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/20/flickr-ru-he-shi-yong-redis-de-sentinel</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天看到一篇關於Flicker 如何使用 redis sentinel 的文章 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a>， 裡面提到一些
-我這邊沒有想過的和遇過的場景，之後擴展 redis 時可以參考避免掉一些問題。</p>
-
-<p>另外 redis的作者針對文章做出回應 <a href="http://antirez.com/news/55">Reply to Aphyr attack to Sentinel</a> ，下面就是作者在文章裡提出的當初開發出 Sentinel 的目的，
-也知道會有 <a href="http://code.flickr.net/2014/07/31/redis-sentinel-at-flickr/">Redis Sentinel at Flickr</a> 中提到的問題。</p>
-
-<pre><code>Redis Sentinel is a distributed *monitoring* system, with support for automatic failover.
-</code></pre>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-17T23:49:59+08:00</updated>
+  <updated>2015-02-18T17:38:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Codis : A Redis Proxy]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy/"/>
+    <updated>2015-02-18T10:04:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>這星期看到<code>豌豆荚</code>分享他們怎麼設計 Redis 的架構，裡面提到他們使用 <code>Twemproxy</code> 和 reids cluster 的心得，
+但是他們似乎都不太滿意因此自行撰寫了 <a href="https://github.com/wandoulabs/codis">codis</a>。</p>
+
+<p><a href="https://github.com/wandoulabs/codis">codis</a> 是用 C 和 GO 撰寫的 proxy，看起來類似 <code>Twemproxy</code>，不過他跟 <code>Twemproxy</code> 不一樣的地方在提供動態 <code>scale</code>
+和監控後台的功能，但是效能上開發人員說會慢 20% 左右。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Merkle Tree]]></title>
@@ -301,18 +317,6 @@
 <li>Mastering OpenCV with Practical Computer Vision Projects</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Torch 平台]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/29/facebook-torch/"/>
-    <updated>2015-01-29T23:38:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/29/facebook-torch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://torch.ch">torch</a> 是一個 Machine learning 平台，裡面支援不少演算法， <a href="https://research.facebook.com/ai">FAIR</a> 最近放出基於這個平台的工具:<a href="https://github.com/facebook/fbcunn">fbcunn</a>。</p>
 ]]></content>
   </entry>
   

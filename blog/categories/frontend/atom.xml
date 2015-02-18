@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-17T23:49:59+08:00</updated>
+  <updated>2015-02-18T17:38:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Atom 編寫 Jade]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/16/jade-atom/"/>
+    <updated>2015-02-16T23:30:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/16/jade-atom</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在使用 express 建立監控服務，使用 <a href="http://jade-lang.com/">jade</a> 當作樣板引擎，一開始不太順手跟剛開始寫 python 的感覺一樣，
+後來寫起來感覺很不錯，atom 有預覽可以看編譯出來的 html 長什麼樣子。</p>
+
+<p><a href="http://jade-lang.com/">jade</a> 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
+就能有高亮和預覽的功能。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HTTP/2 規格]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/13/http-slash-2/"/>
+    <updated>2015-02-13T23:40:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/13/http-slash-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://http2.github.io/">HTTP/2</a> 下一代的 HTTP 協定。</p>
+
+<p><a href="https://http2.github.io/">HTTP/2</a> 目前的情形 <a href="http://www.slideshare.net/shigeki_ohtsu/http2-ohtsu-html5conf2015">HTTP/2の現状とこれから</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WEB Cache 技術 CSI,SSI,ESI]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi/"/>
+    <updated>2015-02-11T23:30:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuOUF6OHhSNW1FWUU/edit?pli=1">When dynamic becomes static: the next step in web caching techniques</a></p>
+
+<ol>
+<li>CSI</li>
+<li>SSI</li>
+<li>ESI</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Canvas Fingerprinting]]></title>
@@ -55,40 +104,6 @@
 <li>Refactoring</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Login JavaScript SDK 在 Webview下的問題]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti/"/>
-    <updated>2014-06-06T22:31:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/06/facebook-login-javascript-sdk-zai-webviewxia-de-wen-ti</id>
-    <content type="html"><![CDATA[<p>在android或是ios底下使用Facebook 的JavaScript SDK通常是透過webview之類的實作，但是在需要登入Facebook的時候
-，雖然會導向登入頁但是卻無法正常導回登入前的頁面，畫面會呈現一片空白，後來發現有可能是因為Facebook是用popout
-出一個登入頁使得登入完成後無法正常redirect導原本的頁面才會發生這種情形，網路上有些解法是更改webview部分的程式碼
-讓redirect可以正常運作，不過還有另外一個方法是使用javascript直接導向facebook手機板的登入頁在redirect回來便可以
-避免登入後會出現空白頁的問題。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[第43回 HTML5とか勉強会]]></title>
-    <link href="http://fubuki.github.io/blog/2014/05/28/di-43hui-html5tokamian-qiang-hui/"/>
-    <updated>2014-05-28T21:32:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/05/28/di-43hui-html5tokamian-qiang-hui</id>
-    <content type="html"><![CDATA[<p>記錄一下在網路上看到的情報。</p>
-
-<!-- more -->
-
-
-<p>在網路上尋找關於LINE既読機能相關情報找到的，有可能是因為LINE使用SPDY的關係才找到<a href="http://atnd.org/events/46252">第43回 HTML5とか勉強会</a>這篇文章。
-<a href="http://atnd.org/events/46252">第43回 HTML5とか勉強会</a>這次聚會介紹了一些關於HTTP相關的情報，其中也有包括SPDY，不過裡面大部分都有聽過人提過，除了QUIC這個
-新的協議，在這篇<a href="http://www.infoq.com/news/2014/02/quic">Google Wants to Speed Up the Internet with QUIC</a>有比較詳細的介紹。</p>
-
-<p>另外在裡面也有提到<a href="http://peerjs.com/">peerjs</a>這個專案，包裹WebRTC讓開發者更容易使用，日後可以玩玩看，順便在這裡記錄一下LINE最近關於SPDY的文章。</p>
-
-<p><a href="http://tech.naver.jp/blog/?p=2381">Adopting SPDY in Line – Part 1: An Overview</a>  <br/>
-<a href="http://tech.naver.jp/blog/?p=2729">Adopting SPDY in LINE – Part 2: The Details</a></p>
 ]]></content>
   </entry>
   
