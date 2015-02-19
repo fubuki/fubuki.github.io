@@ -1,0 +1,17 @@
+---
+layout: post
+title: " KMP AC  BF BM 演算法"
+date: 2015-02-06 23:29:44 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+
+<!-- more -->
+
+可以用於字串匹配的問題。
+
+1. Knuth–Morris–Pratt Algorithm
+2. Aho-Corasick Algorithm
+3. Brute Force Algorithm
+4. Boyer-Moore Algorithm

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "二月書單"
+date: 2015-01-30 23:16:18 +0800
+comments: true
+categories: ["book lists"]
+---
+
+
+<!-- more -->
+
+1. 搜索引擎：信息檢索實踐
+2. 鏈結分析
+3. Mastering OpenCV with Practical Computer Vision Projects

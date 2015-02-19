@@ -1,0 +1,15 @@
+---
+layout: post
+title: "sql join 的類型"
+date: 2015-01-15 22:51:10 +0800
+comments: true
+categories: ["sql"]
+---
+
+
+<!-- more -->
+
+今天看到一篇關於介紹 sql join 的文章 [Visual Representation of SQL Joins]，裡面把所有的 join 形式解說一遍，並且
+有程式碼和圖片搭配，看完就可以了解怎麼使用 sql 的 join 語法。
+
+[Visual Representation of SQL Joins]:http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins

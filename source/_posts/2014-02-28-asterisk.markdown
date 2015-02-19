@@ -3,7 +3,7 @@ layout: post
 title: "Asterisk 簡介"
 date: 2014-02-28 12:13:43 +0800
 comments: true
-categories: ["Astreisk"]
+categories: ["asterisk"]
 ---
 
 目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到

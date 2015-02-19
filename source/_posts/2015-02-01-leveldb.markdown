@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Leveldb 感想"
+date: 2015-02-01 23:47:53 +0800
+comments: true
+categories: 
+---
+
+
+<!-- more -->
+
+[Leveldb] 是一個 key-value 的儲存系統，是將資料直接存放在硬碟上而不是記憶體上面。
+
+
+[Leveldb]:https://github.com/google/leveldb

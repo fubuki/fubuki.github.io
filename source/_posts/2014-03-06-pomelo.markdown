@@ -3,7 +3,7 @@ layout: post
 title: "POMELO"
 date: 2014-03-06 22:41:33 +0800
 comments: true
-categories: nodejs
+categories: ["nodejs"]
 ---
 
 1. [pomelo官網](http://pomelo.netease.com/  "pomelo官網")  

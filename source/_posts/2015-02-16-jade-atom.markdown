@@ -1,0 +1,19 @@
+---
+layout: post
+title: "使用 atom 編寫 jade"
+date: 2015-02-16 23:30:12 +0800
+comments: true
+categories: ["frontend"]
+---
+
+
+<!-- more -->
+
+最近在使用 express 建立監控服務，使用 [jade] 當作樣板引擎，一開始不太順手跟剛開始寫 python 的感覺一樣，
+後來寫起來感覺很不錯，atom 有預覽可以看編譯出來的 html 長什麼樣子。
+
+[jade] 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
+就能有高亮和預覽的功能。
+
+
+[jade]:http://jade-lang.com/

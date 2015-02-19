@@ -1,0 +1,15 @@
+---
+layout: post
+title: "JSON-LD"
+date: 2015-01-28 23:29:21 +0800
+comments: true
+categories: 
+---
+
+
+<!-- more -->
+
+[JSON for Linking Data] 在 JSON 上面添加新的規格，似乎是希望讓機器能夠更有效的處理資料。
+
+
+[JSON for Linking Data]:http://json-ld.org/

@@ -3,7 +3,7 @@ layout: post
 title: "安裝 Asterisk GUI"
 date: 2014-10-01 23:30:42 +0800
 comments: true
-categories: ["Astreisk"]
+categories: ["asterisk"]
 ---
 
 <!-- more -->

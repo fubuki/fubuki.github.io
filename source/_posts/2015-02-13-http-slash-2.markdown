@@ -1,0 +1,17 @@
+---
+layout: post
+title: "HTTP/2 規格"
+date: 2015-02-13 23:40:22 +0800
+comments: true
+categories: ["frontend"]
+---
+
+<!-- more -->
+
+[HTTP/2] 下一代的 HTTP 協定。
+
+[HTTP/2] 目前的情形 [HTTP/2の現状とこれから]。
+
+
+[HTTP/2]:https://http2.github.io/
+[HTTP/2の現状とこれから]:http://www.slideshare.net/shigeki_ohtsu/http2-ohtsu-html5conf2015

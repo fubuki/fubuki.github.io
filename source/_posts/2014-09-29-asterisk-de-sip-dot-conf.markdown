@@ -3,7 +3,7 @@ layout: post
 title: "Asterisk 的 sip.conf"
 date: 2014-09-29 23:28:49 +0800
 comments: true
-categories: ["Astreisk"]
+categories: ["asterisk"]
 ---
 
 <!-- more -->
