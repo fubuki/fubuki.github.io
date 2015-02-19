@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-18T17:38:50+08:00</updated>
+  <updated>2015-02-19T21:01:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[透過 Devstack 使用 Openstack]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/19/openstack-devstack/"/>
+    <updated>2015-02-19T19:27:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/19/openstack-devstack</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>如果想要測試看看 Openstack 的功能，可以先使用 <a href="https://github.com/openstack-dev/devstack">Devstack</a> 在一台機器上面建立環境，可以免去很多麻煩的設定。</p>
+
+<p>我是在 ubuntu 14.04 的虛擬機器裡面執行，安裝方式主要是取得 <a href="https://github.com/openstack-dev/devstack">Devstack</a> 後使用非 root 帳號執行 <code>stack.sh</code> 腳本，
+另外這邊需要在 <code>/etc/sudoers</code> 設定本帳號在使用 sudo 時無需輸入密碼，然後在重新開機後需要使用 <code>rejoin-stack.sh</code> 啟動服務。</p>
+
+<h4>Install</h4>
+
+<pre><code>git clone https://github.com/openstack-dev/devstack.git
+cd devstack
+./stack.sh
+</code></pre>
+
+<h4>Minimal Configuration</h4>
+
+<pre><code>[[local|localrc]]
+ADMIN_PASSWORD=secrete
+DATABASE_PASSWORD=$ADMIN_PASSWORD
+RABBIT_PASSWORD=$ADMIN_PASSWORD
+SERVICE_PASSWORD=$ADMIN_PASSWORD
+SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Codis : A Redis Proxy]]></title>
@@ -300,23 +332,6 @@
 
 <p><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second</a>
 <a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That&rsquo;s &lsquo;Billion&rsquo; with a &lsquo;B&rsquo;: Scaling to the Next Level at WhatsApp</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[二月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/30/2015-2-booklist/"/>
-    <updated>2015-01-30T23:16:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/30/2015-2-booklist</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>搜索引擎：信息檢索實踐</li>
-<li>鏈結分析</li>
-<li>Mastering OpenCV with Practical Computer Vision Projects</li>
-</ol>
-
 ]]></content>
   </entry>
   
