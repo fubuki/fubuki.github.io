@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-19T21:01:13+08:00</updated>
+  <updated>2015-02-20T22:29:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cuckoo Hash]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/20/cuckoo-hash/"/>
+    <updated>2015-02-20T22:26:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/20/cuckoo-hash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Cuckoo hash 是用來解決 hash 碰撞的方法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[透過 Devstack 使用 Openstack]]></title>
@@ -319,19 +331,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 
 <p><a href="https://github.com/google/leveldb">Leveldb</a> 是一個 key-value 的儲存系統，是將資料直接存放在硬碟上而不是記憶體上面。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WhatsApp 的架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/31/whatapp/"/>
-    <updated>2015-01-31T23:06:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/31/whatapp</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second</a>
-<a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That&rsquo;s &lsquo;Billion&rsquo; with a &lsquo;B&rsquo;: Scaling to the Next Level at WhatsApp</a></p>
 ]]></content>
   </entry>
   
