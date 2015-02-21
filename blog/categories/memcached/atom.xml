@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-20T22:29:59+08:00</updated>
+  <updated>2015-02-21T21:22:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/21/memc3/"/>
+    <updated>2015-02-21T20:55:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/21/memc3</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
+提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached Repcached]]></title>
@@ -28,7 +41,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Memcache 調整]]></title>
+    <title type="html"><![CDATA[Memcache Tips]]></title>
     <link href="http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng/"/>
     <updated>2014-06-28T23:51:15+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng</id>

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-20T22:29:59+08:00</updated>
+  <updated>2015-02-21T21:22:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/21/memc3/"/>
+    <updated>2015-02-21T20:55:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/21/memc3</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
+提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cuckoo Hash]]></title>
@@ -319,18 +332,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 <p>最近看到 <code>Perfect Hash Function</code> 這個東西，是可以避免 Conflict 的 Hash 函數，這類的函數主要是靜態的集合，但是也有動態的
 <a href="http://en.wikipedia.org/wiki/Dynamic_perfect_hashing">Dynamic perfect hashing</a>，目前有看到 <a href="http://www.ibm.com/developerworks/cn/linux/l-gperf.html">使用 gperf 实现高效的 C/C++ 命令行处理</a> 這篇文章是解說 <code>Perfect Hash Function</code> 的應用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Leveldb 感想]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/01/leveldb/"/>
-    <updated>2015-02-01T23:47:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/01/leveldb</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/leveldb">Leveldb</a> 是一個 key-value 的儲存系統，是將資料直接存放在硬碟上而不是記憶體上面。</p>
 ]]></content>
   </entry>
   
