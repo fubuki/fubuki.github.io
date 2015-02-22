@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-21T21:22:06+08:00</updated>
+  <updated>2015-02-22T23:32:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[開發者討論 JIT 的文章]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/22/jit-compilers/"/>
+    <updated>2015-02-22T23:27:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/22/jit-compilers</id>
+    <content type="html"><![CDATA[<p><a href="http://lambda-the-ultimate.org/node/3851">Have tracing JIT compilers won?</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
@@ -319,19 +328,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 
 <p>最近在看關於研究人類在網路世界的行為動力學看到的東西: <a href="http://en.wikipedia.org/wiki/Swarm_intelligence">Swarm intelligence</a> ， 在人工智慧方面應用的蠻廣的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Perfect Hash Function]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/02/perfect-hash-function/"/>
-    <updated>2015-02-02T22:44:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/02/perfect-hash-function</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到 <code>Perfect Hash Function</code> 這個東西，是可以避免 Conflict 的 Hash 函數，這類的函數主要是靜態的集合，但是也有動態的
-<a href="http://en.wikipedia.org/wiki/Dynamic_perfect_hashing">Dynamic perfect hashing</a>，目前有看到 <a href="http://www.ibm.com/developerworks/cn/linux/l-gperf.html">使用 gperf 实现高效的 C/C++ 命令行处理</a> 這篇文章是解說 <code>Perfect Hash Function</code> 的應用。</p>
 ]]></content>
   </entry>
   
