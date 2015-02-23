@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-22T23:57:29+08:00</updated>
+  <updated>2015-02-23T23:00:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[node.js 建立 Child Process]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/23/node-dot-js-child-process/"/>
+    <updated>2015-02-23T22:49:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/23/node-dot-js-child-process</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在測試將手上一個 node.js 的系統分成好幾個子系統，然後主要的系統就只是去監控子系統
+避免當子系統出現問題時導致整個系統出現問題，這邊紀錄一下 node.js 怎麼建立 child process。</p>
+
+<p>以前有用過 node.js 的 cluster 模組去擴展 socket.io 的伺服器，現在是用 <code>child process</code> 模組建立
+新的 process 收到處理完成的訊息後就將 process 給殺掉， <code>child process</code> 目前有提供下面幾種方法。</p>
+
+<ol>
+<li>spawn</li>
+<li>exec</li>
+<li>execFile</li>
+<li>fork</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開發者討論 JIT 的文章]]></title>
@@ -23,6 +47,8 @@
 
 <p>在研究 HHVM 的時候看到關於 JIT 的討論文章 <a href="http://lambda-the-ultimate.org/node/3851">Have tracing JIT compilers won?</a>，裡面有不少是跟 JIT 相關的編譯器的開發者，
 文章討論到一些關於 JIT 技術的事情。</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Threaded_code">Threaded code</a></p>
 ]]></content>
   </entry>
   
@@ -320,18 +346,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 
 <p><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a> 可以用來處理 <code>Bad Data</code> 的工具。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Swarm Intelligence]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/03/swarm-intelligence/"/>
-    <updated>2015-02-03T23:33:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/03/swarm-intelligence</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看關於研究人類在網路世界的行為動力學看到的東西: <a href="http://en.wikipedia.org/wiki/Swarm_intelligence">Swarm intelligence</a> ， 在人工智慧方面應用的蠻廣的。</p>
 ]]></content>
   </entry>
   
