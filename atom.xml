@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-23T23:00:03+08:00</updated>
+  <updated>2015-02-24T23:28:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chubby 和 Zookeeper 的區別]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper/"/>
+    <updated>2015-02-24T23:22:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>兩者都是用來處理分散式系統的問題，chubby 是由 google 提出的，而 zookeeper 是類似 chubby 的開源實現軟體，
+這篇 <a href="http://research.google.com/archive/chubby.html">The Chubby lock service for loosely-coupled distributed systems</a> 是 google 提出的論文，可以看一下
+chubby 是提供了哪些功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[node.js 建立 Child Process]]></title>
@@ -334,18 +348,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 <p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
 在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
 斷線後，自行重新連線。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenRefine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/04/openrefine/"/>
-    <updated>2015-02-04T23:16:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/04/openrefine</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/OpenRefine/OpenRefine">OpenRefine</a> 可以用來處理 <code>Bad Data</code> 的工具。</p>
 ]]></content>
   </entry>
   

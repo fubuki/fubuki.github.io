@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-23T23:00:03+08:00</updated>
+  <updated>2015-02-24T23:28:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chubby 和 Zookeeper 的區別]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper/"/>
+    <updated>2015-02-24T23:22:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>兩者都是用來處理分散式系統的問題，chubby 是由 google 提出的，而 zookeeper 是類似 chubby 的開源實現軟體，
+這篇 <a href="http://research.google.com/archive/chubby.html">The Chubby lock service for loosely-coupled distributed systems</a> 是 google 提出的論文，可以看一下
+chubby 是提供了哪些功能。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開發者討論 JIT 的文章]]></title>
