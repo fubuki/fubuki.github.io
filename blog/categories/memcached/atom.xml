@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-24T23:28:06+08:00</updated>
+  <updated>2015-02-25T23:39:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[樂天的 ROMA]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/25/roma/"/>
+    <updated>2015-02-25T23:06:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/25/roma</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/roma/roma">ROMA</a> 是樂天基於 Ruby 開發的 key-value 快取伺服器，相容於 memcached 也就是可以透過 memcached 的
+函式庫操作 <a href="https://github.com/roma/roma">ROMA</a>。</p>
+
+<p><a href="https://github.com/roma/roma">ROMA</a> 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 <a href="http://roma-kvs.org">ROMA-Project</a> 官網的說明看似乎如果
+有一個端點離開群集卻不會失去資料。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
@@ -75,17 +91,6 @@
 key然後就可以快速查詢想要批量刪除的鍵值，最後是使用Deleting by Namespace的方法，實作出namespace後
 透過namespace批量刪除，實作可以參考<a href="https://code.google.com/p/memcached/wiki/NewProgrammingTricks#Namespacing">NewProgrammingTricks</a>，其實他的主要想法是使用固定的key pattern
 實作namespace，在透過管理namespace的版本號讓舊的cache自然失效。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached 1MB Limit]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit/"/>
-    <updated>2014-06-18T23:06:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/18/memcached-1mb-limit</id>
-    <content type="html"><![CDATA[<p>memcached在儲存單筆記錄的時候會有個限制，每筆記錄只能存放最大1MB的大小，以前沒有遇過這種問題，但是在最近一個
-專案上面突然遇到快取沒有作用的問題，後來發現有可能是存放的資料大於1MB的問題，在<a href="http://docs.oracle.com/cd/E17952_01/refman-5.6-en/ha-memcached-faq.html">ha-memcached-faq</a>裡面有說為什麼
-預設1MB和如何調整大小。</p>
 ]]></content>
   </entry>
   

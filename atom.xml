@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-24T23:28:06+08:00</updated>
+  <updated>2015-02-25T23:39:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[樂天的 ROMA]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/25/roma/"/>
+    <updated>2015-02-25T23:06:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/25/roma</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/roma/roma">ROMA</a> 是樂天基於 Ruby 開發的 key-value 快取伺服器，相容於 memcached 也就是可以透過 memcached 的
+函式庫操作 <a href="https://github.com/roma/roma">ROMA</a>。</p>
+
+<p><a href="https://github.com/roma/roma">ROMA</a> 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 <a href="http://roma-kvs.org">ROMA-Project</a> 官網的說明看似乎如果
+有一個端點離開群集卻不會失去資料。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Chubby 和 Zookeeper 的區別]]></title>
@@ -334,20 +350,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 <li>Boyer-Moore Algorithm</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Node Apns ECONNRESET]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/05/node-js-econnreset/"/>
-    <updated>2015-02-05T23:43:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/05/node-js-econnreset</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
-在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
-斷線後，自行重新連線。</p>
 ]]></content>
   </entry>
   
