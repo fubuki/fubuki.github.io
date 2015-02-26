@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-25T23:39:32+08:00</updated>
+  <updated>2015-02-26T23:53:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached Session 問題]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/26/memcached-session/"/>
+    <updated>2015-02-26T23:46:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/26/memcached-session</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 memcached 存放 session 有可能遇到的問題，可以了解一下 memcached 內部的機制，Slab , Page, Chunk 分別代表的意義。</p>
+
+<ol>
+<li><a href="http://www.dormando.me/articles/memcached_sessions/">Sessions in Memcached</a></li>
+<li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[樂天的 ROMA]]></title>
@@ -73,24 +91,6 @@
 <h2>memcached集群</h2>
 
 <h2>預熱</h2>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached With Namespace]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/24/memcached-with-namespace/"/>
-    <updated>2014-06-24T21:23:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/24/memcached-with-namespace</id>
-    <content type="html"><![CDATA[<p>memcached如何實作namespace的方法。</p>
-
-<!-- more -->
-
-
-<p>memcached沒有支援namespace所以沒辦法直接批量刪除鍵值，原本是可以直接拉出在memcached裡面的key然後只
-刪除想要刪除的鍵值，但是從取出所有key會很耗費資源所以不會考慮，之後有想過在DataBase的地方存放所有
-key然後就可以快速查詢想要批量刪除的鍵值，最後是使用Deleting by Namespace的方法，實作出namespace後
-透過namespace批量刪除，實作可以參考<a href="https://code.google.com/p/memcached/wiki/NewProgrammingTricks#Namespacing">NewProgrammingTricks</a>，其實他的主要想法是使用固定的key pattern
-實作namespace，在透過管理namespace的版本號讓舊的cache自然失效。</p>
 ]]></content>
   </entry>
   

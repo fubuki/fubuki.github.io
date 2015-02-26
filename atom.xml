@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-25T23:39:32+08:00</updated>
+  <updated>2015-02-26T23:53:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached Session 問題]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/26/memcached-session/"/>
+    <updated>2015-02-26T23:46:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/26/memcached-session</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 memcached 存放 session 有可能遇到的問題，可以了解一下 memcached 內部的機制，Slab , Page, Chunk 分別代表的意義。</p>
+
+<ol>
+<li><a href="http://www.dormando.me/articles/memcached_sessions/">Sessions in Memcached</a></li>
+<li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[樂天的 ROMA]]></title>
@@ -330,26 +348,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 
 <p>Asterisk 使用 <a href="http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/ExternalServices_id291590.html">LDAP</a> 作認證。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[KMP AC BF BM 演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf/"/>
-    <updated>2015-02-06T23:29:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/06/kmp-ac-bf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>可以用於字串匹配的問題。</p>
-
-<ol>
-<li>Knuth–Morris–Pratt Algorithm</li>
-<li>Aho-Corasick Algorithm</li>
-<li>Brute Force Algorithm</li>
-<li>Boyer-Moore Algorithm</li>
-</ol>
-
 ]]></content>
   </entry>
   
