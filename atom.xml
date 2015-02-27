@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-26T23:53:42+08:00</updated>
+  <updated>2015-02-27T21:36:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[三月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/27/2015-03-book-list/"/>
+    <updated>2015-02-27T21:04:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/27/2015-03-book-list</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>大數據日知錄-架構與算法</li>
+<li>Mobile and Web Messaging Messaging Protocols for Web and Mobile Devices</li>
+<li>松本行弘談程式世界的未來</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached Session 問題]]></title>
@@ -336,18 +353,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 <p>最近因為各種因素需要撰寫 CSS，順便思考要使用哪種框架和 SCSS 或是 LESS 建立網頁，參考 <a href="http://www.wan55.jp/column/detail/id=179">SCSS(Sass)とLESSの比較とその結果</a>
 和初步的使用感覺在決定要使用哪個。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Asterisk LDAP]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/07/asterisk-ldap/"/>
-    <updated>2015-02-07T23:41:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/07/asterisk-ldap</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Asterisk 使用 <a href="http://www.asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/ExternalServices_id291590.html">LDAP</a> 作認證。</p>
 ]]></content>
   </entry>
   
