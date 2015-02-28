@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-27T21:36:41+08:00</updated>
+  <updated>2015-02-28T22:05:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[V8 的 Crankshaft 和 TurboFan]]></title>
+    <link href="http://fubuki.github.io/blog/2015/02/28/v8-turbofan-crankshaft/"/>
+    <updated>2015-02-28T21:33:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/02/28/v8-turbofan-crankshaft</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Crankshaft</h3>
+
+<p><a href="http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html">Crankshaft</a>， JIT 優化功能。</p>
+
+<h3>TurboFan</h3>
+
+<p>新的優化編譯器，裡面加入了 asm.js 的支持。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSON Web Token]]></title>
@@ -80,20 +98,6 @@
 <h3>使用閉包</h3>
 
 <h3>重寫 Constructor 構造函數</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript 記憶體管理]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li/"/>
-    <updated>2014-09-04T23:40:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/04/javascript-ji-yi-ti-guan-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到這篇 <a href="https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass">javascript-memory-management-masterclass</a> ，裡面主要是使用 chrome 作平台說明 Javascript 記憶體管理的部分，
-之前在優化 node.js 有很多工具可以觀察記憶體的使用量，但是在優化閱覽器的 js 卻蠻少去研究這一塊，大部分都是盡量減少載入
-檔案的數量和大小以及在優化處理 DOM，而這邊文章可以研究一下並且希望也能套用到 IE 身上雖然是不同的 JS 引擎。</p>
 ]]></content>
   </entry>
   
