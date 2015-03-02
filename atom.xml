@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-02-28T22:05:02+08:00</updated>
+  <updated>2015-03-01T23:40:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CAP 理論關於 Network Partition]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later/"/>
+    <updated>2015-03-01T23:11:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>CAP 理論通常只能滿足其中兩個，但是在 <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6133253&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6133253">CAP Twelve Years Later: How the &ldquo;Rules&rdquo; Have Changed</a> 裡面有寫另外處理 <code>Network partition</code>
+將系統保持在滿足 CAP 的狀態下。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[V8 的 Crankshaft 和 TurboFan]]></title>
@@ -346,18 +359,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 <li><a href="http://www.dev-metal.com/architecture-stackoverflow/">The architecture of StackOverflow</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Actors Concurrency]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/09/actors-concurrency/"/>
-    <updated>2015-02-09T23:53:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/09/actors-concurrency</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Actor_model">Actor model</a> 一個 concurrency model。</p>
 ]]></content>
   </entry>
   
