@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-01T00:01:31+08:00</updated>
+  <updated>2015-03-02T23:51:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cellular Automaton]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/02/cellular-automaton/"/>
+    <updated>2015-03-02T23:47:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/02/cellular-automaton</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>元胞自動機用來模擬實驗用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CAP 理論關於 Network Partition]]></title>
@@ -339,24 +351,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 <li>CSI</li>
 <li>SSI</li>
 <li>ESI</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Stack Overflow 的架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou/"/>
-    <updated>2015-02-10T23:00:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/10/stack-overflow-de-jia-gou</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Stack Overflow 是很有名的程式設計師用的問答網站， 下面兩篇文章介紹 Stack Overflow 怎麼使用 25 台伺服器撐起整個服務。</p>
-
-<ol>
-<li><a href="http://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/">What it takes to run Stack Overflow</a></li>
-<li><a href="http://www.dev-metal.com/architecture-stackoverflow/">The architecture of StackOverflow</a></li>
 </ol>
 
 ]]></content>

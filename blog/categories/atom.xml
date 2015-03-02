@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-01T00:01:31+08:00</updated>
+  <updated>2015-03-02T23:51:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cellular Automaton]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/02/cellular-automaton/"/>
+    <updated>2015-03-02T23:47:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/02/cellular-automaton</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>元胞自動機用來模擬實驗用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CAP 理論關於 Network Partition]]></title>
