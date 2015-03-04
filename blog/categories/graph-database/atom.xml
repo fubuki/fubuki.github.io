@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Graph Database | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/graph-database/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-03T23:38:30+08:00</updated>
+  <updated>2015-03-04T23:44:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cayley 圖形資料庫]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/03/cayley/"/>
+    <updated>2015-03-03T23:28:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/03/cayley</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/cayley">cayley</a> 使用 go 撰寫的圖形資料庫，使用的語法跟 jquery 很像，可以跟 neo4j 比較。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[安裝和使用 Neo4j]]></title>
