@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-04T23:44:29+08:00</updated>
+  <updated>2015-03-05T22:38:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spider Storage Engine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/05/spider-storage-engine/"/>
+    <updated>2015-03-05T22:31:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/05/spider-storage-engine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天看到一個沒看過的 &lsquo;mysql storage engine&rsquo; 叫 spider，開發者可以透過這個 storage engine 將數據分片，
+在 Mariadb 官網的這篇 <a href="https://mariadb.com/kb/en/mariadb/spider-storage-engine-overview/">Spider Storage Engine Overview</a> 有解說怎麼使用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coroutine Gevent Stackless]]></title>
@@ -327,20 +340,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 <p>Markdown 本身支援的語法不太多，所以有不少擴展的語法可以使用，在 <a href="http://www.pchou.info/open-source/2014/07/07/something-about-markdown.html">Markdown的各种扩展 </a> 裡面有寫
 有哪些可以使用，目前使用 Atom 撰寫的 Markdown 版本應該是 <a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Flavored Markdown</a> ，裡面用道最
 多的表格的語法，原生的只能用 html 去撰寫，而 Github 的版本有另外支援表格的語法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HTTP/2 規格]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/13/http-slash-2/"/>
-    <updated>2015-02-13T23:40:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/13/http-slash-2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://http2.github.io/">HTTP/2</a> 下一代的 HTTP 協定。</p>
-
-<p><a href="https://http2.github.io/">HTTP/2</a> 目前的情形 <a href="http://www.slideshare.net/shigeki_ohtsu/http2-ohtsu-html5conf2015">HTTP/2の現状とこれから</a>。</p>
 ]]></content>
   </entry>
   
