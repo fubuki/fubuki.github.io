@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-05T22:38:43+08:00</updated>
+  <updated>2015-03-06T23:49:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux 安裝 Nfs]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/06/linux-nfs/"/>
+    <updated>2015-03-06T23:48:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/06/linux-nfs</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>記錄在 Centos 上面安裝 nfs server。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux Taskset 指令]]></title>
@@ -82,28 +94,6 @@ umount /srv
 </code></pre>
 
 <p>重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Strace 跟蹤進程]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/08/strace-nginx/"/>
-    <updated>2015-01-08T23:28:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/08/strace-nginx</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前使用 lighttpd + web.py 架設環境時不知道什麼原因跑不起來，但是 log 裡面沒有顯示可用的訊息除錯，
-後來學到使用 <code>strace</code> 追蹤 lighttpd 的運行過程，查到是有模組沒有安裝造成的。</p>
-
-<p>直接運行</p>
-
-<pre><code>strace -ff lighttpd -D -f /etc/lighttpd/lighttpd.conf
-</code></pre>
-
-<p>透過 pid 跟蹤</p>
-
-<p>透過 port 跟蹤</p>
 ]]></content>
   </entry>
   
