@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Golang | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-03-07T23:45:14+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Golang 的 Goroutine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/07/golang-goroutine/"/>
+    <updated>2015-03-07T23:35:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/07/golang-goroutine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>golang 的類似線程的東西，</p>
+]]></content>
+  </entry>
+  
+</feed>

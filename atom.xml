@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-06T23:49:53+08:00</updated>
+  <updated>2015-03-07T23:45:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Golang 的 Goroutine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/07/golang-goroutine/"/>
+    <updated>2015-03-07T23:35:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/07/golang-goroutine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>golang 的類似線程的東西，</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 安裝 Nfs]]></title>
@@ -314,30 +326,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 <p><a href="http://jade-lang.com/">jade</a> 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
 就能有高亮和預覽的功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Data Mining Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm/"/>
-    <updated>2015-02-15T23:11:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>C4.5</li>
-<li>k-Means</li>
-<li>SVM</li>
-<li>Apriori</li>
-<li>EM</li>
-<li>PageRank</li>
-<li>AdaBoost</li>
-<li>kNN</li>
-<li>Naive Bayes
-10 CART</li>
-</ol>
-
 ]]></content>
   </entry>
   
