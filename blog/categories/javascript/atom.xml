@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-07T23:45:14+08:00</updated>
+  <updated>2015-03-08T22:41:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Velocity Js]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/08/velocity/"/>
+    <updated>2015-03-08T22:29:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/08/velocity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到有人使用 <a href="https://github.com/julianshapiro/velocity">velocity</a> 製作 UI 的動畫效果，看起來比  <code>jQuery animate</code>  還強大，
+這邊 <a href="http://codepen.io/collection/tIjGb/">Velocity.js: The Official Collection</a> 有一些可以參考的例子。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[V8 的 Crankshaft 和 TurboFan]]></title>
@@ -80,24 +93,6 @@
 
 <p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
 和一些 Javascript 的設計模式。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Singleton Pattern]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern/"/>
-    <updated>2014-09-20T23:21:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/20/javascript-singleton-pattern</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Javascript 的單例模式確保對象在全域環境下只會有一個實例。</p>
-
-<h3>使用全域變數實現</h3>
-
-<h3>使用閉包</h3>
-
-<h3>重寫 Constructor 構造函數</h3>
 ]]></content>
   </entry>
   

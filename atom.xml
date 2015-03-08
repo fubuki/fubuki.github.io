@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-07T23:45:14+08:00</updated>
+  <updated>2015-03-08T22:41:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Velocity Js]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/08/velocity/"/>
+    <updated>2015-03-08T22:29:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/08/velocity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到有人使用 <a href="https://github.com/julianshapiro/velocity">velocity</a> 製作 UI 的動畫效果，看起來比  <code>jQuery animate</code>  還強大，
+這邊 <a href="http://codepen.io/collection/tIjGb/">Velocity.js: The Official Collection</a> 有一些可以參考的例子。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Golang 的 Goroutine]]></title>
@@ -310,22 +323,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 <p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
 似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Atom 編寫 Jade]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/16/jade-atom/"/>
-    <updated>2015-02-16T23:30:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/16/jade-atom</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 express 建立監控服務，使用 <a href="http://jade-lang.com/">jade</a> 當作樣板引擎，一開始不太順手跟剛開始寫 python 的感覺一樣，
-後來寫起來感覺很不錯，atom 有預覽可以看編譯出來的 html 長什麼樣子。</p>
-
-<p><a href="http://jade-lang.com/">jade</a> 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
-就能有高亮和預覽的功能。</p>
 ]]></content>
   </entry>
   
