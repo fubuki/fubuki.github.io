@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-08T22:41:01+08:00</updated>
+  <updated>2015-03-09T23:03:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 LiteIDE 開發 Golang]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/09/liteide/"/>
+    <updated>2015-03-09T22:17:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/09/liteide</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近找了一些 IDE 最後決定用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 開發 golang，從官網下載 golang 的 msi 安裝檔，之後就可以用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 直接編譯程式碼，
+另外為了安裝套件需要設定設定 GOPATH 並且還要安裝 git，這樣便可以用 goget 取得需要的套件。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Velocity Js]]></title>
@@ -310,19 +323,6 @@ SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 
 <p><a href="https://github.com/wandoulabs/codis">codis</a> 是用 C 和 GO 撰寫的 proxy，看起來類似 <code>Twemproxy</code>，不過他跟 <code>Twemproxy</code> 不一樣的地方在提供動態 <code>scale</code>
 和監控後台的功能，但是效能上開發人員說會慢 20% 左右。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Merkle Tree]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/17/merkle-tree/"/>
-    <updated>2015-02-17T23:45:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/17/merkle-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
-似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
 ]]></content>
   </entry>
   
