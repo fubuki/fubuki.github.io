@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-09T23:03:51+08:00</updated>
+  <updated>2015-03-10T22:41:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Skip List]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/10/skip-list/"/>
+    <updated>2015-03-10T21:46:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/10/skip-list</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Skip List</code> 可以跟二元搜尋樹比較的資料結構，</p>
+
+<p><a href="http://stackoverflow.com/questions/256511/skip-list-vs-binary-tree">Skip List vs. Binary Tree</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 LiteIDE 開發 Golang]]></title>
@@ -307,22 +321,6 @@ RABBIT_PASSWORD=$ADMIN_PASSWORD
 SERVICE_PASSWORD=$ADMIN_PASSWORD
 SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Codis : A Redis Proxy]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy/"/>
-    <updated>2015-02-18T10:04:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/18/codis-redis-proxy</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>這星期看到<code>豌豆荚</code>分享他們怎麼設計 Redis 的架構，裡面提到他們使用 <code>Twemproxy</code> 和 reids cluster 的心得，
-但是他們似乎都不太滿意因此自行撰寫了 <a href="https://github.com/wandoulabs/codis">codis</a>。</p>
-
-<p><a href="https://github.com/wandoulabs/codis">codis</a> 是用 C 和 GO 撰寫的 proxy，看起來類似 <code>Twemproxy</code>，不過他跟 <code>Twemproxy</code> 不一樣的地方在提供動態 <code>scale</code>
-和監控後台的功能，但是效能上開發人員說會慢 20% 左右。</p>
 ]]></content>
   </entry>
   
