@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-10T22:41:52+08:00</updated>
+  <updated>2015-03-11T23:08:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SEnginx]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/11/senginx/"/>
+    <updated>2015-03-11T22:29:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/11/senginx</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/NeusoftSecurity/SEnginx">SEnginx</a> 在安全方面加強的 nginx 版本，裡面內裝一些跟安全相關的套件。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Skip List]]></title>
@@ -289,38 +301,6 @@ chubby 是提供了哪些功能。</p>
 
 
 <p>Cuckoo hash 是用來解決 hash 碰撞的方法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[透過 Devstack 使用 Openstack]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/19/openstack-devstack/"/>
-    <updated>2015-02-19T19:27:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/19/openstack-devstack</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>如果想要測試看看 Openstack 的功能，可以先使用 <a href="https://github.com/openstack-dev/devstack">Devstack</a> 在一台機器上面建立環境，可以免去很多麻煩的設定。</p>
-
-<p>我是在 ubuntu 14.04 的虛擬機器裡面執行，安裝方式主要是取得 <a href="https://github.com/openstack-dev/devstack">Devstack</a> 後使用非 root 帳號執行 <code>stack.sh</code> 腳本，
-另外這邊需要在 <code>/etc/sudoers</code> 設定本帳號在使用 sudo 時無需輸入密碼，然後在重新開機後需要使用 <code>rejoin-stack.sh</code> 啟動服務。</p>
-
-<h4>Install</h4>
-
-<pre><code>git clone https://github.com/openstack-dev/devstack.git
-cd devstack
-./stack.sh
-</code></pre>
-
-<h4>Minimal Configuration</h4>
-
-<pre><code>[[local|localrc]]
-ADMIN_PASSWORD=secrete
-DATABASE_PASSWORD=$ADMIN_PASSWORD
-RABBIT_PASSWORD=$ADMIN_PASSWORD
-SERVICE_PASSWORD=$ADMIN_PASSWORD
-SERVICE_TOKEN=a682f596-76f3-11e3-b3b2-e716f9080d50
-</code></pre>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-10T22:41:52+08:00</updated>
+  <updated>2015-03-11T23:08:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SEnginx]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/11/senginx/"/>
+    <updated>2015-03-11T22:29:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/11/senginx</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/NeusoftSecurity/SEnginx">SEnginx</a> 在安全方面加強的 nginx 版本，裡面內裝一些跟安全相關的套件。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx 的 Worker_cpu_affinity 參數]]></title>
@@ -114,38 +126,6 @@ make &amp;&amp; make install
 
 vim /etc/init.d/nginx
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx Upstream 反向代理的機制]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi/"/>
-    <updated>2014-06-19T22:21:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/19/nginx-upstream-fan-xiang-dai-de-ji-zhi</id>
-    <content type="html"><![CDATA[<p>如何設定nginx 反向代理的功能。</p>
-
-<!-- more -->
-
-
-<h2>upstream 建立流程與機制</h2>
-
-<ol>
-<li>啟動upstream</li>
-<li>與上游伺服器建立連結</li>
-<li>發送請求給上游伺服器</li>
-<li>接收上游伺服器的響應頭部</li>
-<li>轉發跟不轉發響應</li>
-<li>結束upstream的請求</li>
-</ol>
-
-
-<h2>與upstream相關的原始碼</h2>
-
-<ol>
-<li>ngx_http_upstream_init</li>
-<li>ngx_http_upstream_init_request</li>
-</ol>
-
 ]]></content>
   </entry>
   
