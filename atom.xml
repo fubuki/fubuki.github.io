@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-11T23:08:45+08:00</updated>
+  <updated>2015-03-12T23:43:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Apache Traffic Server]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/12/apache-traffic-server/"/>
+    <updated>2015-03-12T23:20:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/12/apache-traffic-server</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前看到有人介紹在生產環境使用 <code>Apache Traffic Server</code> 建立 CDN，不知道有沒有比 Varnish` 更強大的的地方。</p>
+
+<p><a href="https://blog.zymlinux.net">ATS官方交流博客</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SEnginx]]></title>
@@ -289,18 +303,6 @@ chubby 是提供了哪些功能。</p>
 
 <p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
 提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cuckoo Hash]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/20/cuckoo-hash/"/>
-    <updated>2015-02-20T22:26:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/20/cuckoo-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Cuckoo hash 是用來解決 hash 碰撞的方法。</p>
 ]]></content>
   </entry>
   
