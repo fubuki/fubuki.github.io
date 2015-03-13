@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-12T23:43:04+08:00</updated>
+  <updated>2015-03-13T23:30:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 的 Yield]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/13/php-yield/"/>
+    <updated>2015-03-13T23:08:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/13/php-yield</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有使用過 python 的 yield 很有趣的功能，然後今天看到一篇投影片 <a href="http://www.slideshare.net/techblogyahoo/phpioyield-phpcon2014">PHPにおけるI/O多重化とyield</a>，裡面介紹一些跟 PHP 異步有關的東西，
+但是最重要是 PHP 5.5 有增加支援 yield，詳細看 <a href="http://php.net/manual/en/language.generators.overview.php">Generators overview</a> 這篇。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apache Traffic Server]]></title>
@@ -290,19 +303,6 @@ chubby 是提供了哪些功能。</p>
 文章討論到一些關於 JIT 技術的事情。</p>
 
 <p><a href="http://en.wikipedia.org/wiki/Threaded_code">Threaded code</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/21/memc3/"/>
-    <updated>2015-02-21T20:55:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/21/memc3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
-提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
 ]]></content>
   </entry>
   
