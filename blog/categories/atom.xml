@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-13T23:30:07+08:00</updated>
+  <updated>2015-03-14T23:44:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/14/distcc/"/>
+    <updated>2015-03-14T23:41:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/14/distcc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://ja.wikipedia.org/wiki/Distcc">Distcc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cellular Automaton]]></title>

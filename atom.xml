@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-13T23:30:07+08:00</updated>
+  <updated>2015-03-14T23:44:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/14/distcc/"/>
+    <updated>2015-03-14T23:41:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/14/distcc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://ja.wikipedia.org/wiki/Distcc">Distcc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 的 Yield]]></title>
@@ -288,21 +300,6 @@ chubby 是提供了哪些功能。</p>
 <li>fork</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[開發者討論 JIT 的文章]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/22/jit-compilers/"/>
-    <updated>2015-02-22T23:27:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/22/jit-compilers</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在研究 HHVM 的時候看到關於 JIT 的討論文章 <a href="http://lambda-the-ultimate.org/node/3851">Have tracing JIT compilers won?</a>，裡面有不少是跟 JIT 相關的編譯器的開發者，
-文章討論到一些關於 JIT 技術的事情。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Threaded_code">Threaded code</a></p>
 ]]></content>
   </entry>
   

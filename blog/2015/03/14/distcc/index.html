@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Categories: Go - Learning Blog</title>
+  <title>Distcc 加速編譯 C/C++ 程式 - Learning Blog</title>
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="Category: go">
+  <meta name="description" content=" Distcc
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fubuki.github.io/blog/categories/go">
+  <link rel="canonical" href="http://fubuki.github.io/blog/2015/03/14/distcc">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
@@ -77,36 +78,81 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Categories: Go</h1>
+    
+      <h1 class="entry-title">Distcc 加速編譯 C/C++ 程式</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-14T23:41:48+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:41 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
-
-  
-  <h2>2015</h2>
-
-<article>
-  
-<h1><a href="/blog/2015/01/26/golang-kai-fa-huan-jing/">Golang 開發環境</a></h1>
-<time datetime="2015-01-26T23:37:12+08:00" pubdate><span class='month'>Jan</span> <span class='day'>26</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/go/'>go</a></span>
-</footer>
+<div class="entry-content"><!-- more -->
 
 
-</article>
-
+<p><a href="http://ja.wikipedia.org/wiki/Distcc">Distcc</a></p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-03-14T23:41:48+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:41 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories//'></a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/03/13/php-yield/" title="Previous Post: PHP 的 yield ">&laquo; PHP 的 yield </a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -115,6 +161,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/03/14/distcc/">Distcc 加速編譯 C/C++ 程式</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/03/13/php-yield/">PHP 的 Yield</a>
@@ -132,17 +182,13 @@
         <a href="/blog/2015/03/10/skip-list/">Skip List</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/03/09/liteide/">使用 LiteIDE 開發 Golang</a>
-      </li>
-    
   </ul>
 </section>
 
 <section>
 <h1>分類</h1>
 <ul>
-  <li><a href='/blog/categories/'> (4)</a></li>
+  <li><a href='/blog/categories/'> (5)</a></li>
   <li><a href='/blog/categories/algorithm'>Algorithm (21)</a></li>
   <li><a href='/blog/categories/android'>Android (7)</a></li>
   <li><a href='/blog/categories/api'>Api (1)</a></li>
@@ -169,8 +215,7 @@
   <li><a href='/blog/categories/frontend'>Frontend (7)</a></li>
   <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
   <li><a href='/blog/categories/git'>Git (12)</a></li>
-  <li><a href='/blog/categories/go'>Go (1)</a></li>
-  <li><a href='/blog/categories/golang'>Golang (2)</a></li>
+  <li><a href='/blog/categories/golang'>Golang (3)</a></li>
   <li><a href='/blog/categories/graph-database'>Graph database (2)</a></li>
   <li><a href='/blog/categories/gulp'>Gulp (1)</a></li>
   <li><a href='/blog/categories/hadoop'>Hadoop (2)</a></li>
@@ -279,7 +324,10 @@
       var disqus_shortname = 'fubuki';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2015/03/14/distcc/';
+        var disqus_url = 'http://fubuki.github.io/blog/2015/03/14/distcc/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

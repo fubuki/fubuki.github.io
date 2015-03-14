@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-13T23:30:07+08:00</updated>
+  <updated>2015-03-14T23:44:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -35,6 +35,23 @@
 
 
 <p>golang 的類似線程的東西，</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Golang 開發環境]]></title>
+    <link href="http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing/"/>
+    <updated>2015-01-26T23:37:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://golang.org/doc/code.html">How to Write Go Code</a> 要先了解 go 的目錄結構，目前有個 wide 的 web ide 可以測試看看。</p>
+
+<pre><code>apt-get install gccgo-go
+mkdir mygo
+export GOPATH=~/mygo
+</code></pre>
 ]]></content>
   </entry>
   
