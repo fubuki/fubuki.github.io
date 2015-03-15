@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Line | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/line/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-14T23:44:44+08:00</updated>
+  <updated>2015-03-15T23:35:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LINE Developer Conference Part2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/15/line-developer-conference-part2/"/>
+    <updated>2015-03-15T23:31:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/15/line-developer-conference-part2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-system-operation/">LINEサービスのシステム運営</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-db-high-availability/">LINE DBシステムの高可用性【LINE Developer Conference</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-introduce-network-case/">LINEサービスのネットワークインフラ取り組み事例紹介</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-talk-after-session/">LINEシステムの裏側を懇親会でいろいろ聞いてきた！</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LINE 的 安全性問題]]></title>

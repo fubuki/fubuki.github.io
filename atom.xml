@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-14T23:44:44+08:00</updated>
+  <updated>2015-03-15T23:35:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LINE Developer Conference Part2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/15/line-developer-conference-part2/"/>
+    <updated>2015-03-15T23:31:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/15/line-developer-conference-part2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-system-operation/">LINEサービスのシステム運営</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-db-high-availability/">LINE DBシステムの高可用性【LINE Developer Conference</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-introduce-network-case/">LINEサービスのネットワークインフラ取り組み事例紹介</a></li>
+<li><a href="http://blog.mogmet.com/line-developer-conference-infra-talk-after-session/">LINEシステムの裏側を懇親会でいろいろ聞いてきた！</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
@@ -276,30 +294,6 @@
 <p>兩者都是用來處理分散式系統的問題，chubby 是由 google 提出的，而 zookeeper 是類似 chubby 的開源實現軟體，
 這篇 <a href="http://research.google.com/archive/chubby.html">The Chubby lock service for loosely-coupled distributed systems</a> 是 google 提出的論文，可以看一下
 chubby 是提供了哪些功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[node.js 建立 Child Process]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/23/node-dot-js-child-process/"/>
-    <updated>2015-02-23T22:49:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/23/node-dot-js-child-process</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在測試將手上一個 node.js 的系統分成好幾個子系統，然後主要的系統就只是去監控子系統
-避免當子系統出現問題時導致整個系統出現問題，這邊紀錄一下 node.js 怎麼建立 child process。</p>
-
-<p>以前有用過 node.js 的 cluster 模組去擴展 socket.io 的伺服器，現在是用 <code>child process</code> 模組建立
-新的 process 收到處理完成的訊息後就將 process 給殺掉， <code>child process</code> 目前有提供下面幾種方法。</p>
-
-<ol>
-<li>spawn</li>
-<li>exec</li>
-<li>execFile</li>
-<li>fork</li>
-</ol>
-
 ]]></content>
   </entry>
   
