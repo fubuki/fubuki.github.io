@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-16T23:12:10+08:00</updated>
+  <updated>2015-03-17T23:52:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nmon 監控指令]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/17/nmon/"/>
+    <updated>2015-03-17T23:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/17/nmon</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h4>安裝</h4>
+
+<pre><code>apt-get install nmon
+</code></pre>
+
+<p>除了 top 以外可以使用 <code>nmon</code> 監控 linux 內部的狀態，提供更詳細的情形。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx 的 Fastcgi_cache 模組]]></title>
@@ -285,22 +302,6 @@
 <li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[樂天的 ROMA]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/25/roma/"/>
-    <updated>2015-02-25T23:06:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/25/roma</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/roma/roma">ROMA</a> 是樂天基於 Ruby 開發的 key-value 快取伺服器，相容於 memcached 也就是可以透過 memcached 的
-函式庫操作 <a href="https://github.com/roma/roma">ROMA</a>。</p>
-
-<p><a href="https://github.com/roma/roma">ROMA</a> 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 <a href="http://roma-kvs.org">ROMA-Project</a> 官網的說明看似乎如果
-有一個端點離開群集卻不會失去資料。</p>
 ]]></content>
   </entry>
   

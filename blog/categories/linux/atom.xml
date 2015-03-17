@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-16T23:12:10+08:00</updated>
+  <updated>2015-03-17T23:52:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nmon 監控指令]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/17/nmon/"/>
+    <updated>2015-03-17T23:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/17/nmon</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h4>安裝</h4>
+
+<pre><code>apt-get install nmon
+</code></pre>
+
+<p>除了 top 以外可以使用 <code>nmon</code> 監控 linux 內部的狀態，提供更詳細的情形。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 安裝 Nfs]]></title>
@@ -72,28 +89,6 @@ umount /srv
  這串訊息，這時就要用另外一種方法。</p>
 
 <p> 如果使用 single 參數行不通就換成 <code>rw init=/bin/bash</code>， 然後按下 ctrl + x 開機就會直接進去主機，之後使用 passwd 更改密碼即可。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ubuntu 安裝 Zsh]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/12/linux-zsh/"/>
-    <updated>2015-01-12T23:26:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/12/linux-zsh</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>安裝 zsh</p>
-
-<pre><code>apt-get install zsh
-</code></pre>
-
-<p>安裝 <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a></p>
-
-<pre><code>wget --no-check-certificate http://install.ohmyz.sh -O - | bash
-</code></pre>
-
-<p>重啟後就可以看到效果了，但是有些安裝的命令卻無法使用還需要測試。</p>
 ]]></content>
   </entry>
   
