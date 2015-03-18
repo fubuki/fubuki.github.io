@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-17T23:52:14+08:00</updated>
+  <updated>2015-03-18T23:47:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/18/ketama/"/>
+    <updated>2015-03-18T22:55:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/18/ketama</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
+所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Skip List]]></title>
@@ -73,18 +86,6 @@
 10 CART</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Actors Concurrency]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/09/actors-concurrency/"/>
-    <updated>2015-02-09T23:53:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/09/actors-concurrency</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Actor_model">Actor model</a> 一個 concurrency model。</p>
 ]]></content>
   </entry>
   

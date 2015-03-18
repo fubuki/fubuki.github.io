@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-17T23:52:14+08:00</updated>
+  <updated>2015-03-18T23:47:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/18/ketama/"/>
+    <updated>2015-03-18T22:55:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/18/ketama</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
+所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nmon 監控指令]]></title>
@@ -282,24 +295,6 @@
 <li>大數據日知錄-架構與算法</li>
 <li>Mobile and Web Messaging Messaging Protocols for Web and Mobile Devices</li>
 <li>松本行弘談程式世界的未來</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Session 問題]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/26/memcached-session/"/>
-    <updated>2015-02-26T23:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/26/memcached-session</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 memcached 存放 session 有可能遇到的問題，可以了解一下 memcached 內部的機制，Slab , Page, Chunk 分別代表的意義。</p>
-
-<ol>
-<li><a href="http://www.dormando.me/articles/memcached_sessions/">Sessions in Memcached</a></li>
-<li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
 </ol>
 
 ]]></content>
