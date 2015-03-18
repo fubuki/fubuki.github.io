@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-18T23:47:22+08:00</updated>
+  <updated>2015-03-19T02:16:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CSP Concurrency Model]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/19/csp/"/>
+    <updated>2015-03-19T01:35:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/19/csp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在學習 golang 順便了解一下跟 erlang 的不同，然後看到了 golang 是採用 CSP 系統，
+之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。</p>
+
+<p><code>Communicating sequential processes</code> (CSP) <a href="http://en.wikipedia.org/wiki/Communicating_sequential_processes">wiki</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
@@ -61,21 +76,6 @@
 <p>兩者都是用來處理分散式系統的問題，chubby 是由 google 提出的，而 zookeeper 是類似 chubby 的開源實現軟體，
 這篇 <a href="http://research.google.com/archive/chubby.html">The Chubby lock service for loosely-coupled distributed systems</a> 是 google 提出的論文，可以看一下
 chubby 是提供了哪些功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[開發者討論 JIT 的文章]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/22/jit-compilers/"/>
-    <updated>2015-02-22T23:27:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/22/jit-compilers</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在研究 HHVM 的時候看到關於 JIT 的討論文章 <a href="http://lambda-the-ultimate.org/node/3851">Have tracing JIT compilers won?</a>，裡面有不少是跟 JIT 相關的編譯器的開發者，
-文章討論到一些關於 JIT 技術的事情。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Threaded_code">Threaded code</a></p>
 ]]></content>
   </entry>
   

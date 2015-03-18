@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-18T23:47:22+08:00</updated>
+  <updated>2015-03-19T02:16:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CSP Concurrency Model]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/19/csp/"/>
+    <updated>2015-03-19T01:35:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/19/csp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在學習 golang 順便了解一下跟 erlang 的不同，然後看到了 golang 是採用 CSP 系統，
+之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。</p>
+
+<p><code>Communicating sequential processes</code> (CSP) <a href="http://en.wikipedia.org/wiki/Communicating_sequential_processes">wiki</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
@@ -280,23 +295,6 @@
 <h3>TurboFan</h3>
 
 <p>新的優化編譯器，裡面加入了 asm.js 的支持。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[三月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/27/2015-03-book-list/"/>
-    <updated>2015-02-27T21:04:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/27/2015-03-book-list</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>大數據日知錄-架構與算法</li>
-<li>Mobile and Web Messaging Messaging Protocols for Web and Mobile Devices</li>
-<li>松本行弘談程式世界的未來</li>
-</ol>
-
 ]]></content>
   </entry>
   
