@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-19T02:16:33+08:00</updated>
+  <updated>2015-03-20T23:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[S-expression]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/20/s-expression/"/>
+    <updated>2015-03-20T23:07:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/20/s-expression</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在學習 LISP 的時候看到的 <a href="http://en.wikipedia.org/wiki/S-expression">S-expression</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSP Concurrency Model]]></title>
@@ -62,20 +74,6 @@
 
 <p>CAP 理論通常只能滿足其中兩個，但是在 <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6133253&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6133253">CAP Twelve Years Later: How the &ldquo;Rules&rdquo; Have Changed</a> 裡面有寫另外處理 <code>Network partition</code>
 將系統保持在滿足 CAP 的狀態下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chubby 和 Zookeeper 的區別]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper/"/>
-    <updated>2015-02-24T23:22:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/24/chubby-zookeeper</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>兩者都是用來處理分散式系統的問題，chubby 是由 google 提出的，而 zookeeper 是類似 chubby 的開源實現軟體，
-這篇 <a href="http://research.google.com/archive/chubby.html">The Chubby lock service for loosely-coupled distributed systems</a> 是 google 提出的論文，可以看一下
-chubby 是提供了哪些功能。</p>
 ]]></content>
   </entry>
   

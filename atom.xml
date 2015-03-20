@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-19T02:16:33+08:00</updated>
+  <updated>2015-03-20T23:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[S-expression]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/20/s-expression/"/>
+    <updated>2015-03-20T23:07:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/20/s-expression</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在學習 LISP 的時候看到的 <a href="http://en.wikipedia.org/wiki/S-expression">S-expression</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSP Concurrency Model]]></title>
@@ -277,24 +289,6 @@
 
 <p>CAP 理論通常只能滿足其中兩個，但是在 <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6133253&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6133253">CAP Twelve Years Later: How the &ldquo;Rules&rdquo; Have Changed</a> 裡面有寫另外處理 <code>Network partition</code>
 將系統保持在滿足 CAP 的狀態下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[V8 的 Crankshaft 和 TurboFan]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/28/v8-turbofan-crankshaft/"/>
-    <updated>2015-02-28T21:33:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/28/v8-turbofan-crankshaft</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Crankshaft</h3>
-
-<p><a href="http://blog.chromium.org/2010/12/new-crankshaft-for-v8.html">Crankshaft</a>， JIT 優化功能。</p>
-
-<h3>TurboFan</h3>
-
-<p>新的優化編譯器，裡面加入了 asm.js 的支持。</p>
 ]]></content>
   </entry>
   
