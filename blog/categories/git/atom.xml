@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-20T23:10:13+08:00</updated>
+  <updated>2015-03-21T23:15:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hg-git]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/21/hg-git/"/>
+    <updated>2015-03-21T22:20:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/21/hg-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>目前手上有些別人專案是用 hg 作版本控管的，但是我想推到 Github 上面做備份，看到有一個 <a href="https://github.com/schacon/hg-git">hg-git</a> 的 plugin 可以將
+使用 hg 的專案推到 Github 上面。</p>
+
+<pre><code>easy_install hg-git
+vim ~/.hgrc
+
+[extensions]
+hggit = [path-to]/hg-git/hggit
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
@@ -78,19 +98,6 @@ git apply patch.diff
 <p>日前在尋找編輯 git commit 的方法時，在一篇<a href="http://qiita.com/suino/items/b0dae7e00bd7165f79ea">文章</a>看到有人提到 <a href="https://github.com/jonas/tig">tig</a> 這個東西，能夠加強 git 在命令列環境
 下的操作，目前使用上最好用的是用來 commit 非常方便閱讀，另外一個是<a href="http://blog.hifumi.info/2014/01/18/tigrc/">tigrc</a>這個東西可以用來設定 <a href="https://github.com/jonas/tig">tig</a> 調整
 輸出的畫面。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gitlab 版本控制]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi/"/>
-    <updated>2014-08-28T23:47:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/28/gitlab-ban-ben-kong-zhi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前使用 Stash 最為工作上的版本控制系統， 但是需要購買 license，所以就尋找另外一套版本控管系統，
-所以就找上了 <a href="https://about.gitlab.com/">gitlab</a> ，之後就搭配 <a href="https://about.gitlab.com/gitlab-ci/">gitlab-ci</a> 建立一個專案工作流程。</p>
 ]]></content>
   </entry>
   

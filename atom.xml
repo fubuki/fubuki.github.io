@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-20T23:10:13+08:00</updated>
+  <updated>2015-03-21T23:15:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hg-git]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/21/hg-git/"/>
+    <updated>2015-03-21T22:20:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/21/hg-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>目前手上有些別人專案是用 hg 作版本控管的，但是我想推到 Github 上面做備份，看到有一個 <a href="https://github.com/schacon/hg-git">hg-git</a> 的 plugin 可以將
+使用 hg 的專案推到 Github 上面。</p>
+
+<pre><code>easy_install hg-git
+vim ~/.hgrc
+
+[extensions]
+hggit = [path-to]/hg-git/hggit
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[S-expression]]></title>
@@ -276,19 +296,6 @@
 
 
 <p>元胞自動機用來模擬實驗用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CAP 理論關於 Network Partition]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later/"/>
-    <updated>2015-03-01T23:11:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>CAP 理論通常只能滿足其中兩個，但是在 <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6133253&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6133253">CAP Twelve Years Later: How the &ldquo;Rules&rdquo; Have Changed</a> 裡面有寫另外處理 <code>Network partition</code>
-將系統保持在滿足 CAP 的狀態下。</p>
 ]]></content>
   </entry>
   
