@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-21T23:15:36+08:00</updated>
+  <updated>2015-03-22T22:51:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kanban 工具:libreboard]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/22/libreboard/"/>
+    <updated>2015-03-22T22:38:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/22/libreboard</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在網路上有 Trello 可以使用，但是我想在內部建立一個類似的網站，於是找到
+<a href="http://git.libreboard.com/libreboard/libreboard/tree/master">libreboard</a> 這個專案，安裝上可以直接透過 docker 架設。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hg-git]]></title>
@@ -284,18 +297,6 @@ hggit = [path-to]/hg-git/hggit
 
 
 <p><a href="https://github.com/google/cayley">cayley</a> 使用 go 撰寫的圖形資料庫，使用的語法跟 jquery 很像，可以跟 neo4j 比較。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cellular Automaton]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/02/cellular-automaton/"/>
-    <updated>2015-03-02T23:47:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/02/cellular-automaton</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>元胞自動機用來模擬實驗用。</p>
 ]]></content>
   </entry>
   
