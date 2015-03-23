@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-22T22:51:30+08:00</updated>
+  <updated>2015-03-23T23:37:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[手機上的 WebView 性能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/23/60-fps-mobile-web/"/>
+    <updated>2015-03-23T23:32:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/23/60-fps-mobile-web</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[60fps on the mobile web] 關於手機上使用 WebView 建立 APP 需要注意的事情。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kanban 工具:libreboard]]></title>
@@ -285,18 +297,6 @@ hggit = [path-to]/hg-git/hggit
 <li><a href="http://www.stackless.com/">stackless</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cayley 圖形資料庫]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/03/cayley/"/>
-    <updated>2015-03-03T23:28:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/03/cayley</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/cayley">cayley</a> 使用 go 撰寫的圖形資料庫，使用的語法跟 jquery 很像，可以跟 neo4j 比較。</p>
 ]]></content>
   </entry>
   
