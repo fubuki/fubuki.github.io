@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-23T23:37:06+08:00</updated>
+  <updated>2015-03-24T21:52:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Push 出現 Rpc Error]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc/"/>
+    <updated>2015-03-24T21:33:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在推專案上 Github 的時候出現 rpc error 的問題，後來找網路上的解法是說
+ Buffer 開太小了所以需要增加，增加的方法是用下面的指令。</p>
+
+<pre><code>git config http.postBuffer xxxxxxxxx
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hg-git]]></title>
@@ -84,20 +100,6 @@ git apply patch.diff
 
 
 <p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tig 和 Git]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/29/tig-he-git/"/>
-    <updated>2014-08-29T23:38:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/29/tig-he-git</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日前在尋找編輯 git commit 的方法時，在一篇<a href="http://qiita.com/suino/items/b0dae7e00bd7165f79ea">文章</a>看到有人提到 <a href="https://github.com/jonas/tig">tig</a> 這個東西，能夠加強 git 在命令列環境
-下的操作，目前使用上最好用的是用來 commit 非常方便閱讀，另外一個是<a href="http://blog.hifumi.info/2014/01/18/tigrc/">tigrc</a>這個東西可以用來設定 <a href="https://github.com/jonas/tig">tig</a> 調整
-輸出的畫面。</p>
 ]]></content>
   </entry>
   

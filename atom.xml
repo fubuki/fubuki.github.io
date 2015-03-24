@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-23T23:37:06+08:00</updated>
+  <updated>2015-03-24T21:52:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Push 出現 Rpc Error]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc/"/>
+    <updated>2015-03-24T21:33:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在推專案上 Github 的時候出現 rpc error 的問題，後來找網路上的解法是說
+ Buffer 開太小了所以需要增加，增加的方法是用下面的指令。</p>
+
+<pre><code>git config http.postBuffer xxxxxxxxx
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[手機上的 WebView 性能]]></title>
@@ -279,24 +295,6 @@ hggit = [path-to]/hg-git/hggit
 
 <p>今天看到一個沒看過的 &lsquo;mysql storage engine&rsquo; 叫 spider，開發者可以透過這個 storage engine 將數據分片，
 在 Mariadb 官網的這篇 <a href="https://mariadb.com/kb/en/mariadb/spider-storage-engine-overview/">Spider Storage Engine Overview</a> 有解說怎麼使用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coroutine Gevent Stackless]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/04/coroutine-gevent/"/>
-    <updated>2015-03-04T23:13:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/04/coroutine-gevent</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Process -> Thread -> Toroutine</p>
-
-<ol>
-<li><a href="http://www.gevent.org/">gevent</a></li>
-<li><a href="http://www.stackless.com/">stackless</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
