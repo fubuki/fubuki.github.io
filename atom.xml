@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-24T21:52:19+08:00</updated>
+  <updated>2015-03-25T23:08:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 AOSP, AOKP, CM ROM]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/25/aosp-aokp-cm-rom/"/>
+    <updated>2015-03-25T23:03:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/25/aosp-aokp-cm-rom</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://source.android.com/">AOSP</a></li>
+<li><a href="https://github.com/AOKP">AOKP</a></li>
+<li><a href="http://www.cyanogenmod.org/">CM ROM</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Push 出現 Rpc Error]]></title>
@@ -282,19 +299,6 @@ hggit = [path-to]/hg-git/hggit
 
 
 <p>記錄在 Centos 上面安裝 nfs server。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spider Storage Engine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/05/spider-storage-engine/"/>
-    <updated>2015-03-05T22:31:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/05/spider-storage-engine</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天看到一個沒看過的 &lsquo;mysql storage engine&rsquo; 叫 spider，開發者可以透過這個 storage engine 將數據分片，
-在 Mariadb 官網的這篇 <a href="https://mariadb.com/kb/en/mariadb/spider-storage-engine-overview/">Spider Storage Engine Overview</a> 有解說怎麼使用。</p>
 ]]></content>
   </entry>
   
