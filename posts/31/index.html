@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="cURL 是用來模擬各種http請求的工具，PHP也使用這個工具來取得網頁內容，或是呼叫一些API，
-但是使用上會存在一些效能上的問題，如果只是單純呼叫cURL可能會阻塞住，就必須更加巧妙的去使用cURL。 ">
+  <meta name="description" content="memcached 目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用 memcache library 遇到的問題。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,44 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/23/memcache-connect-vs-pconnect/">Memcache Connect vs Pconnect</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-05-23T21:31:20+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>9:31 pm</span></time>
+        
+           | <a href="/blog/2014/05/23/memcache-connect-vs-pconnect/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/23/memcache-connect-vs-pconnect/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>memcached 目前算是常用的快取server，很多人在使用php開發網站通常會搭配memcached，本文記錄一下
+php 在使用 memcache library 遇到的問題。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/05/23/memcache-connect-vs-pconnect/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -410,43 +448,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/05/04/old-ie-support-html5-tag/">Old IE Support Html5 Tag</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-05-04T20:28:03+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>8:28 pm</span></time>
-        
-           | <a href="/blog/2014/05/04/old-ie-support-html5-tag/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/05/04/old-ie-support-html5-tag/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>舊版本IE支援 html5的方法<a href="https://github.com/aFarkas/html5shiv">html5shiv</a></p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/05/04/old-ie-support-html5-tag/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/32">&larr; Older</a>
@@ -464,6 +465,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/03/26/convolutional-neural-network/">Convolutional Neural Network</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/03/25/aosp-aokp-cm-rom/">何謂 AOSP, AOKP, CM ROM</a>
       </li>
     
@@ -477,10 +482,6 @@
     
       <li class="post">
         <a href="/blog/2015/03/22/libreboard/">Kanban 工具:libreboard</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/21/hg-git/">Hg-git</a>
       </li>
     
   </ul>
@@ -506,7 +507,7 @@
   <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
   <li><a href='/blog/categories/css'>Css (3)</a></li>
   <li><a href='/blog/categories/data-analysis'>Data analysis (2)</a></li>
-  <li><a href='/blog/categories/deep-learning'>Deep learning (3)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep learning (4)</a></li>
   <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
   <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
   <li><a href='/blog/categories/docker'>Docker (9)</a></li>

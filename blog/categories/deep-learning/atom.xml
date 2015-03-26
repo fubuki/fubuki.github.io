@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Deep Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-25T23:08:19+08:00</updated>
+  <updated>2015-03-26T23:45:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Convolutional Neural Network]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/26/convolutional-neural-network/"/>
+    <updated>2015-03-26T23:09:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/26/convolutional-neural-network</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional neural network</a> 為 Deep Learngin 演算法，最近在做圖像處理的時候用到。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NeuralTalk : 從圖片生成文字描述的工具]]></title>
