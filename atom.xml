@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-26T23:45:40+08:00</updated>
+  <updated>2015-03-27T03:19:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free/"/>
+    <updated>2015-03-27T03:05:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看 firefox 記憶體管理的程式碼時看到下面兩個名詞。</p>
+
+<ol>
+<li>MADV_DONTNEED 會馬上回收指定的記憶體區塊</li>
+<li>MADV_FREE kernel 會延遲回收那些頁面</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Convolutional Neural Network]]></title>
@@ -287,18 +305,6 @@ hggit = [path-to]/hg-git/hggit
 
 <p>最近看到有人使用 <a href="https://github.com/julianshapiro/velocity">velocity</a> 製作 UI 的動畫效果，看起來比  <code>jQuery animate</code>  還強大，
 這邊 <a href="http://codepen.io/collection/tIjGb/">Velocity.js: The Official Collection</a> 有一些可以參考的例子。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Golang 的 Goroutine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/07/golang-goroutine/"/>
-    <updated>2015-03-07T23:35:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/07/golang-goroutine</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>golang 的類似線程的東西，</p>
 ]]></content>
   </entry>
   

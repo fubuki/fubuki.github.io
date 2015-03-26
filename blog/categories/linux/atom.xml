@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-26T23:45:40+08:00</updated>
+  <updated>2015-03-27T03:19:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free/"/>
+    <updated>2015-03-27T03:05:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看 firefox 記憶體管理的程式碼時看到下面兩個名詞。</p>
+
+<ol>
+<li>MADV_DONTNEED 會馬上回收指定的記憶體區塊</li>
+<li>MADV_FREE kernel 會延遲回收那些頁面</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nmon 監控指令]]></title>
@@ -70,25 +88,6 @@
 <pre><code>mount -t cifs -o username="root",password="toor" //host ip/srv /srv
 umount /srv
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Single User Mode 修改 Linux 密碼]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode/"/>
-    <updated>2015-01-13T22:19:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/13/linux-single-user-mode</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在管理虛擬機的時候有些機器以前人部署的，所以完全無法得知登入密碼，後來透過網路得知 Linux 有個
- <code>Single User Mode</code> 可以讓使用者這個模式不用密碼登入主機，然後就可以透過 <code>passwd</code> 更改密碼。</p>
-
-<p> 要進入 <code>Single User Mode</code> 是要在開機時在 Grub 選單在開機的指令後面加上 single 參數，然後 ctrl + x 開機
- 就會進入 <code>Single User Mode</code> ，但是在我的 ubuntu 14.04 LTS 上面測試卻行不通，會顯示 <code>give root password for maintenance single</code>
- 這串訊息，這時就要用另外一種方法。</p>
-
-<p> 如果使用 single 參數行不通就換成 <code>rw init=/bin/bash</code>， 然後按下 ctrl + x 開機就會直接進去主機，之後使用 passwd 更改密碼即可。</p>
 ]]></content>
   </entry>
   
