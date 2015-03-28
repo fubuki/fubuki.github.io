@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-27T03:19:13+08:00</updated>
+  <updated>2015-03-28T23:02:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached 的 Lru_crawler]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/28/memcached-lru/"/>
+    <updated>2015-03-28T22:02:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/28/memcached-lru</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看 <code>memcached</code> 的原始碼看到一個  <code>lru_crawler</code> 的東西，這個東西是為了清除過期的資料存在的，但是一般是不會啟動這個功能，
+會有這東西是因為 <code>memcached</code> 的資料在過期的時候不會立即清除，因此記憶體空間不會立即釋放，但是可以透過 <code>lru_crawler</code> 去遍歷 item
+然後清除過期的 item。</p>
+
+<p>另外 <code>memcached</code> 的官網有個有去的訊息 <a href="https://github.com/memcached/memcached/pull/97">Work In Progress LRU rework</a>，是替換關於 LRU 的部分目前在測試中。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
@@ -292,19 +308,6 @@ hggit = [path-to]/hg-git/hggit
 
 <p>最近找了一些 IDE 最後決定用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 開發 golang，從官網下載 golang 的 msi 安裝檔，之後就可以用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 直接編譯程式碼，
 另外為了安裝套件需要設定設定 GOPATH 並且還要安裝 git，這樣便可以用 goget 取得需要的套件。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Velocity Js]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/08/velocity/"/>
-    <updated>2015-03-08T22:29:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/08/velocity</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到有人使用 <a href="https://github.com/julianshapiro/velocity">velocity</a> 製作 UI 的動畫效果，看起來比  <code>jQuery animate</code>  還強大，
-這邊 <a href="http://codepen.io/collection/tIjGb/">Velocity.js: The Official Collection</a> 有一些可以參考的例子。</p>
 ]]></content>
   </entry>
   

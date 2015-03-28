@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-27T03:19:13+08:00</updated>
+  <updated>2015-03-28T23:02:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached 的 Lru_crawler]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/28/memcached-lru/"/>
+    <updated>2015-03-28T22:02:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/28/memcached-lru</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看 <code>memcached</code> 的原始碼看到一個  <code>lru_crawler</code> 的東西，這個東西是為了清除過期的資料存在的，但是一般是不會啟動這個功能，
+會有這東西是因為 <code>memcached</code> 的資料在過期的時候不會立即清除，因此記憶體空間不會立即釋放，但是可以透過 <code>lru_crawler</code> 去遍歷 item
+然後清除過期的 item。</p>
+
+<p>另外 <code>memcached</code> 的官網有個有去的訊息 <a href="https://github.com/memcached/memcached/pull/97">Work In Progress LRU rework</a>，是替換關於 LRU 的部分目前在測試中。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached Session 問題]]></title>
@@ -71,26 +87,6 @@
 <p>最近在看 memecached 架構的時候發現了一個名叫 <a href="http://repcached.lab.klab.org/">repcached</a> 的東西，似乎日本那邊基於 memecached 開發出來的擴充版本，
 每台 memcached 都是 master 並且能夠互相同步，這邊有關於 repcached 的<a href="https://www.nic.ad.jp/ja/materials/iw/2008/proceedings/F2/IW2008-F2-08.pdf">說明</a>，跟之前使用 twemproxy 和 lib-memcached 擴展的方式不一樣，
 可以研究一下其中的機制。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcache Tips]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng/"/>
-    <updated>2014-06-28T23:51:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/28/memcache-diao-zheng</id>
-    <content type="html"><![CDATA[<p>memcached tips</p>
-
-<!-- more -->
-
-
-<h2>啟動參數</h2>
-
-<h2>運行狀況</h2>
-
-<h2>memcached集群</h2>
-
-<h2>預熱</h2>
 ]]></content>
   </entry>
   
