@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-28T23:02:46+08:00</updated>
+  <updated>2015-03-29T23:25:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached-tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/29/memcached-tool/"/>
+    <updated>2015-03-29T23:19:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/29/memcached-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/memcached/memcached/blob/master/scripts/memcached-tool">memcached-tool</a> 使用 perl 寫成的腳本，用來分析 memcachde 的運行狀況。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached 的 Lru_crawler]]></title>
@@ -73,20 +85,6 @@
 
 <p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
 提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Repcached]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/30/memcached-repcached/"/>
-    <updated>2014-10-30T21:43:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/30/memcached-repcached</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 memecached 架構的時候發現了一個名叫 <a href="http://repcached.lab.klab.org/">repcached</a> 的東西，似乎日本那邊基於 memecached 開發出來的擴充版本，
-每台 memcached 都是 master 並且能夠互相同步，這邊有關於 repcached 的<a href="https://www.nic.ad.jp/ja/materials/iw/2008/proceedings/F2/IW2008-F2-08.pdf">說明</a>，跟之前使用 twemproxy 和 lib-memcached 擴展的方式不一樣，
-可以研究一下其中的機制。</p>
 ]]></content>
   </entry>
   

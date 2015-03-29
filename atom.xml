@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-28T23:02:46+08:00</updated>
+  <updated>2015-03-29T23:25:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Memcached-tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/29/memcached-tool/"/>
+    <updated>2015-03-29T23:19:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/29/memcached-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/memcached/memcached/blob/master/scripts/memcached-tool">memcached-tool</a> 使用 perl 寫成的腳本，用來分析 memcachde 的運行狀況。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached 的 Lru_crawler]]></title>
@@ -295,19 +307,6 @@ hggit = [path-to]/hg-git/hggit
 <p><code>Skip List</code> 可以跟二元搜尋樹比較的資料結構，</p>
 
 <p><a href="http://stackoverflow.com/questions/256511/skip-list-vs-binary-tree">Skip List vs. Binary Tree</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 LiteIDE 開發 Golang]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/09/liteide/"/>
-    <updated>2015-03-09T22:17:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/09/liteide</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近找了一些 IDE 最後決定用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 開發 golang，從官網下載 golang 的 msi 安裝檔，之後就可以用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 直接編譯程式碼，
-另外為了安裝套件需要設定設定 GOPATH 並且還要安裝 git，這樣便可以用 goget 取得需要的套件。</p>
 ]]></content>
   </entry>
   
