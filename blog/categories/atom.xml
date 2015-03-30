@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-29T23:25:04+08:00</updated>
+  <updated>2015-03-30T22:52:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Radix Tree]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/30/radix-tree/"/>
+    <updated>2015-03-30T22:03:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/30/radix-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看 nginx 和紅黑樹時看到一種名叫 <code>radix tree</code> 的多元搜尋樹，後來了解到在 linux 使用 <code>radix tree</code> 管理 cache，
+linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blob/master/lib/radix-tree.c">radix-tree.c</a> 裡面。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[S-expression]]></title>
@@ -61,19 +74,6 @@
 
 
 <p>元胞自動機用來模擬實驗用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CAP 理論關於 Network Partition]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later/"/>
-    <updated>2015-03-01T23:11:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/01/cap-twelve-years-later</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>CAP 理論通常只能滿足其中兩個，但是在 <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=6133253&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6133253">CAP Twelve Years Later: How the &ldquo;Rules&rdquo; Have Changed</a> 裡面有寫另外處理 <code>Network partition</code>
-將系統保持在滿足 CAP 的狀態下。</p>
 ]]></content>
   </entry>
   
