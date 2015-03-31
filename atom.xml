@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-30T22:52:33+08:00</updated>
+  <updated>2015-03-31T22:22:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[四月書單]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/31/2015-04-book-list/"/>
+    <updated>2015-03-31T22:05:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/31/2015-04-book-list</id>
+    <content type="html"><![CDATA[<ol>
+<li>Redis 設計與實現</li>
+<li>Think Complexity</li>
+<li>beautiful code</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Radix Tree]]></title>
@@ -294,18 +308,6 @@ hggit = [path-to]/hg-git/hggit
 <p>之前看到有人介紹在生產環境使用 <code>Apache Traffic Server</code> 建立 CDN，不知道有沒有比 Varnish` 更強大的的地方。</p>
 
 <p><a href="https://blog.zymlinux.net">ATS官方交流博客</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SEnginx]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/11/senginx/"/>
-    <updated>2015-03-11T22:29:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/11/senginx</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/NeusoftSecurity/SEnginx">SEnginx</a> 在安全方面加強的 nginx 版本，裡面內裝一些跟安全相關的套件。</p>
 ]]></content>
   </entry>
   
