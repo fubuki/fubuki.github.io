@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Css | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-31T22:22:43+08:00</updated>
+  <updated>2015-04-01T23:39:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OOCSS 相關資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/01/our-best-practices-are-killing-us/"/>
+    <updated>2015-04-01T23:35:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/01/our-best-practices-are-killing-us</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/stubbornella/oocss/wiki">oocss</a></li>
+<li><a href="http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us">Our Best Practices Are Killing Us</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Css Framework]]></title>

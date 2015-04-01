@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-03-31T22:22:43+08:00</updated>
+  <updated>2015-04-01T23:39:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,30 @@
 
   
   <entry>
+    <title type="html"><![CDATA[OOCSS 相關資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/01/our-best-practices-are-killing-us/"/>
+    <updated>2015-04-01T23:35:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/01/our-best-practices-are-killing-us</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/stubbornella/oocss/wiki">oocss</a></li>
+<li><a href="http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us">Our Best Practices Are Killing Us</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[四月書單]]></title>
     <link href="http://fubuki.github.io/blog/2015/03/31/2015-04-book-list/"/>
     <updated>2015-03-31T22:05:14+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/03/31/2015-04-book-list</id>
-    <content type="html"><![CDATA[<ol>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
 <li>Redis 設計與實現</li>
 <li>Think Complexity</li>
 <li>beautiful code</li>
@@ -294,20 +313,6 @@ hggit = [path-to]/hg-git/hggit
 
 <p>之前有使用過 python 的 yield 很有趣的功能，然後今天看到一篇投影片 <a href="http://www.slideshare.net/techblogyahoo/phpioyield-phpcon2014">PHPにおけるI/O多重化とyield</a>，裡面介紹一些跟 PHP 異步有關的東西，
 但是最重要是 PHP 5.5 有增加支援 yield，詳細看 <a href="http://php.net/manual/en/language.generators.overview.php">Generators overview</a> 這篇。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apache Traffic Server]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/12/apache-traffic-server/"/>
-    <updated>2015-03-12T23:20:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/12/apache-traffic-server</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前看到有人介紹在生產環境使用 <code>Apache Traffic Server</code> 建立 CDN，不知道有沒有比 Varnish` 更強大的的地方。</p>
-
-<p><a href="https://blog.zymlinux.net">ATS官方交流博客</a></p>
 ]]></content>
   </entry>
   
