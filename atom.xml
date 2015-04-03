@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-02T23:37:57+08:00</updated>
+  <updated>2015-04-03T23:03:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook 怎麼擴展 Memcached]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/03/scaling-memcache-at-facebook/"/>
+    <updated>2015-04-03T23:01:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/03/scaling-memcache-at-facebook</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala">Scaling Memcache at Facebook</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Phalcon 設定讀寫分離功能]]></title>
@@ -302,18 +314,6 @@ hggit = [path-to]/hg-git/hggit
 <li><a href="http://blog.mogmet.com/line-developer-conference-infra-talk-after-session/">LINEシステムの裏側を懇親会でいろいろ聞いてきた！</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/14/distcc/"/>
-    <updated>2015-03-14T23:41:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/14/distcc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://ja.wikipedia.org/wiki/Distcc">Distcc</a></p>
 ]]></content>
   </entry>
   

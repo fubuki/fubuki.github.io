@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-02T23:37:57+08:00</updated>
+  <updated>2015-04-03T23:03:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook 怎麼擴展 Memcached]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/03/scaling-memcache-at-facebook/"/>
+    <updated>2015-04-03T23:01:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/03/scaling-memcache-at-facebook</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/nishtala">Scaling Memcache at Facebook</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Memcached-tool]]></title>
@@ -72,19 +84,6 @@
 
 <p><a href="https://github.com/roma/roma">ROMA</a> 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 <a href="http://roma-kvs.org">ROMA-Project</a> 官網的說明看似乎如果
 有一個端點離開群集卻不會失去資料。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MemC3 優化 Memcached 讀取效率]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/21/memc3/"/>
-    <updated>2015-02-21T20:55:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/21/memc3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing</code> 這篇論文
-提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。</p>
 ]]></content>
   </entry>
   
