@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-04T23:22:54+08:00</updated>
+  <updated>2015-04-05T21:34:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP : Pthreads Library]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/05/pthreads/"/>
+    <updated>2015-04-05T21:28:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/05/pthreads</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://computing.llnl.gov/tutorials/pthreads/">pthreads</a></li>
+<li><a href="https://github.com/krakjoe/pthreads">php pthreads</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Phalcon 設定讀寫分離功能]]></title>
@@ -67,38 +83,6 @@
 原本以為是 oracle client 版本跟資料庫不一樣導致的問題，不過兩者版本是一致的，後來用 <code>oci_bind_by_name</code> 就可以過去了，
 而在 phalcon 底下使用 phql bind param 的方式也能夠執行避免錯誤，似乎問題在於 phalcon 使用 pdo 實現 oracle 的問題，
 直接使用 model 賦值是無法成功寫入的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 5.5 的 Password Function]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/25/php-password-function/"/>
-    <updated>2014-11-25T21:57:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/25/php-password-function</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>PHP 5.5 新加了用來處理 Password 加密的功能，<a href="http://php.net/manual/en/ref.password.php">Password Hashing Functions</a> 裡面有列出新增的四個 function。</p>
-
-<h3>password_get_info</h3>
-
-<p>傳入一個加密字串取得。</p>
-
-<h3>password_hash</h3>
-
-<p>針對一個字串加密。</p>
-
-<h3>password_needs_rehash</h3>
-
-<p>當加密字串遺失了一些資訊時可以透過這個重新加密字串。</p>
-
-<h3>password_verify</h3>
-
-<p>確認字串和加密後的 hash 是否相同。</p>
-
-<h3>相關資訊</h3>
-
-<p><a href="https://wiki.php.net/rfc/password_hash">PHP RFC: password_hash() function behavior</a></p>
 ]]></content>
   </entry>
   
