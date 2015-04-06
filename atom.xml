@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-05T21:34:13+08:00</updated>
+  <updated>2015-04-06T23:00:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nsq: Message]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/06/nsq/"/>
+    <updated>2015-04-06T22:33:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/06/nsq</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>紀錄之前看過的一篇 slide <a href="http://www.slideshare.net/guregu/nsqcentric-architecture-gocon-autumn-2014">NSQ-Centric Architecture (GoCon Autumn 2014)</a> ，後端是用 <a href="https://github.com/bitly/nsq">nsq</a> 這個由 golang 撰寫
+的 <code>message server</code> ，前端使用 react 這個 framework 建立一個聊天 APP</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP : Pthreads Library]]></title>
@@ -286,23 +299,6 @@ hggit = [path-to]/hg-git/hggit
 
 <p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
 所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nmon 監控指令]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/17/nmon/"/>
-    <updated>2015-03-17T23:41:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/17/nmon</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h4>安裝</h4>
-
-<pre><code>apt-get install nmon
-</code></pre>
-
-<p>除了 top 以外可以使用 <code>nmon</code> 監控 linux 內部的狀態，提供更詳細的情形。</p>
 ]]></content>
   </entry>
   
