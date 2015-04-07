@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-06T23:00:44+08:00</updated>
+  <updated>2015-04-07T23:35:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis 3.0 正式版本釋出]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0/"/>
+    <updated>2015-04-07T23:05:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Redis 3.0 正式版本已經釋出，可以測試 cluster 功能和 Redis 本身的性能 。</p>
+
+<p><a href="https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES">Redis 3.0 release notes</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Codis : A Redis Proxy]]></title>
@@ -77,26 +91,6 @@
 
 <p><a href="http://chenzhenianqing.cn/articles/1090.html">Redis Scan迭代器遍历操作原理（一）</a><br/>
 <a href="http://chenzhenianqing.cn/articles/1101.html">Redis Scan迭代器遍历操作原理（二）</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Memory Allocation]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation/"/>
-    <updated>2014-09-01T23:42:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/01/redis-memory-allocation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>redis 記憶體分配器，redis 不知道從哪一個版本開始是預設使用 jemalloc，據說效能比預設的 glibc 的還要高，
-另外在網路上有人提到使用 TCMalloc 提高 nginx 和 redis的效能。</p>
-
-<ol>
-<li>jemalloc</li>
-<li>TCMalloc</li>
-<li>glibc</li>
-</ol>
-
 ]]></content>
   </entry>
   

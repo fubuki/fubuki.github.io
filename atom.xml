@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-06T23:00:44+08:00</updated>
+  <updated>2015-04-07T23:35:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,21 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Nsq: Message]]></title>
+    <title type="html"><![CDATA[Redis 3.0 正式版本釋出]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0/"/>
+    <updated>2015-04-07T23:05:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Redis 3.0 正式版本已經釋出，可以測試 cluster 功能和 Redis 本身的性能 。</p>
+
+<p><a href="https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES">Redis 3.0 release notes</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NSQ: Message Server]]></title>
     <link href="http://fubuki.github.io/blog/2015/04/06/nsq/"/>
     <updated>2015-04-06T22:33:54+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/04/06/nsq</id>
@@ -286,19 +300,6 @@ hggit = [path-to]/hg-git/hggit
 之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。</p>
 
 <p><code>Communicating sequential processes</code> (CSP) <a href="http://en.wikipedia.org/wiki/Communicating_sequential_processes">wiki</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/18/ketama/"/>
-    <updated>2015-03-18T22:55:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/18/ketama</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
-所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
 ]]></content>
   </entry>
   
