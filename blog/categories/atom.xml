@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-07T23:35:39+08:00</updated>
+  <updated>2015-04-08T23:32:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Web Conf 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/08/modernwebconf-2014/"/>
+    <updated>2015-04-08T23:25:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/08/modernwebconf-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://modernwebconf.com/index.html">modern web conf 2014</a> 裡面有一些值得一看的 slide。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TLS 的效能跟問題]]></title>
@@ -62,18 +74,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。</p>
 
 <p><code>Communicating sequential processes</code> (CSP) <a href="http://en.wikipedia.org/wiki/Communicating_sequential_processes">wiki</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Distcc 加速編譯 C/C++ 程式]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/14/distcc/"/>
-    <updated>2015-03-14T23:41:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/14/distcc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://ja.wikipedia.org/wiki/Distcc">Distcc</a></p>
 ]]></content>
   </entry>
   
