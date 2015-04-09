@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-08T23:32:15+08:00</updated>
+  <updated>2015-04-09T22:57:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing/"/>
+    <updated>2015-04-09T22:03:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 webshell 的時候，有提到關於如何偵測 webshell 的方法，其中有介紹一種叫 <code>Fuzzy Hashing</code>
+的演算法，一般像 md5 的 hash 方法只要文件有一些變化計算出來的數值就有很大的改變，這樣不利於檢查兩
+份文件的相似度，所以才有 <code>Fuzzy Hashing</code>。</p>
+
+<p>而 ssdeep 則是實現 <code>Fuzzy Hashing</code> 的程式，所以可以直接拿來測試手上的加殼程式，來看看效果如何。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Modern Web Conf 2014]]></title>
@@ -285,18 +301,6 @@ vim ~/.hgrc
 [extensions]
 hggit = [path-to]/hg-git/hggit
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[S-expression]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/20/s-expression/"/>
-    <updated>2015-03-20T23:07:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/20/s-expression</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在學習 LISP 的時候看到的 <a href="http://en.wikipedia.org/wiki/S-expression">S-expression</a></p>
 ]]></content>
   </entry>
   

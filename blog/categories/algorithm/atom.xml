@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-08T23:32:15+08:00</updated>
+  <updated>2015-04-09T22:57:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing/"/>
+    <updated>2015-04-09T22:03:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 webshell 的時候，有提到關於如何偵測 webshell 的方法，其中有介紹一種叫 <code>Fuzzy Hashing</code>
+的演算法，一般像 md5 的 hash 方法只要文件有一些變化計算出來的數值就有很大的改變，這樣不利於檢查兩
+份文件的相似度，所以才有 <code>Fuzzy Hashing</code>。</p>
+
+<p>而 ssdeep 則是實現 <code>Fuzzy Hashing</code> 的程式，所以可以直接拿來測試手上的加殼程式，來看看效果如何。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
@@ -62,30 +78,6 @@
 
 <p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
 似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Data Mining Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm/"/>
-    <updated>2015-02-15T23:11:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/15/data-mining-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>C4.5</li>
-<li>k-Means</li>
-<li>SVM</li>
-<li>Apriori</li>
-<li>EM</li>
-<li>PageRank</li>
-<li>AdaBoost</li>
-<li>kNN</li>
-<li>Naive Bayes
-10 CART</li>
-</ol>
-
 ]]></content>
   </entry>
   
