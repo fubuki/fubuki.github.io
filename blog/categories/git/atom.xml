@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-09T22:57:20+08:00</updated>
+  <updated>2015-04-10T23:19:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Filter-branch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/10/filter-branch-git/"/>
+    <updated>2015-04-10T23:06:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/10/filter-branch-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>git filter-branch‵ 能夠改寫整個專案的歷史，會用到這個是因為以前有人在專案裡面將很多
+二進位檔案加入追蹤導致專案過於肥大，另外裡面有些檔案帶有敏感資訊所以必須連 commit 裡面的
+訊息全部去除，這時就用到</code>git filter-branch‵ 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Push 出現 Rpc Error]]></title>
@@ -88,18 +102,6 @@ git apply patch.diff
 <p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
 合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
 避免分支合併到不需要的 commit。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github 有趣的功能: Github-cheat-sheet]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet/"/>
-    <updated>2014-09-02T23:30:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/02/github-you-qu-de-gong-neng-github-cheat-sheet</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.gitbook.io/book/snowdream86/github-cheat-sheet?lang=zh">github-cheat-sheet</a> 這本書介紹一些 Github 平常沒有使用的功能。</p>
 ]]></content>
   </entry>
   

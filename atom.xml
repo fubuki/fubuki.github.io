@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-09T22:57:20+08:00</updated>
+  <updated>2015-04-10T23:19:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Filter-branch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/10/filter-branch-git/"/>
+    <updated>2015-04-10T23:06:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/10/filter-branch-git</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>git filter-branch‵ 能夠改寫整個專案的歷史，會用到這個是因為以前有人在專案裡面將很多
+二進位檔案加入追蹤導致專案過於肥大，另外裡面有些檔案帶有敏感資訊所以必須連 commit 裡面的
+訊息全部去除，這時就用到</code>git filter-branch‵ 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
@@ -281,26 +295,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 
 <p>在網路上有 Trello 可以使用，但是我想在內部建立一個類似的網站，於是找到
 <a href="http://git.libreboard.com/libreboard/libreboard/tree/master">libreboard</a> 這個專案，安裝上可以直接透過 docker 架設。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hg-git]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/21/hg-git/"/>
-    <updated>2015-03-21T22:20:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/21/hg-git</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>目前手上有些別人專案是用 hg 作版本控管的，但是我想推到 Github 上面做備份，看到有一個 <a href="https://github.com/schacon/hg-git">hg-git</a> 的 plugin 可以將
-使用 hg 的專案推到 Github 上面。</p>
-
-<pre><code>easy_install hg-git
-vim ~/.hgrc
-
-[extensions]
-hggit = [path-to]/hg-git/hggit
-</code></pre>
 ]]></content>
   </entry>
   
