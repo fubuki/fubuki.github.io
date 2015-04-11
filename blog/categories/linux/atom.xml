@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-10T23:19:09+08:00</updated>
+  <updated>2015-04-11T23:47:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AVLinux : 影音處理用的 Linux 發行版本]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/11/av-linux/"/>
+    <updated>2015-04-11T23:44:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/11/av-linux</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
@@ -71,23 +83,6 @@
 <p>Linux 有個 taskset 指令可以在多核環境下指定特定的 Process 在某個 CPU 下運行，這個指令是看到有人用在 node.js 腳本上，
 由於 node.js 本身如果沒有特別處理是無法發揮多核的效能，所以建立多個 node.js Process 然後個別指定每個 CPU 上面，這樣
 就可以將使用到多核的效能。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux 掛載 Samba 目錄的方法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/14/linux-mount-samba/"/>
-    <updated>2015-01-14T23:19:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/14/linux-mount-samba</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近幫人建立一個根據正式機的鏡像系統，需要掛載在多台主機掛載相同的目錄，所以紀錄一下掛載的方法，
-以前有用 <code>smbfs</code> 掛載但是比較新的版本似乎只能用 <code>cifs</code>。</p>
-
-<pre><code>mount -t cifs -o username="root",password="toor" //host ip/srv /srv
-umount /srv
-</code></pre>
 ]]></content>
   </entry>
   

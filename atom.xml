@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-10T23:19:09+08:00</updated>
+  <updated>2015-04-11T23:47:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AVLinux : 影音處理用的 Linux 發行版本]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/11/av-linux/"/>
+    <updated>2015-04-11T23:44:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/11/av-linux</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Filter-branch]]></title>
@@ -282,19 +294,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 
 
 <p>[60fps on the mobile web] 關於手機上使用 WebView 建立 APP 需要注意的事情。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kanban 工具:libreboard]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/22/libreboard/"/>
-    <updated>2015-03-22T22:38:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/22/libreboard</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在網路上有 Trello 可以使用，但是我想在內部建立一個類似的網站，於是找到
-<a href="http://git.libreboard.com/libreboard/libreboard/tree/master">libreboard</a> 這個專案，安裝上可以直接透過 docker 架設。</p>
 ]]></content>
   </entry>
   
