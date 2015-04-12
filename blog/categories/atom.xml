@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-11T23:47:35+08:00</updated>
+  <updated>2015-04-12T22:54:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/12/random-graph/"/>
+    <updated>2015-04-12T22:38:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/12/random-graph</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model">Erdős–Rényi Model</a> 產生 <a href="http://en.wikipedia.org/wiki/Random_graph">Random graph</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Modern Web Conf 2014]]></title>
@@ -59,21 +71,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 
 
 <p>在學習 LISP 的時候看到的 <a href="http://en.wikipedia.org/wiki/S-expression">S-expression</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSP Concurrency Model]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/19/csp/"/>
-    <updated>2015-03-19T01:35:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/19/csp</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在學習 golang 順便了解一下跟 erlang 的不同，然後看到了 golang 是採用 CSP 系統，
-之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。</p>
-
-<p><code>Communicating sequential processes</code> (CSP) <a href="http://en.wikipedia.org/wiki/Communicating_sequential_processes">wiki</a></p>
 ]]></content>
   </entry>
   

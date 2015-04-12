@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-11T23:47:35+08:00</updated>
+  <updated>2015-04-12T22:54:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/12/random-graph/"/>
+    <updated>2015-04-12T22:38:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/12/random-graph</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model">Erdős–Rényi Model</a> 產生 <a href="http://en.wikipedia.org/wiki/Random_graph">Random graph</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AVLinux : 影音處理用的 Linux 發行版本]]></title>
@@ -282,18 +294,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 
 <pre><code>git config http.postBuffer xxxxxxxxx
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[手機上的 WebView 性能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/23/60-fps-mobile-web/"/>
-    <updated>2015-03-23T23:32:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/23/60-fps-mobile-web</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>[60fps on the mobile web] 關於手機上使用 WebView 建立 APP 需要注意的事情。</p>
 ]]></content>
   </entry>
   
