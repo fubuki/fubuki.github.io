@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-12T22:54:14+08:00</updated>
+  <updated>2015-04-13T22:45:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php Date 時間處理筆記]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/13/php-date/"/>
+    <updated>2015-04-13T00:53:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/13/php-date</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>取得目前的日期</h3>
+
+<pre><code>$now = DateTime():
+</code></pre>
+
+<h3>取得當月的第一天和最後一天</h3>
+
+<h3>往前推1個月</h3>
+
+<pre><code>$now-&gt;modify( '-1 month' );
+</code></pre>
+
+<h3>取得一段時間範圍</h3>
+
+<pre><code>DateInterval();
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP : Pthreads Library]]></title>
@@ -65,24 +92,6 @@
 
 
 <p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ORA-01461: Can Bind a LONG Value Only for Insert Into a LONG Column]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column/"/>
-    <updated>2014-12-10T22:51:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/10/ora-01461-can-bind-a-long-value-only-for-insert-into-a-long-column</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在工作上遇到了 &ldquo;ORA-01461: can bind a LONG value only for insert into a LONG column&rdquo; 這個錯誤訊息，後來發現是
-因為有人在資料庫使用 <code>clob</code> 的關係，似乎是插入的字串超過了 4k 的長度。</p>
-
-<p>之前使用 <code>clob</code> 時應該是支援超過 4k 長度的字串，網路上找了一些大部分都是寫 JDBC 版本的問題，不過我們開發環境是 PHP，
-原本以為是 oracle client 版本跟資料庫不一樣導致的問題，不過兩者版本是一致的，後來用 <code>oci_bind_by_name</code> 就可以過去了，
-而在 phalcon 底下使用 phql bind param 的方式也能夠執行避免錯誤，似乎問題在於 phalcon 使用 pdo 實現 oracle 的問題，
-直接使用 model 賦值是無法成功寫入的。</p>
 ]]></content>
   </entry>
   

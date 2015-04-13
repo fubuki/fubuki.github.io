@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-12T22:54:14+08:00</updated>
+  <updated>2015-04-13T22:45:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php Date 時間處理筆記]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/13/php-date/"/>
+    <updated>2015-04-13T00:53:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/13/php-date</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>取得目前的日期</h3>
+
+<pre><code>$now = DateTime():
+</code></pre>
+
+<h3>取得當月的第一天和最後一天</h3>
+
+<h3>往前推1個月</h3>
+
+<pre><code>$now-&gt;modify( '-1 month' );
+</code></pre>
+
+<h3>取得一段時間範圍</h3>
+
+<pre><code>DateInterval();
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
@@ -278,22 +305,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 <li><a href="http://www.cyanogenmod.org/">CM ROM</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Push 出現 Rpc Error]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc/"/>
-    <updated>2015-03-24T21:33:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/24/git-push-error-rpc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在推專案上 Github 的時候出現 rpc error 的問題，後來找網路上的解法是說
- Buffer 開太小了所以需要增加，增加的方法是用下面的指令。</p>
-
-<pre><code>git config http.postBuffer xxxxxxxxx
-</code></pre>
 ]]></content>
   </entry>
   
