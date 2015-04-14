@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-13T22:45:06+08:00</updated>
+  <updated>2015-04-14T22:37:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -24,13 +24,31 @@
 <h3>取得目前的日期</h3>
 
 <pre><code>$now = DateTime():
+$now-&gt;format('r');
+
+$now1 = getdate();
+print "{$now1['hours']}:{$now1['minutes']}:{$now1['seconds']}\n";
+
+
+$now2 = localtime();
+print "$now2[2]:$now2[1]:$now2[0]";
 </code></pre>
 
-<h3>取得當月的第一天和最後一天</h3>
+<h3>取得當月的第一天</h3>
+
+<pre><code>$start = date("Y-m-1"); 
+$date = new DateTime($start);
+</code></pre>
 
 <h3>往前推1個月</h3>
 
-<pre><code>$now-&gt;modify( '-1 month' );
+<pre><code>$result = $date-&gt;modify( '-1 month' );
+</code></pre>
+
+<h3>當月的最後一天</h3>
+
+<pre><code>$result = $date-&gt;modify( '+2 month' );
+$result = $date-&gt;modify( '-1 day' );
 </code></pre>
 
 <h3>取得一段時間範圍</h3>
