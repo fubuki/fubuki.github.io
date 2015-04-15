@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-14T22:37:18+08:00</updated>
+  <updated>2015-04-15T23:30:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Phalcon Dynamic Update DataBase]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/15/phalcon-dynamicupdate/"/>
+    <updated>2015-04-15T23:12:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/15/phalcon-dynamicupdate</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Phalcon 在更新資料庫的資料時會將所有欄位的資料都更新上去無論是有沒有修改過 Model 的欄位，這樣在某些情況下會有問題，
+如果使用 oracle 的 clob 欄位時必須先取得 stream 的內容後在更新，不然會發現資料內容都變成 resource id。</p>
+
+<p>不過後來發現 Phalcon 的 <a href="http://docs.phalconphp.com/en/latest/reference/models.html#dynamic-update">Dynamic Update</a>  功能可以避免上述的問題，使用這個功能後 phalcon 在產生 sql query 時只會更新
+ Model 有修改的部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php Date 時間處理筆記]]></title>
@@ -98,18 +114,6 @@ $result = $date-&gt;modify( '-1 day' );
 
 <p>之前有使用過 python 的 yield 很有趣的功能，然後今天看到一篇投影片 <a href="http://www.slideshare.net/techblogyahoo/phpioyield-phpcon2014">PHPにおけるI/O多重化とyield</a>，裡面介紹一些跟 PHP 異步有關的東西，
 但是最重要是 PHP 5.5 有增加支援 yield，詳細看 <a href="http://php.net/manual/en/language.generators.overview.php">Generators overview</a> 這篇。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[討厭 PHP 的原因]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so/"/>
-    <updated>2015-01-21T22:39:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/21/do-a-large-majority-of-people-hate-php-solely-because-other-people-do-so</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.quora.com/Do-a-large-majority-of-people-hate-PHP-solely-because-other-people-do-so">Do a large majority of people hate PHP solely because other people do so</a></p>
 ]]></content>
   </entry>
   
