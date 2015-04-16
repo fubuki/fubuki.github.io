@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-15T23:30:56+08:00</updated>
+  <updated>2015-04-16T22:42:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用　Groupcache]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/16/groupcache/"/>
+    <updated>2015-04-16T22:31:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/16/groupcache</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Groupcache 與 memcached 的差別</h3>
+
+<h3>　如何使用　Groupcache</h3>
+
+<pre><code>[groupcache]
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Phalcon Dynamic Update DataBase]]></title>
@@ -331,24 +348,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 然後清除過期的 item。</p>
 
 <p>另外 <code>memcached</code> 的官網有個有去的訊息 <a href="https://github.com/memcached/memcached/pull/97">Work In Progress LRU rework</a>，是替換關於 LRU 的部分目前在測試中。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free/"/>
-    <updated>2015-03-27T03:05:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 firefox 記憶體管理的程式碼時看到下面兩個名詞。</p>
-
-<ol>
-<li>MADV_DONTNEED 會馬上回收指定的記憶體區塊</li>
-<li>MADV_FREE kernel 會延遲回收那些頁面</li>
-</ol>
-
 ]]></content>
   </entry>
   

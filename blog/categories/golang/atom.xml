@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-15T23:30:56+08:00</updated>
+  <updated>2015-04-16T22:42:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用　Groupcache]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/16/groupcache/"/>
+    <updated>2015-04-16T22:31:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/16/groupcache</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Groupcache 與 memcached 的差別</h3>
+
+<h3>　如何使用　Groupcache</h3>
+
+<pre><code>[groupcache]
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NSQ: Message Server]]></title>
