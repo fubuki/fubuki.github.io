@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-16T22:42:43+08:00</updated>
+  <updated>2015-04-17T22:34:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Merge-tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/17/git-merge-tool/"/>
+    <updated>2015-04-17T22:27:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/17/git-merge-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>當 git merge 發生衝突的時候可以使用 git merge-tool 呼叫外部的工具來處理發生衝突的部分，下面
+是有用到一些工具。</p>
+
+<ol>
+<li>KDiff3</li>
+<li>P4Merge</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Filter-branch]]></title>
@@ -88,20 +107,6 @@ git am xxx.patch
 <pre><code>git diff prev_commit commit &gt; patch.diff 
 git apply patch.diff 
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Cherry-pick]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/08/git-cherry-pick/"/>
-    <updated>2014-09-08T22:46:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/08/git-cherry-pick</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 <code>Android 核心剖析</code> 時得知一個有趣的命令 <code>git cherry-pick</code> ，似乎是可以取得單獨的 commit 然後
-合併到目前的分支，如果專案在多分支開發的時候，有些需要在多個分支加入同一份修改的時候可以使用 <code>git cherry-pick</code>，
-避免分支合併到不需要的 commit。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-16T22:42:43+08:00</updated>
+  <updated>2015-04-17T22:34:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[使用　Groupcache]]></title>
+    <title type="html"><![CDATA[如何使用 Groupcache]]></title>
     <link href="http://fubuki.github.io/blog/2015/04/16/groupcache/"/>
     <updated>2015-04-16T22:31:29+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/04/16/groupcache</id>
@@ -23,10 +23,11 @@
 
 <h3>Groupcache 與 memcached 的差別</h3>
 
-<h3>　如何使用　Groupcache</h3>
+<p>同樣都是由相同作者開發的，只是 memcached 是使用 C++ 而 <a href="https://github.com/golang/groupcache">groupcache</a> 是使用 golang 開發的，
+然後 memcached 是作為獨立一個程式運作的，但是 <a href="https://github.com/golang/groupcache">groupcache</a> 本身就是 <code>client library</code> 和 <code>server</code>，
+使用起來反而比較像 sqlite。</p>
 
-<pre><code>[groupcache]
-</code></pre>
+<h3>如何使用 Groupcache</h3>
 ]]></content>
   </entry>
   

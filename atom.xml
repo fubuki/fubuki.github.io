@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-16T22:42:43+08:00</updated>
+  <updated>2015-04-17T22:34:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,26 @@
 
   
   <entry>
-    <title type="html"><![CDATA[使用　Groupcache]]></title>
+    <title type="html"><![CDATA[Git Merge-tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/17/git-merge-tool/"/>
+    <updated>2015-04-17T22:27:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/17/git-merge-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>當 git merge 發生衝突的時候可以使用 git merge-tool 呼叫外部的工具來處理發生衝突的部分，下面
+是有用到一些工具。</p>
+
+<ol>
+<li>KDiff3</li>
+<li>P4Merge</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[如何使用 Groupcache]]></title>
     <link href="http://fubuki.github.io/blog/2015/04/16/groupcache/"/>
     <updated>2015-04-16T22:31:29+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/04/16/groupcache</id>
@@ -23,10 +42,11 @@
 
 <h3>Groupcache 與 memcached 的差別</h3>
 
-<h3>　如何使用　Groupcache</h3>
+<p>同樣都是由相同作者開發的，只是 memcached 是使用 C++ 而 <a href="https://github.com/golang/groupcache">groupcache</a> 是使用 golang 開發的，
+然後 memcached 是作為獨立一個程式運作的，但是 <a href="https://github.com/golang/groupcache">groupcache</a> 本身就是 <code>client library</code> 和 <code>server</code>，
+使用起來反而比較像 sqlite。</p>
 
-<pre><code>[groupcache]
-</code></pre>
+<h3>如何使用 Groupcache</h3>
 ]]></content>
   </entry>
   
@@ -332,22 +352,6 @@ linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blo
 
 
 <p><a href="https://github.com/memcached/memcached/blob/master/scripts/memcached-tool">memcached-tool</a> 使用 perl 寫成的腳本，用來分析 memcachde 的運行狀況。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached 的 Lru_crawler]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/28/memcached-lru/"/>
-    <updated>2015-03-28T22:02:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/28/memcached-lru</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 <code>memcached</code> 的原始碼看到一個  <code>lru_crawler</code> 的東西，這個東西是為了清除過期的資料存在的，但是一般是不會啟動這個功能，
-會有這東西是因為 <code>memcached</code> 的資料在過期的時候不會立即清除，因此記憶體空間不會立即釋放，但是可以透過 <code>lru_crawler</code> 去遍歷 item
-然後清除過期的 item。</p>
-
-<p>另外 <code>memcached</code> 的官網有個有去的訊息 <a href="https://github.com/memcached/memcached/pull/97">Work In Progress LRU rework</a>，是替換關於 LRU 的部分目前在測試中。</p>
 ]]></content>
   </entry>
   
