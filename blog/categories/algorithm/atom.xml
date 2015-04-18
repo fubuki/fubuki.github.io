@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-17T22:34:02+08:00</updated>
+  <updated>2015-04-18T23:24:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mersenne Twister Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/18/mersenne-twister/"/>
+    <updated>2015-04-18T23:09:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/18/mersenne-twister</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Mersenne Twister 在 PHP 中作為 Pseudorandom number generator。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
@@ -65,19 +77,6 @@
 
 
 <p>Cuckoo hash 是用來解決 hash 碰撞的方法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Merkle Tree]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/17/merkle-tree/"/>
-    <updated>2015-02-17T23:45:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/17/merkle-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看書看到一個跟 bitcoin 有關的 tree : <a href="http://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>，後來查詢了他的相關資料發現 Amazon Dynamo 也有用到，
-似乎適合用在分散式環境下，在比對和驗證資料時特別有用。</p>
 ]]></content>
   </entry>
   
