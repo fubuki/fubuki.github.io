@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-18T23:24:54+08:00</updated>
+  <updated>2015-04-19T21:20:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mozilla SSL Configuration Generator]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator/"/>
+    <updated>2015-04-19T21:17:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">Mozilla SSL Configuration Generator</a> Mozilla 提供的簡易 SSL 產生器。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mersenne Twister Algorithm]]></title>
@@ -339,19 +351,6 @@ $result = $date-&gt;modify( '-1 day' );
 <li>beautiful code</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Radix Tree]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/30/radix-tree/"/>
-    <updated>2015-03-30T22:03:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/30/radix-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 nginx 和紅黑樹時看到一種名叫 <code>radix tree</code> 的多元搜尋樹，後來了解到在 linux 使用 <code>radix tree</code> 管理 cache，
-linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blob/master/lib/radix-tree.c">radix-tree.c</a> 裡面。</p>
 ]]></content>
   </entry>
   

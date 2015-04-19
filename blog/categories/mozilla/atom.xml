@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mozilla | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mozilla/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-18T23:24:54+08:00</updated>
+  <updated>2015-04-19T21:20:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mozilla SSL Configuration Generator]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator/"/>
+    <updated>2015-04-19T21:17:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">Mozilla SSL Configuration Generator</a> Mozilla 提供的簡易 SSL 產生器。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[開發 Firefox 附加元件]]></title>
