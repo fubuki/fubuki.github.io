@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-19T21:20:01+08:00</updated>
+  <updated>2015-04-20T23:13:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android Webview 的 坑]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/20/android-webview/"/>
+    <updated>2015-04-20T22:59:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/20/android-webview</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>解決 Android ViewPort 失效的問題</h3>
+
+<pre><code>webView.getSettings().setLoadWithOverviewMode( true );
+webView.getSettings().setUseWideViewPort( true );
+</code></pre>
+
+<h3>samsung 的手機頁面中有 Canvas 使用 touch 事件會有 bug</h3>
+
+<pre><code>z-index 的 BUG。
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 AOSP, AOKP, CM ROM]]></title>
@@ -97,28 +118,6 @@
 <p>參考:<br/>
 <a href="http://android-developers.blogspot.tw/2011/03/identifying-app-installations.html">Identifying App Installations</a><br/>
 <a href="http://www.pocketmagic.net/2011/02/android-unique-device-id/">Android Unique Device ID</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android NDK 環境建立]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li/"/>
-    <updated>2014-09-02T23:53:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/02/android-ndk-huan-jing-jian-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>如何建立 Android 使用 NDK 的環境。</p>
-
-<ol>
-<li>ADT</li>
-<li>NDK</li>
-<li>cygwin</li>
-</ol>
-
-
-<p>下載 Eclipse + ADT 就建立好基本的開發環境，在來下載 NDK 後在 Eclipse 指定 NDK 路徑，原本NDK 在 windows 環境下需要 cygwin 才能編譯。
-但是在 R7 之後的版本就內帶編譯環境而不需要 cygwin 的樣子，而舊版的 NDK 可以安裝 <a href="https://code.google.com/p/mini-cygwin/">mini-cygwin</a> 建立編譯環境取代安裝龐大的 cygwin。</p>
 ]]></content>
   </entry>
   

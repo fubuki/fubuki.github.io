@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-19T21:20:01+08:00</updated>
+  <updated>2015-04-20T23:13:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android Webview 的 坑]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/20/android-webview/"/>
+    <updated>2015-04-20T22:59:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/20/android-webview</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>解決 Android ViewPort 失效的問題</h3>
+
+<pre><code>webView.getSettings().setLoadWithOverviewMode( true );
+webView.getSettings().setUseWideViewPort( true );
+</code></pre>
+
+<h3>samsung 的手機頁面中有 Canvas 使用 touch 事件會有 bug</h3>
+
+<pre><code>z-index 的 BUG。
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mozilla SSL Configuration Generator]]></title>
@@ -332,23 +353,6 @@ $result = $date-&gt;modify( '-1 day' );
 <ol>
 <li><a href="https://github.com/stubbornella/oocss/wiki">oocss</a></li>
 <li><a href="http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us">Our Best Practices Are Killing Us</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[四月書單]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/31/2015-04-book-list/"/>
-    <updated>2015-03-31T22:05:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/31/2015-04-book-list</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>Redis 設計與實現</li>
-<li>Think Complexity</li>
-<li>beautiful code</li>
 </ol>
 
 ]]></content>
