@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/04/21/android-remote-debug/</loc>
+    <lastmod>2015-04-21T21:33:13+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/04/20/android-webview/</loc>
     <lastmod>2015-04-20T22:59:45+08:00</lastmod>
     <priority>0.8</priority>
@@ -2137,19 +2142,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-04-20T23:13:06+08:00</lastmod>
+    <lastmod>2015-04-21T22:03:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-04-20T23:13:06+08:00</lastmod>
+    <lastmod>2015-04-21T22:03:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-04-20T23:13:06+08:00</lastmod>
+    <lastmod>2015-04-21T22:03:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

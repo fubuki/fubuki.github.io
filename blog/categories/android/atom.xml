@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-20T23:13:06+08:00</updated>
+  <updated>2015-04-21T22:03:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android Remote Debug]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/21/android-remote-debug/"/>
+    <updated>2015-04-21T21:33:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/21/android-remote-debug</id>
+    <content type="html"><![CDATA[<hr />
+
+<!-- more -->
+
+
+<p>最近在 Android 上開發 <code>Hybrid app</code> 遇到一些問題，裡面有些頁面在設計的時候使用了很多外部的套件導致 layout 跟預計的
+相差很大，並且撰寫 javacript 的工程師使用的一些語法在桌面瀏覽器是可以但是在 webview 內是不行的，這樣產生了不少問題
+並且很難除錯，後來參考了一篇 <a href="https://developer.chrome.com/devtools/docs/remote-debugging">Remote Debugging on Android with Chrome</a>，讓開發者可以藉由 usb 和 chrome 遠端除錯。</p>
+
+<h3>開啟 chrome 遠端除錯的功能</h3>
+
+<pre><code>chrome://inspect/
+</code></pre>
+
+<h3>在 webview 增加下列程式碼</h3>
+
+<pre><code>if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT) {
+    WebView.setWebContentsDebuggingEnabled(true);   
+}
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android Webview 的 坑]]></title>
@@ -31,6 +59,8 @@ webView.getSettings().setUseWideViewPort( true );
 
 <pre><code>z-index 的 BUG。
 </code></pre>
+
+<h3>windows.outterWidth 為零的問題</h3>
 ]]></content>
   </entry>
   
@@ -86,38 +116,6 @@ webView.getSettings().setUseWideViewPort( true );
 
 
 <p>參考 : <a href="https://source.android.com/source/downloading.html">Downloading the Source</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android Unique Id]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/27/android-unique-id/"/>
-    <updated>2014-10-27T22:59:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/27/android-unique-id</id>
-    <content type="html"><![CDATA[<p>如何取得 android 裝置的唯一編號。</p>
-
-<!-- more -->
-
-
-<p>目前有一些用來識別是否為同一個裝置的方法，不過都有各自的問題。</p>
-
-<ol>
-<li><p>Mac Address
-在沒有 wifi 或是沒有開啟 wifi 的裝置就無法取得 Mac Address。</p></li>
-<li><p>DeviceId(IMEI/MEID/ESN)
-非手機裝置會沒有 DeviceId，另外似乎有些產品會返回 null。</p></li>
-<li><p>Android ID
-有些廠商的裝置會有相同的 Android ID，但是是哪些廠商我就沒有看過有人寫出來。</p></li>
-<li><p>Serial Number
-在 2.3之後的版本可以透過 android.os.Build.SERIAL 取得 Serial Number，似乎需要 READ_PHONE_STATE的權限，</p></li>
-<li><p>UUID
-開發者可以在 APP 安裝時產生 UUID，但是就必須考慮到如何保存 UUID 的數值。</p></li>
-</ol>
-
-
-<p>參考:<br/>
-<a href="http://android-developers.blogspot.tw/2011/03/identifying-app-installations.html">Identifying App Installations</a><br/>
-<a href="http://www.pocketmagic.net/2011/02/android-unique-device-id/">Android Unique Device ID</a></p>
 ]]></content>
   </entry>
   
