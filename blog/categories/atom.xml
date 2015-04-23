@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-22T23:22:16+08:00</updated>
+  <updated>2015-04-23T23:19:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sirius: An Intelligent Personal Assistant]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/22/sirius/"/>
+    <updated>2015-04-22T23:08:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/22/sirius</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/jhauswald/sirius">sirius</a> 一種 Intelligent Personal Assistant。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
@@ -59,18 +71,6 @@
 
 <p>最近在看 nginx 和紅黑樹時看到一種名叫 <code>radix tree</code> 的多元搜尋樹，後來了解到在 linux 使用 <code>radix tree</code> 管理 cache，
 linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blob/master/lib/radix-tree.c">radix-tree.c</a> 裡面。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[S-expression]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/20/s-expression/"/>
-    <updated>2015-03-20T23:07:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/20/s-expression</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在學習 LISP 的時候看到的 <a href="http://en.wikipedia.org/wiki/S-expression">S-expression</a></p>
 ]]></content>
   </entry>
   

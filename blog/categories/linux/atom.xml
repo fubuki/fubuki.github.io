@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-22T23:22:16+08:00</updated>
+  <updated>2015-04-23T23:19:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Select Poll Epoll 的差別]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/23/select-poll-epoll/"/>
+    <updated>2015-04-23T21:26:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/23/select-poll-epoll</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.ulduzsoft.com/2014/01/select-poll-epoll-practical-difference-for-system-architects/">select / poll / epoll: practical difference for system architects</a></p>
+
+<h3>select</h3>
+
+<h3>poll</h3>
+
+<h3>epoll</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AVLinux : 影音處理用的 Linux 發行版本]]></title>
@@ -69,20 +87,6 @@
 
 
 <p>記錄在 Centos 上面安裝 nfs server。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux Taskset 指令]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/17/linux-taskset/"/>
-    <updated>2015-01-17T23:20:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/17/linux-taskset</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Linux 有個 taskset 指令可以在多核環境下指定特定的 Process 在某個 CPU 下運行，這個指令是看到有人用在 node.js 腳本上，
-由於 node.js 本身如果沒有特別處理是無法發揮多核的效能，所以建立多個 node.js Process 然後個別指定每個 CPU 上面，這樣
-就可以將使用到多核的效能。</p>
 ]]></content>
   </entry>
   
