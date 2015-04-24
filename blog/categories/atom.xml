@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-23T23:19:11+08:00</updated>
+  <updated>2015-04-24T23:03:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GStreamer 影音處理框架]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/24/gstreamer/"/>
+    <updated>2015-04-24T22:24:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/24/gstreamer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前看到一個名叫 <a href="http://gstreamer.freedesktop.org/">gstreamer</a> 的影音處理框架，這個框架可以搭配樹莓派的 H.264 解碼的功能輸出即時影像，
+正好手上有羅技的攝影機在加上一塊樹莓派 Model B 的版子，所以就合在一起玩玩看。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sirius: An Intelligent Personal Assistant]]></title>
@@ -58,19 +71,6 @@
 
 
 <p><a href="https://istlsfastyet.com/">TLS has exactly one performance problem: it is not used widely enough</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Radix Tree]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/30/radix-tree/"/>
-    <updated>2015-03-30T22:03:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/30/radix-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 nginx 和紅黑樹時看到一種名叫 <code>radix tree</code> 的多元搜尋樹，後來了解到在 linux 使用 <code>radix tree</code> 管理 cache，
-linux 裡面相關的程式碼在 <a href="https://github.com/torvalds/linux/blob/master/lib/radix-tree.c">radix-tree.c</a> 裡面。</p>
 ]]></content>
   </entry>
   

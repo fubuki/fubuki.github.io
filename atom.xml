@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-23T23:19:11+08:00</updated>
+  <updated>2015-04-24T23:03:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GStreamer 影音處理框架]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/24/gstreamer/"/>
+    <updated>2015-04-24T22:24:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/24/gstreamer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前看到一個名叫 <a href="http://gstreamer.freedesktop.org/">gstreamer</a> 的影音處理框架，這個框架可以搭配樹莓派的 H.264 解碼的功能輸出即時影像，
+正好手上有羅技的攝影機在加上一塊樹莓派 Model B 的版子，所以就合在一起玩玩看。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Select Poll Epoll 的差別]]></title>
@@ -359,18 +372,6 @@ $result = $date-&gt;modify( '-1 day' );
 <li><a href="https://github.com/krakjoe/pthreads">php pthreads</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TLS 的效能跟問題]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/04/tls-problem/"/>
-    <updated>2015-04-04T23:17:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/04/tls-problem</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://istlsfastyet.com/">TLS has exactly one performance problem: it is not used widely enough</a></p>
 ]]></content>
   </entry>
   
