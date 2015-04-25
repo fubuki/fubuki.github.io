@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-24T23:03:02+08:00</updated>
+  <updated>2015-04-25T22:17:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Framer.js : Design Prototype App]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/25/framer/"/>
+    <updated>2015-04-25T21:32:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/25/framer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在看別人在設計手機 UI 時都是使用 WEB 網頁的概念去做的，而且是一堆靜態畫面要等到寫手機端的
+工程師花時間把畫面做出來的時候才會發現問題，所以就在想有沒有好的工具讓前端的工程師可以用原有的工具
+去設計手機 APP 的 UI 和 UX。</p>
+
+<p>後來我找到了 <a href="https://github.com/koenbok/Framer">Framer</a> ，我看到他官網裡 APP 的範例，不只有畫面也能實際操作，之後如果可行會推廣給其他人使用，
+這樣就可以在專案前期設計良好的原型，另外他也有提供一個開發工具不過只有在 Mac 版本，之後希望能夠放出其他平台的版本。</p>
+
+<h3>如何使用</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Velocity Js]]></title>
@@ -80,19 +99,6 @@
 
 
 <p>學習資源:<a href="https://egghead.io/articles/gentle-introduction-to-the-react-flux-architecture">Gentle Introduction to the React Flux Architecture</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何建構一個大型的 Javascript 結構]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture/"/>
-    <updated>2014-09-20T23:41:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/20/large-scale-javascript-application-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/jibyjohnc/jqquerysummit-largescale-javascript-application-architecture">largescale-javascript-application-architecture</a> 提到一些如何建構一個大型的 Javascript 結構的概念可最為參考，裡面主要提到 MVC 的概念
-和一些 Javascript 的設計模式。</p>
 ]]></content>
   </entry>
   
