@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-26T23:23:55+08:00</updated>
+  <updated>2015-04-27T22:42:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parallax Scrolling 效果]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/27/parallax-scrolling/"/>
+    <updated>2015-04-27T22:19:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/27/parallax-scrolling</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近常看到一種特殊的網頁視覺效果，網頁往下捲動時內容也會跟著改變，當時不知道叫做什麼後來看到別人在
+演講時提到相同的東西才知道這種效果名叫 <code>Parallax Scrolling</code>，然後在 github 上有個不錯的專案: <a href="https://github.com/Prinzhorn/skrollr">skrollr</a>，
+使用 Pure Javascript 寫成並且可以在各種環境下執行。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kojoney 安裝和使用]]></title>
@@ -360,20 +374,6 @@ $result = $date-&gt;modify( '-1 day' );
 
 
 <p><a href="http://modernwebconf.com/index.html">modern web conf 2014</a> 裡面有一些值得一看的 slide。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis 3.0 正式版本釋出]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0/"/>
-    <updated>2015-04-07T23:05:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/07/redis-3-dot-0</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Redis 3.0 正式版本已經釋出，可以測試 cluster 功能和 Redis 本身的性能 。</p>
-
-<p><a href="https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES">Redis 3.0 release notes</a></p>
 ]]></content>
   </entry>
   
