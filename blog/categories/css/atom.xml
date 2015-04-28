@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Css | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-27T22:42:18+08:00</updated>
+  <updated>2015-04-28T22:43:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CSS in the 4th Dimension]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/28/css-in-the-4th-dimension/"/>
+    <updated>2015-04-28T22:17:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/28/css-in-the-4th-dimension</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lea.verou.me/css-4d/#intro">CSS in the 4th dimension</a> 這篇介紹了不少如何使用純 CSS　撰寫出動畫效果，看了之後學到不少技巧，雖然有些
+在 IE 10 以下沒有辦法使用，但是在撰寫手機網頁跟一些只給內部使用的後台倒是挺好用的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OOCSS 相關資料]]></title>
