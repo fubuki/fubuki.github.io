@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-28T22:43:44+08:00</updated>
+  <updated>2015-04-29T22:01:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[純 CSS 版本的響應式表格]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables/"/>
+    <updated>2015-04-29T21:44:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">Responsive Tables in Pure CSS</a> 裡面只用純 CSS 就寫出一個響應式的表格。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSS in the 4th Dimension]]></title>
@@ -359,22 +371,6 @@ $result = $date-&gt;modify( '-1 day' );
 <p><code>git filter-branch‵ 能夠改寫整個專案的歷史，會用到這個是因為以前有人在專案裡面將很多
 二進位檔案加入追蹤導致專案過於肥大，另外裡面有些檔案帶有敏感資訊所以必須連 commit 裡面的
 訊息全部去除，這時就用到</code>git filter-branch‵ 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing/"/>
-    <updated>2015-04-09T22:03:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究 webshell 的時候，有提到關於如何偵測 webshell 的方法，其中有介紹一種叫 <code>Fuzzy Hashing</code>
-的演算法，一般像 md5 的 hash 方法只要文件有一些變化計算出來的數值就有很大的改變，這樣不利於檢查兩
-份文件的相似度，所以才有 <code>Fuzzy Hashing</code>。</p>
-
-<p>而 ssdeep 則是實現 <code>Fuzzy Hashing</code> 的程式，所以可以直接拿來測試手上的加殼程式，來看看效果如何。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Css | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-28T22:43:44+08:00</updated>
+  <updated>2015-04-29T22:01:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[純 CSS 版本的響應式表格]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables/"/>
+    <updated>2015-04-29T21:44:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">Responsive Tables in Pure CSS</a> 裡面只用純 CSS 就寫出一個響應式的表格。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CSS in the 4th Dimension]]></title>
@@ -75,18 +87,6 @@
 
 <p>最近因為各種因素需要撰寫 CSS，順便思考要使用哪種框架和 SCSS 或是 LESS 建立網頁，參考 <a href="http://www.wan55.jp/column/detail/id=179">SCSS(Sass)とLESSの比較とその結果</a>
 和初步的使用感覺在決定要使用哪個。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sass and Less]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/02/sass-and-less/"/>
-    <updated>2014-03-02T17:07:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/02/sass-and-less</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，</p>
 ]]></content>
   </entry>
   
