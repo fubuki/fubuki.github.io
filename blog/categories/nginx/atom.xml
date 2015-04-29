@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-29T22:01:59+08:00</updated>
+  <updated>2015-04-30T00:43:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Sticky Session]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/30/nginx-sticky-session/"/>
+    <updated>2015-04-30T00:42:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/30/nginx-sticky-session</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx SSL 的相關設定]]></title>
@@ -106,20 +116,6 @@ worker_cpu_affinity 1000 0100 0010 0001;
 <pre><code>worker_processes 2;
 worker_cpu_affinity 1000 0001;
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx-systemtap-toolkit]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/07/nginx-systemtap-toolkit/"/>
-    <updated>2015-01-07T21:52:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/07/nginx-systemtap-toolkit</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有學到使用 <code>systemtap</code> 跟蹤內核的行為，這樣用來了解程式的行為十分有幫助，而今天看到了一個使用
-<code>systemtap</code> 測試分析 nginx 的工具 : <a href="https://github.com/openresty/nginx-systemtap-toolkit">nginx-systemtap-toolkit</a>， 這個工具可以用來查看 nginx 內部各個
-區塊實際執行的情形，在他的網頁有很多命令可以使用，如果遇到 strace 還不能解決的情形可以透過的工具查詢。</p>
 ]]></content>
   </entry>
   

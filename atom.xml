@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-04-29T22:01:59+08:00</updated>
+  <updated>2015-04-30T00:43:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Sticky Session]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/30/nginx-sticky-session/"/>
+    <updated>2015-04-30T00:42:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/30/nginx-sticky-session</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[純 CSS 版本的響應式表格]]></title>
@@ -357,20 +367,6 @@ $result = $date-&gt;modify( '-1 day' );
 
 
 <p><a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Filter-branch]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/10/filter-branch-git/"/>
-    <updated>2015-04-10T23:06:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/10/filter-branch-git</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>git filter-branch‵ 能夠改寫整個專案的歷史，會用到這個是因為以前有人在專案裡面將很多
-二進位檔案加入追蹤導致專案過於肥大，另外裡面有些檔案帶有敏感資訊所以必須連 commit 裡面的
-訊息全部去除，這時就用到</code>git filter-branch‵ 。</p>
 ]]></content>
   </entry>
   
