@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Oracle | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/oracle/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-05-01T21:45:33+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[解決 Oracle ORA-00054 的錯誤]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/01/oracle-ora-00054/"/>
+    <updated>2015-05-01T21:26:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/01/oracle-ora-00054</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://oracle-base.com/articles/misc/killing-oracle-sessions.php">Killing Oracle Sessions</a></p>
+]]></content>
+  </entry>
+  
+</feed>
