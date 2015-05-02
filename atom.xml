@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-01T21:45:33+08:00</updated>
+  <updated>2015-05-02T23:31:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Fetch Api]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/02/javascript-fetch/"/>
+    <updated>2015-05-02T23:13:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/02/javascript-fetch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>為了改善 XMLHttpRequest 而誕生了 <code>fetch api</code>。</p>
+
+<ol>
+<li><a href="https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/">This API is so Fetching!</a></li>
+<li><a href="https://fetch.spec.whatwg.org/">fetch spec</a></li>
+<li><a href="https://github.com/github/fetch">github fetch</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[解決 Oracle ORA-00054 的錯誤]]></title>
@@ -363,18 +382,6 @@ $result = $date-&gt;modify( '-1 day' );
 
 <pre><code>DateInterval();
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/12/random-graph/"/>
-    <updated>2015-04-12T22:38:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/12/random-graph</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 <a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model">Erdős–Rényi Model</a> 產生 <a href="http://en.wikipedia.org/wiki/Random_graph">Random graph</a>。</p>
 ]]></content>
   </entry>
   
