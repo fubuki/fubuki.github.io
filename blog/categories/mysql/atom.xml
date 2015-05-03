@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-02T23:31:17+08:00</updated>
+  <updated>2015-05-03T21:49:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL 的 Index Merge Optimization]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/03/mysql-index-merge/"/>
+    <updated>2015-05-03T21:27:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/03/mysql-index-merge</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 MySQL 中如果在一個表中有多個 Index 然後 SQL 語句使用到這些 Index ， MySQL 就
+會使用 <a href="http://dev.mysql.com/doc/refman/5.0/en/index-merge-optimization.html">Index Merge Optimization</a> 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spider Storage Engine]]></title>
@@ -96,52 +109,6 @@ MariaDB，是值得期待的產品。</p>
 
 <p><a href="https://github.com/NetEase/InnoSQL">InnoSQL</a> 是網易開發的 Mysql 分支，在它的 Github 上有列出改變了哪些部分，這些應該都是基於
 網易內部需要而修改的，也許可以透過那些特性思考一下網易是如何使用 Mysql 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 5.7 New Feature]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature/"/>
-    <updated>2014-11-19T22:13:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/19/mysql-5-dot-7-new-feature</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Added Features</h3>
-
-<ol>
-<li>提高安全性</li>
-<li>SQL mode changes</li>
-<li>即時更新表結構</li>
-<li>優化 InnoDB</li>
-<li>supports stacked diagnostics areas</li>
-<li>EXPLAIN 可以顯示更多資訊</li>
-<li>觸發</li>
-<li>新增 LOG 機制</li>
-<li>MySQL Test Suite</li>
-<li>mysql client</li>
-<li>Database name rewriting with mysqlbinlog</li>
-<li>HANDLER with partitioned tables</li>
-<li>Index condition pushdown support for partitioned tables</li>
-<li>WITHOUT VALIDATION support for ALTER TABLE &hellip; EXCHANGE PARTITION</li>
-<li>Master dump thread improvements</li>
-<li>Globalization improvements</li>
-<li>Changing the replication master without STOP SLAVE</li>
-</ol>
-
-
-<h3>Deprecated Features</h3>
-
-<h3>Removed Features</h3>
-
-<ol>
-<li>更改密碼加密格式</li>
-<li>移除一些資料類型</li>
-<li>使用 <code>Performance Schema tables</code> 取代 <code>SHOW ENGINE INNODB MUTEX</code></li>
-</ol>
-
-
-<p>參考:<a href="http://dev.mysql.com/doc/refman/5.7/en/mysql-nutshell.html">What Is New in MySQL 5.7</a></p>
 ]]></content>
   </entry>
   
