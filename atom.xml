@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-03T21:49:52+08:00</updated>
+  <updated>2015-05-04T23:37:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MEMEX Search Engine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/04/memex-search-engine/"/>
+    <updated>2015-05-04T22:34:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/04/memex-search-engine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>用來探索 deep web 的搜尋引擎。</p>
+
+<ol>
+<li><a href="https://github.com/aglahe/vagrant-memex">vagrant-memex</a></li>
+<li><a href="https://github.com/arrayfire/arrayfire">arrayfire</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 的 Index Merge Optimization]]></title>
@@ -311,45 +329,6 @@ webView.getSettings().setUseWideViewPort( true );
 
 <p>不過後來發現 Phalcon 的 <a href="http://docs.phalconphp.com/en/latest/reference/models.html#dynamic-update">Dynamic Update</a>  功能可以避免上述的問題，使用這個功能後 phalcon 在產生 sql query 時只會更新
  Model 有修改的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx SSL 的相關設定]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/14/nginx-ssl/"/>
-    <updated>2015-04-14T03:23:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/14/nginx-ssl</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>紀錄從 Nginx 看到跟 SSL 相關的設定和概念，提高 Nginx 本身透過 SSL 通訊的安全性。</p>
-
-<p>之前在看同事設定 Apache SSL 功能時只有看到密鑰的檔案並沒有另外多加設定，後來自己在設定 nginx 的 SSL 功能時發現還有
-其它需要設定的選項: <code>ssl_protocols</code> 和 <code>ssl_ciphers</code>。</p>
-
-<h4>ssl_protocols</h4>
-
-<p>這個設定主要是為了避免伺服器使用有問題的加密協定，目前加密協定主要有 SSL 和 TLS，SSL 本身安全性已經有問題，所以建議使用 TLS，
-之前有看到一些瀏覽器廠商將 SSL 3.0 拿掉就是為了安全性問題。</p>
-
-<h3>ssl_ciphers</h3>
-
-<p>這個是用來設定 SSL 通訊所使用的加密演算法，設定內容可以參考下面的工具和網站。</p>
-
-<ol>
-<li><a href="https://cipherli.st/">Cipherli.st Strong Ciphers for Apache, nginx and Lighttpd</a></li>
-<li><a href="https://github.com/jvehent/cipherscan">cipherscan</a></li>
-</ol>
-
-
-<p>另外網路上有個檢測工具可以看看你自己的網站在 SSL 加密上獲得多少分數 <a href="https://www.ssllabs.com/ssltest/index.html">Qualys Labs</a>。</p>
-
-<h4>參考</h4>
-
-<ol>
-<li><a href="http://qiita.com/kuni-nakaji/items/5118b23bf2ea44fed96e">httpsだからというだけで安全？調べたら怖くなってきたSSLの話!？</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
