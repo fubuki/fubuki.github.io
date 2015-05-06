@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-05T23:56:29+08:00</updated>
+  <updated>2015-05-06T23:29:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[生命遊戲]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/06/game-of-life/"/>
+    <updated>2015-05-06T23:25:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/06/game-of-life</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Langton ant</li>
+<li>Conway Game of Life</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[React Conf 2014 心得]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/05/react-conf/"/>
+    <updated>2015-05-05T23:55:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/05/react-conf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kojoney 安裝和使用]]></title>
@@ -47,30 +73,6 @@
 
 
 <p><a href="https://github.com/jhauswald/sirius">sirius</a> 一種 Intelligent Personal Assistant。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erdős–Rényi Model and Random Graph]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/12/random-graph/"/>
-    <updated>2015-04-12T22:38:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/12/random-graph</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 <a href="http://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model">Erdős–Rényi Model</a> 產生 <a href="http://en.wikipedia.org/wiki/Random_graph">Random graph</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Modern Web Conf 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/08/modernwebconf-2014/"/>
-    <updated>2015-04-08T23:25:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/08/modernwebconf-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://modernwebconf.com/index.html">modern web conf 2014</a> 裡面有一些值得一看的 slide。</p>
 ]]></content>
   </entry>
   
