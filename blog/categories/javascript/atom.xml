@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-07T23:28:21+08:00</updated>
+  <updated>2015-05-08T23:19:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Browser Pointer Events]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/08/pointer-events/"/>
+    <updated>2015-05-08T22:26:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/08/pointer-events</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在撰寫 web 頁面的時候在 PC 上通常會使用到 click events，而在手機上則是會使用 touch events，但是在最近看一篇關於
+ pointer events 的文章，pointer events 可以取代上述兩種事件並且提供更多參數使用，不過目前有支援的瀏覽器不多。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Fetch Api]]></title>
@@ -79,21 +92,6 @@
 <h3>TurboFan</h3>
 
 <p>新的優化編譯器，裡面加入了 asm.js 的支持。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JSON Web Token]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/24/json-web-token/"/>
-    <updated>2014-10-24T21:48:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/24/json-web-token</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究 socket.io 時看到了一個東西； <a href="http://jwt.io/]">jwt</a> ， 後來在 mosca 也看到了相同的東西，尋找之後發現全名為 <code>JSON Web Token</code>，
-是用在加密 API 的回傳值，<a href="http://www.sitepoint.com/using-json-web-tokens-node-js/">Using JSON Web Tokens with Node.js</a> 這篇文章裡面有寫說 jwt 是怎麼加密，然後在 <a href="http://tools.ietf.org/html/draft-ietf-oauth-json-web-token-19">ietf</a> 有更詳細的規格，
-另外在 <a href="https://docs.auth0.com/scenarios-mqtt">Authenticating &amp; Authorizing Devices using MQTT with Auth0</a> 有寫如何跟 mosca server 一起使用，目前看起來是可以期待未來用在工作上面
-，github 上面已經有些範例和函式庫可以使用，也許可以用在目前有使用 mqtt 的應用程式上面提高安全性。</p>
 ]]></content>
   </entry>
   
