@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-08T23:19:46+08:00</updated>
+  <updated>2015-05-09T22:36:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 的序列化函式庫 Flatbuffers]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/09/google-flatbuffers/"/>
+    <updated>2015-05-09T21:48:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/09/google-flatbuffers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/flatbuffers/">flatbuffers</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Browser Pointer Events]]></title>
@@ -308,18 +320,6 @@ webView.getSettings().setUseWideViewPort( true );
 </code></pre>
 
 <h3>windows.outterWidth 為零的問題</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mozilla SSL Configuration Generator]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator/"/>
-    <updated>2015-04-19T21:17:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/19/mozilla-ssl-configuration-generator</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">Mozilla SSL Configuration Generator</a> Mozilla 提供的簡易 SSL 產生器。</p>
 ]]></content>
   </entry>
   

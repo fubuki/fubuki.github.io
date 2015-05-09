@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-08T23:19:46+08:00</updated>
+  <updated>2015-05-09T22:36:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 的序列化函式庫 Flatbuffers]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/09/google-flatbuffers/"/>
+    <updated>2015-05-09T21:48:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/09/google-flatbuffers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/flatbuffers/">flatbuffers</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP Entropy Based Image Cropping]]></title>
@@ -65,19 +77,6 @@
 
 
 <p><a href="http://kojoney.sourceforge.net/">kojoney</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GStreamer 影音處理框架]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/24/gstreamer/"/>
-    <updated>2015-04-24T22:24:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/24/gstreamer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前看到一個名叫 <a href="http://gstreamer.freedesktop.org/">gstreamer</a> 的影音處理框架，這個框架可以搭配樹莓派的 H.264 解碼的功能輸出即時影像，
-正好手上有羅技的攝影機在加上一塊樹莓派 Model B 的版子，所以就合在一起玩玩看。</p>
 ]]></content>
   </entry>
   
