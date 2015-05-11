@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-10T23:17:03+08:00</updated>
+  <updated>2015-05-11T23:38:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ChromeDriver]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/11/chromedriver/"/>
+    <updated>2015-05-11T23:34:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/11/chromedriver</id>
+    <content type="html"><![CDATA[<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Remote Debug With vorlon.JS]]></title>
@@ -283,32 +292,6 @@
 
 
 <p><a href="https://github.com/jhauswald/sirius">sirius</a> 一種 Intelligent Personal Assistant。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android Remote Debug]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/21/android-remote-debug/"/>
-    <updated>2015-04-21T21:33:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/21/android-remote-debug</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在 Android 上開發 <code>Hybrid app</code> 遇到一些問題，裡面有些頁面在設計的時候使用了很多外部的套件導致 layout 跟預計的
-相差很大，並且撰寫 javacript 的工程師使用的一些語法在桌面瀏覽器是可以但是在 webview 內是不行的，這樣產生了不少問題
-並且很難除錯，後來參考了一篇 <a href="https://developer.chrome.com/devtools/docs/remote-debugging">Remote Debugging on Android with Chrome</a>，讓開發者可以藉由 usb 和 chrome 遠端除錯。</p>
-
-<h3>開啟 chrome 遠端除錯的功能</h3>
-
-<pre><code>chrome://inspect/
-</code></pre>
-
-<h3>在 webview 增加下列程式碼</h3>
-
-<pre><code>if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT) {
-    WebView.setWebContentsDebuggingEnabled(true);   
-}
-</code></pre>
 ]]></content>
   </entry>
   
