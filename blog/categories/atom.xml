@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-11T23:38:14+08:00</updated>
+  <updated>2015-05-12T23:10:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/05/11/chromedriver/"/>
     <updated>2015-05-11T23:34:04+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/05/11/chromedriver</id>
-    <content type="html"><![CDATA[<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
 ]]></content>
   </entry>
   

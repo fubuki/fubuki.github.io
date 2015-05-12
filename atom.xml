@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-11T23:38:14+08:00</updated>
+  <updated>2015-05-12T23:10:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,31 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Quora Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/12/quora-architecture/"/>
+    <updated>2015-05-12T22:51:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/12/quora-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://www.quora.com/How-does-Quoras-parallel-rendering-architecture-work">How does Quora&rsquo;s parallel rendering architecture work?</a></li>
+<li><a href="http://blog.quora.com/Improving-Site-Speed">Improving Site Speed</a></li>
+<li><a href="http://engineering.quora.com/Web-Server-Architecture-at-Quora">Web Server Architecture at Quora</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[ChromeDriver]]></title>
     <link href="http://fubuki.github.io/blog/2015/05/11/chromedriver/"/>
     <updated>2015-05-11T23:34:04+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/05/11/chromedriver</id>
-    <content type="html"><![CDATA[<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
 ]]></content>
   </entry>
   
@@ -280,18 +300,6 @@
 <h3>poll</h3>
 
 <h3>epoll</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sirius: An Intelligent Personal Assistant]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/22/sirius/"/>
-    <updated>2015-04-22T23:08:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/22/sirius</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/jhauswald/sirius">sirius</a> 一種 Intelligent Personal Assistant。</p>
 ]]></content>
   </entry>
   
