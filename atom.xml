@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-13T23:01:53+08:00</updated>
+  <updated>2015-05-14T22:21:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP Conference 2014 in JP]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014/"/>
+    <updated>2015-05-14T22:13:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日本的 PHP 研討會 <a href="http://phpcon.php.gr.jp/w/2014/">PHP Conference 2014</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP UK Conference 2015 心得]]></title>
@@ -281,19 +293,6 @@
 這樣就可以在專案前期設計良好的原型，另外他也有提供一個開發工具不過只有在 Mac 版本，之後希望能夠放出其他平台的版本。</p>
 
 <h3>如何使用</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GStreamer 影音處理框架]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/24/gstreamer/"/>
-    <updated>2015-04-24T22:24:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/24/gstreamer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前看到一個名叫 <a href="http://gstreamer.freedesktop.org/">gstreamer</a> 的影音處理框架，這個框架可以搭配樹莓派的 H.264 解碼的功能輸出即時影像，
-正好手上有羅技的攝影機在加上一塊樹莓派 Model B 的版子，所以就合在一起玩玩看。</p>
 ]]></content>
   </entry>
   
