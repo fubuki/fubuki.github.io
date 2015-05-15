@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-14T22:21:53+08:00</updated>
+  <updated>2015-05-15T22:30:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,127 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Web Tw 2015 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015/"/>
+    <updated>2015-05-15T21:21:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h2>JavaScript at 20 Years</h2>
+
+<p>講者為 Javascript 之父 java 的 bytes code 影響他開發 js</p>
+
+<p>一個早期的網站 <a href="http://whitetailbutte.com/">http://whitetailbutte.com/</a> 使用 js 開發出類似現今 SPA 的概念，</p>
+
+<p>介紹了 js目前的生態系統</p>
+
+<ol>
+<li>asm.js</li>
+<li>typescript</li>
+<li>flow</li>
+<li>closure</li>
+<li>soundscript</li>
+</ol>
+
+
+<p>ecma tc39 on github</p>
+
+<h2>Redis, another step on the road</h2>
+
+<p>介紹 Redis 歷史</p>
+
+<p>介紹Reids 如何回收記憶體的行為。</p>
+
+<ol>
+<li>redis</li>
+<li>memcached</li>
+<li>Aerospike</li>
+</ol>
+
+
+<p>Redis 共享 session 的坑，因為 LRU 的關係 session 會非預期的清除。</p>
+
+<p>Redis 內部的 rehash 功能</p>
+
+<p>Redis 群集的做法</p>
+
+<ol>
+<li>Twemproxy</li>
+<li>codis</li>
+<li>redis cluster</li>
+<li>cerberus</li>
+</ol>
+
+
+<p>Redis 一些耗用效能的指令不太推薦使用</p>
+
+<p>推薦 Redis 主從模式。</p>
+
+<p>因為 Redis 內部的資料結構的關係，值的字串長度建議小於 39</p>
+
+<h2>酒館的進退之道</h2>
+
+<p>網站一開始使用 Drupal 93個模組 呼叫 150次</p>
+
+<p>本次議程使用 phalcon 的心得。</p>
+
+<p>使用 phalcon 衍生的問題</p>
+
+<h2>聽說 KKTIX 現在都是用 Go 寫的</h2>
+
+<p>用了更多的 Ruby</p>
+
+<p>使用 Ruby inline assembly 優化效能</p>
+
+<p>講解 golang 的好處</p>
+
+<p>golang 依賴管理</p>
+
+<ol>
+<li>Gom</li>
+<li>GoDEP</li>
+<li>gb</li>
+</ol>
+
+
+<h2>開源之道，Open Source Enlightenment</h2>
+
+<p>主要講一些開源的精神，我覺得其實看 <code>大教堂與市集</code> 這本經典就足夠了。</p>
+
+<h2>SEO真的只要做這些事就好</h2>
+
+<p>本次議程人爆滿，</p>
+
+<p>以前在寫文案都要將代名詞換掉，</p>
+
+<p>正確的架構 schema.org</p>
+
+<p>T:kd</p>
+
+<p>meta keywords 已棄用</p>
+
+<h2>Web + Arduino 實在有夠潮!</h2>
+
+<p>介紹使用 web 控制 Arduino</p>
+
+<p>元件標籤化</p>
+
+<p>使用 Web Component 客製化元件</p>
+
+<h2>Modern Web technology to interact with (Big) Data: Voice Control, Data Visualization and Data-Driven Animation</h2>
+
+<ol>
+<li>疾病資料視覺化</li>
+<li>車禍資料視覺化</li>
+<li>語音控制</li>
+<li>動畫效果會影響使用者在閱讀資料的感覺和體驗。</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ChromeDriver]]></title>
@@ -65,18 +186,6 @@
 <li>Conway Game of Life</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[React.js Conf 2015 心得]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/05/react-conf/"/>
-    <updated>2015-05-05T23:55:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/05/react-conf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://conf.reactjs.com/schedule.html">React.js Conf</a></p>
 ]]></content>
   </entry>
   

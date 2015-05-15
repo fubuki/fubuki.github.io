@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Modern Web Tw 2015 Day 1 - Learning Blog</title>
+  <meta name="author" content="Fubuki">
+
+  
+  <meta name="description" content="JavaScript at 20 Years 講者為 Javascript 之父 java 的 bytes code 影響他開發 js 一個早期的網站 http://whitetailbutte.com/ 使用 js 開發出類似現今 SPA 的概念， 介紹了 js目前的生態系統 asm.js &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-48634116-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Learning Blog</a></h1>
+  
+    <h2>預定調和</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get" onsubmit="this['q'].value = this['q_raw'].value + ' site:fubuki.github.io';">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="" />
+    <input class="search" type="text" name="q_raw" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Modern Web Tw 2015 Day 1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-05-15T21:21:07+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:21 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!-- more -->
+
+
+<h2>JavaScript at 20 Years</h2>
+
+<p>講者為 Javascript 之父 java 的 bytes code 影響他開發 js</p>
+
+<p>一個早期的網站 <a href="http://whitetailbutte.com/">http://whitetailbutte.com/</a> 使用 js 開發出類似現今 SPA 的概念，</p>
+
+<p>介紹了 js目前的生態系統</p>
+
+<ol>
+<li>asm.js</li>
+<li>typescript</li>
+<li>flow</li>
+<li>closure</li>
+<li>soundscript</li>
+</ol>
+
+
+<p>ecma tc39 on github</p>
+
+<h2>Redis, another step on the road</h2>
+
+<p>介紹 Redis 歷史</p>
+
+<p>介紹Reids 如何回收記憶體的行為。</p>
+
+<ol>
+<li>redis</li>
+<li>memcached</li>
+<li>Aerospike</li>
+</ol>
+
+
+<p>Redis 共享 session 的坑，因為 LRU 的關係 session 會非預期的清除。</p>
+
+<p>Redis 內部的 rehash 功能</p>
+
+<p>Redis 群集的做法</p>
+
+<ol>
+<li>Twemproxy</li>
+<li>codis</li>
+<li>redis cluster</li>
+<li>cerberus</li>
+</ol>
+
+
+<p>Redis 一些耗用效能的指令不太推薦使用</p>
+
+<p>推薦 Redis 主從模式。</p>
+
+<p>因為 Redis 內部的資料結構的關係，值的字串長度建議小於 39</p>
+
+<h2>酒館的進退之道</h2>
+
+<p>網站一開始使用 Drupal 93個模組 呼叫 150次</p>
+
+<p>本次議程使用 phalcon 的心得。</p>
+
+<p>使用 phalcon 衍生的問題</p>
+
+<h2>聽說 KKTIX 現在都是用 Go 寫的</h2>
+
+<p>用了更多的 Ruby</p>
+
+<p>使用 Ruby inline assembly 優化效能</p>
+
+<p>講解 golang 的好處</p>
+
+<p>golang 依賴管理</p>
+
+<ol>
+<li>Gom</li>
+<li>GoDEP</li>
+<li>gb</li>
+</ol>
+
+
+<h2>開源之道，Open Source Enlightenment</h2>
+
+<p>主要講一些開源的精神，我覺得其實看 <code>大教堂與市集</code> 這本經典就足夠了。</p>
+
+<h2>SEO真的只要做這些事就好</h2>
+
+<p>本次議程人爆滿，</p>
+
+<p>以前在寫文案都要將代名詞換掉，</p>
+
+<p>正確的架構 schema.org</p>
+
+<p>T:kd</p>
+
+<p>meta keywords 已棄用</p>
+
+<h2>Web + Arduino 實在有夠潮!</h2>
+
+<p>介紹使用 web 控制 Arduino</p>
+
+<p>元件標籤化</p>
+
+<p>使用 Web Component 客製化元件</p>
+
+<h2>Modern Web technology to interact with (Big) Data: Voice Control, Data Visualization and Data-Driven Animation</h2>
+
+<ol>
+<li>疾病資料視覺化</li>
+<li>車禍資料視覺化</li>
+<li>語音控制</li>
+<li>動畫效果會影響使用者在閱讀資料的感覺和體驗。</li>
+</ol>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-05-15T21:21:07+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:21 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories//'></a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/05/14/php-conference-jp-2014/" title="Previous Post: PHP Conference 2014 in JP">&laquo; PHP Conference 2014 in JP</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/15/modern-web-tw-2015/">Modern Web Tw 2015 Day 1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/14/php-conference-jp-2014/">PHP Conference 2014 in JP</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/13/phpconf-uk-2015/">PHP UK Conference 2015 心得</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/12/quora-architecture/">Quora Architecture</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/05/11/chromedriver/">ChromeDriver</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+<h1>分類</h1>
+<ul>
+  <li><a href='/blog/categories/'> (20)</a></li>
+  <li><a href='/blog/categories/algorithm'>Algorithm (24)</a></li>
+  <li><a href='/blog/categories/android'>Android (10)</a></li>
+  <li><a href='/blog/categories/api'>Api (1)</a></li>
+  <li><a href='/blog/categories/architecture'>Architecture (8)</a></li>
+  <li><a href='/blog/categories/asterisk'>Asterisk (4)</a></li>
+  <li><a href='/blog/categories/atom'>Atom (1)</a></li>
+  <li><a href='/blog/categories/bdd'>Bdd (1)</a></li>
+  <li><a href='/blog/categories/book-lists'>Book lists (14)</a></li>
+  <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
+  <li><a href='/blog/categories/c'>C (1)</a></li>
+  <li><a href='/blog/categories/c-'>C++ (1)</a></li>
+  <li><a href='/blog/categories/cdn'>Cdn (1)</a></li>
+  <li><a href='/blog/categories/chocolatey'>Chocolatey (1)</a></li>
+  <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
+  <li><a href='/blog/categories/css'>Css (6)</a></li>
+  <li><a href='/blog/categories/data-analysis'>Data analysis (2)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep learning (4)</a></li>
+  <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
+  <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (9)</a></li>
+  <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
+  <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
+  <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
+  <li><a href='/blog/categories/frontend'>Frontend (8)</a></li>
+  <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
+  <li><a href='/blog/categories/git'>Git (16)</a></li>
+  <li><a href='/blog/categories/golang'>Golang (5)</a></li>
+  <li><a href='/blog/categories/graph-database'>Graph database (2)</a></li>
+  <li><a href='/blog/categories/gulp'>Gulp (1)</a></li>
+  <li><a href='/blog/categories/hadoop'>Hadoop (2)</a></li>
+  <li><a href='/blog/categories/html5'>Html5 (2)</a></li>
+  <li><a href='/blog/categories/information-retrieval'>Information retrieval (1)</a></li>
+  <li><a href='/blog/categories/javascript'>Javascript (21)</a></li>
+  <li><a href='/blog/categories/jdk'>Jdk (2)</a></li>
+  <li><a href='/blog/categories/jquery'>Jquery (2)</a></li>
+  <li><a href='/blog/categories/line'>Line (5)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (27)</a></li>
+  <li><a href='/blog/categories/lucene'>Lucene (1)</a></li>
+  <li><a href='/blog/categories/machine-learning'>Machine learning (4)</a></li>
+  <li><a href='/blog/categories/mariadb'>Mariadb (2)</a></li>
+  <li><a href='/blog/categories/markdown'>Markdown (2)</a></li>
+  <li><a href='/blog/categories/memcached'>Memcached (11)</a></li>
+  <li><a href='/blog/categories/mobile'>Mobile (1)</a></li>
+  <li><a href='/blog/categories/mozilla'>Mozilla (4)</a></li>
+  <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
+  <li><a href='/blog/categories/mysql'>Mysql (12)</a></li>
+  <li><a href='/blog/categories/nginx'>Nginx (10)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (10)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (23)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
+  <li><a href='/blog/categories/oauth'>Oauth (1)</a></li>
+  <li><a href='/blog/categories/open-source'>Open source (13)</a></li>
+  <li><a href='/blog/categories/opencv'>Opencv (2)</a></li>
+  <li><a href='/blog/categories/openstack'>Openstack (2)</a></li>
+  <li><a href='/blog/categories/oracle'>Oracle (1)</a></li>
+  <li><a href='/blog/categories/php'>Php (31)</a></li>
+  <li><a href='/blog/categories/project-management'>Project management (4)</a></li>
+  <li><a href='/blog/categories/python'>Python (8)</a></li>
+  <li><a href='/blog/categories/queue'>Queue (3)</a></li>
+  <li><a href='/blog/categories/rabbitmq'>Rabbitmq (6)</a></li>
+  <li><a href='/blog/categories/redis'>Redis (9)</a></li>
+  <li><a href='/blog/categories/ruby'>Ruby (1)</a></li>
+  <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
+  <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
+  <li><a href='/blog/categories/sdn'>Sdn (1)</a></li>
+  <li><a href='/blog/categories/sdr'>Sdr (2)</a></li>
+  <li><a href='/blog/categories/search-engine'>Search engine (7)</a></li>
+  <li><a href='/blog/categories/server'>Server (1)</a></li>
+  <li><a href='/blog/categories/sip'>Sip (7)</a></li>
+  <li><a href='/blog/categories/snort'>Snort (1)</a></li>
+  <li><a href='/blog/categories/social-physics'>Social physics (1)</a></li>
+  <li><a href='/blog/categories/socketio'>Socketio (6)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (1)</a></li>
+  <li><a href='/blog/categories/sql'>Sql (2)</a></li>
+  <li><a href='/blog/categories/sublime-text'>Sublime-text (3)</a></li>
+  <li><a href='/blog/categories/theano'>Theano (1)</a></li>
+  <li><a href='/blog/categories/ux'>Ux (1)</a></li>
+  <li><a href='/blog/categories/vargrant'>Vargrant (1)</a></li>
+  <li><a href='/blog/categories/vim'>Vim (2)</a></li>
+  <li><a href='/blog/categories/voip'>Voip (1)</a></li>
+  <li><a href='/blog/categories/webrtc'>Webrtc (1)</a></li>
+  <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
+</ul>
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/fubuki">@fubuki</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'fubuki',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Fubuki -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fubuki';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015/';
+        var disqus_url = 'http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
