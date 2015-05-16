@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-15T22:30:37+08:00</updated>
+  <updated>2015-05-16T20:45:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Web Tw 2015 Day2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2/"/>
+    <updated>2015-05-16T20:36:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h2>Speeding up the Web with PHP 7</h2>
+
+<p>介紹第一版的 PHP 的樣子</p>
+
+<p>介紹 PHP 7 的改進之處</p>
+
+<p>PHP 跟 HHVM 的 benchmark</p>
+
+<h2>Websites in Data Driven Generation: Navigation, Searching, Recommendation</h2>
+
+<p>User 找 item<br/>
+item 也在找 User</p>
+
+<p>Tree Search &lt;&lt; Graph Search &lt;&lt; Human Search</p>
+
+<p>商業的 Domain Know How &lt;&lt; 使用者 Know How</p>
+
+<p>機器不動 &lt;&lt; 機器被動 &lt;&lt; 機器主動</p>
+
+<p>常見的推薦方法</p>
+
+<p>收到 Data 之後 Model 幾乎就自動出現了</p>
+
+<h2>安裝 Nginx 的 101 種方法／Ansible 簡介</h2>
+
+<p>Configureation as Code</p>
+
+<p>組態管理系統</p>
+
+<h2>JavaScript，征服世界是可能的嗎？</h2>
+
+<p>介紹 Javascript 的發展歷史</p>
+
+<p>web app 化</p>
+
+<h2>How the East Was Won</h2>
+
+<p>介紹 Ruby 的歷史</p>
+
+<h2>When web meet native app</h2>
+
+<p>看起來就是建立一個 <code>hybrid app</code></p>
+
+<p>webview 的坑</p>
+
+<h2>CSS3 3D實務應用</h2>
+
+<p>CSS 3D 火力展示</p>
+
+<h2>用戶體驗不是一個部門</h2>
+
+<p>跨文化的創意能力</p>
+
+<p>無法解決未知的問題</p>
+
+<p>Coding with meanings</p>
+
+<p>探索未知</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Modern Web Tw 2015 Day 1]]></title>
@@ -383,18 +452,6 @@
 <p>最近常看到一種特殊的網頁視覺效果，網頁往下捲動時內容也會跟著改變，當時不知道叫做什麼後來看到別人在
 演講時提到相同的東西才知道這種效果名叫 <code>Parallax Scrolling</code>，然後在 github 上有個不錯的專案: <a href="https://github.com/Prinzhorn/skrollr">skrollr</a>，
 使用 Pure Javascript 寫成並且可以在各種環境下執行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kojoney 安裝和使用]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/26/kojoney/"/>
-    <updated>2015-04-26T23:22:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/26/kojoney</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://kojoney.sourceforge.net/">kojoney</a></p>
 ]]></content>
   </entry>
   

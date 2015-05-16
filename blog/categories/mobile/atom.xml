@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mobile | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mobile/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-15T22:30:37+08:00</updated>
+  <updated>2015-05-16T20:45:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p>[60fps on the mobile web] 關於手機上使用 WebView 建立 APP 需要注意的事情。</p>
+<p><a href="http://engineering.flipboard.com/2015/02/mobile-web/">60fps on the mobile web</a> 關於手機上使用 WebView 建立 APP 需要注意的事情。</p>
 ]]></content>
   </entry>
   

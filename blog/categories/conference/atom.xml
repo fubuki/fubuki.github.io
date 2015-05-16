@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Conference | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-05-16T20:45:23+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Web Tw 2015 Day2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2/"/>
+    <updated>2015-05-16T20:36:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h2>Speeding up the Web with PHP 7</h2>
+
+<p>介紹第一版的 PHP 的樣子</p>
+
+<p>介紹 PHP 7 的改進之處</p>
+
+<p>PHP 跟 HHVM 的 benchmark</p>
+
+<h2>Websites in Data Driven Generation: Navigation, Searching, Recommendation</h2>
+
+<p>User 找 item<br/>
+item 也在找 User</p>
+
+<p>Tree Search &lt;&lt; Graph Search &lt;&lt; Human Search</p>
+
+<p>商業的 Domain Know How &lt;&lt; 使用者 Know How</p>
+
+<p>機器不動 &lt;&lt; 機器被動 &lt;&lt; 機器主動</p>
+
+<p>常見的推薦方法</p>
+
+<p>收到 Data 之後 Model 幾乎就自動出現了</p>
+
+<h2>安裝 Nginx 的 101 種方法／Ansible 簡介</h2>
+
+<p>Configureation as Code</p>
+
+<p>組態管理系統</p>
+
+<h2>JavaScript，征服世界是可能的嗎？</h2>
+
+<p>介紹 Javascript 的發展歷史</p>
+
+<p>web app 化</p>
+
+<h2>How the East Was Won</h2>
+
+<p>介紹 Ruby 的歷史</p>
+
+<h2>When web meet native app</h2>
+
+<p>看起來就是建立一個 <code>hybrid app</code></p>
+
+<p>webview 的坑</p>
+
+<h2>CSS3 3D實務應用</h2>
+
+<p>CSS 3D 火力展示</p>
+
+<h2>用戶體驗不是一個部門</h2>
+
+<p>跨文化的創意能力</p>
+
+<p>無法解決未知的問題</p>
+
+<p>Coding with meanings</p>
+
+<p>探索未知</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Modern Web Tw 2015 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015/"/>
+    <updated>2015-05-15T21:21:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h2>JavaScript at 20 Years</h2>
+
+<p>講者為 Javascript 之父 java 的 bytes code 影響他開發 js</p>
+
+<p>一個早期的網站 <a href="http://whitetailbutte.com/">http://whitetailbutte.com/</a> 使用 js 開發出類似現今 SPA 的概念，</p>
+
+<p>介紹了 js目前的生態系統</p>
+
+<ol>
+<li>asm.js</li>
+<li>typescript</li>
+<li>flow</li>
+<li>closure</li>
+<li>soundscript</li>
+</ol>
+
+
+<p>ecma tc39 on github</p>
+
+<h2>Redis, another step on the road</h2>
+
+<p>介紹 Redis 歷史</p>
+
+<p>介紹Reids 如何回收記憶體的行為。</p>
+
+<ol>
+<li>redis</li>
+<li>memcached</li>
+<li>Aerospike</li>
+</ol>
+
+
+<p>Redis 共享 session 的坑，因為 LRU 的關係 session 會非預期的清除。</p>
+
+<p>Redis 內部的 rehash 功能</p>
+
+<p>Redis 群集的做法</p>
+
+<ol>
+<li>Twemproxy</li>
+<li>codis</li>
+<li>redis cluster</li>
+<li>cerberus</li>
+</ol>
+
+
+<p>Redis 一些耗用效能的指令不太推薦使用</p>
+
+<p>推薦 Redis 主從模式。</p>
+
+<p>因為 Redis 內部的資料結構的關係，值的字串長度建議小於 39</p>
+
+<h2>酒館的進退之道</h2>
+
+<p>網站一開始使用 Drupal 93個模組 呼叫 150次</p>
+
+<p>本次議程使用 phalcon 的心得。</p>
+
+<p>使用 phalcon 衍生的問題</p>
+
+<h2>聽說 KKTIX 現在都是用 Go 寫的</h2>
+
+<p>用了更多的 Ruby</p>
+
+<p>使用 Ruby inline assembly 優化效能</p>
+
+<p>講解 golang 的好處</p>
+
+<p>golang 依賴管理</p>
+
+<ol>
+<li>Gom</li>
+<li>GoDEP</li>
+<li>gb</li>
+</ol>
+
+
+<h2>開源之道，Open Source Enlightenment</h2>
+
+<p>主要講一些開源的精神，我覺得其實看 <code>大教堂與市集</code> 這本經典就足夠了。</p>
+
+<h2>SEO真的只要做這些事就好</h2>
+
+<p>本次議程人爆滿，</p>
+
+<p>以前在寫文案都要將代名詞換掉，</p>
+
+<p>正確的架構 schema.org</p>
+
+<p>T:kd</p>
+
+<p>meta keywords 已棄用</p>
+
+<h2>Web + Arduino 實在有夠潮!</h2>
+
+<p>介紹使用 web 控制 Arduino</p>
+
+<p>元件標籤化</p>
+
+<p>使用 Web Component 客製化元件</p>
+
+<h2>Modern Web technology to interact with (Big) Data: Voice Control, Data Visualization and Data-Driven Animation</h2>
+
+<ol>
+<li>疾病資料視覺化</li>
+<li>車禍資料視覺化</li>
+<li>語音控制</li>
+<li>動畫效果會影響使用者在閱讀資料的感覺和體驗。</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP Conference 2014 in JP]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014/"/>
+    <updated>2015-05-14T22:13:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>日本的 PHP 研討會 <a href="http://phpcon.php.gr.jp/w/2014/">PHP Conference 2014</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP UK Conference 2015 心得]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/13/phpconf-uk-2015/"/>
+    <updated>2015-05-13T22:48:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/13/phpconf-uk-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>整理一下在 <a href="http://phpconference.co.uk/">PHP UK Conference</a> 網站看到的有趣議程。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[React.js Conf 2015 心得]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/05/react-conf/"/>
+    <updated>2015-05-05T23:55:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/05/react-conf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://conf.reactjs.com/schedule.html">React.js Conf</a></p>
+]]></content>
+  </entry>
+  
+</feed>

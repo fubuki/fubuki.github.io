@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-15T22:30:37+08:00</updated>
+  <updated>2015-05-16T20:45:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,30 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[PHP Conference 2014 in JP]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014/"/>
-    <updated>2015-05-14T22:13:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/14/php-conference-jp-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>日本的 PHP 研討會 <a href="http://phpcon.php.gr.jp/w/2014/">PHP Conference 2014</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP UK Conference 2015 心得]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/13/phpconf-uk-2015/"/>
-    <updated>2015-05-13T22:48:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/13/phpconf-uk-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>整理一下在 <a href="http://phpconference.co.uk/">PHP UK Conference</a> 網站看到的有趣議程。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Phalcon Dynamic Update DataBase]]></title>
@@ -111,6 +87,33 @@ $result = $date-&gt;modify( '-1 day' );
 <li><a href="https://github.com/krakjoe/pthreads">php pthreads</a></li>
 </ol>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Phalcon 設定讀寫分離功能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/04/02/phalcon-master-slave/"/>
+    <updated>2015-04-02T23:29:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/04/02/phalcon-master-slave</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近需要建立 phalcon 連結 mysql 的專案，然後手上有一個 mysql cluster 的設備，所以
+想要在 phalcon 設定讀寫分離的功能，讀跟寫是連接不同的資料庫位置，最後在 phalcon 的文檔
+<a href="https://phalcon-php-framework-documentation.readthedocs.org/en/latest/reference/models.html?highlight=selectReadConnection#setting-multiple-databases">setting-multiple-databases</a> 有說明怎麼設定。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 的 Yield]]></title>
+    <link href="http://fubuki.github.io/blog/2015/03/13/php-yield/"/>
+    <updated>2015-03-13T23:08:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/03/13/php-yield</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有使用過 python 的 yield 很有趣的功能，然後今天看到一篇投影片 <a href="http://www.slideshare.net/techblogyahoo/phpioyield-phpcon2014">PHPにおけるI/O多重化とyield</a>，裡面介紹一些跟 PHP 異步有關的東西，
+但是最重要是 PHP 5.5 有增加支援 yield，詳細看 <a href="http://php.net/manual/en/language.generators.overview.php">Generators overview</a> 這篇。</p>
 ]]></content>
   </entry>
   
