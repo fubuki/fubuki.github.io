@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-16T20:45:23+08:00</updated>
+  <updated>2015-05-17T23:52:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python and Julia]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/17/julialang/"/>
+    <updated>2015-05-17T22:13:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/17/julialang</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://julialang.org/">Julia</a> 集合多個語言優點用來做數值運算的程式語言，在官網可以看到跟其他語言速度的比較圖。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Modern Web Tw 2015 Day2]]></title>
@@ -438,20 +450,6 @@ item 也在找 User</p>
 
 <p><a href="http://lea.verou.me/css-4d/#intro">CSS in the 4th dimension</a> 這篇介紹了不少如何使用純 CSS　撰寫出動畫效果，看了之後學到不少技巧，雖然有些
 在 IE 10 以下沒有辦法使用，但是在撰寫手機網頁跟一些只給內部使用的後台倒是挺好用的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Parallax Scrolling 效果]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/27/parallax-scrolling/"/>
-    <updated>2015-04-27T22:19:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/27/parallax-scrolling</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近常看到一種特殊的網頁視覺效果，網頁往下捲動時內容也會跟著改變，當時不知道叫做什麼後來看到別人在
-演講時提到相同的東西才知道這種效果名叫 <code>Parallax Scrolling</code>，然後在 github 上有個不錯的專案: <a href="https://github.com/Prinzhorn/skrollr">skrollr</a>，
-使用 Pure Javascript 寫成並且可以在各種環境下執行。</p>
 ]]></content>
   </entry>
   

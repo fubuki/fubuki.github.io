@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-16T20:45:23+08:00</updated>
+  <updated>2015-05-17T23:52:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python and Julia]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/17/julialang/"/>
+    <updated>2015-05-17T22:13:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/17/julialang</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://julialang.org/">Julia</a> 集合多個語言優點用來做數值運算的程式語言，在官網可以看到跟其他語言速度的比較圖。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coroutine Gevent Stackless]]></title>
@@ -105,16 +117,6 @@ easy_install web.py
 
 
 <p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python 和 HDF5]]></title>
-    <link href="http://fubuki.github.io/blog/2014/06/22/python-he-hdf5/"/>
-    <updated>2014-06-22T23:41:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/06/22/python-he-hdf5</id>
-    <content type="html"><![CDATA[<p>HDF5檔案格式: <a href="http://www.hdfgroup.org/HDF5/">HDF5</a><br/>
-HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
 ]]></content>
   </entry>
   
