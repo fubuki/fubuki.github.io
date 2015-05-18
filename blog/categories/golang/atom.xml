@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-17T23:52:09+08:00</updated>
+  <updated>2015-05-18T23:02:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/18/golang-android/"/>
+    <updated>2015-05-18T22:52:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/18/golang-android</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前可以使用 C++ 加上 JNI 開發 android app，這樣的好處是在一些需要耗用計算資源的地方使用 C++ 可以提高效能，
+然後最近看到可以使用使用 golang 做到相同類似的地方。我是參考這篇 <a href="http://qiita.com/hkurokawa/items/9315162c61830befc547">go.mobile を使った Android 開発のまとめ</a> 文章。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何使用 Groupcache]]></title>
@@ -66,23 +79,6 @@
 
 
 <p>golang 的類似線程的東西，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Golang 開發環境]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing/"/>
-    <updated>2015-01-26T23:37:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/26/golang-kai-fa-huan-jing</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://golang.org/doc/code.html">How to Write Go Code</a> 要先了解 go 的目錄結構，目前有個 wide 的 web ide 可以測試看看。</p>
-
-<pre><code>apt-get install gccgo-go
-mkdir mygo
-export GOPATH=~/mygo
-</code></pre>
 ]]></content>
   </entry>
   

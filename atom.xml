@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-17T23:52:09+08:00</updated>
+  <updated>2015-05-18T23:02:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/18/golang-android/"/>
+    <updated>2015-05-18T22:52:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/18/golang-android</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前可以使用 C++ 加上 JNI 開發 android app，這樣的好處是在一些需要耗用計算資源的地方使用 C++ 可以提高效能，
+然後最近看到可以使用使用 golang 做到相同類似的地方。我是參考這篇 <a href="http://qiita.com/hkurokawa/items/9315162c61830befc547">go.mobile を使った Android 開発のまとめ</a> 文章。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python and Julia]]></title>
@@ -437,19 +450,6 @@ item 也在找 User</p>
 
 
 <p><a href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">Responsive Tables in Pure CSS</a> 裡面只用純 CSS 就寫出一個響應式的表格。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CSS in the 4th Dimension]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/28/css-in-the-4th-dimension/"/>
-    <updated>2015-04-28T22:17:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/28/css-in-the-4th-dimension</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://lea.verou.me/css-4d/#intro">CSS in the 4th dimension</a> 這篇介紹了不少如何使用純 CSS　撰寫出動畫效果，看了之後學到不少技巧，雖然有些
-在 IE 10 以下沒有辦法使用，但是在撰寫手機網頁跟一些只給內部使用的後台倒是挺好用的。</p>
 ]]></content>
   </entry>
   
