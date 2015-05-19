@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-18T23:02:43+08:00</updated>
+  <updated>2015-05-19T23:33:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Stirng Search Using Rolling Hash]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/19/rolling-hash/"/>
+    <updated>2015-05-19T22:59:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/19/rolling-hash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
@@ -438,18 +450,6 @@ item 也在找 User</p>
 
 <p>要在 nginx 上使用 sticky seession 需要安裝  <a href="https://bitbucket.org/nginx-goodies/nginx-sticky-module-ng/overview">nginx-sticky-module-ng</a>，安裝之後就可以在設定檔中使用 <code>sticky</code> ，但是
 這個功能是使用 cookie 完成的，所以如果 cookie 有問題就會需要使用 <code>ip-hash</code> 代替。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[純 CSS 版本的響應式表格]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables/"/>
-    <updated>2015-04-29T21:44:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/29/pure-css-responsive-tables</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">Responsive Tables in Pure CSS</a> 裡面只用純 CSS 就寫出一個響應式的表格。</p>
 ]]></content>
   </entry>
   
