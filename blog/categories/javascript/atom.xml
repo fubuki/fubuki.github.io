@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-19T23:33:42+08:00</updated>
+  <updated>2015-05-20T23:28:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[React-starter-kit 集成開發工具]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/20/react-starter-kit/"/>
+    <updated>2015-05-20T22:49:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/20/react-starter-kit</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/kriasoft/react-starter-kit">react-starter-kit</a> 裡面集成的各式的前端開發工具，有幾個是我蠻中意正在學習或是已經在使用的，
+如果有機會了話這個也許能夠成為未來公司新進人員的練習平台。</p>
+
+<p>下面是幾個蠻推薦去學習的工具。</p>
+
+<ol>
+<li>React.js</li>
+<li>Flow</li>
+<li>Glup</li>
+<li>Webpack</li>
+<li>Babel (ES6)</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Remote Debug With vorlon.JS]]></title>
@@ -73,19 +97,6 @@
 這樣就可以在專案前期設計良好的原型，另外他也有提供一個開發工具不過只有在 Mac 版本，之後希望能夠放出其他平台的版本。</p>
 
 <h3>如何使用</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Velocity Js]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/08/velocity/"/>
-    <updated>2015-03-08T22:29:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/08/velocity</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到有人使用 <a href="https://github.com/julianshapiro/velocity">velocity</a> 製作 UI 的動畫效果，看起來比  <code>jQuery animate</code>  還強大，
-這邊 <a href="http://codepen.io/collection/tIjGb/">Velocity.js: The Official Collection</a> 有一些可以參考的例子。</p>
 ]]></content>
   </entry>
   

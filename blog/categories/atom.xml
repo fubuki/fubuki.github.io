@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-19T23:33:42+08:00</updated>
+  <updated>2015-05-20T23:28:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,18 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Stirng Search Using Rolling Hash]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/19/rolling-hash/"/>
-    <updated>2015-05-19T22:59:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/19/rolling-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[ChromeDriver]]></title>
@@ -75,6 +63,24 @@
 <ol>
 <li>Langton ant</li>
 <li>Conway Game of Life</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MEMEX Search Engine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/04/memex-search-engine/"/>
+    <updated>2015-05-04T22:34:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/04/memex-search-engine</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>用來探索 deep web 的搜尋引擎。</p>
+
+<ol>
+<li><a href="https://github.com/aglahe/vagrant-memex">vagrant-memex</a></li>
+<li><a href="https://github.com/arrayfire/arrayfire">arrayfire</a></li>
 </ol>
 
 ]]></content>

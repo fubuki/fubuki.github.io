@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-19T23:33:42+08:00</updated>
+  <updated>2015-05-20T23:28:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[String Search Using Rolling Hash]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/19/rolling-hash/"/>
+    <updated>2015-05-19T22:59:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/19/rolling-hash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mersenne Twister Algorithm]]></title>
@@ -65,18 +77,6 @@
 <p><code>Skip List</code> 可以跟二元搜尋樹比較的資料結構，</p>
 
 <p><a href="http://stackoverflow.com/questions/256511/skip-list-vs-binary-tree">Skip List vs. Binary Tree</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cuckoo Hash]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/20/cuckoo-hash/"/>
-    <updated>2015-02-20T22:26:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/20/cuckoo-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Cuckoo hash 是用來解決 hash 碰撞的方法。</p>
 ]]></content>
   </entry>
   
