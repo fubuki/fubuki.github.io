@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-20T23:28:47+08:00</updated>
+  <updated>2015-05-21T23:53:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BRIC Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/21/bric-alogrim/"/>
+    <updated>2015-05-21T23:27:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/21/bric-alogrim</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>BRIC (Blocked Recursive Image Composition) Algroithm ，最近在做 <code>Photo Collage</code>問題時在一篇 HP 發布的論文上提到的看到的演算法，
+在一些 BLOG 跟 Stackoverflow 都看到有人使用這個演算法處理上面提到的問題。</p>
+
+<p>下面列出一些文章裡面提到跟影像處理的關鍵字之後需要研究一下。</p>
+
+<ol>
+<li>Saliency Map</li>
+<li></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[String Search Using Rolling Hash]]></title>
@@ -63,20 +84,6 @@
 
 <p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
 所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Skip List]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/10/skip-list/"/>
-    <updated>2015-03-10T21:46:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/10/skip-list</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>Skip List</code> 可以跟二元搜尋樹比較的資料結構，</p>
-
-<p><a href="http://stackoverflow.com/questions/256511/skip-list-vs-binary-tree">Skip List vs. Binary Tree</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-20T23:28:47+08:00</updated>
+  <updated>2015-05-21T23:53:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BRIC Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/21/bric-alogrim/"/>
+    <updated>2015-05-21T23:27:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/21/bric-alogrim</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>BRIC (Blocked Recursive Image Composition) Algroithm ，最近在做 <code>Photo Collage</code>問題時在一篇 HP 發布的論文上提到的看到的演算法，
+在一些 BLOG 跟 Stackoverflow 都看到有人使用這個演算法處理上面提到的問題。</p>
+
+<p>下面列出一些文章裡面提到跟影像處理的關鍵字之後需要研究一下。</p>
+
+<ol>
+<li>Saliency Map</li>
+<li></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[React-starter-kit 集成開發工具]]></title>
@@ -444,18 +465,6 @@ item 也在找 User</p>
 <li><a href="https://github.com/github/fetch">github fetch</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[解決 Oracle ORA-00054 的錯誤]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/01/oracle-ora-00054/"/>
-    <updated>2015-05-01T21:26:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/01/oracle-ora-00054</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://oracle-base.com/articles/misc/killing-oracle-sessions.php">Killing Oracle Sessions</a></p>
 ]]></content>
   </entry>
   
