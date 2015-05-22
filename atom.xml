@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-21T23:53:39+08:00</updated>
+  <updated>2015-05-22T23:06:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang Factory 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/22/erlang-factory-2014/"/>
+    <updated>2015-05-22T22:56:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/22/erlang-factory-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.erlang-factory.com/sfbay2014/">Erlang Factory 2014</a> 之前在查 WhatsApp 的架構時看到的研討會。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BRIC Algorithm]]></title>
@@ -446,25 +458,6 @@ item 也在找 User</p>
 
 <p>在 MySQL 中如果在一個表中有多個 Index 然後 SQL 語句使用到這些 Index ， MySQL 就
 會使用 <a href="http://dev.mysql.com/doc/refman/5.0/en/index-merge-optimization.html">Index Merge Optimization</a> 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Fetch Api]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/02/javascript-fetch/"/>
-    <updated>2015-05-02T23:13:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/02/javascript-fetch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>為了改善 XMLHttpRequest 而誕生了 <code>fetch api</code>。</p>
-
-<ol>
-<li><a href="https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/">This API is so Fetching!</a></li>
-<li><a href="https://fetch.spec.whatwg.org/">fetch spec</a></li>
-<li><a href="https://github.com/github/fetch">github fetch</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
