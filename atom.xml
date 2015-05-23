@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-22T23:06:31+08:00</updated>
+  <updated>2015-05-23T23:17:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ILSVRC2014]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/23/ilsvrc2014/"/>
+    <updated>2015-05-23T23:12:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/23/ilsvrc2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.image-net.org/challenges/LSVRC/2014/">ILSVRC2014</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang Factory 2014]]></title>
@@ -445,19 +457,6 @@ item 也在找 User</p>
 <li><a href="https://github.com/arrayfire/arrayfire">arrayfire</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 的 Index Merge Optimization]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/03/mysql-index-merge/"/>
-    <updated>2015-05-03T21:27:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/03/mysql-index-merge</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 MySQL 中如果在一個表中有多個 Index 然後 SQL 語句使用到這些 Index ， MySQL 就
-會使用 <a href="http://dev.mysql.com/doc/refman/5.0/en/index-merge-optimization.html">Index Merge Optimization</a> 。</p>
 ]]></content>
   </entry>
   
