@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-23T23:17:23+08:00</updated>
+  <updated>2015-05-24T20:40:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MDN 的 Javascript 教學]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/24/mozilla-javascript/"/>
+    <updated>2015-05-24T20:09:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/24/mozilla-javascript</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 MDN 上面看到不錯的 Javascript 教學 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Tutorials</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ILSVRC2014]]></title>
@@ -439,24 +451,6 @@ item 也在找 User</p>
 
 
 <p><a href="http://conf.reactjs.com/schedule.html">React.js Conf</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MEMEX Search Engine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/04/memex-search-engine/"/>
-    <updated>2015-05-04T22:34:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/04/memex-search-engine</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>用來探索 deep web 的搜尋引擎。</p>
-
-<ol>
-<li><a href="https://github.com/aglahe/vagrant-memex">vagrant-memex</a></li>
-<li><a href="https://github.com/arrayfire/arrayfire">arrayfire</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
