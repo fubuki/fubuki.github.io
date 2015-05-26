@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-25T23:49:21+08:00</updated>
+  <updated>2015-05-26T23:22:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Growthhackers: 如何提升流量]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/26/growthhackers/"/>
+    <updated>2015-05-26T21:48:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/26/growthhackers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看到有人提起一個名詞叫 <a href="https://growthhackers.com">growth hackers</a>，聽別人解釋是使用技術結合行銷提高產品的流量，所以是將行銷結合工程師的存在。</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Growth_hacking">wiki</a> 有對 <a href="https://growthhackers.com">growth hackers</a> 進行定義，其中有提到一些相關的技術例如下面所提到的:</p>
+
+<ol>
+<li>A/B testing</li>
+<li>SEO</li>
+<li>網站分析</li>
+</ol>
+
+
+<p>另外也提到這是 Startup 所需要的職位，<code>growth first, budgets second</code> 以流量成長為優先最為考量，這很像
+約耳提過的 Amazon 模式，以快速成長為優先，藉由有別於傳統的行銷策略，使用類似上面提到的技術提高流量留住客戶。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Waifu2x: A Image Scale Website]]></title>
@@ -436,22 +460,6 @@ item 也在找 User</p>
 才能保留重要的部分，最初是選擇圖片的中央部分，後來有想過使用邊緣檢測和特徵檢測得出需要的部分，
 後來看到一個使用 Entropy 的方法，在 <a href="https://github.com/stojg/crop">crop</a> 裡面有實作的方法，在 <a href="http://www.reddit.com/r/programming/comments/1wz2e4/cropping_images_in_php_based_on_their_entropy/">Cropping Images in PHP Based on their Entropy</a>
 裡面有不少相關的討論可以參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[生命遊戲]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/06/game-of-life/"/>
-    <updated>2015-05-06T23:25:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/06/game-of-life</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>Langton ant</li>
-<li>Conway Game of Life</li>
-</ol>
-
 ]]></content>
   </entry>
   
