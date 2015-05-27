@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-26T23:22:59+08:00</updated>
+  <updated>2015-05-27T23:20:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery UK Conference]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/27/jquery-uk-2015/"/>
+    <updated>2015-05-27T22:23:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/27/jquery-uk-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://jqueryuk.com/2015/">jQuery UK Conference</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Growthhackers: 如何提升流量]]></title>
@@ -70,18 +82,6 @@
 
 
 <p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google 的序列化函式庫 Flatbuffers]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/09/google-flatbuffers/"/>
-    <updated>2015-05-09T21:48:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/09/google-flatbuffers</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/flatbuffers/">flatbuffers</a></p>
 ]]></content>
   </entry>
   
