@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-27T23:20:50+08:00</updated>
+  <updated>2015-05-28T22:34:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 URL 對網頁做分類]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/28/webpage-classification-using-url/"/>
+    <updated>2015-05-28T21:10:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/28/webpage-classification-using-url</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://tarekamr.appspot.com/msc/presentation">URL-based Web-Page Classification</a> 使用 N-gram 資料做訓練集， LingPipe 做為 NLP 的函式庫，
+LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Laplace smoothing 補足。</p>
+
+<p>也有提到下面幾種分類方法:</p>
+
+<pre><code>1. Naive Bayes
+2. SVM
+3. Maximum Entropy
+4. Online Learners
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery UK Conference]]></title>
@@ -70,18 +91,6 @@
 
 
 <p><a href="http://www.erlang-factory.com/sfbay2014/">Erlang Factory 2014</a> 之前在查 WhatsApp 的架構時看到的研討會。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ChromeDriver]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/11/chromedriver/"/>
-    <updated>2015-05-11T23:34:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/11/chromedriver</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://sites.google.com/a/chromium.org/chromedriver/">ChromeDriver - WebDriver for Chrome</a></p>
 ]]></content>
   </entry>
   
