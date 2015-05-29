@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-28T22:34:16+08:00</updated>
+  <updated>2015-05-29T22:36:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Compact Language Detector 2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/29/compact-language-detector-2/"/>
+    <updated>2015-05-29T21:02:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/29/compact-language-detector-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://code.google.com/p/cld2/">Compact Language Detector 2</a> 是 chrome 用來偵測目前網頁的使用的語言，提示使用者可以翻譯成目前使用的語言，
+從網站的說明看是用 <code>Naïve Bayesian classifier</code> ， 然後有三種資料集當作分類的分數。</p>
+
+<h3>For Unicode scripts such as Greek and Thai that map one-to-one to detected languages, the script defines the result</h3>
+
+<h3>For the 80,000+ character Han script and its CJK combination with Hiragana, Katakana, and Hangul scripts, single letters (unigrams) are scored</h3>
+
+<h3>For all other scripts, sequences of four letters (quadgrams) are scored</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 URL 對網頁做分類]]></title>
@@ -79,18 +98,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 
 <p><a href="http://www.image-net.org/challenges/LSVRC/2014/">ILSVRC2014</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang Factory 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/22/erlang-factory-2014/"/>
-    <updated>2015-05-22T22:56:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/22/erlang-factory-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.erlang-factory.com/sfbay2014/">Erlang Factory 2014</a> 之前在查 WhatsApp 的架構時看到的研討會。</p>
 ]]></content>
   </entry>
   
