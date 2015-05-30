@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/05/30/shl%60s-emotion-analysis-algorithm/</loc>
+    <lastmod>2015-05-30T22:37:27+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/05/29/compact-language-detector-2/</loc>
     <lastmod>2015-05-29T21:02:49+08:00</lastmod>
     <priority>0.8</priority>
@@ -2332,19 +2337,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-05-29T22:36:08+08:00</lastmod>
+    <lastmod>2015-05-30T23:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-05-29T22:36:08+08:00</lastmod>
+    <lastmod>2015-05-30T23:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-05-29T22:36:08+08:00</lastmod>
+    <lastmod>2015-05-30T23:33:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
