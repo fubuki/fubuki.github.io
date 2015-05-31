@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-30T23:33:18+08:00</updated>
+  <updated>2015-05-31T22:21:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,20 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[SHL`s Emotion Analysis Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/30/shl%60s-emotion-analysis-algorithm/"/>
-    <updated>2015-05-30T22:37:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/30/shl`s-emotion-analysis-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在某個展覽會的 Intel 攤位看到讓我感興趣的東西，是關於使用類似穿戴式裝置偵測人類的情緒波動然後傳送到手機上面，
-而其中有使用一個叫做 <code>SHL</code>s Emotion Analysis Algorithm` 的演算法，在 NLP 裡面原本就有關於情緒偵測的部分，此外也有
-使用音訊偵測的方式，不過關於這個演算法在網路上並沒有其他相關的訊息可能還需要找找新的專利或是論文。</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Compact Language Detector 2]]></title>
@@ -100,6 +86,18 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 <p>另外也提到這是 Startup 所需要的職位，<code>growth first, budgets second</code> 以流量成長為優先最為考量，這很像
 約耳提過的 Amazon 模式，以快速成長為優先，藉由有別於傳統的行銷策略，使用類似上面提到的技術提高流量留住客戶。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ILSVRC2014]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/23/ilsvrc2014/"/>
+    <updated>2015-05-23T23:12:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/23/ilsvrc2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.image-net.org/challenges/LSVRC/2014/">ILSVRC2014</a></p>
 ]]></content>
   </entry>
   

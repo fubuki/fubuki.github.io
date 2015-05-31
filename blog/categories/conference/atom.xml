@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-30T23:33:18+08:00</updated>
+  <updated>2015-05-31T22:21:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene/Solr Revolution 2014]]></title>
+    <link href="http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014/"/>
+    <updated>2015-05-31T22:10:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.youtube.com/playlist?list=PLU6n9Voqu_1FM8nmVwiWWDRtsEjlPqhgP">Lucene/Solr Revolution 2014</a> 國外舉辦的關於 Solr 和 Lucene 的研討會。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Modern Web Tw 2015 Day2]]></title>
@@ -224,18 +236,6 @@ item 也在找 User</p>
 
 
 <p>整理一下在 <a href="http://phpconference.co.uk/">PHP UK Conference</a> 網站看到的有趣議程。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[React.js Conf 2015 心得]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/05/react-conf/"/>
-    <updated>2015-05-05T23:55:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/05/react-conf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://conf.reactjs.com/schedule.html">React.js Conf</a></p>
 ]]></content>
   </entry>
   

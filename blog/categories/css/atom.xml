@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Css | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-30T23:33:18+08:00</updated>
+  <updated>2015-05-31T22:21:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><a href="https://techblog.livingsocial.com/blog/2015/04/06/responsive-tables-in-pure-css/">Responsive Tables in Pure CSS</a> 裡面只用純 CSS 就寫出一個響應式的表格。</p>
+<p>[Responsive Tables in Pure CSS] 裡面只用純 CSS 就寫出一個響應式的表格。</p>
 ]]></content>
   </entry>
   
