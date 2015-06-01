@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-05-31T22:21:35+08:00</updated>
+  <updated>2015-06-01T22:15:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Platform Success Model Explainer]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/01/platform-success-model-explainer/"/>
+    <updated>2015-06-01T21:40:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/01/platform-success-model-explainer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看 <a href="https://www.youtube.com/watch?v=Ku3znd7JNIk">BlinkOn3: State Of Blink</a> 這篇演講的時候有一頁提到 APP 的時間模型，然後他特別用了另一篇文章來解釋模型，
+在 Platform Success Model Explainer 這篇講解為何會分成下面四段時間。</p>
+
+<h3>Loading</h3>
+
+<h3>Finger down</h3>
+
+<h3>Animation</h3>
+
+<h3>Finger up</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lucene/Solr Revolution 2014]]></title>
@@ -457,23 +478,6 @@ item 也在找 User</p>
 
 
 <p>整理一下在 <a href="http://phpconference.co.uk/">PHP UK Conference</a> 網站看到的有趣議程。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quora Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/12/quora-architecture/"/>
-    <updated>2015-05-12T22:51:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/12/quora-architecture</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="http://www.quora.com/How-does-Quoras-parallel-rendering-architecture-work">How does Quora&rsquo;s parallel rendering architecture work?</a></li>
-<li><a href="http://blog.quora.com/Improving-Site-Speed">Improving Site Speed</a></li>
-<li><a href="http://engineering.quora.com/Web-Server-Architecture-at-Quora">Web Server Architecture at Quora</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
