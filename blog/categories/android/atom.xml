@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-01T22:15:16+08:00</updated>
+  <updated>2015-06-02T23:11:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GCM 3.0]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/02/gcm-3-dot-0/"/>
+    <updated>2015-06-02T22:33:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/02/gcm-3-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 Google IO 2015 大會上看到一個關於 GCM 3.0 的議程，後來在 <a href="https://www.youtube.com/watch?v=gJatfdattno&amp;feature=em-uploademail">youtube</a> 上面看到詳細的內容，
+裡面提到關於支援 iOS 的事情， iOS 先取得 apns token 之後在跟 GCM Server 取得 token，這樣就可以
+使用在 iOS 上面使用 GCM 的服務，詳細的用法可以在 <a href="https://developers.google.com/cloud-messaging/">Cloud Messaging</a> 找到。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android Remote Debug]]></title>
@@ -88,32 +102,6 @@ webView.getSettings().setUseWideViewPort( true );
 
 
 <p>一系列關於 Android 性能的影片: <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIKEOXh5TwZEv89aofHzNCiu">Android Performance Patterns</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[取得 Android 的原始碼]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/03/android-source/"/>
-    <updated>2015-01-03T22:20:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/03/android-source</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><p>安裝 repo</p>
-
-<p> curl <a href="https://storage.googleapis.com/git-repo-downloads/repo">https://storage.googleapis.com/git-repo-downloads/repo</a> > /usr/bin/repo
- chmod  a+x /usr/bin/repo</p></li>
-<li><p>建立文件夾下載程式碼</p>
-
-<p> mkdir andorid_source
- cd andorid_source
- repo init -u <a href="https://android.googlesource.com/platform/manifest">https://android.googlesource.com/platform/manifest</a>
- repo sync</p></li>
-</ol>
-
-
-<p>參考 : <a href="https://source.android.com/source/downloading.html">Downloading the Source</a></p>
 ]]></content>
   </entry>
   
