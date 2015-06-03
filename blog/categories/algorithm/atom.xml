@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-02T23:11:37+08:00</updated>
+  <updated>2015-06-03T23:12:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[路徑演算法的一些介紹]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/03/routing-algorithm/"/>
+    <updated>2015-06-03T22:26:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/03/routing-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://theory.stanford.edu/~amitp/GameProgramming/">GameProgramming</a> 裡面介紹了關於路徑演算法的概念和實現方法，以前在大學主要是學了下面幾種路徑演算法，不過
+實際在一些領域有其他更有趣的演算法，上面的網頁主要是介紹在遊戲裡面的路徑演算法，可以拿來複習跟學習一些新的路徑演算法。</p>
+
+<ol>
+<li>A*</li>
+<li>BFS</li>
+<li>DFS</li>
+<li>Dijkstra</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[BRIC Algorithm]]></title>
@@ -71,19 +92,6 @@
 份文件的相似度，所以才有 <code>Fuzzy Hashing</code>。</p>
 
 <p>而 ssdeep 則是實現 <code>Fuzzy Hashing</code> 的程式，所以可以直接拿來測試手上的加殼程式，來看看效果如何。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ketama Hash Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/18/ketama/"/>
-    <updated>2015-03-18T22:55:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/18/ketama</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
-所以研究了一下原始碼和官方文件，發現是用一種叫做 <a href="https://github.com/RJ/ketama">ketama</a> 的 consistent hashing 。</p>
 ]]></content>
   </entry>
   
