@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-06T20:29:24+08:00</updated>
+  <updated>2015-06-07T21:44:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon 2015 Day3]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3/"/>
+    <updated>2015-06-07T21:13:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3</id>
+    <content type="html"><![CDATA[<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
+
+<p>主要在講 Julia。</p>
+
+<h3>Click Fraud Detection in the Mobile Advertising Using Python</h3>
+
+<h4>Machine Learning</h4>
+
+<p>Model Training</p>
+
+<p>Historical Ad traffic</p>
+
+<p>Bid Calculation</p>
+
+<h4>Ad Network Quarity</h4>
+
+<p>Google Ad traffic Quality Resource Center</p>
+
+<p>Definition of invalid click activity</p>
+
+<p>主要是偵測無效的點擊</p>
+
+<h3>工程師沒告訴設計師的事 / Happy Together: Designer and Programmer</h3>
+
+<p>主要介紹 diazo 的用法。</p>
+
+<h3>Python與電子設計自動化：用愛與堅持實現專業</h3>
+
+<p>講者介紹關於他自己開發的軟體和介紹一些演算法。</p>
+
+<h3>Keynote Andy Terrel</h3>
+
+<p>主要在講資料科學，講者是跟 <a href="http://continuum.io/">continuum</a> 有關的開發者，這場如果對資料科學沒興趣
+應該會廳的很累。</p>
+
+<h3>Machine learning in Finance using Python</h3>
+
+<p>模式辨識</p>
+
+<p>sentiment analysis</p>
+
+<p>credit analytics</p>
+
+<p>funancial forecasting</p>
+
+<p>portfolio allocation</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2015 Day2]]></title>
@@ -439,19 +493,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 
 <p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/18/golang-android/"/>
-    <updated>2015-05-18T22:52:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/18/golang-android</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前可以使用 C++ 加上 JNI 開發 android app，這樣的好處是在一些需要耗用計算資源的地方使用 C++ 可以提高效能，
-然後最近看到可以使用使用 golang 做到相同類似的地方。我是參考這篇 <a href="http://qiita.com/hkurokawa/items/9315162c61830befc547">go.mobile を使った Android 開発のまとめ</a> 文章。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-06T20:29:24+08:00</updated>
+  <updated>2015-06-07T21:44:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon 2015 Day3]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3/"/>
+    <updated>2015-06-07T21:13:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3</id>
+    <content type="html"><![CDATA[<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
+
+<p>主要在講 Julia。</p>
+
+<h3>Click Fraud Detection in the Mobile Advertising Using Python</h3>
+
+<h4>Machine Learning</h4>
+
+<p>Model Training</p>
+
+<p>Historical Ad traffic</p>
+
+<p>Bid Calculation</p>
+
+<h4>Ad Network Quarity</h4>
+
+<p>Google Ad traffic Quality Resource Center</p>
+
+<p>Definition of invalid click activity</p>
+
+<p>主要是偵測無效的點擊</p>
+
+<h3>工程師沒告訴設計師的事 / Happy Together: Designer and Programmer</h3>
+
+<p>主要介紹 diazo 的用法。</p>
+
+<h3>Python與電子設計自動化：用愛與堅持實現專業</h3>
+
+<p>講者介紹關於他自己開發的軟體和介紹一些演算法。</p>
+
+<h3>Keynote Andy Terrel</h3>
+
+<p>主要在講資料科學，講者是跟 <a href="http://continuum.io/">continuum</a> 有關的開發者，這場如果對資料科學沒興趣
+應該會廳的很累。</p>
+
+<h3>Machine learning in Finance using Python</h3>
+
+<p>模式辨識</p>
+
+<p>sentiment analysis</p>
+
+<p>credit analytics</p>
+
+<p>funancial forecasting</p>
+
+<p>portfolio allocation</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2015 Day2]]></title>
@@ -244,127 +298,6 @@ item 也在找 User</p>
 <p>Coding with meanings</p>
 
 <p>探索未知</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Modern Web Tw 2015 Day 1]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015/"/>
-    <updated>2015-05-15T21:21:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/15/modern-web-tw-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h2>JavaScript at 20 Years</h2>
-
-<p>講者為 Javascript 之父 java 的 bytes code 影響他開發 js</p>
-
-<p>一個早期的網站 <a href="http://whitetailbutte.com/">http://whitetailbutte.com/</a> 使用 js 開發出類似現今 SPA 的概念，</p>
-
-<p>介紹了 js目前的生態系統</p>
-
-<ol>
-<li>asm.js</li>
-<li>typescript</li>
-<li>flow</li>
-<li>closure</li>
-<li>soundscript</li>
-</ol>
-
-
-<p>ecma tc39 on github</p>
-
-<h2>Redis, another step on the road</h2>
-
-<p>介紹 Redis 歷史</p>
-
-<p>介紹Reids 如何回收記憶體的行為。</p>
-
-<ol>
-<li>redis</li>
-<li>memcached</li>
-<li>Aerospike</li>
-</ol>
-
-
-<p>Redis 共享 session 的坑，因為 LRU 的關係 session 會非預期的清除。</p>
-
-<p>Redis 內部的 rehash 功能</p>
-
-<p>Redis 群集的做法</p>
-
-<ol>
-<li>Twemproxy</li>
-<li>codis</li>
-<li>redis cluster</li>
-<li>cerberus</li>
-</ol>
-
-
-<p>Redis 一些耗用效能的指令不太推薦使用</p>
-
-<p>推薦 Redis 主從模式。</p>
-
-<p>因為 Redis 內部的資料結構的關係，值的字串長度建議小於 39</p>
-
-<h2>酒館的進退之道</h2>
-
-<p>網站一開始使用 Drupal 93個模組 呼叫 150次</p>
-
-<p>本次議程使用 phalcon 的心得。</p>
-
-<p>使用 phalcon 衍生的問題</p>
-
-<h2>聽說 KKTIX 現在都是用 Go 寫的</h2>
-
-<p>用了更多的 Ruby</p>
-
-<p>使用 Ruby inline assembly 優化效能</p>
-
-<p>講解 golang 的好處</p>
-
-<p>golang 依賴管理</p>
-
-<ol>
-<li>Gom</li>
-<li>GoDEP</li>
-<li>gb</li>
-</ol>
-
-
-<h2>開源之道，Open Source Enlightenment</h2>
-
-<p>主要講一些開源的精神，我覺得其實看 <code>大教堂與市集</code> 這本經典就足夠了。</p>
-
-<h2>SEO真的只要做這些事就好</h2>
-
-<p>本次議程人爆滿，</p>
-
-<p>以前在寫文案都要將代名詞換掉，</p>
-
-<p>正確的架構 schema.org</p>
-
-<p>T:kd</p>
-
-<p>meta keywords 已棄用</p>
-
-<h2>Web + Arduino 實在有夠潮!</h2>
-
-<p>介紹使用 web 控制 Arduino</p>
-
-<p>元件標籤化</p>
-
-<p>使用 Web Component 客製化元件</p>
-
-<h2>Modern Web technology to interact with (Big) Data: Voice Control, Data Visualization and Data-Driven Animation</h2>
-
-<ol>
-<li>疾病資料視覺化</li>
-<li>車禍資料視覺化</li>
-<li>語音控制</li>
-<li>動畫效果會影響使用者在閱讀資料的感覺和體驗。</li>
-</ol>
-
 ]]></content>
   </entry>
   
