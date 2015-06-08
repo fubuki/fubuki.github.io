@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Ui | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/ui/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-06-08T22:20:28+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Material Design Guide]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/08/material-design/"/>
+    <updated>2015-06-08T21:57:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/08/material-design</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[Google Material Design 原版]</p>
+
+<p><a href="https://www.gitbook.com/book/wcc723/google_design_translate/details">Google Material Design 正體中文版</a></p>
+]]></content>
+  </entry>
+  
+</feed>

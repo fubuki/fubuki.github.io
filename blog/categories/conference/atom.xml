@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-07T21:44:44+08:00</updated>
+  <updated>2015-06-08T22:20:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3/"/>
     <updated>2015-06-07T21:13:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3</id>
-    <content type="html"><![CDATA[<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
 
 <p>主要在講 Julia。</p>
 

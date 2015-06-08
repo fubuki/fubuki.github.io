@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-07T21:44:44+08:00</updated>
+  <updated>2015-06-08T22:20:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Google Material Design Guide]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/08/material-design/"/>
+    <updated>2015-06-08T21:57:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/08/material-design</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[Google Material Design 原版]</p>
+
+<p><a href="https://www.gitbook.com/book/wcc723/google_design_translate/details">Google Material Design 正體中文版</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Pycon 2015 Day3]]></title>
     <link href="http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3/"/>
     <updated>2015-06-07T21:13:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3</id>
-    <content type="html"><![CDATA[<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
 
 <p>主要在講 Julia。</p>
 
@@ -481,18 +498,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 <li>Babel (ES6)</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[String Search Using Rolling Hash]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/19/rolling-hash/"/>
-    <updated>2015-05-19T22:59:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/19/rolling-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
 ]]></content>
   </entry>
   
