@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-08T22:20:28+08:00</updated>
+  <updated>2015-06-09T23:43:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quadtrees and Hilbert Curves]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves/"/>
+    <updated>2015-06-09T23:41:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves">Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[路徑演算法的一些介紹]]></title>
@@ -76,22 +88,6 @@
 
 
 <p>Mersenne Twister 在 PHP 中作為 Pseudorandom number generator。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fuzzy Hashing and Ssdeep]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing/"/>
-    <updated>2015-04-09T22:03:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/09/fuzzy-hashing</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究 webshell 的時候，有提到關於如何偵測 webshell 的方法，其中有介紹一種叫 <code>Fuzzy Hashing</code>
-的演算法，一般像 md5 的 hash 方法只要文件有一些變化計算出來的數值就有很大的改變，這樣不利於檢查兩
-份文件的相似度，所以才有 <code>Fuzzy Hashing</code>。</p>
-
-<p>而 ssdeep 則是實現 <code>Fuzzy Hashing</code> 的程式，所以可以直接拿來測試手上的加殼程式，來看看效果如何。</p>
 ]]></content>
   </entry>
   
