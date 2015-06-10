@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-09T23:43:53+08:00</updated>
+  <updated>2015-06-10T22:59:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,80 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[安裝和使用 Ceph]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/10/install-ceph-and-use-ceph/"/>
+    <updated>2015-06-10T22:10:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/10/install-ceph-and-use-ceph</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>環境</h3>
+
+<p>ubuntu 14.04 LTS</p>
+
+<h3>安裝</h3>
+
+<pre><code>把 ceph 的 package 加入
+wget -q -O- https://raw.github.com/ceph/ceph/master/keys/release.asc | sudo apt-key add -
+echo deb http://ceph.com/debian/ $(lsb_release -sc) main | sudo tee /etc/apt/sources.list.d/ceph.list
+
+更新 index 和安裝 ceph
+sudo apt-get update &amp;&amp; sudo apt-get install ceph
+</code></pre>
+
+<h4>建立設定檔</h4>
+
+<pre><code>vim /etc/ceph/ceph.conf
+
+[osd]
+    osd journal size = 1000
+    filestore xattr use omap = true
+
+[mon.a]
+
+    host = {hostname}
+    mon addr = {ip-address}:6789
+
+[osd.0]
+    host = {hostname}
+
+[osd.1]
+    host = {hostname}
+
+[mds.a]
+    host = {hostname}
+</code></pre>
+
+<h4>建立資料夾</h4>
+
+<pre><code>sudo mkdir /var/lib/ceph/osd/ceph-0
+sudo mkdir /var/lib/ceph/osd/ceph-1
+sudo mkdir /var/lib/ceph/mon/ceph-a
+sudo mkdir /var/lib/ceph/mds/ceph-a
+
+cd /etc/ceph
+sudo mkcephfs -a -c /etc/ceph/ceph.conf -k ceph.keyring
+</code></pre>
+
+<h3>使用</h3>
+
+<p>根據官網的安裝方式很簡單，但是要啟動的時候遇到一些問題，下面列了幾個遇到的問題。</p>
+
+<pre><code>Error ENOENT: osd.0 does not exist.  create it before updating the crush map
+ceph osd create
+
+ceph health
+HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean
+ceph pg dump_stuck stale &amp;&amp; ceph pg dump_stuck inactive &amp;&amp; ceph pg dump_stuck unclean
+
+HEALTH_WARN 384 pgs incomplete; 384 pgs stale; 384 pgs stuck inactive; 384 pgs stuck unclean; 35 requests are blocked &gt; 32 sec
+
+HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 35 requests are blocked &gt; 32 sec; mon.a low disk space
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quadtrees and Hilbert Curves]]></title>
@@ -465,27 +539,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 
 <p><a href="http://www.erlang-factory.com/sfbay2014/">Erlang Factory 2014</a> 之前在查 WhatsApp 的架構時看到的研討會。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[BRIC Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/21/bric-alogrim/"/>
-    <updated>2015-05-21T23:27:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/21/bric-alogrim</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>BRIC (Blocked Recursive Image Composition) Algroithm ，最近在做 <code>Photo Collage</code>問題時在一篇 HP 發布的論文上提到的看到的演算法，
-在一些 BLOG 跟 Stackoverflow 都看到有人使用這個演算法處理上面提到的問題。</p>
-
-<p>下面列出一些文章裡面提到跟影像處理的關鍵字之後需要研究一下。</p>
-
-<ol>
-<li>Saliency Map</li>
-<li></li>
-</ol>
-
 ]]></content>
   </entry>
   
