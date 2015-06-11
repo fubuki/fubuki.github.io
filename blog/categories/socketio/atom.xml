@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Socketio | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/socketio/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-10T22:59:46+08:00</updated>
+  <updated>2015-06-11T22:56:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[socket.io Failed: Connection Closed]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/11/socket-dot-io-failed-connection-closed/"/>
+    <updated>2015-06-11T22:35:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/11/socket-dot-io-failed-connection-closed</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>今天在使用新版的 Socket.io 的時候遇到了一個問題，當我使用 mulit-node 的模式時，在瀏覽器的控制台會出現下面這段錯誤，</p>
+
+<pre><code>failed: Connection closed before receiving a handshake response
+</code></pre>
+
+<p>後來在 socket.io 的 github 也有看到人 po 出相同的 issue，之後看了 issue 下面的回應似乎是 Sticky Session 的問題，但是我
+是在同一台機器上使用 cluster 模組 fork 出多個子進程，這樣 Sticky Session 是否有用還需要研究和測試。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Socket.IO Meetup]]></title>
@@ -189,15 +207,6 @@ nginx在1.3之後支援websocket可以最為反向代理，這個方法沒有實
 <p><a href="http://stephenbelanger.com/2011/09/21/how-to-make-socket-io-work-behind-nginx-mostly/">how-to-make-socket-io-work-behind-nginx-mostly</a>  <br/>
 這個方法是改寫xhr-polling的方法，前端就可以不用加上port就可以直接連接server，但是就不能使用其他的
 連接方法了吧?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Socketio 和 engine.io的差別]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/"/>
-    <updated>2014-03-19T22:42:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie</id>
-    <content type="html"><![CDATA[<p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
 ]]></content>
   </entry>
   
