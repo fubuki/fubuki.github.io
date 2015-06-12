@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-11T22:56:43+08:00</updated>
+  <updated>2015-06-12T23:28:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[QCon 北京 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015/"/>
+    <updated>2015-06-12T23:20:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://qconbeijing.com/schedule">QCon 北京 2015</a></p>
+
+<h3>　有興趣的議程</h3>
+
+<ol>
+<li>异步处理在分布式系统中的优化作用</li>
+<li>全栈工程师的自我修养</li>
+<li>极致的Hybrid—从阿里「去啊」的架构演变看Web与Native的融合</li>
+<li>微博在大规模、高负载系统中的典型问题</li>
+<li>Lua 在 Nginx 中的应用</li>
+<li>Native 和 Web 融合</li>
+<li>九个月实现破亿用户的可扩展架构</li>
+<li>基于 Erlang/OTP 构建大规模实时系统</li>
+<li>PHP7 - New engine for good old train</li>
+<li>基于SQL的秒杀解决方案</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[socket.io Failed: Connection Closed]]></title>
@@ -533,18 +561,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 
 <p>在 MDN 上面看到不錯的 Javascript 教學 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Tutorials</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ILSVRC2014]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/23/ilsvrc2014/"/>
-    <updated>2015-05-23T23:12:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/23/ilsvrc2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.image-net.org/challenges/LSVRC/2014/">ILSVRC2014</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-11T22:56:43+08:00</updated>
+  <updated>2015-06-12T23:28:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[QCon 北京 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015/"/>
+    <updated>2015-06-12T23:20:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://qconbeijing.com/schedule">QCon 北京 2015</a></p>
+
+<h3>　有興趣的議程</h3>
+
+<ol>
+<li>异步处理在分布式系统中的优化作用</li>
+<li>全栈工程师的自我修养</li>
+<li>极致的Hybrid—从阿里「去啊」的架构演变看Web与Native的融合</li>
+<li>微博在大规模、高负载系统中的典型问题</li>
+<li>Lua 在 Nginx 中的应用</li>
+<li>Native 和 Web 融合</li>
+<li>九个月实现破亿用户的可扩展架构</li>
+<li>基于 Erlang/OTP 构建大规模实时系统</li>
+<li>PHP7 - New engine for good old train</li>
+<li>基于SQL的秒杀解决方案</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pycon 2015 Day3]]></title>
@@ -232,75 +260,6 @@
 
 
 <p><a href="https://www.youtube.com/playlist?list=PLU6n9Voqu_1FM8nmVwiWWDRtsEjlPqhgP">Lucene/Solr Revolution 2014</a> 國外舉辦的關於 Solr 和 Lucene 的研討會。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Modern Web Tw 2015 Day2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2/"/>
-    <updated>2015-05-16T20:36:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/16/modern-web-tw-2015-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h2>Speeding up the Web with PHP 7</h2>
-
-<p>介紹第一版的 PHP 的樣子</p>
-
-<p>介紹 PHP 7 的改進之處</p>
-
-<p>PHP 跟 HHVM 的 benchmark</p>
-
-<h2>Websites in Data Driven Generation: Navigation, Searching, Recommendation</h2>
-
-<p>User 找 item<br/>
-item 也在找 User</p>
-
-<p>Tree Search &lt;&lt; Graph Search &lt;&lt; Human Search</p>
-
-<p>商業的 Domain Know How &lt;&lt; 使用者 Know How</p>
-
-<p>機器不動 &lt;&lt; 機器被動 &lt;&lt; 機器主動</p>
-
-<p>常見的推薦方法</p>
-
-<p>收到 Data 之後 Model 幾乎就自動出現了</p>
-
-<h2>安裝 Nginx 的 101 種方法／Ansible 簡介</h2>
-
-<p>Configureation as Code</p>
-
-<p>組態管理系統</p>
-
-<h2>JavaScript，征服世界是可能的嗎？</h2>
-
-<p>介紹 Javascript 的發展歷史</p>
-
-<p>web app 化</p>
-
-<h2>How the East Was Won</h2>
-
-<p>介紹 Ruby 的歷史</p>
-
-<h2>When web meet native app</h2>
-
-<p>看起來就是建立一個 <code>hybrid app</code></p>
-
-<p>webview 的坑</p>
-
-<h2>CSS3 3D實務應用</h2>
-
-<p>CSS 3D 火力展示</p>
-
-<h2>用戶體驗不是一個部門</h2>
-
-<p>跨文化的創意能力</p>
-
-<p>無法解決未知的問題</p>
-
-<p>Coding with meanings</p>
-
-<p>探索未知</p>
 ]]></content>
   </entry>
   
