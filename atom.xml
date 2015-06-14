@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-13T23:51:14+08:00</updated>
+  <updated>2015-06-14T23:30:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Functional Reactive Programming]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming/"/>
+    <updated>2015-06-14T23:08:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://elm-lang.org/">Elm</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JSON-LD 用途]]></title>
@@ -565,19 +577,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 <p>另外也提到這是 Startup 所需要的職位，<code>growth first, budgets second</code> 以流量成長為優先最為考量，這很像
 約耳提過的 Amazon 模式，以快速成長為優先，藉由有別於傳統的行銷策略，使用類似上面提到的技術提高流量留住客戶。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Waifu2x: A Image Scale Website]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/25/waifu2x/"/>
-    <updated>2015-05-25T23:35:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/25/waifu2x</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/nagadomi/waifu2x">waifu2x</a> 一個使用 <code>Deep Convolutional Neural Networks</code> 圖片網站，它可以讓圖片在放大的時候減少失真
-，裡面的原始碼已經有放在 Github 上面了，不過安裝需要使用 CUDA 也就是機器需要 Nivda 的 GPU 支援。</p>
 ]]></content>
   </entry>
   
