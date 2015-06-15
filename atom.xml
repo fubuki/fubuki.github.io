@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-14T23:30:49+08:00</updated>
+  <updated>2015-06-15T23:32:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Log-Structured Merge-Tree]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree/"/>
+    <updated>2015-06-15T23:21:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>The log-structured merge-tree (LSM-tree) 在 SSD 上面的優化。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Functional Reactive Programming]]></title>
@@ -553,30 +565,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 
 
 <p><a href="http://jqueryuk.com/2015/">jQuery UK Conference</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Growthhackers: 如何提升流量]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/26/growthhackers/"/>
-    <updated>2015-05-26T21:48:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/26/growthhackers</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到有人提起一個名詞叫 <a href="https://growthhackers.com">growth hackers</a>，聽別人解釋是使用技術結合行銷提高產品的流量，所以是將行銷結合工程師的存在。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Growth_hacking">wiki</a> 有對 <a href="https://growthhackers.com">growth hackers</a> 進行定義，其中有提到一些相關的技術例如下面所提到的:</p>
-
-<ol>
-<li>A/B testing</li>
-<li>SEO</li>
-<li>網站分析</li>
-</ol>
-
-
-<p>另外也提到這是 Startup 所需要的職位，<code>growth first, budgets second</code> 以流量成長為優先最為考量，這很像
-約耳提過的 Amazon 模式，以快速成長為優先，藉由有別於傳統的行銷策略，使用類似上面提到的技術提高流量留住客戶。</p>
 ]]></content>
   </entry>
   

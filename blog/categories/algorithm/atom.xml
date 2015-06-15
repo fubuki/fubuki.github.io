@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-14T23:30:49+08:00</updated>
+  <updated>2015-06-15T23:32:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Log-Structured Merge-Tree]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree/"/>
+    <updated>2015-06-15T23:21:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>The log-structured merge-tree (LSM-tree) 在 SSD 上面的優化。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quadtrees and Hilbert Curves]]></title>
@@ -76,18 +88,6 @@
 
 
 <p><a href="http://en.wikipedia.org/wiki/Rolling_hash">Rolling hash</a> 用來實做字串搜尋的演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mersenne Twister Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/18/mersenne-twister/"/>
-    <updated>2015-04-18T23:09:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/18/mersenne-twister</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Mersenne Twister 在 PHP 中作為 Pseudorandom number generator。</p>
 ]]></content>
   </entry>
   
