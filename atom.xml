@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-15T23:32:57+08:00</updated>
+  <updated>2015-06-16T23:32:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vocabulary and Ontology]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology/"/>
+    <updated>2015-06-16T22:30:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Vocabulary 和 Ontology 都是跟 Semantic Web (語意網) 有關的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Log-Structured Merge-Tree]]></title>
@@ -553,18 +565,6 @@ LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Lapl
 3. Maximum Entropy
 4. Online Learners
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery UK Conference]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/27/jquery-uk-2015/"/>
-    <updated>2015-05-27T22:23:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/27/jquery-uk-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://jqueryuk.com/2015/">jQuery UK Conference</a></p>
 ]]></content>
   </entry>
   

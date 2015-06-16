@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-15T23:32:57+08:00</updated>
+  <updated>2015-06-16T23:32:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vocabulary and Ontology]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology/"/>
+    <updated>2015-06-16T22:30:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Vocabulary 和 Ontology 都是跟 Semantic Web (語意網) 有關的東西。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Functional Reactive Programming]]></title>
@@ -84,25 +96,6 @@
 <h3>Animation</h3>
 
 <h3>Finger up</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Compact Language Detector 2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/29/compact-language-detector-2/"/>
-    <updated>2015-05-29T21:02:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/29/compact-language-detector-2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.google.com/p/cld2/">Compact Language Detector 2</a> 是 chrome 用來偵測目前網頁的使用的語言，提示使用者可以翻譯成目前使用的語言，
-從網站的說明看是用 <code>Naïve Bayesian classifier</code> ， 然後有三種資料集當作分類的分數。</p>
-
-<h3>For Unicode scripts such as Greek and Thai that map one-to-one to detected languages, the script defines the result</h3>
-
-<h3>For the 80,000+ character Han script and its CJK combination with Hiragana, Katakana, and Hangul scripts, single letters (unigrams) are scored</h3>
-
-<h3>For all other scripts, sequences of four letters (quadgrams) are scored</h3>
 ]]></content>
   </entry>
   
