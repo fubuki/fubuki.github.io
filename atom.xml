@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-16T23:32:45+08:00</updated>
+  <updated>2015-06-17T23:52:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[API 設計種類]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/17/apidesign/"/>
+    <updated>2015-06-17T23:50:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/17/apidesign</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Tunneling Style</li>
+<li>URI Style</li>
+<li>Hypermedia Style</li>
+<li>Event-Driven Style</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vocabulary and Ontology]]></title>
@@ -544,27 +562,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <h3>For the 80,000+ character Han script and its CJK combination with Hiragana, Katakana, and Hangul scripts, single letters (unigrams) are scored</h3>
 
 <h3>For all other scripts, sequences of four letters (quadgrams) are scored</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 URL 對網頁做分類]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/28/webpage-classification-using-url/"/>
-    <updated>2015-05-28T21:10:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/28/webpage-classification-using-url</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://tarekamr.appspot.com/msc/presentation">URL-based Web-Page Classification</a> 使用 N-gram 資料做訓練集， LingPipe 做為 NLP 的函式庫，
-LM Classifier 使用 Naive Bayes 做分類，對於未見過的字串使用 Laplace smoothing 補足。</p>
-
-<p>也有提到下面幾種分類方法:</p>
-
-<pre><code>1. Naive Bayes
-2. SVM
-3. Maximum Entropy
-4. Online Learners
-</code></pre>
 ]]></content>
   </entry>
   
