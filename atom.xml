@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-19T22:52:01+08:00</updated>
+  <updated>2015-06-20T23:25:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook Infer]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/20/facebook-infer/"/>
+    <updated>2015-06-20T23:18:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/20/facebook-infer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://fbinfer.com/">Infer</a></p>
+
+<ol>
+<li>Separation Logic Tutorial</li>
+<li>Abductive reasoning</li>
+<li>Hoare logic</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GitLab Flow]]></title>
@@ -539,18 +558,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <h3>Animation</h3>
 
 <h3>Finger up</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lucene/Solr Revolution 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014/"/>
-    <updated>2015-05-31T22:10:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.youtube.com/playlist?list=PLU6n9Voqu_1FM8nmVwiWWDRtsEjlPqhgP">Lucene/Solr Revolution 2014</a> 國外舉辦的關於 Solr 和 Lucene 的研討會。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-19T22:52:01+08:00</updated>
+  <updated>2015-06-20T23:25:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook Infer]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/20/facebook-infer/"/>
+    <updated>2015-06-20T23:18:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/20/facebook-infer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://fbinfer.com/">Infer</a></p>
+
+<ol>
+<li>Separation Logic Tutorial</li>
+<li>Abductive reasoning</li>
+<li>Hoare logic</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GitLab Flow]]></title>
@@ -62,18 +81,6 @@
 
 
 <p>Vocabulary 和 Ontology 都是跟 Semantic Web (語意網) 有關的東西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Functional Reactive Programming]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming/"/>
-    <updated>2015-06-14T23:08:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://elm-lang.org/">Elm</a></p>
 ]]></content>
   </entry>
   
