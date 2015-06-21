@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-20T23:25:37+08:00</updated>
+  <updated>2015-06-21T22:16:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Undo (Almost) Anything With Git]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/21/git-undo/"/>
+    <updated>2015-06-21T22:11:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/21/git-undo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">How to undo (almost) anything with Git</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Merge-tool]]></title>
@@ -78,34 +90,6 @@ vim ~/.hgrc
 
 [extensions]
 hggit = [path-to]/hg-git/hggit
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Git Patch 的功能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/22/git-patch/"/>
-    <updated>2014-10-22T22:28:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/22/git-patch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>有時需要將一些在本機上開發專案產生的修改部分丟給別人就可以使用 git 的 patch 功能。</p>
-
-<h3>git format-patch</h3>
-
-<p>git 本身用來製作 patch 的指令。</p>
-
-<pre><code>git format-patch
-git am xxx.patch
-</code></pre>
-
-<h3>git diff patch</h3>
-
-<p>使用 git diff 產生的 patch。</p>
-
-<pre><code>git diff prev_commit commit &gt; patch.diff 
-git apply patch.diff 
 </code></pre>
 ]]></content>
   </entry>

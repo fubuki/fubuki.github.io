@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-20T23:25:37+08:00</updated>
+  <updated>2015-06-21T22:16:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to Undo (Almost) Anything With Git]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/21/git-undo/"/>
+    <updated>2015-06-21T22:11:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/21/git-undo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">How to undo (almost) anything with Git</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook Infer]]></title>
@@ -537,27 +549,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <p>在 Google IO 2015 大會上看到一個關於 GCM 3.0 的議程，後來在 <a href="https://www.youtube.com/watch?v=gJatfdattno&amp;feature=em-uploademail">youtube</a> 上面看到詳細的內容，
 裡面提到關於支援 iOS 的事情， iOS 先取得 apns token 之後在跟 GCM Server 取得 token，這樣就可以
 使用在 iOS 上面使用 GCM 的服務，詳細的用法可以在 <a href="https://developers.google.com/cloud-messaging/">Cloud Messaging</a> 找到。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Platform Success Model Explainer]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/01/platform-success-model-explainer/"/>
-    <updated>2015-06-01T21:40:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/01/platform-success-model-explainer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 <a href="https://www.youtube.com/watch?v=Ku3znd7JNIk">BlinkOn3: State Of Blink</a> 這篇演講的時候有一頁提到 APP 的時間模型，然後他特別用了另一篇文章來解釋模型，
-在 Platform Success Model Explainer 這篇講解為何會分成下面四段時間。</p>
-
-<h3>Loading</h3>
-
-<h3>Finger down</h3>
-
-<h3>Animation</h3>
-
-<h3>Finger up</h3>
 ]]></content>
   </entry>
   
