@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-21T22:16:23+08:00</updated>
+  <updated>2015-06-22T23:12:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wand Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/22/wand-algorithm/"/>
+    <updated>2015-06-22T22:25:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/22/wand-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在研究 ssdeep 演算法時另外看到的跟倒排有關的演算法，名為 wand (weak and)，這裡有一篇相關的論文 <code>Efficient Query Evaluation using a Two-Level Retrieval
+Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，先用速度較快的但是模糊較不精準的演算法過濾後，在使用耗時但是精準的演算法對文檔做排序。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Undo (Almost) Anything With Git]]></title>
@@ -535,20 +548,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <li>Dijkstra</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GCM 3.0]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/02/gcm-3-dot-0/"/>
-    <updated>2015-06-02T22:33:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/02/gcm-3-dot-0</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 Google IO 2015 大會上看到一個關於 GCM 3.0 的議程，後來在 <a href="https://www.youtube.com/watch?v=gJatfdattno&amp;feature=em-uploademail">youtube</a> 上面看到詳細的內容，
-裡面提到關於支援 iOS 的事情， iOS 先取得 apns token 之後在跟 GCM Server 取得 token，這樣就可以
-使用在 iOS 上面使用 GCM 的服務，詳細的用法可以在 <a href="https://developers.google.com/cloud-messaging/">Cloud Messaging</a> 找到。</p>
 ]]></content>
   </entry>
   
