@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-22T23:12:42+08:00</updated>
+  <updated>2015-06-23T23:22:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CQRS Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/23/cqr-architecture/"/>
+    <updated>2015-06-23T00:52:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/23/cqr-architecture</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究一些秒殺活動的架構，看到有人提到 <a href="http://martinfowler.com/bliki/CQRS.html">CQRS</a> 這種模式，之前看過國外在金融系統上使用 LMAX 的架構
+其實就是一種 <a href="http://martinfowler.com/bliki/CQRS.html">CQRS</a> 模式也就是讀寫分離，讀取和寫入分成兩種架構，然後使用像是 LMAX 裡面提到的 EVENT SOURCE 的模式，
+類似 git 裡面的 commit 的概念，將所有的修改視為一種事件存放起來。</p>
+
+<p>這樣的模式通常我會使用 message queue 存放寫入的事件然後利用多個 worker 處理這些寫入事件將資料直接寫入資料庫，所以在某些情形
+下負責讀取資料的部分可能會因為延遲寫入導致會查詢不到一些資料。</p>
+
+<p>有些記錄可能會大量更新，哪些部分就放在記憶體中處理，如果有遇到當機之類的災難可能要從 message queue 的部分將資料重新寫回記憶體，
+所以有可能需要就 message queue 的事件另外存放一段時間直到資料都寫回到資料庫裡。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wand Algorithm]]></title>
@@ -527,27 +547,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 
 
 <p><a href="http://cds.nyu.edu/mixing-music-machine-learning/">Mixing Music with Machine Learning</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[路徑演算法的一些介紹]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/03/routing-algorithm/"/>
-    <updated>2015-06-03T22:26:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/03/routing-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://theory.stanford.edu/~amitp/GameProgramming/">GameProgramming</a> 裡面介紹了關於路徑演算法的概念和實現方法，以前在大學主要是學了下面幾種路徑演算法，不過
-實際在一些領域有其他更有趣的演算法，上面的網頁主要是介紹在遊戲裡面的路徑演算法，可以拿來複習跟學習一些新的路徑演算法。</p>
-
-<ol>
-<li>A*</li>
-<li>BFS</li>
-<li>DFS</li>
-<li>Dijkstra</li>
-</ol>
-
 ]]></content>
   </entry>
   
