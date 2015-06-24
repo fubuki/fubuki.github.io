@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-23T23:22:30+08:00</updated>
+  <updated>2015-06-24T23:00:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LINE DEVELOPER DAY 2015 Tokyo]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/24/line-developer-day-2015-tokyo/"/>
+    <updated>2015-06-24T22:28:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/24/line-developer-day-2015-tokyo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://developers.linecorp.com/blog/ja/?p=3523">LINE DEVELOPER DAY 2015 Tokyo 動画と資料を公開</a></p>
+
+<p>本年度的 LINE 開發者大會的資料已經放出，在上面的連結裡面有演講的 slide 和影片資料。</p>
+
+<p>其中比較有興趣的是下面這幾篇 slide:</p>
+
+<ol>
+<li>LINE Platform Development Chronicle</li>
+<li>４年に渡る LINE Android アプリの進化とチャレンジ</li>
+<li>Akka ActorとAMQPでLINEのメッセージングパイプラインをリプレースした話</li>
+<li>ベイズ推定とDeep Learningを使用したレコメンドエンジン開発</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CQRS Architecture]]></title>
@@ -535,18 +559,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <h3>How to scale up your Web Apps/Sites written by Python?</h3>
 
 <p>只有介紹蠻基本的網站架構和概念，如果要深入還需要用哪些軟體跟技術，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Music Analysis With Machine Learning]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/04/music-machine-learning/"/>
-    <updated>2015-06-04T23:33:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/04/music-machine-learning</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cds.nyu.edu/mixing-music-machine-learning/">Mixing Music with Machine Learning</a></p>
 ]]></content>
   </entry>
   
