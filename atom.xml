@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-24T23:00:27+08:00</updated>
+  <updated>2015-06-25T23:34:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Apache 2.2 升級到 2.4 的坑]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6/"/>
+    <updated>2015-06-25T23:26:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在家裡的 ubuntu 的虛擬機將 apache 2.2 升級到 2.4 後，很多設定檔都需要更改，並且升級成 2.4 後
+順便更改 MPM 的模式從 prefork 改成 event 測試看看效果如何。</p>
+
+<p>在 apache 官網有篇 <a href="http://httpd.apache.org/docs/2.4/upgrading.html">Upgrading to 2.4 from 2.2</a> 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
+公司還是使用 <code>apache 2.2</code> 的版本，看起來暫時是不會先更新了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LINE DEVELOPER DAY 2015 Tokyo]]></title>
@@ -484,81 +500,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <p>一個分散式檔案系統。</p>
 
 <h3>閃電秀</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2015 Day1]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/05/pycon-2015-day1/"/>
-    <updated>2015-06-05T21:29:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/05/pycon-2015-day1</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Ecosystem threats to python</h3>
-
-<p>比較 Python 和 Perl 的程式語言排行
-最大的麻煩是從 python 2 到 python 3</p>
-
-<p>Java node.js golang</p>
-
-<p>為何使用 Java</p>
-
-<p>為何使用 node.js</p>
-
-<p>為何使用 Golang</p>
-
-<p>為何使用 python</p>
-
-<h3>..when thinking functionally with Python</h3>
-
-<p>function language 如果寫過 Lisp 和 Haskell 就知道光是語法還不夠，</p>
-
-<p>使用 Haskell 介紹 python 的函數式編程</p>
-
-<p>Abstract Data Type</p>
-
-<p>Type Class</p>
-
-<p>Monad</p>
-
-<p>Monadic</p>
-
-<h3>快快樂樂成為 Coding Ninja (by pytest)</h3>
-
-<p>如何撰寫測試</p>
-
-<p>pytest 也可以測試網頁的功能</p>
-
-<p>介紹三種類型的測試</p>
-
-<h3>ZoneIDAProc: Instrumentation-based Dynamic Accessing</h3>
-
-<p>IDAPro 逆向工程 動態追蹤</p>
-
-<p>Linux FUSE</p>
-
-<h3>Kenneth Reitz</h3>
-
-<p>Python Software Fonudation</p>
-
-<h3>教練，我想寫 Django app 給大家用</h3>
-
-<p>介紹 Django</p>
-
-<h3>Tagtoo Task Manager</h3>
-
-<p>Luigi dataflow</p>
-
-<p>他可以自動執行依賴的任務</p>
-
-<p>使用 docker 建立 task 環境</p>
-
-<p>django + webhook</p>
-
-<h3>How to scale up your Web Apps/Sites written by Python?</h3>
-
-<p>只有介紹蠻基本的網站架構和概念，如果要深入還需要用哪些軟體跟技術，</p>
 ]]></content>
   </entry>
   
