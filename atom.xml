@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-25T23:34:55+08:00</updated>
+  <updated>2015-06-26T22:55:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/26/wrk/"/>
+    <updated>2015-06-26T22:47:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/26/wrk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/wg/wrk">wrk</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apache 2.2 升級到 2.4 的坑]]></title>
@@ -422,84 +434,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <p>funancial forecasting</p>
 
 <p>portfolio allocation</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2015 Day2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/06/pycon-2015-day2/"/>
-    <updated>2015-06-06T20:24:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/06/pycon-2015-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Static Typeing in Python?</h3>
-
-<p>這位講者是 Cython 的貢獻者</p>
-
-<p>Gradual typing</p>
-
-<h3>Global Interpreter Lock: Episode I - Break the Seal</h3>
-
-<p>主要是要處理多 thread 和 多 process 會遇到的問題。</p>
-
-<h4>GIL over Multi-Processor</h4>
-
-<h4>multiprocessing : process pool</h4>
-
-<p>further observations</p>
-
-<p>GIL battle</p>
-
-<h4>Release the GIL</h4>
-
-<h4>Cooperative multitasking</h4>
-
-<h3>Python &amp; LLVM</h3>
-
-<p>讓 python 跑在 LLVM 上面</p>
-
-<p>介紹 LLVM 的架構和歷史</p>
-
-<p>LLVM 3.1 開始有支援 python</p>
-
-<p><a href="www.llvmpy.org">llvmpy</a></p>
-
-<p>只有支援 LLVM 3.3</p>
-
-<p>換用 llvmlite</p>
-
-<p><a href="http://continuum.io/">continuum</a></p>
-
-<p><a href="http://lldb.llvm.org/">The LLDB Debugger</a></p>
-
-<h3>Python 讓你的眼睛聽得見</h3>
-
-<p>唇語辨識</p>
-
-<p>McGurk 效應</p>
-
-<p>使用 opencv 實作影像處理抓出</p>
-
-<p>Haar features</p>
-
-<p>Adaboost</p>
-
-<h3>Theano : A Mathematical Expression Compiler</h3>
-
-<p>Theano Goal</p>
-
-<p>Theano 一些使用方法</p>
-
-<h3>How to build a recommendation system with python</h3>
-
-<p>講一些算法，好像去年也是類似的簡報?</p>
-
-<h3>ceph 介紹</h3>
-
-<p>一個分散式檔案系統。</p>
-
-<h3>閃電秀</h3>
 ]]></content>
   </entry>
   

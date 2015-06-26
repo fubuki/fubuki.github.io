@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-25T23:34:55+08:00</updated>
+  <updated>2015-06-26T22:55:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/26/wrk/"/>
+    <updated>2015-06-26T22:47:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/26/wrk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/wg/wrk">wrk</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Select Poll Epoll 的差別]]></title>
@@ -75,18 +87,6 @@
 </code></pre>
 
 <p>除了 top 以外可以使用 <code>nmon</code> 監控 linux 內部的狀態，提供更詳細的情形。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux 安裝 Nfs]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/06/linux-nfs/"/>
-    <updated>2015-03-06T23:48:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/06/linux-nfs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>記錄在 Centos 上面安裝 nfs server。</p>
 ]]></content>
   </entry>
   
