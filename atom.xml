@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-26T22:55:29+08:00</updated>
+  <updated>2015-06-27T23:39:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solr 限制使用者搜尋結果]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/27/solr-document-filter/"/>
+    <updated>2015-06-27T23:36:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/27/solr-document-filter</id>
+    <content type="html"><![CDATA[<p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
@@ -377,63 +386,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 <p>[Google Material Design 原版]</p>
 
 <p><a href="https://www.gitbook.com/book/wcc723/google_design_translate/details">Google Material Design 正體中文版</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2015 Day3]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3/"/>
-    <updated>2015-06-07T21:13:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/07/pycon-2015-day3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Crossing Language Barriers with Julia, SciPy,IPython</h3>
-
-<p>主要在講 Julia。</p>
-
-<h3>Click Fraud Detection in the Mobile Advertising Using Python</h3>
-
-<h4>Machine Learning</h4>
-
-<p>Model Training</p>
-
-<p>Historical Ad traffic</p>
-
-<p>Bid Calculation</p>
-
-<h4>Ad Network Quarity</h4>
-
-<p>Google Ad traffic Quality Resource Center</p>
-
-<p>Definition of invalid click activity</p>
-
-<p>主要是偵測無效的點擊</p>
-
-<h3>工程師沒告訴設計師的事 / Happy Together: Designer and Programmer</h3>
-
-<p>主要介紹 diazo 的用法。</p>
-
-<h3>Python與電子設計自動化：用愛與堅持實現專業</h3>
-
-<p>講者介紹關於他自己開發的軟體和介紹一些演算法。</p>
-
-<h3>Keynote Andy Terrel</h3>
-
-<p>主要在講資料科學，講者是跟 <a href="http://continuum.io/">continuum</a> 有關的開發者，這場如果對資料科學沒興趣
-應該會廳的很累。</p>
-
-<h3>Machine learning in Finance using Python</h3>
-
-<p>模式辨識</p>
-
-<p>sentiment analysis</p>
-
-<p>credit analytics</p>
-
-<p>funancial forecasting</p>
-
-<p>portfolio allocation</p>
 ]]></content>
   </entry>
   
