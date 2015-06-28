@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-27T23:39:18+08:00</updated>
+  <updated>2015-06-28T23:40:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[MMSEG Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm/"/>
+    <updated>2015-06-28T23:39:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://technology.chtsai.org/mmseg/">mmseg</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Solr 限制使用者搜尋結果]]></title>
     <link href="http://fubuki.github.io/blog/2015/06/27/solr-document-filter/"/>
     <updated>2015-06-27T23:36:35+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/06/27/solr-document-filter</id>
-    <content type="html"><![CDATA[<p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
 ]]></content>
   </entry>
   
@@ -372,20 +387,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 3
 
 
 <p><a href="http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves">Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Material Design Guide]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/08/material-design/"/>
-    <updated>2015-06-08T21:57:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/08/material-design</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>[Google Material Design 原版]</p>
-
-<p><a href="https://www.gitbook.com/book/wcc723/google_design_translate/details">Google Material Design 正體中文版</a></p>
 ]]></content>
   </entry>
   

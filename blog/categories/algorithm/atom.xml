@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-27T23:39:18+08:00</updated>
+  <updated>2015-06-28T23:40:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MMSEG Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm/"/>
+    <updated>2015-06-28T23:39:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://technology.chtsai.org/mmseg/">mmseg</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wand Algorithm]]></title>
@@ -66,27 +78,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 <li>BFS</li>
 <li>DFS</li>
 <li>Dijkstra</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[BRIC Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/21/bric-alogrim/"/>
-    <updated>2015-05-21T23:27:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/21/bric-alogrim</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>BRIC (Blocked Recursive Image Composition) Algroithm ，最近在做 <code>Photo Collage</code>問題時在一篇 HP 發布的論文上提到的看到的演算法，
-在一些 BLOG 跟 Stackoverflow 都看到有人使用這個演算法處理上面提到的問題。</p>
-
-<p>下面列出一些文章裡面提到跟影像處理的關鍵字之後需要研究一下。</p>
-
-<ol>
-<li>Saliency Map</li>
-<li></li>
 </ol>
 
 ]]></content>
