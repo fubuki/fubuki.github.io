@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-28T23:40:08+08:00</updated>
+  <updated>2015-06-29T22:57:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx vs Apache]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/29/nginx-vs-apache/"/>
+    <updated>2015-06-29T22:14:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/29/nginx-vs-apache</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://qiita.com/sion_cojp/items/edb20a6b87f10e186c23">apacheとnginxの比較表とベンチマーク</a></p>
+
+<p>之前有看到一篇關於 nginx 使用 epoll 和 event 機制為何高效能的原因的文章，但是只找到上面的文章，
+日後還需要更新。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MMSEG Algorithm]]></title>
@@ -375,18 +390,6 @@ HEALTH_WARN 384 pgs incomplete; 384 pgs stale; 384 pgs stuck inactive; 384 pgs s
 
 HEALTH_WARN 384 pgs incomplete; 384 pgs stuck inactive; 384 pgs stuck unclean; 35 requests are blocked &gt; 32 sec; mon.a low disk space
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quadtrees and Hilbert Curves]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves/"/>
-    <updated>2015-06-09T23:41:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves">Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves</a></p>
 ]]></content>
   </entry>
   
