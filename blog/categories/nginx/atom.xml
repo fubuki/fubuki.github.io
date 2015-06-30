@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-29T22:57:32+08:00</updated>
+  <updated>2015-06-30T23:23:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,10 +21,14 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><a href="http://qiita.com/sion_cojp/items/edb20a6b87f10e186c23">apacheとnginxの比較表とベンチマーク</a></p>
+<ol>
+<li><a href="http://qiita.com/sion_cojp/items/edb20a6b87f10e186c23">apacheとnginxの比較表とベンチマーク</a></li>
+<li><a href="http://nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/">Inside NGINX: How We Designed for Performance &amp; Scale</a></li>
+</ol>
 
-<p>之前有看到一篇關於 nginx 使用 epoll 和 event 機制為何高效能的原因的文章，但是只找到上面的文章，
-日後還需要更新。</p>
+
+<p>上面第一篇文章是比較 apache 2.4 跟 nginx 之間的差別，另外下面的另一篇是在 nginx 的 blog 的文章，
+裡面講解到了關於 nginx 內部機制以及 nginx 為何高效能的文章。</p>
 ]]></content>
   </entry>
   

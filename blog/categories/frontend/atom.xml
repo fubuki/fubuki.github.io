@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-29T22:57:32+08:00</updated>
+  <updated>2015-06-30T23:23:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WebAssembly 優化前端性能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/06/30/webassembly/"/>
+    <updated>2015-06-30T23:08:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/06/30/webassembly</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/WebAssembly/design">WebAssembly</a> 裡面我比較熟悉的是 Mozilla 出的 asm.js ，限制使用 javascript 中耗效能的操作，並且規定好使用的型別使用這樣的方法
+用來優化前端瀏覽器的 javascript 效能，而 <a href="https://github.com/WebAssembly/design">WebAssembly</a> 則是統一各家瀏覽器關於使用類似技術加速的規格。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parallax Scrolling 效果]]></title>
@@ -73,25 +86,6 @@
 <li>ESI</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Canvas Fingerprinting]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/05/fingerprinting/"/>
-    <updated>2014-12-05T21:56:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/05/fingerprinting</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前的網站都是使用 cookie 追蹤使用者所以現在的閱覽器通常會提供私密模式讓網站無法在機器
-上寫入 cookie，所以最近看到有網站使用 <a href="http://en.wikipedia.org/wiki/Canvas_fingerprinting">Canvas fingerprinting</a> 的技術追蹤用戶。</p>
-
-<p><a href="http://en.wikipedia.org/wiki/Canvas_fingerprinting">Canvas fingerprinting</a> 的原理是用 html5 的 Canvas 功能繪製圖片產生識別碼，由於每台機器
-在繪製圖片的時候所使用繪製引擎和參數不同所以使用產生出的圖片便不會全部相同，在經過 hash
-之類的操作得出的編碼就可以用來當作識別用戶的一種方法。</p>
-
-<p>這邊有一篇相關論文可以參考 <a href="http://cseweb.ucsd.edu/~hovav/papers/ms12.html">Pixel Perfect: Fingerprinting Canvas in HTML5</a>。</p>
 ]]></content>
   </entry>
   
