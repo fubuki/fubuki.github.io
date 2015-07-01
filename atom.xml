@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-30T23:23:31+08:00</updated>
+  <updated>2015-07-01T21:14:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[建立一個香蕉分類器]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/01/building-banana-filter/"/>
+    <updated>2015-07-01T21:09:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/01/building-banana-filter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html">Train Your Own OpenCV Haar Classifier</a> 使用 opencv 建立一個香蕉分類器。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WebAssembly 優化前端性能]]></title>
@@ -315,24 +327,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 <li>基于SQL的秒杀解决方案</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[socket.io Failed: Connection Closed]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/11/socket-dot-io-failed-connection-closed/"/>
-    <updated>2015-06-11T22:35:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/11/socket-dot-io-failed-connection-closed</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在使用新版的 Socket.io 的時候遇到了一個問題，當我使用 mulit-node 的模式時，在瀏覽器的控制台會出現下面這段錯誤，</p>
-
-<pre><code>failed: Connection closed before receiving a handshake response
-</code></pre>
-
-<p>後來在 socket.io 的 github 也有看到人 po 出相同的 issue，之後看了 issue 下面的回應似乎是 Sticky Session 的問題，但是我
-是在同一台機器上使用 cluster 模組 fork 出多個子進程，這樣 Sticky Session 是否有用還需要研究和測試。</p>
 ]]></content>
   </entry>
   

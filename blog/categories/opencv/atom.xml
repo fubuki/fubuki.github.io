@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Opencv | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/opencv/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-06-30T23:23:31+08:00</updated>
+  <updated>2015-07-01T21:14:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[建立一個香蕉分類器]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/01/building-banana-filter/"/>
+    <updated>2015-07-01T21:09:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/01/building-banana-filter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html">Train Your Own OpenCV Haar Classifier</a> 使用 opencv 建立一個香蕉分類器。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Opencv 加上 Intel IPP TBB 支援]]></title>
