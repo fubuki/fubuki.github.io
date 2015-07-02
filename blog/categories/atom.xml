@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-01T21:14:35+08:00</updated>
+  <updated>2015-07-02T21:12:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Video Magnification]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds/"/>
+    <updated>2015-07-02T12:07:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在 pycon 2015 的時候有人推薦的一篇關於影像處理的文章 : <a href="https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide?language=en">See invisible motion, hear silent sounds</a>，
+這篇文章重點在於可以清晰辨識影片中的微小變化，因而產生很多功用，其中包括可以藉由臉部顏色的變化偵測到人體
+本身的心跳，藉由環境中物體的微小震動還原環境音。</p>
+
+<p><a href="http://people.csail.mit.edu/mrub/vidmag/">Video Magnification</a> 這邊是研究網站，裡面有 Matlab 的程式碼，之後有空轉換成 python 或是 C++ 的程式碼。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apache 2.2 升級到 2.4 的坑]]></title>
@@ -66,24 +82,6 @@
     <updated>2015-06-18T23:56:12+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/06/18/python-asyncio</id>
     <content type="html"><![CDATA[<!-- more -->
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[API 設計種類]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/17/apidesign/"/>
-    <updated>2015-06-17T23:50:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/17/apidesign</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>Tunneling Style</li>
-<li>URI Style</li>
-<li>Hypermedia Style</li>
-<li>Event-Driven Style</li>
-</ol>
 
 ]]></content>
   </entry>
