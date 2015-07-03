@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-02T21:12:26+08:00</updated>
+  <updated>2015-07-03T21:44:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Flood Fill Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/03/flood-fill/"/>
+    <updated>2015-07-03T13:58:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/03/flood-fill</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Flood_fill">Flood fill</a> 用來解決 Match 3 Game 的演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MMSEG Algorithm]]></title>
@@ -59,27 +71,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p><a href="http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves">Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[路徑演算法的一些介紹]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/03/routing-algorithm/"/>
-    <updated>2015-06-03T22:26:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/03/routing-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://theory.stanford.edu/~amitp/GameProgramming/">GameProgramming</a> 裡面介紹了關於路徑演算法的概念和實現方法，以前在大學主要是學了下面幾種路徑演算法，不過
-實際在一些領域有其他更有趣的演算法，上面的網頁主要是介紹在遊戲裡面的路徑演算法，可以拿來複習跟學習一些新的路徑演算法。</p>
-
-<ol>
-<li>A*</li>
-<li>BFS</li>
-<li>DFS</li>
-<li>Dijkstra</li>
-</ol>
-
 ]]></content>
   </entry>
   
