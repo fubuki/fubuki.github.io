@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-03T21:44:26+08:00</updated>
+  <updated>2015-07-04T23:49:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Html5 的 Video 處理 Rtsp 串流]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/04/html5-video-rtsp/"/>
+    <updated>2015-07-04T23:43:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/04/html5-video-rtsp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://developer.mozilla.org/en-US/Apps/Build/Audio_and_video_delivery/Live_streaming_web_audio_and_video">Live streaming web audio and video</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WebAssembly 優化前端性能]]></title>
@@ -67,25 +79,6 @@
 <p><a href="https://http2.github.io/">HTTP/2</a> 下一代的 HTTP 協定。</p>
 
 <p><a href="https://http2.github.io/">HTTP/2</a> 目前的情形 <a href="http://www.slideshare.net/shigeki_ohtsu/http2-ohtsu-html5conf2015">HTTP/2の現状とこれから</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WEB Cache 技術 CSI,SSI,ESI]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi/"/>
-    <updated>2015-02-11T23:30:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/11/web-cache-csi-ssi-esi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://drive.google.com/a/ustream.tv/file/d/0B9h_EQ82pIpuOUF6OHhSNW1FWUU/edit?pli=1">When dynamic becomes static: the next step in web caching techniques</a></p>
-
-<ol>
-<li>CSI</li>
-<li>SSI</li>
-<li>ESI</li>
-</ol>
-
 ]]></content>
   </entry>
   

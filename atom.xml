@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-03T21:44:26+08:00</updated>
+  <updated>2015-07-04T23:49:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Html5 的 Video 處理 Rtsp 串流]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/04/html5-video-rtsp/"/>
+    <updated>2015-07-04T23:43:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/04/html5-video-rtsp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://developer.mozilla.org/en-US/Apps/Build/Audio_and_video_delivery/Live_streaming_web_audio_and_video">Live streaming web audio and video</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flood Fill Algorithm]]></title>
@@ -286,18 +298,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p>The log-structured merge-tree (LSM-tree) 在 SSD 上面的優化。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Functional Reactive Programming]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming/"/>
-    <updated>2015-06-14T23:08:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/14/functional-reactive-programming</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://elm-lang.org/">Elm</a></p>
 ]]></content>
   </entry>
   
