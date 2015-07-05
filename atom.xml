@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-04T23:49:13+08:00</updated>
+  <updated>2015-07-05T22:39:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ngxtop 監控 Nginx 的工具]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/05/ngxtop/"/>
+    <updated>2015-07-05T22:32:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/05/ngxtop</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/lebinh/ngxtop">ngxtop</a> 監控 nginx 的工具。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Html5 的 Video 處理 Rtsp 串流]]></title>
@@ -286,18 +298,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p>Vocabulary 和 Ontology 都是跟 Semantic Web (語意網) 有關的東西。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Log-Structured Merge-Tree]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree/"/>
-    <updated>2015-06-15T23:21:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/15/log-structured-merge-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>The log-structured merge-tree (LSM-tree) 在 SSD 上面的優化。</p>
 ]]></content>
   </entry>
   
