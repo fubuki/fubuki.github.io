@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-05T22:39:57+08:00</updated>
+  <updated>2015-07-06T20:57:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Geo]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/06/redis-geo/"/>
+    <updated>2015-07-06T20:31:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/06/redis-geo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看 redis 的 commit 的時候發現 redis 新增地理資訊的功能，詳細的內容在這邊 <a href="https://matt.sh/redis-geo">redis-geo</a>，
+以前在 MySQL 上面做 GIS 時是使用麥卡托投影和度分秒進行處理，之後使用 Mongodb 取代這部分的運算，
+接下來看看 <a href="https://matt.sh/redis-geo">redis-geo</a> 在這部分上好不好用。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ngxtop 監控 Nginx 的工具]]></title>
@@ -286,18 +300,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 <li>Event-Driven Style</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Vocabulary and Ontology]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology/"/>
-    <updated>2015-06-16T22:30:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/16/vocabulary-and-ontology</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Vocabulary 和 Ontology 都是跟 Semantic Web (語意網) 有關的東西。</p>
 ]]></content>
   </entry>
   
