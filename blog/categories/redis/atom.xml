@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-06T20:57:34+08:00</updated>
+  <updated>2015-07-07T22:32:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Redis Conf 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/07/redisconference/"/>
+    <updated>2015-07-07T22:24:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/07/redisconference</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.redisconference.com/">REDISCONF</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Geo]]></title>
@@ -76,20 +88,6 @@
 <p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
 
 <p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Cluster]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/16/redis-cluster/"/>
-    <updated>2014-09-16T23:58:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/16/redis-cluster</id>
-    <content type="html"><![CDATA[<p>官方 redis  cluster 的規範 和 php-redis library 目前的情況</p>
-
-<!-- more -->
-
-
-<p><a href="http://redis.io/topics/cluster-spec">cluster-spec</a> redis 的 cluster 架構，然後 <a href="https://github.com/nicolasff/phpredis/issues/476">phpredis</a> 也有在撰寫支援 cluster 結構的版本。</p>
 ]]></content>
   </entry>
   
