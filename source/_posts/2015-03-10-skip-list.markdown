@@ -1,0 +1,15 @@
+---
+layout: post
+title: "skip list"
+date: 2015-03-10 21:46:45 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+<!-- more -->
+
+`Skip List` 可以跟二元搜尋樹比較的資料結構，
+
+[Skip List vs. Binary Tree]
+
+[Skip List vs. Binary Tree]:http://stackoverflow.com/questions/256511/skip-list-vs-binary-tree

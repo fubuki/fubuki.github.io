@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "memcache 調整"
+title: "memcache tips"
 date: 2014-06-28 23:51:15 +0800
 comments: true
 categories: ["memcached"]

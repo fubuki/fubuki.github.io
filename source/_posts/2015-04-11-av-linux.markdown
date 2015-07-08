@@ -1,0 +1,15 @@
+---
+layout: post
+title: "AVLinux : 影音處理用的 Linux 發行版本"
+date: 2015-04-11 23:44:57 +0800
+comments: true
+categories: ["linux"]
+---
+
+
+<!-- more -->
+
+
+[AVLinux]
+
+[AVLinux]:http://www.bandshed.net/AVLinux.html

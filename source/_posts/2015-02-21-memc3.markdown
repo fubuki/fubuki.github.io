@@ -1,0 +1,13 @@
+---
+layout: post
+title: "MemC3 優化 Memcached 讀取效率"
+date: 2015-02-21 20:55:16 +0800
+comments: true
+categories: ["memcached"]
+---
+
+<!-- more -->
+
+
+`MemC3: Compact and Concurrent MemCache with Dumber Caching and Smarter Hashing` 這篇論文
+提出一些優化 Memcached 的方式，主要都是替換原本 Mmemcached 的算法和機制。

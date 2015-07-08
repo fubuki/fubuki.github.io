@@ -9,9 +9,9 @@ categories: ["architecture"]
 <!-- more -->
 
 
-[How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second]
-[The WhatsApp Architecture Facebook Bought For $19 Billion]
-[Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp]
+1. [How WhatsApp Grew to Nearly 500 Million Users, 11,000 cores, and 70 Million Messages a Second]  
+2. [The WhatsApp Architecture Facebook Bought For $19 Billion]  
+3. [Erlang Factory 2014 - That's 'Billion' with a 'B': Scaling to the Next Level at WhatsApp]  
 
 
 

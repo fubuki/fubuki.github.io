@@ -1,0 +1,42 @@
+---
+layout: post
+title: "php date 時間處理筆記"
+date: 2015-04-13 00:53:29 +0800
+comments: true
+categories: ["php"]
+---
+
+
+<!-- more -->
+
+
+
+### 取得目前的日期
+
+	$now = DateTime():
+	$now->format('r');
+
+	$now1 = getdate();
+	print "{$now1['hours']}:{$now1['minutes']}:{$now1['seconds']}\n";
+
+
+	$now2 = localtime();
+	print "$now2[2]:$now2[1]:$now2[0]";
+
+### 取得當月的第一天
+
+	$start = date("Y-m-1");	
+	$date = new DateTime($start);
+
+### 往前推1個月
+
+	$result = $date->modify( '-1 month' );
+
+### 當月的最後一天
+
+	$result = $date->modify( '+2 month' );
+	$result = $date->modify( '-1 day' );
+
+### 取得一段時間範圍
+
+	DateInterval();

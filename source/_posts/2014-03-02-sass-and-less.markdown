@@ -6,4 +6,6 @@ comments: true
 categories: ["css"]
 ---
 
+<!-- more -->
+
 可以像寫程式語言一樣寫CSS，讓使用者比較方便處理跨平台的問題，跟一些自動化工具結合管理CSS，

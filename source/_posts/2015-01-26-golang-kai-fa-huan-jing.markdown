@@ -3,7 +3,7 @@ layout: post
 title: "golang 開發環境"
 date: 2015-01-26 23:37:12 +0800
 comments: true
-categories: ["go"]
+categories: ["golang"]
 ---
 
 <!-- more -->

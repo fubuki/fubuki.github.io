@@ -1,0 +1,14 @@
+---
+layout: post
+title: "distcc 加速編譯 C/C++ 程式"
+date: 2015-03-14 23:41:48 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+[Distcc]
+
+
+[Distcc]:http://ja.wikipedia.org/wiki/Distcc

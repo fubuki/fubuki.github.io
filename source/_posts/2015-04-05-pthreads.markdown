@@ -1,0 +1,18 @@
+---
+layout: post
+title: "PHP : pthreads library"
+date: 2015-04-05 21:28:02 +0800
+comments: true
+categories: ["php"]
+---
+
+
+<!-- more -->
+
+
+1. [pthreads]
+2. [php pthreads]
+
+
+[pthreads]:https://computing.llnl.gov/tutorials/pthreads/
+[php pthreads]:https://github.com/krakjoe/pthreads

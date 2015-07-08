@@ -1,0 +1,18 @@
+---
+layout: post
+title: "NSQ: message server"
+date: 2015-04-06 22:33:54 +0800
+comments: true
+categories: ["golang"]
+---
+
+
+<!-- more -->
+
+紀錄之前看過的一篇 slide [NSQ-Centric Architecture (GoCon Autumn 2014)] ，後端是用 [nsq] 這個由 golang 撰寫
+的 `message server` ，前端使用 react 這個 framework 建立一個聊天 APP
+
+
+
+[nsq]:https://github.com/bitly/nsq
+[NSQ-Centric Architecture (GoCon Autumn 2014)]:http://www.slideshare.net/guregu/nsqcentric-architecture-gocon-autumn-2014

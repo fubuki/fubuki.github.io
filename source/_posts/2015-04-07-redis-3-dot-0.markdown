@@ -1,0 +1,16 @@
+---
+layout: post
+title: "redis 3.0 正式版本釋出"
+date: 2015-04-07 23:05:31 +0800
+comments: true
+categories: ["redis"]
+---
+
+<!-- more -->
+
+Redis 3.0 正式版本已經釋出，可以測試 cluster 功能和 Redis 本身的性能 。
+
+[Redis 3.0 release notes] 
+
+
+[Redis 3.0 release notes]:https://raw.githubusercontent.com/antirez/redis/3.0/00-RELEASENOTES

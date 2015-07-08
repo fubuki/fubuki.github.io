@@ -1,0 +1,21 @@
+---
+layout: post
+title: "PHP 的 yield "
+date: 2015-03-13 23:08:34 +0800
+comments: true
+categories: ["php"]
+---
+
+
+<!-- more -->
+
+之前有使用過 python 的 yield 很有趣的功能，然後今天看到一篇投影片 [PHPにおけるI/O多重化とyield]，裡面介紹一些跟 PHP 異步有關的東西，
+但是最重要是 PHP 5.5 有增加支援 yield，詳細看 [Generators overview] 這篇。
+
+
+
+
+
+
+[Generators overview]:http://php.net/manual/en/language.generators.overview.php
+[PHPにおけるI/O多重化とyield]:http://www.slideshare.net/techblogyahoo/phpioyield-phpcon2014

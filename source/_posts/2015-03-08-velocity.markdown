@@ -1,0 +1,16 @@
+---
+layout: post
+title: "velocity js"
+date: 2015-03-08 22:29:13 +0800
+comments: true
+categories: ["javascript"]
+---
+
+<!-- more -->
+
+最近看到有人使用 [velocity] 製作 UI 的動畫效果，看起來比  `jQuery animate`  還強大，
+這邊 [Velocity.js: The Official Collection] 有一些可以參考的例子。
+
+
+[velocity]:https://github.com/julianshapiro/velocity
+[Velocity.js: The Official Collection]:http://codepen.io/collection/tIjGb/

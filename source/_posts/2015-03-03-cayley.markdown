@@ -1,0 +1,13 @@
+---
+layout: post
+title: "cayley 圖形資料庫"
+date: 2015-03-03 23:28:10 +0800
+comments: true
+categories: ["graph database"]
+---
+
+<!-- more -->
+
+[cayley] 使用 go 撰寫的圖形資料庫，使用的語法跟 jquery 很像，可以跟 neo4j 比較。
+
+[cayley]:https://github.com/google/cayley

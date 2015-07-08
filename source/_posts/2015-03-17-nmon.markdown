@@ -1,0 +1,17 @@
+---
+layout: post
+title: "nmon 監控指令"
+date: 2015-03-17 23:41:52 +0800
+comments: true
+categories: ["linux"]
+---
+
+
+<!-- more -->
+
+#### 安裝
+
+	apt-get install nmon
+
+
+除了 top 以外可以使用 `nmon` 監控 linux 內部的狀態，提供更詳細的情形。

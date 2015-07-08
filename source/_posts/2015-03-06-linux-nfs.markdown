@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Linux 安裝 nfs"
+date: 2015-03-06 23:48:46 +0800
+comments: true
+categories: ["linux"]
+---
+
+<!-- more -->
+
+記錄在 Centos 上面安裝 nfs server。

@@ -1,0 +1,20 @@
+---
+layout: post
+title: "CSP concurrency model"
+date: 2015-03-19 01:35:15 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+
+最近在學習 golang 順便了解一下跟 erlang 的不同，然後看到了 golang 是採用 CSP 系統，
+之前已經看過了 Actor 系統，這邊就去了解關於 CSP 系統。
+
+`Communicating sequential processes` (CSP) [wiki]
+
+
+
+[wiki]:http://en.wikipedia.org/wiki/Communicating_sequential_processes

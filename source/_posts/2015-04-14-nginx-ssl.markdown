@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Nginx SSL 的相關設定"
+date: 2015-04-14 03:23:27 +0800
+comments: true
+categories: ["nginx"]
+---
+
+<!-- more -->
+
+紀錄從 Nginx 看到跟 SSL 相關的設定和概念，提高 Nginx 本身透過 SSL 通訊的安全性。
+
+之前在看同事設定 Apache SSL 功能時只有看到密鑰的檔案並沒有另外多加設定，後來自己在設定 nginx 的 SSL 功能時發現還有
+其它需要設定的選項: `ssl_protocols` 和 `ssl_ciphers`。
+
+
+#### ssl_protocols
+這個設定主要是為了避免伺服器使用有問題的加密協定，目前加密協定主要有 SSL 和 TLS，SSL 本身安全性已經有問題，所以建議使用 TLS，
+之前有看到一些瀏覽器廠商將 SSL 3.0 拿掉就是為了安全性問題。
+
+
+###  ssl_ciphers
+這個是用來設定 SSL 通訊所使用的加密演算法，設定內容可以參考下面的工具和網站。
+
+1. [Cipherli.st Strong Ciphers for Apache, nginx and Lighttpd]
+2. [cipherscan]
+
+
+另外網路上有個檢測工具可以看看你自己的網站在 SSL 加密上獲得多少分數 [Qualys Labs]。
+
+
+
+#### 參考
+
+1. [httpsだからというだけで安全？調べたら怖くなってきたSSLの話!？]
+
+
+
+
+
+[httpsだからというだけで安全？調べたら怖くなってきたSSLの話!？]:http://qiita.com/kuni-nakaji/items/5118b23bf2ea44fed96e
+[Cipherli.st Strong Ciphers for Apache, nginx and Lighttpd]:https://cipherli.st/
+[Qualys Labs]:https://www.ssllabs.com/ssltest/index.html
+[cipherscan]:https://github.com/jvehent/cipherscan

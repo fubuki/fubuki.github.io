@@ -1,0 +1,19 @@
+---
+layout: post
+title: "樂天的 ROMA"
+date: 2015-02-25 23:06:18 +0800
+comments: true
+categories: ["memcached"]
+---
+
+<!-- more -->
+
+[ROMA] 是樂天基於 Ruby 開發的 key-value 快取伺服器，相容於 memcached 也就是可以透過 memcached 的
+函式庫操作 [ROMA]。
+
+[ROMA] 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 [ROMA-Project] 官網的說明看似乎如果
+有一個端點離開群集卻不會失去資料。
+
+
+[ROMA]:https://github.com/roma/roma
+[ROMA-Project]:http://roma-kvs.org

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "ketama hash algorithm"
+date: 2015-03-18 22:55:48 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+
+<!-- more -->
+
+最近在研究在 memcached client 端使用 hash 將 key-value 分散到其他機器達到分布式的效果，在 php 的 memcached 就有類似的做法，
+所以研究了一下原始碼和官方文件，發現是用一種叫做 [ketama] 的 consistent hashing 。
+
+
+
+[ketama]:https://github.com/RJ/ketama

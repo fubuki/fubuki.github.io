@@ -1,0 +1,14 @@
+---
+layout: post
+title: "四月書單"
+date: 2015-03-31 22:05:14 +0800
+comments: true
+categories: ["book lists"]
+---
+
+<!-- more -->
+
+
+1. Redis 設計與實現
+2. Think Complexity
+3. beautiful code

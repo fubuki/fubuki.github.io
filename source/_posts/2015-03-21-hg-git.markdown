@@ -1,0 +1,24 @@
+---
+layout: post
+title: "hg-git"
+date: 2015-03-21 22:20:27 +0800
+comments: true
+categories: ["git"]
+---
+
+
+<!-- more -->
+
+目前手上有些別人專案是用 hg 作版本控管的，但是我想推到 Github 上面做備份，看到有一個 [hg-git] 的 plugin 可以將
+使用 hg 的專案推到 Github 上面。
+
+
+	easy_install hg-git
+	vim ~/.hgrc
+
+	[extensions]
+	hggit = [path-to]/hg-git/hggit
+
+	
+
+[hg-git]:https://github.com/schacon/hg-git

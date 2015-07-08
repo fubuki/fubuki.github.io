@@ -1,0 +1,13 @@
+---
+layout: post
+title: "三月書單"
+date: 2015-02-27 21:04:48 +0800
+comments: true
+categories: ["book lists"]
+---
+
+<!-- more -->
+
+1. 大數據日知錄-架構與算法
+2. Mobile and Web Messaging Messaging Protocols for Web and Mobile Devices 
+3. 松本行弘談程式世界的未來
