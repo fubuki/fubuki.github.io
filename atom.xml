@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-07T22:32:33+08:00</updated>
+  <updated>2015-07-08T22:27:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Browser Reflow Repaint]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/08/reflow-repaint/"/>
+    <updated>2015-07-08T20:47:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/08/reflow-repaint</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>reflow</h3>
+
+<p>重排整個瀏覽器的元素，例如當有元素的寬高改變的時候需要將整個 DOM 重新計算。</p>
+
+<h3>repaint</h3>
+
+<p>對單一元素重繪，例如更改字體大小或是顏色。</p>
+
+<ol>
+<li><a href="https://developers.google.com/speed/articles/reflow">Minimizing browser reflow</a></li>
+<li><a href="http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/">Reflows &amp; Repaints: CSS Performance making your JavaScript slow?</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Conf 2015]]></title>
@@ -284,16 +308,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p><a href="https://about.gitlab.com/2014/09/29/gitlab-flow/">gitlab-flow</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Asyncio]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/18/python-asyncio/"/>
-    <updated>2015-06-18T23:56:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/18/python-asyncio</id>
-    <content type="html"><![CDATA[<!-- more -->
-
 ]]></content>
   </entry>
   

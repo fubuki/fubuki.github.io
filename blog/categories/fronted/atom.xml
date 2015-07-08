@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Fronted | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/fronted/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-07-08T22:27:52+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Browser Reflow Repaint]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/08/reflow-repaint/"/>
+    <updated>2015-07-08T20:47:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/08/reflow-repaint</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>reflow</h3>
+
+<p>重排整個瀏覽器的元素，例如當有元素的寬高改變的時候需要將整個 DOM 重新計算。</p>
+
+<h3>repaint</h3>
+
+<p>對單一元素重繪，例如更改字體大小或是顏色。</p>
+
+<ol>
+<li><a href="https://developers.google.com/speed/articles/reflow">Minimizing browser reflow</a></li>
+<li><a href="http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/">Reflows &amp; Repaints: CSS Performance making your JavaScript slow?</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
