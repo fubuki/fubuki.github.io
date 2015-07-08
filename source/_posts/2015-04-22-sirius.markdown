@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Sirius: An Intelligent Personal Assistant"
+date: 2015-04-22 23:08:53 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+[sirius] 一種 Intelligent Personal Assistant。
+
+
+[sirius]:https://github.com/jhauswald/sirius

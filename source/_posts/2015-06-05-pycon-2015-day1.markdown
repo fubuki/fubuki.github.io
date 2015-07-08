@@ -1,0 +1,96 @@
+---
+layout: post
+title: "pycon 2015 day1"
+date: 2015-06-05 21:29:40 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+
+### Ecosystem threats to python
+
+比較 Python 和 Perl 的程式語言排行
+最大的麻煩是從 python 2 到 python 3
+
+Java node.js golang
+
+為何使用 Java
+
+為何使用 node.js
+
+為何使用 Golang
+
+為何使用 python
+
+
+### ..when thinking functionally with Python
+
+function language 如果寫過 Lisp 和 Haskell 就知道光是語法還不夠，
+
+使用 Haskell 介紹 python 的函數式編程
+
+Abstract Data Type
+
+Type Class
+
+Monad
+
+Monadic
+
+
+### 快快樂樂成為 Coding Ninja (by pytest)
+
+如何撰寫測試
+
+pytest 也可以測試網頁的功能
+
+介紹三種類型的測試
+
+
+
+### ZoneIDAProc: Instrumentation-based Dynamic Accessing 
+
+
+IDAPro 逆向工程 動態追蹤
+
+Linux FUSE
+
+
+[ZoneIDAProc]:https://github.com/penvirus/ZoneIDAProc
+
+
+
+### Kenneth Reitz
+
+Python Software Fonudation
+
+
+### 教練，我想寫 Django app 給大家用
+
+
+介紹 Django
+
+
+### Tagtoo Task Manager
+
+Luigi dataflow 
+
+他可以自動執行依賴的任務
+
+使用 docker 建立 task 環境
+
+django + webhook
+
+
+### How to scale up your Web Apps/Sites written by Python? 
+
+只有介紹蠻基本的網站架構和概念，如果要深入還需要用哪些軟體跟技術，
+
+
+
+
+
+

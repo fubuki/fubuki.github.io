@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ngxtop 監控 nginx 的工具"
+date: 2015-07-05 22:32:45 +0800
+comments: true
+categories: ["nginx"]
+---
+
+
+<!-- more -->
+
+[ngxtop] 監控 nginx 的工具。
+
+
+[ngxtop]:https://github.com/lebinh/ngxtop

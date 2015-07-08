@@ -1,0 +1,23 @@
+---
+layout: post
+title: "apache 2.2 升級到 2.4 的坑"
+date: 2015-06-25 23:26:04 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+最近在家裡的 ubuntu 的虛擬機將 apache 2.2 升級到 2.4 後，很多設定檔都需要更改，並且升級成 2.4 後
+順便更改 MPM 的模式從 prefork 改成 event 測試看看效果如何。
+
+
+在 apache 官網有篇 [Upgrading to 2.4 from 2.2] 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
+公司還是使用 `apache 2.2` 的版本，看起來暫時是不會先更新了。
+
+
+[Upgrading to 2.4 from 2.2]:http://httpd.apache.org/docs/2.4/upgrading.html
+
+
+

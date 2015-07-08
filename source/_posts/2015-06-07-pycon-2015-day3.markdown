@@ -1,0 +1,58 @@
+---
+layout: post
+title: "pycon 2015 day3"
+date: 2015-06-07 21:13:52 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+### Crossing Language Barriers with Julia, SciPy,IPython 
+
+主要在講 Julia。
+
+### Click Fraud Detection in the Mobile Advertising Using Python
+
+#### Machine Learning
+Model Training
+
+Historical Ad traffic
+
+Bid Calculation
+
+#### Ad Network Quarity
+
+Google Ad traffic Quality Resource Center
+
+Definition of invalid click activity
+
+主要是偵測無效的點擊
+
+### 工程師沒告訴設計師的事 / Happy Together: Designer and Programmer
+
+主要介紹 diazo 的用法。
+
+### Python與電子設計自動化：用愛與堅持實現專業
+
+講者介紹關於他自己開發的軟體和介紹一些演算法。
+
+### Keynote Andy Terrel
+
+主要在講資料科學，講者是跟 [continuum] 有關的開發者，這場如果對資料科學沒興趣
+應該會廳的很累。 
+
+[continuum]:http://continuum.io/
+
+
+### Machine learning in Finance using Python
+
+模式辨識
+
+sentiment analysis
+
+credit analytics
+
+funancial forecasting
+
+portfolio allocation

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "GCM 3.0"
+date: 2015-06-02 22:33:45 +0800
+comments: true
+categories: ["android"]
+---
+
+<!-- more -->
+
+在 Google IO 2015 大會上看到一個關於 GCM 3.0 的議程，後來在 [youtube] 上面看到詳細的內容，
+裡面提到關於支援 iOS 的事情， iOS 先取得 apns token 之後在跟 GCM Server 取得 token，這樣就可以
+使用在 iOS 上面使用 GCM 的服務，詳細的用法可以在 [Cloud Messaging] 找到。
+
+
+[Cloud Messaging]:https://developers.google.com/cloud-messaging/
+[youtube]:https://www.youtube.com/watch?v=gJatfdattno&feature=em-uploademail

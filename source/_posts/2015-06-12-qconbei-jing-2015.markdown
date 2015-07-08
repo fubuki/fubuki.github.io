@@ -1,0 +1,29 @@
+---
+layout: post
+title: "QCon 北京 2015"
+date: 2015-06-12 23:20:42 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+[QCon 北京 2015]
+
+
+###　有興趣的議程
+
+1. 异步处理在分布式系统中的优化作用
+2. 全栈工程师的自我修养
+3. 极致的Hybrid—从阿里「去啊」的架构演变看Web与Native的融合
+4. 微博在大规模、高负载系统中的典型问题
+5. Lua 在 Nginx 中的应用
+6. Native 和 Web 融合
+7. 九个月实现破亿用户的可扩展架构
+8. 基于 Erlang/OTP 构建大规模实时系统
+9. PHP7 - New engine for good old train
+10. 基于SQL的秒杀解决方案
+
+
+[QCon 北京 2015]:http://qconbeijing.com/schedule

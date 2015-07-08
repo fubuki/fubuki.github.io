@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Framer.js : design prototype app"
+date: 2015-04-25 21:32:20 +0800
+comments: true
+categories: ["javascript"]
+---
+
+
+<!-- more -->
+
+之前在看別人在設計手機 UI 時都是使用 WEB 網頁的概念去做的，而且是一堆靜態畫面要等到寫手機端的
+工程師花時間把畫面做出來的時候才會發現問題，所以就在想有沒有好的工具讓前端的工程師可以用原有的工具
+去設計手機 APP 的 UI 和 UX。
+
+
+後來我找到了 [Framer] ，我看到他官網裡 APP 的範例，不只有畫面也能實際操作，之後如果可行會推廣給其他人使用，
+這樣就可以在專案前期設計良好的原型，另外他也有提供一個開發工具不過只有在 Mac 版本，之後希望能夠放出其他平台的版本。
+
+
+### 如何使用
+
+
+[Framer]:https://github.com/koenbok/Framer

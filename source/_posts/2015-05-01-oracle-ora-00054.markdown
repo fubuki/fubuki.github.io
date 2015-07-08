@@ -1,0 +1,14 @@
+---
+layout: post
+title: "解決 Oracle ORA-00054 的錯誤"
+date: 2015-05-01 21:26:55 +0800
+comments: true
+categories: ["oracle"]
+---
+
+
+<!-- more -->
+
+[Killing Oracle Sessions]
+
+[Killing Oracle Sessions]:http://oracle-base.com/articles/misc/killing-oracle-sessions.php

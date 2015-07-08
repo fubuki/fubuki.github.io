@@ -1,0 +1,110 @@
+---
+layout: post
+title: "Modern Web Tw 2015 Day 1"
+date: 2015-05-15 21:21:07 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+
+## JavaScript at 20 Years
+講者為 Javascript 之父 java 的 bytes code 影響他開發 js
+
+一個早期的網站 http://whitetailbutte.com/ 使用 js 開發出類似現今 SPA 的概念，
+
+介紹了 js目前的生態系統 
+
+1. asm.js
+2. typescript
+3. flow
+4. closure
+5. soundscript
+
+ecma tc39 on github
+
+
+## Redis, another step on the road
+
+介紹 Redis 歷史
+
+介紹Reids 如何回收記憶體的行為。
+
+1. redis
+2. memcached
+3. Aerospike
+
+Redis 共享 session 的坑，因為 LRU 的關係 session 會非預期的清除。
+  
+Redis 內部的 rehash 功能
+
+Redis 群集的做法
+  
+1. Twemproxy
+2. codis
+3. redis cluster
+4. cerberus
+
+Redis 一些耗用效能的指令不太推薦使用
+
+推薦 Redis 主從模式。
+
+因為 Redis 內部的資料結構的關係，值的字串長度建議小於 39
+
+##酒館的進退之道
+
+網站一開始使用 Drupal 93個模組 呼叫 150次
+
+本次議程使用 phalcon 的心得。
+
+使用 phalcon 衍生的問題
+
+
+## 聽說 KKTIX 現在都是用 Go 寫的
+
+用了更多的 Ruby
+
+使用 Ruby inline assembly 優化效能
+
+講解 golang 的好處
+
+golang 依賴管理
+
+1. Gom
+2. GoDEP
+3. gb
+
+
+## 開源之道，Open Source Enlightenment
+主要講一些開源的精神，我覺得其實看 `大教堂與市集` 這本經典就足夠了。
+
+
+## SEO真的只要做這些事就好
+
+本次議程人爆滿，
+
+以前在寫文案都要將代名詞換掉，
+
+正確的架構 schema.org
+
+T:kd
+
+meta keywords 已棄用
+
+## Web + Arduino 實在有夠潮!
+
+介紹使用 web 控制 Arduino
+
+元件標籤化
+
+使用 Web Component 客製化元件
+
+
+## Modern Web technology to interact with (Big) Data: Voice Control, Data Visualization and Data-Driven Animation
+
+1. 疾病資料視覺化
+2. 車禍資料視覺化
+3. 語音控制
+4. 動畫效果會影響使用者在閱讀資料的感覺和體驗。

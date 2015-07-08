@@ -1,0 +1,82 @@
+---
+layout: post
+title: "pycon 2015 day2"
+date: 2015-06-06 20:24:00 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+
+### Static Typeing in Python?
+這位講者是 Cython 的貢獻者
+
+Gradual typing
+
+### Global Interpreter Lock: Episode I - Break the Seal
+
+主要是要處理多 thread 和 多 process 會遇到的問題。
+
+#### GIL over Multi-Processor
+
+#### multiprocessing : process pool
+
+further observations
+
+GIL battle
+
+#### Release the GIL
+
+#### Cooperative multitasking
+
+### Python & LLVM
+
+讓 python 跑在 LLVM 上面
+
+介紹 LLVM 的架構和歷史
+
+LLVM 3.1 開始有支援 python
+
+[llvmpy]
+
+只有支援 LLVM 3.3
+
+換用 llvmlite
+
+[continuum]
+
+[The LLDB Debugger]
+
+[llvmpy]:www.llvmpy.org
+[continuum]:http://continuum.io/
+[The LLDB Debugger]:http://lldb.llvm.org/
+
+### Python 讓你的眼睛聽得見
+
+唇語辨識
+
+McGurk 效應
+
+使用 opencv 實作影像處理抓出
+
+Haar features
+
+Adaboost
+
+### Theano : A Mathematical Expression Compiler
+
+Theano Goal
+
+Theano 一些使用方法
+
+### How to build a recommendation system with python
+
+講一些算法，好像去年也是類似的簡報?
+
+### ceph 介紹
+
+一個分散式檔案系統。
+
+### 閃電秀
+

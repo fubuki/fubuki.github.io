@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Redis Geo"
+date: 2015-07-06 20:31:39 +0800
+comments: true
+categories: ["redis"]
+---
+
+
+<!-- more -->
+
+最近在看 redis 的 commit 的時候發現 redis 新增地理資訊的功能，詳細的內容在這邊 [redis-geo]，
+以前在 MySQL 上面做 GIS 時是使用麥卡托投影和度分秒進行處理，之後使用 Mongodb 取代這部分的運算，
+接下來看看 [redis-geo] 在這部分上好不好用。
+
+
+[redis-geo]:https://matt.sh/redis-geo

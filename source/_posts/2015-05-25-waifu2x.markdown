@@ -1,0 +1,15 @@
+---
+layout: post
+title: "waifu2x: a image scale website"
+date: 2015-05-25 23:35:27 +0800
+comments: true
+categories: ["deep learning"]
+---
+
+
+<!-- more -->
+
+[waifu2x] 一個使用 `Deep Convolutional Neural Networks` 圖片網站，它可以讓圖片在放大的時候減少失真
+，裡面的原始碼已經有放在 Github 上面了，不過安裝需要使用 CUDA 也就是機器需要 Nivda 的 GPU 支援。
+
+[waifu2x]:https://github.com/nagadomi/waifu2x
