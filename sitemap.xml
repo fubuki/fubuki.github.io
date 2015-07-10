@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/07/10/aws-s2n/</loc>
+    <lastmod>2015-07-10T20:15:28+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/07/09/aerosolve/</loc>
     <lastmod>2015-07-09T22:18:31+08:00</lastmod>
     <priority>0.8</priority>
@@ -2537,19 +2542,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-07-09T23:05:35+08:00</lastmod>
+    <lastmod>2015-07-10T20:20:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-07-09T23:05:35+08:00</lastmod>
+    <lastmod>2015-07-10T20:20:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-07-09T23:05:35+08:00</lastmod>
+    <lastmod>2015-07-10T20:20:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

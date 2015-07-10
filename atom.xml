@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-09T23:05:35+08:00</updated>
+  <updated>2015-07-10T20:20:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AWS S2n Library]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/10/aws-s2n/"/>
+    <updated>2015-07-10T20:15:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/10/aws-s2n</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Aerosolve Machine Learning Library]]></title>
@@ -295,25 +304,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p><a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">How to undo (almost) anything with Git</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Infer]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/20/facebook-infer/"/>
-    <updated>2015-06-20T23:18:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/20/facebook-infer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://fbinfer.com/">Infer</a></p>
-
-<ol>
-<li>Separation Logic Tutorial</li>
-<li>Abductive reasoning</li>
-<li>Hoare logic</li>
-</ol>
-
 ]]></content>
   </entry>
   
