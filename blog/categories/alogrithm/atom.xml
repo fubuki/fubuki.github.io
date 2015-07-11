@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Alogrithm | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/alogrithm/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-07-11T23:43:30+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[處理地理資訊系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/11/geohash/"/>
+    <updated>2015-07-11T23:35:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/11/geohash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/google/open-location-code">open-location-code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Geohash">Geohash</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a></li>
+<li><a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

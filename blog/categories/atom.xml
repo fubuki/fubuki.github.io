@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-10T20:20:58+08:00</updated>
+  <updated>2015-07-11T23:43:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/07/10/aws-s2n/"/>
     <updated>2015-07-10T20:15:28+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/07/10/aws-s2n</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
 ]]></content>
   </entry>
   

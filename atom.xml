@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-10T20:20:58+08:00</updated>
+  <updated>2015-07-11T23:43:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,32 @@
 
   
   <entry>
+    <title type="html"><![CDATA[處理地理資訊系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/11/geohash/"/>
+    <updated>2015-07-11T23:35:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/11/geohash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/google/open-location-code">open-location-code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Geohash">Geohash</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a></li>
+<li><a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[AWS S2n Library]]></title>
     <link href="http://fubuki.github.io/blog/2015/07/10/aws-s2n/"/>
     <updated>2015-07-10T20:15:28+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/07/10/aws-s2n</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
 ]]></content>
   </entry>
   
@@ -292,18 +313,6 @@
 
 <p>之前在研究 ssdeep 演算法時另外看到的跟倒排有關的演算法，名為 wand (weak and)，這裡有一篇相關的論文 <code>Efficient Query Evaluation using a Two-Level Retrieval
 Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，先用速度較快的但是模糊較不精準的演算法過濾後，在使用耗時但是精準的演算法對文檔做排序。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Undo (Almost) Anything With Git]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/21/git-undo/"/>
-    <updated>2015-06-21T22:11:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/21/git-undo</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">How to undo (almost) anything with Git</a></p>
 ]]></content>
   </entry>
   
