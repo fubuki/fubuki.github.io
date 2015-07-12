@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-11T23:43:30+08:00</updated>
+  <updated>2015-07-12T22:44:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Craft Conf 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/12/craft-conf-2015/"/>
+    <updated>2015-07-12T22:41:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/12/craft-conf-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://craft-conf.com/2015">craft conference 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[處理地理資訊系統]]></title>
@@ -300,19 +312,6 @@
 
 <p>有些記錄可能會大量更新，哪些部分就放在記憶體中處理，如果有遇到當機之類的災難可能要從 message queue 的部分將資料重新寫回記憶體，
 所以有可能需要就 message queue 的事件另外存放一段時間直到資料都寫回到資料庫裡。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wand Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/22/wand-algorithm/"/>
-    <updated>2015-06-22T22:25:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/22/wand-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在研究 ssdeep 演算法時另外看到的跟倒排有關的演算法，名為 wand (weak and)，這裡有一篇相關的論文 <code>Efficient Query Evaluation using a Two-Level Retrieval
-Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，先用速度較快的但是模糊較不精準的演算法過濾後，在使用耗時但是精準的演算法對文檔做排序。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-11T23:43:30+08:00</updated>
+  <updated>2015-07-12T22:44:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Craft Conf 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/12/craft-conf-2015/"/>
+    <updated>2015-07-12T22:41:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/12/craft-conf-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://craft-conf.com/2015">craft conference 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[QCon 北京 2015]]></title>
@@ -248,18 +260,6 @@
 <h3>How to scale up your Web Apps/Sites written by Python?</h3>
 
 <p>只有介紹蠻基本的網站架構和概念，如果要深入還需要用哪些軟體跟技術，</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lucene/Solr Revolution 2014]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014/"/>
-    <updated>2015-05-31T22:10:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/31/solr-lucene-revolution-2014</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.youtube.com/playlist?list=PLU6n9Voqu_1FM8nmVwiWWDRtsEjlPqhgP">Lucene/Solr Revolution 2014</a> 國外舉辦的關於 Solr 和 Lucene 的研討會。</p>
 ]]></content>
   </entry>
   
