@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-13T22:33:06+08:00</updated>
+  <updated>2015-07-14T23:49:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram 熱門標籤演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/14/trending-at-instagram/"/>
+    <updated>2015-07-14T23:42:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/14/trending-at-instagram</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://instagram-engineering.tumblr.com/post/122961624217/trending-at-instagram">Trending at Instagram</a> Instagram 如何決定哪些是熱門的標籤</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[網站過度設計的徵兆]]></title>
@@ -280,30 +292,6 @@
 
 <p>在 apache 官網有篇 <a href="http://httpd.apache.org/docs/2.4/upgrading.html">Upgrading to 2.4 from 2.2</a> 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
 公司還是使用 <code>apache 2.2</code> 的版本，看起來暫時是不會先更新了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LINE DEVELOPER DAY 2015 Tokyo]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/24/line-developer-day-2015-tokyo/"/>
-    <updated>2015-06-24T22:28:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/24/line-developer-day-2015-tokyo</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://developers.linecorp.com/blog/ja/?p=3523">LINE DEVELOPER DAY 2015 Tokyo 動画と資料を公開</a></p>
-
-<p>本年度的 LINE 開發者大會的資料已經放出，在上面的連結裡面有演講的 slide 和影片資料。</p>
-
-<p>其中比較有興趣的是下面這幾篇 slide:</p>
-
-<ol>
-<li>LINE Platform Development Chronicle</li>
-<li>４年に渡る LINE Android アプリの進化とチャレンジ</li>
-<li>Akka ActorとAMQPでLINEのメッセージングパイプラインをリプレースした話</li>
-<li>ベイズ推定とDeep Learningを使用したレコメンドエンジン開発</li>
-</ol>
-
 ]]></content>
   </entry>
   
