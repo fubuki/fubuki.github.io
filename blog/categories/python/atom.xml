@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-14T23:49:10+08:00</updated>
+  <updated>2015-07-15T22:39:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Decorator 用法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/15/python-decorator/"/>
+    <updated>2015-07-15T22:28:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/15/python-decorator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在面試的時候有人問我什麼是 decorator ，之前在寫跟看別人的 python 程式碼有看過類似的東西，不過並不能詳細的說明用途，
+所以在這邊記錄一下用法。</p>
+
+<p><a href="http://thecodeship.com/patterns/guide-to-python-function-decorators/">A guide to Python&rsquo;s function decorators</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python and Julia]]></title>
@@ -105,18 +120,6 @@ fastcgi.server = ( "/app.py" =&gt;
 
 easy_install web.py
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Tornado]]></title>
-    <link href="http://fubuki.github.io/blog/2014/11/23/python-tornado/"/>
-    <updated>2014-11-23T14:43:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/11/23/python-tornado</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.tornadoweb.org/en/stable/">Tornado</a> 由 python 寫的有著非同步特性的 web 框架，在研究 node.js 的特性時常會看到有人拿 Tornado 作比較。</p>
 ]]></content>
   </entry>
   

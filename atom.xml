@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-14T23:49:10+08:00</updated>
+  <updated>2015-07-15T22:39:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Decorator 用法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/15/python-decorator/"/>
+    <updated>2015-07-15T22:28:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/15/python-decorator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前在面試的時候有人問我什麼是 decorator ，之前在寫跟看別人的 python 程式碼有看過類似的東西，不過並不能詳細的說明用途，
+所以在這邊記錄一下用法。</p>
+
+<p><a href="http://thecodeship.com/patterns/guide-to-python-function-decorators/">A guide to Python&rsquo;s function decorators</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instagram 熱門標籤演算法]]></title>
@@ -276,22 +291,6 @@
 
 
 <p><a href="https://github.com/wg/wrk">wrk</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apache 2.2 升級到 2.4 的坑]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6/"/>
-    <updated>2015-06-25T23:26:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在家裡的 ubuntu 的虛擬機將 apache 2.2 升級到 2.4 後，很多設定檔都需要更改，並且升級成 2.4 後
-順便更改 MPM 的模式從 prefork 改成 event 測試看看效果如何。</p>
-
-<p>在 apache 官網有篇 <a href="http://httpd.apache.org/docs/2.4/upgrading.html">Upgrading to 2.4 from 2.2</a> 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
-公司還是使用 <code>apache 2.2</code> 的版本，看起來暫時是不會先更新了。</p>
 ]]></content>
   </entry>
   
