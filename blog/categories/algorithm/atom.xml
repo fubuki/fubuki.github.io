@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-15T22:39:09+08:00</updated>
+  <updated>2015-07-16T20:37:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[建立地理資訊系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/11/geohash/"/>
+    <updated>2015-07-11T23:35:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/11/geohash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/google/open-location-code">open-location-code</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Geohash">Geohash</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a></li>
+<li><a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flood Fill Algorithm]]></title>
@@ -59,18 +77,6 @@ Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，�
 
 
 <p>The log-structured merge-tree (LSM-tree) 在 SSD 上面的優化。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quadtrees and Hilbert Curves]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves/"/>
-    <updated>2015-06-09T23:41:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/09/quadtrees-and-hilbert-curves</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves">Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves</a></p>
 ]]></content>
   </entry>
   

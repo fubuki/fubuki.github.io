@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-15T22:39:09+08:00</updated>
+  <updated>2015-07-16T20:37:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RebirnDB 架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/16/rebirndb/"/>
+    <updated>2015-07-16T20:31:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/16/rebirndb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/reborndb/reborn">RebornDB</a> 一個分散式 key-value 資料庫。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python Decorator 用法]]></title>
@@ -65,7 +77,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[處理地理資訊系統]]></title>
+    <title type="html"><![CDATA[建立地理資訊系統]]></title>
     <link href="http://fubuki.github.io/blog/2015/07/11/geohash/"/>
     <updated>2015-07-11T23:35:31+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/07/11/geohash</id>
@@ -279,18 +291,6 @@
 
 
 <p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/26/wrk/"/>
-    <updated>2015-06-26T22:47:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/26/wrk</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/wg/wrk">wrk</a></p>
 ]]></content>
   </entry>
   

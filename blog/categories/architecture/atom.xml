@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-15T22:39:09+08:00</updated>
+  <updated>2015-07-16T20:37:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RebirnDB 架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/16/rebirndb/"/>
+    <updated>2015-07-16T20:31:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/16/rebirndb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/reborndb/reborn">RebornDB</a> 一個分散式 key-value 資料庫。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CQRS Architecture]]></title>
@@ -82,21 +94,6 @@
 <li><a href="https://www.youtube.com/watch?v=c12cYAUTXXs">Erlang Factory 2014 - That&rsquo;s &lsquo;Billion&rsquo; with a &lsquo;B&rsquo;: Scaling to the Next Level at WhatsApp</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Event Sourcing Pattern]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern/"/>
-    <updated>2015-01-27T23:03:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/27/event-sourcing-pattern</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在看 LMAX 的架構的時候，提到利用 <code>Event Sourcing</code> 這個模式開發程式可以完全在記憶體裡面運算，提升程式運算的效能，
-那個時候尚未了解 <code>Event Sourcing</code> 是何物，今天就紀錄一下研究的資料: <a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a>。</p>
-
-<p><a href="http://ookami86.github.io/event-sourcing-in-practice/">Event Sourcing in practice</a></p>
 ]]></content>
   </entry>
   
