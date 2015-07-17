@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-16T20:37:07+08:00</updated>
+  <updated>2015-07-17T23:06:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[100 篇跟大數據相關的論文]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/17/100-open-source-big-data-architecture-papers-for-data-professionals/"/>
+    <updated>2015-07-17T23:00:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/17/100-open-source-big-data-architecture-papers-for-data-professionals</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan">100 open source Big Data architecture papers for data professionals</a> 裡面介紹了不少跟大數據相關的論文，不過實際上分成很多部分
+，可以挑自己中意的看看，裡面提到的東西現在都有一些實做出來的開源專案，只是如果看過當初的設計思想在使用上也能有些幫助。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instagram 熱門標籤演算法]]></title>
@@ -66,25 +79,6 @@
 
 <p>在 apache 官網有篇 <a href="http://httpd.apache.org/docs/2.4/upgrading.html">Upgrading to 2.4 from 2.2</a> 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
 公司還是使用 <code>apache 2.2</code> 的版本，看起來暫時是不會先更新了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Infer]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/20/facebook-infer/"/>
-    <updated>2015-06-20T23:18:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/20/facebook-infer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://fbinfer.com/">Infer</a></p>
-
-<ol>
-<li>Separation Logic Tutorial</li>
-<li>Abductive reasoning</li>
-<li>Hoare logic</li>
-</ol>
-
 ]]></content>
   </entry>
   

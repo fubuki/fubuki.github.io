@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-16T20:37:07+08:00</updated>
+  <updated>2015-07-17T23:06:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[100 篇跟大數據相關的論文]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/17/100-open-source-big-data-architecture-papers-for-data-professionals/"/>
+    <updated>2015-07-17T23:00:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/17/100-open-source-big-data-architecture-papers-for-data-professionals</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan">100 open source Big Data architecture papers for data professionals</a> 裡面介紹了不少跟大數據相關的論文，不過實際上分成很多部分
+，可以挑自己中意的看看，裡面提到的東西現在都有一些實做出來的開源專案，只是如果看過當初的設計思想在使用上也能有些幫助。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RebirnDB 架構]]></title>
@@ -279,18 +292,6 @@
 
 
 <p><a href="http://technology.chtsai.org/mmseg/">mmseg</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr 限制使用者搜尋結果]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/27/solr-document-filter/"/>
-    <updated>2015-06-27T23:36:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/27/solr-document-filter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
 ]]></content>
   </entry>
   
