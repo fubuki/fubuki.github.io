@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-17T23:06:07+08:00</updated>
+  <updated>2015-07-18T21:48:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Soundex Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/18/soundex/"/>
+    <updated>2015-07-18T21:46:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/18/soundex</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Soundex">Soundex</a> 最近應用在搜尋引擎上關於拼音校正的部分。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[100 篇跟大數據相關的論文]]></title>
@@ -280,18 +292,6 @@
 
 <p>上面第一篇文章是比較 apache 2.4 跟 nginx 之間的差別，另外下面的另一篇是在 nginx 的 blog 的文章，
 裡面講解到了關於 nginx 內部機制以及 nginx 為何高效能的文章。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MMSEG Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm/"/>
-    <updated>2015-06-28T23:39:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/28/mmseg-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://technology.chtsai.org/mmseg/">mmseg</a></p>
 ]]></content>
   </entry>
   
