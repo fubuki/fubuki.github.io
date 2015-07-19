@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-18T21:48:55+08:00</updated>
+  <updated>2015-07-19T20:58:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery 3.0 測試版本釋出]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0/"/>
+    <updated>2015-07-19T20:57:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/">jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Soundex Algorithm]]></title>
@@ -273,25 +285,6 @@
 
 <p><a href="https://github.com/WebAssembly/design">WebAssembly</a> 裡面我比較熟悉的是 Mozilla 出的 asm.js ，限制使用 javascript 中耗效能的操作，並且規定好使用的型別使用這樣的方法
 用來優化前端瀏覽器的 javascript 效能，而 <a href="https://github.com/WebAssembly/design">WebAssembly</a> 則是統一各家瀏覽器關於使用類似技術加速的規格。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx vs Apache]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/29/nginx-vs-apache/"/>
-    <updated>2015-06-29T22:14:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/29/nginx-vs-apache</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="http://qiita.com/sion_cojp/items/edb20a6b87f10e186c23">apacheとnginxの比較表とベンチマーク</a></li>
-<li><a href="http://nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/">Inside NGINX: How We Designed for Performance &amp; Scale</a></li>
-</ol>
-
-
-<p>上面第一篇文章是比較 apache 2.4 跟 nginx 之間的差別，另外下面的另一篇是在 nginx 的 blog 的文章，
-裡面講解到了關於 nginx 內部機制以及 nginx 為何高效能的文章。</p>
 ]]></content>
   </entry>
   

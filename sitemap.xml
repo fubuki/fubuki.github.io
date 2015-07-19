@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0/</loc>
+    <lastmod>2015-07-19T20:57:37+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/07/18/soundex/</loc>
     <lastmod>2015-07-18T21:46:19+08:00</lastmod>
     <priority>0.8</priority>
@@ -2582,19 +2587,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-07-18T21:48:55+08:00</lastmod>
+    <lastmod>2015-07-19T20:58:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-07-18T21:48:55+08:00</lastmod>
+    <lastmod>2015-07-19T20:58:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-07-18T21:48:55+08:00</lastmod>
+    <lastmod>2015-07-19T20:58:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

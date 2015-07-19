@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Jquery | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jquery/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-18T21:48:55+08:00</updated>
+  <updated>2015-07-19T20:58:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery 3.0 測試版本釋出]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0/"/>
+    <updated>2015-07-19T20:57:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/">jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery Mobile Form]]></title>
