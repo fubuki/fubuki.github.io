@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-19T20:58:59+08:00</updated>
+  <updated>2015-07-20T21:59:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solr Phonetic Matching]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching/"/>
+    <updated>2015-07-20T21:58:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://cwiki.apache.org/confluence/display/solr/Phonetic+Matching">Phonetic Matching</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery 3.0 測試版本釋出]]></title>
@@ -272,19 +284,6 @@
 
 
 <p><a href="http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html">Train Your Own OpenCV Haar Classifier</a> 使用 opencv 建立一個香蕉分類器。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WebAssembly 優化前端性能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/30/webassembly/"/>
-    <updated>2015-06-30T23:08:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/30/webassembly</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/WebAssembly/design">WebAssembly</a> 裡面我比較熟悉的是 Mozilla 出的 asm.js ，限制使用 javascript 中耗效能的操作，並且規定好使用的型別使用這樣的方法
-用來優化前端瀏覽器的 javascript 效能，而 <a href="https://github.com/WebAssembly/design">WebAssembly</a> 則是統一各家瀏覽器關於使用類似技術加速的規格。</p>
 ]]></content>
   </entry>
   
