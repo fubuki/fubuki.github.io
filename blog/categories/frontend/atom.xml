@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-20T21:59:57+08:00</updated>
+  <updated>2015-07-21T23:21:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Material Design on Web Page]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html/"/>
+    <updated>2015-07-21T23:15:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html</id>
+    <content type="html"><![CDATA[<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
+
+<p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[網站過度設計的徵兆]]></title>
@@ -22,6 +33,30 @@
 
 
 <p><a href="https://medium.com/active-collab-creative/symptoms-of-over-designed-websites-8cf1d0b9c4f2">Symptoms of Over-Designed Websites</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Browser Reflow Repaint]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/08/reflow-repaint/"/>
+    <updated>2015-07-08T20:47:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/08/reflow-repaint</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>reflow</h3>
+
+<p>重排整個瀏覽器的元素，例如當有元素的寬高改變的時候需要將整個 DOM 重新計算。</p>
+
+<h3>repaint</h3>
+
+<p>對單一元素重繪，例如更改字體大小或是顏色。</p>
+
+<ol>
+<li><a href="https://developers.google.com/speed/articles/reflow">Minimizing browser reflow</a></li>
+<li><a href="http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/">Reflows &amp; Repaints: CSS Performance making your JavaScript slow?</a></li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -47,36 +82,6 @@
 
 <p><a href="https://github.com/WebAssembly/design">WebAssembly</a> 裡面我比較熟悉的是 Mozilla 出的 asm.js ，限制使用 javascript 中耗效能的操作，並且規定好使用的型別使用這樣的方法
 用來優化前端瀏覽器的 javascript 效能，而 <a href="https://github.com/WebAssembly/design">WebAssembly</a> 則是統一各家瀏覽器關於使用類似技術加速的規格。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Parallax Scrolling 效果]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/27/parallax-scrolling/"/>
-    <updated>2015-04-27T22:19:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/27/parallax-scrolling</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近常看到一種特殊的網頁視覺效果，網頁往下捲動時內容也會跟著改變，當時不知道叫做什麼後來看到別人在
-演講時提到相同的東西才知道這種效果名叫 <code>Parallax Scrolling</code>，然後在 github 上有個不錯的專案: <a href="https://github.com/Prinzhorn/skrollr">skrollr</a>，
-使用 Pure Javascript 寫成並且可以在各種環境下執行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Atom 編寫 Jade]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/16/jade-atom/"/>
-    <updated>2015-02-16T23:30:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/16/jade-atom</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 express 建立監控服務，使用 <a href="http://jade-lang.com/">jade</a> 當作樣板引擎，一開始不太順手跟剛開始寫 python 的感覺一樣，
-後來寫起來感覺很不錯，atom 有預覽可以看編譯出來的 html 長什麼樣子。</p>
-
-<p><a href="http://jade-lang.com/">jade</a> 跟原本的 html 比起來要撰寫的程式碼變少了，排版起來也乾淨，目前利用 atom 撰寫的時候需要另外安裝 package，
-就能有高亮和預覽的功能。</p>
 ]]></content>
   </entry>
   

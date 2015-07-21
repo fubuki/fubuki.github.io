@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-20T21:59:57+08:00</updated>
+  <updated>2015-07-21T23:21:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Material Design on Web Page]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html/"/>
+    <updated>2015-07-21T23:15:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html</id>
+    <content type="html"><![CDATA[<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
+
+<p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solr Phonetic Matching]]></title>
@@ -272,18 +283,6 @@
 本身的心跳，藉由環境中物體的微小震動還原環境音。</p>
 
 <p><a href="http://people.csail.mit.edu/mrub/vidmag/">Video Magnification</a> 這邊是研究網站，裡面有 Matlab 的程式碼，之後有空轉換成 python 或是 C++ 的程式碼。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[建立一個香蕉分類器]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/01/building-banana-filter/"/>
-    <updated>2015-07-01T21:09:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/01/building-banana-filter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html">Train Your Own OpenCV Haar Classifier</a> 使用 opencv 建立一個香蕉分類器。</p>
 ]]></content>
   </entry>
   
