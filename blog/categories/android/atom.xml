@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Android | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-21T23:21:49+08:00</updated>
+  <updated>2015-07-22T19:25:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Buck: Android Compile Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/22/buck-android/"/>
+    <updated>2015-07-22T18:59:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/22/buck-android</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://buckbuild.com/">buck</a> facebook 開發的 Android 編譯工具。</p>
+
+<p><a href="http://engineering.vine.co/post/117873038742/reducing-build-times-by-adopting-buck">Reducing build times by adopting Buck</a> Vine 的使用在測試上，加快編譯的速度以便減少測試的時間。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GCM 3.0]]></title>
@@ -90,18 +104,6 @@ webView.getSettings().setUseWideViewPort( true );
 <li><a href="http://www.cyanogenmod.org/">CM ROM</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android Performance Patterns]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/19/android-performance-patterns/"/>
-    <updated>2015-01-19T23:20:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/19/android-performance-patterns</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>一系列關於 Android 性能的影片: <a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIKEOXh5TwZEv89aofHzNCiu">Android Performance Patterns</a></p>
 ]]></content>
   </entry>
   

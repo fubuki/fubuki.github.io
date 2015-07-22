@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-21T23:21:49+08:00</updated>
+  <updated>2015-07-22T19:25:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Buck: Android Compile Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/22/buck-android/"/>
+    <updated>2015-07-22T18:59:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/22/buck-android</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://buckbuild.com/">buck</a> facebook 開發的 Android 編譯工具。</p>
+
+<p><a href="http://engineering.vine.co/post/117873038742/reducing-build-times-by-adopting-buck">Reducing build times by adopting Buck</a> Vine 的使用在測試上，加快編譯的速度以便減少測試的時間。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Material Design on Web Page]]></title>
     <link href="http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html/"/>
     <updated>2015-07-21T23:15:45+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html</id>
-    <content type="html"><![CDATA[<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
 
 <p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
 ]]></content>
@@ -267,22 +284,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Flood_fill">Flood fill</a> 用來解決 Match 3 Game 的演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Video Magnification]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds/"/>
-    <updated>2015-07-02T12:07:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在 pycon 2015 的時候有人推薦的一篇關於影像處理的文章 : <a href="https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide?language=en">See invisible motion, hear silent sounds</a>，
-這篇文章重點在於可以清晰辨識影片中的微小變化，因而產生很多功用，其中包括可以藉由臉部顏色的變化偵測到人體
-本身的心跳，藉由環境中物體的微小震動還原環境音。</p>
-
-<p><a href="http://people.csail.mit.edu/mrub/vidmag/">Video Magnification</a> 這邊是研究網站，裡面有 Matlab 的程式碼，之後有空轉換成 python 或是 C++ 的程式碼。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-21T23:21:49+08:00</updated>
+  <updated>2015-07-22T19:25:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html/"/>
     <updated>2015-07-21T23:15:45+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html</id>
-    <content type="html"><![CDATA[<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
 
 <p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
 ]]></content>
