@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-22T19:25:37+08:00</updated>
+  <updated>2015-07-23T23:53:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chinese Word Segmentation Bakeoff]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese/"/>
+    <updated>2015-07-23T23:51:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.sighan.org/">sighan</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[100 篇跟大數據相關的論文]]></title>
@@ -63,22 +75,6 @@
 本身的心跳，藉由環境中物體的微小震動還原環境音。</p>
 
 <p><a href="http://people.csail.mit.edu/mrub/vidmag/">Video Magnification</a> 這邊是研究網站，裡面有 Matlab 的程式碼，之後有空轉換成 python 或是 C++ 的程式碼。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apache 2.2 升級到 2.4 的坑]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6/"/>
-    <updated>2015-06-25T23:26:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/25/apache-2-dot-6</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在家裡的 ubuntu 的虛擬機將 apache 2.2 升級到 2.4 後，很多設定檔都需要更改，並且升級成 2.4 後
-順便更改 MPM 的模式從 prefork 改成 event 測試看看效果如何。</p>
-
-<p>在 apache 官網有篇 <a href="http://httpd.apache.org/docs/2.4/upgrading.html">Upgrading to 2.4 from 2.2</a> 從 2.2 到 2.4 需要注意的事項，一些訪問權限和規則都更改了，目前
-公司還是使用 <code>apache 2.2</code> 的版本，看起來暫時是不會先更新了。</p>
 ]]></content>
   </entry>
   

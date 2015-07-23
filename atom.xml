@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-22T19:25:37+08:00</updated>
+  <updated>2015-07-23T23:53:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chinese Word Segmentation Bakeoff]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese/"/>
+    <updated>2015-07-23T23:51:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.sighan.org/">sighan</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Buck: Android Compile Tool]]></title>
@@ -272,18 +284,6 @@
 
 
 <p><a href="https://developer.mozilla.org/en-US/Apps/Build/Audio_and_video_delivery/Live_streaming_web_audio_and_video">Live streaming web audio and video</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Flood Fill Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/03/flood-fill/"/>
-    <updated>2015-07-03T13:58:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/03/flood-fill</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Flood_fill">Flood fill</a> 用來解決 Match 3 Game 的演算法。</p>
 ]]></content>
   </entry>
   

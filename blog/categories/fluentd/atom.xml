@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Fluentd | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/fluentd/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-22T19:25:37+08:00</updated>
+  <updated>2015-07-23T23:53:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,8 +21,8 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p><a href="http://dev.classmethod.jp/cloud/aws/block_dos_attack_by_norikra/">Norikra+FluentdでDoS攻撃をブロックする仕組みを作ってみた</a> 使用 Fluntd 和 Norikra 處理 Server Log， Flunted 主是
-收集 Server 的 access log，然後丟給 Norikra 處理的樣子，而 Norikra 似乎可以用 SQL 的語法處理那些資料。</p>
+<p><a href="http://dev.classmethod.jp/cloud/aws/block_dos_attack_by_norikra/">Norikra+FluentdでDoS攻撃をブロックする仕組みを作ってみた</a> 使用 Fluntd 和 Norikra 處理 Server Log， Flunted 主要是
+收集 Server 的 access log，然後丟給 Norikra 處理，而 Norikra 可以透過使用 SQL 的語法處理那些資料。</p>
 ]]></content>
   </entry>
   
