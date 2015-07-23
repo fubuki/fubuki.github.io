@@ -1,0 +1,13 @@
+---
+layout: post
+title: " jQuery 3.0 測試版本釋出"
+date: 2015-07-19 20:57:37 +0800
+comments: true
+categories: ["jquery"]
+---
+
+<!-- more -->
+
+[jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released]
+
+[jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released]:http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/

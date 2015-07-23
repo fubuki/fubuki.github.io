@@ -1,0 +1,15 @@
+---
+layout: post
+title: "AWS s2n library"
+date: 2015-07-10 20:15:28 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[s2n] Amazon 出的 SSL 函式庫。
+
+
+[s2n]:https://github.com/awslabs/s2n

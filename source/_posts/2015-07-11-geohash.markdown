@@ -1,0 +1,21 @@
+---
+layout: post
+title: "建立地理資訊系統"
+date: 2015-07-11 23:35:31 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+
+<!-- more -->
+
+1. [open-location-code]
+2. [Geohash]
+3. [Quadtree]
+4. [R-tree]
+
+
+[open-location-code]:https://github.com/google/open-location-code
+[Geohash]:https://en.wikipedia.org/wiki/Geohash
+[Quadtree]:https://en.wikipedia.org/wiki/Quadtree
+[R-tree]:https://en.wikipedia.org/wiki/R-tree

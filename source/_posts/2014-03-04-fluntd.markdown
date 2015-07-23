@@ -8,8 +8,8 @@ categories: ["fluentd"]
 
 <!-- more -->
 
-[Norikra+FluentdでDoS攻撃をブロックする仕組みを作ってみた] 使用 Fluntd 和 Norikra 處理 Server Log， Flunted 主是
-收集 Server 的 access log，然後丟給 Norikra 處理的樣子，而 Norikra 似乎可以用 SQL 的語法處理那些資料。
+[Norikra+FluentdでDoS攻撃をブロックする仕組みを作ってみた] 使用 Fluntd 和 Norikra 處理 Server Log， Flunted 主要是
+收集 Server 的 access log，然後丟給 Norikra 處理，而 Norikra 可以透過使用 SQL 的語法處理那些資料。
 
 
 

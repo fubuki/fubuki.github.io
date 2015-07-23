@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Soundex Algorithm"
+date: 2015-07-18 21:46:19 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+
+<!-- more -->
+
+[Soundex] 最近應用在搜尋引擎上關於拼音校正的部分。
+
+
+[Soundex]:https://en.wikipedia.org/wiki/Soundex
