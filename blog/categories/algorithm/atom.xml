@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-24T10:51:16+08:00</updated>
+  <updated>2015-07-25T23:11:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Majority Vote Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm/"/>
+    <updated>2015-07-25T22:26:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Soundex Algorithm]]></title>
@@ -64,19 +76,6 @@
 
 
 <p><a href="http://technology.chtsai.org/mmseg/">mmseg</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wand Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/22/wand-algorithm/"/>
-    <updated>2015-06-22T22:25:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/22/wand-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在研究 ssdeep 演算法時另外看到的跟倒排有關的演算法，名為 wand (weak and)，這裡有一篇相關的論文 <code>Efficient Query Evaluation using a Two-Level Retrieval
-Process</code> ，使用 wand 在搜尋引擎上可以增加搜尋的速度，先用速度較快的但是模糊較不精準的演算法過濾後，在使用耗時但是精準的演算法對文檔做排序。</p>
 ]]></content>
   </entry>
   

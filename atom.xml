@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-24T10:51:16+08:00</updated>
+  <updated>2015-07-25T23:11:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Majority Vote Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm/"/>
+    <updated>2015-07-25T22:26:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 JSONP 漏洞竊取使用者資料]]></title>
@@ -273,18 +285,6 @@
 <p>最近在看 redis 的 commit 的時候發現 redis 新增地理資訊的功能，詳細的內容在這邊 <a href="https://matt.sh/redis-geo">redis-geo</a>，
 以前在 MySQL 上面做 GIS 時是使用麥卡托投影和度分秒進行處理，之後使用 Mongodb 取代這部分的運算，
 接下來看看 <a href="https://matt.sh/redis-geo">redis-geo</a> 在這部分上好不好用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ngxtop 監控 Nginx 的工具]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/05/ngxtop/"/>
-    <updated>2015-07-05T22:32:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/05/ngxtop</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/lebinh/ngxtop">ngxtop</a> 監控 nginx 的工具。</p>
 ]]></content>
   </entry>
   
