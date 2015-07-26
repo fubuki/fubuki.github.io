@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-25T23:11:20+08:00</updated>
+  <updated>2015-07-26T23:34:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CQRS 不同的應用方法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/26/cqrs-but-different/"/>
+    <updated>2015-07-26T23:24:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/26/cqrs-but-different</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://vimeo.com/131199089">CQRS – but different - Udi Dahan</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Majority Vote Algorithm]]></title>
@@ -271,20 +283,6 @@
 
 
 <p><a href="http://www.redisconference.com/">REDISCONF</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis Geo]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/06/redis-geo/"/>
-    <updated>2015-07-06T20:31:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/06/redis-geo</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看 redis 的 commit 的時候發現 redis 新增地理資訊的功能，詳細的內容在這邊 <a href="https://matt.sh/redis-geo">redis-geo</a>，
-以前在 MySQL 上面做 GIS 時是使用麥卡托投影和度分秒進行處理，之後使用 Mongodb 取代這部分的運算，
-接下來看看 <a href="https://matt.sh/redis-geo">redis-geo</a> 在這部分上好不好用。</p>
 ]]></content>
   </entry>
   
