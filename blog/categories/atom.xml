@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-26T23:34:12+08:00</updated>
+  <updated>2015-07-27T23:52:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Compressed Sensing and Sparse Sampling]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/27/compressed-sensing/"/>
+    <updated>2015-07-27T23:49:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/27/compressed-sensing</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看影像處理的課程裡面提到了 <a href="https://en.wikipedia.org/wiki/Compressed_sensing">Compressed sensing</a>，用來將圖片中的雜訊去除。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Chinese Word Segmentation Bakeoff]]></title>
@@ -59,22 +71,6 @@
 
 
 <p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Video Magnification]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds/"/>
-    <updated>2015-07-02T12:07:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/02/see-invisible-motion-hear-silent-sounds</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在 pycon 2015 的時候有人推薦的一篇關於影像處理的文章 : <a href="https://www.ted.com/talks/michael_rubinstein_see_invisible_motion_hear_silent_sounds_cool_creepy_we_can_t_decide?language=en">See invisible motion, hear silent sounds</a>，
-這篇文章重點在於可以清晰辨識影片中的微小變化，因而產生很多功用，其中包括可以藉由臉部顏色的變化偵測到人體
-本身的心跳，藉由環境中物體的微小震動還原環境音。</p>
-
-<p><a href="http://people.csail.mit.edu/mrub/vidmag/">Video Magnification</a> 這邊是研究網站，裡面有 Matlab 的程式碼，之後有空轉換成 python 或是 C++ 的程式碼。</p>
 ]]></content>
   </entry>
   
