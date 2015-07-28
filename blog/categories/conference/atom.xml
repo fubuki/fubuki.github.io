@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-27T23:52:40+08:00</updated>
+  <updated>2015-07-28T23:20:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Db Tech Showcase 2015 參考資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/28/db-tech-showcase-2015/"/>
+    <updated>2015-07-28T22:46:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/28/db-tech-showcase-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.insight-tec.com/dbts-tokyo-2015.html">db tech showcase 2015</a></p>
+
+<p>下面幾個應該是可以看看的，不過關於 Mysql 的部分沒有太吸引我的地方，主要都是在講 Cluster 的部分。</p>
+
+<p>内部犯行による漏えいを防ぐPostgreSQLの透過的暗号化機能に関する実装と利用方法</p>
+
+<p>Riak: 分散データベースにおける可用性と整合性の考え方</p>
+
+<p>[ユーザセッション] 楽天MySQL Backup Structure</p>
+
+<p>「データ一貫性にこだわる日立のインメモリ分散KVS～こだわりの理由と実現方法とは～」</p>
+
+<p>Hivemall: Machine Learning Made Easy with SQL</p>
+
+<p>PostgreSQLで動的にスケールアウト可能な負荷分散DBクラスタを作ろう！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Craft Conf 2015]]></title>
@@ -185,81 +211,6 @@
 <p>一個分散式檔案系統。</p>
 
 <h3>閃電秀</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2015 Day1]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/05/pycon-2015-day1/"/>
-    <updated>2015-06-05T21:29:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/05/pycon-2015-day1</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Ecosystem threats to python</h3>
-
-<p>比較 Python 和 Perl 的程式語言排行
-最大的麻煩是從 python 2 到 python 3</p>
-
-<p>Java node.js golang</p>
-
-<p>為何使用 Java</p>
-
-<p>為何使用 node.js</p>
-
-<p>為何使用 Golang</p>
-
-<p>為何使用 python</p>
-
-<h3>..when thinking functionally with Python</h3>
-
-<p>function language 如果寫過 Lisp 和 Haskell 就知道光是語法還不夠，</p>
-
-<p>使用 Haskell 介紹 python 的函數式編程</p>
-
-<p>Abstract Data Type</p>
-
-<p>Type Class</p>
-
-<p>Monad</p>
-
-<p>Monadic</p>
-
-<h3>快快樂樂成為 Coding Ninja (by pytest)</h3>
-
-<p>如何撰寫測試</p>
-
-<p>pytest 也可以測試網頁的功能</p>
-
-<p>介紹三種類型的測試</p>
-
-<h3>ZoneIDAProc: Instrumentation-based Dynamic Accessing</h3>
-
-<p>IDAPro 逆向工程 動態追蹤</p>
-
-<p>Linux FUSE</p>
-
-<h3>Kenneth Reitz</h3>
-
-<p>Python Software Fonudation</p>
-
-<h3>教練，我想寫 Django app 給大家用</h3>
-
-<p>介紹 Django</p>
-
-<h3>Tagtoo Task Manager</h3>
-
-<p>Luigi dataflow</p>
-
-<p>他可以自動執行依賴的任務</p>
-
-<p>使用 docker 建立 task 環境</p>
-
-<p>django + webhook</p>
-
-<h3>How to scale up your Web Apps/Sites written by Python?</h3>
-
-<p>只有介紹蠻基本的網站架構和概念，如果要深入還需要用哪些軟體跟技術，</p>
 ]]></content>
   </entry>
   

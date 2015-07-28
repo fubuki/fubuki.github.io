@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-27T23:52:40+08:00</updated>
+  <updated>2015-07-28T23:20:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Db Tech Showcase 2015 參考資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/28/db-tech-showcase-2015/"/>
+    <updated>2015-07-28T22:46:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/28/db-tech-showcase-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.insight-tec.com/dbts-tokyo-2015.html">db tech showcase 2015</a></p>
+
+<p>下面幾個應該是可以看看的，不過關於 Mysql 的部分沒有太吸引我的地方，主要都是在講 Cluster 的部分。</p>
+
+<p>内部犯行による漏えいを防ぐPostgreSQLの透過的暗号化機能に関する実装と利用方法</p>
+
+<p>Riak: 分散データベースにおける可用性と整合性の考え方</p>
+
+<p>[ユーザセッション] 楽天MySQL Backup Structure</p>
+
+<p>「データ一貫性にこだわる日立のインメモリ分散KVS～こだわりの理由と実現方法とは～」</p>
+
+<p>Hivemall: Machine Learning Made Easy with SQL</p>
+
+<p>PostgreSQLで動的にスケールアウト可能な負荷分散DBクラスタを作ろう！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Compressed Sensing and Sparse Sampling]]></title>
@@ -257,30 +283,6 @@
 <ol>
 <li><a href="https://github.com/airbnb/aerosolve/tree/master/demo/image_impressionism">Image Impressionism Demo</a></li>
 <li><a href="https://github.com/airbnb/aerosolve/tree/master/demo/income_prediction">Income Prediction Demo</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Browser Reflow Repaint]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/08/reflow-repaint/"/>
-    <updated>2015-07-08T20:47:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/08/reflow-repaint</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>reflow</h3>
-
-<p>重排整個瀏覽器的元素，例如當有元素的寬高改變的時候需要將整個 DOM 重新計算。</p>
-
-<h3>repaint</h3>
-
-<p>對單一元素重繪，例如更改字體大小或是顏色。</p>
-
-<ol>
-<li><a href="https://developers.google.com/speed/articles/reflow">Minimizing browser reflow</a></li>
-<li><a href="http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/">Reflows &amp; Repaints: CSS Performance making your JavaScript slow?</a></li>
 </ol>
 
 ]]></content>
