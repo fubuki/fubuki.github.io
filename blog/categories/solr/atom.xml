@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-28T23:20:59+08:00</updated>
+  <updated>2015-07-29T23:29:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Earlybird: Real-Time Search at Twitter]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/29/earlybird-real-time-search-at-twitter/"/>
+    <updated>2015-07-29T23:22:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/29/earlybird-real-time-search-at-twitter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看國外演討會關於 Twitter 如何實現搜尋系統的議程時，另外找到一篇 Twitter 的論文 <code>Earlybird: Real-Time Search at Twitter</code> ，
+裡面提到兩個蠻重要的組件 <code>Earlybird</code> 和 <code>Blender</code> ，跟 Twitter 如何建立一個快速即時的搜尋系統有相當大的關係需要好好研究，
+這邊有一篇比較好懂的解說文章 <a href="https://stephenholiday.com/notes/earlybird/">Earlybird: Real-Time Search at Twitter</a> 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solr Phonetic Matching]]></title>
