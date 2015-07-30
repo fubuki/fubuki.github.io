@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-29T23:29:33+08:00</updated>
+  <updated>2015-07-30T23:46:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Skein Hash]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/30/skein-hash/"/>
+    <updated>2015-07-30T23:42:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/30/skein-hash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究怎麼可以快速取得大檔案的 hash function 剛好看到這個算法 <a href="https://en.wikipedia.org/wiki/Skein_%28hash_function%29">Skein (hash function)</a> 就記錄一下</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Earlybird: Real-Time Search at Twitter]]></title>
@@ -269,18 +281,6 @@
 <li><a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[AWS S2n Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/10/aws-s2n/"/>
-    <updated>2015-07-10T20:15:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/10/aws-s2n</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
 ]]></content>
   </entry>
   
