@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-30T23:46:23+08:00</updated>
+  <updated>2015-07-31T23:50:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Information and Influence Propagation]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation/"/>
+    <updated>2015-07-31T23:41:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>這個月看了一本關於社群網路分析的書，裡面一個蠻吸引我的是關於資訊傳播的模型，一個訊息出現後怎麼樣
+發送以及感染也就是傳播給其他人，目前有本 <code>Information and Influence Propagation in Social Networks</code> 可以研究看看，
+另外手上有本複雜網路的書也可以參考參考，不過還是希望找找看有沒有相關的開放式課程可以學習。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Compressed Sensing and Sparse Sampling]]></title>
@@ -59,18 +73,6 @@
 
 
 <p><a href="http://instagram-engineering.tumblr.com/post/122961624217/trending-at-instagram">Trending at Instagram</a> Instagram 如何決定哪些是熱門的標籤</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[AWS S2n Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/10/aws-s2n/"/>
-    <updated>2015-07-10T20:15:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/10/aws-s2n</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/awslabs/s2n">s2n</a> Amazon 出的 SSL 函式庫。</p>
 ]]></content>
   </entry>
   
