@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-07-31T23:50:54+08:00</updated>
+  <updated>2015-08-01T23:51:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[圖片搜尋的演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm/"/>
+    <updated>2015-08-01T23:42:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有在找 google 以及其他網站的以圖找圖服務是怎麼做的，以前想過應該是用 hash 的方式比對會比較快，
+不過不知道是用怎麼樣的 hash 演算法，然後最近看到了 <a href="https://en.wikipedia.org/wiki/Perceptual_hashing">Perceptual hashing</a>，似乎可以用來做圖片搜尋的演算法，
+不過不知道精準度如何，另外還有 <a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT</a> 取出特徵點進行分析以及另外一種 <a href="http://www.phash.org/">pHash</a> 的算法。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Information and Influence Propagation]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation/"/>
+    <updated>2015-07-31T23:41:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>這個月看了一本關於社群網路分析的書，裡面一個蠻吸引我的是關於資訊傳播的模型，一個訊息出現後怎麼樣
+發送以及感染也就是傳播給其他人，目前有本 <code>Information and Influence Propagation in Social Networks</code> 可以研究看看，
+另外手上有本複雜網路的書也可以參考參考，不過還是希望找找看有沒有相關的開放式課程可以學習。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Skein Hash]]></title>
@@ -46,36 +74,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Soundex">Soundex</a> 最近應用在搜尋引擎上關於拼音校正的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[建立地理資訊系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/11/geohash/"/>
-    <updated>2015-07-11T23:35:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/11/geohash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/google/open-location-code">open-location-code</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Geohash">Geohash</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Quadtree">Quadtree</a></li>
-<li><a href="https://en.wikipedia.org/wiki/R-tree">R-tree</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Flood Fill Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/03/flood-fill/"/>
-    <updated>2015-07-03T13:58:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/03/flood-fill</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Flood_fill">Flood fill</a> 用來解決 Match 3 Game 的演算法。</p>
 ]]></content>
   </entry>
   
