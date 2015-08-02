@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-01T23:51:57+08:00</updated>
+  <updated>2015-08-02T23:11:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solr 跨資料中心的問題]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/02/solr-cross-data-center-replication/"/>
+    <updated>2015-08-02T23:06:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/02/solr-cross-data-center-replication</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在看一篇 Apple 如何使用 solrcould 的演講上提到一些關於 <code>solr issue</code> ，然後其中有個是關於 solr 在跨資料中心的問題，
+裡面有提到一些如果 Solr 佈署在不同地區的資料中心會遇到哪些問題值得研究 <a href="http://yonik.com/solr-cross-data-center-replication/">Solr Cross Data Center Replication</a> 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[圖片搜尋的演算法]]></title>
@@ -267,18 +280,6 @@
 
 
 <p><a href="http://instagram-engineering.tumblr.com/post/122961624217/trending-at-instagram">Trending at Instagram</a> Instagram 如何決定哪些是熱門的標籤</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[網站過度設計的徵兆]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/13/symptoms-of-over-designed-websites/"/>
-    <updated>2015-07-13T22:20:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/13/symptoms-of-over-designed-websites</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/active-collab-creative/symptoms-of-over-designed-websites-8cf1d0b9c4f2">Symptoms of Over-Designed Websites</a></p>
 ]]></content>
   </entry>
   
