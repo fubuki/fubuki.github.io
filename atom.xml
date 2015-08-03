@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-02T23:11:02+08:00</updated>
+  <updated>2015-08-03T23:41:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene 索引格式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/03/lucene-index-format/"/>
+    <updated>2015-08-03T23:27:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/03/lucene-index-format</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看了一些關於如何讓 <code>solr</code> 處理超大索引的研究，不過都沒有提到關於 lucene 索引格式的資料，
+<a href="http://hackerlabs.org/blog/2011/10/01/hacking-lucene-the-index-format/">Hacking Lucene - The Index format</a> 裡面有些資料結構是以前看過的，例如 <code>skip list</code> 之類的，由於
+之後有可能需要更改或是把一些 lucenc/solr 在 jira 上的 patch 更有可能需要更改索引內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solr 跨資料中心的問題]]></title>
@@ -268,18 +282,6 @@
 所以在這邊記錄一下用法。</p>
 
 <p><a href="http://thecodeship.com/patterns/guide-to-python-function-decorators/">A guide to Python&rsquo;s function decorators</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Instagram 熱門標籤演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/14/trending-at-instagram/"/>
-    <updated>2015-07-14T23:42:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/14/trending-at-instagram</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://instagram-engineering.tumblr.com/post/122961624217/trending-at-instagram">Trending at Instagram</a> Instagram 如何決定哪些是熱門的標籤</p>
 ]]></content>
   </entry>
   

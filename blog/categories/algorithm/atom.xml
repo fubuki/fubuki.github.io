@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-02T23:11:02+08:00</updated>
+  <updated>2015-08-03T23:41:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene 索引格式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/03/lucene-index-format/"/>
+    <updated>2015-08-03T23:27:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/03/lucene-index-format</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近看了一些關於如何讓 <code>solr</code> 處理超大索引的研究，不過都沒有提到關於 lucene 索引格式的資料，
+<a href="http://hackerlabs.org/blog/2011/10/01/hacking-lucene-the-index-format/">Hacking Lucene - The Index format</a> 裡面有些資料結構是以前看過的，例如 <code>skip list</code> 之類的，由於
+之後有可能需要更改或是把一些 lucenc/solr 在 jira 上的 patch 更有可能需要更改索引內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[圖片搜尋的演算法]]></title>
@@ -62,18 +76,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Soundex Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/18/soundex/"/>
-    <updated>2015-07-18T21:46:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/18/soundex</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Soundex">Soundex</a> 最近應用在搜尋引擎上關於拼音校正的部分。</p>
 ]]></content>
   </entry>
   
