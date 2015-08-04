@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-03T23:41:12+08:00</updated>
+  <updated>2015-08-04T23:28:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FST and FSA]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/04/finite-state-transducer/"/>
+    <updated>2015-08-04T23:00:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/04/finite-state-transducer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在使用 Lucene 的時候看到在 4.0 增加了 FST 的方式處理自然語言，之前在自然語言處理綜論這本書上有看到關於 FST 的概念，
+其實就是 FSM ，這邊有一個使用 FST 的專案 <a href="https://github.com/OpenSextant/SolrTextTagger">SolrTextTagger</a> 是在一份關於如何處理多語言環境的簡報上看到的，剛好有這些契機，
+而且似乎可以用 FST 處理關於同義詞的問題，正好可以拿來研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lucene 索引格式]]></title>
@@ -64,18 +78,6 @@
 
 
 <p>最近在研究怎麼可以快速取得大檔案的 hash function 剛好看到這個算法 <a href="https://en.wikipedia.org/wiki/Skein_%28hash_function%29">Skein (hash function)</a> 就記錄一下</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Majority Vote Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm/"/>
-    <updated>2015-07-25T22:26:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
 ]]></content>
   </entry>
   
