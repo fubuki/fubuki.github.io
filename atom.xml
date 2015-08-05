@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-04T23:28:13+08:00</updated>
+  <updated>2015-08-05T23:13:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mitmproxy 安裝和使用]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/05/mitmproxy/"/>
+    <updated>2015-08-05T22:52:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/05/mitmproxy</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前開發給手機的 API 都是直接看 <code>server log</code>，然而最近看到有個專案 <a href="https://github.com/mitmproxy/mitmproxy">mitmproxy</a> 可以使用看看，可以直接做為代理
+記錄 client 的呼叫，之前有想在 apache 上裝套件方便監視所有 API 的呼叫和傳輸資料，不過現在有這個就不需要了，另外
+也可以自行撰寫指令搞擴充想要的功能。</p>
+
+<h3>安裝</h3>
+
+<p>直接用 pipe 安裝就好</p>
+
+<pre><code>pip install mitmproxy
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[FST and FSA]]></title>
@@ -269,18 +290,6 @@
 
 <p><a href="https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan">100 open source Big Data architecture papers for data professionals</a> 裡面介紹了不少跟大數據相關的論文，不過實際上分成很多部分
 ，可以挑自己中意的看看，裡面提到的東西現在都有一些實做出來的開源專案，只是如果看過當初的設計思想在使用上也能有些幫助。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[RebirnDB 架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/16/rebirndb/"/>
-    <updated>2015-07-16T20:31:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/16/rebirndb</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/reborndb/reborn">RebornDB</a> 一個分散式 key-value 資料庫。</p>
 ]]></content>
   </entry>
   
