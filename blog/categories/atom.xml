@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-05T23:13:56+08:00</updated>
+  <updated>2015-08-06T23:31:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Grafana 做為 Dashboard 後台]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/06/grafana/"/>
+    <updated>2015-08-06T23:07:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/06/grafana</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近手上有不少 Log 檔所以想用來做一些分析， 以前有想過用 norikra 不過目前手上的環境是用沒辦法使用 jruby 所以想用其他替代
+品，之前有思考 opentsdb 和 influxdb 這兩套，然後還缺一個 dashboard 後台，這邊有想過使用 Kibana 不過這個通常會搭配 elasticsearch
+ 使用，所以我換用 <a href="https://github.com/grafana/grafana">grafana</a> 使用 golang 寫的一個後台，可以搭配 opentsdb 和 influxdb，最後還缺要考慮擴展和即時計算的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mitmproxy 安裝和使用]]></title>
@@ -68,18 +82,6 @@
 
 <p><a href="https://www.linkedin.com/pulse/100-open-source-big-data-architecture-papers-anil-madan">100 open source Big Data architecture papers for data professionals</a> 裡面介紹了不少跟大數據相關的論文，不過實際上分成很多部分
 ，可以挑自己中意的看看，裡面提到的東西現在都有一些實做出來的開源專案，只是如果看過當初的設計思想在使用上也能有些幫助。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Instagram 熱門標籤演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/14/trending-at-instagram/"/>
-    <updated>2015-07-14T23:42:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/14/trending-at-instagram</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://instagram-engineering.tumblr.com/post/122961624217/trending-at-instagram">Trending at Instagram</a> Instagram 如何決定哪些是熱門的標籤</p>
 ]]></content>
   </entry>
   
