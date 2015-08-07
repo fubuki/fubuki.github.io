@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Lucene | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/lucene/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-06T23:31:12+08:00</updated>
+  <updated>2015-08-07T22:58:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[建立詞庫和相似詞表]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/07/nlp4l/"/>
+    <updated>2015-08-07T22:43:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/07/nlp4l</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>這幾天在研究怎麼自己建立詞庫和相似詞表，目前有看到有看一個可以不會太難實做的方法，主要是參考下面三篇文章，
+雖然是基於日本語所做的處理不過可以也套用到中文上，裡面大部分是透過 Wikipedia 的資料做處理，我這邊應該會換用從
+網路上爬來的新聞資料試做看看。</p>
+
+<ol>
+<li><a href="http://www.slideshare.net/KojiSekiguchi/wikipediasolr">WikipediaからのSolr用類義語辞書の自動生成</a></li>
+<li><a href="http://www.slideshare.net/KojiSekiguchi/lucene-terms-extraction">Lucene terms extraction</a></li>
+<li><a href="http://lucene.jugem.jp/?eid=482">日本語Wikipediaからの類義語辞書の自動生成</a></li>
+</ol>
+
+
+<p>另外上面的文章有提到一個使用 scala 撰寫的工具名叫 <a href="https://github.com/NLP4L/nlp4l">nlp4l</a> ，裡面似乎提供了不少自然語言處理的工具，如果透過這個工具
+也許可以優化一些基於 Lucene 的搜尋引擎。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lucene]]></title>
