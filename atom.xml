@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-07T22:58:34+08:00</updated>
+  <updated>2015-08-08T22:48:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git 2.5 Release]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/08/git-worktrees/"/>
+    <updated>2015-08-08T22:45:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/08/git-worktrees</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Git 釋出 2.5 版本，Github 有寫一篇文章作介紹 <a href="https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows">Git 2.5, including multiple worktrees and triangular workflows</a>，
+不過主要讓我感興趣的是新增了一個 <code>git worktree</code> 的指令 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[建立詞庫和相似詞表]]></title>
@@ -291,18 +304,6 @@
 
 
 <p><a href="https://cwiki.apache.org/confluence/display/solr/Phonetic+Matching">Phonetic Matching</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery 3.0 測試版本釋出]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0/"/>
-    <updated>2015-07-19T20:57:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/19/jquery-3-dot-0</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.jquery.com/2015/07/13/jquery-3-0-and-jquery-compat-3-0-alpha-versions-released/">jQuery 3.0 and jQuery Compat 3.0 Alpha Versions Released</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-07T22:58:34+08:00</updated>
+  <updated>2015-08-08T22:48:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git 2.5 Release]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/08/git-worktrees/"/>
+    <updated>2015-08-08T22:45:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/08/git-worktrees</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Git 釋出 2.5 版本，Github 有寫一篇文章作介紹 <a href="https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows">Git 2.5, including multiple worktrees and triangular workflows</a>，
+不過主要讓我感興趣的是新增了一個 <code>git worktree</code> 的指令 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Undo (Almost) Anything With Git]]></title>
@@ -70,26 +83,6 @@
  Buffer 開太小了所以需要增加，增加的方法是用下面的指令。</p>
 
 <pre><code>git config http.postBuffer xxxxxxxxx
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hg-git]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/21/hg-git/"/>
-    <updated>2015-03-21T22:20:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/21/hg-git</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>目前手上有些別人專案是用 hg 作版本控管的，但是我想推到 Github 上面做備份，看到有一個 <a href="https://github.com/schacon/hg-git">hg-git</a> 的 plugin 可以將
-使用 hg 的專案推到 Github 上面。</p>
-
-<pre><code>easy_install hg-git
-vim ~/.hgrc
-
-[extensions]
-hggit = [path-to]/hg-git/hggit
 </code></pre>
 ]]></content>
   </entry>
