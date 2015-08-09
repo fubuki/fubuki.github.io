@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-08T22:48:39+08:00</updated>
+  <updated>2015-08-09T22:59:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TextRank 算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/09/textrank/"/>
+    <updated>2015-08-09T22:50:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/09/textrank</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank: Bringing Order into Texts</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 2.5 Release]]></title>
@@ -292,18 +304,6 @@
 <p><a href="http://www.getmdl.io">Material Design Lite</a></p>
 
 <p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr Phonetic Matching]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching/"/>
-    <updated>2015-07-20T21:58:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://cwiki.apache.org/confluence/display/solr/Phonetic+Matching">Phonetic Matching</a></p>
 ]]></content>
   </entry>
   
