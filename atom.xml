@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-09T22:59:54+08:00</updated>
+  <updated>2015-08-10T23:06:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/10/conditional-random-fields/"/>
+    <updated>2015-08-10T22:01:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/10/conditional-random-fields</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.inference.phy.cam.ac.uk/hmw26/crf/">CRF</a> 目前手上主要用來做新詞辨識的工作，在其他領域也不少用途，某方面跟 HMM 有些類似的地方。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TextRank 算法]]></title>
@@ -290,20 +302,6 @@
 <p><a href="https://buckbuild.com/">buck</a> facebook 開發的 Android 編譯工具。</p>
 
 <p><a href="http://engineering.vine.co/post/117873038742/reducing-build-times-by-adopting-buck">Reducing build times by adopting Buck</a> Vine 的使用在測試上，加快編譯的速度以便減少測試的時間。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Material Design on Web Page]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html/"/>
-    <updated>2015-07-21T23:15:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/21/material-design-lite-components-in-html</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.getmdl.io">Material Design Lite</a></p>
-
-<p><a href="http://www.infoq.com/news/2015/07/google-material-design-lite">Google Brings Material Design to CSS, HTML, and JavaScript</a></p>
 ]]></content>
   </entry>
   

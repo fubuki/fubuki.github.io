@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-09T22:59:54+08:00</updated>
+  <updated>2015-08-10T23:06:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/10/conditional-random-fields/"/>
+    <updated>2015-08-10T22:01:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/10/conditional-random-fields</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.inference.phy.cam.ac.uk/hmw26/crf/">CRF</a> 目前手上主要用來做新詞辨識的工作，在其他領域也不少用途，某方面跟 HMM 有些類似的地方。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TextRank 算法]]></title>
@@ -64,20 +76,6 @@
 <p>之前有在找 google 以及其他網站的以圖找圖服務是怎麼做的，以前想過應該是用 hash 的方式比對會比較快，
 不過不知道是用怎麼樣的 hash 演算法，然後最近看到了 <a href="https://en.wikipedia.org/wiki/Perceptual_hashing">Perceptual hashing</a>，似乎可以用來做圖片搜尋的演算法，
 不過不知道精準度如何，另外還有 <a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT</a> 取出特徵點進行分析以及另外一種 <a href="http://www.phash.org/">pHash</a> 的算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information and Influence Propagation]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation/"/>
-    <updated>2015-07-31T23:41:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>這個月看了一本關於社群網路分析的書，裡面一個蠻吸引我的是關於資訊傳播的模型，一個訊息出現後怎麼樣
-發送以及感染也就是傳播給其他人，目前有本 <code>Information and Influence Propagation in Social Networks</code> 可以研究看看，
-另外手上有本複雜網路的書也可以參考參考，不過還是希望找找看有沒有相關的開放式課程可以學習。</p>
 ]]></content>
   </entry>
   
