@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-10T23:06:16+08:00</updated>
+  <updated>2015-08-11T23:23:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[InnoDB 一些相關概念]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/11/innodb-keyword/"/>
+    <updated>2015-08-11T23:17:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/11/innodb-keyword</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.xaprb.com/blog/2015/08/08/innodb-book-outline/">An Outline for a Book on InnoDB</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
@@ -288,20 +300,6 @@
 
 
 <p><a href="http://www.sighan.org/">sighan</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Buck: Android Compile Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/22/buck-android/"/>
-    <updated>2015-07-22T18:59:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/22/buck-android</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://buckbuild.com/">buck</a> facebook 開發的 Android 編譯工具。</p>
-
-<p><a href="http://engineering.vine.co/post/117873038742/reducing-build-times-by-adopting-buck">Reducing build times by adopting Buck</a> Vine 的使用在測試上，加快編譯的速度以便減少測試的時間。</p>
 ]]></content>
   </entry>
   
