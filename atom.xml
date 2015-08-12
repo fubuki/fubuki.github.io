@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-11T23:23:15+08:00</updated>
+  <updated>2015-08-12T23:30:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Topic Model 取出文章的主題]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/12/topic-model/"/>
+    <updated>2015-08-12T23:18:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/12/topic-model</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有使用 Text Rank 取出文章的摘要時另外看到了使用 LDA 之類的方法處理類似需求，這類的方法被稱為
+ <code>Topic Model</code> ，研究下去可以發現有很多種類的模型可以使用不過大致上基於 LDA 的變種，學好 LDA 後其他就
+ 能夠比較容易理解。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[InnoDB 一些相關概念]]></title>
@@ -288,18 +302,6 @@
 
 <p><a href="http://drops.wooyun.org/papers/6612">利用JSONP进行水坑攻击</a> 在網站中嵌入外部的 Javascript 腳本，然後在使用者登入的時候竊取使用者的資訊，
 藉此針對特定網站和使用者進行攻擊。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chinese Word Segmentation Bakeoff]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese/"/>
-    <updated>2015-07-23T23:51:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/23/bakeoff-chinese</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.sighan.org/">sighan</a></p>
 ]]></content>
   </entry>
   
