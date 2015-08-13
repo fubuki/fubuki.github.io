@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-12T23:30:48+08:00</updated>
+  <updated>2015-08-13T22:35:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[針對短文本做語言偵測]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/13/short-text-language-detect/"/>
+    <updated>2015-08-13T21:08:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/13/short-text-language-detect</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>針對類似 <code>tweet</code> 的短文本進行語言偵測。以前有用過 Tika 實做語言偵測不過命中率從別人的測試數據看起來不太好，
+之後從別的地方聽到了 <a href="https://github.com/CLD2Owners/cld2">cld2</a> 效果會比較好，不過在對很文本長度不長情形下準度會下降，所以另外研究了 <a href="http://www.slideshare.net/shuyo/short-text-language-detection-with-infinitygram-12949447">Short Text Language Detection with Infinity-Gram</a>
+使用其他方法嘗試解決這類的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Topic Model 取出文章的主題]]></title>
@@ -87,29 +101,6 @@
 <h3>定義</h3>
 
 <h3>語法分析</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[語義消歧]]></title>
-    <link href="http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi/"/>
-    <updated>2014-07-28T23:32:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/07/28/yu-yi-xiao-qi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>WSD （Word Sense Disambiguation）</li>
-<li>基於語料庫的消歧 (監督學習)</li>
-<li>基於詞典的消歧</li>
-<li>無監督消歧</li>
-<li>POS  (Part-of-speech tagging)</li>
-</ol>
-
-
-<p>語義代表一個詞所擁有的不同的意義，一個詞會因為上下文的關係而有不同的意義，
-也因此在做翻譯的時候會有混淆，不過目前我知道用來實作機器翻譯是用大量的統計
-資料譬如 google的 Ngram 所形成的統計模型。</p>
 ]]></content>
   </entry>
   

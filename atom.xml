@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-12T23:30:48+08:00</updated>
+  <updated>2015-08-13T22:35:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[針對短文本做語言偵測]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/13/short-text-language-detect/"/>
+    <updated>2015-08-13T21:08:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/13/short-text-language-detect</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>針對類似 <code>tweet</code> 的短文本進行語言偵測。以前有用過 Tika 實做語言偵測不過命中率從別人的測試數據看起來不太好，
+之後從別的地方聽到了 <a href="https://github.com/CLD2Owners/cld2">cld2</a> 效果會比較好，不過在對很文本長度不長情形下準度會下降，所以另外研究了 <a href="http://www.slideshare.net/shuyo/short-text-language-detection-with-infinitygram-12949447">Short Text Language Detection with Infinity-Gram</a>
+使用其他方法嘗試解決這類的問題。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Topic Model 取出文章的主題]]></title>
@@ -289,19 +303,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 JSONP 漏洞竊取使用者資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/24/watering-hole-attacks-using-jsonp/"/>
-    <updated>2015-07-24T10:25:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/24/watering-hole-attacks-using-jsonp</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://drops.wooyun.org/papers/6612">利用JSONP进行水坑攻击</a> 在網站中嵌入外部的 Javascript 腳本，然後在使用者登入的時候竊取使用者的資訊，
-藉此針對特定網站和使用者進行攻擊。</p>
 ]]></content>
   </entry>
   
