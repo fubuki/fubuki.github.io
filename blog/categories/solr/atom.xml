@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-13T22:35:05+08:00</updated>
+  <updated>2015-08-14T23:13:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Splainer : Explain Solr Result]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/14/splainer/"/>
+    <updated>2015-08-14T22:52:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/14/splainer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/o19s/splainer">splainer</a> 是可以利用 solr 的搜尋結果分析背後的分數，跟使用 Lucene 的 explain api 得出背後的得分類似。
+。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solr 跨資料中心的問題]]></title>
@@ -61,39 +74,6 @@
 
 
 <p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr With Mongo-connector]]></title>
-    <link href="http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector/"/>
-    <updated>2014-04-19T15:51:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/04/19/solr-with-mongo-connector</id>
-    <content type="html"><![CDATA[<p>solr是一款開源的搜尋引擎，可以對各種資料索引，之前使用solr的Data-Import-Handler功能對Mysql作搜尋然後設定排程
-定期將mysql資料丟到solr裡面，另外也有透過Mysql trigger和udf讓一些需要即時同步的資料。</p>
-
-<!-- more -->
-
-
-<p>solr與Mysql通訊是透過jdbc抓取資料庫裡的資料，而mongodb似乎也有類似的東西例如<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>和<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>，
-<a href="https://github.com/erh/mongo-jdbc">mongo-jdbc</a>網路有人使用過雖可以讓solr進行索引但是如果要跑增量索引就會出錯，<a href="http://www.unityjdbc.com/mongojdbc/mongo_jdbc.php">JDBC Driver for MongoDB</a>則沒看到有人使用在
-solr上的心得，之後有時間在測試。</p>
-
-<p>mongodb本身則有<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>這個解法，主要是利用Mongodb的oplog(類似Mysql的binlog)會記錄repset之間的操作，如此一來
-讓solr透過oplog就可以去更新索引並且由於oplog是即時的讓solr能更即時更新資料。</p>
-
-<p>如果要使用<a href="https://github.com/10gen-labs/mongo-connector">mongo-connector</a>首先要打開replset 產生oplog然後安裝mongo-connector，不過遇到一個奇妙的問題透過pip安裝後沒有直接
-連結到bin下之後透過git安裝就沒有問題了，要使用replset很簡單，就把/etc/mongodb.conf下面這段設定打開，</p>
-
-<pre><code># in replica set configuration, specify the name of the replica set
-replSet = example
-</code></pre>
-
-<p>之後在mongodb的shell裡下rs.initiate()指令即可，本台mongodb就變成PRIMARY了這時也可以加入其他台mongodb作replication，不過本次
-主要是要使用oplog讓solr導入資料製作索引就不需要加入其他台server了。</p>
-
-<p>接下來將照著github上Usage With Solr的說明使用即可，另外似乎可以搭配tailable cursor做出solr即時更新索引，之後在測試看看先加上
-其他中文分詞分析中文資料。</p>
 ]]></content>
   </entry>
   

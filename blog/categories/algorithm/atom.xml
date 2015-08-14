@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-13T22:35:05+08:00</updated>
+  <updated>2015-08-14T23:13:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -66,16 +66,15 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[圖片搜尋的演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm/"/>
-    <updated>2015-08-01T23:42:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm</id>
+    <title type="html"><![CDATA[Skip List and Lucene Index]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/03/skip-list/"/>
+    <updated>2015-08-03T22:31:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/03/skip-list</id>
     <content type="html"><![CDATA[<!-- more -->
 
 
-<p>之前有在找 google 以及其他網站的以圖找圖服務是怎麼做的，以前想過應該是用 hash 的方式比對會比較快，
-不過不知道是用怎麼樣的 hash 演算法，然後最近看到了 <a href="https://en.wikipedia.org/wiki/Perceptual_hashing">Perceptual hashing</a>，似乎可以用來做圖片搜尋的演算法，
-不過不知道精準度如何，另外還有 <a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT</a> 取出特徵點進行分析以及另外一種 <a href="http://www.phash.org/">pHash</a> 的算法。</p>
+<p><a href="https://en.wikipedia.org/wiki/Skip_list">Skip list</a> 之前在看 redis 內部結構的時候遇到，然後最近在研究關於 solr index 優化問題的時後也提到
+這個資料結構，用途上類似紅黑樹但是實現起來比較簡單。</p>
 ]]></content>
   </entry>
   

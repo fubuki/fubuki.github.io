@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-13T22:35:05+08:00</updated>
+  <updated>2015-08-14T23:13:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Splainer : Explain Solr Result]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/14/splainer/"/>
+    <updated>2015-08-14T22:52:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/14/splainer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/o19s/splainer">splainer</a> 是可以利用 solr 的搜尋結果分析背後的分數，跟使用 Lucene 的 explain api 得出背後的得分類似。
+。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[針對短文本做語言偵測]]></title>
@@ -178,6 +191,19 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Skip List and Lucene Index]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/03/skip-list/"/>
+    <updated>2015-08-03T22:31:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/03/skip-list</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Skip_list">Skip list</a> 之前在看 redis 內部結構的時候遇到，然後最近在研究關於 solr index 優化問題的時後也提到
+這個資料結構，用途上類似紅黑樹但是實現起來比較簡單。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Solr 跨資料中心的問題]]></title>
     <link href="http://fubuki.github.io/blog/2015/08/02/solr-cross-data-center-replication/"/>
     <updated>2015-08-02T23:06:13+08:00</updated>
@@ -279,30 +305,6 @@
 
 
 <p>最近在看影像處理的課程裡面提到了 <a href="https://en.wikipedia.org/wiki/Compressed_sensing">Compressed sensing</a>，用來將圖片中的雜訊去除。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CQRS 不同的應用方法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/26/cqrs-but-different/"/>
-    <updated>2015-07-26T23:24:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/26/cqrs-but-different</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://vimeo.com/131199089">CQRS – but different - Udi Dahan</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Majority Vote Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm/"/>
-    <updated>2015-07-25T22:26:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/25/majority-vote-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm">Boyer–Moore majority vote algorithm</a> 用來在有不特定數目的數組的情況下，找出出現最多次的元素。</p>
 ]]></content>
   </entry>
   

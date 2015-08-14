@@ -9,7 +9,10 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="CAP理論是關於設計一個分散式計算系統需要考慮的問題。 ">
+  <meta name="description" content="docker.io 是一種 LXC (LinuX Containers)，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +81,76 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/01/docker-dot-io/">docker.io 和 Vagrant</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-04-01T21:18:05+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>9:18 pm</span></time>
+        
+           | <a href="/blog/2014/04/01/docker-dot-io/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/04/01/docker-dot-io/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://www.docker.io">docker.io</a> 是一種 <a href="http://en.wikipedia.org/wiki/LXC">LXC (LinuX Containers)</a>，是使用go語言撰寫的，似乎可以建立一個獨立虛擬環境，
+不過只能在linux下運行，然後上次osdc有人介紹Vagrant，這兩種工具似乎是為了達成相同目的都可以拿來
+建立環境。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/30/puppet/">Puppet</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-30T09:35:59+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:35 am</span></time>
+        
+           | <a href="/blog/2014/03/30/puppet/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/30/puppet/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://github.com/puppetlabs/puppet">puppet</a>是用來一套管理工具，官網上是說可以支援 Linux, Unix 和 Windows，使用上可以參考官網的範例，也有人放出自己寫的模組
+供其他人參考使用，日後如果需要給小組成員建立開發環境可以使用puppet部署。</p>
+
+<p><a href="http://www.puppetcookbook.com/">puppetcookbook</a><br/>
+<a href="https://github.com/jordansissel/puppet-examples">puppet-examples</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -355,75 +428,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/22/vim-vundle/">Vim Vundle</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-22T09:58:45+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2014</span></span> <span class='time'>9:58 am</span></time>
-        
-           | <a href="/blog/2014/03/22/vim-vundle/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/22/vim-vundle/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>之前安裝Vim的plugin都是去<a href="http://vim-scripts.org/vim/scripts.html">scripts</a>下載然後手動安裝，但是如此設定檔變的複雜後
-一來常會遇到沒有刪除乾淨的plugine。<br/>
-使用Vundle管理vim，安裝上跟刪除只要透過vundle就很方便也能保持設定檔簡潔，似乎能
-搜尋plugin，也能讓vundle去指定連結下載，目前正在試用之後可以上載到github上備份設定檔。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/21/mysql-udf/">Mysql-udf</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-21T23:42:53+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>21</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>11:42 pm</span></time>
-        
-           | <a href="/blog/2014/03/21/mysql-udf/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/21/mysql-udf/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>mysql-udf 是可以讓開發者擴充mysql的功能，之前用來同步solr之間的資料，原本的程式架構太過於混亂
-所以無法從程式碼層級同步Solr的資料，因此利用trigger 綁定關於資料庫的操作，如果有新增刪除修改就利用
-solr的api更新資料。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/50">&larr; Older</a>
@@ -441,6 +445,10 @@ solr的api更新資料。</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/14/splainer/">Splainer : Explain Solr Result</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/08/13/short-text-language-detect/">針對短文本做語言偵測</a>
       </li>
     
@@ -456,10 +464,6 @@ solr的api更新資料。</p>
         <a href="/blog/2015/08/10/conditional-random-fields/">使用 CRF 做中文分詞</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/08/09/textrank/">TextRank 算法</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -467,7 +471,7 @@ solr的api更新資料。</p>
 <h1>分類</h1>
 <ul>
   <li><a href='/blog/categories/'> (44)</a></li>
-  <li><a href='/blog/categories/algorithm'>Algorithm (42)</a></li>
+  <li><a href='/blog/categories/algorithm'>Algorithm (43)</a></li>
   <li><a href='/blog/categories/android'>Android (12)</a></li>
   <li><a href='/blog/categories/api'>Api (1)</a></li>
   <li><a href='/blog/categories/architecture'>Architecture (11)</a></li>
@@ -540,7 +544,7 @@ solr的api更新資料。</p>
   <li><a href='/blog/categories/snort'>Snort (1)</a></li>
   <li><a href='/blog/categories/social-physics'>Social physics (1)</a></li>
   <li><a href='/blog/categories/socketio'>Socketio (7)</a></li>
-  <li><a href='/blog/categories/solr'>Solr (5)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (6)</a></li>
   <li><a href='/blog/categories/sql'>Sql (2)</a></li>
   <li><a href='/blog/categories/sublime-text'>Sublime-text (3)</a></li>
   <li><a href='/blog/categories/theano'>Theano (1)</a></li>
