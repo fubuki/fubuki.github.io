@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-14T23:13:57+08:00</updated>
+  <updated>2015-08-15T22:53:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,77 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coscup 2015 Day1]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/15/coscup-2015-day1/"/>
+    <updated>2015-08-15T22:09:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/15/coscup-2015-day1</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>BYOC: Build Your Own COSCUP</h3>
+
+<p>介紹 coscup 從以前到現在的演進跟內部怎麼分工</p>
+
+<h3>中文排版需求以及我在W3C看到的事情</h3>
+
+<p>中文排版需求第一份使用中文撰寫文檔</p>
+
+<p>講解 epub 演進的歷史
+假裝一切都做好了是最麻煩的</p>
+
+<p>中文排版規格挖坑</p>
+
+<p>UA Stylesheet 導致中文排版問題的元兇</p>
+
+<p>Round Display 給圓形螢幕使用的  CSS</p>
+
+<p><code>light-level</code>  為 media query 的屬性可以根據光源調整 css</p>
+
+<p>CSS SECRETS 一本書可以看看</p>
+
+<p>Text-wrap :balance</p>
+
+<p>CSS scrollbar 微軟提出的用來實做常見的捲動效果</p>
+
+<h3>PIME - 用 &ldquo;Python&rdquo; 快速開發 Windows 的中文輸入法</h3>
+
+<p>看到 PCMAN 本人</p>
+
+<p>講解了 windows 上面輸入法的差別，基本上分成兩種在加上 32 位元跟 64 位元所以會有四種情形。</p>
+
+<p>Demo 了喵喵輸入法</p>
+
+<p>主要是使用了 Client-Server 的架構，所以只要更改 Server 的程式便可以快速修改輸入法的功能。</p>
+
+<h3>Linux 桌面系統在繁體中文資訊化的發展回顧</h3>
+
+<p>這場主要是講 Linux 跟一些應用軟體的中文化情形，太少人參與軟體中文化，應該說
+以前的使用者會回饋一些 patch 回來，不過現在</p>
+
+<p>CLE</p>
+
+<p>CLDP</p>
+
+<h3>workshop</h3>
+
+<p>跑去參加 xmpp 的 workshop，這場收穫比較大的是修正一些以前對於 xmpp 的錯誤概念，
+之後實做聊天軟體時可以參考看看。</p>
+
+<h3>A Fresh Look at Accessibility (on the web and mobile devices)</h3>
+
+<p>無障礙網路空間</p>
+
+<p>講一些目前 w3c 的規範</p>
+
+<h3>第一次自幹 Open Data SimCity 就上手</h3>
+
+<p>google map + d3.js 實做資料視覺化</p>
+
+<p>主要在 Demo 效果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Db Tech Showcase 2015 參考資料]]></title>
@@ -133,84 +204,6 @@
 <p>funancial forecasting</p>
 
 <p>portfolio allocation</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon 2015 Day2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/06/pycon-2015-day2/"/>
-    <updated>2015-06-06T20:24:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/06/pycon-2015-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Static Typeing in Python?</h3>
-
-<p>這位講者是 Cython 的貢獻者</p>
-
-<p>Gradual typing</p>
-
-<h3>Global Interpreter Lock: Episode I - Break the Seal</h3>
-
-<p>主要是要處理多 thread 和 多 process 會遇到的問題。</p>
-
-<h4>GIL over Multi-Processor</h4>
-
-<h4>multiprocessing : process pool</h4>
-
-<p>further observations</p>
-
-<p>GIL battle</p>
-
-<h4>Release the GIL</h4>
-
-<h4>Cooperative multitasking</h4>
-
-<h3>Python &amp; LLVM</h3>
-
-<p>讓 python 跑在 LLVM 上面</p>
-
-<p>介紹 LLVM 的架構和歷史</p>
-
-<p>LLVM 3.1 開始有支援 python</p>
-
-<p><a href="www.llvmpy.org">llvmpy</a></p>
-
-<p>只有支援 LLVM 3.3</p>
-
-<p>換用 llvmlite</p>
-
-<p><a href="http://continuum.io/">continuum</a></p>
-
-<p><a href="http://lldb.llvm.org/">The LLDB Debugger</a></p>
-
-<h3>Python 讓你的眼睛聽得見</h3>
-
-<p>唇語辨識</p>
-
-<p>McGurk 效應</p>
-
-<p>使用 opencv 實作影像處理抓出</p>
-
-<p>Haar features</p>
-
-<p>Adaboost</p>
-
-<h3>Theano : A Mathematical Expression Compiler</h3>
-
-<p>Theano Goal</p>
-
-<p>Theano 一些使用方法</p>
-
-<h3>How to build a recommendation system with python</h3>
-
-<p>講一些算法，好像去年也是類似的簡報?</p>
-
-<h3>ceph 介紹</h3>
-
-<p>一個分散式檔案系統。</p>
-
-<h3>閃電秀</h3>
 ]]></content>
   </entry>
   
