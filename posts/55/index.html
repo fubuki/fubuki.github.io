@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
-socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
+  <meta name="description" content="http://redis.io/topics/notifications redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,45 @@ socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/01/redis-keyspace-notifications/">Redis Keyspace Notifications</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-01T09:09:10+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>9:09 am</span></time>
+        
+           | <a href="/blog/2014/03/01/redis-keyspace-notifications/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/01/redis-keyspace-notifications/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://redis.io/topics/notifications  ">http://redis.io/topics/notifications  </a>
+redis 在2.8版本新增的功能，鍵值可以發出事件通知，可以利用PUBSUB的功能
+接受到相關的通知。</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/01/redis-keyspace-notifications/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -353,6 +392,10 @@ Asterisk is like a box of Legos for people who want to create communications app
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/08/18/mining-of-massive-datasets/">處理大型數據集的方法</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/08/17/otr-vs-pgp/">OTR vs PGP 加密</a>
       </li>
     
@@ -366,10 +409,6 @@ Asterisk is like a box of Legos for people who want to create communications app
     
       <li class="post">
         <a href="/blog/2015/08/14/splainer/">Splainer : Explain Solr Result</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/08/13/short-text-language-detect/">針對短文本做語言偵測</a>
       </li>
     
   </ul>

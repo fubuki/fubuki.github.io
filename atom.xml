@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-17T23:35:56+08:00</updated>
+  <updated>2015-08-18T23:51:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[處理大型數據集的方法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/18/mining-of-massive-datasets/"/>
+    <updated>2015-08-18T23:50:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/18/mining-of-massive-datasets</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.mmds.org/">Mining of Massive Datasets</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OTR vs PGP 加密]]></title>
@@ -447,18 +459,6 @@ LDA SVM</p>
 <p>這個月看了一本關於社群網路分析的書，裡面一個蠻吸引我的是關於資訊傳播的模型，一個訊息出現後怎麼樣
 發送以及感染也就是傳播給其他人，目前有本 <code>Information and Influence Propagation in Social Networks</code> 可以研究看看，
 另外手上有本複雜網路的書也可以參考參考，不過還是希望找找看有沒有相關的開放式課程可以學習。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Skein Hash]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/30/skein-hash/"/>
-    <updated>2015-07-30T23:42:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/30/skein-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究怎麼可以快速取得大檔案的 hash function 剛好看到這個算法 <a href="https://en.wikipedia.org/wiki/Skein_%28hash_function%29">Skein (hash function)</a> 就記錄一下</p>
 ]]></content>
   </entry>
   
