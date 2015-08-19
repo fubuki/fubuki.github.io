@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-18T23:51:41+08:00</updated>
+  <updated>2015-08-19T23:15:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ontology Ranking Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/19/ontology-score/"/>
+    <updated>2015-08-19T22:50:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/19/ontology-score</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>一些文件的排序演算法，用來算出文件的相關性。</p>
+
+<ol>
+<li>Class Match Measure</li>
+<li>Density Measure</li>
+<li>Semantic Similarity Measure</li>
+<li>Betweenness Measure</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[處理大型數據集的方法]]></title>
@@ -445,20 +465,6 @@ LDA SVM</p>
 <p>之前有在找 google 以及其他網站的以圖找圖服務是怎麼做的，以前想過應該是用 hash 的方式比對會比較快，
 不過不知道是用怎麼樣的 hash 演算法，然後最近看到了 <a href="https://en.wikipedia.org/wiki/Perceptual_hashing">Perceptual hashing</a>，似乎可以用來做圖片搜尋的演算法，
 不過不知道精準度如何，另外還有 <a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT</a> 取出特徵點進行分析以及另外一種 <a href="http://www.phash.org/">pHash</a> 的算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information and Influence Propagation]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation/"/>
-    <updated>2015-07-31T23:41:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/31/information-and-influence-propagation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>這個月看了一本關於社群網路分析的書，裡面一個蠻吸引我的是關於資訊傳播的模型，一個訊息出現後怎麼樣
-發送以及感染也就是傳播給其他人，目前有本 <code>Information and Influence Propagation in Social Networks</code> 可以研究看看，
-另外手上有本複雜網路的書也可以參考參考，不過還是希望找找看有沒有相關的開放式課程可以學習。</p>
 ]]></content>
   </entry>
   

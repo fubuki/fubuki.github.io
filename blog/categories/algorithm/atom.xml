@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-18T23:51:41+08:00</updated>
+  <updated>2015-08-19T23:15:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ontology Ranking Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/19/ontology-score/"/>
+    <updated>2015-08-19T22:50:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/19/ontology-score</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>一些文件的排序演算法，用來算出文件的相關性。</p>
+
+<ol>
+<li>Class Match Measure</li>
+<li>Density Measure</li>
+<li>Semantic Similarity Measure</li>
+<li>Betweenness Measure</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
@@ -62,19 +82,6 @@
 <p>最近看了一些關於如何讓 <code>solr</code> 處理超大索引的研究，不過都沒有提到關於 lucene 索引格式的資料，
 <a href="http://hackerlabs.org/blog/2011/10/01/hacking-lucene-the-index-format/">Hacking Lucene - The Index format</a> 裡面有些資料結構是以前看過的，例如 <code>skip list</code> 之類的，由於
 之後有可能需要更改或是把一些 lucenc/solr 在 jira 上的 patch 更有可能需要更改索引內容。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Skip List and Lucene Index]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/03/skip-list/"/>
-    <updated>2015-08-03T22:31:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/03/skip-list</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Skip_list">Skip list</a> 之前在看 redis 內部結構的時候遇到，然後最近在研究關於 solr index 優化問題的時後也提到
-這個資料結構，用途上類似紅黑樹但是實現起來比較簡單。</p>
 ]]></content>
   </entry>
   
