@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-19T23:15:10+08:00</updated>
+  <updated>2015-08-20T23:35:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 的 Pcntl_fork 函式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork/"/>
+    <updated>2015-08-20T23:18:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在使用 PHP 撰寫 CLI 的功能時，想要實做能夠根據 CPU 數量自動 auto scale 加快計算的功能，
+所以在尋找 PHP 裡面跟 fork 有關的函式，最後找到了 pcntl_fork 這個函式能夠 fork 出多個 process ，
+使用上不太難不過子進程結束需要自行。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ontology Ranking Algorithm]]></title>
@@ -451,20 +465,6 @@ LDA SVM</p>
 
 <p>在看一篇 Apple 如何使用 solrcould 的演講上提到一些關於 <code>solr issue</code> ，然後其中有個是關於 solr 在跨資料中心的問題，
 裡面有提到一些如果 Solr 佈署在不同地區的資料中心會遇到哪些問題值得研究 <a href="http://yonik.com/solr-cross-data-center-replication/">Solr Cross Data Center Replication</a> 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[圖片搜尋的演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm/"/>
-    <updated>2015-08-01T23:42:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/01/perceptual-hash-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前有在找 google 以及其他網站的以圖找圖服務是怎麼做的，以前想過應該是用 hash 的方式比對會比較快，
-不過不知道是用怎麼樣的 hash 演算法，然後最近看到了 <a href="https://en.wikipedia.org/wiki/Perceptual_hashing">Perceptual hashing</a>，似乎可以用來做圖片搜尋的演算法，
-不過不知道精準度如何，另外還有 <a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform">SIFT</a> 取出特徵點進行分析以及另外一種 <a href="http://www.phash.org/">pHash</a> 的算法。</p>
 ]]></content>
   </entry>
   
