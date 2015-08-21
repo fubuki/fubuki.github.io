@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-20T23:35:37+08:00</updated>
+  <updated>2015-08-21T23:12:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GopherCon 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/21/gophercon-2015/"/>
+    <updated>2015-08-21T22:24:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/21/gophercon-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.gophercon.com/">GopherCon 2015</a></p>
+
+<p><a href="https://github.com/gophercon/2015-talks">2015-talks</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coscup 2015 Day2]]></title>
@@ -240,34 +254,6 @@ LDA SVM</p>
 
 
 <p><a href="http://craft-conf.com/2015">craft conference 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[QCon 北京 2015]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015/"/>
-    <updated>2015-06-12T23:20:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/12/qconbei-jing-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://qconbeijing.com/schedule">QCon 北京 2015</a></p>
-
-<h3>　有興趣的議程</h3>
-
-<ol>
-<li>异步处理在分布式系统中的优化作用</li>
-<li>全栈工程师的自我修养</li>
-<li>极致的Hybrid—从阿里「去啊」的架构演变看Web与Native的融合</li>
-<li>微博在大规模、高负载系统中的典型问题</li>
-<li>Lua 在 Nginx 中的应用</li>
-<li>Native 和 Web 融合</li>
-<li>九个月实现破亿用户的可扩展架构</li>
-<li>基于 Erlang/OTP 构建大规模实时系统</li>
-<li>PHP7 - New engine for good old train</li>
-<li>基于SQL的秒杀解决方案</li>
-</ol>
-
 ]]></content>
   </entry>
   
