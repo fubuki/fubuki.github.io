@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>資料科學年會 2015 Day 2 - Learning Blog</title>
+  <meta name="author" content="Fubuki">
+
+  
+  <meta name="description" content="Big Education in the Era of Big Data Collective Probabilistic Model 我們的教育體制 第一個大資料挑戰 人口普查 講一些泛用的資料處理步驟 資料分析在教育上的應用 Top 10 elearning Statistics &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Learning Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-48634116-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Learning Blog</a></h1>
+  
+    <h2>預定調和</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get" onsubmit="this['q'].value = this['q_raw'].value + ' site:fubuki.github.io';">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="" />
+    <input class="search" type="text" name="q_raw" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">資料科學年會 2015 Day 2</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-08-23T22:00:07+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:00 pm</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><!-- more -->
+
+
+<h3>Big Education in the Era of Big Data</h3>
+
+<p>Collective Probabilistic Model</p>
+
+<p>我們的教育體制</p>
+
+<p>第一個大資料挑戰 人口普查</p>
+
+<p>講一些泛用的資料處理步驟</p>
+
+<p>資料分析在教育上的應用</p>
+
+<p>Top 10 elearning Statistics</p>
+
+<p>一些線上教育平台</p>
+
+<p>學習精神</p>
+
+<p>MOOCs</p>
+
+<h3>從網頁存取記錄瞭解使用者行為與網頁區塊貢獻分析-實戰篇</h3>
+
+<p>從 access_log 研究 Data driven</p>
+
+<p>log 處理速度</p>
+
+<h4>頁面板塊分析</h4>
+
+<p>必須先統計每個板塊的點擊狀況
+統計方式
+1. redirect
+2. 增加 ref 參數
+3.</p>
+
+<p>ref 帶有的資訊
+正在哪一頁的哪個版塊和相關資訊</p>
+
+<p>Ref v.1
+Ref v.2   如果網站結構改了會有問題吧
+Ref v.3</p>
+
+<p>他們有做線上 ABtest?</p>
+
+<p>Google 搜尋 SEO 會有問題</p>
+
+<h4>開始處理 web access log</h4>
+
+<p>為了彌補 GA 沒有的功能</p>
+
+<p>爬蟲很多所以需要過濾</p>
+
+<p>有些必須另外蒐集的資料</p>
+
+<p>這邊使用 Kafka 處理 web access log</p>
+
+<p>clickstream ????</p>
+
+<p>Ref 應該可以完成之前想玩了使用者行為追蹤</p>
+
+<p>強化自己的全文搜尋??? 強化斷詞關係</p>
+
+<p>Ref 的好處</p>
+
+<p>處理 Kafka</p>
+
+<p>Log 儲存 Impala + sql like , PostgreSQL</p>
+
+<p>程式語言 Java</p>
+
+<p>資料整理Excel + Java</p>
+
+<p>RWD 版型怎麼辦 利用 javascript 偵測</p>
+
+<p>跳出率 沒被點擊物品 搜尋優化</p>
+
+<h3>使用 Elasticsearch 及 Kibana 進行巨量資料搜尋及視覺化</h3>
+
+<p>巨量資料怎麼 LOG</p>
+
+<p>資料都是從 mongodb 上匯入的 那會匯入的方式是?</p>
+
+<p>介紹一些內建的資料處理和視覺化方法，果能夠將 access log 匯入
+就可以建立一個簡單的監控系統</p>
+
+<p>這邊提到了 Hyperloglog 和 Percentile*  T-digest</p>
+
+<p>gogolook 架構 使用 fluentd</p>
+
+<p>未來可能增加停留時間的記錄</p>
+
+<p>Logstash 比較沒有人在開發所以建議使用 fluentd</p>
+
+<h3>Visualiztion over Web Tools and Tips</h3>
+
+<p>Apple device resolutioins</p>
+
+<p>這邊都是再說 RWD 的設計</p>
+
+<p>不過這邊應該有更多可以考慮的方式</p>
+
+<p>SVG preserveApsectRatio</p>
+
+<p>網頁設計講比較多，因為是要讓資料顯示在網頁上</p>
+
+<p>ai2html</p>
+
+<p>繪圖優化</p>
+
+<p>Cross Device</p>
+
+<p>有些有趣的網站可以參考</p>
+
+<h3>團結力量大？集團企業之解構、分析比較</h3>
+
+<p>這邊主要是利用投資的相關資料畫出相關性。</p>
+
+<h3>社會資訊學？資訊社會學？抑都不是？淺論資訊科學與社會學相得益彰的合作契機</h3>
+
+<p>計算社會學</p>
+
+<p>社會學內容</p>
+
+<p>Agent Based Modeling</p>
+
+<p>資訊科技在社會科學上的應用</p>
+
+<p>有些社會學上的大哉問</p>
+
+<h3>gov</h3>
+
+<ol>
+<li>分析蘋果日報的留言 可以看看</li>
+<li>判決書非常非常長</li>
+<li>新聞品質 量化分析</li>
+<li>血庫存量</li>
+<li>新台語 運動 台語字典</li>
+<li>Data Design</li>
+<li>IoT 空汙偵測 DIY</li>
+<li>etc</li>
+</ol>
+
+
+<p>詞頻分析</p>
+
+<p>後面有一系列資料，有些可以研究研究</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Fubuki</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-08-23T22:00:07+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>10:00 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/conference/'>conference</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/08/22/data-science-conf-2015-day-1/" title="Previous Post: 資料科學年會 2015 Day 1">&laquo; 資料科學年會 2015 Day 1</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/08/23/data-science-conf-2015-day-2/">資料科學年會 2015 Day 2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/22/data-science-conf-2015-day-1/">資料科學年會 2015 Day 1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/21/gophercon-2015/">GopherCon 2015</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/20/php-pcntl-fork/">PHP 的 Pcntl_fork 函式</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/19/ontology-score/">Ontology Ranking Algorithm</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+<h1>分類</h1>
+<ul>
+  <li><a href='/blog/categories/'> (45)</a></li>
+  <li><a href='/blog/categories/algorithm'>Algorithm (44)</a></li>
+  <li><a href='/blog/categories/android'>Android (12)</a></li>
+  <li><a href='/blog/categories/api'>Api (1)</a></li>
+  <li><a href='/blog/categories/architecture'>Architecture (11)</a></li>
+  <li><a href='/blog/categories/asterisk'>Asterisk (4)</a></li>
+  <li><a href='/blog/categories/atom'>Atom (1)</a></li>
+  <li><a href='/blog/categories/bdd'>Bdd (1)</a></li>
+  <li><a href='/blog/categories/book-lists'>Book lists (14)</a></li>
+  <li><a href='/blog/categories/browserchannel'>Browserchannel (1)</a></li>
+  <li><a href='/blog/categories/c'>C (1)</a></li>
+  <li><a href='/blog/categories/c-'>C++ (1)</a></li>
+  <li><a href='/blog/categories/cdn'>Cdn (1)</a></li>
+  <li><a href='/blog/categories/chocolatey'>Chocolatey (1)</a></li>
+  <li><a href='/blog/categories/conference'>Conference (17)</a></li>
+  <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
+  <li><a href='/blog/categories/css'>Css (6)</a></li>
+  <li><a href='/blog/categories/data-analysis'>Data analysis (2)</a></li>
+  <li><a href='/blog/categories/deep-learning'>Deep learning (5)</a></li>
+  <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
+  <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
+  <li><a href='/blog/categories/docker'>Docker (9)</a></li>
+  <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
+  <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
+  <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
+  <li><a href='/blog/categories/frontend'>Frontend (13)</a></li>
+  <li><a href='/blog/categories/function-language'>Function language (1)</a></li>
+  <li><a href='/blog/categories/git'>Git (18)</a></li>
+  <li><a href='/blog/categories/golang'>Golang (6)</a></li>
+  <li><a href='/blog/categories/graph-database'>Graph database (2)</a></li>
+  <li><a href='/blog/categories/gulp'>Gulp (1)</a></li>
+  <li><a href='/blog/categories/hadoop'>Hadoop (2)</a></li>
+  <li><a href='/blog/categories/html5'>Html5 (2)</a></li>
+  <li><a href='/blog/categories/information-retrieval'>Information retrieval (1)</a></li>
+  <li><a href='/blog/categories/javascript'>Javascript (23)</a></li>
+  <li><a href='/blog/categories/jdk'>Jdk (2)</a></li>
+  <li><a href='/blog/categories/jquery'>Jquery (3)</a></li>
+  <li><a href='/blog/categories/line'>Line (6)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (28)</a></li>
+  <li><a href='/blog/categories/lucene'>Lucene (2)</a></li>
+  <li><a href='/blog/categories/machine-learning'>Machine learning (5)</a></li>
+  <li><a href='/blog/categories/mariadb'>Mariadb (2)</a></li>
+  <li><a href='/blog/categories/markdown'>Markdown (2)</a></li>
+  <li><a href='/blog/categories/memcached'>Memcached (11)</a></li>
+  <li><a href='/blog/categories/mobile'>Mobile (1)</a></li>
+  <li><a href='/blog/categories/mozilla'>Mozilla (4)</a></li>
+  <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
+  <li><a href='/blog/categories/mysql'>Mysql (12)</a></li>
+  <li><a href='/blog/categories/nginx'>Nginx (12)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (13)</a></li>
+  <li><a href='/blog/categories/nodejs'>Nodejs (23)</a></li>
+  <li><a href='/blog/categories/nosql'>Nosql (4)</a></li>
+  <li><a href='/blog/categories/oauth'>Oauth (1)</a></li>
+  <li><a href='/blog/categories/open-source'>Open source (13)</a></li>
+  <li><a href='/blog/categories/opencv'>Opencv (3)</a></li>
+  <li><a href='/blog/categories/openstack'>Openstack (3)</a></li>
+  <li><a href='/blog/categories/oracle'>Oracle (1)</a></li>
+  <li><a href='/blog/categories/php'>Php (30)</a></li>
+  <li><a href='/blog/categories/project-management'>Project management (4)</a></li>
+  <li><a href='/blog/categories/python'>Python (10)</a></li>
+  <li><a href='/blog/categories/queue'>Queue (3)</a></li>
+  <li><a href='/blog/categories/rabbitmq'>Rabbitmq (6)</a></li>
+  <li><a href='/blog/categories/redis'>Redis (11)</a></li>
+  <li><a href='/blog/categories/ruby'>Ruby (1)</a></li>
+  <li><a href='/blog/categories/schedule'>Schedule (1)</a></li>
+  <li><a href='/blog/categories/scrapy'>Scrapy (1)</a></li>
+  <li><a href='/blog/categories/sdn'>Sdn (1)</a></li>
+  <li><a href='/blog/categories/sdr'>Sdr (2)</a></li>
+  <li><a href='/blog/categories/search-engine'>Search engine (7)</a></li>
+  <li><a href='/blog/categories/server'>Server (1)</a></li>
+  <li><a href='/blog/categories/sip'>Sip (7)</a></li>
+  <li><a href='/blog/categories/snort'>Snort (1)</a></li>
+  <li><a href='/blog/categories/social-physics'>Social physics (1)</a></li>
+  <li><a href='/blog/categories/socketio'>Socketio (7)</a></li>
+  <li><a href='/blog/categories/solr'>Solr (6)</a></li>
+  <li><a href='/blog/categories/sql'>Sql (2)</a></li>
+  <li><a href='/blog/categories/sublime-text'>Sublime-text (3)</a></li>
+  <li><a href='/blog/categories/theano'>Theano (1)</a></li>
+  <li><a href='/blog/categories/ui'>Ui (1)</a></li>
+  <li><a href='/blog/categories/ux'>Ux (1)</a></li>
+  <li><a href='/blog/categories/vargrant'>Vargrant (1)</a></li>
+  <li><a href='/blog/categories/vim'>Vim (2)</a></li>
+  <li><a href='/blog/categories/voip'>Voip (1)</a></li>
+  <li><a href='/blog/categories/webrtc'>Webrtc (1)</a></li>
+  <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
+</ul>
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/fubuki">@fubuki</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'fubuki',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Fubuki -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fubuki';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2/';
+        var disqus_url = 'http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
