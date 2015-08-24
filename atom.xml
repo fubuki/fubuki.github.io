@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-23T22:53:56+08:00</updated>
+  <updated>2015-08-24T23:49:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[IBM ICU Project]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/24/ibm-icu/"/>
+    <updated>2015-08-24T23:36:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/24/ibm-icu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://site.icu-project.org/">ICU - International Components for Unicode</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[資料科學年會 2015 Day 2]]></title>
@@ -727,20 +739,6 @@ LDA SVM</p>
 
 <pre><code>pip install mitmproxy
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FST and FSA]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/04/finite-state-transducer/"/>
-    <updated>2015-08-04T23:00:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/04/finite-state-transducer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在使用 Lucene 的時候看到在 4.0 增加了 FST 的方式處理自然語言，之前在自然語言處理綜論這本書上有看到關於 FST 的概念，
-其實就是 FSM ，這邊有一個使用 FST 的專案 <a href="https://github.com/OpenSextant/SolrTextTagger">SolrTextTagger</a> 是在一份關於如何處理多語言環境的簡報上看到的，剛好有這些契機，
-而且似乎可以用 FST 處理關於同義詞的問題，正好可以拿來研究。</p>
 ]]></content>
   </entry>
   

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/08/24/ibm-icu/</loc>
+    <lastmod>2015-08-24T23:36:28+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2/</loc>
     <lastmod>2015-08-23T22:00:07+08:00</lastmod>
     <priority>0.8</priority>
@@ -2767,19 +2772,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-08-23T22:53:56+08:00</lastmod>
+    <lastmod>2015-08-24T23:49:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-08-23T22:53:56+08:00</lastmod>
+    <lastmod>2015-08-24T23:49:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-08-23T22:53:56+08:00</lastmod>
+    <lastmod>2015-08-24T23:49:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
