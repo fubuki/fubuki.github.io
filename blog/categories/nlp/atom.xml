@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-24T23:49:04+08:00</updated>
+  <updated>2015-08-25T23:28:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MeCab Analyzer]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/25/mecab-analyzer/"/>
+    <updated>2015-08-25T23:14:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/25/mecab-analyzer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://taku910.github.io/mecab/">MeCab</a> 使用 CRF 的日文分析器。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[針對短文本做語言偵測]]></title>
@@ -84,23 +96,6 @@
 <h3>目的</h3>
 
 <p>篇章分割，分析文章中使用者有興趣的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PCFG]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/03/pcfg/"/>
-    <updated>2014-08-03T23:46:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/03/pcfg</id>
-    <content type="html"><![CDATA[<p>Probabilistic Context Free Grammar (PCFG)，之前有在編譯器原理和計算理論看過 <code>Context Free Grammar</code> 簡稱CFG，
-當初會提到 CFG 是因為CFG可以用來表達大多數的程式語言的語法， 然後這次在自然語言處理的部分看到PCFG，</p>
-
-<!-- more -->
-
-
-<h3>定義</h3>
-
-<h3>語法分析</h3>
 ]]></content>
   </entry>
   
