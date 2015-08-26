@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-25T23:28:18+08:00</updated>
+  <updated>2015-08-26T23:40:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[500px 如何分析資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/26/500px-data-analytics/"/>
+    <updated>2015-08-26T23:39:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/26/500px-data-analytics</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83">Building Analytics at 500px</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MeCab Analyzer]]></title>
@@ -716,20 +728,6 @@ LDA SVM</p>
 
 <p>另外上面的文章有提到一個使用 scala 撰寫的工具名叫 <a href="https://github.com/NLP4L/nlp4l">nlp4l</a> ，裡面似乎提供了不少自然語言處理的工具，如果透過這個工具
 也許可以優化一些基於 Lucene 的搜尋引擎。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Grafana 做為 Dashboard 後台]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/06/grafana/"/>
-    <updated>2015-08-06T23:07:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/06/grafana</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近手上有不少 Log 檔所以想用來做一些分析， 以前有想過用 norikra 不過目前手上的環境是用沒辦法使用 jruby 所以想用其他替代
-品，之前有思考 opentsdb 和 influxdb 這兩套，然後還缺一個 dashboard 後台，這邊有想過使用 Kibana 不過這個通常會搭配 elasticsearch
- 使用，所以我換用 <a href="https://github.com/grafana/grafana">grafana</a> 使用 golang 寫的一個後台，可以搭配 opentsdb 和 influxdb，最後還缺要考慮擴展和即時計算的問題。</p>
 ]]></content>
   </entry>
   
