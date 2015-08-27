@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Scala | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/scala/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-08-27T23:27:05+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scala 和 Sbt 的教學]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/27/scala-sbt-jiao-xue/"/>
+    <updated>2015-08-27T23:24:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/27/scala-sbt-jiao-xue</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/twitter/scala_school">scala school</a></p>
+]]></content>
+  </entry>
+  
+</feed>

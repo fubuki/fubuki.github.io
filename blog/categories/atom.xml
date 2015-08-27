@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-26T23:40:35+08:00</updated>
+  <updated>2015-08-27T23:27:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,18 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[500px 如何分析資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/26/500px-data-analytics/"/>
-    <updated>2015-08-26T23:39:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/26/500px-data-analytics</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83">Building Analytics at 500px</a></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[OTR vs PGP 加密]]></title>
@@ -83,6 +71,18 @@ xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種�
 
 <pre><code>pip install mitmproxy
 </code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Compressed Sensing and Sparse Sampling]]></title>
+    <link href="http://fubuki.github.io/blog/2015/07/27/compressed-sensing/"/>
+    <updated>2015-07-27T23:49:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/07/27/compressed-sensing</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在看影像處理的課程裡面提到了 <a href="https://en.wikipedia.org/wiki/Compressed_sensing">Compressed sensing</a>，用來將圖片中的雜訊去除。</p>
 ]]></content>
   </entry>
   
