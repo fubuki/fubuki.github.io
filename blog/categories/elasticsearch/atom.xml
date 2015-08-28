@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-08-28T22:58:01+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Autocomplete 功能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/28/elassticsearch-suggest/"/>
+    <updated>2015-08-28T21:54:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/28/elassticsearch-suggest</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>elasticsearch 的 suggest 主要分成下面三種</p>
+
+<ol>
+<li>Phrase Suggester</li>
+<li>Term suggester</li>
+<li>Completion Suggester</li>
+</ol>
+
+
+<p>其中 <code>Completion Suggester</code> 目前看起來最適合用來實做 autocomplete 功能，使用上可以搭配  <code>category</code> 可以
+增強 autocomplete 的功能，<code>category</code> 能夠自行添加欄位讓開發者可以對資料進行過濾。</p>
+
+<p>目前看起來有幾點要注意:</p>
+
+<ol>
+<li>Completion Suggester 可以透過加上 weight 調整排序。</li>
+<li>Completion Suggester 有 input 和 output 的欄位，可以讓多個輸入對應到單一輸輸出。</li>
+<li>如果有多個 document 相同 output 那 elasticsearch 會只輸出一個。</li>
+<li>Category 可以參照 <a href="https://www.elastic.co/blog/elasticsearch-1-2-adding-context-suggestions">Elasticsearch 1.2: Adding Context to Suggestions</a> 裡面有個使用 Category 過濾的例子。</li>
+</ol>
+
+
+<h4>建立 index 和 mapping file</h4>
+
+<h4>加入 document</h4>
+
+<h4>更新 document</h4>
+
+<h4>搜尋</h4>
+]]></content>
+  </entry>
+  
+</feed>
