@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-28T22:58:01+08:00</updated>
+  <updated>2015-08-29T23:27:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[更換 Lucene Kuromoji 使用的 Dic]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji/"/>
+    <updated>2015-08-29T22:37:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Lucene 內部是使用 Kuromoji 對日本語做處理，而 Kuromoji 底層是使用 mecab 的  MeCab-IPADIC dictionary，
+所以如果要加新詞其實可以透過 mecab 增加詞彙。</p>
+
+<ol>
+<li><a href="https://github.com/neologd/mecab-ipadic-neologd">mecab-ipadic-neologd</a></li>
+<li><a href="http://d.hatena.ne.jp/Kazuhira/20150316/1426520209">修正されたmecab-ipadic-neologdの辞書を、Lucene Kuromojiに適用してみる</a></li>
+<li><a href="http://qiita.com/wakisuke/items/d15b5defc1aad61cc910">mecabの辞書を自動コストで作成</a></li>
+<li><a href="http://www.mwsoft.jp/programming/munou/mecab_dic_perform.html">IPA、NAIST、UniDic、JUMANの辞書実演比較</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Autocomplete 功能]]></title>
@@ -731,18 +752,6 @@ LDA SVM</p>
 
 
 <p><a href="http://www.inference.phy.cam.ac.uk/hmw26/crf/">CRF</a> 目前手上主要用來做新詞辨識的工作，在其他領域也不少用途，某方面跟 HMM 有些類似的地方。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TextRank 算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/09/textrank/"/>
-    <updated>2015-08-09T22:50:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/09/textrank</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank: Bringing Order into Texts</a></p>
 ]]></content>
   </entry>
   

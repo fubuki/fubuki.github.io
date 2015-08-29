@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Lucene | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/lucene/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-28T22:58:01+08:00</updated>
+  <updated>2015-08-29T23:27:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[更換 Lucene Kuromoji 使用的 Dic]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji/"/>
+    <updated>2015-08-29T22:37:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Lucene 內部是使用 Kuromoji 對日本語做處理，而 Kuromoji 底層是使用 mecab 的  MeCab-IPADIC dictionary，
+所以如果要加新詞其實可以透過 mecab 增加詞彙。</p>
+
+<ol>
+<li><a href="https://github.com/neologd/mecab-ipadic-neologd">mecab-ipadic-neologd</a></li>
+<li><a href="http://d.hatena.ne.jp/Kazuhira/20150316/1426520209">修正されたmecab-ipadic-neologdの辞書を、Lucene Kuromojiに適用してみる</a></li>
+<li><a href="http://qiita.com/wakisuke/items/d15b5defc1aad61cc910">mecabの辞書を自動コストで作成</a></li>
+<li><a href="http://www.mwsoft.jp/programming/munou/mecab_dic_perform.html">IPA、NAIST、UniDic、JUMANの辞書実演比較</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[建立詞庫和相似詞表]]></title>
