@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-29T23:27:44+08:00</updated>
+  <updated>2015-08-30T22:43:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[建立自己的 Dotfiles]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/30/dotfile/"/>
+    <updated>2015-08-30T22:30:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/30/dotfile</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/webpro/awesome-dotfiles">awesome-dotfiles</a></p>
+
+<p><a href="http://qiita.com/b4b4r07/items/b70178e021bef12cd4a2">最強の dotfiles 駆動開発と GitHub で管理する運用方法</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[更換 Lucene Kuromoji 使用的 Dic]]></title>
@@ -740,18 +754,6 @@ LDA SVM</p>
 
 
 <p><a href="http://www.xaprb.com/blog/2015/08/08/innodb-book-outline/">An Outline for a Book on InnoDB</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/10/conditional-random-fields/"/>
-    <updated>2015-08-10T22:01:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/10/conditional-random-fields</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.inference.phy.cam.ac.uk/hmw26/crf/">CRF</a> 目前手上主要用來做新詞辨識的工作，在其他領域也不少用途，某方面跟 HMM 有些類似的地方。</p>
 ]]></content>
   </entry>
   
