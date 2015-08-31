@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-30T22:43:41+08:00</updated>
+  <updated>2015-08-31T23:32:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[語言處理的練習集]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015/"/>
+    <updated>2015-08-31T23:26:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.cl.ecei.tohoku.ac.jp/nlp100/">言語処理100本ノック 2015</a> 還不錯的練習題目，裡面提到語言處理的基礎概念並且提供了一些練習題，
+這些項目在做 NLP 都會遇到可以好好研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[建立自己的 Dotfiles]]></title>
@@ -742,18 +755,6 @@ LDA SVM</p>
 <p>之前有使用 Text Rank 取出文章的摘要時另外看到了使用 LDA 之類的方法處理類似需求，這類的方法被稱為
  <code>Topic Model</code> ，研究下去可以發現有很多種類的模型可以使用不過大致上基於 LDA 的變種，學好 LDA 後其他就
  能夠比較容易理解。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[InnoDB 一些相關概念]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/11/innodb-keyword/"/>
-    <updated>2015-08-11T23:17:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/11/innodb-keyword</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.xaprb.com/blog/2015/08/08/innodb-book-outline/">An Outline for a Book on InnoDB</a></p>
 ]]></content>
   </entry>
   

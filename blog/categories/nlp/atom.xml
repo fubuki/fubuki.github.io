@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-08-30T22:43:41+08:00</updated>
+  <updated>2015-08-31T23:32:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[語言處理的練習集]]></title>
+    <link href="http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015/"/>
+    <updated>2015-08-31T23:26:04+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.cl.ecei.tohoku.ac.jp/nlp100/">言語処理100本ノック 2015</a> 還不錯的練習題目，裡面提到語言處理的基礎概念並且提供了一些練習題，
+這些項目在做 NLP 都會遇到可以好好研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MeCab Analyzer]]></title>
@@ -62,20 +75,6 @@
 <p>之前有使用 Text Rank 取出文章的摘要時另外看到了使用 LDA 之類的方法處理類似需求，這類的方法被稱為
  <code>Topic Model</code> ，研究下去可以發現有很多種類的模型可以使用不過大致上基於 LDA 的變種，學好 LDA 後其他就
  能夠比較容易理解。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SHL`s Emotion Analysis Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/30/shl%60s-emotion-analysis-algorithm/"/>
-    <updated>2015-05-30T22:37:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/30/shl`s-emotion-analysis-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天在某個展覽會的 Intel 攤位看到讓我感興趣的東西，是關於使用類似穿戴式裝置偵測人類的情緒波動然後傳送到手機上面，
-而其中有使用一個叫做 <code>SHL</code>s Emotion Analysis Algorithm` 的演算法，在 NLP 裡面原本就有關於情緒偵測的部分，此外也有
-使用音訊偵測的方式，不過關於這個演算法在網路上並沒有其他相關的訊息可能還需要找找新的專利或是論文。</p>
 ]]></content>
   </entry>
   
