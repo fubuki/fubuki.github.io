@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-01T23:45:28+08:00</updated>
+  <updated>2015-09-02T23:35:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Doc2Vec 相關]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/02/doc2vec-papper/"/>
+    <updated>2015-09-02T23:28:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/02/doc2vec-papper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前已經在 python 上玩過 word vectors ，而最近看到一篇關於 paragraph vector 的論文 <a href="http://arxiv.org/abs/1405.4053">Distributed Representations of Sentences and Documents</a>
+需要了解一下差別和用途， <a href="https://github.com/mesnilgr/iclr15">iclr15</a> 則是另外一篇跟 <code>paragraph vector</code> 相關論文裡的程式碼，可以嘗試看看有沒有達成論文中的效果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mecab 使用 Wikipedia 增加詞庫]]></title>
@@ -67,20 +80,6 @@ Mecab 可以吃的格式，</p>
 
 
 <p><a href="http://site.icu-project.org/">ICU - International Components for Unicode</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[針對短文本做語言偵測]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/13/short-text-language-detect/"/>
-    <updated>2015-08-13T21:08:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/13/short-text-language-detect</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>針對類似 <code>tweet</code> 的短文本進行語言偵測。以前有用過 Tika 實做語言偵測不過命中率從別人的測試數據看起來不太好，
-之後從別的地方聽到了 <a href="https://github.com/CLD2Owners/cld2">cld2</a> 效果會比較好，不過在對很文本長度不長情形下準度會下降，所以另外研究了 <a href="http://www.slideshare.net/shuyo/short-text-language-detection-with-infinitygram-12949447">Short Text Language Detection with Infinity-Gram</a>
-使用其他方法嘗試解決這類的問題。</p>
 ]]></content>
   </entry>
   
