@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-02T23:35:40+08:00</updated>
+  <updated>2015-09-03T23:29:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch 適合的 Shard Size]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/03/elasticsearch-shard-size/"/>
+    <updated>2015-09-03T23:12:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/03/elasticsearch-shard-size</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在思考 elasticsearch 優化的部分，當 index 不斷擴大的時候怎麼處理，目前是想到將資料做
+ shard 然後使用多個 node 加快搜尋的速度，但是這邊有個問題是每個 shard 的大小要怎麼決定，
+ 這邊就暫時參考 <a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a> 裡面提到的指標和工具測試看看。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Autocomplete 功能]]></title>
