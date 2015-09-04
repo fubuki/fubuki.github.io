@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-03T23:29:48+08:00</updated>
+  <updated>2015-09-04T23:50:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wikipedia Dump Data 解析]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis/"/>
+    <updated>2015-09-04T23:47:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>預定之後要處理 <a href="http://www.slideshare.net/ghazel7/wikipedia-17666978">Wikipedia解析</a> 的事情。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Doc2Vec 相關]]></title>
@@ -68,18 +80,6 @@ Mecab 可以吃的格式，</p>
 
 
 <p><a href="http://taku910.github.io/mecab/">MeCab</a> 使用 CRF 的日文分析器。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IBM ICU Project]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/24/ibm-icu/"/>
-    <updated>2015-08-24T23:36:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/24/ibm-icu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://site.icu-project.org/">ICU - International Components for Unicode</a></p>
 ]]></content>
   </entry>
   
