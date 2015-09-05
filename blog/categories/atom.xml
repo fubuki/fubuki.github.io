@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-04T23:50:10+08:00</updated>
+  <updated>2015-09-05T23:46:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Stream2es 匯入 Wikipedia 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/05/elasticsearch-wikipedia-stream2es/"/>
+    <updated>2015-09-05T23:38:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/05/elasticsearch-wikipedia-stream2es</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>目前手上已經有一些 Wikipedia 的資料，這是之前在使用 nlp4l 做為輸入資料遺留下來的，
+那時使用了 json-wikipedia 將 xml 轉換成 json ，使用 jq 看過一遍大致上了解了內容的
+資料結構，不過由於資料太過於龐大搜尋起來很久，所以使用了之前看到的工具 stream2es 將
+手上的資料轉換到 elasticsearch 裡面。</p>
+
+<p>最後轉換的結果有點少，只有一百九十萬多筆，有些資料似乎沒有匯入進去，之後要換用 Logstash
+ 匯入應該會有不一樣的結果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[建立自己的 Dotfiles]]></title>
@@ -64,27 +82,6 @@ xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種�
 <p>最近手上有不少 Log 檔所以想用來做一些分析， 以前有想過用 norikra 不過目前手上的環境是用沒辦法使用 jruby 所以想用其他替代
 品，之前有思考 opentsdb 和 influxdb 這兩套，然後還缺一個 dashboard 後台，這邊有想過使用 Kibana 不過這個通常會搭配 elasticsearch
  使用，所以我換用 <a href="https://github.com/grafana/grafana">grafana</a> 使用 golang 寫的一個後台，可以搭配 opentsdb 和 influxdb，最後還缺要考慮擴展和即時計算的問題。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mitmproxy 安裝和使用]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/05/mitmproxy/"/>
-    <updated>2015-08-05T22:52:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/05/mitmproxy</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前開發給手機的 API 都是直接看 <code>server log</code>，然而最近看到有個專案 <a href="https://github.com/mitmproxy/mitmproxy">mitmproxy</a> 可以使用看看，可以直接做為代理
-記錄 client 的呼叫，之前有想在 apache 上裝套件方便監視所有 API 的呼叫和傳輸資料，不過現在有這個就不需要了，另外
-也可以自行撰寫指令搞擴充想要的功能。</p>
-
-<h3>安裝</h3>
-
-<p>直接用 pipe 安裝就好</p>
-
-<pre><code>pip install mitmproxy
-</code></pre>
 ]]></content>
   </entry>
   
