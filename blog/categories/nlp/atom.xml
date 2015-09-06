@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-05T23:46:45+08:00</updated>
+  <updated>2015-09-06T23:05:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NPYLM 和 HPYLM]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/06/npylm/"/>
+    <updated>2015-09-06T22:40:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/06/npylm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.youtube.com/watch?v=GrTgJi65-Mg">理論はどうでもいいから作ってみたい人のためのNPYLM + 実装のための解説</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wikipedia Dump Data 解析]]></title>
@@ -68,18 +80,6 @@ Mecab 可以吃的格式，</p>
 
 <p><a href="http://www.cl.ecei.tohoku.ac.jp/nlp100/">言語処理100本ノック 2015</a> 還不錯的練習題目，裡面提到語言處理的基礎概念並且提供了一些練習題，
 這些項目在做 NLP 都會遇到可以好好研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MeCab Analyzer]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/25/mecab-analyzer/"/>
-    <updated>2015-08-25T23:14:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/25/mecab-analyzer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://taku910.github.io/mecab/">MeCab</a> 使用 CRF 的日文分析器。</p>
 ]]></content>
   </entry>
   

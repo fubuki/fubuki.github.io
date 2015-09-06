@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-05T23:46:45+08:00</updated>
+  <updated>2015-09-06T23:05:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NPYLM 和 HPYLM]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/06/npylm/"/>
+    <updated>2015-09-06T22:40:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/06/npylm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.youtube.com/watch?v=GrTgJi65-Mg">理論はどうでもいいから作ってみたい人のためのNPYLM + 実装のための解説</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Stream2es 匯入 Wikipedia 資料]]></title>
@@ -585,20 +597,6 @@ Ref v.3</p>
 
 
 <p><a href="http://www.mmds.org/">Mining of Massive Datasets</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OTR vs PGP 加密]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/17/otr-vs-pgp/"/>
-    <updated>2015-08-17T23:21:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/17/otr-vs-pgp</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>Off-the-Record Communication, or, Why Not To Use PGP</code> 兩種加密協議的比較，之前在聽關於使用
-xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種加密方式，不過經過研究 PGP 加密有些問題，
-比較推薦使用 OTR，。</p>
 ]]></content>
   </entry>
   
