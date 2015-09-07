@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-06T23:05:35+08:00</updated>
+  <updated>2015-09-07T23:21:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 處理 Unicode 字元]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/07/php-regexp-unicode/"/>
+    <updated>2015-09-07T23:06:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/07/php-regexp-unicode</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://php.net/manual/en/regexp.reference.unicode.php">Unicode character properties</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 的 Pcntl_fork 函式]]></title>
@@ -101,20 +113,6 @@ $result = $date-&gt;modify( '-1 day' );
 <li><a href="https://github.com/krakjoe/pthreads">php pthreads</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Phalcon 設定讀寫分離功能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/02/phalcon-master-slave/"/>
-    <updated>2015-04-02T23:29:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/02/phalcon-master-slave</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近需要建立 phalcon 連結 mysql 的專案，然後手上有一個 mysql cluster 的設備，所以
-想要在 phalcon 設定讀寫分離的功能，讀跟寫是連接不同的資料庫位置，最後在 phalcon 的文檔
-<a href="https://phalcon-php-framework-documentation.readthedocs.org/en/latest/reference/models.html?highlight=selectReadConnection#setting-multiple-databases">setting-multiple-databases</a> 有說明怎麼設定。</p>
 ]]></content>
   </entry>
   
