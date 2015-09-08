@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-07T23:21:19+08:00</updated>
+  <updated>2015-09-08T23:39:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kagome 分詞器]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/08/kagome/"/>
+    <updated>2015-09-08T23:36:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/08/kagome</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/ikawaha/kagome">kagome</a></li>
+<li><a href="http://qiita.com/ikawaha/items/ff27ac03e22b7f36811b">Pure Go で辞書同梱な形態素解析器 kagome を公開してみました</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 處理 Unicode 字元]]></title>
@@ -577,26 +593,6 @@ Ref v.3</p>
 <p>最近在使用 PHP 撰寫 CLI 的功能時，想要實做能夠根據 CPU 數量自動 auto scale 加快計算的功能，
 所以在尋找 PHP 裡面跟 fork 有關的函式，最後找到了 pcntl_fork 這個函式能夠 fork 出多個 process ，
 使用上不太難不過子進程結束需要自行。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ontology Ranking Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/19/ontology-score/"/>
-    <updated>2015-08-19T22:50:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/19/ontology-score</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>一些文件的排序演算法，用來算出文件的相關性。</p>
-
-<ol>
-<li>Class Match Measure</li>
-<li>Density Measure</li>
-<li>Semantic Similarity Measure</li>
-<li>Betweenness Measure</li>
-</ol>
-
 ]]></content>
   </entry>
   
