@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-08T23:39:21+08:00</updated>
+  <updated>2015-09-09T23:11:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LTP: Language Technology Platform]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform/"/>
+    <updated>2015-09-09T23:05:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/HIT-SCIR/ltp">ltp</a> 哈爾濱工業大學(哈工大)提供的中文自然語言處理平台，之前有看到哈工大有一提供
+一個線上的版本給人使用，而這個 <a href="https://github.com/HIT-SCIR/ltp">ltp</a> 應該就是提供給別人自行研究擴展的版本。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kagome 分詞器]]></title>
@@ -579,20 +592,6 @@ Ref v.3</p>
 <p><a href="http://www.gophercon.com/">GopherCon 2015</a></p>
 
 <p><a href="https://github.com/gophercon/2015-talks">2015-talks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 的 Pcntl_fork 函式]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork/"/>
-    <updated>2015-08-20T23:18:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 PHP 撰寫 CLI 的功能時，想要實做能夠根據 CPU 數量自動 auto scale 加快計算的功能，
-所以在尋找 PHP 裡面跟 fork 有關的函式，最後找到了 pcntl_fork 這個函式能夠 fork 出多個 process ，
-使用上不太難不過子進程結束需要自行。</p>
 ]]></content>
   </entry>
   
