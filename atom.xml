@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-10T23:41:48+08:00</updated>
+  <updated>2015-09-11T23:06:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[顯示 Mecab 分詞的方式]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm/"/>
+    <updated>2015-09-11T22:48:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="http://d.hatena.ne.jp/a_bicky/20150413/1428872753">MeCab で N-Best 解の累積コストを出力する</a></li>
+<li><a href="http://www.mwsoft.jp/programming/munou/mecab_nitteretou.html">日本テレビ東京で学ぶMeCabのコスト計算</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Count–min Sketch Algorithm]]></title>
@@ -444,152 +457,6 @@ Ref v.3</p>
 <p>詞頻分析</p>
 
 <p>後面有一系列資料，有些可以研究研究</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料科學年會 2015 Day 1]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/22/data-science-conf-2015-day-1/"/>
-    <updated>2015-08-22T21:51:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/22/data-science-conf-2015-day-1</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>為什麼大資料是生死課題？</h3>
-
-<p>大數據的小故事</p>
-
-<p>從 PM 轉資料科學家</p>
-
-<p>這邊主要要了解數據的用途
-並且不要拿了鎚子就把每個東西都看成釘子
-怎麼使用數據解決問題</p>
-
-<p>數據十誡</p>
-
-<h3>Evolution of Big Data Frameworks</h3>
-
-<p>介紹 Big Data 的生態系統和他們開發的使用工具，有不少使用案例</p>
-
-<p>graph middleware</p>
-
-<p>putting the price on social connection</p>
-
-<p>從資料推測這個人是否會犯罪</p>
-
-<p>Big Data Analytics Resource</p>
-
-<p>回去看看他提供的在線資源</p>
-
-<h3>運用空間決策改進緊急醫療品質</h3>
-
-<p>GIS 系統
-大概是繪製醫院的地理地圖然後預測要送到哪個醫院
-這邊大概先將醫院的點放在地圖然後透過演算法取得最好的位置。</p>
-
-<h3>以健保資料分析對抗健康新聞的恐慌症候群</h3>
-
-<p>mysql 匯入資料</p>
-
-<p>健保資料是單純的文字檔需要透過已經設定好了 schema 重新處理
-相關的資料。</p>
-
-<p>ICD-9-CM</p>
-
-<p>我覺得這類是屬於 Bad-data 的領域</p>
-
-<p>沒有特別的使用方式</p>
-
-<p>這邊應該多講點有哪些骯髒的資料格式然後需要怎麼處理
-有沒有其他好用的工具可以自動修正這類的問題這樣比較好玩</p>
-
-<h3>人口統計應用於選舉預測</h3>
-
-<p>Generalized Linear Model</p>
-
-<p>貝氏機率</p>
-
-<h3>由點、線至面：從影像分析角度探討漫畫的組成與風格</h3>
-
-<p>主要是研究日本漫畫</p>
-
-<p>這不是死神嗎XDD
-1. Drawing
-2. Language
-3. Panel</p>
-
-<p>SCREENTONE detection</p>
-
-<p>character detection 不能用普通的人臉偵測</p>
-
-<p>Line Feature Extration</p>
-
-<p>Feature Analysis</p>
-
-<p>六種線段特徵有些特徵不太用</p>
-
-<p>漫畫家師徒關係</p>
-
-<p>重點來了</p>
-
-<p>Syle-Based Art Movement Retrieval</p>
-
-<p>Syle-Based Art Retrieval</p>
-
-<p>JOJO 冒險野郎</p>
-
-<p>Artwork Period Retrieval</p>
-
-<p>找尋畫家特定時期畫風</p>
-
-<p>畫家風格的影響</p>
-
-<p>Part2 Comics-Based Storytelling</p>
-
-<p>將有時間序列關係的片段轉成影片</p>
-
-<p>Challenges</p>
-
-<p>有三個問題要解決</p>
-
-<p>labeling problem</p>
-
-<p>Balloon Placement</p>
-
-<p>particle swarm optimization</p>
-
-<h3>心理學x資料科學</h3>
-
-<ol>
-<li>人類行為的量化分析</li>
-<li>巨量實驗的必要性</li>
-<li>開放腦資料的挑戰</li>
-</ol>
-
-
-<p>你的潛意識存在著資訊焦慮</p>
-
-<p>不知在讀研究報告還是科幻小說</p>
-
-<p>對國家未來的正面言談是經濟的反指標</p>
-
-<p>地區性心臟病死亡率可由 Tweets 預測</p>
-
-<p>天氣影響生活滿意度的評估</p>
-
-<p>體感影響社會判斷與社交行為</p>
-
-<p>商店背景音樂影響買酒的選擇  ???</p>
-
-<p>候選人的外貌影響選舉的結果</p>
-
-<p>男性偏好紅色衣著的女性</p>
-
-<p>上吊自殺 vs. 科學經費</p>
-
-<p>Grasp and lift egg detection</p>
-
-<p>大資料神經科學</p>
 ]]></content>
   </entry>
   
