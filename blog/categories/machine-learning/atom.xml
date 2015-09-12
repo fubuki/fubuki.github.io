@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-11T23:06:09+08:00</updated>
+  <updated>2015-09-12T23:48:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Word2vec 建立本體模型]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/12/word2vec/"/>
+    <updated>2015-09-12T23:41:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/12/word2vec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/piskvorky/gensim/">gensim</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Aerosolve Machine Learning Library]]></title>
@@ -68,20 +80,6 @@
     <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
     <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
 之後等有空就來實現一些現實生活的例子。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Machine Learning 相關書單]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/02/machine-learning/"/>
-    <updated>2014-03-02T23:05:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/02/machine-learning</id>
-    <content type="html"><![CDATA[<ol>
-<li>Machine.Learning.in.Action</li>
-<li>Natural.Language.Annotation.for.Machine.Learning</li>
-<li>Machine.Learning.for.Hackers</li>
-</ol>
-
 ]]></content>
   </entry>
   

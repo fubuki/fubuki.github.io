@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-11T23:06:09+08:00</updated>
+  <updated>2015-09-12T23:48:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Word2vec 建立本體模型]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/12/word2vec/"/>
+    <updated>2015-09-12T23:41:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/12/word2vec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/piskvorky/gensim/">gensim</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[顯示 Mecab 分詞的方式]]></title>
     <link href="http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm/"/>
     <updated>2015-09-11T22:48:43+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm</id>
-    <content type="html"><![CDATA[<ol>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
 <li><a href="http://d.hatena.ne.jp/a_bicky/20150413/1428872753">MeCab で N-Best 解の累積コストを出力する</a></li>
 <li><a href="http://www.mwsoft.jp/programming/munou/mecab_nitteretou.html">日本テレビ東京で学ぶMeCabのコスト計算</a></li>
 </ol>
@@ -301,162 +316,6 @@ Mecab 可以吃的格式，</p>
 
 
 <p><a href="http://site.icu-project.org/">ICU - International Components for Unicode</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料科學年會 2015 Day 2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2/"/>
-    <updated>2015-08-23T22:00:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Big Education in the Era of Big Data</h3>
-
-<p>Collective Probabilistic Model</p>
-
-<p>我們的教育體制</p>
-
-<p>第一個大資料挑戰 人口普查</p>
-
-<p>講一些泛用的資料處理步驟</p>
-
-<p>資料分析在教育上的應用</p>
-
-<p>Top 10 elearning Statistics</p>
-
-<p>一些線上教育平台</p>
-
-<p>學習精神</p>
-
-<p>MOOCs</p>
-
-<h3>從網頁存取記錄瞭解使用者行為與網頁區塊貢獻分析-實戰篇</h3>
-
-<p>從 access_log 研究 Data driven</p>
-
-<p>log 處理速度</p>
-
-<h4>頁面板塊分析</h4>
-
-<p>必須先統計每個板塊的點擊狀況
-統計方式
-1. redirect
-2. 增加 ref 參數
-3.</p>
-
-<p>ref 帶有的資訊
-正在哪一頁的哪個版塊和相關資訊</p>
-
-<p>Ref v.1
-Ref v.2   如果網站結構改了會有問題吧
-Ref v.3</p>
-
-<p>他們有做線上 ABtest?</p>
-
-<p>Google 搜尋 SEO 會有問題</p>
-
-<h4>開始處理 web access log</h4>
-
-<p>為了彌補 GA 沒有的功能</p>
-
-<p>爬蟲很多所以需要過濾</p>
-
-<p>有些必須另外蒐集的資料</p>
-
-<p>這邊使用 Kafka 處理 web access log</p>
-
-<p>clickstream ????</p>
-
-<p>Ref 應該可以完成之前想玩了使用者行為追蹤</p>
-
-<p>強化自己的全文搜尋??? 強化斷詞關係</p>
-
-<p>Ref 的好處</p>
-
-<p>處理 Kafka</p>
-
-<p>Log 儲存 Impala + sql like , PostgreSQL</p>
-
-<p>程式語言 Java</p>
-
-<p>資料整理Excel + Java</p>
-
-<p>RWD 版型怎麼辦 利用 javascript 偵測</p>
-
-<p>跳出率 沒被點擊物品 搜尋優化</p>
-
-<h3>使用 Elasticsearch 及 Kibana 進行巨量資料搜尋及視覺化</h3>
-
-<p>巨量資料怎麼 LOG</p>
-
-<p>資料都是從 mongodb 上匯入的 那會匯入的方式是?</p>
-
-<p>介紹一些內建的資料處理和視覺化方法，果能夠將 access log 匯入
-就可以建立一個簡單的監控系統</p>
-
-<p>這邊提到了 Hyperloglog 和 Percentile*  T-digest</p>
-
-<p>gogolook 架構 使用 fluentd</p>
-
-<p>未來可能增加停留時間的記錄</p>
-
-<p>Logstash 比較沒有人在開發所以建議使用 fluentd</p>
-
-<h3>Visualiztion over Web Tools and Tips</h3>
-
-<p>Apple device resolutioins</p>
-
-<p>這邊都是再說 RWD 的設計</p>
-
-<p>不過這邊應該有更多可以考慮的方式</p>
-
-<p>SVG preserveApsectRatio</p>
-
-<p>網頁設計講比較多，因為是要讓資料顯示在網頁上</p>
-
-<p>ai2html</p>
-
-<p>繪圖優化</p>
-
-<p>Cross Device</p>
-
-<p>有些有趣的網站可以參考</p>
-
-<h3>團結力量大？集團企業之解構、分析比較</h3>
-
-<p>這邊主要是利用投資的相關資料畫出相關性。</p>
-
-<h3>社會資訊學？資訊社會學？抑都不是？淺論資訊科學與社會學相得益彰的合作契機</h3>
-
-<p>計算社會學</p>
-
-<p>社會學內容</p>
-
-<p>Agent Based Modeling</p>
-
-<p>資訊科技在社會科學上的應用</p>
-
-<p>有些社會學上的大哉問</p>
-
-<h3>gov</h3>
-
-<ol>
-<li>分析蘋果日報的留言 可以看看</li>
-<li>判決書非常非常長</li>
-<li>新聞品質 量化分析</li>
-<li>血庫存量</li>
-<li>新台語 運動 台語字典</li>
-<li>Data Design</li>
-<li>IoT 空汙偵測 DIY</li>
-<li>etc</li>
-</ol>
-
-
-<p>詞頻分析</p>
-
-<p>後面有一系列資料，有些可以研究研究</p>
 ]]></content>
   </entry>
   

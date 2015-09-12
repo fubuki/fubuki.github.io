@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-11T23:06:09+08:00</updated>
+  <updated>2015-09-12T23:48:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm/"/>
     <updated>2015-09-11T22:48:43+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/09/11/n-best-search-algorithm</id>
-    <content type="html"><![CDATA[<ol>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
 <li><a href="http://d.hatena.ne.jp/a_bicky/20150413/1428872753">MeCab で N-Best 解の累積コストを出力する</a></li>
 <li><a href="http://www.mwsoft.jp/programming/munou/mecab_nitteretou.html">日本テレビ東京で学ぶMeCabのコスト計算</a></li>
 </ol>
