@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-12T23:48:07+08:00</updated>
+  <updated>2015-09-13T22:30:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fish-shell]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/13/fish-shell/"/>
+    <updated>2015-09-13T21:53:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/13/fish-shell</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/fish-shell/fish-shell">fish-shell</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec 建立本體模型]]></title>
@@ -304,18 +313,6 @@ Mecab 可以吃的格式，</p>
 
 
 <p><a href="http://taku910.github.io/mecab/">MeCab</a> 使用 CRF 的日文分析器。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IBM ICU Project]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/24/ibm-icu/"/>
-    <updated>2015-08-24T23:36:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/24/ibm-icu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://site.icu-project.org/">ICU - International Components for Unicode</a></p>
 ]]></content>
   </entry>
   
