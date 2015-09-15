@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-14T23:41:22+08:00</updated>
+  <updated>2015-09-15T23:51:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Lucene Index Data 建立 Word2vec 的資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/15/word2vec-for-lucene/"/>
+    <updated>2015-09-15T23:37:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/15/word2vec-for-lucene</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lucene.jugem.jp/?eid=479">word2vec for Lucene</a> 使用 Lucene 的索引建立 word2vec 的資料。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MLDM Monday --- 中文搜尋經驗分享]]></title>
@@ -310,18 +322,6 @@ Mecab 可以吃的格式，</p>
 
 
 <p><a href="https://github.com/twitter/scala_school">scala school</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[500px 如何分析資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/26/500px-data-analytics/"/>
-    <updated>2015-08-26T23:39:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/26/500px-data-analytics</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83">Building Analytics at 500px</a></p>
 ]]></content>
   </entry>
   
