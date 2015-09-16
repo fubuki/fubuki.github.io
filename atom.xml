@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-15T23:51:49+08:00</updated>
+  <updated>2015-09-16T23:11:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[關於 Full Stack Developer 的存在]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/16/the-full-stack-developer-is-a-myth/"/>
+    <updated>2015-09-16T23:09:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/16/the-full-stack-developer-is-a-myth</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.growth.supply/the-full-stack-developer-is-a-myth-4e3fb9c25867">The full stack developer is a myth</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Lucene Index Data 建立 Word2vec 的資料]]></title>
@@ -310,18 +322,6 @@ Mecab 可以吃的格式，</p>
 <h4>更新 document</h4>
 
 <h4>搜尋</h4>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scala 和 Sbt 的教學]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/27/scala-sbt-jiao-xue/"/>
-    <updated>2015-08-27T23:24:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/27/scala-sbt-jiao-xue</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/twitter/scala_school">scala school</a></p>
 ]]></content>
   </entry>
   
