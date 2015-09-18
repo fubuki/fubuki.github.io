@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-17T00:26:44+08:00</updated>
+  <updated>2015-09-18T23:38:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Factorization Machines]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/18/factorization-machines/"/>
+    <updated>2015-09-18T23:37:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/18/factorization-machines</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+
+
+<!-- more -->
+
+
+<p><a href="http://libfm.org/">libFM: Factorization Machine Library</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關於 Full Stack Developer 的存在]]></title>
@@ -62,20 +79,6 @@ xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種�
 
 
 <p><a href="http://www.xaprb.com/blog/2015/08/08/innodb-book-outline/">An Outline for a Book on InnoDB</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Grafana 做為 Dashboard 後台]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/06/grafana/"/>
-    <updated>2015-08-06T23:07:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/06/grafana</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近手上有不少 Log 檔所以想用來做一些分析， 以前有想過用 norikra 不過目前手上的環境是用沒辦法使用 jruby 所以想用其他替代
-品，之前有思考 opentsdb 和 influxdb 這兩套，然後還缺一個 dashboard 後台，這邊有想過使用 Kibana 不過這個通常會搭配 elasticsearch
- 使用，所以我換用 <a href="https://github.com/grafana/grafana">grafana</a> 使用 golang 寫的一個後台，可以搭配 opentsdb 和 influxdb，最後還缺要考慮擴展和即時計算的問題。</p>
 ]]></content>
   </entry>
   

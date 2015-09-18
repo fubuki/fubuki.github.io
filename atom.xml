@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-17T00:26:44+08:00</updated>
+  <updated>2015-09-18T23:38:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Factorization Machines]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/18/factorization-machines/"/>
+    <updated>2015-09-18T23:37:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/18/factorization-machines</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+
+
+<!-- more -->
+
+
+<p><a href="http://libfm.org/">libFM: Factorization Machine Library</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch 的 Aggregations 功能]]></title>
@@ -273,27 +290,6 @@ Mecab 可以吃的格式，</p>
 <p><a href="https://github.com/webpro/awesome-dotfiles">awesome-dotfiles</a></p>
 
 <p><a href="http://qiita.com/b4b4r07/items/b70178e021bef12cd4a2">最強の dotfiles 駆動開発と GitHub で管理する運用方法</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[更換 Lucene Kuromoji 使用的 Dic]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji/"/>
-    <updated>2015-08-29T22:37:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/29/lucene-mecab-kuromoji</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Lucene 內部是使用 Kuromoji 對日本語做處理，而 Kuromoji 底層是使用 mecab 的  MeCab-IPADIC dictionary，
-所以如果要加新詞其實可以透過 mecab 增加詞彙。</p>
-
-<ol>
-<li><a href="https://github.com/neologd/mecab-ipadic-neologd">mecab-ipadic-neologd</a></li>
-<li><a href="http://d.hatena.ne.jp/Kazuhira/20150316/1426520209">修正されたmecab-ipadic-neologdの辞書を、Lucene Kuromojiに適用してみる</a></li>
-<li><a href="http://qiita.com/wakisuke/items/d15b5defc1aad61cc910">mecabの辞書を自動コストで作成</a></li>
-<li><a href="http://www.mwsoft.jp/programming/munou/mecab_dic_perform.html">IPA、NAIST、UniDic、JUMANの辞書実演比較</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
