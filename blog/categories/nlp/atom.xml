@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-18T23:38:36+08:00</updated>
+  <updated>2015-09-19T23:27:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GloVe]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/19/glove/"/>
+    <updated>2015-09-19T23:20:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/19/glove</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representation</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[顯示 Mecab 分詞的方式]]></title>
@@ -67,18 +79,6 @@
 
 
 <p><a href="https://www.youtube.com/watch?v=GrTgJi65-Mg">理論はどうでもいいから作ってみたい人のためのNPYLM + 実装のための解説</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wikipedia Dump Data 解析]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis/"/>
-    <updated>2015-09-04T23:47:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>預定之後要處理 <a href="http://www.slideshare.net/ghazel7/wikipedia-17666978">Wikipedia解析</a> 的事情。</p>
 ]]></content>
   </entry>
   
