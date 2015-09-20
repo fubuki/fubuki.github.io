@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-19T23:27:02+08:00</updated>
+  <updated>2015-09-20T22:01:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lightning Memory-Mapped Database]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database/"/>
+    <updated>2015-09-20T21:53:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database">Lightning Memory-Mapped Database</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GloVe]]></title>
@@ -270,19 +282,6 @@ Mecab 可以吃的格式，</p>
 <li>hatenaキーワード</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[語言處理的練習集]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015/"/>
-    <updated>2015-08-31T23:26:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/31/yan-yu-chu-li-100ben-falsetuku-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.cl.ecei.tohoku.ac.jp/nlp100/">言語処理100本ノック 2015</a> 還不錯的練習題目，裡面提到語言處理的基礎概念並且提供了一些練習題，
-這些項目在做 NLP 都會遇到可以好好研究。</p>
 ]]></content>
   </entry>
   

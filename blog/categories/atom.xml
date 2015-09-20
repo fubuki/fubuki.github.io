@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-19T23:27:02+08:00</updated>
+  <updated>2015-09-20T22:01:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lightning Memory-Mapped Database]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database/"/>
+    <updated>2015-09-20T21:53:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database">Lightning Memory-Mapped Database</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Factorization Machines]]></title>
@@ -62,18 +74,6 @@
 <p><code>Off-the-Record Communication, or, Why Not To Use PGP</code> 兩種加密協議的比較，之前在聽關於使用
 xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種加密方式，不過經過研究 PGP 加密有些問題，
 比較推薦使用 OTR，。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[InnoDB 一些相關概念]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/11/innodb-keyword/"/>
-    <updated>2015-08-11T23:17:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/11/innodb-keyword</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.xaprb.com/blog/2015/08/08/innodb-book-outline/">An Outline for a Book on InnoDB</a></p>
 ]]></content>
   </entry>
   
