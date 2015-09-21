@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-20T22:01:23+08:00</updated>
+  <updated>2015-09-21T23:42:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[將資料從 Postgres 同步到 Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/21/syncing-postgres-to-elasticsearch-lessons-learned/"/>
+    <updated>2015-09-21T23:40:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/21/syncing-postgres-to-elasticsearch-lessons-learned</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://gocardless.com/blog/syncing-postgres-to-elasticsearch-lessons-learned/">Syncing Postgres to Elasticsearch: lessons learned</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lightning Memory-Mapped Database]]></title>
@@ -262,26 +274,6 @@
 
 <p>之前已經在 python 上玩過 word vectors ，而最近看到一篇關於 paragraph vector 的論文 <a href="http://arxiv.org/abs/1405.4053">Distributed Representations of Sentences and Documents</a>
 需要了解一下差別和用途， <a href="https://github.com/mesnilgr/iclr15">iclr15</a> 則是另外一篇跟 <code>paragraph vector</code> 相關論文裡的程式碼，可以嘗試看看有沒有達成論文中的效果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mecab 使用 Wikipedia 增加詞庫]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/01/mecab-wikipedia/"/>
-    <updated>2015-09-01T23:36:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/01/mecab-wikipedia</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Mecab 可以自行增加詞庫的內容，增加的內容從目前看到的資料有幾個可以使用，主要是要轉換成
-Mecab 可以吃的格式，</p>
-
-<ol>
-<li>Wikipedia jp</li>
-<li>NicoNico</li>
-<li>hatenaキーワード</li>
-</ol>
-
 ]]></content>
   </entry>
   
