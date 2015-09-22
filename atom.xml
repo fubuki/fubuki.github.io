@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-21T23:42:18+08:00</updated>
+  <updated>2015-09-22T23:31:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 的 Word2vec 工具]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/22/google-word2vec/"/>
+    <updated>2015-09-22T23:27:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/22/google-word2vec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>google 最一開始放出的版本: <a href="https://code.google.com/p/word2vec/">word2vec</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[將資料從 Postgres 同步到 Elasticsearch]]></title>
@@ -261,19 +273,6 @@
 <p>最近在思考 elasticsearch 優化的部分，當 index 不斷擴大的時候怎麼處理，目前是想到將資料做
  shard 然後使用多個 node 加快搜尋的速度，但是這邊有個問題是每個 shard 的大小要怎麼決定，
  這邊就暫時參考 <a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a> 裡面提到的指標和工具測試看看。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Doc2Vec 相關]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/02/doc2vec-papper/"/>
-    <updated>2015-09-02T23:28:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/02/doc2vec-papper</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前已經在 python 上玩過 word vectors ，而最近看到一篇關於 paragraph vector 的論文 <a href="http://arxiv.org/abs/1405.4053">Distributed Representations of Sentences and Documents</a>
-需要了解一下差別和用途， <a href="https://github.com/mesnilgr/iclr15">iclr15</a> 則是另外一篇跟 <code>paragraph vector</code> 相關論文裡的程式碼，可以嘗試看看有沒有達成論文中的效果。</p>
 ]]></content>
   </entry>
   

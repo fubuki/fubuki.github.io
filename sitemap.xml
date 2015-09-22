@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2015/09/22/google-word2vec/</loc>
+    <lastmod>2015-09-22T23:27:08+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2015/09/21/syncing-postgres-to-elasticsearch-lessons-learned/</loc>
     <lastmod>2015-09-21T23:40:11+08:00</lastmod>
     <priority>0.8</priority>
@@ -2912,19 +2917,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2015-09-21T23:42:18+08:00</lastmod>
+    <lastmod>2015-09-22T23:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2015-09-21T23:42:18+08:00</lastmod>
+    <lastmod>2015-09-22T23:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2015-09-21T23:42:18+08:00</lastmod>
+    <lastmod>2015-09-22T23:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
