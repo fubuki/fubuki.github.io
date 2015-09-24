@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-23T23:21:42+08:00</updated>
+  <updated>2015-09-24T23:48:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[確率的ブロック編集距離]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/24/que-lu-de-burotukubian-ji-ju-li/"/>
+    <updated>2015-09-24T23:44:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/24/que-lu-de-burotukubian-ji-ju-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>處理兩個字串的相似度的一篇論文 :<a href="http://www.anlp.jp/proceedings/annual_meeting/2014/pdf_dir/D1-3.pdf">確率的ブロック編集距離</a> 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[単語親密度]]></title>
@@ -259,18 +271,6 @@
 
 <p>最後轉換的結果有點少，只有一百九十萬多筆，有些資料似乎沒有匯入進去，之後要換用 Logstash
  匯入應該會有不一樣的結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wikipedia Dump Data 解析]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis/"/>
-    <updated>2015-09-04T23:47:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/04/wikipedia-analysis</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>預定之後要處理 <a href="http://www.slideshare.net/ghazel7/wikipedia-17666978">Wikipedia解析</a> 的事情。</p>
 ]]></content>
   </entry>
   

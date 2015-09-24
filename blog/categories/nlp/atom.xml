@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-23T23:21:42+08:00</updated>
+  <updated>2015-09-24T23:48:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[確率的ブロック編集距離]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/24/que-lu-de-burotukubian-ji-ju-li/"/>
+    <updated>2015-09-24T23:44:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/24/que-lu-de-burotukubian-ji-ju-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>處理兩個字串的相似度的一篇論文 :<a href="http://www.anlp.jp/proceedings/annual_meeting/2014/pdf_dir/D1-3.pdf">確率的ブロック編集距離</a> 。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[単語親密度]]></title>
@@ -63,22 +75,6 @@
 
 <p><a href="https://github.com/HIT-SCIR/ltp">ltp</a> 哈爾濱工業大學(哈工大)提供的中文自然語言處理平台，之前有看到哈工大有一提供
 一個線上的版本給人使用，而這個 <a href="https://github.com/HIT-SCIR/ltp">ltp</a> 應該就是提供給別人自行研究擴展的版本。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kagome 分詞器]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/08/kagome/"/>
-    <updated>2015-09-08T23:36:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/08/kagome</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/ikawaha/kagome">kagome</a></li>
-<li><a href="http://qiita.com/ikawaha/items/ff27ac03e22b7f36811b">Pure Go で辞書同梱な形態素解析器 kagome を公開してみました</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
