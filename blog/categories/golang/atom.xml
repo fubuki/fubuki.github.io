@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-25T23:23:59+08:00</updated>
+  <updated>2015-09-26T23:44:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python 遷移到 Golang 的注意事項]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/26/python-golang/"/>
+    <updated>2015-09-26T23:43:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/26/python-golang</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/">What Python developers need to know before migrating to Go(lang)</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
@@ -67,18 +79,6 @@
 
 <p>最近找了一些 IDE 最後決定用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 開發 golang，從官網下載 golang 的 msi 安裝檔，之後就可以用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 直接編譯程式碼，
 另外為了安裝套件需要設定設定 GOPATH 並且還要安裝 git，這樣便可以用 goget 取得需要的套件。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Golang 的 Goroutine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/07/golang-goroutine/"/>
-    <updated>2015-03-07T23:35:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/07/golang-goroutine</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>golang 的類似線程的東西，</p>
 ]]></content>
   </entry>
   
