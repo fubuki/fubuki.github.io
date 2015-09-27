@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-26T23:44:36+08:00</updated>
+  <updated>2015-09-27T23:24:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Random Forest Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/27/random-forest/"/>
+    <updated>2015-09-27T23:22:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/27/random-forest</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Random_forest">Random forest</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Count–min Sketch Algorithm]]></title>
@@ -66,20 +78,6 @@
 
 
 <p><a href="http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank: Bringing Order into Texts</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[FST and FSA]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/04/finite-state-transducer/"/>
-    <updated>2015-08-04T23:00:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/04/finite-state-transducer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在使用 Lucene 的時候看到在 4.0 增加了 FST 的方式處理自然語言，之前在自然語言處理綜論這本書上有看到關於 FST 的概念，
-其實就是 FSM ，這邊有一個使用 FST 的專案 <a href="https://github.com/OpenSextant/SolrTextTagger">SolrTextTagger</a> 是在一份關於如何處理多語言環境的簡報上看到的，剛好有這些契機，
-而且似乎可以用 FST 處理關於同義詞的問題，正好可以拿來研究。</p>
 ]]></content>
   </entry>
   
