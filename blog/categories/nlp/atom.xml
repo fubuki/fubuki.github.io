@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-27T23:24:19+08:00</updated>
+  <updated>2015-09-28T16:26:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wikipedia Language Pairs]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/28/wikipedia-parallel-titles-corpora/"/>
+    <updated>2015-09-28T16:24:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/28/wikipedia-parallel-titles-corpora</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://linguatools.org/tools/corpora/wikipedia-parallel-titles-corpora/">Wikipedia Parallel Titles Corpora</a></li>
+<li><a href="http://nlp4l.github.io/tutorial_ja.html#getCorpora_wiki">日本語Wikipediaからカタカナ語と英単語のペアを抽出する</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[確率的ブロック編集距離]]></title>
@@ -62,19 +78,6 @@
 <li><a href="http://www.mwsoft.jp/programming/munou/mecab_nitteretou.html">日本テレビ東京で学ぶMeCabのコスト計算</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LTP: Language Technology Platform]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform/"/>
-    <updated>2015-09-09T23:05:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/HIT-SCIR/ltp">ltp</a> 哈爾濱工業大學(哈工大)提供的中文自然語言處理平台，之前有看到哈工大有一提供
-一個線上的版本給人使用，而這個 <a href="https://github.com/HIT-SCIR/ltp">ltp</a> 應該就是提供給別人自行研究擴展的版本。</p>
 ]]></content>
   </entry>
   
