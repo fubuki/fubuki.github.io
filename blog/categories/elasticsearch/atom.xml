@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-28T16:26:56+08:00</updated>
+  <updated>2015-09-29T23:05:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Scroll and Scroll]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll/"/>
+    <updated>2015-09-29T23:03:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/scan-scroll.html">scan and scroll</a> 加速 elasticsearch 查詢速度。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[將資料從 Postgres 同步到 Elasticsearch]]></title>
@@ -70,20 +82,6 @@
 
 <p>最後轉換的結果有點少，只有一百九十萬多筆，有些資料似乎沒有匯入進去，之後要換用 Logstash
  匯入應該會有不一樣的結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch 適合的 Shard Size]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/03/elasticsearch-shard-size/"/>
-    <updated>2015-09-03T23:12:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/03/elasticsearch-shard-size</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在思考 elasticsearch 優化的部分，當 index 不斷擴大的時候怎麼處理，目前是想到將資料做
- shard 然後使用多個 node 加快搜尋的速度，但是這邊有個問題是每個 shard 的大小要怎麼決定，
- 這邊就暫時參考 <a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a> 裡面提到的指標和工具測試看看。</p>
 ]]></content>
   </entry>
   

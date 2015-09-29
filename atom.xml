@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-28T16:26:56+08:00</updated>
+  <updated>2015-09-29T23:05:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Scroll and Scroll]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll/"/>
+    <updated>2015-09-29T23:03:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/scan-scroll.html">scan and scroll</a> 加速 elasticsearch 查詢速度。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wikipedia Language Pairs]]></title>
@@ -252,19 +264,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch">Count–min sketch</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LTP: Language Technology Platform]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform/"/>
-    <updated>2015-09-09T23:05:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/09/ltp-language-technology-platform</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/HIT-SCIR/ltp">ltp</a> 哈爾濱工業大學(哈工大)提供的中文自然語言處理平台，之前有看到哈工大有一提供
-一個線上的版本給人使用，而這個 <a href="https://github.com/HIT-SCIR/ltp">ltp</a> 應該就是提供給別人自行研究擴展的版本。</p>
 ]]></content>
   </entry>
   

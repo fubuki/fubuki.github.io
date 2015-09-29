@@ -9,10 +9,12 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content=" Mecab 可以自行增加詞庫的內容，增加的內容從目前看到的資料有幾個可以使用，主要是要轉換成
-Mecab 可以吃的格式， Wikipedia jp
+  <meta name="description" content="Mecab 可以自行增加詞庫的內容，增加的內容從目前看到的資料有幾個可以使用，主要是要轉換成
+Mecab 可以吃的格式。 可以使用的資料來源 Wikipedia jp
 NicoNico
-hatenaキーワード ">
+hatenaキーワード 轉換方法 安裝 icu 工具用來轉換文字編碼。
+將輸入資料轉換成 csv 格式
+使用 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -107,7 +109,9 @@ hatenaキーワード ">
 
 
 <p>Mecab 可以自行增加詞庫的內容，增加的內容從目前看到的資料有幾個可以使用，主要是要轉換成
-Mecab 可以吃的格式，</p>
+Mecab 可以吃的格式。</p>
+
+<h3>可以使用的資料來源</h3>
 
 <ol>
 <li>Wikipedia jp</li>
@@ -115,6 +119,26 @@ Mecab 可以吃的格式，</p>
 <li>hatenaキーワード</li>
 </ol>
 
+
+<h3>轉換方法</h3>
+
+<ol>
+<li>安裝 icu 工具用來轉換文字編碼。</li>
+<li>將輸入資料轉換成 csv 格式</li>
+<li>使用 <code>mecab-dict-index</code> 將 csv 檔案轉換成 dic 檔案</li>
+</ol>
+
+
+<h3>問題</h3>
+
+<p>轉換時要注意跟 system dic 的編碼要相同不然會發生錯誤。</p>
+
+<pre><code>CHECK_CLOSE_FALSE(sysdic-&gt;isCompatible(*d)) &lt;&lt; "incompatible dictionary: "  
+
+context_id.cpp(88) [it != left_.end()] cannot find LEFT-
+</code></pre>
+
+<p>另外有個問題使用這樣的方式匯入的詞是沒有讀音的要另外想辦法輸入。</p>
 </div>
 
 
@@ -175,6 +199,10 @@ Mecab 可以吃的格式，</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/09/29/elasticsearch-scroll/">Elasticsearch Scroll and Scroll</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/09/28/wikipedia-parallel-titles-corpora/">Wikipedia Language Pairs</a>
       </li>
     
@@ -188,10 +216,6 @@ Mecab 可以吃的格式，</p>
     
       <li class="post">
         <a href="/blog/2015/09/25/git-team-merge-rebase/">Git Team Workflow</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/09/24/que-lu-de-burotukubian-ji-ju-li/">確率的ブロック編集距離</a>
       </li>
     
   </ul>
@@ -222,7 +246,7 @@ Mecab 可以吃的格式，</p>
   <li><a href='/blog/categories/design-pattern'>Design pattern (2)</a></li>
   <li><a href='/blog/categories/distributed-system'>Distributed system (2)</a></li>
   <li><a href='/blog/categories/docker'>Docker (9)</a></li>
-  <li><a href='/blog/categories/elasticsearch'>Elasticsearch (6)</a></li>
+  <li><a href='/blog/categories/elasticsearch'>Elasticsearch (7)</a></li>
   <li><a href='/blog/categories/erlang'>Erlang (6)</a></li>
   <li><a href='/blog/categories/firefox-os'>Firefox os (1)</a></li>
   <li><a href='/blog/categories/fluentd'>Fluentd (1)</a></li>
