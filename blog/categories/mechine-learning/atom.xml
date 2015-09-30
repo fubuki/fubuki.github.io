@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Mechine Learning | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/mechine-learning/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-09-30T23:38:21+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mallet : MAchine Learning for LanguagE Toolkit]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/30/mallet/"/>
+    <updated>2015-09-30T23:36:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/30/mallet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/mimno/Mallet">Mallet</a></p>
+
+<p><a href="http://diging.github.io/tethne/api/tutorial.mallet.html">Generating and Visualizing Topic Models with Tethne and MALLET</a></p>
+]]></content>
+  </entry>
+  
+</feed>

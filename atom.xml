@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-29T23:05:49+08:00</updated>
+  <updated>2015-09-30T23:38:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mallet : MAchine Learning for LanguagE Toolkit]]></title>
+    <link href="http://fubuki.github.io/blog/2015/09/30/mallet/"/>
+    <updated>2015-09-30T23:36:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/09/30/mallet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/mimno/Mallet">Mallet</a></p>
+
+<p><a href="http://diging.github.io/tethne/api/tutorial.mallet.html">Generating and Visualizing Topic Models with Tethne and MALLET</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Scroll and Scroll]]></title>
@@ -252,18 +266,6 @@
 <li><a href="http://www.mwsoft.jp/programming/munou/mecab_nitteretou.html">日本テレビ東京で学ぶMeCabのコスト計算</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Count–min Sketch Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/10/count-min-sketch-algorithm/"/>
-    <updated>2015-09-10T23:40:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/10/count-min-sketch-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch">Count–min sketch</a></p>
 ]]></content>
   </entry>
   
