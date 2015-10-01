@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-09-30T23:38:21+08:00</updated>
+  <updated>2015-10-01T22:33:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[評量搜尋結果的質量]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/01/judge-search-result/"/>
+    <updated>2015-10-01T22:19:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/01/judge-search-result</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/techblogyahoo/16lucenesolr-solrjp">第16回Lucene/Solr勉強会 – ランキングチューニングと定量評価</a> 在 solr 上使用 NDCG 評量搜尋結果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google 的 Word2vec 工具]]></title>
@@ -58,20 +70,6 @@
 
 
 <p><a href="https://blog.growth.supply/the-full-stack-developer-is-a-myth-4e3fb9c25867">The full stack developer is a myth</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[建立自己的 Dotfiles]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/30/dotfile/"/>
-    <updated>2015-08-30T22:30:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/30/dotfile</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/webpro/awesome-dotfiles">awesome-dotfiles</a></p>
-
-<p><a href="http://qiita.com/b4b4r07/items/b70178e021bef12cd4a2">最強の dotfiles 駆動開発と GitHub で管理する運用方法</a></p>
 ]]></content>
   </entry>
   
