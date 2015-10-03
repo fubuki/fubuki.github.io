@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-02T23:31:57+08:00</updated>
+  <updated>2015-10-03T22:33:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Caffe 測試一下]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/03/caffe/"/>
+    <updated>2015-10-03T22:28:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/03/caffe</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/BVLC/caffe">caffe</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Music Information Retrieval]]></title>
@@ -250,18 +262,6 @@
 需要另外重新訓練或是處理。</p>
 
 <p>最後就是介紹 word2vec，使用斷詞過的 wikipedia + gensim 建立資料，這是為了處理使用者搜尋不到的情形，找尋相關的關鍵字。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fish-shell]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/13/fish-shell/"/>
-    <updated>2015-09-13T21:53:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/13/fish-shell</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/fish-shell/fish-shell">fish-shell</a></p>
 ]]></content>
   </entry>
   
