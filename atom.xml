@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-03T22:33:58+08:00</updated>
+  <updated>2015-10-04T23:27:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[問答系統論文]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer/"/>
+    <updated>2015-10-04T23:18:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://arxiv.org/abs/1506.03340">Teaching Machines to Read and Comprehend</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Caffe 測試一下]]></title>
@@ -244,24 +256,6 @@
 
 
 <p><a href="http://lucene.jugem.jp/?eid=479">word2vec for Lucene</a> 使用 Lucene 的索引建立 word2vec 的資料。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MLDM Monday --- 中文搜尋經驗分享]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/14/mldm-monday-zhong-wen-sou-xun-jing-yan-fen-xiang/"/>
-    <updated>2015-09-14T23:26:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/14/mldm-monday-zhong-wen-sou-xun-jing-yan-fen-xiang</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天去參加一場 Meetup 內容是 <a href="http://blog.liang2.tw/2015Talk-Chinese-Search/#cover">中文搜尋經驗分享</a>，主要是講 Pinkoi 怎麼使用 elasticsearch 建立電商搜尋服務。</p>
-
-<p>內容是先簡介一下 elasticearch 然後解說怎麼使用  jieba ，並且使用一些繁體中文資源建立 jieba 分詞用的詞典，
-這邊是使用 wikipedia 和萌典，不過由於 jieba 是中國大陸那邊開發的所以有些訓練出來的模型像是 HMM 是針對簡體中文，
-需要另外重新訓練或是處理。</p>
-
-<p>最後就是介紹 word2vec，使用斷詞過的 wikipedia + gensim 建立資料，這是為了處理使用者搜尋不到的情形，找尋相關的關鍵字。</p>
 ]]></content>
   </entry>
   
