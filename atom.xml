@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-04T23:27:52+08:00</updated>
+  <updated>2015-10-05T23:44:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用統計方法作日本漢字轉換系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi/"/>
+    <updated>2015-10-05T23:40:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[問答系統論文]]></title>
@@ -244,18 +256,6 @@
 
 
 <p><a href="https://blog.growth.supply/the-full-stack-developer-is-a-myth-4e3fb9c25867">The full stack developer is a myth</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Lucene Index Data 建立 Word2vec 的資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/15/word2vec-for-lucene/"/>
-    <updated>2015-09-15T23:37:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/15/word2vec-for-lucene</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://lucene.jugem.jp/?eid=479">word2vec for Lucene</a> 使用 Lucene 的索引建立 word2vec 的資料。</p>
 ]]></content>
   </entry>
   

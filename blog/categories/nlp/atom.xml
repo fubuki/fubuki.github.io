@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-04T23:27:52+08:00</updated>
+  <updated>2015-10-05T23:44:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用統計方法作日本漢字轉換系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi/"/>
+    <updated>2015-10-05T23:40:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[問答系統論文]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="http://moguranosenshi.hatenablog.com/entry/2014/08/25/%E5%8D%98%E8%AA%9E%E8%A6%AA%E5%AF%86%E5%BA%A6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%96%87%E7%8C%AE%E7%B4%B9%E4%BB%8B">単語親密度に関する文献紹介</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GloVe]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/19/glove/"/>
-    <updated>2015-09-19T23:20:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/19/glove</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representation</a></p>
 ]]></content>
   </entry>
   
