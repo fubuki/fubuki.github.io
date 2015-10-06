@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-05T23:44:31+08:00</updated>
+  <updated>2015-10-06T22:24:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Brat 標註詞性]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/06/brat/"/>
+    <updated>2015-10-06T22:22:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/06/brat</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/nlplab/brat">brat</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用統計方法作日本漢字轉換系統]]></title>
@@ -244,18 +256,6 @@
 
 
 <p>elasticsearch  使用 <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html#search-aggregations">Aggregations</a> 取代 facted。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關於 Full Stack Developer 的存在]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/16/the-full-stack-developer-is-a-myth/"/>
-    <updated>2015-09-16T23:09:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/16/the-full-stack-developer-is-a-myth</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blog.growth.supply/the-full-stack-developer-is-a-myth-4e3fb9c25867">The full stack developer is a myth</a></p>
 ]]></content>
   </entry>
   
