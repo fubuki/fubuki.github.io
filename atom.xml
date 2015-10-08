@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-07T22:51:06+08:00</updated>
+  <updated>2015-10-08T22:44:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[監控 Elasticsearch 性能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/08/elasticsearch-metrics/"/>
+    <updated>2015-10-08T22:42:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/08/elasticsearch-metrics</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://radar.oreilly.com/2015/04/10-elasticsearch-metrics-to-watch.html">10 Elasticsearch metrics to watch</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch 索引文件的效能問題]]></title>
@@ -248,18 +260,6 @@
 
 
 <p><a href="http://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representation</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Factorization Machines]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/18/factorization-machines/"/>
-    <updated>2015-09-18T23:37:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/18/factorization-machines</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://libfm.org/">libFM: Factorization Machine Library</a></p>
 ]]></content>
   </entry>
   

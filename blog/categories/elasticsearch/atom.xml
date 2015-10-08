@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-07T22:51:06+08:00</updated>
+  <updated>2015-10-08T22:44:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[監控 Elasticsearch 性能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/08/elasticsearch-metrics/"/>
+    <updated>2015-10-08T22:42:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/08/elasticsearch-metrics</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://radar.oreilly.com/2015/04/10-elasticsearch-metrics-to-watch.html">10 Elasticsearch metrics to watch</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch 索引文件的效能問題]]></title>
@@ -62,24 +74,6 @@
 
 
 <p>elasticsearch  使用 <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html#search-aggregations">Aggregations</a> 取代 facted。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MLDM Monday --- 中文搜尋經驗分享]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/14/mldm-monday-zhong-wen-sou-xun-jing-yan-fen-xiang/"/>
-    <updated>2015-09-14T23:26:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/14/mldm-monday-zhong-wen-sou-xun-jing-yan-fen-xiang</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>今天去參加一場 Meetup 內容是 <a href="http://blog.liang2.tw/2015Talk-Chinese-Search/#cover">中文搜尋經驗分享</a>，主要是講 Pinkoi 怎麼使用 elasticsearch 建立電商搜尋服務。</p>
-
-<p>內容是先簡介一下 elasticearch 然後解說怎麼使用  jieba ，並且使用一些繁體中文資源建立 jieba 分詞用的詞典，
-這邊是使用 wikipedia 和萌典，不過由於 jieba 是中國大陸那邊開發的所以有些訓練出來的模型像是 HMM 是針對簡體中文，
-需要另外重新訓練或是處理。</p>
-
-<p>最後就是介紹 word2vec，使用斷詞過的 wikipedia + gensim 建立資料，這是為了處理使用者搜尋不到的情形，找尋相關的關鍵字。</p>
 ]]></content>
   </entry>
   
