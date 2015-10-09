@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-08T22:44:15+08:00</updated>
+  <updated>2015-10-09T23:15:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile Web Framework : Ampproject]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/09/ampproject/"/>
+    <updated>2015-10-09T22:59:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/09/ampproject</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.ampproject.org/">ampproject</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Music Information Retrieval]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database">Lightning Memory-Mapped Database</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Factorization Machines]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/18/factorization-machines/"/>
-    <updated>2015-09-18T23:37:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/18/factorization-machines</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://libfm.org/">libFM: Factorization Machine Library</a></p>
 ]]></content>
   </entry>
   

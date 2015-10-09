@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-08T22:44:15+08:00</updated>
+  <updated>2015-10-09T23:15:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mobile Web Framework : Ampproject]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/09/ampproject/"/>
+    <updated>2015-10-09T22:59:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/09/ampproject</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.ampproject.org/">ampproject</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[監控 Elasticsearch 性能]]></title>
@@ -248,18 +260,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database">Lightning Memory-Mapped Database</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GloVe]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/19/glove/"/>
-    <updated>2015-09-19T23:20:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/19/glove</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representation</a></p>
 ]]></content>
   </entry>
   
