@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-09T23:15:26+08:00</updated>
+  <updated>2015-10-10T23:50:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Electric Eye 測試輸出畫面]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/10/electric-eye/"/>
+    <updated>2015-10-10T23:49:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/10/electric-eye</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2015/09/announcing-electric-eye.html">Announcing Electric Eye</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mobile Web Framework : Ampproject]]></title>
@@ -248,18 +260,6 @@
 
 
 <p><a href="https://gocardless.com/blog/syncing-postgres-to-elasticsearch-lessons-learned/">Syncing Postgres to Elasticsearch: lessons learned</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lightning Memory-Mapped Database]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database/"/>
-    <updated>2015-09-20T21:53:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/20/lightning-memory-mapped-database</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database">Lightning Memory-Mapped Database</a></p>
 ]]></content>
   </entry>
   
