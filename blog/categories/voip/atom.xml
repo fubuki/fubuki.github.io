@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Voip | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/voip/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-12T23:41:07+08:00</updated>
+  <updated>2015-10-13T23:50:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Line Voip System Quality]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/13/line-voip/"/>
+    <updated>2015-10-13T23:48:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/13/line-voip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://developers.linecorp.com/blog/?p=3593">Improving Call Quality On Popcorn Buzz, A Multi-user Call Service</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Opus Codec]]></title>
