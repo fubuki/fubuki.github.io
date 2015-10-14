@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-13T23:50:34+08:00</updated>
+  <updated>2015-10-14T23:44:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GraphQL With Restful Api]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/14/graphql/"/>
+    <updated>2015-10-14T23:36:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/14/graphql</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://graphql.org/">graphql</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Electric Eye 測試輸出畫面]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://www.slideshare.net/techblogyahoo/16lucenesolr-solrjp">第16回Lucene/Solr勉強会 – ランキングチューニングと定量評価</a> 在 solr 上使用 NDCG 評量搜尋結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google 的 Word2vec 工具]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/22/google-word2vec/"/>
-    <updated>2015-09-22T23:27:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/22/google-word2vec</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>google 最一開始放出的版本: <a href="https://code.google.com/p/word2vec/">word2vec</a></p>
 ]]></content>
   </entry>
   
