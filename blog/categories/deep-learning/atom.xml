@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Deep Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-14T23:44:39+08:00</updated>
+  <updated>2015-10-15T23:40:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 的 FaceNet]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/15/facenet/"/>
+    <updated>2015-10-15T23:36:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/15/facenet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>FaceNet: A Unified Embedding for Face Recognition and Clustering</p>
+
+<p><a href="https://github.com/cmusatyalab/openface">openface</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Caffe 測試一下]]></title>
@@ -68,16 +82,6 @@
 <li>Karpathy and Fei-Fei from Stanford (CNN + RNN)</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Theano]]></title>
-    <link href="http://fubuki.github.io/blog/2014/02/28/theano/"/>
-    <updated>2014-02-28T11:51:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/02/28/theano</id>
-    <content type="html"><![CDATA[<p>python 一個跟機器學習有關的函式庫，支援GPU運算和產生C語言的程式碼加快程式執行的時間。
-<a href="http://deeplearning.net/software/theano/index.html">http://deeplearning.net/software/theano/index.html</a></p>
 ]]></content>
   </entry>
   

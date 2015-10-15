@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-14T23:44:39+08:00</updated>
+  <updated>2015-10-15T23:40:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 的 FaceNet]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/15/facenet/"/>
+    <updated>2015-10-15T23:36:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/15/facenet</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>FaceNet: A Unified Embedding for Face Recognition and Clustering</p>
+
+<p><a href="https://github.com/cmusatyalab/openface">openface</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GraphQL With Restful Api]]></title>
@@ -250,18 +264,6 @@
 
 
 <p><a href="https://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/">What Python developers need to know before migrating to Go(lang)</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Team Workflow]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/25/git-team-merge-rebase/"/>
-    <updated>2015-09-25T23:21:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/25/git-team-merge-rebase</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/">Git team workflows: merge or rebase?</a> 在團隊工作的時候使用 merge 還是使用 rebase 會比較好。</p>
 ]]></content>
   </entry>
   
