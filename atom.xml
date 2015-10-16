@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-15T23:40:41+08:00</updated>
+  <updated>2015-10-16T23:57:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Smartcrop 切取圖片]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/16/smart-crop/"/>
+    <updated>2015-10-16T23:30:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/16/smart-crop</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前做切圖的功能希望能夠保留圖片的最多的資訊，那時有整理幾個既有的專案和論文。</p>
+
+<p>而這邊有個新看到的專案就順便紀錄起來並且看一下對方怎麼做。</p>
+
+<p><a href="https://github.com/jwagner/smartcrop.js">smartcrop.js</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google 的 FaceNet]]></title>
@@ -252,18 +268,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Random_forest">Random forest</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python 遷移到 Golang 的注意事項]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/26/python-golang/"/>
-    <updated>2015-09-26T23:43:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/26/python-golang</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/">What Python developers need to know before migrating to Go(lang)</a></p>
 ]]></content>
   </entry>
   
