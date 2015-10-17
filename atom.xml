@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-16T23:57:24+08:00</updated>
+  <updated>2015-10-17T22:10:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch More Like This 開發範例]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/17/more-like-this/"/>
+    <updated>2015-10-17T22:08:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/17/more-like-this</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/shunsukekozawa5/hatena-engineer-seminar-5">はてなブックマークに基づく関連記事レコメンドエンジンの開発</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Smartcrop 切取圖片]]></title>
@@ -256,18 +268,6 @@
 <li><a href="http://nlp4l.github.io/tutorial_ja.html#getCorpora_wiki">日本語Wikipediaからカタカナ語と英単語のペアを抽出する</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Random Forest Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/27/random-forest/"/>
-    <updated>2015-09-27T23:22:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/27/random-forest</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Random_forest">Random forest</a></p>
 ]]></content>
   </entry>
   

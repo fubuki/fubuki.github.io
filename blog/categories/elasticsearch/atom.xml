@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-16T23:57:24+08:00</updated>
+  <updated>2015-10-17T22:10:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch More Like This 開發範例]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/17/more-like-this/"/>
+    <updated>2015-10-17T22:08:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/17/more-like-this</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/shunsukekozawa5/hatena-engineer-seminar-5">はてなブックマークに基づく関連記事レコメンドエンジンの開発</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[監控 Elasticsearch 性能]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="https://gocardless.com/blog/syncing-postgres-to-elasticsearch-lessons-learned/">Syncing Postgres to Elasticsearch: lessons learned</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch 的 Aggregations 功能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/17/elasticsearch-aggregations/"/>
-    <updated>2015-09-17T00:24:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/17/elasticsearch-aggregations</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>elasticsearch  使用 <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html#search-aggregations">Aggregations</a> 取代 facted。</p>
 ]]></content>
   </entry>
   
