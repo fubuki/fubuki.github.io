@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-17T22:10:05+08:00</updated>
+  <updated>2015-10-18T22:47:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[偵測行人演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/18/inria/"/>
+    <updated>2015-10-18T22:38:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/18/inria</id>
+    <content type="html"><![CDATA[<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch More Like This 開發範例]]></title>
@@ -252,22 +261,6 @@
 
 
 <p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/scan-scroll.html">scan and scroll</a> 加速 elasticsearch 查詢速度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wikipedia Language Pairs]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/28/wikipedia-parallel-titles-corpora/"/>
-    <updated>2015-09-28T16:24:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/28/wikipedia-parallel-titles-corpora</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="http://linguatools.org/tools/corpora/wikipedia-parallel-titles-corpora/">Wikipedia Parallel Titles Corpora</a></li>
-<li><a href="http://nlp4l.github.io/tutorial_ja.html#getCorpora_wiki">日本語Wikipediaからカタカナ語と英単語のペアを抽出する</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
