@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-18T22:47:06+08:00</updated>
+  <updated>2015-10-19T23:48:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/10/18/inria/"/>
     <updated>2015-10-18T22:38:47+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/10/18/inria</id>
-    <content type="html"><![CDATA[<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
 ]]></content>
   </entry>
   

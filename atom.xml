@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-18T22:47:06+08:00</updated>
+  <updated>2015-10-19T23:48:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,28 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Murmur3 on Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/19/murmur3/"/>
+    <updated>2015-10-19T23:45:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/19/murmur3</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/MurmurHash">MurmurHash</a></p>
+
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/mapper-murmur3-usage.html">murmur3 field</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[偵測行人演算法]]></title>
     <link href="http://fubuki.github.io/blog/2015/10/18/inria/"/>
     <updated>2015-10-18T22:38:47+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/10/18/inria</id>
-    <content type="html"><![CDATA[<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
 ]]></content>
   </entry>
   
@@ -249,18 +266,6 @@
 <p><a href="https://github.com/mimno/Mallet">Mallet</a></p>
 
 <p><a href="http://diging.github.io/tethne/api/tutorial.mallet.html">Generating and Visualizing Topic Models with Tethne and MALLET</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Scroll and Scroll]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll/"/>
-    <updated>2015-09-29T23:03:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/29/elasticsearch-scroll</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/scan-scroll.html">scan and scroll</a> 加速 elasticsearch 查詢速度。</p>
 ]]></content>
   </entry>
   
