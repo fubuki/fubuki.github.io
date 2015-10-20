@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-19T23:48:50+08:00</updated>
+  <updated>2015-10-20T23:27:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CIFAR-10 Dataset]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/20/cifar-10/"/>
+    <updated>2015-10-20T23:24:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/20/cifar-10</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec 建立本體模型]]></title>
@@ -70,16 +82,6 @@
 <p>這篇文章主要是提供初學者如何開始學習的方法，我覺得還蠻不錯，目前有些語言提供關於機器學習的函式庫，我這邊主要是用python的scikit-learn，因為可以直接搭配其他函式庫完成我想要的功能，雖然我也有使用R語言不過主要使用在統計跟產生圖表上，python這邊我可以直接搭配Scrapy和NLTK作出分析網路文章的功能。</p>
 
 <p>另外文章有提到挑選一個數據集，然後選擇一種最適合的算法去處理他，目前有不少公開資料可以使用，之前在弄Mahout的時候我也有有找跟電影相關的資料可以使用，但是我比較偏向自然語言處理這部分，去分析這篇留言的評論是負面還是正面以及文章推薦系統，不過我想文章作者想要初學者找一個資料去分析主要是希望能夠了解各種資料都有他適合的算法，而要選擇適合的算法是我覺得最困難的地方，因為不同類型資料有不同的特性，如果不是在那方面有相關知識的人是比較難處理。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apache Mahout]]></title>
-    <link href="http://fubuki.github.io/blog/2014/03/21/apache-mahout/"/>
-    <updated>2014-03-21T23:42:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/03/21/apache-mahout</id>
-    <content type="html"><![CDATA[<p>似乎跟機器學習有關的專案，內建多種演算法，之前有用過電影評論的資料測試mahout的功能
-之後等有空就來實現一些現實生活的例子。</p>
 ]]></content>
   </entry>
   

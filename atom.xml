@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-19T23:48:50+08:00</updated>
+  <updated>2015-10-20T23:27:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CIFAR-10 Dataset]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/20/cifar-10/"/>
+    <updated>2015-10-20T23:24:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/20/cifar-10</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Murmur3 on Elasticsearch]]></title>
@@ -252,20 +264,6 @@
 
 
 <p><a href="http://www.slideshare.net/techblogyahoo/16lucenesolr-solrjp">第16回Lucene/Solr勉強会 – ランキングチューニングと定量評価</a> 在 solr 上使用 NDCG 評量搜尋結果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mallet : MAchine Learning for LanguagE Toolkit]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/30/mallet/"/>
-    <updated>2015-09-30T23:36:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/30/mallet</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/mimno/Mallet">Mallet</a></p>
-
-<p><a href="http://diging.github.io/tethne/api/tutorial.mallet.html">Generating and Visualizing Topic Models with Tethne and MALLET</a></p>
 ]]></content>
   </entry>
   
