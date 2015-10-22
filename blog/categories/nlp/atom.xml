@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-21T23:14:53+08:00</updated>
+  <updated>2015-10-22T23:05:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Comainu 切詞]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/22/comainu/"/>
+    <updated>2015-10-22T22:55:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/22/comainu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一些問答系統的文章]]></title>
@@ -60,18 +72,6 @@
 
 
 <p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[問答系統論文]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer/"/>
-    <updated>2015-10-04T23:18:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://arxiv.org/abs/1506.03340">Teaching Machines to Read and Comprehend</a></p>
 ]]></content>
   </entry>
   

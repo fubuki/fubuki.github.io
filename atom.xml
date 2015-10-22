@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-21T23:14:53+08:00</updated>
+  <updated>2015-10-22T23:05:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Comainu 切詞]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/22/comainu/"/>
+    <updated>2015-10-22T22:55:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/22/comainu</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一些問答系統的文章]]></title>
@@ -252,18 +264,6 @@
 
 
 <p><a href="https://github.com/BVLC/caffe">caffe</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Music Information Retrieval]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/02/music-information-retrieval/"/>
-    <updated>2015-10-02T23:25:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/02/music-information-retrieval</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Music_information_retrieval">Music information retrieval</a> 試試看 MFCC 找出類似的歌曲。</p>
 ]]></content>
   </entry>
   
