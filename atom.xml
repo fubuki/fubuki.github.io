@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-23T23:33:38+08:00</updated>
+  <updated>2015-10-24T23:28:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch 載入順序]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process/"/>
+    <updated>2015-10-24T23:16:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Bootstrap</h3>
+
+<ol>
+<li>org.elasticsearch.bootstrap</li>
+<li>init</li>
+<li>bootstrapCLIParser</li>
+<li>bootstrap</li>
+<li>nodbuilder</li>
+<li>node</li>
+<li>node start</li>
+</ol>
+
+
+<h3>Node</h3>
+
+<ol>
+<li>node load settings</li>
+<li>node start</li>
+<li>node load classes</li>
+</ol>
+
+
+<h3>node loaded classes</h3>
+
+<pre><code>    injector.getInstance(MappingUpdatedAction.class).setClient(client);
+    injector.getInstance(IndicesService.class).start();
+    injector.getInstance(IndexingMemoryController.class).start();
+    injector.getInstance(IndicesClusterStateService.class).start();
+    injector.getInstance(IndicesTTLService.class).start();
+    injector.getInstance(SnapshotsService.class).start();
+    injector.getInstance(SnapshotShardsService.class).start();
+    injector.getInstance(TransportService.class).start();
+    injector.getInstance(ClusterService.class).start();
+    injector.getInstance(RoutingService.class).start();
+    injector.getInstance(SearchService.class).start();
+    injector.getInstance(MonitorService.class).start();
+    injector.getInstance(RestController.class).start();
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WebAssembly 相關使用事宜]]></title>
@@ -252,18 +301,6 @@
 
 
 <p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[問答系統論文]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer/"/>
-    <updated>2015-10-04T23:18:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/04/machine-read-and-answer</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://arxiv.org/abs/1506.03340">Teaching Machines to Read and Comprehend</a></p>
 ]]></content>
   </entry>
   
