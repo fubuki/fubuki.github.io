@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-24T23:28:02+08:00</updated>
+  <updated>2015-10-25T22:26:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[註解長度跟 Nodejs 效能關係]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/25/nodejs-a-quick-optimization-advice/"/>
+    <updated>2015-10-25T22:13:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/25/nodejs-a-quick-optimization-advice</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://top.fse.guru/nodejs-a-quick-optimization-advice-7353b820c92e#.99rjxrtk1">#NodeJS : A quick optimization advice</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch 載入順序]]></title>
@@ -289,18 +301,6 @@
 
 
 <p><a href="https://github.com/nlplab/brat">brat</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用統計方法作日本漢字轉換系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi/"/>
-    <updated>2015-10-05T23:40:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
 ]]></content>
   </entry>
   
