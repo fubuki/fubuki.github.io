@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-25T22:26:39+08:00</updated>
+  <updated>2015-10-26T23:51:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP-FPM and Apache 2.4.17]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17/"/>
+    <updated>2015-10-26T23:50:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]</p>
+
+<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]:<a href="https://bugs.php.net/bug.php?id=70757">https://bugs.php.net/bug.php?id=70757</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Smartcrop 切取圖片]]></title>
@@ -62,18 +76,6 @@
 
 
 <p><a href="https://www.ampproject.org/">ampproject</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Music Information Retrieval]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/02/music-information-retrieval/"/>
-    <updated>2015-10-02T23:25:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/02/music-information-retrieval</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Music_information_retrieval">Music information retrieval</a> 試試看 MFCC 找出類似的歌曲。</p>
 ]]></content>
   </entry>
   
