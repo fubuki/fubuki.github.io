@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-26T23:51:44+08:00</updated>
+  <updated>2015-10-27T23:45:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP-FPM and Apache 2.4.17]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17/"/>
+    <updated>2015-10-26T23:50:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]</p>
+
+<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]:<a href="https://bugs.php.net/bug.php?id=70757">https://bugs.php.net/bug.php?id=70757</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 處理 Unicode 字元]]></title>
@@ -97,22 +111,6 @@ $result = $date-&gt;modify( '-1 day' );
 
 <pre><code>DateInterval();
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP : Pthreads Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/05/pthreads/"/>
-    <updated>2015-04-05T21:28:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/05/pthreads</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://computing.llnl.gov/tutorials/pthreads/">pthreads</a></li>
-<li><a href="https://github.com/krakjoe/pthreads">php pthreads</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
