@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-27T23:45:19+08:00</updated>
+  <updated>2015-10-28T23:48:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Recip Function]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/28/elasticsearch-recip/"/>
+    <updated>2015-10-28T23:44:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/28/elasticsearch-recip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在 elasticsearch 使用 script 實作 solr 的 recip function.</p>
+
+<p>在 <code>config/script</code> 建立 <code>time_boost.groovy</code>，在 query time 引入 script_file 並且傳入現在時間。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch 載入順序]]></title>
@@ -97,22 +111,6 @@
 
 
 <p><a href="http://radar.oreilly.com/2015/04/10-elasticsearch-metrics-to-watch.html">10 Elasticsearch metrics to watch</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch 索引文件的效能問題]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/07/elasticsearch-indexing-performance/"/>
-    <updated>2015-10-07T22:47:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/07/elasticsearch-indexing-performance</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/indexing-performance.html">Indexing Performance Tips</a></li>
-<li><a href="https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/">Elasticsearch Indexing Performance Cheatsheet</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
