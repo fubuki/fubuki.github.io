@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-28T23:48:44+08:00</updated>
+  <updated>2015-10-29T23:49:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 C++ 撰寫一個作業系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/29/c-plus-plus-operatiing-system/"/>
+    <updated>2015-10-29T23:47:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/29/c-plus-plus-operatiing-system</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.gitbook.com/book/samypesse/how-to-create-an-operating-system/details">How to make an Operating System</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Recip Function]]></title>
@@ -289,18 +301,6 @@
 
 
 <p><a href="http://techblog.netflix.com/2015/09/announcing-electric-eye.html">Announcing Electric Eye</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mobile Web Framework : Ampproject]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/09/ampproject/"/>
-    <updated>2015-10-09T22:59:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/09/ampproject</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.ampproject.org/">ampproject</a></p>
 ]]></content>
   </entry>
   
