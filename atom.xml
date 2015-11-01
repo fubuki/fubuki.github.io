@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-10-31T23:31:55+08:00</updated>
+  <updated>2015-11-01T23:41:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YAPC::Asia Tokyo 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/01/yapc/"/>
+    <updated>2015-11-01T23:31:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/01/yapc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://yapcasia.org/2015/">YAPC 2015 </a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Watcher and Elastalert]]></title>
@@ -291,18 +303,6 @@
 
 
 <p><a href="http://developers.linecorp.com/blog/?p=3593">Improving Call Quality On Popcorn Buzz, A Multi-user Call Service</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hubspot 的 Kafka 效能指標]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/12/kafka-hubspot/"/>
-    <updated>2015-10-12T23:37:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/12/kafka-hubspot</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://product.hubspot.com/blog/kafka-at-hubspot-part-1-critical-consumer-metrics">Kafka at HubSpot: Critical Consumer Metrics</a></p>
 ]]></content>
   </entry>
   
