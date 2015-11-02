@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-01T23:41:06+08:00</updated>
+  <updated>2015-11-02T23:50:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -22,6 +22,15 @@
 
 
 <p><a href="http://yapcasia.org/2015/">YAPC 2015 </a></p>
+
+<ol>
+<li>世界展開する大規模ウェブサービスのデプロイを支える技術</li>
+<li>Technology for reduce a mistake</li>
+<li>MySQLで2億件のシリアルデータと格闘したチューニングの話</li>
+<li>Website Architecture for HTTP/2 Era</li>
+<li>Conway&rsquo;s Law of Distributed Work</li>
+</ol>
+
 ]]></content>
   </entry>
   

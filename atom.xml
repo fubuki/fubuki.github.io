@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-01T23:41:06+08:00</updated>
+  <updated>2015-11-02T23:50:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新浪使用 ELK 處理 Log]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/02/sina/"/>
+    <updated>2015-11-02T23:46:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/02/sina</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dockone.io/article/505">新浪是如何分析处理32亿条实时日志</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YAPC::Asia Tokyo 2015]]></title>
@@ -22,6 +34,15 @@
 
 
 <p><a href="http://yapcasia.org/2015/">YAPC 2015 </a></p>
+
+<ol>
+<li>世界展開する大規模ウェブサービスのデプロイを支える技術</li>
+<li>Technology for reduce a mistake</li>
+<li>MySQLで2億件のシリアルデータと格闘したチューニングの話</li>
+<li>Website Architecture for HTTP/2 Era</li>
+<li>Conway&rsquo;s Law of Distributed Work</li>
+</ol>
+
 ]]></content>
   </entry>
   
@@ -291,18 +312,6 @@
 
 
 <p><a href="http://graphql.org/">graphql</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Line Voip System Quality]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/13/line-voip/"/>
-    <updated>2015-10-13T23:48:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/13/line-voip</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://developers.linecorp.com/blog/?p=3593">Improving Call Quality On Popcorn Buzz, A Multi-user Call Service</a></p>
 ]]></content>
   </entry>
   
