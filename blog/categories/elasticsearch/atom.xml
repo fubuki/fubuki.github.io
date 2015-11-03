@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-02T23:50:12+08:00</updated>
+  <updated>2015-11-03T23:17:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Significant Terms 運用]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant/"/>
+    <updated>2015-11-03T23:10:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.comperiosearch.com/blog/2015/06/10/how-elasticsearch-calculates-significant-terms/">How Elasticsearch calculates significant terms</a></p>
+
+<p><a href="http://www.slideshare.net/shunsukekozawa5/ss-44579618">はてなブックマークの新機能における自然言語処理の活用</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Watcher and Elastalert]]></title>
@@ -103,18 +117,6 @@
 <p><a href="https://en.wikipedia.org/wiki/MurmurHash">MurmurHash</a></p>
 
 <p><a href="https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/mapper-murmur3-usage.html">murmur3 field</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch More Like This 開發範例]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/17/more-like-this/"/>
-    <updated>2015-10-17T22:08:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/17/more-like-this</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/hatena-engineer-seminar-5">はてなブックマークに基づく関連記事レコメンドエンジンの開発</a></p>
 ]]></content>
   </entry>
   

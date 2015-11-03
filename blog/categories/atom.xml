@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-02T23:50:12+08:00</updated>
+  <updated>2015-11-03T23:17:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -29,6 +29,8 @@
 <li>MySQLで2億件のシリアルデータと格闘したチューニングの話</li>
 <li>Website Architecture for HTTP/2 Era</li>
 <li>Conway&rsquo;s Law of Distributed Work</li>
+<li>Advanced technic for OS upgrading in 3 minute</li>
+<li>Technologies for Data Analytics Platform</li>
 </ol>
 
 ]]></content>
