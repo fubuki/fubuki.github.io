@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-04T23:29:10+08:00</updated>
+  <updated>2015-11-05T23:31:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[改善全文搜尋的精準度]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan/"/>
+    <updated>2015-11-05T23:29:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://speakerdeck.com/takuyaa/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan">はてなブックマーク全文検索の精度改善</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Significant Terms 運用]]></title>
@@ -103,20 +115,6 @@
     injector.getInstance(MonitorService.class).start();
     injector.getInstance(RestController.class).start();
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Murmur3 on Elasticsearch]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/19/murmur3/"/>
-    <updated>2015-10-19T23:45:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/19/murmur3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/MurmurHash">MurmurHash</a></p>
-
-<p><a href="https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/mapper-murmur3-usage.html">murmur3 field</a></p>
 ]]></content>
   </entry>
   
