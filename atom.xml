@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-05T23:31:25+08:00</updated>
+  <updated>2015-11-06T00:53:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[從 Twitter 取出關鍵短語]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter/"/>
+    <updated>2015-11-06T00:51:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/shunsukekozawa5/topical-keyphrase-extraction-from-twitter-34391611">Topical keyphrase extraction from twitter</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[改善全文搜尋的精準度]]></title>
@@ -298,18 +310,6 @@
 
 
 <p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch More Like This 開發範例]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/17/more-like-this/"/>
-    <updated>2015-10-17T22:08:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/17/more-like-this</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/hatena-engineer-seminar-5">はてなブックマークに基づく関連記事レコメンドエンジンの開発</a></p>
 ]]></content>
   </entry>
   

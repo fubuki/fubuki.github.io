@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-05T23:31:25+08:00</updated>
+  <updated>2015-11-06T00:53:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[從 Twitter 取出關鍵短語]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter/"/>
+    <updated>2015-11-06T00:51:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/shunsukekozawa5/topical-keyphrase-extraction-from-twitter-34391611">Topical keyphrase extraction from twitter</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YAPC::Asia Tokyo 2015]]></title>
@@ -73,18 +85,6 @@
 <p>而這邊有個新看到的專案就順便紀錄起來並且看一下對方怎麼做。</p>
 
 <p><a href="https://github.com/jwagner/smartcrop.js">smartcrop.js</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GraphQL With Restful Api]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/14/graphql/"/>
-    <updated>2015-10-14T23:36:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/14/graphql</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://graphql.org/">graphql</a></p>
 ]]></content>
   </entry>
   
