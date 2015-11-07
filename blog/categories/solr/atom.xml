@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-06T00:53:34+08:00</updated>
+  <updated>2015-11-07T23:57:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第17回Lucene/Solr 讀書會資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/07/sorlr-17/"/>
+    <updated>2015-11-07T23:55:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/07/sorlr-17</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Splainer : Explain Solr Result]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="https://cwiki.apache.org/confluence/display/solr/Phonetic+Matching">Phonetic Matching</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr 限制使用者搜尋結果]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/27/solr-document-filter/"/>
-    <updated>2015-06-27T23:36:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/27/solr-document-filter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://trello.com/c/5z5PpR4r/50-design-solr-document-level-security-filter-solution">Design Solr document level security filter solution</a></p>
 ]]></content>
   </entry>
   
