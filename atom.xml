@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-07T23:57:32+08:00</updated>
+  <updated>2015-11-08T23:55:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pyspider 紀錄]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/08/pyspider/"/>
+    <updated>2015-11-08T23:54:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/08/pyspider</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/binux/pyspider">pyspider</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[第17回Lucene/Solr 讀書會資料]]></title>
@@ -296,20 +308,6 @@
 
 
 <p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Murmur3 on Elasticsearch]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/19/murmur3/"/>
-    <updated>2015-10-19T23:45:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/19/murmur3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/MurmurHash">MurmurHash</a></p>
-
-<p><a href="https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/mapper-murmur3-usage.html">murmur3 field</a></p>
 ]]></content>
   </entry>
   
