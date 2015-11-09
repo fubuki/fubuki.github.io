@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-08T23:55:43+08:00</updated>
+  <updated>2015-11-09T22:55:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Calculate the Idf in Distribute Condition]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/09/distribute-idf/"/>
+    <updated>2015-11-09T22:35:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/09/distribute-idf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在分散式環境下計算 idf 產生的問題。</p>
+
+<ol>
+<li><a href="https://issues.apache.org/jira/browse/SOLR-1632">Distributed IDF</a></li>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-is-broken.html">Relevance Is Broken</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[改善全文搜尋的精準度]]></title>
@@ -66,55 +84,6 @@
 <p>在 elasticsearch 使用 script 實作 solr 的 recip function.</p>
 
 <p>在 <code>config/script</code> 建立 <code>time_boost.groovy</code>，在 query time 引入 script_file 並且傳入現在時間。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch 載入順序]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process/"/>
-    <updated>2015-10-24T23:16:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Bootstrap</h3>
-
-<ol>
-<li>org.elasticsearch.bootstrap</li>
-<li>init</li>
-<li>bootstrapCLIParser</li>
-<li>bootstrap</li>
-<li>nodbuilder</li>
-<li>node</li>
-<li>node start</li>
-</ol>
-
-
-<h3>Node</h3>
-
-<ol>
-<li>node load settings</li>
-<li>node start</li>
-<li>node load classes</li>
-</ol>
-
-
-<h3>node loaded classes</h3>
-
-<pre><code>    injector.getInstance(MappingUpdatedAction.class).setClient(client);
-    injector.getInstance(IndicesService.class).start();
-    injector.getInstance(IndexingMemoryController.class).start();
-    injector.getInstance(IndicesClusterStateService.class).start();
-    injector.getInstance(IndicesTTLService.class).start();
-    injector.getInstance(SnapshotsService.class).start();
-    injector.getInstance(SnapshotShardsService.class).start();
-    injector.getInstance(TransportService.class).start();
-    injector.getInstance(ClusterService.class).start();
-    injector.getInstance(RoutingService.class).start();
-    injector.getInstance(SearchService.class).start();
-    injector.getInstance(MonitorService.class).start();
-    injector.getInstance(RestController.class).start();
-</code></pre>
 ]]></content>
   </entry>
   

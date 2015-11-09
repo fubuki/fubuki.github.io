@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-08T23:55:43+08:00</updated>
+  <updated>2015-11-09T22:55:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-
+<p><a href="https://solr.doorkeeper.jp/events/32633">第17回Lucene/Solr勉強会 #SolrJP</a></p>
 ]]></content>
   </entry>
   

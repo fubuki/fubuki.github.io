@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-08T23:55:43+08:00</updated>
+  <updated>2015-11-09T22:55:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,18 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Pyspider 紀錄]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/08/pyspider/"/>
-    <updated>2015-11-08T23:54:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/08/pyspider</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/binux/pyspider">pyspider</a></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[從 Twitter 取出關鍵短語]]></title>
@@ -81,6 +69,22 @@
 
 
 <p><a href="https://www.gitbook.com/book/samypesse/how-to-create-an-operating-system/details">How to make an Operating System</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Smartcrop 切取圖片]]></title>
+    <link href="http://fubuki.github.io/blog/2015/10/16/smart-crop/"/>
+    <updated>2015-10-16T23:30:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/10/16/smart-crop</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>以前做切圖的功能希望能夠保留圖片的最多的資訊，那時有整理幾個既有的專案和論文。</p>
+
+<p>而這邊有個新看到的專案就順便紀錄起來並且看一下對方怎麼做。</p>
+
+<p><a href="https://github.com/jwagner/smartcrop.js">smartcrop.js</a></p>
 ]]></content>
   </entry>
   

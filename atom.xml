@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-08T23:55:43+08:00</updated>
+  <updated>2015-11-09T22:55:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Calculate the Idf in Distribute Condition]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/09/distribute-idf/"/>
+    <updated>2015-11-09T22:35:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/09/distribute-idf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>在分散式環境下計算 idf 產生的問題。</p>
+
+<ol>
+<li><a href="https://issues.apache.org/jira/browse/SOLR-1632">Distributed IDF</a></li>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-is-broken.html">Relevance Is Broken</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pyspider 紀錄]]></title>
@@ -33,7 +51,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-
+<p><a href="https://solr.doorkeeper.jp/events/32633">第17回Lucene/Solr勉強会 #SolrJP</a></p>
 ]]></content>
   </entry>
   
@@ -296,18 +314,6 @@
 
 
 <p><a href="http://qiita.com/HirofumiYashima/items/1eb3cf4d41d9a56a0c95">「質問応答マシン」 </a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CIFAR-10 Dataset]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/20/cifar-10/"/>
-    <updated>2015-10-20T23:24:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/20/cifar-10</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
 ]]></content>
   </entry>
   

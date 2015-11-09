@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-08T23:55:43+08:00</updated>
+  <updated>2015-11-09T22:55:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pyspider 紀錄]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/08/pyspider/"/>
+    <updated>2015-11-08T23:54:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/08/pyspider</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/binux/pyspider">pyspider</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python Decorator 用法]]></title>
@@ -90,36 +102,6 @@
 </code></pre>
 
 <p>使用 ldconfig 指定 lib 位置後重新編譯安裝 mode_wsgi 就建立好環境了。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lighttpd 搭配 Fastcgi 和 Webpy]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py/"/>
-    <updated>2014-12-12T00:18:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/12/lighttpd-fastcgi-web-dot-py</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究別人寫的專案看到使用 Lighttpd 跑 Python 的程式碼，透過 Fastcgi 跟 Python 程式碼溝通，
-Python 端則是使用 <a href="http://webpy.org">Webpy</a>，環境可以參考 <a href="http://webpy.org/cookbook/fastcgi-lighttpd">Webpy + LightTTPD with FastCGi</a>。</p>
-
-<pre><code>apt-get install lighttpd
-vim /etc/lighttpd/lighttpd.conf
-
-fastcgi.server = ( "/app.py" =&gt;
-(( "socket" =&gt; "/tmp/fastcgi.socket",
-    "bin-path" =&gt; "/var/www/html/app.py",
-    "max-procs" =&gt; 1,
-    "bin-environment" =&gt; (
-    "REAL_SCRIPT_NAME" =&gt; ""
-    ),
-    "check-local" =&gt; "disable"
-))
-)
-
-easy_install web.py
-</code></pre>
 ]]></content>
   </entry>
   
