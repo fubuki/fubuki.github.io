@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-09T22:55:30+08:00</updated>
+  <updated>2015-11-10T23:43:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Lucene Update Policy]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/10/elasticsearch-lucene-update-policy/"/>
+    <updated>2015-11-10T23:33:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/10/elasticsearch-lucene-update-policy</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.elastic.co/blog/lucenes-handling-of-deleted-documents">Lucene&rsquo;s Handling of Deleted Documents</a></p>
+
+<p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/merge-process.html">Segment Merging</a></p>
+
+<p><a href="http://blog.mikemccandless.com/2011/02/visualizing-lucenes-segment-merges.html">Visualizing Lucene&rsquo;s segment merges</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Calculate the Idf in Distribute Condition]]></title>
@@ -302,18 +318,6 @@
 
 
 <p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[一些問答系統的文章]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/21/jp-question-answering/"/>
-    <updated>2015-10-21T23:13:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/21/jp-question-answering</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://qiita.com/HirofumiYashima/items/1eb3cf4d41d9a56a0c95">「質問応答マシン」 </a></p>
 ]]></content>
   </entry>
   
