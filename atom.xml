@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-10T23:43:05+08:00</updated>
+  <updated>2015-11-11T23:43:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TensorFlow: Google Machine Learning Library]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/11/tensorflow/"/>
+    <updated>2015-11-11T23:41:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/11/tensorflow</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://tensorflow.org/">TensorFlow</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Lucene Update Policy]]></title>
@@ -306,18 +318,6 @@
 
 
 <p><a href="https://auth0.com/blog/2015/10/14/7-things-you-should-know-about-web-assembly/">7 Things You Should Know About WebAssembly</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Comainu 切詞]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/22/comainu/"/>
-    <updated>2015-10-22T22:55:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/22/comainu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
 ]]></content>
   </entry>
   
