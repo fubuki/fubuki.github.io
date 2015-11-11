@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-11T23:43:46+08:00</updated>
+  <updated>2015-11-12T00:48:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java Deserializing Bug]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/12/how-deserializing-objects-will-ruin-your-day/"/>
+    <updated>2015-11-12T00:47:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/12/how-deserializing-objects-will-ruin-your-day</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://frohoff.github.io/appseccali-marshalling-pickles/">how deserializing objects will ruin your day</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TensorFlow: Google Machine Learning Library]]></title>
@@ -306,18 +318,6 @@
     injector.getInstance(MonitorService.class).start();
     injector.getInstance(RestController.class).start();
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WebAssembly 相關使用事宜]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/23/7-thing-webassembly/"/>
-    <updated>2015-10-23T23:28:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/23/7-thing-webassembly</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://auth0.com/blog/2015/10/14/7-things-you-should-know-about-web-assembly/">7 Things You Should Know About WebAssembly</a></p>
 ]]></content>
   </entry>
   

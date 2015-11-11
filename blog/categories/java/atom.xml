@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Java | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2015-11-12T00:48:26+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Java Deserializing Bug]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/12/how-deserializing-objects-will-ruin-your-day/"/>
+    <updated>2015-11-12T00:47:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/12/how-deserializing-objects-will-ruin-your-day</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://frohoff.github.io/appseccali-marshalling-pickles/">how deserializing objects will ruin your day</a></p>
+]]></content>
+  </entry>
+  
+</feed>
