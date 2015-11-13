@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-12T00:48:26+08:00</updated>
+  <updated>2015-11-13T23:54:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[IFTTT 的架構]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt/"/>
+    <updated>2015-11-13T23:53:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/">Data Infrastructure at IFTTT</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java Deserializing Bug]]></title>
@@ -269,55 +281,6 @@
 
 
 <p><a href="https://top.fse.guru/nodejs-a-quick-optimization-advice-7353b820c92e#.99rjxrtk1">#NodeJS : A quick optimization advice</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch 載入順序]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process/"/>
-    <updated>2015-10-24T23:16:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/24/elasticsearch-load-process</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Bootstrap</h3>
-
-<ol>
-<li>org.elasticsearch.bootstrap</li>
-<li>init</li>
-<li>bootstrapCLIParser</li>
-<li>bootstrap</li>
-<li>nodbuilder</li>
-<li>node</li>
-<li>node start</li>
-</ol>
-
-
-<h3>Node</h3>
-
-<ol>
-<li>node load settings</li>
-<li>node start</li>
-<li>node load classes</li>
-</ol>
-
-
-<h3>node loaded classes</h3>
-
-<pre><code>    injector.getInstance(MappingUpdatedAction.class).setClient(client);
-    injector.getInstance(IndicesService.class).start();
-    injector.getInstance(IndexingMemoryController.class).start();
-    injector.getInstance(IndicesClusterStateService.class).start();
-    injector.getInstance(IndicesTTLService.class).start();
-    injector.getInstance(SnapshotsService.class).start();
-    injector.getInstance(SnapshotShardsService.class).start();
-    injector.getInstance(TransportService.class).start();
-    injector.getInstance(ClusterService.class).start();
-    injector.getInstance(RoutingService.class).start();
-    injector.getInstance(SearchService.class).start();
-    injector.getInstance(MonitorService.class).start();
-    injector.getInstance(RestController.class).start();
-</code></pre>
 ]]></content>
   </entry>
   
