@@ -9,9 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="目前看到一些聊天APP(例如LINE)提供打電話的功能就是Voip，如果想要實現類似的功能可以透過建置自己的PBX達到
-類似的功能並且透過轉接卡也能夠跟市話通話。
-我就選擇Asterisk作為我的PBX，Asterisk是什麼? 官網是這樣寫的。 What is Asterisk? &hellip;">
+  <meta name="description" content="nodejs + socket.io + redis 使用nodejs當 notification server，redis當message server，
+socket.io連接web browser推送訊息給前端。 對手機目前使用node-gcm推送給手機 redis沒有辦法暫存資料， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +79,45 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/02/28/real-time-application/">Real-time-application</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-02-28T20:26:17+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>8:26 pm</span></time>
+        
+           | <a href="/blog/2014/02/28/real-time-application/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/02/28/real-time-application/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2><strong><em> nodejs + socket.io + redis </em></strong></h2>
+
+<p>使用nodejs當 notification server，redis當message server，<br/>
+socket.io連接web browser推送訊息給前端。</p>
+
+<p>對手機目前使用node-gcm推送給手機</p>
+
+<p>redis沒有辦法暫存資料，需要使用類似rabbitmq的message queue 替代</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -315,6 +353,10 @@ Asterisk is like a box of Legos for people who want to create communications app
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/11/15/myrocks/">Mysql MyRocks Engine</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/11/14/gmail-inbox-reply/">Gmail Inbox Smart Reply</a>
       </li>
     
@@ -328,10 +370,6 @@ Asterisk is like a box of Legos for people who want to create communications app
     
       <li class="post">
         <a href="/blog/2015/11/11/tensorflow/">TensorFlow: Google Machine Learning Library</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/11/10/elasticsearch-lucene-update-policy/">Elasticsearch Lucene Update Policy</a>
       </li>
     
   </ul>
@@ -390,7 +428,7 @@ Asterisk is like a box of Legos for people who want to create communications app
   <li><a href='/blog/categories/mobile'>Mobile (1)</a></li>
   <li><a href='/blog/categories/mozilla'>Mozilla (4)</a></li>
   <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
-  <li><a href='/blog/categories/mysql'>Mysql (12)</a></li>
+  <li><a href='/blog/categories/mysql'>Mysql (13)</a></li>
   <li><a href='/blog/categories/nginx'>Nginx (12)</a></li>
   <li><a href='/blog/categories/nlp'>Nlp (33)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (24)</a></li>

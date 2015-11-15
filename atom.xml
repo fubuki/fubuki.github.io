@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-14T23:51:51+08:00</updated>
+  <updated>2015-11-15T23:44:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mysql MyRocks Engine]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/15/myrocks/"/>
+    <updated>2015-11-15T23:23:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/15/myrocks</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gmail Inbox Smart Reply]]></title>
@@ -269,20 +281,6 @@
 
 
 <p><a href="http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop">Large Scale Distributed Deep Learning on Hadoop Clusters</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP-FPM and Apache 2.4.17]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17/"/>
-    <updated>2015-10-26T23:50:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]</p>
-
-<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]:<a href="https://bugs.php.net/bug.php?id=70757">https://bugs.php.net/bug.php?id=70757</a></p>
 ]]></content>
   </entry>
   
