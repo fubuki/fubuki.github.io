@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Solr | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/solr/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-15T23:44:26+08:00</updated>
+  <updated>2015-11-16T23:47:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sorl _val_ Function Query]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/16/sorl-val/"/>
+    <updated>2015-11-16T23:43:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/16/sorl-val</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <em>val</em> hook function query 然後使用 debug query 顯示計算出來的數值，用來對一些 sort by function query 產生
+意外的結果時除錯。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[第17回Lucene/Solr 讀書會資料]]></title>
@@ -62,18 +75,6 @@
 <p>在看國外演討會關於 Twitter 如何實現搜尋系統的議程時，另外找到一篇 Twitter 的論文 <code>Earlybird: Real-Time Search at Twitter</code> ，
 裡面提到兩個蠻重要的組件 <code>Earlybird</code> 和 <code>Blender</code> ，跟 Twitter 如何建立一個快速即時的搜尋系統有相當大的關係需要好好研究，
 這邊有一篇比較好懂的解說文章 <a href="https://stephenholiday.com/notes/earlybird/">Earlybird: Real-Time Search at Twitter</a> 。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr Phonetic Matching]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching/"/>
-    <updated>2015-07-20T21:58:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/20/solr-phonetic-matching</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://cwiki.apache.org/confluence/display/solr/Phonetic+Matching">Phonetic Matching</a></p>
 ]]></content>
   </entry>
   

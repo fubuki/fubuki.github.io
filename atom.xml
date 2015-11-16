@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-15T23:44:26+08:00</updated>
+  <updated>2015-11-16T23:47:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,6 +14,19 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Sorl _val_ Function Query]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/16/sorl-val/"/>
+    <updated>2015-11-16T23:43:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/16/sorl-val</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <em>val</em> hook function query 然後使用 debug query 顯示計算出來的數值，用來對一些 sort by function query 產生
+意外的結果時除錯。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Mysql MyRocks Engine]]></title>
     <link href="http://fubuki.github.io/blog/2015/11/15/myrocks/"/>
     <updated>2015-11-15T23:23:25+08:00</updated>
@@ -21,7 +34,7 @@
     <content type="html"><![CDATA[<!-- more -->
 
 
-
+<p><a href="https://github.com/facebook/mysql-5.6/wiki/MyRocks-advantages-over-InnoDB">MyRocks advantages over InnoDB</a></p>
 ]]></content>
   </entry>
   
@@ -269,18 +282,6 @@
 <p>在 elasticsearch 使用 script 實作 solr 的 recip function.</p>
 
 <p>在 <code>config/script</code> 建立 <code>time_boost.groovy</code>，在 query time 引入 script_file 並且傳入現在時間。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yahoo 如何使用 Hadoop 增加深度學習速度]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/27/yahoo-hadoop/"/>
-    <updated>2015-10-27T23:36:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/27/yahoo-hadoop</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop">Large Scale Distributed Deep Learning on Hadoop Clusters</a></p>
 ]]></content>
   </entry>
   
