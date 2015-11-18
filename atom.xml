@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-17T23:36:37+08:00</updated>
+  <updated>2015-11-18T23:23:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spotify Search System 2012]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search/"/>
+    <updated>2015-11-18T23:17:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Sharding Spotify Search</code> 一篇關於 Spotify 內部搜尋系統的論文。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GraphConnect SF 2015 資料]]></title>
@@ -268,18 +280,6 @@
 
 
 <p><a href="https://github.com/linkedin/PalDB">PalDB</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 C++ 撰寫一個作業系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/29/c-plus-plus-operatiing-system/"/>
-    <updated>2015-10-29T23:47:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/29/c-plus-plus-operatiing-system</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.gitbook.com/book/samypesse/how-to-create-an-operating-system/details">How to make an Operating System</a></p>
 ]]></content>
   </entry>
   

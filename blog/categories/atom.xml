@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-17T23:36:37+08:00</updated>
+  <updated>2015-11-18T23:23:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spotify Search System 2012]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search/"/>
+    <updated>2015-11-18T23:17:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Sharding Spotify Search</code> 一篇關於 Spotify 內部搜尋系統的論文。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gmail Inbox Smart Reply]]></title>
@@ -71,18 +83,6 @@
 <li>Technologies for Data Analytics Platform</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PalDB: Only Read Db]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/30/paldb/"/>
-    <updated>2015-10-30T23:24:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/30/paldb</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/linkedin/PalDB">PalDB</a></p>
 ]]></content>
   </entry>
   
