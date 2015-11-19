@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-18T23:23:32+08:00</updated>
+  <updated>2015-11-19T23:03:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL Performance Schema]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/19/mysql-performance-schema/"/>
+    <updated>2015-11-19T22:36:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/19/mysql-performance-schema</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://dev.mysql.com/doc/mysql-monitor/3.0/en/mem-qanal-using-performance-schema.html">Using the MySQL Performance Schema</a></p>
+
+<p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema_31.html">MySQLのperformance_schemaをフルパワーにするとどんな情報が見られるのか</a></p>
+
+<p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema.html">MySQLのperformance_schemaでどれくらいの情報が見られるのか</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mysql MyRocks Engine]]></title>
@@ -66,24 +82,6 @@
 show full processlist;
 kill
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysqldump 備份資料庫指令]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/29/mysqldump/"/>
-    <updated>2014-12-29T21:26:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/29/mysqldump</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近幫別人整理資料庫發現資料表的結構設計不當導致資料過多的時候效率變很差，原本更改資料表的結構
-但是由於手上沒有 root 權限的帳號，資料庫也不能停機開啟 <code>safe mode</code>，所以只能先刪除資料。</p>
-
-<p>目前 MySQL 資料庫最常用 <a href="http://dev.mysql.com/doc/refman/5.1/en/mysqldump.html">mysqldump</a> 備份，在 MySQL 官網有詳細的解說裡面有很多選項可以使用，但是
-目前最常用到的選項是 <code>-single-transaction</code> 和 <code>-lock-all-tables</code>，<code>-single-transaction</code> 是在備份
-資料前開啟交易，讓資料能夠盡量完整匯出，而 <code>-lock-all-tables</code> 則是給 MyISAM 這類不支援 transaction
- 的資料表所用，他會在備份時 Lock Table 為 READ LOCAL 狀態，只允許 <a href="http://dev.mysql.com/doc/refman/5.0/en/concurrent-inserts.html">Concurrent Inserts</a>。</p>
 ]]></content>
   </entry>
   
