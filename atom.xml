@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-19T23:03:12+08:00</updated>
+  <updated>2015-11-20T23:51:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LibreCat Project]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/20/librecatlibrecat/"/>
+    <updated>2015-11-20T23:48:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/20/librecatlibrecat</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://librecat.org/">LibreCat</a> 內含多個工具，最近會跟 elasticsearch 結合作些 ETL 的測試。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL Performance Schema]]></title>
@@ -266,22 +278,6 @@
 <li>Conway&rsquo;s Law of Distributed Work</li>
 <li>Advanced technic for OS upgrading in 3 minute</li>
 <li>Technologies for Data Analytics Platform</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Watcher and Elastalert]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/31/elasticsearch-watcher-and-elastalert/"/>
-    <updated>2015-10-31T23:23:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/31/elasticsearch-watcher-and-elastalert</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/Yelp/elastalert">elastalert</a></li>
-<li><a href="https://www.elastic.co/products/watcher">Elastica Watcher</a></li>
 </ol>
 
 ]]></content>
