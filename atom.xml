@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-20T23:51:39+08:00</updated>
+  <updated>2015-11-21T23:18:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Percolator 功能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/21/percolator/"/>
+    <updated>2015-11-21T23:11:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/21/percolator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>簡單說用起來類似 mysql 的 trigger。</p>
+
+<p><a href="https://speakerdeck.com/javanna/whats-new-in-percolator">What&rsquo;s New in Percolator</a></p>
+
+<p><a href="https://qbox.io/blog/using-elasticsearch-percolation-in-the-e-commerce-use-case">Using Elasticsearch Percolation in the E-Commerce Use Case</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LibreCat Project]]></title>
@@ -257,29 +273,6 @@
 
 
 <p><a href="http://dockone.io/article/505">新浪是如何分析处理32亿条实时日志</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[YAPC::Asia Tokyo 2015]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/01/yapc/"/>
-    <updated>2015-11-01T23:31:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/01/yapc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://yapcasia.org/2015/">YAPC 2015 </a></p>
-
-<ol>
-<li>世界展開する大規模ウェブサービスのデプロイを支える技術</li>
-<li>Technology for reduce a mistake</li>
-<li>MySQLで2億件のシリアルデータと格闘したチューニングの話</li>
-<li>Website Architecture for HTTP/2 Era</li>
-<li>Conway&rsquo;s Law of Distributed Work</li>
-<li>Advanced technic for OS upgrading in 3 minute</li>
-<li>Technologies for Data Analytics Platform</li>
-</ol>
-
 ]]></content>
   </entry>
   

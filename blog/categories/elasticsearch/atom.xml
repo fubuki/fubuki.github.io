@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-20T23:51:39+08:00</updated>
+  <updated>2015-11-21T23:18:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Percolator 功能]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/21/percolator/"/>
+    <updated>2015-11-21T23:11:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/21/percolator</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>簡單說用起來類似 mysql 的 trigger。</p>
+
+<p><a href="https://speakerdeck.com/javanna/whats-new-in-percolator">What&rsquo;s New in Percolator</a></p>
+
+<p><a href="https://qbox.io/blog/using-elasticsearch-percolation-in-the-e-commerce-use-case">Using Elasticsearch Percolation in the E-Commerce Use Case</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Lucene Update Policy]]></title>
@@ -70,22 +86,6 @@
 <p><a href="http://blog.comperiosearch.com/blog/2015/06/10/how-elasticsearch-calculates-significant-terms/">How Elasticsearch calculates significant terms</a></p>
 
 <p><a href="http://www.slideshare.net/shunsukekozawa5/ss-44579618">はてなブックマークの新機能における自然言語処理の活用</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Watcher and Elastalert]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/31/elasticsearch-watcher-and-elastalert/"/>
-    <updated>2015-10-31T23:23:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/31/elasticsearch-watcher-and-elastalert</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/Yelp/elastalert">elastalert</a></li>
-<li><a href="https://www.elastic.co/products/watcher">Elastica Watcher</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
