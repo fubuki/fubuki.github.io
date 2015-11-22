@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-21T23:18:16+08:00</updated>
+  <updated>2015-11-22T22:24:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns/"/>
+    <updated>2015-11-22T22:06:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Percolator 功能]]></title>
@@ -26,6 +38,10 @@
 <p><a href="https://speakerdeck.com/javanna/whats-new-in-percolator">What&rsquo;s New in Percolator</a></p>
 
 <p><a href="https://qbox.io/blog/using-elasticsearch-percolation-in-the-e-commerce-use-case">Using Elasticsearch Percolation in the E-Commerce Use Case</a></p>
+
+<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-1">When and How To Percolate - Part 1</a></p>
+
+<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-2">When and How To Percolate - Part 2</a></p>
 ]]></content>
   </entry>
   
@@ -261,18 +277,6 @@
 <p><a href="http://blog.comperiosearch.com/blog/2015/06/10/how-elasticsearch-calculates-significant-terms/">How Elasticsearch calculates significant terms</a></p>
 
 <p><a href="http://www.slideshare.net/shunsukekozawa5/ss-44579618">はてなブックマークの新機能における自然言語処理の活用</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[新浪使用 ELK 處理 Log]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/02/sina/"/>
-    <updated>2015-11-02T23:46:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/02/sina</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://dockone.io/article/505">新浪是如何分析处理32亿条实时日志</a></p>
 ]]></content>
   </entry>
   

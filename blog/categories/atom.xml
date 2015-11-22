@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-21T23:18:16+08:00</updated>
+  <updated>2015-11-22T22:24:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns/"/>
+    <updated>2015-11-22T22:06:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LibreCat Project]]></title>
@@ -60,18 +72,6 @@
 
 
 <p><a href="http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/">Data Infrastructure at IFTTT</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[從 Twitter 取出關鍵短語]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter/"/>
-    <updated>2015-11-06T00:51:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/topical-keyphrase-extraction-from-twitter-34391611">Topical keyphrase extraction from twitter</a></p>
 ]]></content>
   </entry>
   

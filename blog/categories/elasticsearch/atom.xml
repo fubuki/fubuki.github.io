@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-21T23:18:16+08:00</updated>
+  <updated>2015-11-22T22:24:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -26,6 +26,10 @@
 <p><a href="https://speakerdeck.com/javanna/whats-new-in-percolator">What&rsquo;s New in Percolator</a></p>
 
 <p><a href="https://qbox.io/blog/using-elasticsearch-percolation-in-the-e-commerce-use-case">Using Elasticsearch Percolation in the E-Commerce Use Case</a></p>
+
+<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-1">When and How To Percolate - Part 1</a></p>
+
+<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-2">When and How To Percolate - Part 2</a></p>
 ]]></content>
   </entry>
   
