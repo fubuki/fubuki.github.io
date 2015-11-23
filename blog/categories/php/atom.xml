@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-22T23:14:31+08:00</updated>
+  <updated>2015-11-23T21:50:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enable PHP-FPM Status Page]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/23/phpfpm-status/"/>
+    <updated>2015-11-23T00:30:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/23/phpfpm-status</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP-FPM and Apache 2.4.17]]></title>
@@ -66,51 +78,6 @@
 
 <p>不過後來發現 Phalcon 的 <a href="http://docs.phalconphp.com/en/latest/reference/models.html#dynamic-update">Dynamic Update</a>  功能可以避免上述的問題，使用這個功能後 phalcon 在產生 sql query 時只會更新
  Model 有修改的部分。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php Date 時間處理筆記]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/13/php-date/"/>
-    <updated>2015-04-13T00:53:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/13/php-date</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>取得目前的日期</h3>
-
-<pre><code>$now = DateTime():
-$now-&gt;format('r');
-
-$now1 = getdate();
-print "{$now1['hours']}:{$now1['minutes']}:{$now1['seconds']}\n";
-
-
-$now2 = localtime();
-print "$now2[2]:$now2[1]:$now2[0]";
-</code></pre>
-
-<h3>取得當月的第一天</h3>
-
-<pre><code>$start = date("Y-m-1"); 
-$date = new DateTime($start);
-</code></pre>
-
-<h3>往前推1個月</h3>
-
-<pre><code>$result = $date-&gt;modify( '-1 month' );
-</code></pre>
-
-<h3>當月的最後一天</h3>
-
-<pre><code>$result = $date-&gt;modify( '+2 month' );
-$result = $date-&gt;modify( '-1 day' );
-</code></pre>
-
-<h3>取得一段時間範圍</h3>
-
-<pre><code>DateInterval();
-</code></pre>
 ]]></content>
   </entry>
   

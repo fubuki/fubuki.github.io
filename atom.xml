@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-22T23:14:31+08:00</updated>
+  <updated>2015-11-23T21:50:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enable PHP-FPM Status Page]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/23/phpfpm-status/"/>
+    <updated>2015-11-23T00:30:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/23/phpfpm-status</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
@@ -263,20 +275,6 @@
 
 
 <p><a href="http://www.lire-project.net/">LIRE</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Significant Terms 運用]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant/"/>
-    <updated>2015-11-03T23:10:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.comperiosearch.com/blog/2015/06/10/how-elasticsearch-calculates-significant-terms/">How Elasticsearch calculates significant terms</a></p>
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/ss-44579618">はてなブックマークの新機能における自然言語処理の活用</a></p>
 ]]></content>
   </entry>
   
