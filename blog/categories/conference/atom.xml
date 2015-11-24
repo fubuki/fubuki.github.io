@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-23T21:50:30+08:00</updated>
+  <updated>2015-11-24T23:57:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Enterprise Search Europe 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/24/enterprise-search-europe-2015/"/>
+    <updated>2015-11-24T23:56:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/24/enterprise-search-europe-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.enterprisesearcheurope.com/2015/">Enterprise Search Europe 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GraphConnect SF 2015 資料]]></title>
@@ -338,127 +350,6 @@ Ref v.3</p>
 <p><a href="http://www.gophercon.com/">GopherCon 2015</a></p>
 
 <p><a href="https://github.com/gophercon/2015-talks">2015-talks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coscup 2015 Day2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/16/coscup-2015-day2/"/>
-    <updated>2015-08-16T20:02:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/16/coscup-2015-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>How Redis Powers Your Web Service &amp; Flurry analytics Intro</h3>
-
-<p>Yahoo APAC Data Team</p>
-
-<p>Yahoo Redis 是怎麼使用的</p>
-
-<ol>
-<li>Sentinel</li>
-<li>twemproxy</li>
-<li>redis cluster</li>
-</ol>
-
-
-<p>幾乎以前就聽過了</p>
-
-<h4>Flurry Analytics (Yahoo mobile developer suite)</h4>
-
-<p>手機資料分析工具</p>
-
-<h3>Personalized Search in Yahoo Taiwan eCommerce Sites</h3>
-
-<ol>
-<li>搜尋經驗優化</li>
-<li>個人化搜尋</li>
-<li>演算法和資料量</li>
-<li>使用哪些開源工具</li>
-</ol>
-
-
-<p>重要是 machine learning ranking 應該就是</p>
-
-<p>機器學習用哪個算法
-資料集怎麼來的</p>
-
-<p>商品了解</p>
-
-<p>重要產品標籤辨識
-LDA SVM</p>
-
-<p>重要產品</p>
-
-<p>使用者偏好推定</p>
-
-<p>巨量資料跟即時運算的問題</p>
-
-<p>PIG 的用法</p>
-
-<p>PLSI EM algorithm</p>
-
-<p>mahout => spark MLlib</p>
-
-<p>K-means</p>
-
-<p>spark 可以加速運算</p>
-
-<p>Logistic Regression</p>
-
-<p>decision tree
-使用 Random forest  加快</p>
-
-<p>使用者短期行為處理</p>
-
-<p>Storm</p>
-
-<h3>Neural Turing Machines Implementation</h3>
-
-<p>HMM => Speech recognition</p>
-
-<p>SVM => Image recogniton</p>
-
-<p>CNN</p>
-
-<p>RNN</p>
-
-<p>=> Neural Turing Machine</p>
-
-<p>新的論文可以看看</p>
-
-<h3>堆疊之下</h3>
-
-<p>有做 information retrival</p>
-
-<ol>
-<li><p>Data-Driven 資料導向</p>
-
-<ul>
-<li>A/B testing</li>
-<li>MAB testing</li>
-</ul>
-</li>
-<li><p>Dev Ops 分工</p></li>
-<li><p>IT部門 ~900 人,小隊伍 (6人)</p></li>
-</ol>
-
-
-<p>主要講 Booking 的背後使用哪些語言跟軟體</p>
-
-<h3>自己的機器人自己做</h3>
-
-<p>使用 arduino 製作機器人</p>
-
-<p>目前尚未完成</p>
-
-<h3>從UAV到UAS 開源無人機的技術與下一步</h3>
-
-<p>AHRS 系統跟多軸飛行器使用的組件跟用途</p>
-
-<h3>「封麥」演說：台灣開放原始碼生態圈回顧</h3>
-
-<h3>Lightning Talk</h3>
 ]]></content>
   </entry>
   
