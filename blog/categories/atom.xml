@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-24T23:57:26+08:00</updated>
+  <updated>2015-11-25T23:51:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[測試使用 Rundeck]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/25/rundeck/"/>
+    <updated>2015-11-25T23:50:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/25/rundeck</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/rundeck/rundeck">rundeck</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
@@ -60,18 +72,6 @@
 <p><a href="http://googleresearch.blogspot.kr/2015/11/computer-respond-to-this-email.html">Computer, respond to this email</a></p>
 
 <p><a href="http://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IFTTT 的架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt/"/>
-    <updated>2015-11-13T23:53:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/">Data Infrastructure at IFTTT</a></p>
 ]]></content>
   </entry>
   

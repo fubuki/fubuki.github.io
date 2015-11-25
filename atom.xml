@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-24T23:57:26+08:00</updated>
+  <updated>2015-11-25T23:51:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[測試使用 Rundeck]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/25/rundeck/"/>
+    <updated>2015-11-25T23:50:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/25/rundeck</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/rundeck/rundeck">rundeck</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Enterprise Search Europe 2015]]></title>
@@ -263,18 +275,6 @@
 
 
 <p><a href="http://www.slideshare.net/shunsukekozawa5/topical-keyphrase-extraction-from-twitter-34391611">Topical keyphrase extraction from twitter</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[改善全文搜尋的精準度]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan/"/>
-    <updated>2015-11-05T23:29:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://speakerdeck.com/takuyaa/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan">はてなブックマーク全文検索の精度改善</a></p>
 ]]></content>
   </entry>
   
