@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-25T23:51:15+08:00</updated>
+  <updated>2015-11-26T22:49:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Box 的 Php 轉移到 HHVM]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/26/box-php/"/>
+    <updated>2015-11-26T22:41:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/26/box-php</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/">Under the hood: Box&rsquo;s HHVM migration</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[測試使用 Rundeck]]></title>
@@ -263,18 +275,6 @@
 
 
 <p><a href="https://solr.doorkeeper.jp/events/32633">第17回Lucene/Solr勉強会 #SolrJP</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[從 Twitter 取出關鍵短語]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter/"/>
-    <updated>2015-11-06T00:51:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/06/topical-keyphrase-extraction-from-twitter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/topical-keyphrase-extraction-from-twitter-34391611">Topical keyphrase extraction from twitter</a></p>
 ]]></content>
   </entry>
   
