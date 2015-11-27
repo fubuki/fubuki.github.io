@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-26T22:49:41+08:00</updated>
+  <updated>2015-11-27T23:45:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nosql 關於 Transactions 的部分]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/27/nosql-transactions/"/>
+    <updated>2015-11-27T23:29:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/27/nosql-transactions</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.jmfaleiro.com/blog/post/fit-tradeoff/">Why MongoDB, Cassandra, HBase, DynamoDB, and Riak will only let you perform transactions on a single data item</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[測試使用 Rundeck]]></title>
@@ -58,20 +70,6 @@
 
 
 <p><code>Sharding Spotify Search</code> 一篇關於 Spotify 內部搜尋系統的論文。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gmail Inbox Smart Reply]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/14/gmail-inbox-reply/"/>
-    <updated>2015-11-14T23:48:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/14/gmail-inbox-reply</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://googleresearch.blogspot.kr/2015/11/computer-respond-to-this-email.html">Computer, respond to this email</a></p>
-
-<p><a href="http://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a></p>
 ]]></content>
   </entry>
   
