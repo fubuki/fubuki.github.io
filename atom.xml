@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-27T23:45:50+08:00</updated>
+  <updated>2015-11-28T22:37:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spotify 背後的推薦系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/28/spotify-recommender-systems/"/>
+    <updated>2015-11-28T22:16:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/28/spotify-recommender-systems</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/MrChrisJohnson/interactive-recommender-systems-with-netflix-and-spotify/99-Insights_Algorithmic_perspectiveNeed_to_balance">Interactive Recommender Systems with Netflix and Spotify</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nosql 關於 Transactions 的部分]]></title>
@@ -263,18 +275,6 @@
 <li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-is-broken.html">Relevance Is Broken</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pyspider 紀錄]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/08/pyspider/"/>
-    <updated>2015-11-08T23:54:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/08/pyspider</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/binux/pyspider">pyspider</a></p>
 ]]></content>
   </entry>
   
