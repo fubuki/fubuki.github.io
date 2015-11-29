@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-28T22:37:03+08:00</updated>
+  <updated>2015-11-29T21:50:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon JP 2015 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015/"/>
+    <updated>2015-11-29T21:35:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://pycon.jp/2015/ja/reports/slides/">pycon jp 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spotify 背後的推薦系統]]></title>
@@ -257,24 +269,6 @@
 <p><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/merge-process.html">Segment Merging</a></p>
 
 <p><a href="http://blog.mikemccandless.com/2011/02/visualizing-lucenes-segment-merges.html">Visualizing Lucene&rsquo;s segment merges</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Calculate the Idf in Distribute Condition]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/09/distribute-idf/"/>
-    <updated>2015-11-09T22:35:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/09/distribute-idf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在分散式環境下計算 idf 產生的問題。</p>
-
-<ol>
-<li><a href="https://issues.apache.org/jira/browse/SOLR-1632">Distributed IDF</a></li>
-<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-is-broken.html">Relevance Is Broken</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

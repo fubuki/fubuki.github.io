@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-28T22:37:03+08:00</updated>
+  <updated>2015-11-29T21:50:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pycon JP 2015 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015/"/>
+    <updated>2015-11-29T21:35:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://pycon.jp/2015/ja/reports/slides/">pycon jp 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Enterprise Search Europe 2015]]></title>
@@ -336,20 +348,6 @@ Ref v.3</p>
 <p>Grasp and lift egg detection</p>
 
 <p>大資料神經科學</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GopherCon 2015]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/21/gophercon-2015/"/>
-    <updated>2015-08-21T22:24:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/21/gophercon-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.gophercon.com/">GopherCon 2015</a></p>
-
-<p><a href="https://github.com/gophercon/2015-talks">2015-talks</a></p>
 ]]></content>
   </entry>
   
