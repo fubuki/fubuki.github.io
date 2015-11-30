@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-29T21:50:42+08:00</updated>
+  <updated>2015-11-30T23:51:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Javascript Right Way]]></title>
+    <link href="http://fubuki.github.io/blog/2015/11/30/javascript-right-way/"/>
+    <updated>2015-11-30T23:48:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/11/30/javascript-right-way</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/braziljs/js-the-right-way">javascript right way</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MDN 的 Javascript 教學]]></title>
@@ -71,25 +83,6 @@
 
 <p>在撰寫 web 頁面的時候在 PC 上通常會使用到 click events，而在手機上則是會使用 touch events，但是在最近看一篇關於
  pointer events 的文章，pointer events 可以取代上述兩種事件並且提供更多參數使用，不過目前有支援的瀏覽器不多。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Fetch Api]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/02/javascript-fetch/"/>
-    <updated>2015-05-02T23:13:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/02/javascript-fetch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>為了改善 XMLHttpRequest 而誕生了 <code>fetch api</code>。</p>
-
-<ol>
-<li><a href="https://hacks.mozilla.org/2015/03/this-api-is-so-fetching/">This API is so Fetching!</a></li>
-<li><a href="https://fetch.spec.whatwg.org/">fetch spec</a></li>
-<li><a href="https://github.com/github/fetch">github fetch</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
