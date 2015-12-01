@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-30T23:51:02+08:00</updated>
+  <updated>2015-12-01T22:46:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Cluster Hotspot Problem]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance/"/>
+    <updated>2015-12-01T22:38:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineering.datarank.com/2015/06/30/analysis-of-hotspots-in-clusters-of-log-normally-distributed-data.html">Analysis of Hotspots in Clusters of Log-Normally Distributed Data</a></p>
+
+<p><a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Right Way]]></title>
@@ -253,18 +267,6 @@
 
 
 <p><a href="http://frohoff.github.io/appseccali-marshalling-pickles/">how deserializing objects will ruin your day</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TensorFlow: Google Machine Learning Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/11/tensorflow/"/>
-    <updated>2015-11-11T23:41:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/11/tensorflow</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://tensorflow.org/">TensorFlow</a></p>
 ]]></content>
   </entry>
   

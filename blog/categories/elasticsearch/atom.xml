@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-11-30T23:51:02+08:00</updated>
+  <updated>2015-12-01T22:46:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Cluster Hotspot Problem]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance/"/>
+    <updated>2015-12-01T22:38:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineering.datarank.com/2015/06/30/analysis-of-hotspots-in-clusters-of-log-normally-distributed-data.html">Analysis of Hotspots in Clusters of Log-Normally Distributed Data</a></p>
+
+<p><a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Percolator 功能]]></title>
@@ -76,20 +90,6 @@
 
 
 <p><a href="https://speakerdeck.com/takuyaa/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan">はてなブックマーク全文検索の精度改善</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Significant Terms 運用]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant/"/>
-    <updated>2015-11-03T23:10:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/03/elasticsearch-significant</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.comperiosearch.com/blog/2015/06/10/how-elasticsearch-calculates-significant-terms/">How Elasticsearch calculates significant terms</a></p>
-
-<p><a href="http://www.slideshare.net/shunsukekozawa5/ss-44579618">はてなブックマークの新機能における自然言語処理の活用</a></p>
 ]]></content>
   </entry>
   
