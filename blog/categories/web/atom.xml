@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Web | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-01T22:46:59+08:00</updated>
+  <updated>2015-12-02T22:31:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dropbox Content Security Policy]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/02/dropbox-csp-safe/"/>
+    <updated>2015-12-02T22:16:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/02/dropbox-csp-safe</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>[[CSP] On Reporting and Filtering]</li>
+<li>[[CSP] Unsafe-inline and nonce deployment]</li>
+<li>[[CSP] The Unexpected Eval]</li>
+</ol>
+
+
+<p>[[CSP] On Reporting and Filtering]:<a href="https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/">https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/</a>
+[[CSP] Unsafe-inline and nonce deployment]:<a href="https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/">https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/</a>
+[[CSP] The Unexpected Eval]:<a href="https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/">https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[WebAssembly 相關使用事宜]]></title>
