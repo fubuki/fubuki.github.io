@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-02T22:31:08+08:00</updated>
+  <updated>2015-12-03T23:27:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install Open Virtual Switch on Raspi]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/03/open-virtual-switch/"/>
+    <updated>2015-12-03T23:24:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/03/open-virtual-switch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://openvswitch.org/">Open Virtual Switch</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dropbox Content Security Policy]]></title>
@@ -264,18 +276,6 @@
 <p><a href="http://googleresearch.blogspot.kr/2015/11/computer-respond-to-this-email.html">Computer, respond to this email</a></p>
 
 <p><a href="http://arxiv.org/abs/1409.3215">Sequence to Sequence Learning with Neural Networks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IFTTT 的架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt/"/>
-    <updated>2015-11-13T23:53:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/13/data-infrastructure-at-ifttt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.ifttt.com/data/2015/10/14/data-infrastructure/">Data Infrastructure at IFTTT</a></p>
 ]]></content>
   </entry>
   

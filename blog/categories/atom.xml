@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-02T22:31:08+08:00</updated>
+  <updated>2015-12-03T23:27:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install Open Virtual Switch on Raspi]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/03/open-virtual-switch/"/>
+    <updated>2015-12-03T23:24:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/03/open-virtual-switch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://openvswitch.org/">Open Virtual Switch</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spotify 背後的推薦系統]]></title>
@@ -58,18 +70,6 @@
 
 
 <p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LibreCat Project]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/20/librecatlibrecat/"/>
-    <updated>2015-11-20T23:48:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/20/librecatlibrecat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://librecat.org/">LibreCat</a> 內含多個工具，最近會跟 elasticsearch 結合作些 ETL 的測試。</p>
 ]]></content>
   </entry>
   
