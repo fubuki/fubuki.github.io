@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-04T21:55:44+08:00</updated>
+  <updated>2015-12-05T22:22:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jcconf 2015 Day2]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/05/jcconf-2015-day2/"/>
+    <updated>2015-12-05T21:47:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/05/jcconf-2015-day2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>阿里 JVM 的工作方向</h3>
+
+<p>T4 vm 基於 LxC 的虛擬技術。</p>
+
+<ol>
+<li>多租戶共享內存
+改造 G1 cgroup</li>
+</ol>
+
+
+<p>底層有專門小組負責處理類似連接 mysql 之類的工作</p>
+
+<ol>
+<li>session-based GC
+分類 object 為 session 和 static object 兩種，將 static object 移到 old generation，
+讓jvm 可以直接釋放 slab 而不需要檢查內容。</li>
+</ol>
+
+
+<p>full gc 的細節需要研究。</p>
+
+<p>RPC Architecture HSF</p>
+
+<ol>
+<li>全 IO 上自動異步化</li>
+<li>反序列化優化</li>
+<li>JIT Warm-up</li>
+<li>ZDebugger</li>
+<li>profiling support
+ 檢查哪些 function 消耗過多的資源</li>
+</ol>
+
+
+<h3>Universal Scala</h3>
+
+<p>簡介 scala  和 scala.js 以及 Universal。</p>
+
+<h3>Deploy your own Spark cluster in 4 minutes using sbt.</h3>
+
+<p>介紹自製的 spark-deployer</p>
+
+<h3>Immutable Infrastructure：觀念與實作</h3>
+
+<p>ansible 是走 idempotent provision，immutable infra 又走更遠。</p>
+
+<p>裡面提到的工具可以好好研究。</p>
+
+<ol>
+<li>Ansilbe</li>
+<li>Packer</li>
+<li>Otto</li>
+</ol>
+
+
+<p>hyper.sh</p>
+
+<p>Unikernel boxfuse</p>
+
+<h3>JDK8 JIT 行為和效能分析</h3>
+
+<p>去年 jcconf 有聽過一些的內容了&hellip;&hellip;</p>
+
+<h3>自己的JVM自己救 - 解救 OOM 實務經驗談</h3>
+
+<p>使用 MAT 分析 Heap dump</p>
+
+<p>實戰經驗</p>
+
+<p>Shallow vs. Retained Headp</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jcconf 2015 Day1]]></title>
@@ -156,162 +236,6 @@
 
 
 <p><a href="http://graphconnect.com/">GraphConnect SF 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料科學年會 2015 Day 2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2/"/>
-    <updated>2015-08-23T22:00:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/23/data-science-conf-2015-day-2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Big Education in the Era of Big Data</h3>
-
-<p>Collective Probabilistic Model</p>
-
-<p>我們的教育體制</p>
-
-<p>第一個大資料挑戰 人口普查</p>
-
-<p>講一些泛用的資料處理步驟</p>
-
-<p>資料分析在教育上的應用</p>
-
-<p>Top 10 elearning Statistics</p>
-
-<p>一些線上教育平台</p>
-
-<p>學習精神</p>
-
-<p>MOOCs</p>
-
-<h3>從網頁存取記錄瞭解使用者行為與網頁區塊貢獻分析-實戰篇</h3>
-
-<p>從 access_log 研究 Data driven</p>
-
-<p>log 處理速度</p>
-
-<h4>頁面板塊分析</h4>
-
-<p>必須先統計每個板塊的點擊狀況
-統計方式
-1. redirect
-2. 增加 ref 參數
-3.</p>
-
-<p>ref 帶有的資訊
-正在哪一頁的哪個版塊和相關資訊</p>
-
-<p>Ref v.1
-Ref v.2   如果網站結構改了會有問題吧
-Ref v.3</p>
-
-<p>他們有做線上 ABtest?</p>
-
-<p>Google 搜尋 SEO 會有問題</p>
-
-<h4>開始處理 web access log</h4>
-
-<p>為了彌補 GA 沒有的功能</p>
-
-<p>爬蟲很多所以需要過濾</p>
-
-<p>有些必須另外蒐集的資料</p>
-
-<p>這邊使用 Kafka 處理 web access log</p>
-
-<p>clickstream ????</p>
-
-<p>Ref 應該可以完成之前想玩了使用者行為追蹤</p>
-
-<p>強化自己的全文搜尋??? 強化斷詞關係</p>
-
-<p>Ref 的好處</p>
-
-<p>處理 Kafka</p>
-
-<p>Log 儲存 Impala + sql like , PostgreSQL</p>
-
-<p>程式語言 Java</p>
-
-<p>資料整理Excel + Java</p>
-
-<p>RWD 版型怎麼辦 利用 javascript 偵測</p>
-
-<p>跳出率 沒被點擊物品 搜尋優化</p>
-
-<h3>使用 Elasticsearch 及 Kibana 進行巨量資料搜尋及視覺化</h3>
-
-<p>巨量資料怎麼 LOG</p>
-
-<p>資料都是從 mongodb 上匯入的 那會匯入的方式是?</p>
-
-<p>介紹一些內建的資料處理和視覺化方法，果能夠將 access log 匯入
-就可以建立一個簡單的監控系統</p>
-
-<p>這邊提到了 Hyperloglog 和 Percentile*  T-digest</p>
-
-<p>gogolook 架構 使用 fluentd</p>
-
-<p>未來可能增加停留時間的記錄</p>
-
-<p>Logstash 比較沒有人在開發所以建議使用 fluentd</p>
-
-<h3>Visualiztion over Web Tools and Tips</h3>
-
-<p>Apple device resolutioins</p>
-
-<p>這邊都是再說 RWD 的設計</p>
-
-<p>不過這邊應該有更多可以考慮的方式</p>
-
-<p>SVG preserveApsectRatio</p>
-
-<p>網頁設計講比較多，因為是要讓資料顯示在網頁上</p>
-
-<p>ai2html</p>
-
-<p>繪圖優化</p>
-
-<p>Cross Device</p>
-
-<p>有些有趣的網站可以參考</p>
-
-<h3>團結力量大？集團企業之解構、分析比較</h3>
-
-<p>這邊主要是利用投資的相關資料畫出相關性。</p>
-
-<h3>社會資訊學？資訊社會學？抑都不是？淺論資訊科學與社會學相得益彰的合作契機</h3>
-
-<p>計算社會學</p>
-
-<p>社會學內容</p>
-
-<p>Agent Based Modeling</p>
-
-<p>資訊科技在社會科學上的應用</p>
-
-<p>有些社會學上的大哉問</p>
-
-<h3>gov</h3>
-
-<ol>
-<li>分析蘋果日報的留言 可以看看</li>
-<li>判決書非常非常長</li>
-<li>新聞品質 量化分析</li>
-<li>血庫存量</li>
-<li>新台語 運動 台語字典</li>
-<li>Data Design</li>
-<li>IoT 空汙偵測 DIY</li>
-<li>etc</li>
-</ol>
-
-
-<p>詞頻分析</p>
-
-<p>後面有一系列資料，有些可以研究研究</p>
 ]]></content>
   </entry>
   
