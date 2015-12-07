@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-06T23:30:05+08:00</updated>
+  <updated>2015-12-07T23:58:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Debugging Node in Prod]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/07/debugging-node-in-prod/"/>
+    <updated>2015-12-07T23:56:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/07/debugging-node-in-prod</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/yunongx/debugging-node-in-prod">Debugging node in prod</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Javascript Right Way]]></title>
@@ -70,19 +82,6 @@
 
 
 <p><a href="http://vorlonjs.com/">vorlon.JS</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Browser Pointer Events]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/08/pointer-events/"/>
-    <updated>2015-05-08T22:26:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/08/pointer-events</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在撰寫 web 頁面的時候在 PC 上通常會使用到 click events，而在手機上則是會使用 touch events，但是在最近看一篇關於
- pointer events 的文章，pointer events 可以取代上述兩種事件並且提供更多參數使用，不過目前有支援的瀏覽器不多。</p>
 ]]></content>
   </entry>
   
