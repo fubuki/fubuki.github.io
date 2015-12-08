@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-07T23:58:31+08:00</updated>
+  <updated>2015-12-08T23:50:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pkcrack: Zip Crack]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/08/pkcrack/"/>
+    <updated>2015-12-08T23:28:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/08/pkcrack</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/pkcrack-readme.html">pkcrack</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Debugging Node in Prod]]></title>
@@ -427,18 +439,6 @@
 <p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema_31.html">MySQLのperformance_schemaをフルパワーにするとどんな情報が見られるのか</a></p>
 
 <p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema.html">MySQLのperformance_schemaでどれくらいの情報が見られるのか</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spotify Search System 2012]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search/"/>
-    <updated>2015-11-18T23:17:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/18/sharding-spotify-search</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>Sharding Spotify Search</code> 一篇關於 Spotify 內部搜尋系統的論文。</p>
 ]]></content>
   </entry>
   

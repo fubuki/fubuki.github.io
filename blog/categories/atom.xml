@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-07T23:58:31+08:00</updated>
+  <updated>2015-12-08T23:50:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pkcrack: Zip Crack]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/08/pkcrack/"/>
+    <updated>2015-12-08T23:28:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/08/pkcrack</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/pkcrack-readme.html">pkcrack</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Install Open Virtual Switch on Raspi]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/rundeck/rundeck">rundeck</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns/"/>
-    <updated>2015-11-22T22:06:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
 ]]></content>
   </entry>
   
