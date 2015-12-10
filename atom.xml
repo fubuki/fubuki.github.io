@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-09T23:37:01+08:00</updated>
+  <updated>2015-12-10T23:58:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hashcat: Password Recovery Utility]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/10/hashcat/"/>
+    <updated>2015-12-10T23:56:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/10/hashcat</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/hashcat/hashcat">hashcat</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mininet Emulate Network]]></title>
@@ -423,18 +435,6 @@
 <p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-1">When and How To Percolate - Part 1</a></p>
 
 <p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-2">When and How To Percolate - Part 2</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LibreCat Project]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/20/librecatlibrecat/"/>
-    <updated>2015-11-20T23:48:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/20/librecatlibrecat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://librecat.org/">LibreCat</a> 內含多個工具，最近會跟 elasticsearch 結合作些 ETL 的測試。</p>
 ]]></content>
   </entry>
   

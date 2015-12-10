@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-09T23:37:01+08:00</updated>
+  <updated>2015-12-10T23:58:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hashcat: Password Recovery Utility]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/10/hashcat/"/>
+    <updated>2015-12-10T23:56:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/10/hashcat</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/hashcat/hashcat">hashcat</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mininet Emulate Network]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://www.slideshare.net/MrChrisJohnson/interactive-recommender-systems-with-netflix-and-spotify/99-Insights_Algorithmic_perspectiveNeed_to_balance">Interactive Recommender Systems with Netflix and Spotify</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nosql 關於 Transactions 的部分]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/27/nosql-transactions/"/>
-    <updated>2015-11-27T23:29:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/27/nosql-transactions</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.jmfaleiro.com/blog/post/fit-tradeoff/">Why MongoDB, Cassandra, HBase, DynamoDB, and Riak will only let you perform transactions on a single data item</a></p>
 ]]></content>
   </entry>
   
