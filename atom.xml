@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-10T23:58:12+08:00</updated>
+  <updated>2015-12-11T23:43:26+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scylla : C++ Version Cassandra]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/11/scylla/"/>
+    <updated>2015-12-11T23:40:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/11/scylla</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/scylladb/scylla">scylla</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hashcat: Password Recovery Utility]]></title>
@@ -415,26 +427,6 @@
 
 
 <p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Percolator 功能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/21/percolator/"/>
-    <updated>2015-11-21T23:11:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/21/percolator</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>簡單說用起來類似 mysql 的 trigger。</p>
-
-<p><a href="https://speakerdeck.com/javanna/whats-new-in-percolator">What&rsquo;s New in Percolator</a></p>
-
-<p><a href="https://qbox.io/blog/using-elasticsearch-percolation-in-the-e-commerce-use-case">Using Elasticsearch Percolation in the E-Commerce Use Case</a></p>
-
-<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-1">When and How To Percolate - Part 1</a></p>
-
-<p><a href="https://www.elastic.co/blog/when-and-how-to-percolate-2">When and How To Percolate - Part 2</a></p>
 ]]></content>
   </entry>
   
