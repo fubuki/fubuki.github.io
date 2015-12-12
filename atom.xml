@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-11T23:43:26+08:00</updated>
+  <updated>2015-12-12T23:17:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hystrix : Fault Tolerance Library]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/12/hystrix/"/>
+    <updated>2015-12-12T23:09:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/12/hystrix</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Scylla : C++ Version Cassandra]]></title>
@@ -415,18 +424,6 @@
 
 
 <p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cloud Design Patterns 系列]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns/"/>
-    <updated>2015-11-22T22:06:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/22/cloud-design-patterns</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>一系列關於 <a href="https://msdn.microsoft.com/en-us/library/dn568099.aspx">Cloud Design Patterns</a> 的文章。</p>
 ]]></content>
   </entry>
   

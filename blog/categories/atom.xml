@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-11T23:43:26+08:00</updated>
+  <updated>2015-12-12T23:17:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hystrix : Fault Tolerance Library]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/12/hystrix/"/>
+    <updated>2015-12-12T23:09:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/12/hystrix</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hashcat: Password Recovery Utility]]></title>
@@ -58,18 +67,6 @@
 
 
 <p><a href="http://openvswitch.org/">Open Virtual Switch</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spotify 背後的推薦系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/28/spotify-recommender-systems/"/>
-    <updated>2015-11-28T22:16:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/28/spotify-recommender-systems</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/MrChrisJohnson/interactive-recommender-systems-with-netflix-and-spotify/99-Insights_Algorithmic_perspectiveNeed_to_balance">Interactive Recommender Systems with Netflix and Spotify</a></p>
 ]]></content>
   </entry>
   
