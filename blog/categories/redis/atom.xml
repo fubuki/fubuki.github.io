@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Redis | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/redis/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-12T23:17:30+08:00</updated>
+  <updated>2015-12-13T22:24:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Redis 實現 Distributed Locks]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/13/distributed-locks-with-redis/"/>
+    <updated>2015-12-13T22:21:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/13/distributed-locks-with-redis</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://redis.io/topics/distlock">Distributed locks with Redis</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Redis Conf 2015]]></title>
@@ -66,28 +78,6 @@
 
 <p><a href="https://github.com/wandoulabs/codis">codis</a> 是用 C 和 GO 撰寫的 proxy，看起來類似 <code>Twemproxy</code>，不過他跟 <code>Twemproxy</code> 不一樣的地方在提供動態 <code>scale</code>
 和監控後台的功能，但是效能上開發人員說會慢 20% 左右。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redis 的 Bitmap 和 HyperLogLogs]]></title>
-    <link href="http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs/"/>
-    <updated>2014-10-09T23:36:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/10/09/redis-bitmap-hyperloglogs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>redis 之前新增了兩個資料類型 : Bitmap 和 HyperLogLogs，現在特別紀錄一下這兩種類型的差別和用途。</p>
-
-<h3>Bitmap</h3>
-
-<p>Bitmap 似乎是讓 string 類型可以有 bit 層級的操作命令，目前看起來可以用在紀錄會員活耀數。</p>
-
-<h3>HyperLogLogs</h3>
-
-<p>HyperLogLogs 用來做基数估计的演算法，藉此可以用來做大數據分析。</p>
-
-<p><a href="http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/">Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure</a></p>
 ]]></content>
   </entry>
   

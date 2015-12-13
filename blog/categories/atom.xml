@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-12T23:17:30+08:00</updated>
+  <updated>2015-12-13T22:24:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2015/12/12/hystrix/"/>
     <updated>2015-12-12T23:09:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/12/12/hystrix</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
 ]]></content>
   </entry>
   

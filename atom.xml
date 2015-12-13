@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-12T23:17:30+08:00</updated>
+  <updated>2015-12-13T22:24:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[使用 Redis 實現 Distributed Locks]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/13/distributed-locks-with-redis/"/>
+    <updated>2015-12-13T22:21:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/13/distributed-locks-with-redis</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://redis.io/topics/distlock">Distributed locks with Redis</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Hystrix : Fault Tolerance Library]]></title>
     <link href="http://fubuki.github.io/blog/2015/12/12/hystrix/"/>
     <updated>2015-12-12T23:09:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2015/12/12/hystrix</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
 ]]></content>
   </entry>
   
@@ -412,18 +427,6 @@
 
 
 <p><a href="http://www.enterprisesearcheurope.com/2015/">Enterprise Search Europe 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Enable PHP-FPM Status Page]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/23/phpfpm-status/"/>
-    <updated>2015-11-23T00:30:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/23/phpfpm-status</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
 ]]></content>
   </entry>
   
