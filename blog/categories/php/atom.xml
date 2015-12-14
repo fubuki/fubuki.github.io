@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-13T22:24:09+08:00</updated>
+  <updated>2015-12-14T22:06:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 使用 Gcc 的 Pgo 優化]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc/"/>
+    <updated>2015-12-14T21:52:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Profile-guided_optimization">Profile-guided optimization (PGO)</a> 為 GCC 的一個功能，可以藉由訓練優化編譯出來的程式，所以在網路上看到有人用
+PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性能，一般來說通常會開 opcache 優化如果比較起來相差不大
+也許也不用特地使用 PGO 優化。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Box 的 Php 轉移到 HHVM]]></title>
@@ -60,20 +74,6 @@
 
 
 <p><a href="http://php.net/manual/en/regexp.reference.unicode.php">Unicode character properties</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 的 Pcntl_fork 函式]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork/"/>
-    <updated>2015-08-20T23:18:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/20/php-pcntl-fork</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 PHP 撰寫 CLI 的功能時，想要實做能夠根據 CPU 數量自動 auto scale 加快計算的功能，
-所以在尋找 PHP 裡面跟 fork 有關的函式，最後找到了 pcntl_fork 這個函式能夠 fork 出多個 process ，
-使用上不太難不過子進程結束需要自行。</p>
 ]]></content>
   </entry>
   

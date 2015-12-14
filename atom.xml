@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-13T22:24:09+08:00</updated>
+  <updated>2015-12-14T22:06:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php 使用 Gcc 的 Pgo 優化]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc/"/>
+    <updated>2015-12-14T21:52:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Profile-guided_optimization">Profile-guided optimization (PGO)</a> 為 GCC 的一個功能，可以藉由訓練優化編譯出來的程式，所以在網路上看到有人用
+PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性能，一般來說通常會開 opcache 優化如果比較起來相差不大
+也許也不用特地使用 PGO 優化。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Redis 實現 Distributed Locks]]></title>
@@ -415,18 +429,6 @@
 
 
 <p><a href="https://github.com/rundeck/rundeck">rundeck</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Enterprise Search Europe 2015]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/24/enterprise-search-europe-2015/"/>
-    <updated>2015-11-24T23:56:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/24/enterprise-search-europe-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.enterprisesearcheurope.com/2015/">Enterprise Search Europe 2015</a></p>
 ]]></content>
   </entry>
   
