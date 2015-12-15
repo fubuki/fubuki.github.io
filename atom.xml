@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-14T22:06:57+08:00</updated>
+  <updated>2015-12-15T23:37:51+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[處理 Log 的一些方法]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/15/process-log/"/>
+    <updated>2015-12-15T23:31:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/15/process-log</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/gschmutz/unified-logprocessing">Unified Log Processing Architecture</a></p>
+
+<p><a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">Resources on Event Stream Processing / Unified Log Pipelines</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 使用 Gcc 的 Pgo 優化]]></title>
@@ -417,18 +431,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/">Under the hood: Box&rsquo;s HHVM migration</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[測試使用 Rundeck]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/25/rundeck/"/>
-    <updated>2015-11-25T23:50:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/25/rundeck</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/rundeck/rundeck">rundeck</a></p>
 ]]></content>
   </entry>
   
