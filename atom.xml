@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-15T23:37:51+08:00</updated>
+  <updated>2015-12-16T23:28:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NAACL 2015 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/16/naacl-2015/"/>
+    <updated>2015-12-16T23:20:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/16/naacl-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://naacl.org/naacl-hlt-2015/">NAACL HLT 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[處理 Log 的一些方法]]></title>
@@ -419,18 +431,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="http://www.jmfaleiro.com/blog/post/fit-tradeoff/">Why MongoDB, Cassandra, HBase, DynamoDB, and Riak will only let you perform transactions on a single data item</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Box 的 Php 轉移到 HHVM]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/26/box-php/"/>
-    <updated>2015-11-26T22:41:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/26/box-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/">Under the hood: Box&rsquo;s HHVM migration</a></p>
 ]]></content>
   </entry>
   
