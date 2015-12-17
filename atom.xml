@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-16T23:28:27+08:00</updated>
+  <updated>2015-12-17T23:14:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Compile Openjdk 9 on Ubuntu]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/17/compile-openjdk-9/"/>
+    <updated>2015-12-17T22:41:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/17/compile-openjdk-9</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<pre><code>hg clone http://hg.openjdk.java.net/jdk9/jdk9
+cd jdk9
+bash ./get_source.sh
+
+install dependency package
+
+apt-get install openjdk-8-jdk
+
+bash ./configure 
+make all
+make install
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NAACL 2015 資料]]></title>
@@ -419,18 +442,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="http://www.slideshare.net/MrChrisJohnson/interactive-recommender-systems-with-netflix-and-spotify/99-Insights_Algorithmic_perspectiveNeed_to_balance">Interactive Recommender Systems with Netflix and Spotify</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nosql 關於 Transactions 的部分]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/27/nosql-transactions/"/>
-    <updated>2015-11-27T23:29:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/27/nosql-transactions</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.jmfaleiro.com/blog/post/fit-tradeoff/">Why MongoDB, Cassandra, HBase, DynamoDB, and Riak will only let you perform transactions on a single data item</a></p>
 ]]></content>
   </entry>
   
