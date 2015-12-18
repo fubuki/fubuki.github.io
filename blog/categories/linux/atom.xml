@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-17T23:14:07+08:00</updated>
+  <updated>2015-12-18T23:48:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Install Archlinux on Vmware]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware/"/>
+    <updated>2015-12-18T23:45:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://wiki.archlinux.org/index.php/Beginners'_guide">Beginners&#8217; guide</a></li>
+<li><a href="https://github.com/vmware/open-vm-tools">open-vm-tools</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
@@ -70,23 +86,6 @@
 <li>MADV_FREE kernel 會延遲回收那些頁面</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nmon 監控指令]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/17/nmon/"/>
-    <updated>2015-03-17T23:41:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/17/nmon</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h4>安裝</h4>
-
-<pre><code>apt-get install nmon
-</code></pre>
-
-<p>除了 top 以外可以使用 <code>nmon</code> 監控 linux 內部的狀態，提供更詳細的情形。</p>
 ]]></content>
   </entry>
   
