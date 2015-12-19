@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-18T23:48:39+08:00</updated>
+  <updated>2015-12-19T23:54:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google Code Review Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/19/git-appraise/"/>
+    <updated>2015-12-19T23:52:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/19/git-appraise</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git Team Workflow]]></title>
@@ -66,20 +78,6 @@
 <li>P4Merge</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Filter-branch]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/10/filter-branch-git/"/>
-    <updated>2015-04-10T23:06:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/10/filter-branch-git</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>git filter-branch‵ 能夠改寫整個專案的歷史，會用到這個是因為以前有人在專案裡面將很多
-二進位檔案加入追蹤導致專案過於肥大，另外裡面有些檔案帶有敏感資訊所以必須連 commit 裡面的
-訊息全部去除，這時就用到</code>git filter-branch‵ 。</p>
 ]]></content>
   </entry>
   

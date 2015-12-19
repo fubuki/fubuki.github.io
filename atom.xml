@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-18T23:48:39+08:00</updated>
+  <updated>2015-12-19T23:54:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google Code Review Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/19/git-appraise/"/>
+    <updated>2015-12-19T23:52:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/19/git-appraise</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Install Archlinux on Vmware]]></title>
@@ -434,18 +446,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://github.com/braziljs/js-the-right-way">javascript right way</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon JP 2015 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015/"/>
-    <updated>2015-11-29T21:35:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://pycon.jp/2015/ja/reports/slides/">pycon jp 2015</a></p>
 ]]></content>
   </entry>
   
