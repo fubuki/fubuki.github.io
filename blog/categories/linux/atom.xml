@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-19T23:54:07+08:00</updated>
+  <updated>2015-12-20T23:02:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance/"/>
+    <updated>2015-12-20T22:28:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Install Archlinux on Vmware]]></title>
@@ -68,24 +80,6 @@
 
 
 <p><a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MADV_DONTNEED 和 MADV_FREE]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free/"/>
-    <updated>2015-03-27T03:05:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/27/madv-dontneed-madv-free</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 firefox 記憶體管理的程式碼時看到下面兩個名詞。</p>
-
-<ol>
-<li>MADV_DONTNEED 會馬上回收指定的記憶體區塊</li>
-<li>MADV_FREE kernel 會延遲回收那些頁面</li>
-</ol>
-
 ]]></content>
   </entry>
   

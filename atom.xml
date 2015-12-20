@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-19T23:54:07+08:00</updated>
+  <updated>2015-12-20T23:02:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance/"/>
+    <updated>2015-12-20T22:28:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Code Review Tool]]></title>
@@ -434,18 +446,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 <p><a href="http://engineering.datarank.com/2015/06/30/analysis-of-hotspots-in-clusters-of-log-normally-distributed-data.html">Analysis of Hotspots in Clusters of Log-Normally Distributed Data</a></p>
 
 <p><a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Javascript Right Way]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/30/javascript-right-way/"/>
-    <updated>2015-11-30T23:48:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/30/javascript-right-way</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/braziljs/js-the-right-way">javascript right way</a></p>
 ]]></content>
   </entry>
   
