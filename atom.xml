@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-20T23:02:57+08:00</updated>
+  <updated>2015-12-21T23:52:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spark + Akka + Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch/"/>
+    <updated>2015-12-21T23:49:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.premium-minds.com/akka-to-the-rescue/">Akka to the rescue</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
@@ -432,20 +444,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 <p>[[CSP] On Reporting and Filtering]:<a href="https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/">https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/</a>
 [[CSP] Unsafe-inline and nonce deployment]:<a href="https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/">https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/</a>
 [[CSP] The Unexpected Eval]:<a href="https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/">https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Cluster Hotspot Problem]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance/"/>
-    <updated>2015-12-01T22:38:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.datarank.com/2015/06/30/analysis-of-hotspots-in-clusters-of-log-normally-distributed-data.html">Analysis of Hotspots in Clusters of Log-Normally Distributed Data</a></p>
-
-<p><a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a></p>
 ]]></content>
   </entry>
   

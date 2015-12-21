@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-20T23:02:57+08:00</updated>
+  <updated>2015-12-21T23:52:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spark + Akka + Elasticsearch]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch/"/>
+    <updated>2015-12-21T23:49:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.premium-minds.com/akka-to-the-rescue/">Akka to the rescue</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[處理 Log 的一些方法]]></title>
@@ -60,18 +72,6 @@
 
 
 <p><a href="https://vimeo.com/131199089">CQRS – but different - Udi Dahan</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[RebirnDB 架構]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/16/rebirndb/"/>
-    <updated>2015-07-16T20:31:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/16/rebirndb</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/reborndb/reborn">RebornDB</a> 一個分散式 key-value 資料庫。</p>
 ]]></content>
   </entry>
   
