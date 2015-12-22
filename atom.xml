@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-21T23:52:46+08:00</updated>
+  <updated>2015-12-22T22:56:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spotify 監控系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify/"/>
+    <updated>2015-12-22T22:12:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://labs.spotify.com/2015/11/16/monitoring-at-spotify-the-story-so-far/">Monitoring at Spotify: The Story So Far</a></li>
+<li><a href="https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/">Monitoring at Spotify: Introducing Heroic</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spark + Akka + Elasticsearch]]></title>
@@ -423,27 +439,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="http://openvswitch.org/">Open Virtual Switch</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dropbox Content Security Policy]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/02/dropbox-csp-safe/"/>
-    <updated>2015-12-02T22:16:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/02/dropbox-csp-safe</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>[[CSP] On Reporting and Filtering]</li>
-<li>[[CSP] Unsafe-inline and nonce deployment]</li>
-<li>[[CSP] The Unexpected Eval]</li>
-</ol>
-
-
-<p>[[CSP] On Reporting and Filtering]:<a href="https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/">https://blogs.dropbox.com/tech/2015/09/on-csp-reporting-and-filtering/</a>
-[[CSP] Unsafe-inline and nonce deployment]:<a href="https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/">https://blogs.dropbox.com/tech/2015/09/unsafe-inline-and-nonce-deployment/</a>
-[[CSP] The Unexpected Eval]:<a href="https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/">https://blogs.dropbox.com/tech/2015/09/csp-the-unexpected-eval/</a></p>
 ]]></content>
   </entry>
   

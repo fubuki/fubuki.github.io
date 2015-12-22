@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-21T23:52:46+08:00</updated>
+  <updated>2015-12-22T22:56:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Spotify 監控系統]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify/"/>
+    <updated>2015-12-22T22:12:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://labs.spotify.com/2015/11/16/monitoring-at-spotify-the-story-so-far/">Monitoring at Spotify: The Story So Far</a></li>
+<li><a href="https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/">Monitoring at Spotify: Introducing Heroic</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spark + Akka + Elasticsearch]]></title>
@@ -60,18 +76,6 @@
 
 
 <p><a href="https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83">Building Analytics at 500px</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CQRS 不同的應用方法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/26/cqrs-but-different/"/>
-    <updated>2015-07-26T23:24:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/26/cqrs-but-different</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://vimeo.com/131199089">CQRS – but different - Udi Dahan</a></p>
 ]]></content>
   </entry>
   
