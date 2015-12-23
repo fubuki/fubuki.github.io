@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-22T22:56:00+08:00</updated>
+  <updated>2015-12-23T23:55:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nutch Anthelion]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/23/anthelion/"/>
+    <updated>2015-12-23T23:53:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/23/anthelion</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/yahoo/anthelion">anthelion</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spotify 監控系統]]></title>
@@ -427,18 +439,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 <p>不斷調整決策</p>
 
 <p>research 如何規劃時間</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install Open Virtual Switch on Raspi]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/03/open-virtual-switch/"/>
-    <updated>2015-12-03T23:24:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/03/open-virtual-switch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://openvswitch.org/">Open Virtual Switch</a></p>
 ]]></content>
   </entry>
   
