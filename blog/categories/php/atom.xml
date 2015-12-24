@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-23T23:55:18+08:00</updated>
+  <updated>2015-12-24T23:51:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Faker 產生測試用的資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/24/faker/"/>
+    <updated>2015-12-24T23:50:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/24/faker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/fzaninotto/Faker">Faker</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Php 使用 Gcc 的 Pgo 優化]]></title>
@@ -62,18 +74,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 <p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]</p>
 
 <p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]:<a href="https://bugs.php.net/bug.php?id=70757">https://bugs.php.net/bug.php?id=70757</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP 處理 Unicode 字元]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/07/php-regexp-unicode/"/>
-    <updated>2015-09-07T23:06:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/07/php-regexp-unicode</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://php.net/manual/en/regexp.reference.unicode.php">Unicode character properties</a></p>
 ]]></content>
   </entry>
   

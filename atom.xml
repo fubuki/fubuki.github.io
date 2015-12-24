@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-23T23:55:18+08:00</updated>
+  <updated>2015-12-24T23:51:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Faker 產生測試用的資料]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/24/faker/"/>
+    <updated>2015-12-24T23:50:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/24/faker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/fzaninotto/Faker">Faker</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nutch Anthelion]]></title>
@@ -329,116 +341,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 <p>實戰經驗</p>
 
 <p>Shallow vs. Retained Headp</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jcconf 2015 Day1]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/04/jcconf-2015-day1/"/>
-    <updated>2015-12-04T21:20:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/04/jcconf-2015-day1</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>The Future of the JVM</h3>
-
-<p>這邊應該是要講 jvm 上面跑的語言，最後聽起來主要在講 jruby 相關的專案，和背後的運行
-的機制，jruby 在 jvm 上面的跑動流程。</p>
-
-<p>ruby == unix
-所以有些 depend os 的 function 需要另外實作</p>
-
-<h4>keyword</h4>
-
-<ol>
-<li>jni-ffi</li>
-<li>jna</li>
-<li>jnr-enxio</li>
-<li>jnr-unixsocket</li>
-</ol>
-
-
-<p>FFI in JVM</p>
-
-<p>JEP-191</p>
-
-<p>Panama</p>
-
-<p>Java 在使用 compare 比較兩個 integer 的數字時會將其轉換成 object 效率會下降</p>
-
-<p>procject valhalla</p>
-
-<p>Invokedynamiccall</p>
-
-<h3>用 Spring boot + Thymeleaf 建構 EC 平台</h3>
-
-<p>介紹 spring boot 和 樣版引擎</p>
-
-<h3>zookeeper 打造軟體式負載平衡</h3>
-
-<p>跟以前看過的 zookeeper 的資訊一樣沒有特別記錄的地方。</p>
-
-<h3>爬蟲</h3>
-
-<h4>爬蟲組合包</h4>
-
-<ol>
-<li>Apache Common VFS</li>
-<li>jsoup</li>
-</ol>
-
-
-<h4>jsoup 好用的的函式</h4>
-
-<p>:containOwn(text)
-:matchOwn(regex)　</p>
-
-<p>使用 jeckins ci 做定時任務</p>
-
-<p>在抓取別人資料時需要要遵守的規則</p>
-
-<p>爬蟲包下載看看 <a href="https://github.com/abola/CrawlerPack">CrawlerPack</a></p>
-
-<p>農委會的資料欄位全是中文的，後面應該是用 .net 撰寫的。</p>
-
-<h3>Introduction to deep learning and its implementation on Java - DL4J</h3>
-
-<p>之前就有在看 DL4J，這場主要講 <code>deep learning</code> 相關的模型和算法比較多。</p>
-
-<ol>
-<li>autoencoder</li>
-<li>Restricted Boltzmann Machine</li>
-<li>LSTM</li>
-<li>BPTT</li>
-</ol>
-
-
-<h3>Akka Cluster in Java</h3>
-
-<p>使用 actor concurrency model。</p>
-
-<p>介紹 akka 的使用方式，之後可以是用看看，不過這類的工作應該會使用 golang 或是 erlang 開發。</p>
-
-<h3>使用 Scrum Estimation Model 評估變化所帶來的影響範圍</h3>
-
-<p>主要概念是要不斷調整專案的時程以便因應環境的變化，使用以前的開發的時間做為下一次
-專案開發時間的估算依據。</p>
-
-<p>Agile Tribes</p>
-
-<p>SPA simple public agreeable 估算時間方法</p>
-
-<p>相對估算法則</p>
-
-<p>使用上次的資料測試速率</p>
-
-<p>MVP</p>
-
-<p>持續改善</p>
-
-<p>不斷調整決策</p>
-
-<p>research 如何規劃時間</p>
 ]]></content>
   </entry>
   
