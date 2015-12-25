@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-24T23:51:38+08:00</updated>
+  <updated>2015-12-25T23:43:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Moses : Machine Translation]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/25/moses/"/>
+    <updated>2015-12-25T23:40:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/25/moses</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/moses-smt/mosesdecoder">Moses</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Faker 產生測試用的資料]]></title>
@@ -261,86 +273,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="http://europe-2015.dockercon.com/">Dockercon 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jcconf 2015 Day2]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/05/jcconf-2015-day2/"/>
-    <updated>2015-12-05T21:47:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/05/jcconf-2015-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>阿里 JVM 的工作方向</h3>
-
-<p>T4 vm 基於 LxC 的虛擬技術。</p>
-
-<ol>
-<li>多租戶共享內存
-改造 G1 cgroup</li>
-</ol>
-
-
-<p>底層有專門小組負責處理類似連接 mysql 之類的工作</p>
-
-<ol>
-<li>session-based GC
-分類 object 為 session 和 static object 兩種，將 static object 移到 old generation，
-讓jvm 可以直接釋放 slab 而不需要檢查內容。</li>
-</ol>
-
-
-<p>full gc 的細節需要研究。</p>
-
-<p>RPC Architecture HSF</p>
-
-<ol>
-<li>全 IO 上自動異步化</li>
-<li>反序列化優化</li>
-<li>JIT Warm-up</li>
-<li>ZDebugger</li>
-<li>profiling support
- 檢查哪些 function 消耗過多的資源</li>
-</ol>
-
-
-<h3>Universal Scala</h3>
-
-<p>簡介 scala  和 scala.js 以及 Universal。</p>
-
-<h3>Deploy your own Spark cluster in 4 minutes using sbt.</h3>
-
-<p>介紹自製的 spark-deployer</p>
-
-<h3>Immutable Infrastructure：觀念與實作</h3>
-
-<p>ansible 是走 idempotent provision，immutable infra 又走更遠。</p>
-
-<p>裡面提到的工具可以好好研究。</p>
-
-<ol>
-<li>Ansilbe</li>
-<li>Packer</li>
-<li>Otto</li>
-</ol>
-
-
-<p>hyper.sh</p>
-
-<p>Unikernel boxfuse</p>
-
-<h3>JDK8 JIT 行為和效能分析</h3>
-
-<p>去年 jcconf 有聽過一些的內容了&hellip;&hellip;</p>
-
-<h3>自己的JVM自己救 - 解救 OOM 實務經驗談</h3>
-
-<p>使用 MAT 分析 Heap dump</p>
-
-<p>實戰經驗</p>
-
-<p>Shallow vs. Retained Headp</p>
 ]]></content>
   </entry>
   

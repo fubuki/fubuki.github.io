@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-24T23:51:38+08:00</updated>
+  <updated>2015-12-25T23:43:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Moses : Machine Translation]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/25/moses/"/>
+    <updated>2015-12-25T23:40:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/25/moses</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/moses-smt/mosesdecoder">Moses</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Comainu 切詞]]></title>
@@ -60,18 +72,6 @@
 
 
 <p><a href="https://github.com/nlplab/brat">brat</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用統計方法作日本漢字轉換系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi/"/>
-    <updated>2015-10-05T23:40:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/05/tong-ji-de-kanahan-zi-bian-huan-falseshi-zu-mi</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cl.sd.tmu.ac.jp/~komachi/chaime/statime.html">統計的かな漢字変換の仕組み</a></p>
 ]]></content>
   </entry>
   
