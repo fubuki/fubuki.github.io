@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-27T23:02:56+08:00</updated>
+  <updated>2015-12-28T23:41:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quora 如何處理文字訊息]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/28/quora-nlp/"/>
+    <updated>2015-12-28T23:16:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/28/quora-nlp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://data.quora.com/Mapping-the-Discussion-on-Quora-Over-Time-through-Question-Text">Mapping the Discussion on Quora Over Time through Question Text</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Moses : Machine Translation]]></title>
@@ -60,18 +72,6 @@
 <p><a href="https://www.wikidata.org/">wikidata</a></p>
 
 <p><a href="https://dumps.wikimedia.org/">wikimedia dumps</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brat 標註詞性]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/06/brat/"/>
-    <updated>2015-10-06T22:22:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/06/brat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/nlplab/brat">brat</a></p>
 ]]></content>
   </entry>
   

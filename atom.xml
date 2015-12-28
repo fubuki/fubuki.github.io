@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-27T23:02:56+08:00</updated>
+  <updated>2015-12-28T23:41:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quora 如何處理文字訊息]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/28/quora-nlp/"/>
+    <updated>2015-12-28T23:16:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/28/quora-nlp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://data.quora.com/Mapping-the-Discussion-on-Quora-Over-Time-through-Question-Text">Mapping the Discussion on Quora Over Time through Question Text</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kinto : Json Store Database]]></title>
@@ -271,18 +283,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://github.com/mininet/mininet">mininet</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pkcrack: Zip Crack]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/08/pkcrack/"/>
-    <updated>2015-12-08T23:28:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/08/pkcrack</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/pkcrack-readme.html">pkcrack</a></p>
 ]]></content>
   </entry>
   
