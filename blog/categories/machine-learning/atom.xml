@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-28T23:41:03+08:00</updated>
+  <updated>2015-12-29T23:36:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bayesian Program Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/29/bayesian-program-learning/"/>
+    <updated>2015-12-29T23:29:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/29/bayesian-program-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/brendenlake/BPL">BPL</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TensorFlow: Google Machine Learning Library]]></title>
@@ -64,18 +76,6 @@
 <li><a href="https://github.com/airbnb/aerosolve/tree/master/demo/income_prediction">Income Prediction Demo</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Torch 平台]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/29/facebook-torch/"/>
-    <updated>2015-01-29T23:38:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/29/facebook-torch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://torch.ch">torch</a> 是一個 Machine learning 平台，裡面支援不少演算法， <a href="https://research.facebook.com/ai">FAIR</a> 最近放出基於這個平台的工具:<a href="https://github.com/facebook/fbcunn">fbcunn</a>。</p>
 ]]></content>
   </entry>
   

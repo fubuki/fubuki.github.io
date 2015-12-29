@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-28T23:41:03+08:00</updated>
+  <updated>2015-12-29T23:36:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bayesian Program Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/29/bayesian-program-learning/"/>
+    <updated>2015-12-29T23:29:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/29/bayesian-program-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/brendenlake/BPL">BPL</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quora 如何處理文字訊息]]></title>
@@ -271,18 +283,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://github.com/hashcat/hashcat">hashcat</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mininet Emulate Network]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/09/mininet/"/>
-    <updated>2015-12-09T23:00:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/09/mininet</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/mininet/mininet">mininet</a></p>
 ]]></content>
   </entry>
   
