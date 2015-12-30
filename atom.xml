@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-29T23:36:38+08:00</updated>
+  <updated>2015-12-30T23:32:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter 系統故障測試]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/30/twitter-fail-test/"/>
+    <updated>2015-12-30T23:00:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/30/twitter-fail-test</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing">How we break things at Twitter: failure testing</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bayesian Program Learning]]></title>
@@ -271,18 +283,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://github.com/scylladb/scylla">scylla</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hashcat: Password Recovery Utility]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/10/hashcat/"/>
-    <updated>2015-12-10T23:56:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/10/hashcat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/hashcat/hashcat">hashcat</a></p>
 ]]></content>
   </entry>
   
