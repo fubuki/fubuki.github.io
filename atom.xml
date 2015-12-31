@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-30T23:32:14+08:00</updated>
+  <updated>2015-12-31T23:49:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bradley-Terry Model]]></title>
+    <link href="http://fubuki.github.io/blog/2015/12/31/bradley-terry-model/"/>
+    <updated>2015-12-31T23:05:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2015/12/31/bradley-terry-model</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>賽事統計用的機率模型 <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradley-Terry</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter 系統故障測試]]></title>
@@ -271,18 +283,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://github.com/Netflix/Hystrix">Hystrix</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Scylla : C++ Version Cassandra]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/11/scylla/"/>
-    <updated>2015-12-11T23:40:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/11/scylla</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/scylladb/scylla">scylla</a></p>
 ]]></content>
   </entry>
   
