@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Api | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/api/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2015-12-31T23:49:02+08:00</updated>
+  <updated>2016-01-01T23:54:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[API : 設計模式 BFF]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/01/backends-for-frontends/"/>
+    <updated>2016-01-01T23:41:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/01/backends-for-frontends</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://samnewman.io/patterns/architectural/bff/">Pattern: Backends For Frontends</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RESTful API 的版本控制]]></title>
