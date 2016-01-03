@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-02T23:49:29+08:00</updated>
+  <updated>2016-01-03T23:31:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lucene 的 Codec 機制]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/03/codec-lucene/"/>
+    <updated>2016-01-03T23:08:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/03/codec-lucene</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.elastic.co/blog/what-is-an-apache-lucene-codec">What is an Apache Lucene Codec?</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Postgres 一些技巧]]></title>
@@ -269,20 +281,6 @@ make install
 <p><a href="http://www.slideshare.net/gschmutz/unified-logprocessing">Unified Log Processing Architecture</a></p>
 
 <p><a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">Resources on Event Stream Processing / Unified Log Pipelines</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php 使用 Gcc 的 Pgo 優化]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc/"/>
-    <updated>2015-12-14T21:52:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/14/php-pgo-gcc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Profile-guided_optimization">Profile-guided optimization (PGO)</a> 為 GCC 的一個功能，可以藉由訓練優化編譯出來的程式，所以在網路上看到有人用
-PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性能，一般來說通常會開 opcache 優化如果比較起來相差不大
-也許也不用特地使用 PGO 優化。</p>
 ]]></content>
   </entry>
   
