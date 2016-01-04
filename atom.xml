@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-03T23:31:04+08:00</updated>
+  <updated>2016-01-04T23:30:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MOOC Probabilistic Graphical Models]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models/"/>
+    <updated>2016-01-05T00:00:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lucene 的 Codec 機制]]></title>
@@ -267,20 +279,6 @@ make install
 
 
 <p><a href="http://naacl.org/naacl-hlt-2015/">NAACL HLT 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[處理 Log 的一些方法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/15/process-log/"/>
-    <updated>2015-12-15T23:31:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/15/process-log</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/gschmutz/unified-logprocessing">Unified Log Processing Architecture</a></p>
-
-<p><a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">Resources on Event Stream Processing / Unified Log Pipelines</a></p>
 ]]></content>
   </entry>
   

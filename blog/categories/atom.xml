@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-03T23:31:04+08:00</updated>
+  <updated>2016-01-04T23:30:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MOOC Probabilistic Graphical Models]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models/"/>
+    <updated>2016-01-05T00:00:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Postgres 一些技巧]]></title>
@@ -60,24 +72,6 @@
 <ol>
 <li><a href="https://github.com/Kinto/kinto">kinto</a></li>
 <li><a href="http://www.servicedenuages.fr/en/generic-storage-ecosystem">Ecosystem &amp; generic storage</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Vagrant on Windows]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/26/vagrant-on-windows/"/>
-    <updated>2015-12-26T23:48:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/26/vagrant-on-windows</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>install virtual box</li>
-<li>install vagrant</li>
-<li>set vagrant_home for changing to other disk</li>
-<li>using puttygen and putty for ssh connection</li>
 </ol>
 
 ]]></content>
