@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-04T23:30:17+08:00</updated>
+  <updated>2016-01-05T22:51:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Download Npm on Offline Status]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/05/offline-npm/"/>
+    <updated>2016-01-05T22:16:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/05/offline-npm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://addyosmani.com/blog/using-npm-offline/">Offline installation of npm packages</a></p>
+
+<ol>
+<li>local-npm</li>
+<li>npm_lazy</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[註解長度跟 Nodejs 效能關係]]></title>
@@ -76,28 +94,6 @@
 
 <p>目前 node.js 的走向偏向將目前的版本穩定，但是這些核心成員更希望能夠聽取社區的聲音增加新的功能而成立了
 <a href="http://nodeforward.org/">nodeforward</a> 然後過不久後就放出 <a href="http://iojs.org/">Io.js</a>，在這邊 <a href="http://blog.izs.me/post/104685388058/io-js">What is io.js?</a> 有寫出他們跳出來做的目的跟未來的方向。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Domains 處理 node.js 的 Expectation]]></title>
-    <link href="http://fubuki.github.io/blog/2014/09/28/shi-yong-domains-chu-li-node-dot-js-de-expectation/"/>
-    <updated>2014-09-28T22:47:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/09/28/shi-yong-domains-chu-li-node-dot-js-de-expectation</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>寫 node.js 久了之後程式會慢慢變大因此有時會出現 <code>uncaughtException</code> 的問題，由於 node.js 異步的特性所以會無法抓取到錯誤並處理它，
-所以在 node.js 0.8 之後出現了 domains 的模組讓開發者使用。</p>
-
-<pre><code>var domain = require('domain');
-var d = domain.create();
-var serverDomain = domain.create();
-serverDomain.run(function() {
-
-
-});
-</code></pre>
 ]]></content>
   </entry>
   
