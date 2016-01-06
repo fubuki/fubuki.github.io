@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-05T22:51:15+08:00</updated>
+  <updated>2016-01-06T23:28:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Speech 2 辨識中文和英文]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/06/deep-speech-2/"/>
+    <updated>2016-01-06T23:11:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/06/deep-speech-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</code> 在有雜訊的環境下可以有效辨別英文和中文。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Download Npm on Offline Status]]></title>
@@ -262,29 +274,6 @@
 <li><a href="https://github.com/vmware/open-vm-tools">open-vm-tools</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Compile Openjdk 9 on Ubuntu]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/17/compile-openjdk-9/"/>
-    <updated>2015-12-17T22:41:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/17/compile-openjdk-9</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<pre><code>hg clone http://hg.openjdk.java.net/jdk9/jdk9
-cd jdk9
-bash ./get_source.sh
-
-install dependency package
-
-apt-get install openjdk-8-jdk
-
-bash ./configure 
-make all
-make install
-</code></pre>
 ]]></content>
   </entry>
   

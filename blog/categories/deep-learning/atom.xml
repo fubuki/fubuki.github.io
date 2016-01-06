@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Deep Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-05T22:51:15+08:00</updated>
+  <updated>2016-01-06T23:28:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Speech 2 辨識中文和英文]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/06/deep-speech-2/"/>
+    <updated>2016-01-06T23:11:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/06/deep-speech-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</code> 在有雜訊的環境下可以有效辨別英文和中文。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yahoo 如何使用 Hadoop 增加深度學習速度]]></title>
@@ -61,18 +73,6 @@
 
 <p><a href="https://github.com/nagadomi/waifu2x">waifu2x</a> 一個使用 <code>Deep Convolutional Neural Networks</code> 圖片網站，它可以讓圖片在放大的時候減少失真
 ，裡面的原始碼已經有放在 Github 上面了，不過安裝需要使用 CUDA 也就是機器需要 Nivda 的 GPU 支援。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Convolutional Neural Network]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/26/convolutional-neural-network/"/>
-    <updated>2015-03-26T23:09:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/26/convolutional-neural-network</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional neural network</a> 為 Deep Learngin 演算法，最近在做圖像處理的時候用到。</p>
 ]]></content>
   </entry>
   
