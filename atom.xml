@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-06T23:28:52+08:00</updated>
+  <updated>2016-01-07T23:50:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Use Synonym Add Keywords Data]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch/"/>
+    <updated>2016-01-07T23:39:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://mosowave.hatenablog.com/entry/2015/12/07/000000">FRILの商品検索をnGramから形態素解析にした話</a> 使用 <code>synonym</code> 增強搜尋品質，裡面有提到一些技術現在手上
+已經有在用了，另外文章最後面提到的監控和後台系統還蠻值得參考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Speech 2 辨識中文和英文]]></title>
@@ -258,22 +271,6 @@
 
 
 <p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install Archlinux on Vmware]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware/"/>
-    <updated>2015-12-18T23:45:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://wiki.archlinux.org/index.php/Beginners'_guide">Beginners&#8217; guide</a></li>
-<li><a href="https://github.com/vmware/open-vm-tools">open-vm-tools</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

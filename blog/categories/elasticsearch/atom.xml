@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-06T23:28:52+08:00</updated>
+  <updated>2016-01-07T23:50:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Use Synonym Add Keywords Data]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch/"/>
+    <updated>2016-01-07T23:39:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://mosowave.hatenablog.com/entry/2015/12/07/000000">FRILの商品検索をnGramから形態素解析にした話</a> 使用 <code>synonym</code> 增強搜尋品質，裡面有提到一些技術現在手上
+已經有在用了，另外文章最後面提到的監控和後台系統還蠻值得參考。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Cluster Hotspot Problem]]></title>
@@ -78,18 +91,6 @@
 <li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/relevance-is-broken.html">Relevance Is Broken</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[改善全文搜尋的精準度]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan/"/>
-    <updated>2015-11-05T23:29:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/05/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://speakerdeck.com/takuyaa/hatenabutukumakuquan-wen-jian-suo-falsejing-du-gai-shan">はてなブックマーク全文検索の精度改善</a></p>
 ]]></content>
   </entry>
   
