@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-07T23:50:20+08:00</updated>
+  <updated>2016-01-08T03:09:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Niconico 的開放資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/08/nico-opendata/"/>
+    <updated>2016-01-08T03:08:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/08/nico-opendata</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://nico-opendata.jp/ja/index.html">nico-opendata</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch Use Synonym Add Keywords Data]]></title>
@@ -259,18 +271,6 @@
 
 
 <p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Code Review Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/19/git-appraise/"/>
-    <updated>2015-12-19T23:52:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/19/git-appraise</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
 ]]></content>
   </entry>
   
