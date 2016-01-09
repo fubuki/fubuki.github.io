@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-08T03:09:34+08:00</updated>
+  <updated>2016-01-09T22:44:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL Index Hints]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/09/mysql-index-hints/"/>
+    <updated>2016-01-09T22:40:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/09/mysql-index-hints</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dev.mysql.com/doc/refman/5.7/en/index-hints.html">MySQL Index Hints</a> 指定如何使用 Index。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL Performance Schema]]></title>
@@ -64,24 +76,6 @@
 
 <p>今天看到一個沒看過的 &lsquo;mysql storage engine&rsquo; 叫 spider，開發者可以透過這個 storage engine 將數據分片，
 在 Mariadb 官網的這篇 <a href="https://mariadb.com/kb/en/mariadb/spider-storage-engine-overview/">Spider Storage Engine Overview</a> 有解說怎麼使用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql 顯示進程列表]]></title>
-    <link href="http://fubuki.github.io/blog/2015/01/05/mysql-show-process/"/>
-    <updated>2015-01-05T22:12:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/01/05/mysql-show-process</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>檢查目前 mysql 有多少進程，並且可以看出有多少連線，目前有在跑哪些 sql 和執行了多久，
-有時網站變慢可以從列表中觀察是哪些 sql 拖慢系統的速度，另外也可以透過 kill 直接殺掉進程。</p>
-
-<pre><code>show processlist;
-show full processlist;
-kill
-</code></pre>
 ]]></content>
   </entry>
   

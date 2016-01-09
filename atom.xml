@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-08T03:09:34+08:00</updated>
+  <updated>2016-01-09T22:44:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MySQL Index Hints]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/09/mysql-index-hints/"/>
+    <updated>2016-01-09T22:40:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/09/mysql-index-hints</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dev.mysql.com/doc/refman/5.7/en/index-hints.html">MySQL Index Hints</a> 指定如何使用 Index。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Niconico 的開放資料]]></title>
@@ -259,18 +271,6 @@
 
 
 <p><a href="http://blog.premium-minds.com/akka-to-the-rescue/">Akka to the rescue</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance/"/>
-    <updated>2015-12-20T22:28:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
 ]]></content>
   </entry>
   
