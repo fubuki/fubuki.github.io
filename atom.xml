@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-10T23:45:05+08:00</updated>
+  <updated>2016-01-11T06:10:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pyinotify : File Monitor]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/11/pyinotify/"/>
+    <updated>2016-01-11T05:48:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/11/pyinotify</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/seb-m/pyinotify">pyinotify</a> 使用 inotify 監控檔案變化但對於 <code>NFS</code> 之類的是無效的。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[圖論的拓撲排序]]></title>
@@ -255,22 +267,6 @@
 
 
 <p><a href="https://github.com/yahoo/anthelion">anthelion</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spotify 監控系統]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify/"/>
-    <updated>2015-12-22T22:12:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/22/monitoring-at-spotify</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://labs.spotify.com/2015/11/16/monitoring-at-spotify-the-story-so-far/">Monitoring at Spotify: The Story So Far</a></li>
-<li><a href="https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/">Monitoring at Spotify: Introducing Heroic</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
