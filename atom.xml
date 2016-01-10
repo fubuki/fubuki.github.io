@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-09T22:44:27+08:00</updated>
+  <updated>2016-01-10T23:45:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[圖論的拓撲排序]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/10/topological-sorting/"/>
+    <updated>2016-01-10T23:34:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/10/topological-sorting</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Topological_sorting">Topological sorting</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL Index Hints]]></title>
@@ -259,18 +271,6 @@
 <li><a href="https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/">Monitoring at Spotify: Introducing Heroic</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spark + Akka + Elasticsearch]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch/"/>
-    <updated>2015-12-21T23:49:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/21/spark-akka-elasticsearch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://blog.premium-minds.com/akka-to-the-rescue/">Akka to the rescue</a></p>
 ]]></content>
   </entry>
   

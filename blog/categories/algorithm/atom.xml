@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-09T22:44:27+08:00</updated>
+  <updated>2016-01-10T23:45:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[圖論的拓撲排序]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/10/topological-sorting/"/>
+    <updated>2016-01-10T23:34:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/10/topological-sorting</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Topological_sorting">Topological sorting</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[偵測行人演算法]]></title>
@@ -66,18 +78,6 @@
 <li>Betweenness Measure</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 CRF 做中文分詞]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/10/conditional-random-fields/"/>
-    <updated>2015-08-10T22:01:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/10/conditional-random-fields</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.inference.phy.cam.ac.uk/hmw26/crf/">CRF</a> 目前手上主要用來做新詞辨識的工作，在其他領域也不少用途，某方面跟 HMM 有些類似的地方。</p>
 ]]></content>
   </entry>
   
