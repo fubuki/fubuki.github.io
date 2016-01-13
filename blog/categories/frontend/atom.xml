@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Frontend | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/frontend/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-12T23:34:31+08:00</updated>
+  <updated>2016-01-13T23:30:20+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[網站肥大化危機]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/13/website-obesity-crisis/"/>
+    <updated>2016-01-13T13:20:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/13/website-obesity-crisis</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://idlewords.com/talks/website_obesity.htm">The Website Obesity Crisis</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Material Design on Web Page]]></title>
@@ -72,19 +84,6 @@
 
 
 <p><a href="https://developer.mozilla.org/en-US/Apps/Build/Audio_and_video_delivery/Live_streaming_web_audio_and_video">Live streaming web audio and video</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[WebAssembly 優化前端性能]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/30/webassembly/"/>
-    <updated>2015-06-30T23:08:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/30/webassembly</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/WebAssembly/design">WebAssembly</a> 裡面我比較熟悉的是 Mozilla 出的 asm.js ，限制使用 javascript 中耗效能的操作，並且規定好使用的型別使用這樣的方法
-用來優化前端瀏覽器的 javascript 效能，而 <a href="https://github.com/WebAssembly/design">WebAssembly</a> 則是統一各家瀏覽器關於使用類似技術加速的規格。</p>
 ]]></content>
   </entry>
   
