@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-13T23:30:20+08:00</updated>
+  <updated>2016-01-14T23:35:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何在 2016 年成為更好的 Node.js 開發者]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/14/node-dot-js-2016/"/>
+    <updated>2016-01-14T23:29:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/14/node-dot-js-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.risingstack.com/how-to-become-a-better-node-js-developer-in-2016/">How to Become a Better Node.js Developer in 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[網站肥大化危機]]></title>
@@ -255,18 +267,6 @@
 <li>using puttygen and putty for ssh connection</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Moses : Machine Translation]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/25/moses/"/>
-    <updated>2015-12-25T23:40:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/25/moses</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/moses-smt/mosesdecoder">Moses</a></p>
 ]]></content>
   </entry>
   

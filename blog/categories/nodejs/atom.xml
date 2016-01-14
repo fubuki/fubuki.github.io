@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-13T23:30:20+08:00</updated>
+  <updated>2016-01-14T23:35:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何在 2016 年成為更好的 Node.js 開發者]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/14/node-dot-js-2016/"/>
+    <updated>2016-01-14T23:29:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/14/node-dot-js-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.risingstack.com/how-to-become-a-better-node-js-developer-in-2016/">How to Become a Better Node.js Developer in 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Download Npm on Offline Status]]></title>
@@ -78,22 +90,6 @@
 <p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
 在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
 斷線後，自行重新連線。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Io.js]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/14/io-dot-js/"/>
-    <updated>2014-12-14T22:29:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/14/io-dot-js</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近看到一個消息，出了一個 node.js 的分支 <a href="http://iojs.org/">Io.js</a>，是由原本開發的 node.js 的核心成員另外跳出來的作的，
-原因是不滿 <a href="https://www.joyent.com/technology/nodejs">joyent</a> 的管理風格。</p>
-
-<p>目前 node.js 的走向偏向將目前的版本穩定，但是這些核心成員更希望能夠聽取社區的聲音增加新的功能而成立了
-<a href="http://nodeforward.org/">nodeforward</a> 然後過不久後就放出 <a href="http://iojs.org/">Io.js</a>，在這邊 <a href="http://blog.izs.me/post/104685388058/io-js">What is io.js?</a> 有寫出他們跳出來做的目的跟未來的方向。</p>
 ]]></content>
   </entry>
   
