@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-14T23:35:36+08:00</updated>
+  <updated>2016-01-15T22:14:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter With DistributedLog and BookKeeper]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/15/twitter-distributedlog-bookkeeper/"/>
+    <updated>2016-01-15T21:58:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/15/twitter-distributedlog-bookkeeper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://blog.twitter.com/2015/building-distributedlog-twitter-s-high-performance-replicated-log-service">Building DistributedLog: Twitter’s high-performance replicated log service</a></li>
+<li><a href="http://bookkeeper.apache.org/">Apache BookKeeper</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何在 2016 年成為更好的 Node.js 開發者]]></title>
@@ -247,24 +263,6 @@
 <ol>
 <li><a href="https://github.com/Kinto/kinto">kinto</a></li>
 <li><a href="http://www.servicedenuages.fr/en/generic-storage-ecosystem">Ecosystem &amp; generic storage</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Vagrant on Windows]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/26/vagrant-on-windows/"/>
-    <updated>2015-12-26T23:48:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/26/vagrant-on-windows</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>install virtual box</li>
-<li>install vagrant</li>
-<li>set vagrant_home for changing to other disk</li>
-<li>using puttygen and putty for ssh connection</li>
 </ol>
 
 ]]></content>
