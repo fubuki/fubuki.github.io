@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-15T22:14:45+08:00</updated>
+  <updated>2016-01-16T23:50:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tachyon 統合多種儲存系統]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/16/tachyon/"/>
+    <updated>2016-01-16T23:48:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/16/tachyon</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/amplab/tachyon">Tachyon</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter With DistributedLog and BookKeeper]]></title>
@@ -249,22 +261,6 @@
 
 
 <p><a href="https://data.quora.com/Mapping-the-Discussion-on-Quora-Over-Time-through-Question-Text">Mapping the Discussion on Quora Over Time through Question Text</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kinto : Json Store Database]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/27/kinto/"/>
-    <updated>2015-12-27T22:53:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/27/kinto</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/Kinto/kinto">kinto</a></li>
-<li><a href="http://www.servicedenuages.fr/en/generic-storage-ecosystem">Ecosystem &amp; generic storage</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

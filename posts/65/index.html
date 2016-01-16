@@ -9,8 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="exports和module.export 在一些library常看到這兩種東西，有些情況下是相同的，
-去查網路都有推薦Node.js Module – exports vs module.exports這篇文章。
+  <meta name="description" content="amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。
 ">
   
 
@@ -80,6 +80,39 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/25/amazon-dynamo/">Amazon Dynamo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-25T21:40:25+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>25</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:40 pm</span></time>
+        
+           | <a href="/blog/2014/03/25/amazon-dynamo/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/25/amazon-dynamo/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
+類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -379,39 +412,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/19/scrapy-example-code/">Scrapy Example Code</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-19T22:06:39+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>19</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>10:06 pm</span></time>
-        
-           | <a href="/blog/2014/03/19/scrapy-example-code/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/19/scrapy-example-code/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>在scrapy官網上的scrapy範例。
-<a href="http://snipplr.com/all/tags/scrapy/">http://snipplr.com/all/tags/scrapy/</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/66">&larr; Older</a>
@@ -429,6 +429,10 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/01/16/tachyon/">Tachyon 統合多種儲存系統</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/01/15/twitter-distributedlog-bookkeeper/">Twitter With DistributedLog and BookKeeper</a>
       </li>
     
@@ -444,17 +448,13 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
         <a href="/blog/2016/01/12/solr-6-dot-0/">Solr 6.0 Preview</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2016/01/11/pyinotify/">Pyinotify : File Monitor</a>
-      </li>
-    
   </ul>
 </section>
 
 <section>
 <h1>分類</h1>
 <ul>
-  <li><a href='/blog/categories/'> (81)</a></li>
+  <li><a href='/blog/categories/'> (82)</a></li>
   <li><a href='/blog/categories/algorithm'>Algorithm (48)</a></li>
   <li><a href='/blog/categories/android'>Android (12)</a></li>
   <li><a href='/blog/categories/api'>Api (2)</a></li>

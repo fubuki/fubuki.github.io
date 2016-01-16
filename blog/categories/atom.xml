@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-15T22:14:45+08:00</updated>
+  <updated>2016-01-16T23:50:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tachyon 統合多種儲存系統]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/16/tachyon/"/>
+    <updated>2016-01-16T23:48:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/16/tachyon</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/amplab/tachyon">Tachyon</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Niconico 的開放資料]]></title>
@@ -58,18 +70,6 @@
 
 
 <p>賽事統計用的機率模型 <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradley-Terry</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 系統故障測試]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/30/twitter-fail-test/"/>
-    <updated>2015-12-30T23:00:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/30/twitter-fail-test</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing">How we break things at Twitter: failure testing</a></p>
 ]]></content>
   </entry>
   
