@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-16T23:50:01+08:00</updated>
+  <updated>2016-01-17T22:49:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Openssp CVE-2016-0777 / CVE-2016-0778]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778/"/>
+    <updated>2016-01-17T22:45:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.digitalocean.com/community/questions/openssh-client-bug-cve-2016-0777-and-cve-2016-0778">OpenSSH Client Bug CVE-2016-0777 and CVE-2016-0778</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tachyon 統合多種儲存系統]]></title>
@@ -249,18 +261,6 @@
 
 
 <p><a href="https://github.com/brendenlake/BPL">BPL</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quora 如何處理文字訊息]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/28/quora-nlp/"/>
-    <updated>2015-12-28T23:16:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/28/quora-nlp</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://data.quora.com/Mapping-the-Discussion-on-Quora-Over-Time-through-Question-Text">Mapping the Discussion on Quora Over Time through Question Text</a></p>
 ]]></content>
   </entry>
   
