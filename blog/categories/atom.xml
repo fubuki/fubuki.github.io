@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-17T22:49:40+08:00</updated>
+  <updated>2016-01-18T21:38:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,7 +14,25 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Openssp CVE-2016-0777 / CVE-2016-0778]]></title>
+    <title type="html"><![CDATA[Youtube Get All Video Data]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/18/youtube-get-all-video/"/>
+    <updated>2016-01-18T21:28:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/18/youtube-get-all-video</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>先從 <code>https://www.googleapis.com/youtube/v3/channels</code> 取得 <code>uploaded playlist id</code>。</li>
+<li>在使用 <code>https://www.googleapis.com/youtube/v3/playlistItems</code> 取得 <code>video data</code> 。</li>
+<li>原本想從 <code>search api</code> 取得 <code>vidoe data</code> 但是最多只能有 500 筆結果。</li>
+<li>一次 api 呼叫只能有 <code>50</code> 筆資料，超過 <code>50</code> 筆需要使用 <code>nextPageToken</code> 取得之後的資料。</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Openssh CVE-2016-0777 / CVE-2016-0778]]></title>
     <link href="http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778/"/>
     <updated>2016-01-17T22:45:34+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778</id>
@@ -58,18 +76,6 @@
 
 
 <p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Postgres 一些技巧]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/02/postgres-features/"/>
-    <updated>2016-01-02T23:48:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/02/postgres-features</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/">My Top 10 Postgres Features and Tips for 2016</a></p>
 ]]></content>
   </entry>
   
