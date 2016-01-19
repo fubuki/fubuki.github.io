@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-18T21:38:04+08:00</updated>
+  <updated>2016-01-19T23:47:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rollup ES6 Module Bundler]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/19/rollup/"/>
+    <updated>2016-01-19T23:43:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/19/rollup</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/rollup/rollup">rollup</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Youtube Get All Video Data]]></title>
@@ -255,18 +267,6 @@
 
 
 <p>賽事統計用的機率模型 <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradley-Terry</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 系統故障測試]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/30/twitter-fail-test/"/>
-    <updated>2015-12-30T23:00:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/30/twitter-fail-test</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blog.twitter.com/2015/how-we-break-things-at-twitter-failure-testing">How we break things at Twitter: failure testing</a></p>
 ]]></content>
   </entry>
   
