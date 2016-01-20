@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-19T23:47:57+08:00</updated>
+  <updated>2016-01-20T23:22:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nlp at Google]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/20/nlp-at-google/"/>
+    <updated>2016-01-20T23:19:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/20/nlp-at-google</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://breakthroughanalysis.com/2015/10/28/an-inside-view-of-language-technologies-at-google/">An Inside View of Language Technologies at Google</a></li>
+<li><a href="http://www.lt-innovate.org/lt-accelerate">LT-Accelerate</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rollup ES6 Module Bundler]]></title>
@@ -255,18 +271,6 @@
 
 
 <p><a href="http://samnewman.io/patterns/architectural/bff/">Pattern: Backends For Frontends</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bradley-Terry Model]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/31/bradley-terry-model/"/>
-    <updated>2015-12-31T23:05:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/31/bradley-terry-model</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>賽事統計用的機率模型 <a href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model">Bradley-Terry</a></p>
 ]]></content>
   </entry>
   

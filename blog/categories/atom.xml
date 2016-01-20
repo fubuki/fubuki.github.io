@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-19T23:47:57+08:00</updated>
+  <updated>2016-01-20T23:22:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nlp at Google]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/20/nlp-at-google/"/>
+    <updated>2016-01-20T23:19:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/20/nlp-at-google</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://breakthroughanalysis.com/2015/10/28/an-inside-view-of-language-technologies-at-google/">An Inside View of Language Technologies at Google</a></li>
+<li><a href="http://www.lt-innovate.org/lt-accelerate">LT-Accelerate</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Youtube Get All Video Data]]></title>
@@ -64,18 +80,6 @@
 
 
 <p><a href="https://nico-opendata.jp/ja/index.html">nico-opendata</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MOOC Probabilistic Graphical Models]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models/"/>
-    <updated>2016-01-05T00:00:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
 ]]></content>
   </entry>
   
