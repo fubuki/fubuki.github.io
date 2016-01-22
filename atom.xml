@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-21T23:17:13+08:00</updated>
+  <updated>2016-01-22T00:55:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pngquant 縮減 PNG 圖檔大小]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/22/pngquant/"/>
+    <updated>2016-01-22T00:50:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/22/pngquant</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pornel/pngquant">pngquant</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[辨識臉部以外的物體]]></title>
@@ -259,18 +271,6 @@
 
 
 <p><a href="https://www.elastic.co/blog/what-is-an-apache-lucene-codec">What is an Apache Lucene Codec?</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Postgres 一些技巧]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/02/postgres-features/"/>
-    <updated>2016-01-02T23:48:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/02/postgres-features</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/">My Top 10 Postgres Features and Tips for 2016</a></p>
 ]]></content>
   </entry>
   

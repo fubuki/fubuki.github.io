@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-21T23:17:13+08:00</updated>
+  <updated>2016-01-22T00:55:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pngquant 縮減 PNG 圖檔大小]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/22/pngquant/"/>
+    <updated>2016-01-22T00:50:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/22/pngquant</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pornel/pngquant">pngquant</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[辨識臉部以外的物體]]></title>
@@ -68,18 +80,6 @@
 
 
 <p><a href="https://www.digitalocean.com/community/questions/openssh-client-bug-cve-2016-0777-and-cve-2016-0778">OpenSSH Client Bug CVE-2016-0777 and CVE-2016-0778</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tachyon 統合多種儲存系統]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/16/tachyon/"/>
-    <updated>2016-01-16T23:48:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/16/tachyon</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/amplab/tachyon">Tachyon</a></p>
 ]]></content>
   </entry>
   
