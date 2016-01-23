@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-22T00:55:17+08:00</updated>
+  <updated>2016-01-23T21:31:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Brave Browser]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/23/brave-browser/"/>
+    <updated>2016-01-23T21:29:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/23/brave-browser</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/brave/browser-laptop">browser-laptop</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pngquant 縮減 PNG 圖檔大小]]></title>
@@ -259,18 +271,6 @@
 
 
 <p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lucene 的 Codec 機制]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/03/codec-lucene/"/>
-    <updated>2016-01-03T23:08:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/03/codec-lucene</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.elastic.co/blog/what-is-an-apache-lucene-codec">What is an Apache Lucene Codec?</a></p>
 ]]></content>
   </entry>
   
