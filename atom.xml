@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-23T21:31:39+08:00</updated>
+  <updated>2016-01-24T23:36:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ELS 負載平衡]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/24/els/"/>
+    <updated>2016-01-24T23:30:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/24/els</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://labs.spotify.com/2015/12/08/els-part-1/">ELS: latency based load balancer, part 1</a></li>
+<li><a href="https://labs.spotify.com/2015/12/09/els-part-2/">ELS: a latency-based load balancer, part 2</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Brave Browser]]></title>
@@ -259,18 +275,6 @@
 <li>npm_lazy</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MOOC Probabilistic Graphical Models]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models/"/>
-    <updated>2016-01-05T00:00:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/05/mocc-probabilistic-graphical-models</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://zh-tw.coursera.org/course/pgm">斯坦福大學 概率圖模型</a></p>
 ]]></content>
   </entry>
   
