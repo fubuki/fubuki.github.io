@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-24T23:36:21+08:00</updated>
+  <updated>2016-01-25T23:28:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yahoo 的 Datasketches]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/25/datasketches/"/>
+    <updated>2016-01-25T23:00:02+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/25/datasketches</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://datasketches.github.io/">datasketches</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ELS 負載平衡]]></title>
@@ -257,24 +269,6 @@
 
 
 <p><code>Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</code> 在有雜訊的環境下可以有效辨別英文和中文。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Download Npm on Offline Status]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/05/offline-npm/"/>
-    <updated>2016-01-05T22:16:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/05/offline-npm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://addyosmani.com/blog/using-npm-offline/">Offline installation of npm packages</a></p>
-
-<ol>
-<li>local-npm</li>
-<li>npm_lazy</li>
-</ol>
-
 ]]></content>
   </entry>
   
