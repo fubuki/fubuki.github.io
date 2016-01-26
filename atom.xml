@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-25T23:28:15+08:00</updated>
+  <updated>2016-01-26T23:43:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[微軟的 CNTK]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/26/cntk/"/>
+    <updated>2016-01-26T23:35:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/26/cntk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Microsoft/CNTK/">CNTK</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yahoo 的 Datasketches]]></title>
@@ -257,18 +269,6 @@
 
 <p><a href="http://mosowave.hatenablog.com/entry/2015/12/07/000000">FRILの商品検索をnGramから形態素解析にした話</a> 使用 <code>synonym</code> 增強搜尋品質，裡面有提到一些技術現在手上
 已經有在用了，另外文章最後面提到的監控和後台系統還蠻值得參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Speech 2 辨識中文和英文]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/06/deep-speech-2/"/>
-    <updated>2016-01-06T23:11:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/06/deep-speech-2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</code> 在有雜訊的環境下可以有效辨別英文和中文。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-25T23:28:15+08:00</updated>
+  <updated>2016-01-26T23:43:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[微軟的 CNTK]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/26/cntk/"/>
+    <updated>2016-01-26T23:35:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/26/cntk</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Microsoft/CNTK/">CNTK</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bayesian Program Learning]]></title>
@@ -58,24 +70,6 @@
 
 
 <p><a href="https://github.com/piskvorky/gensim/">gensim</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Aerosolve Machine Learning Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/09/aerosolve/"/>
-    <updated>2015-07-09T22:18:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/09/aerosolve</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/airbnb/aerosolve">aerosolve</a> 使用 java 和 scala 寫成的所以就是跑在 JVM 上面，裡面附有一個基於圖片分類的範例跟一個預測收入的範例。</p>
-
-<ol>
-<li><a href="https://github.com/airbnb/aerosolve/tree/master/demo/image_impressionism">Image Impressionism Demo</a></li>
-<li><a href="https://github.com/airbnb/aerosolve/tree/master/demo/income_prediction">Income Prediction Demo</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
