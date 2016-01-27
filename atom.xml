@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-26T23:43:22+08:00</updated>
+  <updated>2016-01-27T23:32:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linkin Scale Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
+    <updated>2016-01-27T23:30:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
+    <content type="html"><![CDATA[<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[微軟的 CNTK]]></title>
@@ -256,19 +265,6 @@
 
 
 <p><a href="https://nico-opendata.jp/ja/index.html">nico-opendata</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Use Synonym Add Keywords Data]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch/"/>
-    <updated>2016-01-07T23:39:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/07/synonym-elasticsearch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://mosowave.hatenablog.com/entry/2015/12/07/000000">FRILの商品検索をnGramから形態素解析にした話</a> 使用 <code>synonym</code> 增強搜尋品質，裡面有提到一些技術現在手上
-已經有在用了，另外文章最後面提到的監控和後台系統還蠻值得參考。</p>
 ]]></content>
   </entry>
   

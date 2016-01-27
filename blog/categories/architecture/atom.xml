@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-26T23:43:22+08:00</updated>
+  <updated>2016-01-27T23:32:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linkin Scale Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
+    <updated>2016-01-27T23:30:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
+    <content type="html"><![CDATA[<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter With DistributedLog and BookKeeper]]></title>
@@ -68,18 +77,6 @@
 <p><a href="http://www.slideshare.net/gschmutz/unified-logprocessing">Unified Log Processing Architecture</a></p>
 
 <p><a href="https://gist.github.com/aviflax/7f453a41a06a200a2f5d">Resources on Event Stream Processing / Unified Log Pipelines</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hubspot 的 Kafka 效能指標]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/12/kafka-hubspot/"/>
-    <updated>2015-10-12T23:37:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/12/kafka-hubspot</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://product.hubspot.com/blog/kafka-at-hubspot-part-1-critical-consumer-metrics">Kafka at HubSpot: Critical Consumer Metrics</a></p>
 ]]></content>
   </entry>
   
