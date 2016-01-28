@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Machine Learngin | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/machine-learngin/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-01-28T23:38:16+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Udacity Google Deep Learning Course]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning/"/>
+    <updated>2016-01-28T23:35:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.udacity.com/course/deep-learning--ud730">Deep Learning Taking machine learning to the next level</a></p>
+]]></content>
+  </entry>
+  
+</feed>

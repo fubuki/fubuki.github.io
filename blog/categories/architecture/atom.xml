@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-27T23:32:45+08:00</updated>
+  <updated>2016-01-28T23:38:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
     <updated>2016-01-27T23:30:39+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
-    <content type="html"><![CDATA[<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
 ]]></content>
   </entry>
   

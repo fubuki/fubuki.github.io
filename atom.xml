@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-27T23:32:45+08:00</updated>
+  <updated>2016-01-28T23:38:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Udacity Google Deep Learning Course]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning/"/>
+    <updated>2016-01-28T23:35:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.udacity.com/course/deep-learning--ud730">Deep Learning Taking machine learning to the next level</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Linkin Scale Architecture]]></title>
     <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
     <updated>2016-01-27T23:30:39+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
-    <content type="html"><![CDATA[<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
 ]]></content>
   </entry>
   
@@ -253,18 +268,6 @@
 
 
 <p><a href="http://dev.mysql.com/doc/refman/5.7/en/index-hints.html">MySQL Index Hints</a> 指定如何使用 Index。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Niconico 的開放資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/08/nico-opendata/"/>
-    <updated>2016-01-08T03:08:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/08/nico-opendata</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://nico-opendata.jp/ja/index.html">nico-opendata</a></p>
 ]]></content>
   </entry>
   
