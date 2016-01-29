@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-28T23:38:16+08:00</updated>
+  <updated>2016-01-29T23:31:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yahoo 釋出一些機器學習的資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/29/yahho-release-data/"/>
+    <updated>2016-01-29T23:05:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/29/yahho-release-data</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://yahoolabs.tumblr.com/post/137281912191/yahoo-releases-the-largest-ever-machine-learning">Yahoo Releases the Largest-ever Machine Learning Dataset for Researchers</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[微軟的 CNTK]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Word2vec 建立本體模型]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/12/word2vec/"/>
-    <updated>2015-09-12T23:41:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/12/word2vec</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/piskvorky/gensim/">gensim</a></p>
 ]]></content>
   </entry>
   
