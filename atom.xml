@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-30T23:49:19+08:00</updated>
+  <updated>2016-01-31T22:58:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Cheat Command]]></title>
+    <link href="http://fubuki.github.io/blog/2016/01/31/commend-cheat/"/>
+    <updated>2016-01-31T22:52:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/01/31/commend-cheat</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/chrisallenlane/cheat">cheat</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[用 R 分析聲音資料]]></title>
@@ -256,18 +268,6 @@
 
 
 <p><a href="http://slides.com/shalinmangar/what-s-cooking#/15">What&rsquo;s cooking in Solr 6</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pyinotify : File Monitor]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/11/pyinotify/"/>
-    <updated>2016-01-11T05:48:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/11/pyinotify</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/seb-m/pyinotify">pyinotify</a> 使用 inotify 監控檔案變化但對於 <code>NFS</code> 之類的是無效的。</p>
 ]]></content>
   </entry>
   
