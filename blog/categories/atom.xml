@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-31T22:58:32+08:00</updated>
+  <updated>2016-02-01T23:58:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parse Server Code]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/01/parse/"/>
+    <updated>2016-02-01T00:59:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/01/parse</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Cheat Command]]></title>
@@ -62,18 +74,6 @@
 <li><a href="https://labs.spotify.com/2015/12/09/els-part-2/">ELS: a latency-based load balancer, part 2</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brave Browser]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/23/brave-browser/"/>
-    <updated>2016-01-23T21:29:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/23/brave-browser</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/brave/browser-laptop">browser-laptop</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-01-31T22:58:32+08:00</updated>
+  <updated>2016-02-01T23:58:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Parse Server Code]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/01/parse/"/>
+    <updated>2016-02-01T00:59:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/01/parse</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Cheat Command]]></title>
@@ -256,18 +268,6 @@
 
 
 <p><a href="http://idlewords.com/talks/website_obesity.htm">The Website Obesity Crisis</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Solr 6.0 Preview]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/12/solr-6-dot-0/"/>
-    <updated>2016-01-12T10:53:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/12/solr-6-dot-0</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://slides.com/shalinmangar/what-s-cooking#/15">What&rsquo;s cooking in Solr 6</a></p>
 ]]></content>
   </entry>
   
