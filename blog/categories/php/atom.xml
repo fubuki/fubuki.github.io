@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-01T23:58:39+08:00</updated>
+  <updated>2016-02-02T23:57:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHPDBG Php Debug Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/02/phpdbg/"/>
+    <updated>2016-02-02T23:56:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/02/phpdbg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://phpdbg.com/">PHPDBG</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Faker 產生測試用的資料]]></title>
@@ -60,20 +72,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP-FPM and Apache 2.4.17]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17/"/>
-    <updated>2015-10-26T23:50:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/26/php-fpm-and-apache-2-dot-4-17</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]</p>
-
-<p>[Bug #70757     $_SERVER[&ldquo;PHP_SELF&rdquo;] is malformed with PHP-FPM and Apache 2.4.17]:<a href="https://bugs.php.net/bug.php?id=70757">https://bugs.php.net/bug.php?id=70757</a></p>
 ]]></content>
   </entry>
   

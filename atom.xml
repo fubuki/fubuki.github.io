@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-01T23:58:39+08:00</updated>
+  <updated>2016-02-02T23:57:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHPDBG Php Debug Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/02/phpdbg/"/>
+    <updated>2016-02-02T23:56:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/02/phpdbg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://phpdbg.com/">PHPDBG</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parse Server Code]]></title>
@@ -256,18 +268,6 @@
 
 
 <p><a href="https://blog.risingstack.com/how-to-become-a-better-node-js-developer-in-2016/">How to Become a Better Node.js Developer in 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[網站肥大化危機]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/13/website-obesity-crisis/"/>
-    <updated>2016-01-13T13:20:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/13/website-obesity-crisis</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://idlewords.com/talks/website_obesity.htm">The Website Obesity Crisis</a></p>
 ]]></content>
   </entry>
   
