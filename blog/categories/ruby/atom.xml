@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Ruby | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-02T23:57:01+08:00</updated>
+  <updated>2016-02-03T22:35:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Huginn Monitor Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/03/huginn/"/>
+    <updated>2016-02-03T21:36:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/03/huginn</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/cantino/huginn">huginn</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[虛擬環境和多版本開發方案]]></title>
