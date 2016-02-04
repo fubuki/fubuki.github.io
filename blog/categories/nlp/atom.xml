@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-03T22:35:03+08:00</updated>
+  <updated>2016-02-04T23:50:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2016 語言分析趨勢]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/04/2016-nlp/"/>
+    <updated>2016-02-04T23:31:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/04/2016-nlp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://venturebeat.com/2016/01/12/10-text-sentiment-and-social-analytics-trends-for-2016/">10 text, sentiment, and social analytics trends for 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quora 如何處理文字訊息]]></title>
@@ -58,20 +70,6 @@
 
 
 <p><a href="http://qiita.com/HirofumiYashima/items/1eb3cf4d41d9a56a0c95">「質問応答マシン」 </a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Wikidata 建立 Cross Language Link]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/11/wikidata/"/>
-    <updated>2015-10-11T19:16:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/11/wikidata</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.wikidata.org/">wikidata</a></p>
-
-<p><a href="https://dumps.wikimedia.org/">wikimedia dumps</a></p>
 ]]></content>
   </entry>
   

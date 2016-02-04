@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-03T22:35:03+08:00</updated>
+  <updated>2016-02-04T23:50:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[2016 語言分析趨勢]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/04/2016-nlp/"/>
+    <updated>2016-02-04T23:31:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/04/2016-nlp</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://venturebeat.com/2016/01/12/10-text-sentiment-and-social-analytics-trends-for-2016/">10 text, sentiment, and social analytics trends for 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Huginn Monitor Tool]]></title>
@@ -252,22 +264,6 @@
 
 
 <p><a href="https://github.com/amplab/tachyon">Tachyon</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter With DistributedLog and BookKeeper]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/15/twitter-distributedlog-bookkeeper/"/>
-    <updated>2016-01-15T21:58:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/15/twitter-distributedlog-bookkeeper</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://blog.twitter.com/2015/building-distributedlog-twitter-s-high-performance-replicated-log-service">Building DistributedLog: Twitter’s high-performance replicated log service</a></li>
-<li><a href="http://bookkeeper.apache.org/">Apache BookKeeper</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
