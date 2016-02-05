@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-04T23:50:56+08:00</updated>
+  <updated>2016-02-05T23:23:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何實作特性切換的功能]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/05/feature-toggles/"/>
+    <updated>2016-02-05T23:16:01+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/05/feature-toggles</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.infoq.com/news/2016/02/featuretoggles">Feature Toggles Revisited</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Parse Server Code]]></title>
@@ -58,22 +70,6 @@
 
 
 <p><a href="http://datasketches.github.io/">datasketches</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ELS 負載平衡]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/24/els/"/>
-    <updated>2016-01-24T23:30:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/24/els</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://labs.spotify.com/2015/12/08/els-part-1/">ELS: latency based load balancer, part 1</a></li>
-<li><a href="https://labs.spotify.com/2015/12/09/els-part-2/">ELS: a latency-based load balancer, part 2</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
