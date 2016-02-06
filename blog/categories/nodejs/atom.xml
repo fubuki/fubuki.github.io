@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nodejs | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-05T23:23:13+08:00</updated>
+  <updated>2016-02-06T23:01:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NodeOS: node.js Operation System]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/06/nodeos/"/>
+    <updated>2016-02-06T22:55:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/06/nodeos</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/NodeOS/NodeOS">NodeOS</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何在 2016 年成為更好的 Node.js 開發者]]></title>
@@ -76,20 +88,6 @@
 <li>fork</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Node Apns ECONNRESET]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/05/node-js-econnreset/"/>
-    <updated>2015-02-05T23:43:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/05/node-js-econnreset</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在使用 node-apn 建立推播 Server 的時候遇到了一個問題，如果一段時間沒有發送推播會出現 <code>ECONNRESET</code> 的錯誤訊息，
-在使用 node-gcm 的時候不會出現這樣的錯誤訊息，然後在 github 有人也有遇到相同的 <a href="https://github.com/argon/node-apn/issues/137">issue</a>，目前似乎需要設置一個 timeout 主動
-斷線後，自行重新連線。</p>
 ]]></content>
   </entry>
   

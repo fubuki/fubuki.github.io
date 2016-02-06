@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-05T23:23:13+08:00</updated>
+  <updated>2016-02-06T23:01:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NodeOS: node.js Operation System]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/06/nodeos/"/>
+    <updated>2016-02-06T22:55:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/06/nodeos</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/NodeOS/NodeOS">NodeOS</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何實作特性切換的功能]]></title>
@@ -252,18 +264,6 @@
 <li>一次 api 呼叫只能有 <code>50</code> 筆資料，超過 <code>50</code> 筆需要使用 <code>nextPageToken</code> 取得之後的資料。</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Openssh CVE-2016-0777 / CVE-2016-0778]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778/"/>
-    <updated>2016-01-17T22:45:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/17/cve-2016-0777-slash-cve-2016-0778</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.digitalocean.com/community/questions/openssh-client-bug-cve-2016-0777-and-cve-2016-0778">OpenSSH Client Bug CVE-2016-0777 and CVE-2016-0778</a></p>
 ]]></content>
   </entry>
   
