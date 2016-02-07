@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-06T23:01:12+08:00</updated>
+  <updated>2016-02-07T23:57:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dlib Process Image]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/07/dlib/"/>
+    <updated>2016-02-07T23:56:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/07/dlib</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dlib.net/">dlib</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NodeOS: node.js Operation System]]></title>
@@ -246,24 +258,6 @@
 
 
 <p><a href="https://github.com/rollup/rollup">rollup</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Youtube Get All Video Data]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/18/youtube-get-all-video/"/>
-    <updated>2016-01-18T21:28:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/18/youtube-get-all-video</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>先從 <code>https://www.googleapis.com/youtube/v3/channels</code> 取得 <code>uploaded playlist id</code>。</li>
-<li>在使用 <code>https://www.googleapis.com/youtube/v3/playlistItems</code> 取得 <code>video data</code> 。</li>
-<li>原本想從 <code>search api</code> 取得 <code>vidoe data</code> 但是最多只能有 500 筆結果。</li>
-<li>一次 api 呼叫只能有 <code>50</code> 筆資料，超過 <code>50</code> 筆需要使用 <code>nextPageToken</code> 取得之後的資料。</li>
-</ol>
-
 ]]></content>
   </entry>
   
