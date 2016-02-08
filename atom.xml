@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-07T23:57:53+08:00</updated>
+  <updated>2016-02-08T23:34:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Velocity 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/08/velocity/"/>
+    <updated>2016-02-08T23:33:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/08/velocity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://conferences.oreilly.com/devops-web-performance-eu-2015">velocity 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dlib Process Image]]></title>
@@ -246,18 +258,6 @@
 <li><a href="http://www.lt-innovate.org/lt-accelerate">LT-Accelerate</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rollup ES6 Module Bundler]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/19/rollup/"/>
-    <updated>2016-01-19T23:43:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/19/rollup</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/rollup/rollup">rollup</a></p>
 ]]></content>
   </entry>
   
