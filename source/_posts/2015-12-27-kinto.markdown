@@ -1,0 +1,15 @@
+---
+layout: post
+title: "kinto : json store database"
+date: 2015-12-27 22:53:29 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+1. [kinto]
+2. [Ecosystem & generic storage]
+
+[kinto]:https://github.com/Kinto/kinto
+[Ecosystem & generic storage]:http://www.servicedenuages.fr/en/generic-storage-ecosystem

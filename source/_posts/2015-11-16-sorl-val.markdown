@@ -1,0 +1,12 @@
+---
+layout: post
+title: "sorl _val_ function query"
+date: 2015-11-16 23:43:07 +0800
+comments: true
+categories: ["solr"]
+---
+
+<!-- more -->
+
+使用 _val_ hook function query 然後使用 debug query 顯示計算出來的數值，用來對一些 sort by function query 產生
+意外的結果時除錯。

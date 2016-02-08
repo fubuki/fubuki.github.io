@@ -1,0 +1,16 @@
+---
+layout: post
+title: "kagome 分詞器"
+date: 2015-09-08 23:36:54 +0800
+comments: true
+categories: ["nlp"]
+---
+
+
+<!-- more -->
+
+1. [kagome]
+2. [Pure Go で辞書同梱な形態素解析器 kagome を公開してみました]
+
+[kagome]:https://github.com/ikawaha/kagome
+[Pure Go で辞書同梱な形態素解析器 kagome を公開してみました]:http://qiita.com/ikawaha/items/ff27ac03e22b7f36811b

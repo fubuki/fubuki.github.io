@@ -1,0 +1,13 @@
+---
+layout: post
+title: "新浪使用 ELK 處理 log"
+date: 2015-11-02 23:46:52 +0800
+comments: true
+categories: 
+---
+
+<!-- more -->
+
+[新浪是如何分析处理32亿条实时日志]
+
+[新浪是如何分析处理32亿条实时日志]:http://dockone.io/article/505

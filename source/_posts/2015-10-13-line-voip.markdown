@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Line Voip System Quality"
+date: 2015-10-13 23:48:51 +0800
+comments: true
+categories: ["voip"]
+---
+
+<!-- more -->
+
+[Improving Call Quality On Popcorn Buzz, A Multi-user Call Service]
+
+[Improving Call Quality On Popcorn Buzz, A Multi-user Call Service]:http://developers.linecorp.com/blog/?p=3593

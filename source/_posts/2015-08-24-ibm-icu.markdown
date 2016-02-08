@@ -1,0 +1,14 @@
+---
+layout: post
+title: "IBM ICU Project"
+date: 2015-08-24 23:36:28 +0800
+comments: true
+categories: ["nlp"]
+---
+
+<!-- more -->
+
+
+[ICU - International Components for Unicode]
+
+[ICU - International Components for Unicode]:http://site.icu-project.org/

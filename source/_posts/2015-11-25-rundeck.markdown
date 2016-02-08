@@ -1,0 +1,14 @@
+---
+layout: post
+title: "測試使用 Rundeck"
+date: 2015-11-25 23:50:01 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+[rundeck]
+
+[rundeck]:https://github.com/rundeck/rundeck

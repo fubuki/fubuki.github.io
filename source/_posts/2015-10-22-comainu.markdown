@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Comainu 切詞"
+date: 2015-10-22 22:55:44 +0800
+comments: true
+categories: ["nlp"]
+---
+
+<!-- more -->
+
+[Comainu] 切詞相關的軟體
+
+[Comainu]:http://comainu.org/

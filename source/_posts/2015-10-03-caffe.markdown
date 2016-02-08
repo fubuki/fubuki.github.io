@@ -1,0 +1,13 @@
+---
+layout: post
+title: "使用 caffe 測試一下"
+date: 2015-10-03 22:28:51 +0800
+comments: true
+categories: ["deep learning"]
+---
+
+<!-- more -->
+
+[caffe]
+
+[caffe]:https://github.com/BVLC/caffe

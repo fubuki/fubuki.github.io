@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Rollup ES6 module bundler "
+date: 2016-01-19 23:43:36 +0800
+comments: true
+categories: ["javascript"]
+---
+
+<!-- more -->
+
+[rollup]
+
+[rollup]:https://github.com/rollup/rollup

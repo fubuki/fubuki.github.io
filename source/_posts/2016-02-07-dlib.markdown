@@ -1,0 +1,15 @@
+---
+layout: post
+title: "dlib process image"
+date: 2016-02-07 23:56:50 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[dlib]
+
+
+[dlib]:http://dlib.net/

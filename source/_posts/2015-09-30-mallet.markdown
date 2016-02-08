@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Mallet : MAchine Learning for LanguagE Toolkit"
+date: 2015-09-30 23:36:18 +0800
+comments: true
+categories: ["mechine learning"]
+---
+
+
+<!-- more -->
+
+[Mallet]
+
+[Generating and Visualizing Topic Models with Tethne and MALLET]
+
+[Mallet]:https://github.com/mimno/Mallet
+
+[Generating and Visualizing Topic Models with Tethne and MALLET]:http://diging.github.io/tethne/api/tutorial.mallet.html

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "GloVe"
+date: 2015-09-19 23:20:59 +0800
+comments: true
+categories: ["nlp"]
+---
+
+<!-- more -->
+
+[GloVe: Global Vectors for Word Representation]
+
+[GloVe: Global Vectors for Word Representation]:http://nlp.stanford.edu/projects/glove/

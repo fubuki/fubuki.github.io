@@ -1,0 +1,76 @@
+---
+layout: post
+title: "coscup 2015 day1"
+date: 2015-08-15 22:09:54 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+### BYOC: Build Your Own COSCUP
+
+介紹 coscup 從以前到現在的演進跟內部怎麼分工
+
+
+### 中文排版需求以及我在W3C看到的事情
+
+中文排版需求第一份使用中文撰寫文檔
+
+講解 epub 演進的歷史
+假裝一切都做好了是最麻煩的
+
+中文排版規格挖坑
+
+UA Stylesheet 導致中文排版問題的元兇
+
+Round Display 給圓形螢幕使用的  CSS
+
+`light-level`  為 media query 的屬性可以根據光源調整 css
+
+CSS SECRETS 一本書可以看看
+
+Text-wrap :balance
+
+CSS scrollbar 微軟提出的用來實做常見的捲動效果
+
+
+### PIME - 用 "Python" 快速開發 Windows 的中文輸入法
+
+看到 PCMAN 本人
+
+講解了 windows 上面輸入法的差別，基本上分成兩種在加上 32 位元跟 64 位元所以會有四種情形。
+
+Demo 了喵喵輸入法
+
+主要是使用了 Client-Server 的架構，所以只要更改 Server 的程式便可以快速修改輸入法的功能。
+
+### Linux 桌面系統在繁體中文資訊化的發展回顧
+
+這場主要是講 Linux 跟一些應用軟體的中文化情形，太少人參與軟體中文化，應該說
+以前的使用者會回饋一些 patch 回來，不過現在
+
+CLE
+
+CLDP
+
+
+### workshop
+
+跑去參加 xmpp 的 workshop，這場收穫比較大的是修正一些以前對於 xmpp 的錯誤概念，
+之後實做聊天軟體時可以參考看看。
+
+
+### A Fresh Look at Accessibility (on the web and mobile devices)
+
+
+無障礙網路空間
+
+講一些目前 w3c 的規範
+
+
+### 第一次自幹 Open Data SimCity 就上手
+
+google map + d3.js 實做資料視覺化
+
+主要在 Demo 效果。

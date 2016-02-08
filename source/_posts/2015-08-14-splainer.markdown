@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Splainer : explain solr result"
+date: 2015-08-14 22:52:43 +0800
+comments: true
+categories: ["solr"]
+---
+
+
+<!-- more -->
+
+[splainer] 是可以利用 solr 的搜尋結果分析背後的分數，跟使用 Lucene 的 explain api 得出背後的得分類似。
+。
+
+
+[splainer]:https://github.com/o19s/splainer

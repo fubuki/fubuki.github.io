@@ -1,0 +1,16 @@
+---
+layout: post
+title: "GopherCon 2015"
+date: 2015-08-21 22:24:21 +0800
+comments: true
+categories: "conference"
+---
+
+<!-- more -->
+
+[GopherCon 2015]
+
+[2015-talks]
+
+[GopherCon 2015]:http://www.gophercon.com/
+[2015-talks]:https://github.com/gophercon/2015-talks

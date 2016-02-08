@@ -1,0 +1,13 @@
+---
+layout: post
+title: "pycon JP 2015 資料"
+date: 2015-11-29 21:35:18 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+[pycon jp 2015]
+
+[pycon jp 2015]:https://pycon.jp/2015/ja/reports/slides/

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "2016 語言分析趨勢 "
+date: 2016-02-04 23:31:32 +0800
+comments: true
+categories: ["nlp"]
+---
+
+
+<!-- more -->
+
+
+[10 text, sentiment, and social analytics trends for 2016]
+
+[10 text, sentiment, and social analytics trends for 2016]:http://venturebeat.com/2016/01/12/10-text-sentiment-and-social-analytics-trends-for-2016/

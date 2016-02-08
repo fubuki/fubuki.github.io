@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Mysql MyRocks engine"
+date: 2015-11-15 23:23:25 +0800
+comments: true
+categories: ["mysql"]
+---
+
+<!-- more -->
+
+[MyRocks advantages over InnoDB]
+
+[MyRocks advantages over InnoDB]:https://github.com/facebook/mysql-5.6/wiki/MyRocks-advantages-over-InnoDB

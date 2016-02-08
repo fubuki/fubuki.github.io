@@ -1,0 +1,15 @@
+---
+layout: post
+title: "NPYLM 和 HPYLM"
+date: 2015-09-06 22:40:48 +0800
+comments: true
+categories: ["nlp"]
+---
+
+
+<!-- more -->
+
+
+[理論はどうでもいいから作ってみたい人のためのNPYLM + 実装のための解説]
+
+[理論はどうでもいいから作ってみたい人のためのNPYLM + 実装のための解説]:https://www.youtube.com/watch?v=GrTgJi65-Mg

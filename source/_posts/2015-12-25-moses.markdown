@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Moses : machine translation"
+date: 2015-12-25 23:40:53 +0800
+comments: true
+categories: ["nlp"]
+---
+
+<!-- more -->
+
+[Moses]
+
+[Moses]:https://github.com/moses-smt/mosesdecoder

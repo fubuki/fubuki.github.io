@@ -1,0 +1,14 @@
+---
+layout: post
+title: "word2vec 建立本體模型"
+date: 2015-09-12 23:41:44 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+[gensim]
+
+[gensim]:https://github.com/piskvorky/gensim/

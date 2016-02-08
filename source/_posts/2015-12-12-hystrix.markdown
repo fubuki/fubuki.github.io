@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Hystrix : fault tolerance library"
+date: 2015-12-12 23:09:52 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+[Hystrix]
+
+[Hystrix]:https://github.com/Netflix/Hystrix

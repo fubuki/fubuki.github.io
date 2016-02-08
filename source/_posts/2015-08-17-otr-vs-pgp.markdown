@@ -1,0 +1,14 @@
+---
+layout: post
+title: "OTR vs PGP 加密"
+date: 2015-08-17 23:21:01 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+`Off-the-Record Communication, or, Why Not To Use PGP` 兩種加密協議的比較，之前在聽關於使用
+xmpp 協定跟別人聊天的 workshop，裡面提到了 OTR 跟 PGP 這兩種加密方式，不過經過研究 PGP 加密有些問題，
+比較推薦使用 OTR，。

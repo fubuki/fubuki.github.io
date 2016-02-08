@@ -1,0 +1,13 @@
+---
+layout: post
+title: "solr 6.0 preview"
+date: 2016-01-12 10:53:09 +0800
+comments: true
+categories: ["solr"]
+---
+
+<!-- more -->
+
+[What's cooking in Solr 6]
+
+[What's cooking in Solr 6]:http://slides.com/shalinmangar/what-s-cooking#/15

@@ -1,0 +1,28 @@
+---
+layout: post
+title: "建立詞庫和相似詞表"
+date: 2015-08-07 22:43:03 +0800
+comments: true
+categories: ["lucene"]
+---
+
+<!-- more -->
+
+
+這幾天在研究怎麼自己建立詞庫和相似詞表，目前有看到有看一個可以不會太難實做的方法，主要是參考下面三篇文章，
+雖然是基於日本語所做的處理不過可以也套用到中文上，裡面大部分是透過 Wikipedia 的資料做處理，我這邊應該會換用從
+網路上爬來的新聞資料試做看看。
+
+1. [WikipediaからのSolr用類義語辞書の自動生成]
+2. [Lucene terms extraction]
+3. [日本語Wikipediaからの類義語辞書の自動生成]
+
+另外上面的文章有提到一個使用 scala 撰寫的工具名叫 [nlp4l] ，裡面似乎提供了不少自然語言處理的工具，如果透過這個工具
+也許可以優化一些基於 Lucene 的搜尋引擎。
+
+
+
+[nlp4l]:https://github.com/NLP4L/nlp4l
+[WikipediaからのSolr用類義語辞書の自動生成]:http://www.slideshare.net/KojiSekiguchi/wikipediasolr
+[Lucene terms extraction]:http://www.slideshare.net/KojiSekiguchi/lucene-terms-extraction
+[日本語Wikipediaからの類義語辞書の自動生成]:http://lucene.jugem.jp/?eid=482

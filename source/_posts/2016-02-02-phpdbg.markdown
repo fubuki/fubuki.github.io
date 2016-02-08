@@ -1,0 +1,13 @@
+---
+layout: post
+title: "PHPDBG php debug tool"
+date: 2016-02-02 23:56:01 +0800
+comments: true
+categories: ["php"]
+---
+
+<!-- more -->
+
+[PHPDBG]
+
+[PHPDBG]:http://phpdbg.com/

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "huginn monitor tool"
+date: 2016-02-03 21:36:23 +0800
+comments: true
+categories: ["ruby"]
+---
+
+<!-- more -->
+
+
+[huginn]
+
+[huginn]:https://github.com/cantino/huginn

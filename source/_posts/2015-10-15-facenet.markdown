@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Google 的 FaceNet"
+date: 2015-10-15 23:36:13 +0800
+comments: true
+categories: ["deep learning"]
+---
+
+
+<!-- more -->
+
+FaceNet: A Unified Embedding for Face Recognition and Clustering
+
+[openface]
+
+
+[openface]:https://github.com/cmusatyalab/openface

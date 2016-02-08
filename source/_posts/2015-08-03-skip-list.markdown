@@ -1,0 +1,17 @@
+---
+layout: post
+title: "skip list and lucene index"
+date: 2015-08-03 22:31:55 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+
+<!-- more -->
+
+
+[Skip list] 之前在看 redis 內部結構的時候遇到，然後最近在研究關於 solr index 優化問題的時後也提到
+這個資料結構，用途上類似紅黑樹但是實現起來比較簡單。
+
+
+[Skip list]:https://en.wikipedia.org/wiki/Skip_list

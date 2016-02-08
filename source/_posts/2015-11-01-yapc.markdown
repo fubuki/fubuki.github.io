@@ -1,0 +1,22 @@
+---
+layout: post
+title: "YAPC::Asia Tokyo 2015"
+date: 2015-11-01 23:31:08 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+[YAPC 2015 ]
+
+1. 世界展開する大規模ウェブサービスのデプロイを支える技術
+2. Technology for reduce a mistake
+3. MySQLで2億件のシリアルデータと格闘したチューニングの話
+4. Website Architecture for HTTP/2 Era
+5. Conway's Law of Distributed Work
+6. Advanced technic for OS upgrading in 3 minute
+7. Technologies for Data Analytics Platform
+
+[YAPC 2015 ]:http://yapcasia.org/2015/

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "建立自己的 dotfiles"
+date: 2015-08-30 22:30:11 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[awesome-dotfiles]
+
+[最強の dotfiles 駆動開発と GitHub で管理する運用方法]
+
+[awesome-dotfiles]:https://github.com/webpro/awesome-dotfiles
+[最強の dotfiles 駆動開発と GitHub で管理する運用方法]:http://qiita.com/b4b4r07/items/b70178e021bef12cd4a2

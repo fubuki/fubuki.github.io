@@ -1,0 +1,13 @@
+---
+layout: post
+title: "第17回Lucene/Solr 讀書會資料"
+date: 2015-11-07 23:55:54 +0800
+comments: true
+categories: ["solr"]
+---
+
+<!-- more -->
+
+[第17回Lucene/Solr勉強会 #SolrJP]
+
+[第17回Lucene/Solr勉強会 #SolrJP]:https://solr.doorkeeper.jp/events/32633

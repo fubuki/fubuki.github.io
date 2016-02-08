@@ -1,0 +1,21 @@
+---
+layout: post
+title: "使用 wikidata 建立 cross language link"
+date: 2015-10-11 19:16:52 +0800
+comments: true
+categories: ["nlp"]
+---
+
+
+<!-- more -->
+
+[wikidata]
+
+[wikimedia dumps]
+
+
+
+
+[wikidata]:https://www.wikidata.org/
+[wikimedia dumps]:https://dumps.wikimedia.org/
+[Freebase]:https://www.freebase.com/

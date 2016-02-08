@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Jcconf 2015 Day2"
+date: 2015-12-05 21:47:24 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+### 阿里 JVM 的工作方向
+T4 vm 基於 LxC 的虛擬技術。
+
+1. 多租戶共享內存
+改造 G1 cgroup
+
+底層有專門小組負責處理類似連接 mysql 之類的工作
+
+2. session-based GC
+分類 object 為 session 和 static object 兩種，將 static object 移到 old generation，
+讓jvm 可以直接釋放 slab 而不需要檢查內容。
+
+full gc 的細節需要研究。
+
+RPC Architecture HSF
+
+3. 全 IO 上自動異步化
+4. 反序列化優化
+5. JIT Warm-up
+6. ZDebugger
+7. profiling support
+	檢查哪些 function 消耗過多的資源
+
+
+###Universal Scala
+
+簡介 scala  和 scala.js 以及 Universal。
+
+
+###Deploy your own Spark cluster in 4 minutes using sbt. 
+
+介紹自製的 spark-deployer
+
+###Immutable Infrastructure：觀念與實作 
+ansible 是走 idempotent provision，immutable infra 又走更遠。
+
+裡面提到的工具可以好好研究。
+
+1. Ansilbe
+2. Packer
+3. Otto
+
+hyper.sh
+
+Unikernel boxfuse
+
+###JDK8 JIT 行為和效能分析 
+
+去年 jcconf 有聽過一些的內容了......
+
+###自己的JVM自己救 - 解救 OOM 實務經驗談 
+
+使用 MAT 分析 Heap dump
+
+實戰經驗
+
+Shallow vs. Retained Headp

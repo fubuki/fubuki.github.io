@@ -1,0 +1,15 @@
+---
+layout: post
+title: "ELS 負載平衡"
+date: 2016-01-24 23:30:23 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+1. [ELS: latency based load balancer, part 1]
+2. [ELS: a latency-based load balancer, part 2]
+
+[ELS: latency based load balancer, part 1]:https://labs.spotify.com/2015/12/08/els-part-1/
+[ELS: a latency-based load balancer, part 2]:https://labs.spotify.com/2015/12/09/els-part-2/

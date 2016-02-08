@@ -1,0 +1,14 @@
+---
+layout: post
+title: "NAACL 2015 資料"
+date: 2015-12-16 23:20:22 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+[NAACL HLT 2015]
+
+
+[NAACL HLT 2015]:http://naacl.org/naacl-hlt-2015/

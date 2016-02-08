@@ -1,0 +1,13 @@
+---
+layout: post
+title: "如何在 2016 年成為更好的 Node.js 開發者"
+date: 2016-01-14 23:29:08 +0800
+comments: true
+categories: ["nodejs"]
+---
+
+<!-- more -->
+
+[How to Become a Better Node.js Developer in 2016]
+
+[How to Become a Better Node.js Developer in 2016]:https://blog.risingstack.com/how-to-become-a-better-node-js-developer-in-2016/

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "CIFAR-10 dataset"
+date: 2015-10-20 23:24:54 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+<!-- more -->
+
+[The CIFAR-10 dataset]
+
+[The CIFAR-10 dataset]:http://www.cs.toronto.edu/~kriz/cifar.html

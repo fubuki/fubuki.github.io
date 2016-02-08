@@ -1,0 +1,13 @@
+---
+layout: post
+title: "brat 標註詞性"
+date: 2015-10-06 22:22:50 +0800
+comments: true
+categories: ["nlp"]
+---
+
+<!-- more -->
+
+[brat]
+
+[brat]:https://github.com/nlplab/brat

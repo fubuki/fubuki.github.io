@@ -1,0 +1,113 @@
+---
+layout: post
+title: "coscup 2015 day2"
+date: 2015-08-16 20:02:47 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+### How Redis Powers Your Web Service & Flurry analytics Intro
+
+Yahoo APAC Data Team
+
+Yahoo Redis 是怎麼使用的
+
+1. Sentinel
+2. twemproxy
+3. redis cluster
+
+幾乎以前就聽過了
+
+
+#### Flurry Analytics (Yahoo mobile developer suite)
+
+手機資料分析工具
+
+### Personalized Search in Yahoo Taiwan eCommerce Sites
+1. 搜尋經驗優化
+2. 個人化搜尋
+3. 演算法和資料量
+4. 使用哪些開源工具
+
+
+重要是 machine learning ranking 應該就是 
+
+機器學習用哪個算法
+資料集怎麼來的
+
+商品了解
+
+重要產品標籤辨識
+LDA SVM
+
+重要產品
+
+使用者偏好推定
+
+巨量資料跟即時運算的問題
+
+PIG 的用法
+
+PLSI EM algorithm
+
+mahout => spark MLlib
+
+K-means
+
+spark 可以加速運算
+
+Logistic Regression
+
+decision tree 
+使用 Random forest  加快
+
+
+使用者短期行為處理
+
+Storm
+
+### Neural Turing Machines Implementation
+
+HMM => Speech recognition
+
+SVM => Image recogniton
+
+CNN
+
+RNN
+
+=> Neural Turing Machine
+
+新的論文可以看看
+
+### 堆疊之下
+
+有做 information retrival
+
+1. Data-Driven 資料導向
+	- A/B testing
+	- MAB testing
+
+2. Dev Ops 分工
+
+3. IT部門 ~900 人,小隊伍 (6人)
+
+主要講 Booking 的背後使用哪些語言跟軟體
+
+
+### 自己的機器人自己做
+使用 arduino 製作機器人
+
+目前尚未完成
+
+
+### 從UAV到UAS 開源無人機的技術與下一步
+
+AHRS 系統跟多軸飛行器使用的組件跟用途
+
+### 「封麥」演說：台灣開放原始碼生態圈回顧
+
+
+### Lightning Talk

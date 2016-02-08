@@ -1,0 +1,17 @@
+---
+layout: post
+title: "murmur3 on elasticsearch"
+date: 2015-10-19 23:45:54 +0800
+comments: true
+categories: ["elasticsearch"]
+---
+
+<!-- more -->
+
+[MurmurHash]
+
+[murmur3 field]
+
+[MurmurHash]:https://en.wikipedia.org/wiki/MurmurHash
+
+[murmur3 field]:https://www.elastic.co/guide/en/elasticsearch/plugins/2.0/mapper-murmur3-usage.html

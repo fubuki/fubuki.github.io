@@ -1,0 +1,13 @@
+---
+layout: post
+title: "偵測行人演算法"
+date: 2015-10-18 22:38:47 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+<!-- more -->
+
+[INRIA Object Detection and Localization Toolkit]
+
+[INRIA Object Detection and Localization Toolkit]:http://pascal.inrialpes.fr/soft/olt/

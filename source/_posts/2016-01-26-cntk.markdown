@@ -1,0 +1,14 @@
+---
+layout: post
+title: "微軟的 CNTK "
+date: 2016-01-26 23:35:17 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+[CNTK]
+
+[CNTK]:https://github.com/Microsoft/CNTK/

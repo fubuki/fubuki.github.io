@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Box 的 php 轉移到 HHVM"
+date: 2015-11-26 22:41:52 +0800
+comments: true
+categories: ["php"]
+---
+
+<!-- more -->
+
+[Under the hood: Box's HHVM migration]
+
+[Under the hood: Box's HHVM migration]:https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/
