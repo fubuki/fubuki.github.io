@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-08T23:34:36+08:00</updated>
+  <updated>2016-02-09T23:07:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dapper Google 的追縱系統]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/09/dapper/"/>
+    <updated>2016-02-09T22:55:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/09/dapper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://research.google.com/pubs/pub36356.html">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dlib Process Image]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/chrisallenlane/cheat">cheat</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[用 R 分析聲音資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/30/sound-analysis-r/"/>
-    <updated>2016-01-30T23:47:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/30/sound-analysis-r</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.r-bloggers.com/intro-to-sound-analysis-with-r/">Intro to Sound Analysis with R</a></p>
 ]]></content>
   </entry>
   

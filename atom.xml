@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-08T23:34:36+08:00</updated>
+  <updated>2016-02-09T23:07:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dapper Google 的追縱系統]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/09/dapper/"/>
+    <updated>2016-02-09T22:55:07+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/09/dapper</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://research.google.com/pubs/pub36356.html">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Velocity 2015]]></title>
@@ -242,22 +254,6 @@
 
 
 <p><a href="http://qiita.com/shu223/items/ffd2202eaf92d342f83d">「顔以外」のものを画像認識する</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nlp at Google]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/20/nlp-at-google/"/>
-    <updated>2016-01-20T23:19:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/20/nlp-at-google</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="http://breakthroughanalysis.com/2015/10/28/an-inside-view-of-language-technologies-at-google/">An Inside View of Language Technologies at Google</a></li>
-<li><a href="http://www.lt-innovate.org/lt-accelerate">LT-Accelerate</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
