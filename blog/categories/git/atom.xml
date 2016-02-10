@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-09T23:07:23+08:00</updated>
+  <updated>2016-02-10T22:43:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Githug: Practice Git Game]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/10/githug/"/>
+    <updated>2016-02-10T22:30:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/10/githug</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Gazler/githug.git">githug</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Code Review Tool]]></title>
@@ -59,25 +71,6 @@
 
 
 <p><a href="https://github.com/blog/2019-how-to-undo-almost-anything-with-git">How to undo (almost) anything with Git</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Merge-tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/17/git-merge-tool/"/>
-    <updated>2015-04-17T22:27:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/17/git-merge-tool</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>當 git merge 發生衝突的時候可以使用 git merge-tool 呼叫外部的工具來處理發生衝突的部分，下面
-是有用到一些工具。</p>
-
-<ol>
-<li>KDiff3</li>
-<li>P4Merge</li>
-</ol>
-
 ]]></content>
   </entry>
   

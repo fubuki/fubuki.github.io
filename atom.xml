@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-09T23:07:23+08:00</updated>
+  <updated>2016-02-10T22:43:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Githug: Practice Git Game]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/10/githug/"/>
+    <updated>2016-02-10T22:30:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/10/githug</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Gazler/githug.git">githug</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dapper Google 的追縱系統]]></title>
@@ -242,18 +254,6 @@
 
 
 <p><a href="https://github.com/pornel/pngquant">pngquant</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[辨識臉部以外的物體]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/21/face-detect/"/>
-    <updated>2016-01-21T23:15:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/21/face-detect</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://qiita.com/shu223/items/ffd2202eaf92d342f83d">「顔以外」のものを画像認識する</a></p>
 ]]></content>
   </entry>
   
