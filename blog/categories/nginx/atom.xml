@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nginx | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nginx/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-11T23:17:59+08:00</updated>
+  <updated>2016-02-12T21:20:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Pagespeed 模組]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/12/nginx-pagespeed/"/>
+    <updated>2016-02-12T21:16:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/12/nginx-pagespeed</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://ngxpagespeed.com/">ngxpagespeed</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ngxtop 監控 Nginx 的工具]]></title>
@@ -98,27 +110,6 @@
 <li><a href="http://qiita.com/kuni-nakaji/items/5118b23bf2ea44fed96e">httpsだからというだけで安全？調べたら怖くなってきたSSLの話!？</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx 的 Fastcgi_cache 模組]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/16/nginx-fastcgi-cache/"/>
-    <updated>2015-03-16T22:44:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/16/nginx-fastcgi-cache</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在看 [[Golang] Go言語でサービス作ってる話] 這篇投影片的時候看到了一個東西 <a href="http://wiki.nginx.org/HttpFastcgiModule">fastcgi_cache</a>， 在 fastcgi 層加上 cache，
-不過要如何決定哪些要快取，還需要研究這邊有兩篇很有趣的文章可以參考 。</p>
-
-<ol>
-<li><a href="http://huoding.com/2014/01/13/321">通过FastCGI Cache实现服务降级</a></li>
-<li><a href="http://www.cnxct.com/several-reminder-in-nginx-fastcgi_cache-and-php-session_cache_limiter/">Nginx模块fastcgi_cache的几个注意点</a></li>
-</ol>
-
-
-<p>[[Golang] Go言語でサービス作ってる話]:<a href="http://www.slideshare.net/yoshikazuhashimoto/go-37911621">http://www.slideshare.net/yoshikazuhashimoto/go-37911621</a></p>
 ]]></content>
   </entry>
   
