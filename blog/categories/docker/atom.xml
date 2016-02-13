@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-12T21:20:11+08:00</updated>
+  <updated>2016-02-13T23:45:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 1.10 版本]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10/"/>
+    <updated>2016-02-13T23:38:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.docker.com/2016/02/docker-1-10/">Docker 1.10: New Compose file, improved security, networking and much more!</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker 的 Volumes 功能]]></title>
@@ -117,30 +129,6 @@ docker run -i -t cellofellow/ffmpeg /bin/bash
 <pre><code>curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`
 uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[安裝 Coreos]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/01/install-coreos/"/>
-    <updated>2014-12-01T01:19:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/01/install-coreos</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Coreos 在官網提供了不少安裝方式，我是使用它提供的 VMware 的映像檔安裝，下載之後解壓縮使用 VMware 啟動。</p>
-
-<pre><code>curl -LO http://alpha.release.core-os.net/amd64-usr/current/coreos_production_vmware_insecure.zip
-</code></pre>
-
-<p>下載的檔案裡面有個 <code>insecure_ssh_key</code>，這個映像檔裡面沒有提供帳密登入預設你要用公私鑰登入，我這邊使用
-<code>puttygen.exe</code> 載入 <code>insecure_ssh_key</code> 生成 putty 所吃的格式後使用 <code>core</code> 當作登入帳號便可以登入。</p>
-
-<pre><code>docker run -t -i ubuntu /bin/bash
-</code></pre>
-
-<p>整個映像檔大小不到 200M  架設起來很方便，目前有看到有公司考慮要將系統移除 docker 裡面利用 Coreos 建立環境，
-這也許可以參考未來架構的規劃。</p>
 ]]></content>
   </entry>
   

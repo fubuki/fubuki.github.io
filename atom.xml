@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-12T21:20:11+08:00</updated>
+  <updated>2016-02-13T23:45:29+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker 1.10 版本]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10/"/>
+    <updated>2016-02-13T23:38:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blog.docker.com/2016/02/docker-1-10/">Docker 1.10: New Compose file, improved security, networking and much more!</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Nginx Pagespeed 模組]]></title>
@@ -238,22 +250,6 @@
 
 
 <p><a href="http://datasketches.github.io/">datasketches</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ELS 負載平衡]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/24/els/"/>
-    <updated>2016-01-24T23:30:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/24/els</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://labs.spotify.com/2015/12/08/els-part-1/">ELS: latency based load balancer, part 1</a></li>
-<li><a href="https://labs.spotify.com/2015/12/09/els-part-2/">ELS: a latency-based load balancer, part 2</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
