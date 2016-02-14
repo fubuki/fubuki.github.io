@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-13T23:45:29+08:00</updated>
+  <updated>2016-02-14T20:20:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Otsu Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/14/otsu-algorithm/"/>
+    <updated>2016-02-14T20:00:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/14/otsu-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Otsu's_method">otsu algorithm</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker 1.10 版本]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="https://github.com/Microsoft/CNTK/">CNTK</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yahoo 的 Datasketches]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/25/datasketches/"/>
-    <updated>2016-01-25T23:00:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/25/datasketches</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://datasketches.github.io/">datasketches</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-13T23:45:29+08:00</updated>
+  <updated>2016-02-14T20:20:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Otsu Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/14/otsu-algorithm/"/>
+    <updated>2016-02-14T20:00:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/14/otsu-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Otsu's_method">otsu algorithm</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[圖論的拓撲排序]]></title>
@@ -58,26 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Count%E2%80%93min_sketch">Count–min sketch</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ontology Ranking Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/19/ontology-score/"/>
-    <updated>2015-08-19T22:50:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/19/ontology-score</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>一些文件的排序演算法，用來算出文件的相關性。</p>
-
-<ol>
-<li>Class Match Measure</li>
-<li>Density Measure</li>
-<li>Semantic Similarity Measure</li>
-<li>Betweenness Measure</li>
-</ol>
-
 ]]></content>
   </entry>
   
