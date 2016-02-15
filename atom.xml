@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-14T20:20:25+08:00</updated>
+  <updated>2016-02-15T23:46:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rethinkdb 如何運用]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/15/rethinkdb/"/>
+    <updated>2016-02-15T23:42:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/15/rethinkdb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>需要了解 <a href="https://github.com/rethinkdb/rethinkdb">rethinkdb</a> 的使用場景。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Otsu Algorithm]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[微軟的 CNTK]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/26/cntk/"/>
-    <updated>2016-01-26T23:35:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/26/cntk</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/Microsoft/CNTK/">CNTK</a></p>
 ]]></content>
   </entry>
   

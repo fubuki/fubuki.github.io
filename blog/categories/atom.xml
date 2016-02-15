@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-14T20:20:25+08:00</updated>
+  <updated>2016-02-15T23:46:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rethinkdb 如何運用]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/15/rethinkdb/"/>
+    <updated>2016-02-15T23:42:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/15/rethinkdb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>需要了解 <a href="https://github.com/rethinkdb/rethinkdb">rethinkdb</a> 的使用場景。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dapper Google 的追縱系統]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Cheat Command]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/31/commend-cheat/"/>
-    <updated>2016-01-31T22:52:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/31/commend-cheat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/chrisallenlane/cheat">cheat</a></p>
 ]]></content>
   </entry>
   
