@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-15T23:46:10+08:00</updated>
+  <updated>2016-02-16T23:30:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Teletraan Pinterest Deploy System]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/16/teletraan/"/>
+    <updated>2016-02-16T23:22:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/16/teletraan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pinterest/teletraan">teletraan</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rethinkdb 如何運用]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="https://www.udacity.com/course/deep-learning--ud730">Deep Learning Taking machine learning to the next level</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linkin Scale Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
-    <updated>2016-01-27T23:30:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
 ]]></content>
   </entry>
   

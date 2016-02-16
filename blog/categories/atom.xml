@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-15T23:46:10+08:00</updated>
+  <updated>2016-02-16T23:30:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Teletraan Pinterest Deploy System]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/16/teletraan/"/>
+    <updated>2016-02-16T23:22:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/16/teletraan</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pinterest/teletraan">teletraan</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rethinkdb 如何運用]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://www.infoq.com/news/2016/02/featuretoggles">Feature Toggles Revisited</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Parse Server Code]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/01/parse/"/>
-    <updated>2016-02-01T00:59:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/01/parse</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
 ]]></content>
   </entry>
   
