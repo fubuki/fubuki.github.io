@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-16T23:30:59+08:00</updated>
+  <updated>2016-02-17T23:40:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Word2vec 之後的下一步]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/17/word2vec-next/"/>
+    <updated>2016-02-17T23:27:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/17/word2vec-next</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.machinelearning.ru/wiki/images/d/db/MikolovWord2vecSlides.pdf">Word2vec: what’s next?</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teletraan Pinterest Deploy System]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="http://yahoolabs.tumblr.com/post/137281912191/yahoo-releases-the-largest-ever-machine-learning">Yahoo Releases the Largest-ever Machine Learning Dataset for Researchers</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Udacity Google Deep Learning Course]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning/"/>
-    <updated>2016-01-28T23:35:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/28/udacity-deep-learning</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.udacity.com/course/deep-learning--ud730">Deep Learning Taking machine learning to the next level</a></p>
 ]]></content>
   </entry>
   
