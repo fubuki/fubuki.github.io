@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-17T23:40:10+08:00</updated>
+  <updated>2016-02-18T23:26:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Glibc CVE-2015-7547]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547/"/>
+    <updated>2016-02-18T23:22:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec 之後的下一步]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="http://www.r-bloggers.com/intro-to-sound-analysis-with-r/">Intro to Sound Analysis with R</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yahoo 釋出一些機器學習的資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/29/yahho-release-data/"/>
-    <updated>2016-01-29T23:05:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/29/yahho-release-data</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://yahoolabs.tumblr.com/post/137281912191/yahoo-releases-the-largest-ever-machine-learning">Yahoo Releases the Largest-ever Machine Learning Dataset for Researchers</a></p>
 ]]></content>
   </entry>
   

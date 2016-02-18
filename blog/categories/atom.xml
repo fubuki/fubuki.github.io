@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-17T23:40:10+08:00</updated>
+  <updated>2016-02-18T23:26:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Glibc CVE-2015-7547]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547/"/>
+    <updated>2016-02-18T23:22:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec 之後的下一步]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://research.google.com/pubs/pub36356.html">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dlib Process Image]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/07/dlib/"/>
-    <updated>2016-02-07T23:56:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/07/dlib</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://dlib.net/">dlib</a></p>
 ]]></content>
   </entry>
   
