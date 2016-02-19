@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-18T23:26:18+08:00</updated>
+  <updated>2016-02-19T23:35:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Golang Package 管理工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/19/golang-package-manage/"/>
+    <updated>2016-02-19T23:29:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/19/golang-package-manage</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/golang/go/wiki/PackageManagementTools">PackageManagementTools</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python 遷移到 Golang 的注意事項]]></title>
@@ -66,19 +78,6 @@
 
 <p>紀錄之前看過的一篇 slide <a href="http://www.slideshare.net/guregu/nsqcentric-architecture-gocon-autumn-2014">NSQ-Centric Architecture (GoCon Autumn 2014)</a> ，後端是用 <a href="https://github.com/bitly/nsq">nsq</a> 這個由 golang 撰寫
 的 <code>message server</code> ，前端使用 react 這個 framework 建立一個聊天 APP</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 LiteIDE 開發 Golang]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/09/liteide/"/>
-    <updated>2015-03-09T22:17:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/09/liteide</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近找了一些 IDE 最後決定用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 開發 golang，從官網下載 golang 的 msi 安裝檔，之後就可以用 <a href="https://github.com/visualfc/liteide">LiteIDE</a> 直接編譯程式碼，
-另外為了安裝套件需要設定設定 GOPATH 並且還要安裝 git，這樣便可以用 goget 取得需要的套件。</p>
 ]]></content>
   </entry>
   

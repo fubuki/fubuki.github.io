@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-18T23:26:18+08:00</updated>
+  <updated>2016-02-19T23:35:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Glibc CVE-2015-7547]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547/"/>
+    <updated>2016-02-18T23:22:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
@@ -68,18 +80,6 @@
 <h3>poll</h3>
 
 <h3>epoll</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[AVLinux : 影音處理用的 Linux 發行版本]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/11/av-linux/"/>
-    <updated>2015-04-11T23:44:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/11/av-linux</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.bandshed.net/AVLinux.html">AVLinux</a></p>
 ]]></content>
   </entry>
   
