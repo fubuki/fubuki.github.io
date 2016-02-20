@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-19T23:35:37+08:00</updated>
+  <updated>2016-02-20T21:18:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Netflix 的資料處理流程]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline/"/>
+    <updated>2016-02-20T20:45:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html">Evolution of the Netflix Data Pipeline</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Golang Package 管理工具]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Cheat Command]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/31/commend-cheat/"/>
-    <updated>2016-01-31T22:52:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/31/commend-cheat</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/chrisallenlane/cheat">cheat</a></p>
 ]]></content>
   </entry>
   
