@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-20T21:18:31+08:00</updated>
+  <updated>2016-02-21T23:08:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[YCSB Nosql Benchmark Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/21/ycsb/"/>
+    <updated>2016-02-21T23:00:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/21/ycsb</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/brianfrankcooper/YCSB">YCSB</a> 用來測量 nosql database 的工具</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netflix 的資料處理流程]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="http://phpdbg.com/">PHPDBG</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Parse Server Code]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/01/parse/"/>
-    <updated>2016-02-01T00:59:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/01/parse</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/ParsePlatform/parse-server">parse</a></p>
 ]]></content>
   </entry>
   
