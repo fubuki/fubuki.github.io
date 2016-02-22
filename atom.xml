@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-21T23:08:36+08:00</updated>
+  <updated>2016-02-22T23:51:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/22/london/"/>
+    <updated>2016-02-22T23:49:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/22/london</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>別人寫的筆記，很好理解。</p>
+
+<ol>
+<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-1-1599f603a40b#.qdfz216bm">Notes from Deep Learning Summit 2015 London — Day 1</a></li>
+<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz">Notes from Deep Learning Summit 2015 London — Day 2</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[YCSB Nosql Benchmark Tool]]></title>
@@ -238,18 +256,6 @@
 
 
 <p><a href="https://github.com/cantino/huginn">huginn</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHPDBG Php Debug Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/02/phpdbg/"/>
-    <updated>2016-02-02T23:56:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/02/phpdbg</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://phpdbg.com/">PHPDBG</a></p>
 ]]></content>
   </entry>
   

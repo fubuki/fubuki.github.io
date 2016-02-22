@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-21T23:08:36+08:00</updated>
+  <updated>2016-02-22T23:51:15+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/22/london/"/>
+    <updated>2016-02-22T23:49:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/22/london</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>別人寫的筆記，很好理解。</p>
+
+<ol>
+<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-1-1599f603a40b#.qdfz216bm">Notes from Deep Learning Summit 2015 London — Day 1</a></li>
+<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz">Notes from Deep Learning Summit 2015 London — Day 2</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Yahoo 釋出一些機器學習的資料]]></title>
@@ -58,18 +76,6 @@
 
 
 <p><a href="http://tensorflow.org/">TensorFlow</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CIFAR-10 Dataset]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/20/cifar-10/"/>
-    <updated>2015-10-20T23:24:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/20/cifar-10</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.cs.toronto.edu/~kriz/cifar.html">The CIFAR-10 dataset</a></p>
 ]]></content>
   </entry>
   
