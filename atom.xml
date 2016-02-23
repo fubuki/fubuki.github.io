@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-22T23:51:15+08:00</updated>
+  <updated>2016-02-23T23:43:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Zephyr Project 程式碼]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/23/zephyr-project/"/>
+    <updated>2016-02-23T23:34:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/23/zephyr-project</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.zephyrproject.org/">zephyr</a> 給 IoT 使用的 RTOS</p>
+
+<p><code>git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0.0</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
@@ -244,18 +258,6 @@
 
 
 <p><a href="http://venturebeat.com/2016/01/12/10-text-sentiment-and-social-analytics-trends-for-2016/">10 text, sentiment, and social analytics trends for 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Huginn Monitor Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/03/huginn/"/>
-    <updated>2016-02-03T21:36:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/03/huginn</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/cantino/huginn">huginn</a></p>
 ]]></content>
   </entry>
   
