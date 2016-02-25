@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-24T23:40:00+08:00</updated>
+  <updated>2016-02-25T23:42:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[排隊理論跟系統負載]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/25/system-latency/"/>
+    <updated>2016-02-25T23:39:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/25/system-latency</id>
+    <content type="html"><![CDATA[<p><a href="http://robharrop.github.io/maths/performance/2016/02/20/service-latency-and-utilisation.html">Relating Service Utilisation to Latency</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[幾個解決 Git 衝突的方法]]></title>
@@ -246,18 +255,6 @@
 
 
 <p><a href="https://github.com/NodeOS/NodeOS">NodeOS</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何實作特性切換的功能]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/05/feature-toggles/"/>
-    <updated>2016-02-05T23:16:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/05/feature-toggles</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.infoq.com/news/2016/02/featuretoggles">Feature Toggles Revisited</a></p>
 ]]></content>
   </entry>
   

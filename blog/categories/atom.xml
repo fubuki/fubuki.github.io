@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-24T23:40:00+08:00</updated>
+  <updated>2016-02-25T23:42:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[排隊理論跟系統負載]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/25/system-latency/"/>
+    <updated>2016-02-25T23:39:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/25/system-latency</id>
+    <content type="html"><![CDATA[<p><a href="http://robharrop.github.io/maths/performance/2016/02/20/service-latency-and-utilisation.html">Relating Service Utilisation to Latency</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec 之後的下一步]]></title>
@@ -58,18 +67,6 @@
 
 
 <p><a href="http://research.google.com/pubs/pub36356.html">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dlib Process Image]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/07/dlib/"/>
-    <updated>2016-02-07T23:56:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/07/dlib</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://dlib.net/">dlib</a></p>
 ]]></content>
   </entry>
   
