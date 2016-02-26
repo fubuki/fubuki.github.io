@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-25T23:42:00+08:00</updated>
+  <updated>2016-02-26T23:46:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Learning the Precise Meaning of Language 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016/"/>
+    <updated>2016-02-26T23:31:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016</id>
+    <content type="html"><![CDATA[<p>[REWORK deep learning] 的 <code>Deep Learning the Precise Meaning of Language</code> 需要看一下。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[排隊理論跟系統負載]]></title>
@@ -243,18 +252,6 @@
 
 
 <p><a href="http://dlib.net/">dlib</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NodeOS: node.js Operation System]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/06/nodeos/"/>
-    <updated>2016-02-06T22:55:31+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/06/nodeos</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/NodeOS/NodeOS">NodeOS</a></p>
 ]]></content>
   </entry>
   
