@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-26T23:46:54+08:00</updated>
+  <updated>2016-02-27T23:27:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Deep Learning the Precise Meaning of Language 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016/"/>
+    <updated>2016-02-26T23:31:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[REWORK deep learning] 的 <code>Deep Learning the Precise Meaning of Language</code> 需要看一下。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[排隊理論跟系統負載]]></title>
     <link href="http://fubuki.github.io/blog/2016/02/25/system-latency/"/>
     <updated>2016-02-25T23:39:57+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/02/25/system-latency</id>
-    <content type="html"><![CDATA[<p><a href="http://robharrop.github.io/maths/performance/2016/02/20/service-latency-and-utilisation.html">Relating Service Utilisation to Latency</a></p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://robharrop.github.io/maths/performance/2016/02/20/service-latency-and-utilisation.html">Relating Service Utilisation to Latency</a></p>
 ]]></content>
   </entry>
   
@@ -55,18 +70,6 @@
 
 
 <p>需要了解 <a href="https://github.com/rethinkdb/rethinkdb">rethinkdb</a> 的使用場景。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dapper Google 的追縱系統]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/09/dapper/"/>
-    <updated>2016-02-09T22:55:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/09/dapper</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://research.google.com/pubs/pub36356.html">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure</a></p>
 ]]></content>
   </entry>
   

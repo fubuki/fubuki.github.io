@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-02-26T23:46:54+08:00</updated>
+  <updated>2016-02-27T23:27:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GBDT and CTR]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/27/gradient-boosting-decision-tree/"/>
+    <updated>2016-02-27T23:17:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/27/gradient-boosting-decision-tree</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Click-Through Rate Prediction Data</a> 作 <code>Gradient Boosting Decision Tree</code> 預測使用者
+會不會點擊。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
@@ -64,18 +77,6 @@
 
 
 <p><a href="https://github.com/brendenlake/BPL">BPL</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TensorFlow: Google Machine Learning Library]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/11/tensorflow/"/>
-    <updated>2015-11-11T23:41:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/11/tensorflow</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://tensorflow.org/">TensorFlow</a></p>
 ]]></content>
   </entry>
   
