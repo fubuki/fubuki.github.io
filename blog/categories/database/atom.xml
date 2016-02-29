@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Database | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/database/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-02-29T23:47:47+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Covering Index]]></title>
+    <link href="http://fubuki.github.io/blog/2016/02/29/covering-index/"/>
+    <updated>2016-02-29T23:40:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/02/29/covering-index</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <code>Covering Index</code> 優化查詢速度，主要是在輸出 column 時只選擇有索引的 column，
+不過這跟資料庫底層怎麼搜尋資料以及索引跟資料的存放方式有關。</p>
+]]></content>
+  </entry>
+  
+</feed>
