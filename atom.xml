@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-01T23:47:31+08:00</updated>
+  <updated>2016-03-02T23:15:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Stack Overflow 架構 2016年版]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/02/stack-overflow-2016/"/>
+    <updated>2016-03-02T23:03:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/02/stack-overflow-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/">Stack Overflow: The Architecture - 2016 Edition</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Yacc and Peg]]></title>
     <link href="http://fubuki.github.io/blog/2016/03/01/yacc/"/>
     <updated>2016-03-01T23:39:08+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/03/01/yacc</id>
-    <content type="html"><![CDATA[<p>Lucene 使用到類似的東西，所以需要了解底下兩個東西。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Lucene 使用到類似的東西，所以需要了解底下兩個東西。</p>
 
 <ol>
 <li><a href="https://en.wikipedia.org/wiki/Parsing_expression_grammar">PEG</a></li>
@@ -255,18 +270,6 @@
 
 
 <p><a href="http://ngxpagespeed.com/">ngxpagespeed</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Arquillian : Jvm Test]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/11/arquillian/"/>
-    <updated>2016-02-11T23:16:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/11/arquillian</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://arquillian.org/">arquillian</a></p>
 ]]></content>
   </entry>
   

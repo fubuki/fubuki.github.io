@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-01T23:47:31+08:00</updated>
+  <updated>2016-03-02T23:15:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Yacc and Peg]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/01/yacc/"/>
+    <updated>2016-03-01T23:39:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/01/yacc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Lucene 使用到類似的東西，所以需要了解底下兩個東西。</p>
+
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/Parsing_expression_grammar">PEG</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yacc">Yacc</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CS231M 課程]]></title>
@@ -62,18 +80,6 @@
 
 
 <p><a href="http://www.machinelearning.ru/wiki/images/d/db/MikolovWord2vecSlides.pdf">Word2vec: what’s next?</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Teletraan Pinterest Deploy System]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/16/teletraan/"/>
-    <updated>2016-02-16T23:22:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/16/teletraan</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/pinterest/teletraan">teletraan</a></p>
 ]]></content>
   </entry>
   
