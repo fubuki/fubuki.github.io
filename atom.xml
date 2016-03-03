@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-02T23:15:53+08:00</updated>
+  <updated>2016-03-03T23:50:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ICCV 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/03/iccv-15/"/>
+    <updated>2016-03-03T23:47:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/03/iccv-15</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Computer Vision</code> 的研討會。</p>
+
+<p><a href="http://pamitc.org/iccv15/">iccv 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stack Overflow 架構 2016年版]]></title>
@@ -258,18 +272,6 @@
 
 
 <p><a href="https://blog.docker.com/2016/02/docker-1-10/">Docker 1.10: New Compose file, improved security, networking and much more!</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Nginx Pagespeed 模組]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/12/nginx-pagespeed/"/>
-    <updated>2016-02-12T21:16:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/12/nginx-pagespeed</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://ngxpagespeed.com/">ngxpagespeed</a></p>
 ]]></content>
   </entry>
   

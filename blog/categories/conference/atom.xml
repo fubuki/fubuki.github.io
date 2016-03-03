@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-02T23:15:53+08:00</updated>
+  <updated>2016-03-03T23:50:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ICCV 2015]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/03/iccv-15/"/>
+    <updated>2016-03-03T23:47:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/03/iccv-15</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><code>Computer Vision</code> 的研討會。</p>
+
+<p><a href="http://pamitc.org/iccv15/">iccv 2015</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NAACL 2015 資料]]></title>
@@ -224,18 +238,6 @@
 <p>不斷調整決策</p>
 
 <p>research 如何規劃時間</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pycon JP 2015 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015/"/>
-    <updated>2015-11-29T21:35:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/29/pycon-jp-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://pycon.jp/2015/ja/reports/slides/">pycon jp 2015</a></p>
 ]]></content>
   </entry>
   
