@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-03T23:50:00+08:00</updated>
+  <updated>2016-03-04T23:51:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何建立穩定的系統]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/04/stable-system/"/>
+    <updated>2016-03-04T23:44:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/04/stable-system</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.4xoh9bh4k">How to build stable systems — An incomplete opinionated guide.</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ICCV 2015]]></title>
@@ -260,18 +272,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Otsu's_method">otsu algorithm</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker 1.10 版本]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10/"/>
-    <updated>2016-02-13T23:38:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/13/docker-1-dot-10</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blog.docker.com/2016/02/docker-1-10/">Docker 1.10: New Compose file, improved security, networking and much more!</a></p>
 ]]></content>
   </entry>
   
