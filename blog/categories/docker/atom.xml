@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-04T23:51:33+08:00</updated>
+  <updated>2016-03-05T22:11:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Docker Compose 建立測試環境]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/05/docker-compose/"/>
+    <updated>2016-03-05T21:37:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/05/docker-compose</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://docs.docker.com/compose/">docker compose</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker 1.10 版本]]></title>
@@ -109,26 +121,6 @@ docker run -i -t cellofellow/ffmpeg /bin/bash
 
 <p>題外話在網路上有看到 Cookpad 也有用 docker 建立影音轉碼平台 : <a href="http://techlife.cookpad.com/entry/ffmpeg_and_imagemagick_setup_with_docker">Dockerでffmpegもimagemagickも怖くないという話</a>，
 裡面的的 docker file 也有放出來 <a href="https://github.com/cookpad/janiConverter">janiConverter</a> 讓人使用。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Fig]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/03/fig-and-docker/"/>
-    <updated>2014-12-03T23:05:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/03/fig-and-docker</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.fig.sh/">fig</a> 是一個跟 docker 有關的命令列管理工具，看起來比 coreos 本身簡單許多適合初學者使用但是提供功能就比較少，
-不過在網路上看到有人有些轉換工具可以將 fig 產生的設定轉換成 coreos 所需的格式，所以可以先玩玩 fig 覺得不錯在
-轉用 coreos。</p>
-
-<p>下面官網在 ubuntu 下的安裝方法</p>
-
-<pre><code>curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`
-uname -m` &gt; /usr/local/bin/fig; chmod +x /usr/local/bin/fig
-</code></pre>
 ]]></content>
   </entry>
   

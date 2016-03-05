@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-04T23:51:33+08:00</updated>
+  <updated>2016-03-05T22:11:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Docker Compose 建立測試環境]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/05/docker-compose/"/>
+    <updated>2016-03-05T21:37:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/05/docker-compose</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://docs.docker.com/compose/">docker compose</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何建立穩定的系統]]></title>
@@ -260,18 +272,6 @@
 
 
 <p>需要了解 <a href="https://github.com/rethinkdb/rethinkdb">rethinkdb</a> 的使用場景。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Otsu Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/14/otsu-algorithm/"/>
-    <updated>2016-02-14T20:00:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/14/otsu-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Otsu's_method">otsu algorithm</a></p>
 ]]></content>
   </entry>
   
