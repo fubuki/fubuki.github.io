@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-07T23:33:52+08:00</updated>
+  <updated>2016-03-08T23:31:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticon 2016 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/08/elastic-2016/"/>
+    <updated>2016-03-08T23:26:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/08/elastic-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.elastic.co/elasticon/conf/2016/sf">elasticon 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Building a Trello System]]></title>
@@ -264,18 +276,6 @@
 
 
 <p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Word2vec 之後的下一步]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/17/word2vec-next/"/>
-    <updated>2016-02-17T23:27:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/17/word2vec-next</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.machinelearning.ru/wiki/images/d/db/MikolovWord2vecSlides.pdf">Word2vec: what’s next?</a></p>
 ]]></content>
   </entry>
   
