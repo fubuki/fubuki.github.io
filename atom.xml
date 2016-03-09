@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-08T23:31:59+08:00</updated>
+  <updated>2016-03-09T23:16:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[寫出好刪除而不是易於擴展的程式碼]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/09/easy-delete/"/>
+    <updated>2016-03-09T23:12:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/09/easy-delete</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticon 2016 資料]]></title>
@@ -264,18 +276,6 @@
 
 
 <p><a href="https://github.com/golang/go/wiki/PackageManagementTools">PackageManagementTools</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Glibc CVE-2015-7547]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547/"/>
-    <updated>2016-02-18T23:22:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-08T23:31:59+08:00</updated>
+  <updated>2016-03-09T23:16:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[寫出好刪除而不是易於擴展的程式碼]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/09/easy-delete/"/>
+    <updated>2016-03-09T23:12:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/09/easy-delete</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Building a Trello System]]></title>
@@ -72,18 +84,6 @@
 
 
 <p>[REWORK deep learning] 的 <code>Deep Learning the Precise Meaning of Language</code> 需要看一下。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[排隊理論跟系統負載]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/25/system-latency/"/>
-    <updated>2016-02-25T23:39:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/25/system-latency</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://robharrop.github.io/maths/performance/2016/02/20/service-latency-and-utilisation.html">Relating Service Utilisation to Latency</a></p>
 ]]></content>
   </entry>
   
