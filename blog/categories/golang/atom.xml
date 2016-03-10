@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-09T23:16:06+08:00</updated>
+  <updated>2016-03-10T23:43:40+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Uber Service With Golang]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/10/uber-with-go/"/>
+    <updated>2016-03-10T23:41:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/10/uber-with-go</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://eng.uber.com/go-geofence/">How We Built Uber Engineering’s Highest Query per Second Service Using Go</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Golang Package 管理工具]]></title>
@@ -65,19 +77,6 @@
 使用起來反而比較像 sqlite。</p>
 
 <h3>如何使用 Groupcache</h3>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NSQ: Message Server]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/06/nsq/"/>
-    <updated>2015-04-06T22:33:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/06/nsq</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>紀錄之前看過的一篇 slide <a href="http://www.slideshare.net/guregu/nsqcentric-architecture-gocon-autumn-2014">NSQ-Centric Architecture (GoCon Autumn 2014)</a> ，後端是用 <a href="https://github.com/bitly/nsq">nsq</a> 這個由 golang 撰寫
-的 <code>message server</code> ，前端使用 react 這個 framework 建立一個聊天 APP</p>
 ]]></content>
   </entry>
   
