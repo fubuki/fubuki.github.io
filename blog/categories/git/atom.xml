@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-10T23:43:40+08:00</updated>
+  <updated>2016-03-11T23:43:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using GPG Sign Your Git Commits]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/11/git-gpg/"/>
+    <updated>2016-03-11T23:39:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/11/git-gpg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://git-scm.com/book/zh-tw/v2/Git-Tools-Signing-Your-Work">Git Tools - Signing Your Work</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[幾個解決 Git 衝突的方法]]></title>
@@ -58,19 +70,6 @@
 
 
 <p><a href="https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/">Git team workflows: merge or rebase?</a> 在團隊工作的時候使用 merge 還是使用 rebase 會比較好。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git 2.5 Release]]></title>
-    <link href="http://fubuki.github.io/blog/2015/08/08/git-worktrees/"/>
-    <updated>2015-08-08T22:45:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/08/08/git-worktrees</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Git 釋出 2.5 版本，Github 有寫一篇文章作介紹 <a href="https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows">Git 2.5, including multiple worktrees and triangular workflows</a>，
-不過主要讓我感興趣的是新增了一個 <code>git worktree</code> 的指令 。</p>
 ]]></content>
   </entry>
   

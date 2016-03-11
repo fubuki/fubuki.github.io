@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-10T23:43:40+08:00</updated>
+  <updated>2016-03-11T23:43:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Using GPG Sign Your Git Commits]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/11/git-gpg/"/>
+    <updated>2016-03-11T23:39:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/11/git-gpg</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://git-scm.com/book/zh-tw/v2/Git-Tools-Signing-Your-Work">Git Tools - Signing Your Work</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Uber Service With Golang]]></title>
@@ -264,18 +276,6 @@
 
 
 <p><a href="https://github.com/brianfrankcooper/YCSB">YCSB</a> 用來測量 nosql database 的工具</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Netflix 的資料處理流程]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline/"/>
-    <updated>2016-02-20T20:45:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html">Evolution of the Netflix Data Pipeline</a></p>
 ]]></content>
   </entry>
   
