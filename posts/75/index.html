@@ -9,9 +9,10 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="elasticsearch 另外一款搜尋引擎，之前就有在注意了，目前已經有出現1.0版本，
-不過底層跟solr都是lucene，使用上要去抓取資料庫的內容要另外設定，我比較中意
-Solr只要將欄位設定好就可以直接使用。 ">
+  <meta name="description" content="MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴展，如果取代redis作為pubsub的
+server，能夠存放尚未推送的訊息。 目前拿來測試PHP和Nodejs兩個語言，並且建立一個小型聊天應用。 channel
+exchange
+queues ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +81,48 @@ Solr只要將欄位設定好就可以直接使用。 ">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/03/rabbitmq/">Rabbitmq</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-03T21:51:20+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>3</span><span class='date-suffix'>rd</span>, <span class='date-year'>2014</span></span> <span class='time'>9:51 pm</span></time>
+        
+           | <a href="/blog/2014/03/03/rabbitmq/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/03/rabbitmq/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>MessageQueue，可以用來做消息伺服器，用來推送訊息，容易擴展，如果取代redis作為pubsub的<br/>
+server，能夠存放尚未推送的訊息。</p>
+
+<p>目前拿來測試PHP和Nodejs兩個語言，並且建立一個小型聊天應用。</p>
+
+<ol>
+<li>channel</li>
+<li>exchange</li>
+<li>queues</li>
+</ol>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -419,43 +462,6 @@ Asterisk is like a box of Legos for people who want to create communications app
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/28/nosql/">NoSql</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-02-28T11:53:32+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:53 am</span></time>
-        
-           | <a href="/blog/2014/02/28/nosql/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/02/28/nosql/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>到目前學習過的nosql類型</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/02/28/nosql/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/76">&larr; Older</a>
@@ -473,6 +479,10 @@ Asterisk is like a box of Legos for people who want to create communications app
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/03/12/lock-free-mcts/">Lock Free Mcts</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/03/11/git-gpg/">Using GPG Sign Your Git Commits</a>
       </li>
     
@@ -488,10 +498,6 @@ Asterisk is like a box of Legos for people who want to create communications app
         <a href="/blog/2016/03/08/elastic-2016/">Elasticon 2016 資料</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2016/03/07/trello-clone/">Building a Trello System</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -499,7 +505,7 @@ Asterisk is like a box of Legos for people who want to create communications app
 <h1>分類</h1>
 <ul>
   <li><a href='/blog/categories/'> (105)</a></li>
-  <li><a href='/blog/categories/algorithm'>Algorithm (49)</a></li>
+  <li><a href='/blog/categories/algorithm'>Algorithm (50)</a></li>
   <li><a href='/blog/categories/android'>Android (12)</a></li>
   <li><a href='/blog/categories/api'>Api (2)</a></li>
   <li><a href='/blog/categories/architecture'>Architecture (21)</a></li>
