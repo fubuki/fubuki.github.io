@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-12T23:41:09+08:00</updated>
+  <updated>2016-03-13T23:13:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Https Error]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/13/python-https-error/"/>
+    <updated>2016-03-13T23:06:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/13/python-https-error</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>因為 python  版本比較舊在使用 urlib3 時處理 SSL 的連結會出問題，解決方法一個是升級，
+另外一個使用 <a href="https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning">SNIMissingWarning</a> 的方法解決。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pyinotify : File Monitor]]></title>
@@ -61,24 +74,6 @@
 
 
 <p><a href="http://julialang.org/">Julia</a> 集合多個語言優點用來做數值運算的程式語言，在官網可以看到跟其他語言速度的比較圖。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Coroutine Gevent Stackless]]></title>
-    <link href="http://fubuki.github.io/blog/2015/03/04/coroutine-gevent/"/>
-    <updated>2015-03-04T23:13:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/03/04/coroutine-gevent</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Process -> Thread -> Toroutine</p>
-
-<ol>
-<li><a href="http://www.gevent.org/">gevent</a></li>
-<li><a href="http://www.stackless.com/">stackless</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

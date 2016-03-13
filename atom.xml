@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-12T23:41:09+08:00</updated>
+  <updated>2016-03-13T23:13:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Https Error]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/13/python-https-error/"/>
+    <updated>2016-03-13T23:06:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/13/python-https-error</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>因為 python  版本比較舊在使用 urlib3 時處理 SSL 的連結會出問題，解決方法一個是升級，
+另外一個使用 <a href="https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning">SNIMissingWarning</a> 的方法解決。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lock Free Mcts]]></title>
@@ -258,24 +271,6 @@
 <p><a href="https://www.zephyrproject.org/">zephyr</a> 給 IoT 使用的 RTOS</p>
 
 <p><code>git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0.0</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/22/london/"/>
-    <updated>2016-02-22T23:49:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/22/london</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>別人寫的筆記，很好理解。</p>
-
-<ol>
-<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-1-1599f603a40b#.qdfz216bm">Notes from Deep Learning Summit 2015 London — Day 1</a></li>
-<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz">Notes from Deep Learning Summit 2015 London — Day 2</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
