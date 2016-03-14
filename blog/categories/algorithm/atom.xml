@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-13T23:13:52+08:00</updated>
+  <updated>2016-03-14T23:20:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 釋出的 Hash Algorithms]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/14/google-hash/"/>
+    <updated>2016-03-14T23:16:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/14/google-hash</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/google/highwayhash/">highwayhash</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lock Free Mcts]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Random Forest Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/27/random-forest/"/>
-    <updated>2015-09-27T23:22:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/27/random-forest</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Random_forest">Random forest</a></p>
 ]]></content>
   </entry>
   
