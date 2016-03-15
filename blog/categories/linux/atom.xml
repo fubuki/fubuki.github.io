@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-14T23:20:24+08:00</updated>
+  <updated>2016-03-15T23:07:50+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Edit Long Command]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/15/edit-long-command/"/>
+    <updated>2016-03-15T23:05:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/15/edit-long-command</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>fc</li>
+<li>ctrl-x + ctrl-e</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Zephyr Project 程式碼]]></title>
@@ -64,18 +80,6 @@
 <li><a href="https://github.com/vmware/open-vm-tools">open-vm-tools</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wrk Benchmarking Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/06/26/wrk/"/>
-    <updated>2015-06-26T22:47:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/06/26/wrk</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/wg/wrk">wrk</a></p>
 ]]></content>
   </entry>
   
