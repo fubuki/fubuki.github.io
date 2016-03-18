@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-17T23:36:58+08:00</updated>
+  <updated>2016-03-18T23:36:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Maglev Google Network Load Balancer]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/18/maglev/"/>
+    <updated>2016-03-18T23:30:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/18/maglev</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://research.google.com/pubs/pub44824.html">&ldquo;Maglev: A Fast and Reliable Software Network Load Balancer&rdquo;</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook Lite Network Performance]]></title>
@@ -260,19 +272,6 @@
 <li><a href="http://qiita.com/icoxfog417/items/adbbf445d357c924b8fc">画像処理の数式を見て石になった時のための、金の針</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GBDT and CTR]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/27/gradient-boosting-decision-tree/"/>
-    <updated>2016-02-27T23:17:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/27/gradient-boosting-decision-tree</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Click-Through Rate Prediction Data</a> 作 <code>Gradient Boosting Decision Tree</code> 預測使用者
-會不會點擊。</p>
 ]]></content>
   </entry>
   

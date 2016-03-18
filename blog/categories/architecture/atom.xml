@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-17T23:36:58+08:00</updated>
+  <updated>2016-03-18T23:36:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Maglev Google Network Load Balancer]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/18/maglev/"/>
+    <updated>2016-03-18T23:30:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/18/maglev</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://research.google.com/pubs/pub44824.html">&ldquo;Maglev: A Fast and Reliable Software Network Load Balancer&rdquo;</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook Lite Network Performance]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html">Evolution of the Netflix Data Pipeline</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linkin Scale Architecture]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/27/linkin-scale/"/>
-    <updated>2016-01-27T23:30:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/27/linkin-scale</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://engineering.linkedin.com/blog/2015/12/open-source-year-in-review-2015">Open Source Hits Scale in 2015</a></p>
 ]]></content>
   </entry>
   
