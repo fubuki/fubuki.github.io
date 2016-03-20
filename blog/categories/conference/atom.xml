@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-19T22:20:08+08:00</updated>
+  <updated>2016-03-20T23:01:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NLP 2016 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/20/nlp-2016/"/>
+    <updated>2016-03-20T00:27:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/20/nlp-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.anlp.jp/nlp2016/">NLP 2016</a></p>
+
+<p><a href="http://skozawa.hatenablog.com/entry/2016/03/14/232129">論文メモ：NLP2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jdays 2016 資料]]></title>
@@ -60,18 +74,6 @@
 <p><code>Computer Vision</code> 的研討會。</p>
 
 <p><a href="http://pamitc.org/iccv15/">iccv 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NAACL 2015 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/16/naacl-2015/"/>
-    <updated>2015-12-16T23:20:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/16/naacl-2015</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://naacl.org/naacl-hlt-2015/">NAACL HLT 2015</a></p>
 ]]></content>
   </entry>
   

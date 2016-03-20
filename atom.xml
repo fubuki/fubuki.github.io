@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-19T22:20:08+08:00</updated>
+  <updated>2016-03-20T23:01:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NLP 2016 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/20/nlp-2016/"/>
+    <updated>2016-03-20T00:27:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/20/nlp-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.anlp.jp/nlp2016/">NLP 2016</a></p>
+
+<p><a href="http://skozawa.hatenablog.com/entry/2016/03/14/232129">論文メモ：NLP2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jdays 2016 資料]]></title>
@@ -255,19 +269,6 @@
 <li><a href="https://en.wikipedia.org/wiki/Yacc">Yacc</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Covering Index]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/29/covering-index/"/>
-    <updated>2016-02-29T23:40:00+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/29/covering-index</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 <code>Covering Index</code> 優化查詢速度，主要是在輸出 column 時只選擇有索引的 column，
-不過這跟資料庫底層怎麼搜尋資料以及索引跟資料的存放方式有關。</p>
 ]]></content>
   </entry>
   
