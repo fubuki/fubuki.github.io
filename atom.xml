@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-20T23:01:27+08:00</updated>
+  <updated>2016-03-21T23:17:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git 升級到 2.7.4]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/21/git-2-dot-7/"/>
+    <updated>2016-03-21T22:59:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/21/git-2-dot-7</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>CVE-2016-2324</li>
+<li>CVE-2016-2315</li>
+</ol>
+
+
+<p>git 小於 2.7.4 都會中的漏洞。</p>
+
+<pre><code>add-apt-repository ppa:git-core/ppa
+aptitude update
+aptitude upgrade git
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NLP 2016 資料]]></title>
@@ -251,24 +274,6 @@
 
 
 <p><a href="http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/">Stack Overflow: The Architecture - 2016 Edition</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yacc and Peg]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/01/yacc/"/>
-    <updated>2016-03-01T23:39:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/01/yacc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Lucene 使用到類似的東西，所以需要了解底下兩個東西。</p>
-
-<ol>
-<li><a href="https://en.wikipedia.org/wiki/Parsing_expression_grammar">PEG</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Yacc">Yacc</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

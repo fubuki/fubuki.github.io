@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-20T23:01:27+08:00</updated>
+  <updated>2016-03-21T23:17:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git 升級到 2.7.4]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/21/git-2-dot-7/"/>
+    <updated>2016-03-21T22:59:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/21/git-2-dot-7</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>CVE-2016-2324</li>
+<li>CVE-2016-2315</li>
+</ol>
+
+
+<p>git 小於 2.7.4 都會中的漏洞。</p>
+
+<pre><code>add-apt-repository ppa:git-core/ppa
+aptitude update
+aptitude upgrade git
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using GPG Sign Your Git Commits]]></title>
@@ -58,18 +81,6 @@
 
 
 <p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git Team Workflow]]></title>
-    <link href="http://fubuki.github.io/blog/2015/09/25/git-team-merge-rebase/"/>
-    <updated>2015-09-25T23:21:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/09/25/git-team-merge-rebase</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/">Git team workflows: merge or rebase?</a> 在團隊工作的時候使用 merge 還是使用 rebase 會比較好。</p>
 ]]></content>
   </entry>
   
