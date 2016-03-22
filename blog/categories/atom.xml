@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-21T23:17:33+08:00</updated>
+  <updated>2016-03-22T23:47:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quora Ranking Model]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/22/quora-ranking/"/>
+    <updated>2016-03-22T23:46:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/22/quora-ranking</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.quora.com/A-Machine-Learning-Approach-to-Ranking-Answers-on-Quora">A Machine Learning Approach to Ranking Answers on Quora</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[寫出好刪除而不是易於擴展的程式碼]]></title>
@@ -72,18 +84,6 @@
 <li><a href="http://qiita.com/icoxfog417/items/adbbf445d357c924b8fc">画像処理の数式を見て石になった時のための、金の針</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learning the Precise Meaning of Language 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016/"/>
-    <updated>2016-02-26T23:31:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/26/deep-learning-sanfran-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>[REWORK deep learning] 的 <code>Deep Learning the Precise Meaning of Language</code> 需要看一下。</p>
 ]]></content>
   </entry>
   

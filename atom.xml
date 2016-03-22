@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-21T23:17:33+08:00</updated>
+  <updated>2016-03-22T23:47:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quora Ranking Model]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/22/quora-ranking/"/>
+    <updated>2016-03-22T23:46:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/22/quora-ranking</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.quora.com/A-Machine-Learning-Approach-to-Ranking-Answers-on-Quora">A Machine Learning Approach to Ranking Answers on Quora</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 升級到 2.7.4]]></title>
@@ -262,18 +274,6 @@ aptitude upgrade git
 <p><code>Computer Vision</code> 的研討會。</p>
 
 <p><a href="http://pamitc.org/iccv15/">iccv 2015</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Stack Overflow 架構 2016年版]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/02/stack-overflow-2016/"/>
-    <updated>2016-03-02T23:03:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/02/stack-overflow-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/">Stack Overflow: The Architecture - 2016 Edition</a></p>
 ]]></content>
   </entry>
   
