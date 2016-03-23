@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-22T23:47:35+08:00</updated>
+  <updated>2016-03-23T23:06:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[C in 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/23/c-2016/"/>
+    <updated>2016-03-23T23:01:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/23/c-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://matt.sh/howto-c">How to C in 2016</a></li>
+<li><a href="https://github.com/Keith-S-Thompson/how-to-c-response">A critique of &ldquo;How to C in 2016&rdquo;</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Quora Ranking Model]]></title>
@@ -260,20 +276,6 @@ aptitude upgrade git
 
 
 <p><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.4xoh9bh4k">How to build stable systems — An incomplete opinionated guide.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ICCV 2015]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/03/iccv-15/"/>
-    <updated>2016-03-03T23:47:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/03/iccv-15</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><code>Computer Vision</code> 的研討會。</p>
-
-<p><a href="http://pamitc.org/iccv15/">iccv 2015</a></p>
 ]]></content>
   </entry>
   
