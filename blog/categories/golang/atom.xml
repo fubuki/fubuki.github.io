@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-23T23:06:42+08:00</updated>
+  <updated>2016-03-24T23:12:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Teamwork 使用 Golang 的心得]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/24/teamwork-golang/"/>
+    <updated>2016-03-24T22:55:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/24/teamwork-golang</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineroom.teamwork.com/go-learn/">Go Learn</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Uber Service With Golang]]></title>
@@ -59,24 +71,6 @@
 
 <p>以前可以使用 C++ 加上 JNI 開發 android app，這樣的好處是在一些需要耗用計算資源的地方使用 C++ 可以提高效能，
 然後最近看到可以使用使用 golang 做到相同類似的地方。我是參考這篇 <a href="http://qiita.com/hkurokawa/items/9315162c61830befc547">go.mobile を使った Android 開発のまとめ</a> 文章。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何使用 Groupcache]]></title>
-    <link href="http://fubuki.github.io/blog/2015/04/16/groupcache/"/>
-    <updated>2015-04-16T22:31:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/04/16/groupcache</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>Groupcache 與 memcached 的差別</h3>
-
-<p>同樣都是由相同作者開發的，只是 memcached 是使用 C++ 而 <a href="https://github.com/golang/groupcache">groupcache</a> 是使用 golang 開發的，
-然後 memcached 是作為獨立一個程式運作的，但是 <a href="https://github.com/golang/groupcache">groupcache</a> 本身就是 <code>client library</code> 和 <code>server</code>，
-使用起來反而比較像 sqlite。</p>
-
-<h3>如何使用 Groupcache</h3>
 ]]></content>
   </entry>
   

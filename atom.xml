@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-23T23:06:42+08:00</updated>
+  <updated>2016-03-24T23:12:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Teamwork 使用 Golang 的心得]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/24/teamwork-golang/"/>
+    <updated>2016-03-24T22:55:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/24/teamwork-golang</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineroom.teamwork.com/go-learn/">Go Learn</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[C in 2016]]></title>
@@ -264,18 +276,6 @@ aptitude upgrade git
 
 
 <p><a href="https://docs.docker.com/compose/">docker compose</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何建立穩定的系統]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/04/stable-system/"/>
-    <updated>2016-03-04T23:44:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/04/stable-system</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.4xoh9bh4k">How to build stable systems — An incomplete opinionated guide.</a></p>
 ]]></content>
   </entry>
   
