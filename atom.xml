@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-24T23:12:07+08:00</updated>
+  <updated>2016-03-25T23:49:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[在一年內熟悉 Emacs]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/25/emacs-one-year/"/>
+    <updated>2016-03-25T23:48:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/25/emacs-one-year</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/redguardtoo/mastering-emacs-in-one-year-guide">mastering-emacs-in-one-year-guide</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teamwork 使用 Golang 的心得]]></title>
@@ -264,18 +276,6 @@ aptitude upgrade git
 
 
 <p><a href="https://github.com/linkedin/WhereHows">WhereHows</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Docker Compose 建立測試環境]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/05/docker-compose/"/>
-    <updated>2016-03-05T21:37:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/05/docker-compose</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://docs.docker.com/compose/">docker compose</a></p>
 ]]></content>
   </entry>
   
