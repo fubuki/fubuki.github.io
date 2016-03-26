@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Jquery | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/jquery/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-25T23:49:58+08:00</updated>
+  <updated>2016-03-26T23:56:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[jQuery 3 有哪些新東西]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/26/jquery-3/"/>
+    <updated>2016-03-26T23:55:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/26/jquery-3</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://developer.telerik.com/featured/whats-new-in-jquery-3/">What’s New in jQuery 3</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jQuery 3.0 測試版本釋出]]></title>
