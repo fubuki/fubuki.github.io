@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Web | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -43,6 +43,24 @@
 
 
 <p><a href="https://auth0.com/blog/2015/10/14/7-things-you-should-know-about-web-assembly/">7 Things You Should Know About WebAssembly</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[百度求職訊息]]></title>
+    <link href="http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi/"/>
+    <updated>2014-03-08T21:43:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2014/03/08/bai-du-qiu-zhi-xun-xi</id>
+    <content type="html"><![CDATA[<p>偶然看到的訊息，以前有些網站也出現這樣類似的訊息。</p>
+
+<!-- more -->
+
+
+<p>咦！这么巧你也喜欢研究html源代码! <br/>
+又这么巧我们急需像你这样的专业前端人士! <br/>
+来百度云吧，和我们一起改变百度云！改变云存储！ <br/>
+职位介绍：<a href="http://dwz.cn/eMWdq  ">http://dwz.cn/eMWdq  </a>
+请将简历发送至 spacehr@baidu.com（ 邮件标题请以“姓名-应聘XX职位-来自console”命名）</p>
 ]]></content>
   </entry>
   

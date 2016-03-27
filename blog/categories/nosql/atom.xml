@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nosql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nosql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -69,7 +69,10 @@
     <link href="http://fubuki.github.io/blog/2014/03/12/riak/"/>
     <updated>2014-03-12T23:09:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/12/riak</id>
-    <content type="html"><![CDATA[<p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>之前有看到的nosql快取，底層是erlang，原本生產環境有用到memcache和redis這兩種快取，
 不過redis是master-slave架構擴展上需要另外處理，memcache則是沒有持久化的功能，所以
 剛好在次看到riak也許可以補足一些地方。</p>
 ]]></content>

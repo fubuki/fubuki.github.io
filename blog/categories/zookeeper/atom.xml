@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Zookeeper | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/zookeeper/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2014/03/05/zookeeper/"/>
     <updated>2014-03-05T21:16:55+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/05/zookeeper</id>
-    <content type="html"><![CDATA[<p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Apache Zookeeper 一開始是用在hadoop上面，原本hadoop是 master-slave的架構會有單點故障的問題，<br/>
 如果master掛點那就不用玩了，所以用zookeeper去監控各個節點當master故障就可以啟動災難復原，</p>
 ]]></content>
   </entry>

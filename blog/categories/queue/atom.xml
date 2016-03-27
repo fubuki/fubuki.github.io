@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Queue | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/queue/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -53,7 +53,10 @@
     <link href="http://fubuki.github.io/blog/2014/03/17/celery/"/>
     <updated>2014-03-17T21:19:12+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/17/celery</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/celery/celery">celery</a> 是一款分布式佇列，之前用過beanstalk還不知道兩者之間的差別，會用到celery是希望搭配mqtt建立
 一個推播系統，celery 後面可以搭配多種Broker建立自己的worker，目前先搭配celery和rabbitmq以及mqtt.js
 為基礎架構。</p>
 

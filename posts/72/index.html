@@ -9,9 +9,10 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="amazon的 Dynamo架構值得參考，目前常看到的scale機制分成master-slave和Dynamo兩種架構，不過通常master-slave需要
-類似zookeeper的機制另外監控，Dynamo卻不需要，必須比較一下兩者之間的差別。
-">
+  <meta name="description" content="
+PageRank
+EdgeRank
+PeopleRank ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +81,48 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/26/pagerank-edgerank-peoplerank/">PageRank, EdgeRank, PeopleRank</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-03-26T21:22:05+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>9:22 pm</span></time>
+        
+           | <a href="/blog/2014/03/26/pagerank-edgerank-peoplerank/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/26/pagerank-edgerank-peoplerank/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ol>
+<li>PageRank</li>
+<li>EdgeRank</li>
+<li>PeopleRank</li>
+</ol>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2014/03/26/pagerank-edgerank-peoplerank/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -380,38 +423,6 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/">Socketio 和 engine.io的差別</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-03-19T22:42:06+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>19</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>10:42 pm</span></time>
-        
-           | <a href="/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/03/19/socketio-he-engine-dot-iode-chai-bie/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>都是由相同的作者維護，目前在專案上比較常用socket.io，socket.io底層使用engine.io實現不同的通訊方式，</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/73">&larr; Older</a>
@@ -429,6 +440,10 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/03/27/direnv-anyenv-editorconfig/">Direnv & Anyenv & editorConfig</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/03/26/jquery-3/">jQuery 3 有哪些新東西</a>
       </li>
     
@@ -444,17 +459,13 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
         <a href="/blog/2016/03/23/c-2016/">C in 2016</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2016/03/22/quora-ranking/">Quora Ranking Model</a>
-      </li>
-    
   </ul>
 </section>
 
 <section>
 <h1>分類</h1>
 <ul>
-  <li><a href='/blog/categories/'> (106)</a></li>
+  <li><a href='/blog/categories/'> (107)</a></li>
   <li><a href='/blog/categories/algorithm'>Algorithm (51)</a></li>
   <li><a href='/blog/categories/android'>Android (12)</a></li>
   <li><a href='/blog/categories/api'>Api (2)</a></li>
@@ -468,7 +479,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <li><a href='/blog/categories/c-'>C++ (1)</a></li>
   <li><a href='/blog/categories/cdn'>Cdn (1)</a></li>
   <li><a href='/blog/categories/chocolatey'>Chocolatey (1)</a></li>
-  <li><a href='/blog/categories/conference'>Conference (29)</a></li>
+  <li><a href='/blog/categories/conference'>Conference (31)</a></li>
   <li><a href='/blog/categories/continuous-integration'>Continuous integration (2)</a></li>
   <li><a href='/blog/categories/css'>Css (6)</a></li>
   <li><a href='/blog/categories/data-analysis'>Data analysis (2)</a></li>
@@ -492,11 +503,11 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <li><a href='/blog/categories/html5'>Html5 (2)</a></li>
   <li><a href='/blog/categories/information-retrieval'>Information retrieval (1)</a></li>
   <li><a href='/blog/categories/java'>Java (3)</a></li>
-  <li><a href='/blog/categories/javascript'>Javascript (26)</a></li>
+  <li><a href='/blog/categories/javascript'>Javascript (27)</a></li>
   <li><a href='/blog/categories/jdk'>Jdk (2)</a></li>
   <li><a href='/blog/categories/jquery'>Jquery (4)</a></li>
   <li><a href='/blog/categories/line'>Line (6)</a></li>
-  <li><a href='/blog/categories/linux'>Linux (33)</a></li>
+  <li><a href='/blog/categories/linux'>Linux (34)</a></li>
   <li><a href='/blog/categories/lucene'>Lucene (6)</a></li>
   <li><a href='/blog/categories/machine-learngin'>Machine learngin (1)</a></li>
   <li><a href='/blog/categories/machine-learning'>Machine learning (13)</a></li>
@@ -545,7 +556,7 @@ SPA還蠻方便的，可以透過model更新資料和DOM這比起單獨使用jQu
   <li><a href='/blog/categories/vargrant'>Vargrant (1)</a></li>
   <li><a href='/blog/categories/vim'>Vim (2)</a></li>
   <li><a href='/blog/categories/voip'>Voip (2)</a></li>
-  <li><a href='/blog/categories/web'>Web (2)</a></li>
+  <li><a href='/blog/categories/web'>Web (3)</a></li>
   <li><a href='/blog/categories/webrtc'>Webrtc (1)</a></li>
   <li><a href='/blog/categories/zookeeper'>Zookeeper (1)</a></li>
 </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Ruby | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -31,6 +31,9 @@
     <updated>2014-03-11T22:04:51+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/11/xu-ni-huan-jing-he-duo-ban-ben-kai-fa-fang-an</id>
     <content type="html"><![CDATA[<p>目前手邊上有用到的開發虛擬環境。</p>
+
+<!-- more -->
+
 
 <ol>
 <li>nvm <a href="https://github.com/creationix/nvm">https://github.com/creationix/nvm</a></li>

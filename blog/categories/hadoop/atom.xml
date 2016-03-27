@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Hadoop | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -31,7 +31,10 @@
     <link href="http://fubuki.github.io/blog/2014/03/05/hadoop/"/>
     <updated>2014-03-05T21:33:44+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/05/hadoop</id>
-    <content type="html"><![CDATA[<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>hadoop出了2.0版本，之前只有使用0.9和1.0的版本，需要找時間看看有沒有新的特性。
 hadoop分成多種版本，需要整理各種版本不同之處。</p>
 
 <ul>

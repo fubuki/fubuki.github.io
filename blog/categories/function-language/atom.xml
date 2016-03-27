@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Function Language | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/function-language/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -18,7 +18,10 @@
     <link href="http://fubuki.github.io/blog/2014/03/10/function-language/"/>
     <updated>2014-03-10T22:49:47+08:00</updated>
     <id>http://fubuki.github.io/blog/2014/03/10/function-language</id>
-    <content type="html"><![CDATA[<p>目前正在學習 common lisp 和 haskell。<br/>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>目前正在學習 common lisp 和 haskell。<br/>
 Function language的特性。</p>
 ]]></content>
   </entry>

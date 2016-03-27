@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-26T23:56:43+08:00</updated>
+  <updated>2016-03-27T22:36:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Direnv & Anyenv & editorConfig]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/27/direnv-anyenv-editorconfig/"/>
+    <updated>2016-03-27T22:10:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/27/direnv-anyenv-editorconfig</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/riywo/anyenv">anyenv</a></li>
+<li><a href="https://github.com/direnv/direnv">direnv</a></li>
+<li><a href="http://editorconfig.org/">EditorConfig</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Edit Long Command]]></title>
@@ -64,22 +81,6 @@
 
 
 <p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Install Archlinux on Vmware]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware/"/>
-    <updated>2015-12-18T23:45:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/18/install-archlinux-on-vmware</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://wiki.archlinux.org/index.php/Beginners'_guide">Beginners&#8217; guide</a></li>
-<li><a href="https://github.com/vmware/open-vm-tools">open-vm-tools</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
