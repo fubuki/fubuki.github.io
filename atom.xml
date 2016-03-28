@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-27T22:36:03+08:00</updated>
+  <updated>2016-03-28T23:29:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Airbnb 資料基礎建設]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure/"/>
+    <updated>2016-03-28T23:21:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c#.cye76uanu">Data Infrastructure at Airbnb</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Direnv & Anyenv & editorConfig]]></title>
@@ -265,18 +277,6 @@ aptitude upgrade git
 
 
 <p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticon 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/08/elastic-2016/"/>
-    <updated>2016-03-08T23:26:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/08/elastic-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.elastic.co/elasticon/conf/2016/sf">elasticon 2016</a></p>
 ]]></content>
   </entry>
   

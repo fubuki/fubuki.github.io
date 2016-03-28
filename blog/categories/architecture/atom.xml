@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-27T22:36:03+08:00</updated>
+  <updated>2016-03-28T23:29:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Airbnb 資料基礎建設]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure/"/>
+    <updated>2016-03-28T23:21:14+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c#.cye76uanu">Data Infrastructure at Airbnb</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Maglev Google Network Load Balancer]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/">Stack Overflow: The Architecture - 2016 Edition</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Netflix 的資料處理流程]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline/"/>
-    <updated>2016-02-20T20:45:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/20/netflix-data-pipeline</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://techblog.netflix.com/2016/02/evolution-of-netflix-data-pipeline.html">Evolution of the Netflix Data Pipeline</a></p>
 ]]></content>
   </entry>
   
