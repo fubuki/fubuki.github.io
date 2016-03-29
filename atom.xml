@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-28T23:29:52+08:00</updated>
+  <updated>2016-03-29T23:48:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Erlang Factory SF Bay Area 2016 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/29/erlang-factory-sf-bay-area-2016/"/>
+    <updated>2016-03-29T23:47:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/29/erlang-factory-sf-bay-area-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.erlang-factory.com/sfbay2016">Erlang Factory SF Bay Area 2016</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLWbHc_FXPo2i4xDdRd-sGvZZiKjSABOk4">video list</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Airbnb 資料基礎建設]]></title>
@@ -265,18 +279,6 @@ aptitude upgrade git
 
 
 <p><a href="https://eng.uber.com/go-geofence/">How We Built Uber Engineering’s Highest Query per Second Service Using Go</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[寫出好刪除而不是易於擴展的程式碼]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/09/easy-delete/"/>
-    <updated>2016-03-09T23:12:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/09/easy-delete</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
 ]]></content>
   </entry>
   
