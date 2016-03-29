@@ -3,8 +3,11 @@ layout: post
 title: "tmux 指令表"
 date: 2014-03-04 21:35:36 +0800
 comments: true
-categories: 
+categories: [""]
 ---
+
+
+<!-- more -->
 
 [tmux 指令表] 放置常用指令。
 

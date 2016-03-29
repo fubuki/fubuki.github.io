@@ -1,0 +1,16 @@
+---
+layout: post
+title: "microXchg 2016 資料"
+date: 2016-03-16 22:45:37 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+
+
+[The Microservices Conferencein Berlin 2016]
+
+[The Microservices Conferencein Berlin 2016]:http://microxchg.io/2016/index.html

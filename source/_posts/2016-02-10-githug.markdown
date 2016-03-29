@@ -1,0 +1,13 @@
+---
+layout: post
+title: "githug: practice git game"
+date: 2016-02-10 22:30:05 +0800
+comments: true
+categories: ["git"]
+---
+
+<!-- more -->
+
+[githug]
+
+[githug]:https://github.com/Gazler/githug.git

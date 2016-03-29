@@ -1,0 +1,17 @@
+---
+layout: post
+title: "yacc and peg"
+date: 2016-03-01 23:39:08 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+Lucene 使用到類似的東西，所以需要了解底下兩個東西。
+
+1. [PEG]
+2. [Yacc]
+
+[PEG]:https://en.wikipedia.org/wiki/Parsing_expression_grammar
+[Yacc]:https://en.wikipedia.org/wiki/Yacc

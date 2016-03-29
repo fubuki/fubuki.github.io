@@ -3,7 +3,7 @@ layout: post
 title: "webrtc"
 date: 2014-03-06 21:53:48 +0800
 comments: true
-categories: webrtc
+categories: ["webrtc"]
 ---
 
 全名 Web Real-Time Communication ，讓閱覽器支援視訊和音訊通訊。  

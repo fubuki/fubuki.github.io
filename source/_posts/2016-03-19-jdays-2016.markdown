@@ -1,0 +1,14 @@
+---
+layout: post
+title: "jdays 2016 資料"
+date: 2016-03-19 22:13:38 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+[jdays 2016]
+
+[jdays 2016]:http://www.jdays.se/

@@ -6,4 +6,7 @@ comments: true
 categories: ["javascript"]
 ---
 
+
+<!-- more -->
+
 資料視覺化，配合SVG讓資料以各種形式表現在閱覽器上。  

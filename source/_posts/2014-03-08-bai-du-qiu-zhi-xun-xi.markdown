@@ -3,7 +3,7 @@ layout: post
 title: "百度求職訊息"
 date: 2014-03-08 21:43:50 +0800
 comments: true
-categories: 
+categories: ["web"]
 ---
 
 偶然看到的訊息，以前有些網站也出現這樣類似的訊息。

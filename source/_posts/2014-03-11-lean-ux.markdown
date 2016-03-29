@@ -3,8 +3,11 @@ layout: post
 title: "Lean UX"
 date: 2014-03-11 22:57:58 +0800
 comments: true
-categories: UX
+categories: ["UX"]
 ---
+
+
+<!-- more -->
 
 What UI really is (and how UX confuses matters)
 

@@ -3,8 +3,11 @@ layout: post
 title: "HubSpot"
 date: 2014-03-16 20:01:55 +0800
 comments: true
-categories: javascript
+categories: ["javascript"]
 ---
+
+
+<!-- more -->
 
 一家網際網路行銷的公司，在他的github網站有一些蠻有趣的項目值得研究。  
 https://github.com/HubSpot

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Dapper Google 的追縱系統"
+date: 2016-02-09 22:55:07 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+[Dapper, a Large-Scale Distributed Systems Tracing Infrastructure]
+
+[Dapper, a Large-Scale Distributed Systems Tracing Infrastructure]:http://research.google.com/pubs/pub36356.html

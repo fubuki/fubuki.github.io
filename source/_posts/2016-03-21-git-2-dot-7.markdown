@@ -1,0 +1,21 @@
+---
+layout: post
+title: "git 升級到 2.7.4"
+date: 2016-03-21 22:59:44 +0800
+comments: true
+categories: ["git"]
+---
+
+
+<!-- more -->
+
+
+1. CVE-2016-2324
+2. CVE-2016-2315
+
+git 小於 2.7.4 都會中的漏洞。
+
+
+	add-apt-repository ppa:git-core/ppa
+	aptitude update
+	aptitude upgrade git

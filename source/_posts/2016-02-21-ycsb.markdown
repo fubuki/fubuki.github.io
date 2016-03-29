@@ -1,0 +1,15 @@
+---
+layout: post
+title: "YCSB nosql benchmark tool"
+date: 2016-02-21 23:00:08 +0800
+comments: true
+categories: ["nosql"]
+---
+
+
+<!-- more -->
+
+
+[YCSB] 用來測量 nosql database 的工具
+
+[YCSB]:https://github.com/brianfrankcooper/YCSB

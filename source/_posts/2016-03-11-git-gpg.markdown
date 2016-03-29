@@ -1,0 +1,17 @@
+---
+layout: post
+title: "using GPG sign your git commits"
+date: 2016-03-11 23:39:44 +0800
+comments: true
+categories: ["git"]
+---
+
+
+<!-- more -->
+
+
+[Git Tools - Signing Your Work]
+
+
+
+[Git Tools - Signing Your Work]:https://git-scm.com/book/zh-tw/v2/Git-Tools-Signing-Your-Work

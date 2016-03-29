@@ -6,4 +6,7 @@ comments: true
 categories: ["NLP"]
 ---
 
+
+<!-- more -->
+
 測試 Beautiful Data 書中 ngram的範例。

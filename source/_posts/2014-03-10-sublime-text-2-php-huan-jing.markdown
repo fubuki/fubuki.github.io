@@ -3,7 +3,7 @@ layout: post
 title: "Sublime Text 2 PHP 環境"
 date: 2014-03-10 22:49:25 +0800
 comments: true
-categories: sublime-text
+categories: ["sublime-text"]
 ---
 
 記錄一下sublime text2 有用到package。

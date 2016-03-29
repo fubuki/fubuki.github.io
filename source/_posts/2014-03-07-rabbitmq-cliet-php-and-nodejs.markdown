@@ -3,7 +3,7 @@ layout: post
 title: "Rabbitmq client php and nodejs"
 date: 2014-03-07 23:57:59 +0800
 comments: true
-categories: rabbitmq
+categories: ["rabbitmq"]
 ---
 
 * PHP  

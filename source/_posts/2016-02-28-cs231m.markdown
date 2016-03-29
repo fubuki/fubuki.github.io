@@ -1,0 +1,17 @@
+---
+layout: post
+title: "CS231M 課程"
+date: 2016-02-28 23:46:55 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+
+1. [CS231M]
+2. [画像処理の数式を見て石になった時のための、金の針]
+
+[CS231M]:http://web.stanford.edu/class/cs231m/
+[画像処理の数式を見て石になった時のための、金の針]:http://qiita.com/icoxfog417/items/adbbf445d357c924b8fc

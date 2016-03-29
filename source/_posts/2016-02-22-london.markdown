@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Deep Learning Summit 2015 London 文章"
+date: 2016-02-22 23:49:08 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+<!-- more -->
+
+別人寫的筆記，很好理解。
+
+1. [Notes from Deep Learning Summit 2015 London — Day 1]
+2. [Notes from Deep Learning Summit 2015 London — Day 2]
+
+
+[Notes from Deep Learning Summit 2015 London — Day 1]:https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-1-1599f603a40b#.qdfz216bm
+[Notes from Deep Learning Summit 2015 London — Day 2]:https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz

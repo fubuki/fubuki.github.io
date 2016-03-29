@@ -1,0 +1,13 @@
+---
+layout: post
+title: "docker 1.10 版本"
+date: 2016-02-13 23:38:08 +0800
+comments: true
+categories: ["docker"]
+---
+
+<!-- more -->
+
+[Docker 1.10: New Compose file, improved security, networking and much more!]
+
+[Docker 1.10: New Compose file, improved security, networking and much more!]:https://blog.docker.com/2016/02/docker-1-10/

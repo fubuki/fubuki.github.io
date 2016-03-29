@@ -3,7 +3,7 @@ layout: post
 title: "Coscup 2013"
 date: 2014-03-08 19:50:02 +0800
 comments: true
-categories: 
+categories: ["conference"]
 ---
 
 記錄一下 2013年有看的議程。  

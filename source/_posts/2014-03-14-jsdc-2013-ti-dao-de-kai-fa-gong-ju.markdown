@@ -3,8 +3,11 @@ layout: post
 title: "jsdc 2013 前端開發工具"
 date: 2014-03-14 00:08:53 +0800
 comments: true
-categories: javascript
+categories: ["javascript"]
 ---
+
+
+<!-- more -->
 
 記錄在jsdc 議程上看到的開發工具。
 

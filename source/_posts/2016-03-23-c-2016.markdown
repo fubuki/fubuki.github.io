@@ -1,0 +1,16 @@
+---
+layout: post
+title: "C in 2016"
+date: 2016-03-23 23:01:58 +0800
+comments: true
+categories: ["C"]
+---
+
+<!-- more -->
+
+1. [How to C in 2016]
+2. [A critique of "How to C in 2016"]
+
+
+[A critique of "How to C in 2016"]:https://github.com/Keith-S-Thompson/how-to-c-response
+[How to C in 2016]:https://matt.sh/howto-c

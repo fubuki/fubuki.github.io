@@ -3,8 +3,11 @@ layout: post
 title: "coffeescript"
 date: 2014-03-16 20:12:32 +0800
 comments: true
-categories: 
+categories: ["javascript"]
 ---
+
+
+<!-- more -->
 
 CoffeeScript is a little language that compiles into JavaScript. 
 
