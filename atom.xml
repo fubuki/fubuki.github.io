@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-29T23:48:53+08:00</updated>
+  <updated>2016-03-30T23:33:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Machine Learning Case List]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/30/python-machine-list/"/>
+    <updated>2016-03-30T23:59:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/30/python-machine-list</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lernpython.de/four-steps-to-master-machine-learning-with-python-including-free-books-resources">Four steps to master machine learning with python (including free books &amp; resources)</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang Factory SF Bay Area 2016 資料]]></title>
@@ -267,18 +279,6 @@ aptitude upgrade git
 
 
 <p><a href="https://git-scm.com/book/zh-tw/v2/Git-Tools-Signing-Your-Work">Git Tools - Signing Your Work</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Uber Service With Golang]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/10/uber-with-go/"/>
-    <updated>2016-03-10T23:41:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/10/uber-with-go</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://eng.uber.com/go-geofence/">How We Built Uber Engineering’s Highest Query per Second Service Using Go</a></p>
 ]]></content>
   </entry>
   
