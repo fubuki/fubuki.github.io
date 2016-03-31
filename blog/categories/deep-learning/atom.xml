@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Deep Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/deep-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-30T23:33:06+08:00</updated>
+  <updated>2016-03-31T23:49:53+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LSTM 的介紹文章]]></title>
+    <link href="http://fubuki.github.io/blog/2016/03/31/lstm/"/>
+    <updated>2016-03-31T23:31:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/03/31/lstm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://qiita.com/t_Signull/items/21b82be280b46f467d1b">わかるLSTM ～ 最近の動向と共に</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Speech 2 辨識中文和英文]]></title>
@@ -60,19 +72,6 @@
 
 
 <p><a href="https://github.com/BVLC/caffe">caffe</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Waifu2x: A Image Scale Website]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/25/waifu2x/"/>
-    <updated>2015-05-25T23:35:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/25/waifu2x</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/nagadomi/waifu2x">waifu2x</a> 一個使用 <code>Deep Convolutional Neural Networks</code> 圖片網站，它可以讓圖片在放大的時候減少失真
-，裡面的原始碼已經有放在 Github 上面了，不過安裝需要使用 CUDA 也就是機器需要 Nivda 的 GPU 支援。</p>
 ]]></content>
   </entry>
   
