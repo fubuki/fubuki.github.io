@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-03-31T23:49:53+08:00</updated>
+  <updated>2016-04-01T23:16:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Badoo 遷移到 PHP 7]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/01/php-7-badoo/"/>
+    <updated>2016-04-01T23:08:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/01/php-7-badoo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/">How Badoo saved one million dollars switching to PHP7</a></p>
+
+<p>裡面有些用來測試的方法可以研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHPDBG Php Debug Tool]]></title>
@@ -60,18 +74,6 @@ PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性�
 
 
 <p><a href="https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/">Under the hood: Box&rsquo;s HHVM migration</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Enable PHP-FPM Status Page]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/23/phpfpm-status/"/>
-    <updated>2015-11-23T00:30:02+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/23/phpfpm-status</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://rtcamp.com/tutorials/php/fpm-status-page/">Nginx – Enable PHP-FPM Status Page</a></p>
 ]]></content>
   </entry>
   
