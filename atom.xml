@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-01T23:16:58+08:00</updated>
+  <updated>2016-04-02T23:45:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tarantool Memory Database]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/02/tarantool/"/>
+    <updated>2016-04-02T23:42:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/02/tarantool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/tarantool/tarantool/">tarantool</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Badoo 遷移到 PHP 7]]></title>
@@ -268,19 +280,6 @@ aptitude upgrade git
 
 
 <p><a href="https://github.com/google/highwayhash/">highwayhash</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Https Error]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/13/python-https-error/"/>
-    <updated>2016-03-13T23:06:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/13/python-https-error</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>因為 python  版本比較舊在使用 urlib3 時處理 SSL 的連結會出問題，解決方法一個是升級，
-另外一個使用 <a href="https://urllib3.readthedocs.org/en/latest/security.html#snimissingwarning">SNIMissingWarning</a> 的方法解決。</p>
 ]]></content>
   </entry>
   
