@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Deep Learngin | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/deep-learngin/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-04-03T23:43:04+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Jeff Dean 在韓國大學的演講]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/03/large-scale-deep-learning-for-intelligent-computer-systems/"/>
+    <updated>2016-04-03T23:18:11+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/03/large-scale-deep-learning-for-intelligent-computer-systems</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Large-Scale Deep Learning for Intelligent Computer System</p>
+
+<p><a href="https://www.youtube.com/watch?v=QSaZGT4-6EY">Google Tech Talk with Jeff Dean at Campus Seoul</a></p>
+]]></content>
+  </entry>
+  
+</feed>
