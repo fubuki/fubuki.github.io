@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-03T23:43:04+08:00</updated>
+  <updated>2016-04-04T23:18:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GopherConIndia 2016 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016/"/>
+    <updated>2016-04-04T23:12:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.youtube.com/playlist?list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA">GopherConIndia 2016 Video</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jeff Dean 在韓國大學的演講]]></title>
@@ -266,22 +278,6 @@ aptitude upgrade git
 
 
 <p><a href="http://microxchg.io/2016/index.html">The Microservices Conferencein Berlin 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Edit Long Command]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/15/edit-long-command/"/>
-    <updated>2016-03-15T23:05:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/15/edit-long-command</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>fc</li>
-<li>ctrl-x + ctrl-e</li>
-</ol>
-
 ]]></content>
   </entry>
   
