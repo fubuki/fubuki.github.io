@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-04T23:18:04+08:00</updated>
+  <updated>2016-04-05T23:50:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Flip Css Animation]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/05/flip/"/>
+    <updated>2016-04-05T23:49:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/05/flip</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://blog.lunarlogic.io/2016/boost-your-css-animation-performance-with-repaintless-css/">Boost Your CSS Animation Performance with the Repaintless.css Library</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GopherConIndia 2016 資料]]></title>
@@ -266,18 +278,6 @@ aptitude upgrade git
 
 
 <p><a href="https://code.facebook.com/posts/1365439333482197/how-we-built-facebook-lite-for-every-android-phone-and-network?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">How we built Facebook Lite for every Android phone and network</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[microXchg 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/16/microxchg-2016/"/>
-    <updated>2016-03-16T22:45:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/16/microxchg-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://microxchg.io/2016/index.html">The Microservices Conferencein Berlin 2016</a></p>
 ]]></content>
   </entry>
   
