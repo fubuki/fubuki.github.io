@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-05T23:50:30+08:00</updated>
+  <updated>2016-04-06T22:18:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[STM 模型]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/06/stm/"/>
+    <updated>2016-04-06T22:05:12+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/06/stm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Software_transactional_memory">Software transactional memory</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flip Css Animation]]></title>
@@ -266,18 +278,6 @@ aptitude upgrade git
 
 
 <p><a href="http://research.google.com/pubs/pub44824.html">&ldquo;Maglev: A Fast and Reliable Software Network Load Balancer&rdquo;</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Lite Network Performance]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/17/facebook-lite-network/"/>
-    <updated>2016-03-17T23:32:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/17/facebook-lite-network</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1365439333482197/how-we-built-facebook-lite-for-every-android-phone-and-network?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">How we built Facebook Lite for every Android phone and network</a></p>
 ]]></content>
   </entry>
   
