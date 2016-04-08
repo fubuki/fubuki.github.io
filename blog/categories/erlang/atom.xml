@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Erlang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/erlang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-07T23:05:56+08:00</updated>
+  <updated>2016-04-08T23:44:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lisp in Erlang]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/08/lfe/"/>
+    <updated>2016-04-08T23:41:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/08/lfe</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/rvirding/lfe/">lfe</a> 在 erlang vm 上跑類似 lisp 語法的語言。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Erlang : Open Telecom Platform]]></title>
@@ -111,34 +123,6 @@
 <p>最近在網路上在看 o&#8217;reilly 有出哪些新書時發現了一個沒見過的單字 elixir，後來去搜尋發現是基於 erlang 的 VM (BEAM) 所
 發展的語言，目前看起來是蠻新的語言不知道有沒有人使用在商業環境上，不過他在 <a href="http://elixir-lang.org/">website</a> 上寫的特性讓我蠻感興趣的，可以跟
  erlang 結合也加入了一些其他語言的特性，之後可以實做看看並且研究一下為何會提出這門語言，elixir 的 <a href="https://github.com/elixir-lang/elixir/">github</a> 可以跟一下進度。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rebar 備忘錄]]></title>
-    <link href="http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu/"/>
-    <updated>2014-08-26T23:32:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/08/26/rebar-bei-wang-lu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<h3>安裝</h3>
-
-<pre><code>git clone https://github.com/rebar/rebar
-cd rebar
-./bootstrap
-sudo mv rebar /usr/local/bin 
-</code></pre>
-
-<h3>建立一個 app</h3>
-
-<pre><code>rebar create-app appid=erl-app
-</code></pre>
-
-<h3>編譯</h3>
-
-<pre><code>rebar compile
-</code></pre>
 ]]></content>
   </entry>
   
