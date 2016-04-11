@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-10T23:47:20+08:00</updated>
+  <updated>2016-04-11T21:09:30+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github 的 DGit]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/11/dgit/"/>
+    <updated>2016-04-11T20:55:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/11/dgit</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://githubengineering.com/introducing-dgit/">Introducing DGit</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Git 升級到 2.7.4]]></title>
@@ -69,18 +81,6 @@ aptitude upgrade git
 
 
 <p><a href="https://github.com/Gazler/githug.git">githug</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Code Review Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/19/git-appraise/"/>
-    <updated>2015-12-19T23:52:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/19/git-appraise</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/git-appraise">git-appraise</a></p>
 ]]></content>
   </entry>
   
