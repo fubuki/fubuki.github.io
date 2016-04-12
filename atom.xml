@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-11T21:09:30+08:00</updated>
+  <updated>2016-04-12T23:33:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Doorman 分散式鎖]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/12/doorman/"/>
+    <updated>2016-04-12T23:16:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/12/doorman</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/youtube/doorman">doorman</a> 一個 <code>distributed lock manager</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github 的 DGit]]></title>
@@ -250,22 +262,6 @@
 
 
 <p><a href="http://engineroom.teamwork.com/go-learn/">Go Learn</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[C in 2016]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/23/c-2016/"/>
-    <updated>2016-03-23T23:01:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/23/c-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://matt.sh/howto-c">How to C in 2016</a></li>
-<li><a href="https://github.com/Keith-S-Thompson/how-to-c-response">A critique of &ldquo;How to C in 2016&rdquo;</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

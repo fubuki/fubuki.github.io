@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Golang | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/golang/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-11T21:09:30+08:00</updated>
+  <updated>2016-04-12T23:33:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Doorman 分散式鎖]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/12/doorman/"/>
+    <updated>2016-04-12T23:16:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/12/doorman</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/youtube/doorman">doorman</a> 一個 <code>distributed lock manager</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Teamwork 使用 Golang 的心得]]></title>
@@ -58,19 +70,6 @@
 
 
 <p><a href="https://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/">What Python developers need to know before migrating to Go(lang)</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Use Golang Develop Android App]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/18/golang-android/"/>
-    <updated>2015-05-18T22:52:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/18/golang-android</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>以前可以使用 C++ 加上 JNI 開發 android app，這樣的好處是在一些需要耗用計算資源的地方使用 C++ 可以提高效能，
-然後最近看到可以使用使用 golang 做到相同類似的地方。我是參考這篇 <a href="http://qiita.com/hkurokawa/items/9315162c61830befc547">go.mobile を使った Android 開発のまとめ</a> 文章。</p>
 ]]></content>
   </entry>
   
