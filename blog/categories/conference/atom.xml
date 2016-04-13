@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-12T23:33:57+08:00</updated>
+  <updated>2016-04-13T23:19:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Qcon London 2016 議程]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/13/qcon-london-2016/"/>
+    <updated>2016-04-13T23:17:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/13/qcon-london-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://qconlondon.com/london-2016/london-2016/schedule/tabular.html">QCON LONDON 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GopherConIndia 2016 資料]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="http://www.jdays.se/">jdays 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[microXchg 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/16/microxchg-2016/"/>
-    <updated>2016-03-16T22:45:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/16/microxchg-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://microxchg.io/2016/index.html">The Microservices Conferencein Berlin 2016</a></p>
 ]]></content>
   </entry>
   
