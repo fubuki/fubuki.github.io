@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-13T23:19:49+08:00</updated>
+  <updated>2016-04-14T23:40:43+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SBE]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/14/sbe/"/>
+    <updated>2016-04-14T23:32:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/14/sbe</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/real-logic/simple-binary-encoding">simple-binary-encoding</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[STM 模型]]></title>
@@ -58,22 +70,6 @@
 
 
 <p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Building a Trello System]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/07/trello-clone/"/>
-    <updated>2016-03-07T23:32:04+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/07/trello-clone</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/bigardone/phoenix-trello">phoenix-trello</a></li>
-<li><a href="https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1">Trello clone with Phoenix and React</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
