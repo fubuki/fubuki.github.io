@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-14T23:40:43+08:00</updated>
+  <updated>2016-04-15T23:25:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dotscale 2015 Video]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/15/dotscale-2015/"/>
+    <updated>2016-04-15T23:23:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/15/dotscale-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.thedotpost.com/conference/dotscale-2015">dotscle 2015 video</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SBE]]></title>
@@ -250,18 +262,6 @@
 <li><a href="http://editorconfig.org/">EditorConfig</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jQuery 3 有哪些新東西]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/26/jquery-3/"/>
-    <updated>2016-03-26T23:55:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/26/jquery-3</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://developer.telerik.com/featured/whats-new-in-jquery-3/">What’s New in jQuery 3</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-14T23:40:43+08:00</updated>
+  <updated>2016-04-15T23:25:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dotscale 2015 Video]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/15/dotscale-2015/"/>
+    <updated>2016-04-15T23:23:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/15/dotscale-2015</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.thedotpost.com/conference/dotscale-2015">dotscle 2015 video</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Qcon London 2016 議程]]></title>
@@ -62,18 +74,6 @@
 <p><a href="http://www.anlp.jp/nlp2016/">NLP 2016</a></p>
 
 <p><a href="http://skozawa.hatenablog.com/entry/2016/03/14/232129">論文メモ：NLP2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jdays 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/19/jdays-2016/"/>
-    <updated>2016-03-19T22:13:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/19/jdays-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.jdays.se/">jdays 2016</a></p>
 ]]></content>
   </entry>
   
