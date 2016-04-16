@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-15T23:25:49+08:00</updated>
+  <updated>2016-04-16T20:54:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Top Tool List]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/16/top-tool/"/>
+    <updated>2016-04-16T20:41:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/16/top-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>top</li>
+<li>ntop</li>
+<li>mytop</li>
+<li>iotop</li>
+<li>nettop</li>
+<li>htop</li>
+<li>atop</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dotscale 2015 Video]]></title>
@@ -245,23 +266,6 @@
 
 
 <p><a href="https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c#.cye76uanu">Data Infrastructure at Airbnb</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Direnv & Anyenv & editorConfig]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/27/direnv-anyenv-editorconfig/"/>
-    <updated>2016-03-27T22:10:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/27/direnv-anyenv-editorconfig</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://github.com/riywo/anyenv">anyenv</a></li>
-<li><a href="https://github.com/direnv/direnv">direnv</a></li>
-<li><a href="http://editorconfig.org/">EditorConfig</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

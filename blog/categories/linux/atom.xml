@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-15T23:25:49+08:00</updated>
+  <updated>2016-04-16T20:54:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Top Tool List]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/16/top-tool/"/>
+    <updated>2016-04-16T20:41:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/16/top-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>top</li>
+<li>ntop</li>
+<li>mytop</li>
+<li>iotop</li>
+<li>nettop</li>
+<li>htop</li>
+<li>atop</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Direnv & Anyenv & editorConfig]]></title>
@@ -69,18 +90,6 @@
 
 
 <p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Netflix Linux Perfomance]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance/"/>
-    <updated>2015-12-20T22:28:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/20/netflix-linux-perfomance</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></p>
 ]]></content>
   </entry>
   
