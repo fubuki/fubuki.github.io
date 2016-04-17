@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-16T20:54:42+08:00</updated>
+  <updated>2016-04-17T23:50:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 Rough Set]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/17/rough-set/"/>
+    <updated>2016-04-17T23:45:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/17/rough-set</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Rough_set">Rough set</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Top Tool List]]></title>
@@ -254,18 +266,6 @@
 <p><a href="http://www.erlang-factory.com/sfbay2016">Erlang Factory SF Bay Area 2016</a></p>
 
 <p><a href="https://www.youtube.com/playlist?list=PLWbHc_FXPo2i4xDdRd-sGvZZiKjSABOk4">video list</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Airbnb 資料基礎建設]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure/"/>
-    <updated>2016-03-28T23:21:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c#.cye76uanu">Data Infrastructure at Airbnb</a></p>
 ]]></content>
   </entry>
   

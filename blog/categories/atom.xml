@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-16T20:54:42+08:00</updated>
+  <updated>2016-04-17T23:50:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 Rough Set]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/17/rough-set/"/>
+    <updated>2016-04-17T23:45:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/17/rough-set</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Rough_set">Rough set</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SBE]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://engineering.quora.com/A-Machine-Learning-Approach-to-Ranking-Answers-on-Quora">A Machine Learning Approach to Ranking Answers on Quora</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[寫出好刪除而不是易於擴展的程式碼]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/09/easy-delete/"/>
-    <updated>2016-03-09T23:12:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/09/easy-delete</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to">Write code that is easy to delete, not easy to extend.</a></p>
 ]]></content>
   </entry>
   
