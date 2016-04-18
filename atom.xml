@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-17T23:50:00+08:00</updated>
+  <updated>2016-04-18T23:31:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[MaxCDN NGINX Guide]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/18/maxcdn-nginx/"/>
+    <updated>2016-04-18T23:30:08+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/18/maxcdn-nginx</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://maxcdnblog.wpengine.com/nginx-application-performance-optimization/">6-Part Guide to NGINX Application Performance Optimization</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Rough Set]]></title>
@@ -252,20 +264,6 @@
 
 
 <p><a href="http://lernpython.de/four-steps-to-master-machine-learning-with-python-including-free-books-resources">Four steps to master machine learning with python (including free books &amp; resources)</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Erlang Factory SF Bay Area 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/29/erlang-factory-sf-bay-area-2016/"/>
-    <updated>2016-03-29T23:47:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/29/erlang-factory-sf-bay-area-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.erlang-factory.com/sfbay2016">Erlang Factory SF Bay Area 2016</a></p>
-
-<p><a href="https://www.youtube.com/playlist?list=PLWbHc_FXPo2i4xDdRd-sGvZZiKjSABOk4">video list</a></p>
 ]]></content>
   </entry>
   
