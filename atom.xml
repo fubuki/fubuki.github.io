@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-18T23:31:04+08:00</updated>
+  <updated>2016-04-20T00:09:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenToonz 2D Anime Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/20/opentoonz/"/>
+    <updated>2016-04-20T00:04:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/20/opentoonz</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://opentoonz.github.io/">OpenToonz</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MaxCDN NGINX Guide]]></title>
@@ -252,18 +264,6 @@
 
 
 <p><a href="http://qiita.com/t_Signull/items/21b82be280b46f467d1b">わかるLSTM ～ 最近の動向と共に</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Machine Learning Case List]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/30/python-machine-list/"/>
-    <updated>2016-03-30T23:59:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/30/python-machine-list</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://lernpython.de/four-steps-to-master-machine-learning-with-python-including-free-books-resources">Four steps to master machine learning with python (including free books &amp; resources)</a></p>
 ]]></content>
   </entry>
   

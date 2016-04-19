@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-18T23:31:04+08:00</updated>
+  <updated>2016-04-20T00:09:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenToonz 2D Anime Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/20/opentoonz/"/>
+    <updated>2016-04-20T00:04:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/20/opentoonz</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://opentoonz.github.io/">OpenToonz</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Rough Set]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/tarantool/tarantool/">tarantool</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quora Ranking Model]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/22/quora-ranking/"/>
-    <updated>2016-03-22T23:46:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/22/quora-ranking</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://engineering.quora.com/A-Machine-Learning-Approach-to-Ranking-Answers-on-Quora">A Machine Learning Approach to Ranking Answers on Quora</a></p>
 ]]></content>
   </entry>
   
