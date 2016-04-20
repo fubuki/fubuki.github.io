@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-20T00:09:58+08:00</updated>
+  <updated>2016-04-20T22:38:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hadoop Summit 2016 都柏林 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/20/hadoop-summit-2016/"/>
+    <updated>2016-04-20T22:29:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/20/hadoop-summit-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://hadoopsummit.org/dublin/agenda/">agenda</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLenh213llmcYYgzV10HwiN-V_48S12Ugc">video</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenToonz 2D Anime Tool]]></title>
@@ -252,18 +268,6 @@
 <p><a href="https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/">How Badoo saved one million dollars switching to PHP7</a></p>
 
 <p>裡面有些用來測試的方法可以研究。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LSTM 的介紹文章]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/31/lstm/"/>
-    <updated>2016-03-31T23:31:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/31/lstm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://qiita.com/t_Signull/items/21b82be280b46f467d1b">わかるLSTM ～ 最近の動向と共に</a></p>
 ]]></content>
   </entry>
   

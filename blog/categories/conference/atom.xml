@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-20T00:09:58+08:00</updated>
+  <updated>2016-04-20T22:38:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hadoop Summit 2016 都柏林 資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/20/hadoop-summit-2016/"/>
+    <updated>2016-04-20T22:29:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/20/hadoop-summit-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://hadoopsummit.org/dublin/agenda/">agenda</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLenh213llmcYYgzV10HwiN-V_48S12Ugc">video</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dotscale 2015 Video]]></title>
@@ -60,20 +76,6 @@
 <p><a href="http://www.erlang-factory.com/sfbay2016">Erlang Factory SF Bay Area 2016</a></p>
 
 <p><a href="https://www.youtube.com/playlist?list=PLWbHc_FXPo2i4xDdRd-sGvZZiKjSABOk4">video list</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NLP 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/20/nlp-2016/"/>
-    <updated>2016-03-20T00:27:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/20/nlp-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.anlp.jp/nlp2016/">NLP 2016</a></p>
-
-<p><a href="http://skozawa.hatenablog.com/entry/2016/03/14/232129">論文メモ：NLP2016</a></p>
 ]]></content>
   </entry>
   
