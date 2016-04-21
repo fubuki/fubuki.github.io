@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-20T22:38:54+08:00</updated>
+  <updated>2016-04-21T23:56:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter 的 Finagle]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/21/twitter-finagle/"/>
+    <updated>2016-04-21T23:54:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/21/twitter-finagle</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 Netty 剛好看到 twitter 的 <a href="https://twitter.github.io/finagle/">Finagle</a> 就順便一起測試。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OpenToonz 2D Anime Tool]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Software_transactional_memory">Software transactional memory</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tarantool Memory Database]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/02/tarantool/"/>
-    <updated>2016-04-02T23:42:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/02/tarantool</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/tarantool/tarantool/">tarantool</a></p>
 ]]></content>
   </entry>
   
