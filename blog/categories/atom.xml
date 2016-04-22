@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-21T23:56:56+08:00</updated>
+  <updated>2016-04-22T23:12:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rust Cargo Package Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/22/rust-cargo/"/>
+    <updated>2016-04-22T23:08:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/22/rust-cargo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://crates.io/">cargo</a> Rust 自己的 package 管理工具</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter 的 Finagle]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/real-logic/simple-binary-encoding">simple-binary-encoding</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[STM 模型]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/06/stm/"/>
-    <updated>2016-04-06T22:05:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/06/stm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Software_transactional_memory">Software transactional memory</a></p>
 ]]></content>
   </entry>
   
