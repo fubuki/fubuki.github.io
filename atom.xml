@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-22T23:12:22+08:00</updated>
+  <updated>2016-04-23T23:52:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[什麼是 Word Embedding]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/23/word-embedding/"/>
+    <updated>2016-04-23T23:49:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/23/word-embedding</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Word_embedding">Word embedding</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rust Cargo Package Tool]]></title>
@@ -252,20 +264,6 @@
 
 
 <p><a href="https://www.youtube.com/playlist?list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA">GopherConIndia 2016 Video</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jeff Dean 在韓國大學的演講]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/03/large-scale-deep-learning-for-intelligent-computer-systems/"/>
-    <updated>2016-04-03T23:18:11+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/03/large-scale-deep-learning-for-intelligent-computer-systems</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Large-Scale Deep Learning for Intelligent Computer System</p>
-
-<p><a href="https://www.youtube.com/watch?v=QSaZGT4-6EY">Google Tech Talk with Jeff Dean at Campus Seoul</a></p>
 ]]></content>
   </entry>
   

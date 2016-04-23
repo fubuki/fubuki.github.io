@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-22T23:12:22+08:00</updated>
+  <updated>2016-04-23T23:52:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[什麼是 Word Embedding]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/23/word-embedding/"/>
+    <updated>2016-04-23T23:49:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/23/word-embedding</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Word_embedding">Word embedding</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[2016 語言分析趨勢]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[一些問答系統的文章]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/21/jp-question-answering/"/>
-    <updated>2015-10-21T23:13:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/21/jp-question-answering</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://qiita.com/HirofumiYashima/items/1eb3cf4d41d9a56a0c95">「質問応答マシン」 </a></p>
 ]]></content>
   </entry>
   
