@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-23T23:52:19+08:00</updated>
+  <updated>2016-04-24T23:50:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Online Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/24/online-learning/"/>
+    <updated>2016-04-24T23:48:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/24/online-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Online_machine_learning">Online machine learning</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[什麼是 Word Embedding]]></title>
@@ -252,18 +264,6 @@
 
 
 <p><a href="http://blog.lunarlogic.io/2016/boost-your-css-animation-performance-with-repaintless-css/">Boost Your CSS Animation Performance with the Repaintless.css Library</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GopherConIndia 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016/"/>
-    <updated>2016-04-04T23:12:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.youtube.com/playlist?list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA">GopherConIndia 2016 Video</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-23T23:52:19+08:00</updated>
+  <updated>2016-04-24T23:50:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Online Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/24/online-learning/"/>
+    <updated>2016-04-24T23:48:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/24/online-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Online_machine_learning">Online machine learning</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rust Cargo Package Tool]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Rough_set">Rough set</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SBE]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/14/sbe/"/>
-    <updated>2016-04-14T23:32:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/14/sbe</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/real-logic/simple-binary-encoding">simple-binary-encoding</a></p>
 ]]></content>
   </entry>
   
