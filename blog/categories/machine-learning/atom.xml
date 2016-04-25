@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-24T23:50:17+08:00</updated>
+  <updated>2016-04-25T00:41:56+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Online Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/24/online-learning/"/>
+    <updated>2016-04-24T23:48:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/24/online-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Online_machine_learning">Online machine learning</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LIME]]></title>
@@ -66,18 +78,6 @@
 <li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz">Notes from Deep Learning Summit 2015 London — Day 2</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Yahoo 釋出一些機器學習的資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/01/29/yahho-release-data/"/>
-    <updated>2016-01-29T23:05:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/01/29/yahho-release-data</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://yahoolabs.tumblr.com/post/137281912191/yahoo-releases-the-largest-ever-machine-learning">Yahoo Releases the Largest-ever Machine Learning Dataset for Researchers</a></p>
 ]]></content>
   </entry>
   
