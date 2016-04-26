@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-25T00:41:56+08:00</updated>
+  <updated>2016-04-26T20:51:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,16 +14,23 @@
 
   
   <entry>
+    <title type="html"><![CDATA[十個 Sql Tricks]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/26/10-sql-trick/"/>
+    <updated>2016-04-26T20:33:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/26/10-sql-trick</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/LukasEder1/10-sql-tricks-that-you-didnt-think-were-possible?ref=https://blog.jooq.org/2016/04/25/10-sql-tricks-that-you-didnt-think-were-possible/">10 SQL Tricks That You Didn’t Think Were Possible</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Spotify 如何管理機器]]></title>
     <link href="http://fubuki.github.io/blog/2016/04/25/spotify-machines/"/>
     <updated>2016-04-25T00:33:52+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/04/25/spotify-machines</id>
     <content type="html"><![CDATA[<!-- more -->
-
-
-
-
-<!-- more -->
 
 
 <p><a href="https://labs.spotify.com/2016/03/25/managing-machines-at-spotify/">Managing Machines at Spotify</a></p>
@@ -257,18 +264,6 @@
 
 <p>最近在看到有人在 twitter 實作關於 trending 的系統，其中是使用<code>異常検知</code> 算出
 需要的單詞，就另外看了一篇 <a href="http://qiita.com/GushiSnow/items/f032806cfa8cec046318">異常検知と変化検知のまとめ　数式なし</a> 的文章。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[STM 模型]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/06/stm/"/>
-    <updated>2016-04-06T22:05:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/06/stm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Software_transactional_memory">Software transactional memory</a></p>
 ]]></content>
   </entry>
   

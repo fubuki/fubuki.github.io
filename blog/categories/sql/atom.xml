@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Sql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/sql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-25T00:41:56+08:00</updated>
+  <updated>2016-04-26T20:51:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[十個 Sql Tricks]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/26/10-sql-trick/"/>
+    <updated>2016-04-26T20:33:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/26/10-sql-trick</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.slideshare.net/LukasEder1/10-sql-tricks-that-you-didnt-think-were-possible?ref=https://blog.jooq.org/2016/04/25/10-sql-tricks-that-you-didnt-think-were-possible/">10 SQL Tricks That You Didn’t Think Were Possible</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sql Join 的類型]]></title>
