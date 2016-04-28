@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-27T23:24:06+08:00</updated>
+  <updated>2016-04-28T23:37:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Webarchive Tool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/28/webarchive-tool/"/>
+    <updated>2016-04-28T22:34:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/28/webarchive-tool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 Heritrix 和 openwayback 建立一個 web archive 的服務。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mobile @Scale London 2016]]></title>
@@ -251,18 +263,6 @@
 
 
 <p><a href="https://github.com/ascribe/image-match">image-match</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lisp in Erlang]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/08/lfe/"/>
-    <updated>2016-04-08T23:41:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/08/lfe</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/rvirding/lfe/">lfe</a> 在 erlang vm 上跑類似 lisp 語法的語言。</p>
 ]]></content>
   </entry>
   
