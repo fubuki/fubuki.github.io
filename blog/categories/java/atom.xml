@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Java | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-29T23:28:55+08:00</updated>
+  <updated>2016-04-30T20:47:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java Keytool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/30/keytool/"/>
+    <updated>2016-04-30T20:26:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/30/keytool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 java 的 keytool 手動建立憑證。</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/java-keytool-essentials-working-with-java-keystores">Java Keytool Essentials: Working with Java Keystores</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Arquillian : Jvm Test]]></title>

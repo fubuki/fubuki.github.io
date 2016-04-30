@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-29T23:28:55+08:00</updated>
+  <updated>2016-04-30T20:47:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一些分散式計算的模型]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/29/distributed-computing-models-language/"/>
+    <updated>2016-04-29T23:27:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/29/distributed-computing-models-language</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/cmeiklejohn/PMLDC">PMLDC</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Spotify 如何管理機器]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://code.facebook.com/posts/1365439333482197/how-we-built-facebook-lite-for-every-android-phone-and-network?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">How we built Facebook Lite for every Android phone and network</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何建立穩定的系統]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/04/stable-system/"/>
-    <updated>2016-03-04T23:44:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/04/stable-system</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.4xoh9bh4k">How to build stable systems — An incomplete opinionated guide.</a></p>
 ]]></content>
   </entry>
   

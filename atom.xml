@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-29T23:28:55+08:00</updated>
+  <updated>2016-04-30T20:47:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java Keytool]]></title>
+    <link href="http://fubuki.github.io/blog/2016/04/30/keytool/"/>
+    <updated>2016-04-30T20:26:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/04/30/keytool</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 java 的 keytool 手動建立憑證。</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/java-keytool-essentials-working-with-java-keystores">Java Keytool Essentials: Working with Java Keystores</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一些分散式計算的模型]]></title>
@@ -251,18 +265,6 @@
 
 
 <p><a href="http://githubengineering.com/introducing-dgit/">Introducing DGit</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LIME]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/10/lime/"/>
-    <updated>2016-04-10T23:40:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/10/lime</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://homes.cs.washington.edu/~marcotcr/blog/lime/">LIME - Local Interpretable Model-Agnostic Explanations</a></p>
 ]]></content>
   </entry>
   
