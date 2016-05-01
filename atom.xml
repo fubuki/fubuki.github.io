@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-04-30T20:47:22+08:00</updated>
+  <updated>2016-05-01T23:45:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linkedin 釋出 rest.li]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/01/rest-dot-li/"/>
+    <updated>2016-05-01T23:43:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/01/rest-dot-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/linkedin/rest.li">rest.li</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java Keytool]]></title>
@@ -253,18 +265,6 @@
 
 
 <p><a href="https://github.com/youtube/doorman">doorman</a> 一個 <code>distributed lock manager</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Github 的 DGit]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/11/dgit/"/>
-    <updated>2016-04-11T20:55:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/11/dgit</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://githubengineering.com/introducing-dgit/">Introducing DGit</a></p>
 ]]></content>
   </entry>
   
