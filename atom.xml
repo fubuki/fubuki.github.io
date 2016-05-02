@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-01T23:45:19+08:00</updated>
+  <updated>2016-05-02T23:11:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deb 打包]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/02/deb-package/"/>
+    <updated>2016-05-02T22:56:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/02/deb-package</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="https://www.debian.org/doc/manuals/maint-guide/index.zh-tw.html">Debian 新維護人員手冊</a></li>
+<li>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]</li>
+</ol>
+
+
+<p>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]:<a href="https://www.youtube.com/watch?v=EnyQ9ZWHEh8">https://www.youtube.com/watch?v=EnyQ9ZWHEh8</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linkedin 釋出 rest.li]]></title>
@@ -253,18 +268,6 @@
 
 
 <p><a href="https://qconlondon.com/london-2016/london-2016/schedule/tabular.html">QCON LONDON 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Doorman 分散式鎖]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/12/doorman/"/>
-    <updated>2016-04-12T23:16:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/12/doorman</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/youtube/doorman">doorman</a> 一個 <code>distributed lock manager</code></p>
 ]]></content>
   </entry>
   

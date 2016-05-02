@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-01T23:45:19+08:00</updated>
+  <updated>2016-05-02T23:11:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deb 打包]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/02/deb-package/"/>
+    <updated>2016-05-02T22:56:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/02/deb-package</id>
+    <content type="html"><![CDATA[<ol>
+<li><a href="https://www.debian.org/doc/manuals/maint-guide/index.zh-tw.html">Debian 新維護人員手冊</a></li>
+<li>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]</li>
+</ol>
+
+
+<p>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]:<a href="https://www.youtube.com/watch?v=EnyQ9ZWHEh8">https://www.youtube.com/watch?v=EnyQ9ZWHEh8</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Top Tool List]]></title>
@@ -78,18 +93,6 @@
 <p><a href="https://www.zephyrproject.org/">zephyr</a> 給 IoT 使用的 RTOS</p>
 
 <p><code>git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0.0</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Glibc CVE-2015-7547]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547/"/>
-    <updated>2016-02-18T23:22:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/18/glibc-cve-2015-7547</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://googleonlinesecurity.blogspot.tw/2016/02/cve-2015-7547-glibc-getaddrinfo-stack.html">CVE-2015-7547</a> 有用到 glibc 都要檢查。</p>
 ]]></content>
   </entry>
   
