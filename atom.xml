@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-02T23:11:13+08:00</updated>
+  <updated>2016-05-03T23:38:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ZPAQ 壓縮備份工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/03/zpaq/"/>
+    <updated>2016-05-03T23:34:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/03/zpaq</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://mattmahoney.net/dc/zpaq.html">ZPAQ</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deb 打包]]></title>
@@ -256,18 +268,6 @@
 
 
 <p><a href="https://github.com/real-logic/simple-binary-encoding">simple-binary-encoding</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Qcon London 2016 議程]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/13/qcon-london-2016/"/>
-    <updated>2016-04-13T23:17:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/13/qcon-london-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://qconlondon.com/london-2016/london-2016/schedule/tabular.html">QCON LONDON 2016</a></p>
 ]]></content>
   </entry>
   
