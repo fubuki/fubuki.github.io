@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Machime Learning | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/machime-learning/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-05-05T23:48:19+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 RNN CNN DNN]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/05/rnn-cnn-dnn/"/>
+    <updated>2016-05-05T23:44:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/05/rnn-cnn-dnn</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>最近在研究 LSTM 所以去研究 RNN 順便了解一下 CNN 和 DNN 。</p>
+
+<p><a href="https://www.zhihu.com/question/34681168">CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)的内部网络结构有什么区别？</a></p>
+]]></content>
+  </entry>
+  
+</feed>
