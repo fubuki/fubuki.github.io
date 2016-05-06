@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-05T23:48:19+08:00</updated>
+  <updated>2016-05-06T23:22:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch in Wordpress 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/06/wordpress-elasticsearch-2016/"/>
+    <updated>2016-05-06T23:21:45+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/06/wordpress-elasticsearch-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://developer.wordpress.com/2016/05/03/state-of-wordpress-com-elasticsearch-systems-2016/">State of WordPress.com Elasticsearch Systems 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 RNN CNN DNN]]></title>
@@ -255,27 +267,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Rough_set">Rough set</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Top Tool List]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/16/top-tool/"/>
-    <updated>2016-04-16T20:41:36+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/16/top-tool</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>top</li>
-<li>ntop</li>
-<li>mytop</li>
-<li>iotop</li>
-<li>nettop</li>
-<li>htop</li>
-<li>atop</li>
-</ol>
-
 ]]></content>
   </entry>
   
