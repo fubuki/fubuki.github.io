@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-06T23:22:58+08:00</updated>
+  <updated>2016-05-07T23:43:09+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[bptt(Backpropagation Through Time)]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/07/bptt/"/>
+    <updated>2016-05-07T23:39:22+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/07/bptt</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://kiyukuta.github.io/2013/12/09/mlac2013_day9_recurrent_neural_network_language_model.html#back-propagation-through-time-bptt">bptt 推導</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Online Learning]]></title>
@@ -60,24 +72,6 @@
 
 <p>使用 <a href="https://www.kaggle.com/c/avazu-ctr-prediction/data">Click-Through Rate Prediction Data</a> 作 <code>Gradient Boosting Decision Tree</code> 預測使用者
 會不會點擊。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learning Summit 2015 London 文章]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/22/london/"/>
-    <updated>2016-02-22T23:49:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/22/london</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>別人寫的筆記，很好理解。</p>
-
-<ol>
-<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-1-1599f603a40b#.qdfz216bm">Notes from Deep Learning Summit 2015 London — Day 1</a></li>
-<li><a href="https://medium.com/@alevitale/notes-from-deep-learning-summit-2015-london-day-2-b76b681bbd2c#.ondzo8lnz">Notes from Deep Learning Summit 2015 London — Day 2</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
