@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Ocr | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/ocr/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-05-08T22:36:12+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tesseract Ocr]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/08/tesseract-ocr/"/>
+    <updated>2016-05-08T22:16:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/08/tesseract-ocr</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>使用 <a href="https://github.com/tesseract-ocr/tesseract">tesseract</a> 做了圖片的 OCR 在中文下面的效果不太好。</p>
+]]></content>
+  </entry>
+  
+</feed>
