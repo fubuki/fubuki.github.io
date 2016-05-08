@@ -1,0 +1,14 @@
+---
+layout: post
+title: "doorman 分散式鎖"
+date: 2016-04-12 23:16:44 +0800
+comments: true
+categories: ["golang"]
+---
+
+
+<!-- more -->
+
+[doorman] 一個 `distributed lock manager`
+
+[doorman]:https://github.com/youtube/doorman

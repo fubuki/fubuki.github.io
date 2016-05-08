@@ -1,0 +1,14 @@
+---
+layout: post
+title: "LSTM 的介紹文章"
+date: 2016-03-31 23:31:35 +0800
+comments: true
+categories: ["deep learning"]
+---
+
+<!-- more -->
+
+[わかるLSTM ～ 最近の動向と共に]
+
+
+[わかるLSTM ～ 最近の動向と共に]:http://qiita.com/t_Signull/items/21b82be280b46f467d1b

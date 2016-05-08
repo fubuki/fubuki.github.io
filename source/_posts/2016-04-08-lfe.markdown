@@ -1,0 +1,15 @@
+---
+layout: post
+title: "lisp in erlang"
+date: 2016-04-08 23:41:53 +0800
+comments: true
+categories: ["erlang"]
+---
+
+
+<!-- more -->
+
+
+[lfe] 在 erlang vm 上跑類似 lisp 語法的語言。
+
+[lfe]:https://github.com/rvirding/lfe/

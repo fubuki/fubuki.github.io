@@ -1,0 +1,14 @@
+---
+layout: post
+title: "STM 模型"
+date: 2016-04-06 22:05:12 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[Software transactional memory]
+
+[Software transactional memory]:https://en.wikipedia.org/wiki/Software_transactional_memory

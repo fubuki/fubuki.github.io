@@ -1,0 +1,13 @@
+---
+layout: post
+title: "何謂 Rough set"
+date: 2016-04-17 23:45:52 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+[Rough set]
+
+[Rough set]:https://en.wikipedia.org/wiki/Rough_set

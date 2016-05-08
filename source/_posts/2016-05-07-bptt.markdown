@@ -1,0 +1,14 @@
+---
+layout: post
+title: "bptt(Backpropagation through time)"
+date: 2016-05-07 23:39:22 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+[bptt 推導]
+
+[bptt 推導]:http://kiyukuta.github.io/2013/12/09/mlac2013_day9_recurrent_neural_network_language_model.html#back-propagation-through-time-bptt

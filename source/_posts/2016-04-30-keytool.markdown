@@ -1,0 +1,17 @@
+---
+layout: post
+title: "java keytool"
+date: 2016-04-30 20:26:48 +0800
+comments: true
+categories: ["java"]
+---
+
+
+<!-- more -->
+
+
+使用 java 的 keytool 手動建立憑證。
+
+[Java Keytool Essentials: Working with Java Keystores]
+
+[Java Keytool Essentials: Working with Java Keystores]:https://www.digitalocean.com/community/tutorials/java-keytool-essentials-working-with-java-keystores

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "LIME"
+date: 2016-04-10 23:40:51 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+
+
+[LIME - Local Interpretable Model-Agnostic Explanations]
+
+[LIME - Local Interpretable Model-Agnostic Explanations]:http://homes.cs.washington.edu/~marcotcr/blog/lime/

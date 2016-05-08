@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Hadoop Summit 2016 都柏林 資料"
+date: 2016-04-20 22:29:43 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+1. [agenda]
+2. [video]
+
+
+
+[agenda]:http://hadoopsummit.org/dublin/agenda/
+[video]:https://www.youtube.com/playlist?list=PLenh213llmcYYgzV10HwiN-V_48S12Ugc

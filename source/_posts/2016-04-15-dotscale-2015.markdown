@@ -1,0 +1,14 @@
+---
+layout: post
+title: "dotscale 2015 video"
+date: 2016-04-15 23:23:59 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+[dotscle 2015 video]
+
+[dotscle 2015 video]:http://www.thedotpost.com/conference/dotscale-2015

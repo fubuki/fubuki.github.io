@@ -1,0 +1,13 @@
+---
+layout: post
+title: "qcon london 2016 議程"
+date: 2016-04-13 23:17:49 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+[QCON LONDON 2016]
+
+[QCON LONDON 2016]:https://qconlondon.com/london-2016/london-2016/schedule/tabular.html

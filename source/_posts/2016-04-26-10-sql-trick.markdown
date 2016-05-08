@@ -1,0 +1,14 @@
+---
+layout: post
+title: "十個 sql tricks"
+date: 2016-04-26 20:33:50 +0800
+comments: true
+categories: ["sql"]
+---
+
+<!-- more -->
+
+
+[10 SQL Tricks That You Didn’t Think Were Possible]
+
+[10 SQL Tricks That You Didn’t Think Were Possible]:http://www.slideshare.net/LukasEder1/10-sql-tricks-that-you-didnt-think-were-possible?ref=https://blog.jooq.org/2016/04/25/10-sql-tricks-that-you-didnt-think-were-possible/

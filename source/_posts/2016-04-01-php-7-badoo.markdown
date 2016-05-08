@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Badoo 遷移到 PHP 7"
+date: 2016-04-01 23:08:03 +0800
+comments: true
+categories: ["php"]
+---
+
+<!-- more -->
+
+[How Badoo saved one million dollars switching to PHP7]
+
+裡面有些用來測試的方法可以研究。
+
+[How Badoo saved one million dollars switching to PHP7]:https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/
