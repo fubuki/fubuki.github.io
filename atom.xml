@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-08T22:36:12+08:00</updated>
+  <updated>2016-05-09T23:49:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Metropolis–Hastings Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm/"/>
+    <updated>2016-05-09T23:46:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Metropolis–Hastings algorithm</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tesseract Ocr]]></title>
@@ -255,18 +267,6 @@
 <li><a href="https://www.youtube.com/playlist?list=PLenh213llmcYYgzV10HwiN-V_48S12Ugc">video</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenToonz 2D Anime Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/20/opentoonz/"/>
-    <updated>2016-04-20T00:04:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/20/opentoonz</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://opentoonz.github.io/">OpenToonz</a></p>
 ]]></content>
   </entry>
   

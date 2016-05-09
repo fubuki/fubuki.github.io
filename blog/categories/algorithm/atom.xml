@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-08T22:36:12+08:00</updated>
+  <updated>2016-05-09T23:49:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Metropolis–Hastings Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm/"/>
+    <updated>2016-05-09T23:46:41+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Metropolis–Hastings algorithm</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google 釋出的 Hash Algorithms]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Topological_sorting">Topological sorting</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[偵測行人演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/18/inria/"/>
-    <updated>2015-10-18T22:38:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/18/inria</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://pascal.inrialpes.fr/soft/olt/">INRIA Object Detection and Localization Toolkit</a></p>
 ]]></content>
   </entry>
   
