@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-09T23:49:00+08:00</updated>
+  <updated>2016-05-10T22:38:01+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Jupyter 搭配 IPython]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/10/jupyter/"/>
+    <updated>2016-05-10T22:24:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/10/jupyter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>試著使用 <a href="http://jupyter.org/">jupyter</a> 練習 python programing.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python Machine Learning Case List]]></title>
@@ -59,21 +71,6 @@
 
 
 <p><a href="https://github.com/binux/pyspider">pyspider</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python Decorator 用法]]></title>
-    <link href="http://fubuki.github.io/blog/2015/07/15/python-decorator/"/>
-    <updated>2015-07-15T22:28:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/07/15/python-decorator</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>之前在面試的時候有人問我什麼是 decorator ，之前在寫跟看別人的 python 程式碼有看過類似的東西，不過並不能詳細的說明用途，
-所以在這邊記錄一下用法。</p>
-
-<p><a href="http://thecodeship.com/patterns/guide-to-python-function-decorators/">A guide to Python&rsquo;s function decorators</a></p>
 ]]></content>
   </entry>
   
