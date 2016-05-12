@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-11T23:10:49+08:00</updated>
+  <updated>2016-05-12T23:23:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook 的 Mcrouter]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/12/mcrouter/"/>
+    <updated>2016-05-12T23:17:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/12/mcrouter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>看一下 <a href="https://github.com/facebook/mcrouter">mcrouter</a> 如何加強 memcached.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[All Pair Similarity]]></title>
@@ -260,18 +272,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Word_embedding">Word embedding</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rust Cargo Package Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/22/rust-cargo/"/>
-    <updated>2016-04-22T23:08:16+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/22/rust-cargo</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://crates.io/">cargo</a> Rust 自己的 package 管理工具</p>
 ]]></content>
   </entry>
   

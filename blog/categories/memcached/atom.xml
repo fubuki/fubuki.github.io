@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-11T23:10:49+08:00</updated>
+  <updated>2016-05-12T23:23:34+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook 的 Mcrouter]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/12/mcrouter/"/>
+    <updated>2016-05-12T23:17:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/12/mcrouter</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>看一下 <a href="https://github.com/facebook/mcrouter">mcrouter</a> 如何加強 memcached.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook 怎麼擴展 Memcached]]></title>
@@ -68,22 +80,6 @@
 <li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[樂天的 ROMA]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/25/roma/"/>
-    <updated>2015-02-25T23:06:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/25/roma</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/roma/roma">ROMA</a> 是樂天基於 Ruby 開發的 key-value 快取伺服器，相容於 memcached 也就是可以透過 memcached 的
-函式庫操作 <a href="https://github.com/roma/roma">ROMA</a>。</p>
-
-<p><a href="https://github.com/roma/roma">ROMA</a> 最有趣的部分是他是分散式的系統，去中心化的 PSP 架構，從 <a href="http://roma-kvs.org">ROMA-Project</a> 官網的說明看似乎如果
-有一個端點離開群集卻不會失去資料。</p>
 ]]></content>
   </entry>
   
