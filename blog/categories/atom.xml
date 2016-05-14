@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-13T23:35:53+08:00</updated>
+  <updated>2016-05-14T09:05:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter 的 Snowflake 演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/14/snowflake/"/>
+    <updated>2016-05-14T08:36:29+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/14/snowflake</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/twitter/snowflake.git">snowflake</a> 是 twitter 用來在分散式環境下用來產生 GUID 的演算法。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ZPAQ 壓縮備份工具]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://crates.io/">cargo</a> Rust 自己的 package 管理工具</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 的 Finagle]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/21/twitter-finagle/"/>
-    <updated>2016-04-21T23:54:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/21/twitter-finagle</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究 Netty 剛好看到 twitter 的 <a href="https://twitter.github.io/finagle/">Finagle</a> 就順便一起測試。</p>
 ]]></content>
   </entry>
   
