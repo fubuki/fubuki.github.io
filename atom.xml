@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-14T09:05:16+08:00</updated>
+  <updated>2016-05-15T23:31:58+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[關於 Youtube 如何處理影片轉碼]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/15/youtube-video/"/>
+    <updated>2016-05-15T23:59:47+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/15/youtube-video</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://youtube-eng.blogspot.tw/2016/05/machine-learning-for-video-transcoding.html">Machine learning for video transcoding</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter 的 Snowflake 演算法]]></title>
@@ -261,18 +273,6 @@
 
 
 <p><a href="http://www.slideshare.net/LukasEder1/10-sql-tricks-that-you-didnt-think-were-possible?ref=https://blog.jooq.org/2016/04/25/10-sql-tricks-that-you-didnt-think-were-possible/">10 SQL Tricks That You Didn’t Think Were Possible</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spotify 如何管理機器]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/25/spotify-machines/"/>
-    <updated>2016-04-25T00:33:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/25/spotify-machines</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://labs.spotify.com/2016/03/25/managing-machines-at-spotify/">Managing Machines at Spotify</a></p>
 ]]></content>
   </entry>
   
