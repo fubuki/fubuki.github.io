@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Python | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-15T23:31:58+08:00</updated>
+  <updated>2016-05-16T23:34:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Music21 : A Python Library for Music]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/16/music21/"/>
+    <updated>2016-05-16T23:31:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/16/music21</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://web.mit.edu/music21/doc/index.html">music21</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jupyter 搭配 IPython]]></title>
@@ -59,18 +71,6 @@
 
 
 <p><a href="https://github.com/seb-m/pyinotify">pyinotify</a> 使用 inotify 監控檔案變化但對於 <code>NFS</code> 之類的是無效的。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pyspider 紀錄]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/08/pyspider/"/>
-    <updated>2015-11-08T23:54:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/08/pyspider</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/binux/pyspider">pyspider</a></p>
 ]]></content>
   </entry>
   

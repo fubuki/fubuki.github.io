@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-15T23:31:58+08:00</updated>
+  <updated>2016-05-16T23:34:27+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Music21 : A Python Library for Music]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/16/music21/"/>
+    <updated>2016-05-16T23:31:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/16/music21</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://web.mit.edu/music21/doc/index.html">music21</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關於 Youtube 如何處理影片轉碼]]></title>
@@ -261,18 +273,6 @@
 
 
 <p><a href="https://code.facebook.com/posts/1566627733629653/mobile-scale-london-recap/">Mobile @Scale London recap</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[十個 Sql Tricks]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/26/10-sql-trick/"/>
-    <updated>2016-04-26T20:33:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/26/10-sql-trick</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.slideshare.net/LukasEder1/10-sql-tricks-that-you-didnt-think-were-possible?ref=https://blog.jooq.org/2016/04/25/10-sql-tricks-that-you-didnt-think-were-possible/">10 SQL Tricks That You Didn’t Think Were Possible</a></p>
 ]]></content>
   </entry>
   
