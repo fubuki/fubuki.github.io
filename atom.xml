@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-16T23:34:27+08:00</updated>
+  <updated>2016-05-17T22:52:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[關係型資料庫的工作原理]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/17/database-work/"/>
+    <updated>2016-05-17T22:45:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/17/database-work</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://coding-geek.com/how-databases-work/">How does a relational database work</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Music21 : A Python Library for Music]]></title>
@@ -261,18 +273,6 @@
 
 
 <p>使用 Heritrix 和 openwayback 建立一個 web archive 的服務。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mobile @Scale London 2016]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/27/mobile-at-scale-london-2016/"/>
-    <updated>2016-04-27T23:17:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/27/mobile-at-scale-london-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1566627733629653/mobile-scale-london-recap/">Mobile @Scale London recap</a></p>
 ]]></content>
   </entry>
   
