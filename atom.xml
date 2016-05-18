@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-17T22:52:46+08:00</updated>
+  <updated>2016-05-18T23:59:57+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Stanford NLP Group Research Topic]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group/"/>
+    <updated>2016-05-18T23:58:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://nlp.stanford.edu/research.shtml">Stanford NLP Group pursue research topic</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關係型資料庫的工作原理]]></title>
@@ -261,18 +273,6 @@
 
 
 <p><a href="https://github.com/cmeiklejohn/PMLDC">PMLDC</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Webarchive Tool]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/28/webarchive-tool/"/>
-    <updated>2016-04-28T22:34:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/28/webarchive-tool</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 Heritrix 和 openwayback 建立一個 web archive 的服務。</p>
 ]]></content>
   </entry>
   
