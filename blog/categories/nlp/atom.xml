@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-19T23:39:33+08:00</updated>
+  <updated>2016-05-20T23:26:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NLP at Quora]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/19/nlp-at-quora/"/>
+    <updated>2016-05-19T23:37:10+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/19/nlp-at-quora</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>了解一下 Quora 所需要的能力。</p>
+
+<p>1 .<a href="https://engineering.quora.com/Applications-of-NLP-at-Quora">Applications of NLP at Quora</a>
+2. <a href="https://www.quora.com/careers/software_engineer_nlp">Software Engineer - NLP</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[什麼是 Word Embedding]]></title>
@@ -58,18 +73,6 @@
 
 
 <p><a href="https://github.com/moses-smt/mosesdecoder">Moses</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Comainu 切詞]]></title>
-    <link href="http://fubuki.github.io/blog/2015/10/22/comainu/"/>
-    <updated>2015-10-22T22:55:44+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/10/22/comainu</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://comainu.org/">Comainu</a> 切詞相關的軟體</p>
 ]]></content>
   </entry>
   

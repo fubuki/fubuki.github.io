@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-19T23:39:33+08:00</updated>
+  <updated>2016-05-20T23:26:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,21 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[NLP at Quora]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/19/nlp-at-quora/"/>
-    <updated>2016-05-19T23:37:10+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/19/nlp-at-quora</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>了解一下 Quora 所需要的能力。</p>
-
-<p>1 .<a href="https://engineering.quora.com/Applications-of-NLP-at-Quora">Applications of NLP at Quora</a>
-2. <a href="https://www.quora.com/careers/software_engineer_nlp">Software Engineer - NLP</a></p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stanford NLP Group Research Topic]]></title>
@@ -73,6 +58,18 @@
 
 
 <p><a href="http://mattmahoney.net/dc/zpaq.html">ZPAQ</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linkedin 釋出 rest.li]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/01/rest-dot-li/"/>
+    <updated>2016-05-01T23:43:37+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/01/rest-dot-li</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/linkedin/rest.li">rest.li</a></p>
 ]]></content>
   </entry>
   
