@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-20T23:26:59+08:00</updated>
+  <updated>2016-05-21T21:13:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[資料前置處理]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/21/preprocessing-data/"/>
+    <updated>2016-05-21T20:08:19+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/21/preprocessing-data</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-i-centering-scaling-and-k-nearest-neighbours">centering, scaling and k-Nearest Neighbours</a></li>
+<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-ii-centering-scaling-and-logistic-regression">centering, scaling and logistic regression</a></li>
+<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-iii-scaling-your-data-to-combat-noise">scaling your data to combat noise</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kaggle 競賽平台]]></title>
@@ -59,19 +76,6 @@
 
 
 <p><a href="http://homes.cs.washington.edu/~marcotcr/blog/lime/">LIME - Local Interpretable Model-Agnostic Explanations</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Anomaly Detection 幾個方法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/07/anomaly-detection/"/>
-    <updated>2016-04-07T22:45:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/07/anomaly-detection</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在看到有人在 twitter 實作關於 trending 的系統，其中是使用<code>異常検知</code> 算出
-需要的單詞，就另外看了一篇 <a href="http://qiita.com/GushiSnow/items/f032806cfa8cec046318">異常検知と変化検知のまとめ　数式なし</a> 的文章。</p>
 ]]></content>
   </entry>
   
