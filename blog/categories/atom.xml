@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-21T21:13:05+08:00</updated>
+  <updated>2016-05-22T23:23:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LogCabin Storage]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/22/logcabin/"/>
+    <updated>2016-05-22T23:00:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/22/logcabin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/logcabin/logcabin">logcabin</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Stanford NLP Group Research Topic]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://mattmahoney.net/dc/zpaq.html">ZPAQ</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linkedin 釋出 rest.li]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/01/rest-dot-li/"/>
-    <updated>2016-05-01T23:43:37+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/01/rest-dot-li</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/linkedin/rest.li">rest.li</a></p>
 ]]></content>
   </entry>
   

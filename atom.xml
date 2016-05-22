@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-21T21:13:05+08:00</updated>
+  <updated>2016-05-22T23:23:17+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LogCabin Storage]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/22/logcabin/"/>
+    <updated>2016-05-22T23:00:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/22/logcabin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/logcabin/logcabin">logcabin</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[資料前置處理]]></title>
@@ -267,21 +279,6 @@
 
 
 <p><a href="http://mattmahoney.net/dc/zpaq.html">ZPAQ</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deb 打包]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/02/deb-package/"/>
-    <updated>2016-05-02T22:56:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/02/deb-package</id>
-    <content type="html"><![CDATA[<ol>
-<li><a href="https://www.debian.org/doc/manuals/maint-guide/index.zh-tw.html">Debian 新維護人員手冊</a></li>
-<li>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]</li>
-</ol>
-
-
-<p>[[TOSSUG] Debian 套件打包工作坊 / Debian packaging workshop]:<a href="https://www.youtube.com/watch?v=EnyQ9ZWHEh8">https://www.youtube.com/watch?v=EnyQ9ZWHEh8</a></p>
 ]]></content>
   </entry>
   
