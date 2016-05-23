@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Javascript | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-22T23:23:17+08:00</updated>
+  <updated>2016-05-23T23:50:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[學習 Redux 的網站]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/23/learnredux/"/>
+    <updated>2016-05-23T23:48:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/23/learnredux</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://learnredux.com/">learnredux</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rollup ES6 Module Bundler]]></title>
@@ -58,30 +70,6 @@
 
 
 <p>在 MDN 上面看到不錯的 Javascript 教學 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Tutorials</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[React-starter-kit 集成開發工具]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/20/react-starter-kit/"/>
-    <updated>2015-05-20T22:49:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/20/react-starter-kit</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/kriasoft/react-starter-kit">react-starter-kit</a> 裡面集成的各式的前端開發工具，有幾個是我蠻中意正在學習或是已經在使用的，
-如果有機會了話這個也許能夠成為未來公司新進人員的練習平台。</p>
-
-<p>下面是幾個蠻推薦去學習的工具。</p>
-
-<ol>
-<li>React.js</li>
-<li>Flow</li>
-<li>Glup</li>
-<li>Webpack</li>
-<li>Babel (ES6)</li>
-</ol>
-
 ]]></content>
   </entry>
   
