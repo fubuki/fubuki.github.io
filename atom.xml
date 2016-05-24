@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-23T23:50:07+08:00</updated>
+  <updated>2016-05-24T23:08:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
+    <updated>2016-05-24T23:03:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
+    <content type="html"><![CDATA[<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[學習 Redux 的網站]]></title>
@@ -261,24 +270,6 @@
 <p>最近在研究 LSTM 所以去研究 RNN 順便了解一下 CNN 和 DNN 。</p>
 
 <p><a href="https://www.zhihu.com/question/34681168">CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)的内部网络结构有什么区别？</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Task Api]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/04/elasticsearch-task-api/"/>
-    <updated>2016-05-04T23:38:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/04/elasticsearch-task-api</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>elasticsearch 2.3 新增的功能</p>
-
-<ol>
-<li><a href="https://github.com/elastic/elasticsearch/issues/15117">Task Management Issue</a></li>
-<li><a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/tasks.html">Task Management API</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

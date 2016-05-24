@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-23T23:50:07+08:00</updated>
+  <updated>2016-05-24T23:08:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
+    <updated>2016-05-24T23:03:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
+    <content type="html"><![CDATA[<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LogCabin Storage]]></title>
@@ -58,18 +67,6 @@
 
 
 <p><a href="https://github.com/twitter/snowflake.git">snowflake</a> 是 twitter 用來在分散式環境下用來產生 GUID 的演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[ZPAQ 壓縮備份工具]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/03/zpaq/"/>
-    <updated>2016-05-03T23:34:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/03/zpaq</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://mattmahoney.net/dc/zpaq.html">ZPAQ</a></p>
 ]]></content>
   </entry>
   
