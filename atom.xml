@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-24T23:08:46+08:00</updated>
+  <updated>2016-05-25T23:20:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Bay Area Search Meetup]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/25/bay-area-search/"/>
+    <updated>2016-05-25T23:04:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/25/bay-area-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
     <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
     <updated>2016-05-24T23:03:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
-    <content type="html"><![CDATA[<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
 ]]></content>
   </entry>
   
@@ -256,20 +271,6 @@
 
 
 <p><a href="https://developer.wordpress.com/2016/05/03/state-of-wordpress-com-elasticsearch-systems-2016/">State of WordPress.com Elasticsearch Systems 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[何謂 RNN CNN DNN]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/05/rnn-cnn-dnn/"/>
-    <updated>2016-05-05T23:44:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/05/rnn-cnn-dnn</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在研究 LSTM 所以去研究 RNN 順便了解一下 CNN 和 DNN 。</p>
-
-<p><a href="https://www.zhihu.com/question/34681168">CNN(卷积神经网络)、RNN(循环神经网络)、DNN(深度神经网络)的内部网络结构有什么区别？</a></p>
 ]]></content>
   </entry>
   

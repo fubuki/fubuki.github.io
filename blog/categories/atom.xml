@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-24T23:08:46+08:00</updated>
+  <updated>2016-05-25T23:20:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -14,11 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Bay Area Search Meetup]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/25/bay-area-search/"/>
+    <updated>2016-05-25T23:04:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/25/bay-area-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
     <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
     <updated>2016-05-24T23:03:59+08:00</updated>
     <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
-    <content type="html"><![CDATA[<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
 ]]></content>
   </entry>
   
@@ -55,18 +70,6 @@
 
 
 <p><a href="http://youtube-eng.blogspot.tw/2016/05/machine-learning-for-video-transcoding.html">Machine learning for video transcoding</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 的 Snowflake 演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/14/snowflake/"/>
-    <updated>2016-05-14T08:36:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/14/snowflake</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/twitter/snowflake.git">snowflake</a> 是 twitter 用來在分散式環境下用來產生 GUID 的演算法。</p>
 ]]></content>
   </entry>
   
