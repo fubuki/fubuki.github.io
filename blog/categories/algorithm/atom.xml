@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-25T23:20:22+08:00</updated>
+  <updated>2016-05-26T23:41:39+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lingo Cluster Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/26/lingo/"/>
+    <updated>2016-05-26T23:36:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/26/lingo</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>研究一下 <code>LINGO: An Algorithm for Clustering of Web Search Results</code> 這篇論文的內容。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[DBSCAN Algorithm]]></title>
@@ -67,18 +79,6 @@
 
 
 <p><a href="https://github.com/google/highwayhash/">highwayhash</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lock Free Mcts]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/12/lock-free-mcts/"/>
-    <updated>2016-03-12T23:35:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/12/lock-free-mcts</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.161.1984">A Lock-free Multithreaded Monte-Carlo Tree Search. Algorithm.</a></p>
 ]]></content>
   </entry>
   
