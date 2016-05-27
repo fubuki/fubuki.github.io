@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-26T23:41:39+08:00</updated>
+  <updated>2016-05-27T23:29:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HPPC: Java Library]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/27/hppc/"/>
+    <updated>2016-05-27T23:26:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/27/hppc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/carrotsearch/hppc">hppc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lingo Cluster Algorithm]]></title>
@@ -259,18 +271,6 @@
 
 
 <p>使用 <a href="https://github.com/tesseract-ocr/tesseract">tesseract</a> 做了圖片的 OCR 在中文下面的效果不太好。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[bptt(Backpropagation Through Time)]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/07/bptt/"/>
-    <updated>2016-05-07T23:39:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/07/bptt</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://kiyukuta.github.io/2013/12/09/mlac2013_day9_recurrent_neural_network_language_model.html#back-propagation-through-time-bptt">bptt 推導</a></p>
 ]]></content>
   </entry>
   

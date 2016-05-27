@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Java | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-26T23:41:39+08:00</updated>
+  <updated>2016-05-27T23:29:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HPPC: Java Library]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/27/hppc/"/>
+    <updated>2016-05-27T23:26:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/27/hppc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/carrotsearch/hppc">hppc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java Keytool]]></title>
