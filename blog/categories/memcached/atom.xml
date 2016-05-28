@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Memcached | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/memcached/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-27T23:29:55+08:00</updated>
+  <updated>2016-05-28T23:27:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rend : Netflix Memcached Library]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/28/netflix-rend/"/>
+    <updated>2016-05-28T23:26:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/28/netflix-rend</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Netflix/rend">rend</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook 的 Mcrouter]]></title>
@@ -62,24 +74,6 @@
 然後清除過期的 item。</p>
 
 <p>另外 <code>memcached</code> 的官網有個有去的訊息 <a href="https://github.com/memcached/memcached/pull/97">Work In Progress LRU rework</a>，是替換關於 LRU 的部分目前在測試中。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Memcached Session 問題]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/26/memcached-session/"/>
-    <updated>2015-02-26T23:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/26/memcached-session</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 memcached 存放 session 有可能遇到的問題，可以了解一下 memcached 內部的機制，Slab , Page, Chunk 分別代表的意義。</p>
-
-<ol>
-<li><a href="http://www.dormando.me/articles/memcached_sessions/">Sessions in Memcached</a></li>
-<li><a href="http://dormando.livejournal.com/495593.html">dormando - Cache your sessions. Don&rsquo;t piss off your users</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-27T23:29:55+08:00</updated>
+  <updated>2016-05-28T23:27:25+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rend : Netflix Memcached Library]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/28/netflix-rend/"/>
+    <updated>2016-05-28T23:26:23+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/28/netflix-rend</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/Netflix/rend">rend</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HPPC: Java Library]]></title>
@@ -259,18 +271,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Metropolis–Hastings algorithm</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tesseract Ocr]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/08/tesseract-ocr/"/>
-    <updated>2016-05-08T22:16:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/08/tesseract-ocr</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>使用 <a href="https://github.com/tesseract-ocr/tesseract">tesseract</a> 做了圖片的 OCR 在中文下面的效果不太好。</p>
 ]]></content>
   </entry>
   
