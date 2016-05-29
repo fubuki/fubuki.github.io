@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-28T23:27:25+08:00</updated>
+  <updated>2016-05-29T22:46:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Armeria: Line RPC Library]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/29/line-armeria/"/>
+    <updated>2016-05-29T22:34:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/29/line-armeria</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://speakerdeck.com/trustin/armeria-lines-next-generation-rpc-layer">Armeria</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bay Area Search Meetup]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://nlp.stanford.edu/research.shtml">Stanford NLP Group pursue research topic</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關於 Youtube 如何處理影片轉碼]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/15/youtube-video/"/>
-    <updated>2016-05-15T23:59:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/15/youtube-video</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://youtube-eng.blogspot.tw/2016/05/machine-learning-for-video-transcoding.html">Machine learning for video transcoding</a></p>
 ]]></content>
   </entry>
   
