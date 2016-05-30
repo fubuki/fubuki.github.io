@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Elasticsearch | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/elasticsearch/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-29T22:46:11+08:00</updated>
+  <updated>2016-05-30T23:41:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Update Synonym]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/30/synonym-update/"/>
+    <updated>2016-05-30T23:40:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/30/synonym-update</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/elastic/elasticsearch/issues/1956">Provide ability to apply query side synonym changes in real-time</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Elasticsearch in Wordpress 2016]]></title>
@@ -65,20 +77,6 @@
 
 <p><a href="http://mosowave.hatenablog.com/entry/2015/12/07/000000">FRILの商品検索をnGramから形態素解析にした話</a> 使用 <code>synonym</code> 增強搜尋品質，裡面有提到一些技術現在手上
 已經有在用了，另外文章最後面提到的監控和後台系統還蠻值得參考。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Elasticsearch Cluster Hotspot Problem]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance/"/>
-    <updated>2015-12-01T22:38:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/01/elasticsearch-cluster-balance</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.datarank.com/2015/06/30/analysis-of-hotspots-in-clusters-of-log-normally-distributed-data.html">Analysis of Hotspots in Clusters of Log-Normally Distributed Data</a></p>
-
-<p><a href="http://engineering.datarank.com/2015/07/08/balancing-elasticsearch-cluster-by-shard-size.html">Balancing an Elasticsearch Cluster by Shard Size</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-29T22:46:11+08:00</updated>
+  <updated>2016-05-30T23:41:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch Update Synonym]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/30/synonym-update/"/>
+    <updated>2016-05-30T23:40:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/30/synonym-update</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/elastic/elasticsearch/issues/1956">Provide ability to apply query side synonym changes in real-time</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Armeria: Line RPC Library]]></title>
@@ -259,18 +271,6 @@
 3 .sparsehash</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jupyter 搭配 IPython]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/10/jupyter/"/>
-    <updated>2016-05-10T22:24:20+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/10/jupyter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>試著使用 <a href="http://jupyter.org/">jupyter</a> 練習 python programing.</p>
 ]]></content>
   </entry>
   
