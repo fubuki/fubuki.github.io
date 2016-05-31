@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-30T23:41:13+08:00</updated>
+  <updated>2016-05-31T22:39:54+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LTTng Linux Trace Framework]]></title>
+    <link href="http://fubuki.github.io/blog/2016/05/31/lttng/"/>
+    <updated>2016-05-31T22:33:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/05/31/lttng</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lttng.org/">LTTng</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deb 打包]]></title>
@@ -79,20 +91,6 @@
 <li>ctrl-x + ctrl-e</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Zephyr Project 程式碼]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/23/zephyr-project/"/>
-    <updated>2016-02-23T23:34:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/23/zephyr-project</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.zephyrproject.org/">zephyr</a> 給 IoT 使用的 RTOS</p>
-
-<p><code>git clone https://gerrit.zephyrproject.org/r/zephyr --branch v1.0.0</code></p>
 ]]></content>
   </entry>
   
