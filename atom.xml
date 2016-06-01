@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-05-31T22:39:54+08:00</updated>
+  <updated>2016-06-01T23:48:46+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RVA Data Hackers]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/01/rva-data-hackers/"/>
+    <updated>2016-06-01T23:46:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/01/rva-data-hackers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.meetup.com/RVA-Data-Hackers/">RVA Data Hackers</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LTTng Linux Trace Framework]]></title>
@@ -250,18 +262,6 @@
 
 <p><a href="https://www.kaggle.com/">kaggle</a> 一個可以用來實際練習機器學習的平台，裡面有不少題目可以自行練習，也有競賽可以跟
 別人比較各自的演算法的效果如何。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook 的 Mcrouter]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/12/mcrouter/"/>
-    <updated>2016-05-12T23:17:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/12/mcrouter</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>看一下 <a href="https://github.com/facebook/mcrouter">mcrouter</a> 如何加強 memcached.</p>
 ]]></content>
   </entry>
   

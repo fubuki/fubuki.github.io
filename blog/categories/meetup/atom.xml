@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categories: Meetup | Learning Blog]]></title>
+  <link href="http://fubuki.github.io/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://fubuki.github.io/"/>
+  <updated>2016-06-01T23:48:46+08:00</updated>
+  <id>http://fubuki.github.io/</id>
+  <author>
+    <name><![CDATA[Fubuki]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[RVA Data Hackers]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/01/rva-data-hackers/"/>
+    <updated>2016-06-01T23:46:00+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/01/rva-data-hackers</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.meetup.com/RVA-Data-Hackers/">RVA Data Hackers</a></p>
+]]></content>
+  </entry>
+  
+</feed>
