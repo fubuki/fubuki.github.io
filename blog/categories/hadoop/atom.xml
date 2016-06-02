@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Hadoop | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-01T23:48:46+08:00</updated>
+  <updated>2016-06-02T22:44:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HDFS EC Case]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/02/hdfs-ec/"/>
+    <updated>2016-06-02T22:31:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/02/hdfs-ec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://wiki.apache.org/hadoop/HDFS-RAID">HDFS-RAID</a></li>
+<li><a href="https://issues.apache.org/jira/browse/HDFS-7285">Erasure Coding Support inside HDFS</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hadoop Lambda Architecture]]></title>

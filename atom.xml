@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-01T23:48:46+08:00</updated>
+  <updated>2016-06-02T22:44:38+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[HDFS EC Case]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/02/hdfs-ec/"/>
+    <updated>2016-06-02T22:31:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/02/hdfs-ec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="http://wiki.apache.org/hadoop/HDFS-RAID">HDFS-RAID</a></li>
+<li><a href="https://issues.apache.org/jira/browse/HDFS-7285">Erasure Coding Support inside HDFS</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[RVA Data Hackers]]></title>
@@ -249,19 +265,6 @@
 
 
 <p><a href="https://github.com/twitter/snowflake.git">snowflake</a> 是 twitter 用來在分散式環境下用來產生 GUID 的演算法。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kaggle 競賽平台]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/13/kaggle/"/>
-    <updated>2016-05-13T23:02:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/13/kaggle</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.kaggle.com/">kaggle</a> 一個可以用來實際練習機器學習的平台，裡面有不少題目可以自行練習，也有競賽可以跟
-別人比較各自的演算法的效果如何。</p>
 ]]></content>
   </entry>
   
