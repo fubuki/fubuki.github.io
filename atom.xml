@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-02T22:44:38+08:00</updated>
+  <updated>2016-06-03T23:30:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Magenta With Art]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/03/magenta/"/>
+    <updated>2016-06-03T23:24:58+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/03/magenta</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://magenta.tensorflow.org/welcome-to-magenta">Welcome to Magenta!</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HDFS EC Case]]></title>
@@ -253,18 +265,6 @@
 
 
 <p><a href="http://youtube-eng.blogspot.tw/2016/05/machine-learning-for-video-transcoding.html">Machine learning for video transcoding</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 的 Snowflake 演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/14/snowflake/"/>
-    <updated>2016-05-14T08:36:29+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/14/snowflake</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/twitter/snowflake.git">snowflake</a> 是 twitter 用來在分散式環境下用來產生 GUID 的演算法。</p>
 ]]></content>
   </entry>
   
