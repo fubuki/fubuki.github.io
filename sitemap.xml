@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2016/06/04/ldpc/</loc>
+    <lastmod>2016-06-04T23:46:33+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2016/06/03/magenta/</loc>
     <lastmod>2016-06-03T23:24:58+08:00</lastmod>
     <priority>0.8</priority>
@@ -4192,19 +4197,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2016-06-03T23:30:19+08:00</lastmod>
+    <lastmod>2016-06-04T23:47:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2016-06-03T23:30:19+08:00</lastmod>
+    <lastmod>2016-06-04T23:47:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2016-06-03T23:30:19+08:00</lastmod>
+    <lastmod>2016-06-04T23:47:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

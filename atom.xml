@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-03T23:30:19+08:00</updated>
+  <updated>2016-06-04T23:47:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LDPC]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/04/ldpc/"/>
+    <updated>2016-06-04T23:46:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/04/ldpc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Magenta With Art]]></title>
@@ -253,18 +265,6 @@
 
 
 <p><a href="http://web.mit.edu/music21/doc/index.html">music21</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關於 Youtube 如何處理影片轉碼]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/15/youtube-video/"/>
-    <updated>2016-05-15T23:59:47+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/15/youtube-video</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://youtube-eng.blogspot.tw/2016/05/machine-learning-for-video-transcoding.html">Machine learning for video transcoding</a></p>
 ]]></content>
   </entry>
   

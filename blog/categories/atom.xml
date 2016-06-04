@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-03T23:30:19+08:00</updated>
+  <updated>2016-06-04T23:47:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LDPC]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/04/ldpc/"/>
+    <updated>2016-06-04T23:46:33+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/04/ldpc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Armeria: Line RPC Library]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/logcabin/logcabin">logcabin</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Stanford NLP Group Research Topic]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group/"/>
-    <updated>2016-05-18T23:58:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://nlp.stanford.edu/research.shtml">Stanford NLP Group pursue research topic</a></p>
 ]]></content>
   </entry>
   
