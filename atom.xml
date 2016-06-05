@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-04T23:47:18+08:00</updated>
+  <updated>2016-06-05T12:21:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bcache Dm-cache Flashcache]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/05/bcache-dm-cache-flashcache/"/>
+    <updated>2016-06-05T11:25:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/05/bcache-dm-cache-flashcache</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/facebookarchive/flashcache">flashcache</a></li>
+<li><a href="https://evilpiepirate.org/git/linux-bcache.git/">bcache</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dm-cache">dm-cache</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LDPC]]></title>
@@ -253,18 +270,6 @@
 
 
 <p><a href="http://coding-geek.com/how-databases-work/">How does a relational database work</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Music21 : A Python Library for Music]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/16/music21/"/>
-    <updated>2016-05-16T23:31:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/16/music21</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://web.mit.edu/music21/doc/index.html">music21</a></p>
 ]]></content>
   </entry>
   

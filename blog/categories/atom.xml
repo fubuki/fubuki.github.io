@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-04T23:47:18+08:00</updated>
+  <updated>2016-06-05T12:21:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bcache Dm-cache Flashcache]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/05/bcache-dm-cache-flashcache/"/>
+    <updated>2016-06-05T11:25:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/05/bcache-dm-cache-flashcache</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/facebookarchive/flashcache">flashcache</a></li>
+<li><a href="https://evilpiepirate.org/git/linux-bcache.git/">bcache</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dm-cache">dm-cache</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LDPC]]></title>
@@ -58,18 +75,6 @@
 
 
 <p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LogCabin Storage]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/22/logcabin/"/>
-    <updated>2016-05-22T23:00:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/22/logcabin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/logcabin/logcabin">logcabin</a></p>
 ]]></content>
   </entry>
   
