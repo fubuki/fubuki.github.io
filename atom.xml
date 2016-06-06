@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-05T12:21:19+08:00</updated>
+  <updated>2016-06-06T23:04:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Pants]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/06/twitter-pants/"/>
+    <updated>2016-06-06T23:01:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/06/twitter-pants</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pantsbuild/pants">pants</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bcache Dm-cache Flashcache]]></title>
@@ -258,18 +270,6 @@
 
 
 <p><a href="http://nlp.stanford.edu/research.shtml">Stanford NLP Group pursue research topic</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[關係型資料庫的工作原理]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/17/database-work/"/>
-    <updated>2016-05-17T22:45:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/17/database-work</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://coding-geek.com/how-databases-work/">How does a relational database work</a></p>
 ]]></content>
   </entry>
   

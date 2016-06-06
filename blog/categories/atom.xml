@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-05T12:21:19+08:00</updated>
+  <updated>2016-06-06T23:04:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Pants]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/06/twitter-pants/"/>
+    <updated>2016-06-06T23:01:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/06/twitter-pants</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/pantsbuild/pants">pants</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bcache Dm-cache Flashcache]]></title>
@@ -63,18 +75,6 @@
 
 
 <p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
-    <updated>2016-05-24T23:03:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
 ]]></content>
   </entry>
   
