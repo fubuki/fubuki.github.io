@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-06T23:04:47+08:00</updated>
+  <updated>2016-06-07T23:20:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[File Block Object Storage]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/07/file-block-object-storage/"/>
+    <updated>2016-06-07T23:13:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/07/file-block-object-storage</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Because Hadoop isn’t perfect: 8 ways to replace HDFS</li>
+<li>Thinking about the HDFS vs. Other Storage Technologies</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一些分散式計算的模型]]></title>
@@ -58,18 +74,6 @@
 
 
 <p><a href="http://research.google.com/pubs/pub44824.html">&ldquo;Maglev: A Fast and Reliable Software Network Load Balancer&rdquo;</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook Lite Network Performance]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/17/facebook-lite-network/"/>
-    <updated>2016-03-17T23:32:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/17/facebook-lite-network</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1365439333482197/how-we-built-facebook-lite-for-every-android-phone-and-network?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website">How we built Facebook Lite for every Android phone and network</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-06T23:04:47+08:00</updated>
+  <updated>2016-06-07T23:20:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[File Block Object Storage]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/07/file-block-object-storage/"/>
+    <updated>2016-06-07T23:13:36+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/07/file-block-object-storage</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li>Because Hadoop isn’t perfect: 8 ways to replace HDFS</li>
+<li>Thinking about the HDFS vs. Other Storage Technologies</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter Pants]]></title>
@@ -258,18 +274,6 @@
 <li><a href="https://www.quora.com/careers/software_engineer_nlp">Software Engineer - NLP</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Stanford NLP Group Research Topic]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group/"/>
-    <updated>2016-05-18T23:58:49+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/18/stanford-nlp-group</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://nlp.stanford.edu/research.shtml">Stanford NLP Group pursue research topic</a></p>
 ]]></content>
   </entry>
   
