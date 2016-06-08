@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-07T23:20:44+08:00</updated>
+  <updated>2016-06-08T23:36:12+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Airbnb 的 ReAir 工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/08/reair/"/>
+    <updated>2016-06-08T23:33:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/08/reair</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/airbnb/reair">reair</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter Pants]]></title>
@@ -63,18 +75,6 @@
 
 
 <p><a href="https://speakerdeck.com/trustin/armeria-lines-next-generation-rpc-layer">Armeria</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bay Area Search Meetup]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/25/bay-area-search/"/>
-    <updated>2016-05-25T23:04:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/25/bay-area-search</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
 ]]></content>
   </entry>
   
