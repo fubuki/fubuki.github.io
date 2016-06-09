@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-08T23:36:12+08:00</updated>
+  <updated>2016-06-09T23:37:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cd in Instagram]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/09/cd-in-instagram/"/>
+    <updated>2016-06-09T23:36:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/09/cd-in-instagram</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://engineering.instagram.com/posts/1125308487520335/continuous-deployment-at-instagram/">Continuous Deployment at Instagram</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Airbnb 的 ReAir 工具]]></title>
@@ -63,18 +75,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Armeria: Line RPC Library]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/29/line-armeria/"/>
-    <updated>2016-05-29T22:34:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/29/line-armeria</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://speakerdeck.com/trustin/armeria-lines-next-generation-rpc-layer">Armeria</a></p>
 ]]></content>
   </entry>
   
