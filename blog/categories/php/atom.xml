@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Php | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-09T23:37:47+08:00</updated>
+  <updated>2016-06-10T23:41:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php Rfc]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/10/php-rfc/"/>
+    <updated>2016-06-10T23:40:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/10/php-rfc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://wiki.php.net/rfc">PHP RFC Page</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Badoo 遷移到 PHP 7]]></title>
@@ -62,18 +74,6 @@
 <p><a href="https://en.wikipedia.org/wiki/Profile-guided_optimization">Profile-guided optimization (PGO)</a> 為 GCC 的一個功能，可以藉由訓練優化編譯出來的程式，所以在網路上看到有人用
 PGO 優化 PHP 的性能，不過實際上還要測試一下能增加多少性能，一般來說通常會開 opcache 優化如果比較起來相差不大
 也許也不用特地使用 PGO 優化。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Box 的 Php 轉移到 HHVM]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/26/box-php/"/>
-    <updated>2015-11-26T22:41:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/26/box-php</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1607907626123431/under-the-hood-box-s-hhvm-migration/">Under the hood: Box&rsquo;s HHVM migration</a></p>
 ]]></content>
   </entry>
   

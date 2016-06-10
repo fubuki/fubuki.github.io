@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-09T23:37:47+08:00</updated>
+  <updated>2016-06-10T23:41:47+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Php Rfc]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/10/php-rfc/"/>
+    <updated>2016-06-10T23:40:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/10/php-rfc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://wiki.php.net/rfc">PHP RFC Page</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cd in Instagram]]></title>
@@ -251,23 +263,6 @@
 
 
 <p><a href="https://github.com/logcabin/logcabin">logcabin</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料前置處理]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/21/preprocessing-data/"/>
-    <updated>2016-05-21T20:08:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/21/preprocessing-data</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-i-centering-scaling-and-k-nearest-neighbours">centering, scaling and k-Nearest Neighbours</a></li>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-ii-centering-scaling-and-logistic-regression">centering, scaling and logistic regression</a></li>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-iii-scaling-your-data-to-combat-noise">scaling your data to combat noise</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
