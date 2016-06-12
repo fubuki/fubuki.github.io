@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-11T22:04:40+08:00</updated>
+  <updated>2016-06-12T23:52:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Open Container: Runc]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/12/runc-container/"/>
+    <updated>2016-06-12T23:48:56+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/12/runc-container</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/opencontainers/runc">runc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pinterest Ab Test]]></title>
@@ -251,18 +263,6 @@
 
 
 <p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[學習 Redux 的網站]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/23/learnredux/"/>
-    <updated>2016-05-23T23:48:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/23/learnredux</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://learnredux.com/">learnredux</a></p>
 ]]></content>
   </entry>
   
