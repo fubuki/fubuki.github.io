@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-12T23:52:28+08:00</updated>
+  <updated>2016-06-13T23:09:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sortbenchmark and Graysort]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/13/sort-benchmark-gray/"/>
+    <updated>2016-06-13T22:58:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/13/sort-benchmark-gray</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://sortbenchmark.org/">sort benchmark</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Open Container: Runc]]></title>
@@ -251,18 +263,6 @@
 
 
 <p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OrangeFS on Linux 4.6]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/24/orangefs/"/>
-    <updated>2016-05-24T23:03:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/24/orangefs</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>Linux 4.6 新增 <a href="http://www.orangefs.org/">OrangeFS</a>。</p>
 ]]></content>
   </entry>
   

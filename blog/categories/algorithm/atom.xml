@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-12T23:52:28+08:00</updated>
+  <updated>2016-06-13T23:09:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sortbenchmark and Graysort]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/13/sort-benchmark-gray/"/>
+    <updated>2016-06-13T22:58:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/13/sort-benchmark-gray</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://sortbenchmark.org/">sort benchmark</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lingo Cluster Algorithm]]></title>
@@ -67,18 +79,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Metropolis–Hastings algorithm</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google 釋出的 Hash Algorithms]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/14/google-hash/"/>
-    <updated>2016-03-14T23:16:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/14/google-hash</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/google/highwayhash/">highwayhash</a></p>
 ]]></content>
   </entry>
   
