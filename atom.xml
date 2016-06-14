@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-13T23:09:22+08:00</updated>
+  <updated>2016-06-14T22:49:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Some Git Tips]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/14/git-tips/"/>
+    <updated>2016-06-14T22:47:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/14/git-tips</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/git-tips/tips">git tips</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sortbenchmark and Graysort]]></title>
@@ -251,18 +263,6 @@
 
 
 <p>研究一下 <code>LINGO: An Algorithm for Clustering of Web Search Results</code> 這篇論文的內容。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bay Area Search Meetup]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/25/bay-area-search/"/>
-    <updated>2016-05-25T23:04:40+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/25/bay-area-search</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>昨天在看這篇 slide <a href="http://www.slideshare.net/treygrainger/searching-on-intent-knowledge-graphs-personalization-and-contextual-disambiguation">Searching on Intent: Knowledge Graphs, Personalization, and Contextual Disambiguation</a> 發現了 <code>Bay Area Search Meetup</code> 可以追蹤一下內容。</p>
 ]]></content>
   </entry>
   

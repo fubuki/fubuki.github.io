@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Git | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-13T23:09:22+08:00</updated>
+  <updated>2016-06-14T22:49:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Some Git Tips]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/14/git-tips/"/>
+    <updated>2016-06-14T22:47:31+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/14/git-tips</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/git-tips/tips">git tips</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github 的 DGit]]></title>
@@ -69,18 +81,6 @@ aptitude upgrade git
 
 
 <p><a href="https://developer.atlassian.com/blog/2015/12/tips-tools-to-solve-git-conflicts/">14 tips and tools to resolve conflicts with Git</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Githug: Practice Git Game]]></title>
-    <link href="http://fubuki.github.io/blog/2016/02/10/githug/"/>
-    <updated>2016-02-10T22:30:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/02/10/githug</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/Gazler/githug.git">githug</a></p>
 ]]></content>
   </entry>
   
