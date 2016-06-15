@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-14T22:49:13+08:00</updated>
+  <updated>2016-06-15T23:32:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linkin Kafka Monitor]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/15/linkin-kafka-monitor/"/>
+    <updated>2016-06-15T23:30:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/15/linkin-kafka-monitor</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.linkedin.com/blog/2016/05/open-sourcing-kafka-monitor">Open Sourcing Kafka Monitor</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Pinterest Ab Test]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="https://labs.spotify.com/2016/03/25/managing-machines-at-spotify/">Managing Machines at Spotify</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Airbnb 資料基礎建設]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure/"/>
-    <updated>2016-03-28T23:21:14+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/28/airbnb-infrastructure</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c#.cye76uanu">Data Infrastructure at Airbnb</a></p>
 ]]></content>
   </entry>
   
