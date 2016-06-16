@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-15T23:32:00+08:00</updated>
+  <updated>2016-06-16T23:55:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kolla Docker + Openstack]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/16/kolla-docker/"/>
+    <updated>2016-06-16T23:53:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/16/kolla-docker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/openstack/kolla">Kolla</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linkin Kafka Monitor]]></title>
@@ -251,18 +263,6 @@
 
 
 <p><a href="https://github.com/Netflix/rend">rend</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HPPC: Java Library]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/27/hppc/"/>
-    <updated>2016-05-27T23:26:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/27/hppc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/carrotsearch/hppc">hppc</a></p>
 ]]></content>
   </entry>
   

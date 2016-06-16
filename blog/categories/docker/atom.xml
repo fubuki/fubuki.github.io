@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-15T23:32:00+08:00</updated>
+  <updated>2016-06-16T23:55:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Kolla Docker + Openstack]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/16/kolla-docker/"/>
+    <updated>2016-06-16T23:53:53+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/16/kolla-docker</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/openstack/kolla">Kolla</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Open Container: Runc]]></title>
@@ -63,38 +75,6 @@
 <p>另外有看到一篇蠻有趣的文章 : <a href="http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker">How to deal with persistent storage (e.g. databases) in docker</a>，裡面的回答有提到一個東西
  <code>data only container</code>，似乎是建立一個專門掛載 Volumes 的 container ，從這篇 <a href="http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html">Tiny Docker Pieces, Loosely Joined</a> 最後面
  有提到一些關於這樣做法的好處，似乎是能更好管理 Volumes 裡面的內容。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker 的 Storage Driver]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/23/docker-storage/"/>
-    <updated>2014-12-23T21:46:07+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/23/docker-storage</id>
-    <content type="html"><![CDATA[<p>最近似乎是因為 docker 的 Storage Driver 關係導致 Kernel Bug 所以要研究一下這一個部分。</p>
-
-<!-- more -->
-
-
-<p>如果在命令列下 <code>docker -D info</code> 其中就可以看到目前機器上的 Storage Driver 是什麼，目前我手上兩種 Linux 發行版，
-在 ubuntu 14.04LTS 下可以看是 <code>aufs</code>，如果是在 centos 6 會是 <code>device-mapper</code>，另外 docker 還有支援 Btrfs。</p>
-
-<h4>　Aufs</h4>
-
-<p>目前只有在 Debain 系列的 Linux 版本才有包進內核裡的檔案系統，開發者是名叫<code>岡島順治郎</code>的日本人，從網路上的評價
-來看 Aufs 似乎是個蠻不錯的檔案系統，但是由於一些原因一直不能加進 Linux 的內核裡面，原因似乎是代碼寫的不太好的原因。</p>
-
-<p>官網在這 <a href="http://aufs.sourceforge.net/">Aufs</a> 另有一些可以研究的東西 <code>Union mount</code> 和 <code>UnionFS</code>.</p>
-
-<h4>Device-mapper</h4>
-
-<p><a href="http://www.ibm.com/developerworks/cn/linux/l-devmapper/index.html">Linux 内核中的 Device Mapper 機制</a></p>
-
-<h4>Btrfs</h4>
-
-<p>Oracle 開發的檔案系統，從 2007 年開始開發，已經有穩定版可以使用，目前 facebook 有在測試這個檔案系統。</p>
-
-<p>wiki : <a href="https://btrfs.wiki.kernel.org/index.php/Main_Page">btrfs</a></p>
 ]]></content>
   </entry>
   
