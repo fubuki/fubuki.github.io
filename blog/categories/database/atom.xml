@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Database | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/database/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-16T23:55:42+08:00</updated>
+  <updated>2016-06-17T23:31:11+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ClickHouse 資料庫管理工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/17/clickhouse/"/>
+    <updated>2016-06-17T23:24:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/17/clickhouse</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://clickhouse.yandex/">clickhouse</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[關係型資料庫的工作原理]]></title>
