@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-17T23:31:11+08:00</updated>
+  <updated>2016-06-18T21:04:44+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[反 if 活動]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm/"/>
+    <updated>2016-06-18T20:58:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://antiifcampaign.com/">Anti-IF Campatign</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cd in Instagram]]></title>
@@ -63,18 +75,6 @@
 <li><a href="https://en.wikipedia.org/wiki/Dm-cache">dm-cache</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LDPC]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/04/ldpc/"/>
-    <updated>2016-06-04T23:46:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/04/ldpc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
 ]]></content>
   </entry>
   
