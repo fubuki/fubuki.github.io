@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Linux | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-20T21:29:56+08:00</updated>
+  <updated>2016-06-21T22:49:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Linux 儲存和檔案系統研討會 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/21/vault-2016/"/>
+    <updated>2016-06-21T22:41:05+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/21/vault-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://events.linuxfoundation.org/events/vault">Linux Storage And Filesystems Conference</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LTTng Linux Trace Framework]]></title>
@@ -73,22 +85,6 @@
 <li><a href="https://github.com/riywo/anyenv">anyenv</a></li>
 <li><a href="https://github.com/direnv/direnv">direnv</a></li>
 <li><a href="http://editorconfig.org/">EditorConfig</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Edit Long Command]]></title>
-    <link href="http://fubuki.github.io/blog/2016/03/15/edit-long-command/"/>
-    <updated>2016-03-15T23:05:09+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/03/15/edit-long-command</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li>fc</li>
-<li>ctrl-x + ctrl-e</li>
 </ol>
 
 ]]></content>
