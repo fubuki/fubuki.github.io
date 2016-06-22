@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-21T22:49:42+08:00</updated>
+  <updated>2016-06-22T23:56:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Voices Linkin]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/22/voices-linkin/"/>
+    <updated>2016-06-22T23:55:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/22/voices-linkin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.linkedin.com/blog/2016/06/voices--a-text-analytics-platform-for-understanding-member-feedb">Voices: a Text Analytics Platform for Understanding Member Feedback</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linux 儲存和檔案系統研討會 2016]]></title>
@@ -247,22 +259,6 @@
 
 
 <p><a href="http://magenta.tensorflow.org/welcome-to-magenta">Welcome to Magenta!</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HDFS EC Case]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/02/hdfs-ec/"/>
-    <updated>2016-06-02T22:31:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/02/hdfs-ec</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="http://wiki.apache.org/hadoop/HDFS-RAID">HDFS-RAID</a></li>
-<li><a href="https://issues.apache.org/jira/browse/HDFS-7285">Erasure Coding Support inside HDFS</a></li>
-</ol>
-
 ]]></content>
   </entry>
   

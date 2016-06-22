@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Nlp | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/nlp/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-21T22:49:42+08:00</updated>
+  <updated>2016-06-22T23:56:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Voices Linkin]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/22/voices-linkin/"/>
+    <updated>2016-06-22T23:55:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/22/voices-linkin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://engineering.linkedin.com/blog/2016/06/voices--a-text-analytics-platform-for-understanding-member-feedb">Voices: a Text Analytics Platform for Understanding Member Feedback</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NLP at Quora]]></title>
@@ -64,18 +76,6 @@
 
 
 <p><a href="https://data.quora.com/Mapping-the-Discussion-on-Quora-Over-Time-through-Question-Text">Mapping the Discussion on Quora Over Time through Question Text</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Moses : Machine Translation]]></title>
-    <link href="http://fubuki.github.io/blog/2015/12/25/moses/"/>
-    <updated>2015-12-25T23:40:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/12/25/moses</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/moses-smt/mosesdecoder">Moses</a></p>
 ]]></content>
   </entry>
   

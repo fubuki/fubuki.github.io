@@ -9,7 +9,8 @@
   <meta name="author" content="Fubuki">
 
   
-  <meta name="description" content="memcached tips ">
+  <meta name="description" content="PHP 在 fast-cgi 模式下有一個有趣的函式 fastcgi_finish_request 可以使用，在function.fastcgi-finish-request
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +79,40 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/06/29/php-zhi-fastcgi-finish-request/">PHP 之 Fastcgi_finish_request</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-06-29T23:02:40+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:02 pm</span></time>
+        
+           | <a href="/blog/2014/06/29/php-zhi-fastcgi-finish-request/#disqus_thread"
+             data-disqus-identifier="http://fubuki.github.io/blog/2014/06/29/php-zhi-fastcgi-finish-request/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>PHP 在 fast-cgi 模式下有一個有趣的函式 <code>fastcgi_finish_request</code> 可以使用，在<a href="http://php.net/manual/en/function.fastcgi-finish-request.php">function.fastcgi-finish-request</a>
+有說明這個函式是讓開發者強制停止與客戶端之間的連線，但是服務端的腳本還是持續執行，這讓客戶端可以不用等待一些耗時的操作，
+不過如果要達成類似的效果我還是比較喜歡用丟到隊列去執行的方法。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -400,43 +435,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/06/18/nginx-conf-she-ding/">Nginx Conf 設定</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-06-18T22:56:40+08:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>10:56 pm</span></time>
-        
-           | <a href="/blog/2014/06/18/nginx-conf-she-ding/#disqus_thread"
-             data-disqus-identifier="http://fubuki.github.io/blog/2014/06/18/nginx-conf-she-ding/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>記錄關於nginx 設定檔的配置。</p>
-
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/06/18/nginx-conf-she-ding/">Read on &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/75">&larr; Older</a>
@@ -454,6 +452,10 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2016/06/22/voices-linkin/">Voices Linkin</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2016/06/21/vault-2016/">Linux 儲存和檔案系統研討會 2016</a>
       </li>
     
@@ -467,10 +469,6 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
     
       <li class="post">
         <a href="/blog/2016/06/18/anti-if-campaigm/">反 if 活動</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2016/06/17/clickhouse/">ClickHouse 資料庫管理工具</a>
       </li>
     
   </ul>
@@ -537,7 +535,7 @@ HDFS FOR Python : <a href="http://www.hdfgroup.org/HDF5/">HDF5</a></p>
   <li><a href='/blog/categories/mqtt'>Mqtt (6)</a></li>
   <li><a href='/blog/categories/mysql'>Mysql (15)</a></li>
   <li><a href='/blog/categories/nginx'>Nginx (14)</a></li>
-  <li><a href='/blog/categories/nlp'>Nlp (38)</a></li>
+  <li><a href='/blog/categories/nlp'>Nlp (39)</a></li>
   <li><a href='/blog/categories/nodejs'>Nodejs (27)</a></li>
   <li><a href='/blog/categories/nosql'>Nosql (6)</a></li>
   <li><a href='/blog/categories/oauth'>Oauth (1)</a></li>
