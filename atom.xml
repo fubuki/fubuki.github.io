@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-22T23:56:10+08:00</updated>
+  <updated>2016-06-23T23:38:52+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AWA and Artist2vec]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/23/awa-artist2vec/"/>
+    <updated>2016-06-23T23:36:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/23/awa-artist2vec</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.ai.soc.i.kyoto-u.ac.jp/docmas/proc/docmas-jsai-201511/wada_kazuya.pdf">音楽聴き放題サービス AWA におけるレコメンド手法の検討</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Voices Linkin]]></title>
@@ -247,18 +259,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Magenta With Art]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/03/magenta/"/>
-    <updated>2016-06-03T23:24:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/03/magenta</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://magenta.tensorflow.org/welcome-to-magenta">Welcome to Magenta!</a></p>
 ]]></content>
   </entry>
   
