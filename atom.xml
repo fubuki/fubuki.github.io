@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-23T23:38:52+08:00</updated>
+  <updated>2016-06-24T23:47:35+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blockchain 能做到應用]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/24/blockchain/"/>
+    <updated>2016-06-24T23:46:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/24/blockchain</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Blockchain_(database)">Blockchain</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AWA and Artist2vec]]></title>
@@ -247,18 +259,6 @@
 <li><a href="https://en.wikipedia.org/wiki/Dm-cache">dm-cache</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LDPC]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/04/ldpc/"/>
-    <updated>2016-06-04T23:46:33+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/04/ldpc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Low-density_parity-check_code">LDPC</a></p>
 ]]></content>
   </entry>
   
