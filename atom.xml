@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-27T23:52:13+08:00</updated>
+  <updated>2016-06-28T23:07:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Qcon New York 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016/"/>
+    <updated>2016-06-28T22:53:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://qconnewyork.com/ny2016/schedule/tabular">QCon NEW YORK 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP Vfsstream]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="http://engineering.instagram.com/posts/1125308487520335/continuous-deployment-at-instagram/">Continuous Deployment at Instagram</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Airbnb 的 ReAir 工具]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/08/reair/"/>
-    <updated>2016-06-08T23:33:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/08/reair</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/airbnb/reair">reair</a></p>
 ]]></content>
   </entry>
   

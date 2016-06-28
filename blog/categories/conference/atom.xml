@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-27T23:52:13+08:00</updated>
+  <updated>2016-06-28T23:07:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Qcon New York 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016/"/>
+    <updated>2016-06-28T22:53:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://qconnewyork.com/ny2016/schedule/tabular">QCon NEW YORK 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mobile @Scale London 2016]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="https://qconlondon.com/london-2016/london-2016/schedule/tabular.html">QCON LONDON 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GopherConIndia 2016 資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016/"/>
-    <updated>2016-04-04T23:12:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/04/gopherconindia-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.youtube.com/playlist?list=PLxFC1MYuNgJT_ynbXGuYAZbSnUnq-6VQA">GopherConIndia 2016 Video</a></p>
 ]]></content>
   </entry>
   
