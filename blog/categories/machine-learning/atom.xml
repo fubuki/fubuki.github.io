@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-28T23:07:02+08:00</updated>
+  <updated>2016-06-29T23:49:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot/"/>
+    <updated>2016-06-29T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AWA and Artist2vec]]></title>
@@ -63,19 +75,6 @@
 <li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-iii-scaling-your-data-to-combat-noise">scaling your data to combat noise</a></li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kaggle 競賽平台]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/13/kaggle/"/>
-    <updated>2016-05-13T23:02:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/13/kaggle</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.kaggle.com/">kaggle</a> 一個可以用來實際練習機器學習的平台，裡面有不少題目可以自行練習，也有競賽可以跟
-別人比較各自的演算法的效果如何。</p>
 ]]></content>
   </entry>
   

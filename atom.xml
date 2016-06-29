@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-28T23:07:02+08:00</updated>
+  <updated>2016-06-29T23:49:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot/"/>
+    <updated>2016-06-29T23:48:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Qcon New York 2016]]></title>
@@ -238,18 +250,6 @@
 
 
 <p><a href="https://wiki.php.net/rfc">PHP RFC Page</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cd in Instagram]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/09/cd-in-instagram/"/>
-    <updated>2016-06-09T23:36:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/09/cd-in-instagram</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.instagram.com/posts/1125308487520335/continuous-deployment-at-instagram/">Continuous Deployment at Instagram</a></p>
 ]]></content>
   </entry>
   
