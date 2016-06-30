@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-29T23:49:41+08:00</updated>
+  <updated>2016-06-30T23:14:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Word2vec Quality]]></title>
+    <link href="http://fubuki.github.io/blog/2016/06/30/word2vec-quality/"/>
+    <updated>2016-06-30T23:07:54+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/06/30/word2vec-quality</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://github.com/ytsvetko/qvec">QVEC</a></li>
+<li>Don’t count, predict!
+A systematic comparison of
+context-counting vs. context-predicting semantic vectors</li>
+<li>Evaluation methods for unsupervised word embeddings</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
@@ -238,18 +257,6 @@
 
 
 <p><a href="https://engineering.pinterest.com/blog/monitoring-ab-experiments-real-time">Monitoring A/B experiments in real-time</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Php Rfc]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/10/php-rfc/"/>
-    <updated>2016-06-10T23:40:55+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/10/php-rfc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://wiki.php.net/rfc">PHP RFC Page</a></p>
 ]]></content>
   </entry>
   
