@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-30T23:14:10+08:00</updated>
+  <updated>2016-07-01T23:20:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LambdaMART 打分演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/01/lambdamart/"/>
+    <updated>2016-07-01T23:04:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/01/lambdamart</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/">From RankNet to LambdaRank to LambdaMART: An Overview</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Word2vec Quality]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="https://github.com/opencontainers/runc">runc</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Pinterest Ab Test]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/11/pinterest-ab-test/"/>
-    <updated>2016-06-11T22:02:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/11/pinterest-ab-test</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://engineering.pinterest.com/blog/monitoring-ab-experiments-real-time">Monitoring A/B experiments in real-time</a></p>
 ]]></content>
   </entry>
   

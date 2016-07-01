@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-06-30T23:14:10+08:00</updated>
+  <updated>2016-07-01T23:20:42+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LambdaMART 打分演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/01/lambdamart/"/>
+    <updated>2016-07-01T23:04:39+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/01/lambdamart</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/">From RankNet to LambdaRank to LambdaMART: An Overview</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
@@ -58,23 +70,6 @@
 
 
 <p><a href="http://magenta.tensorflow.org/welcome-to-magenta">Welcome to Magenta!</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料前置處理]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/21/preprocessing-data/"/>
-    <updated>2016-05-21T20:08:19+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/21/preprocessing-data</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-i-centering-scaling-and-k-nearest-neighbours">centering, scaling and k-Nearest Neighbours</a></li>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-ii-centering-scaling-and-logistic-regression">centering, scaling and logistic regression</a></li>
-<li><a href="https://www.datacamp.com/community/tutorials/the-importance-of-preprocessing-in-data-science-and-the-machine-learning-pipeline-iii-scaling-your-data-to-combat-noise">scaling your data to combat noise</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
