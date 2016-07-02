@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-01T23:20:42+08:00</updated>
+  <updated>2016-07-02T23:18:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter 的 Secureheaders]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/02/secureheaders/"/>
+    <updated>2016-07-02T23:16:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/02/secureheaders</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/twitter/secureheaders">secureheaders</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[金融與人工智慧]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://engineering.instagram.com/posts/1125308487520335/continuous-deployment-at-instagram/">Continuous Deployment at Instagram</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Airbnb 的 ReAir 工具]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/08/reair/"/>
-    <updated>2016-06-08T23:33:54+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/08/reair</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/airbnb/reair">reair</a></p>
 ]]></content>
   </entry>
   

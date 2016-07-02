@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-01T23:20:42+08:00</updated>
+  <updated>2016-07-02T23:18:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter 的 Secureheaders]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/02/secureheaders/"/>
+    <updated>2016-07-02T23:16:27+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/02/secureheaders</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/twitter/secureheaders">secureheaders</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LambdaMART 打分演算法]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="http://sortbenchmark.org/">sort benchmark</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Open Container: Runc]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/12/runc-container/"/>
-    <updated>2016-06-12T23:48:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/12/runc-container</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/opencontainers/runc">runc</a></p>
 ]]></content>
   </entry>
   
