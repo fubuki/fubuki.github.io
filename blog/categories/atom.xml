@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-02T23:18:41+08:00</updated>
+  <updated>2016-07-03T23:48:07+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Google 程式碼管理]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/03/google-stores-code/"/>
+    <updated>2016-07-03T23:46:06+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/03/google-stores-code</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext">Why Google Stores Billions of Lines of Code in a Single Repository</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Twitter 的 Secureheaders]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://antiifcampaign.com/">Anti-IF Campatign</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cd in Instagram]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/09/cd-in-instagram/"/>
-    <updated>2016-06-09T23:36:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/09/cd-in-instagram</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://engineering.instagram.com/posts/1125308487520335/continuous-deployment-at-instagram/">Continuous Deployment at Instagram</a></p>
 ]]></content>
   </entry>
   
