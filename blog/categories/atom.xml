@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-03T23:48:07+08:00</updated>
+  <updated>2016-07-04T23:44:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook 視訊直播架構]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/04/facebook-live/"/>
+    <updated>2016-07-04T23:43:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/04/facebook-live</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html">How Facebook Live Streams to 800,000 Simultaneous Viewers</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google 程式碼管理]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/syncthing/syncthing">syncthing</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[反 if 活動]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm/"/>
-    <updated>2016-06-18T20:58:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://antiifcampaign.com/">Anti-IF Campatign</a></p>
 ]]></content>
   </entry>
   
