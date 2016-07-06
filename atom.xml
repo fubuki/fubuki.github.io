@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-05T23:52:17+08:00</updated>
+  <updated>2016-07-06T23:25:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[統計一些音樂數據]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/06/music-500/"/>
+    <updated>2016-07-06T23:14:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/06/music-500</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://kaylinwalker.com/50-years-of-pop-music/">50 Years of Pop Music</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[C++ in 2016]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="https://clickhouse.yandex/">clickhouse</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Kolla Docker + Openstack]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/16/kolla-docker/"/>
-    <updated>2016-06-16T23:53:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/16/kolla-docker</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/openstack/kolla">Kolla</a></p>
 ]]></content>
   </entry>
   

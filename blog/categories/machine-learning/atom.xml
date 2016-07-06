@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-05T23:52:17+08:00</updated>
+  <updated>2016-07-06T23:25:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[統計一些音樂數據]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/06/music-500/"/>
+    <updated>2016-07-06T23:14:55+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/06/music-500</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://kaylinwalker.com/50-years-of-pop-music/">50 Years of Pop Music</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[LambdaMART 打分演算法]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://culurciello.github.io//tech/2016/06/10/unsup.html">Navigating the unsupervised learning landscape</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Magenta With Art]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/03/magenta/"/>
-    <updated>2016-06-03T23:24:58+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/03/magenta</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://magenta.tensorflow.org/welcome-to-magenta">Welcome to Magenta!</a></p>
 ]]></content>
   </entry>
   
