@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-06T23:25:14+08:00</updated>
+  <updated>2016-07-07T23:51:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Apple LZFSE Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/07/apple-lzfse/"/>
+    <updated>2016-07-07T23:49:32+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/07/apple-lzfse</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/lzfse/lzfse">lzfse</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sortbenchmark and Graysort]]></title>
@@ -67,18 +79,6 @@
 3 .sparsehash</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Metropolis–Hastings Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm/"/>
-    <updated>2016-05-09T23:46:41+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/09/metropolis-hastings-algorithm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm">Metropolis–Hastings algorithm</a></p>
 ]]></content>
   </entry>
   
