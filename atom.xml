@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-07T23:51:31+08:00</updated>
+  <updated>2016-07-08T23:39:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[過去可能成為 CSS 的語言]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/08/become-css/"/>
+    <updated>2016-07-08T23:37:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/08/become-css</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://eager.io/blog/the-languages-which-almost-were-css/">The Languages Which Almost Became CSS</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apple LZFSE Algorithm]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="https://culurciello.github.io//tech/2016/06/10/unsup.html">Navigating the unsupervised learning landscape</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[反 if 活動]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm/"/>
-    <updated>2016-06-18T20:58:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/18/anti-if-campaigm</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://antiifcampaign.com/">Anti-IF Campatign</a></p>
 ]]></content>
   </entry>
   

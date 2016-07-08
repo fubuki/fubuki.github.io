@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Css | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/css/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-07T23:51:31+08:00</updated>
+  <updated>2016-07-08T23:39:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[過去可能成為 CSS 的語言]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/08/become-css/"/>
+    <updated>2016-07-08T23:37:21+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/08/become-css</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://eager.io/blog/the-languages-which-almost-were-css/">The Languages Which Almost Became CSS</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flip Css Animation]]></title>
@@ -61,29 +73,6 @@
 <ol>
 <li><a href="https://github.com/stubbornella/oocss/wiki">oocss</a></li>
 <li><a href="http://www.slideshare.net/stubbornella/our-best-practices-are-killing-us">Our Best Practices Are Killing Us</a></li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Css Framework]]></title>
-    <link href="http://fubuki.github.io/blog/2015/02/12/css-framework/"/>
-    <updated>2015-02-12T23:08:12+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/02/12/css-framework</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>收集一些以前沒用過的 css framework。</p>
-
-<ol>
-<li><a href="http://montagestudio.com/montagejs/">MontageJS</a></li>
-<li><a href="http://www.52framework.com/">52framework</a></li>
-<li><a href="http://gumbyframework.com/">Gumby</a></li>
-<li><a href="http://semantic-ui.com/">Semantic UI</a></li>
-<li><a href="http://www.columnal.com/">Columnal</a></li>
-<li><a href="http://purecss.io/">Pure</a></li>
-<li><a href="http://getclank.com/">CLANK</a></li>
 </ol>
 
 ]]></content>
