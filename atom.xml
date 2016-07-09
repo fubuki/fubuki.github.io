@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-08T23:39:03+08:00</updated>
+  <updated>2016-07-09T23:52:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/09/opencellular/"/>
+    <updated>2016-07-09T23:51:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/09/opencellular</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform">OpenCellular</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[過去可能成為 CSS 的語言]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p>更加安全的 <a href="https://github.com/Microsoft/checkedc">checkedc</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Unsupervised Learning]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/19/unsupervised-learning/"/>
-    <updated>2016-06-19T22:41:08+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/19/unsupervised-learning</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://culurciello.github.io//tech/2016/06/10/unsup.html">Navigating the unsupervised learning landscape</a></p>
 ]]></content>
   </entry>
   

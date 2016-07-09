@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-08T23:39:03+08:00</updated>
+  <updated>2016-07-09T23:52:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/09/opencellular/"/>
+    <updated>2016-07-09T23:51:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/09/opencellular</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform">OpenCellular</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook 視訊直播架構]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://sigfin.org/">金融情報学研究会</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Syncthing 同步檔案]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/25/syncthing/"/>
-    <updated>2016-06-25T22:46:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/25/syncthing</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/syncthing/syncthing">syncthing</a></p>
 ]]></content>
   </entry>
   
