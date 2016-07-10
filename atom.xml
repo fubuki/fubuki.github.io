@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-09T23:52:22+08:00</updated>
+  <updated>2016-07-10T23:41:45+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Dropout 處理 Overfitting 的問題]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/10/dropout/"/>
+    <updated>2016-07-10T23:39:13+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/10/dropout</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://jmlr.org/papers/v15/srivastava14a.html">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="http://events.linuxfoundation.org/events/vault">Linux Storage And Filesystems Conference</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[微軟釋出的 Checked C 語言]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/20/checkedc/"/>
-    <updated>2016-06-20T21:23:01+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/20/checkedc</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>更加安全的 <a href="https://github.com/Microsoft/checkedc">checkedc</a></p>
 ]]></content>
   </entry>
   
