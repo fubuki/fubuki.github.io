@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-10T23:41:45+08:00</updated>
+  <updated>2016-07-11T23:38:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SLAM]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/11/slam/"/>
+    <updated>2016-07-11T23:31:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/11/slam</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Dropout 處理 Overfitting 的問題]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[AWA and Artist2vec]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/23/awa-artist2vec/"/>
-    <updated>2016-06-23T23:36:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/23/awa-artist2vec</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://www.ai.soc.i.kyoto-u.ac.jp/docmas/proc/docmas-jsai-201511/wada_kazuya.pdf">音楽聴き放題サービス AWA におけるレコメンド手法の検討</a></p>
 ]]></content>
   </entry>
   

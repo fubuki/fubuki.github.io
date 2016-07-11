@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-10T23:41:45+08:00</updated>
+  <updated>2016-07-11T23:38:06+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SLAM]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/11/slam/"/>
+    <updated>2016-07-11T23:31:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/11/slam</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Dropout 處理 Overfitting 的問題]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="https://engineering.linkedin.com/blog/2016/06/voices--a-text-analytics-platform-for-understanding-member-feedb">Voices: a Text Analytics Platform for Understanding Member Feedback</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Linux 儲存和檔案系統研討會 2016]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/21/vault-2016/"/>
-    <updated>2016-06-21T22:41:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/21/vault-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://events.linuxfoundation.org/events/vault">Linux Storage And Filesystems Conference</a></p>
 ]]></content>
   </entry>
   
