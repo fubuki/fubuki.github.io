@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-11T23:38:06+08:00</updated>
+  <updated>2016-07-13T00:03:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughtworks 一些技術集合]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/12/thoughtworks/"/>
+    <updated>2016-07-12T23:59:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/12/thoughtworks</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.thoughtworks.com/">thoughtworks</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/twitter/secureheaders">secureheaders</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[金融與人工智慧]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/26/sig-fin/"/>
-    <updated>2016-06-26T23:22:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/26/sig-fin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://sigfin.org/">金融情報学研究会</a></p>
 ]]></content>
   </entry>
   

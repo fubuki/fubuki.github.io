@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-11T23:38:06+08:00</updated>
+  <updated>2016-07-13T00:03:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughtworks 一些技術集合]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/12/thoughtworks/"/>
+    <updated>2016-07-12T23:59:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/12/thoughtworks</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.thoughtworks.com/">thoughtworks</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SLAM]]></title>
@@ -245,18 +257,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="http://www.ai.soc.i.kyoto-u.ac.jp/docmas/proc/docmas-jsai-201511/wada_kazuya.pdf">音楽聴き放題サービス AWA におけるレコメンド手法の検討</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Voices Linkin]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/22/voices-linkin/"/>
-    <updated>2016-06-22T23:55:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/22/voices-linkin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://engineering.linkedin.com/blog/2016/06/voices--a-text-analytics-platform-for-understanding-member-feedb">Voices: a Text Analytics Platform for Understanding Member Feedback</a></p>
 ]]></content>
   </entry>
   
