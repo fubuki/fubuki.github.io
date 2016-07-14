@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-13T23:40:22+08:00</updated>
+  <updated>2016-07-14T23:40:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub Archive]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/14/github-archive/"/>
+    <updated>2016-07-14T23:39:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/14/github-archive</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.githubarchive.org/">github archive</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thoughtworks 一些技術集合]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext">Why Google Stores Billions of Lines of Code in a Single Repository</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter 的 Secureheaders]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/02/secureheaders/"/>
-    <updated>2016-07-02T23:16:27+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/02/secureheaders</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/twitter/secureheaders">secureheaders</a></p>
 ]]></content>
   </entry>
   

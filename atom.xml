@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-13T23:40:22+08:00</updated>
+  <updated>2016-07-14T23:40:23+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub Archive]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/14/github-archive/"/>
+    <updated>2016-07-14T23:39:34+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/14/github-archive</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.githubarchive.org/">github archive</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 5.7 X Plugin]]></title>
@@ -249,18 +261,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="https://github.com/syncthing/syncthing">syncthing</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Blockchain 能做到應用]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/24/blockchain/"/>
-    <updated>2016-06-24T23:46:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/24/blockchain</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Blockchain_(database)">Blockchain</a></p>
 ]]></content>
   </entry>
   
