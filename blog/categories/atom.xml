@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-14T23:40:23+08:00</updated>
+  <updated>2016-07-15T22:49:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Dropbox Lepton 圖片壓縮]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/15/lepton/"/>
+    <updated>2016-07-15T21:40:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/15/lepton</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/">Lepton image compression: saving 22% losslessly from images at 15MB/s</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GitHub Archive]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html">How Facebook Live Streams to 800,000 Simultaneous Viewers</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google 程式碼管理]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/03/google-stores-code/"/>
-    <updated>2016-07-03T23:46:06+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/03/google-stores-code</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://m.cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext">Why Google Stores Billions of Lines of Code in a Single Repository</a></p>
 ]]></content>
   </entry>
   
