@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-15T22:49:08+08:00</updated>
+  <updated>2016-07-16T23:22:02+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,100 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[資料科學年會 2016 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/16/dsc-2016-day-1/"/>
+    <updated>2016-07-16T21:24:44+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/16/dsc-2016-day-1</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><strong>A Culture of Big Data: Case Studies from Google</strong></p>
+
+<p>探討一個 social system 的成長</p>
+
+<p><strong><em>量度 wikipedia 的成長情況</em></strong></p>
+
+<p>carrying capacity</p>
+
+<p>多方向描述 wikipeida 的成長</p>
+
+<p>成長上限 logistic growth</p>
+
+<p><strong><em>googole+ 一開始如何成長</em></strong></p>
+
+<p>​如何在 google+ 建立一個社群</p>
+
+<p>​1. information consumption
+2. social ties</p>
+
+<p><strong><em> break language barriers </em></strong></p>
+
+<p><strong> 用數據解決都會城市的停車問題 </strong></p>
+
+<p>​建立有效的停車資訊網</p>
+
+<p>​好的 UI 能夠收集資料</p>
+
+<p>​
+<strong> 數據分析在運輸管理之應用 </strong></p>
+
+<p>​公車定時傳送 GPS 資料</p>
+
+<p>APTS 資料</p>
+
+<p>​資料不準確怎麼處理</p>
+
+<p>​使用電子票證的資料統計車上的乘客數</p>
+
+<p>​藉此上述資料可以調整公車班次，公車駕駛員的行為</p>
+
+<p>​統計每站的到站時間</p>
+
+<p>​車機穩定度分析 使用資料傳輸漏失預測車機是否會損壞</p>
+
+<p>​目前正在做計程車的資料分析</p>
+
+<p>​資料收集處理做得很到位，汲取出不少有用的資料。</p>
+
+<p>​<strong> 大數據下的情緒分析 </strong></p>
+
+<p>​stop words 跟情緒上的關係</p>
+
+<p>​有些句子中的錯誤詞彙是故意寫錯用來表達情緒</p>
+
+<p>使用 twitter 的 hashtag 標記句子的情緒狀態</p>
+
+<p>​需要更了解哪些字彙才是真的跟情緒相關 利用新聞</p>
+
+<p>​清理 twitter 初始資料。</p>
+
+<p>​使用新聞去掉中性字詞</p>
+
+<p>是否可以使用在 tweet 以外的來源</p>
+
+<p><strong> 從薪酬制度讀 CEO 的行為心理學 </strong></p>
+
+<p>​主要是從股票選擇權判斷 CEO 是否有過度自信的性格。</p>
+
+<p>​
+<strong> 自己的空氣品質自己量 : 談參與式環境感測的機會與挑戰 </strong></p>
+
+<p>​建立環境感測器系統的過程</p>
+
+<p>​
+<strong> 資料科學與防疫應用的結合 : 以登革熱防治為例 </strong></p>
+
+<p>​主要是資料視覺化</p>
+
+<p>​</p>
+
+<p>​</p>
+
+<p>​</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dropbox Lepton 圖片壓縮]]></title>
@@ -249,18 +343,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p>使用 <a href="https://github.com/mikey179/vfsStream">vfs</a> 作 PHP 部分的相關測試。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[金融與人工智慧]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/26/sig-fin/"/>
-    <updated>2016-06-26T23:22:05+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/26/sig-fin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://sigfin.org/">金融情報学研究会</a></p>
 ]]></content>
   </entry>
   
