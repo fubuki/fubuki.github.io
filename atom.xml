@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-17T22:57:16+08:00</updated>
+  <updated>2016-07-18T23:56:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NACCL HLT 2016 網站]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/18/naccl-hlt-2016/"/>
+    <updated>2016-07-18T23:55:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/18/naccl-hlt-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://naacl.org/naacl-hlt-2016/index.html">NACCL HLT 2016</a> 有些可以研究</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[資料科學年會 2016 Day 2]]></title>
@@ -414,18 +426,6 @@ context-counting vs. context-predicting semantic vectors</li>
 
 
 <p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Qcon New York 2016]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016/"/>
-    <updated>2016-06-28T22:53:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/28/qcon-new-york-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://qconnewyork.com/ny2016/schedule/tabular">QCon NEW YORK 2016</a></p>
 ]]></content>
   </entry>
   
