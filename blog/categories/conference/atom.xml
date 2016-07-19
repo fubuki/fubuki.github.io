@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Conference | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-18T23:56:36+08:00</updated>
+  <updated>2016-07-19T23:13:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSAI 2016 的時程]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/19/jsai-2016/"/>
+    <updated>2016-07-19T23:12:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/19/jsai-2016</id>
+    <content type="html"><![CDATA[<p><a href="https://kaigi.org/jsai/webprogram/2016/index.html">JSAI2016タイムテーブル</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NACCL HLT 2016 網站]]></title>
@@ -223,18 +232,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://qconnewyork.com/ny2016/schedule/tabular">QCon NEW YORK 2016</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mobile @Scale London 2016]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/27/mobile-at-scale-london-2016/"/>
-    <updated>2016-04-27T23:17:15+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/27/mobile-at-scale-london-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1566627733629653/mobile-scale-london-recap/">Mobile @Scale London recap</a></p>
 ]]></content>
   </entry>
   

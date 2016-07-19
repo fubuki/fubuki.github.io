@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-18T23:56:36+08:00</updated>
+  <updated>2016-07-19T23:13:49+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JSAI 2016 的時程]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/19/jsai-2016/"/>
+    <updated>2016-07-19T23:12:48+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/19/jsai-2016</id>
+    <content type="html"><![CDATA[<p><a href="https://kaigi.org/jsai/webprogram/2016/index.html">JSAI2016タイムテーブル</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NACCL HLT 2016 網站]]></title>
@@ -414,18 +423,6 @@ context-counting vs. context-predicting semantic vectors</li>
 <li>Evaluation methods for unsupervised word embeddings</li>
 </ol>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot/"/>
-    <updated>2016-06-29T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
 ]]></content>
   </entry>
   
