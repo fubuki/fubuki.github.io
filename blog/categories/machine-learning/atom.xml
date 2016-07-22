@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-21T23:59:33+08:00</updated>
+  <updated>2016-07-22T23:18:59+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何建立一個機器學習專案]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/22/build-a-machine-learning-project/"/>
+    <updated>2016-07-22T23:08:43+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/22/build-a-machine-learning-project</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.dataquest.io/blog/data-science-portfolio-machine-learning/">Building a data science portfolio: Machine learning project</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SLAM]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/">From RankNet to LambdaRank to LambdaMART: An Overview</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Deep Learning in Chat Bot]]></title>
-    <link href="http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot/"/>
-    <updated>2016-06-29T23:48:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/06/29/deeplearning-chat-bot</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://geek.csdn.net/news/detail/85091">使用深度学习打造智能聊天机器人</a></p>
 ]]></content>
   </entry>
   
