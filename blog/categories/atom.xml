@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-22T23:18:59+08:00</updated>
+  <updated>2016-07-23T23:42:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TF-ICF 權重]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/23/tf-icf/"/>
+    <updated>2016-07-23T23:40:30+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/23/tf-icf</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://cda.ornl.gov/publications/ICMLA06.pdf">TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams </a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Facebook Stream]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://www.thoughtworks.com/">thoughtworks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/09/opencellular/"/>
-    <updated>2016-07-09T23:51:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/09/opencellular</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform">OpenCellular</a></p>
 ]]></content>
   </entry>
   
