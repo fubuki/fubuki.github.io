@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-23T23:42:48+08:00</updated>
+  <updated>2016-07-24T20:34:19+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Percona Toolkit 有用的 Mysql 指令]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/24/percona-toolkit/"/>
+    <updated>2016-07-24T16:54:35+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/24/percona-toolkit</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/percona/percona-toolkit">percona-toolkit</a></p>
+
+<pre><code>wget percona.com/get/percona-toolkit.deb
+dpkg -i percona-toolkit.deb
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[MySQL 5.7 X Plugin]]></title>
@@ -66,19 +82,6 @@
 
 
 <p><a href="https://github.com/facebook/mysql-5.6/wiki/MyRocks-advantages-over-InnoDB">MyRocks advantages over InnoDB</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 的 Index Merge Optimization]]></title>
-    <link href="http://fubuki.github.io/blog/2015/05/03/mysql-index-merge/"/>
-    <updated>2015-05-03T21:27:45+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/05/03/mysql-index-merge</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>在 MySQL 中如果在一個表中有多個 Index 然後 SQL 語句使用到這些 Index ， MySQL 就
-會使用 <a href="http://dev.mysql.com/doc/refman/5.0/en/index-merge-optimization.html">Index Merge Optimization</a> 。</p>
 ]]></content>
   </entry>
   
