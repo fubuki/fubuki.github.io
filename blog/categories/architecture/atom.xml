@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Architecture | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/architecture/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-24T20:34:19+08:00</updated>
+  <updated>2016-07-25T23:11:41+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Nginx Microservices Architecture]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/25/nginx-microservices/"/>
+    <updated>2016-07-25T23:08:09+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/25/nginx-microservices</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.nginx.com/blog/introducing-the-nginx-microservices-reference-architecture/">Introducing the Microservices Reference Architecture from NGINX</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Linkin Kafka Monitor]]></title>
@@ -62,18 +74,6 @@
 
 
 <p><a href="https://github.com/cmeiklejohn/PMLDC">PMLDC</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spotify 如何管理機器]]></title>
-    <link href="http://fubuki.github.io/blog/2016/04/25/spotify-machines/"/>
-    <updated>2016-04-25T00:33:52+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/04/25/spotify-machines</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://labs.spotify.com/2016/03/25/managing-machines-at-spotify/">Managing Machines at Spotify</a></p>
 ]]></content>
   </entry>
   
