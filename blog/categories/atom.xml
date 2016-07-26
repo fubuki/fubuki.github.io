@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-25T23:11:41+08:00</updated>
+  <updated>2016-07-27T00:01:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Solr Ranklib]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/26/solr-ranklib/"/>
+    <updated>2016-07-26T23:53:40+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/26/solr-ranklib</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<ol>
+<li><a href="https://sourceforge.net/p/lemur/wiki/RankLib/">ranklib</a></li>
+<li><a href="http://www.slideshare.net/lucidworks/learning-to-rank-in-solr-presented-by-michael-nilsson-diego-ceccarelli-bloomberg-lp">Learning to Rank in Solr: Presented by Michael Nilsson &amp; Diego Ceccarelli, Bloomberg LP</a></li>
+<li><a href="https://github.com/ajkl/solr-ltr-plugin">solr-ltr-plugin</a></li>
+</ol>
+
+
+<p>寫一個 elasticsearch 用的 plugin</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[TF-ICF 權重]]></title>
@@ -58,18 +77,6 @@
 
 
 <p><a href="https://www.githubarchive.org/">github archive</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Thoughtworks 一些技術集合]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/12/thoughtworks/"/>
-    <updated>2016-07-12T23:59:57+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/12/thoughtworks</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.thoughtworks.com/">thoughtworks</a></p>
 ]]></content>
   </entry>
   
