@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-27T00:01:13+08:00</updated>
+  <updated>2016-07-27T23:52:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一個 Clustering 演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/27/clustering-fast-search/"/>
+    <updated>2016-07-27T23:51:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/27/clustering-fast-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/thomasp85/densityClust">Clustering by fast search and find of density peaks</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Solr Ranklib]]></title>
@@ -24,7 +36,7 @@
 <ol>
 <li><a href="https://sourceforge.net/p/lemur/wiki/RankLib/">ranklib</a></li>
 <li><a href="http://www.slideshare.net/lucidworks/learning-to-rank-in-solr-presented-by-michael-nilsson-diego-ceccarelli-bloomberg-lp">Learning to Rank in Solr: Presented by Michael Nilsson &amp; Diego Ceccarelli, Bloomberg LP</a></li>
-<li><a href="https://github.com/ajkl/solr-ltr-plugin">solr-ltr-plugin</a></li>
+<li>[solr-ltr]</li>
 </ol>
 
 
@@ -418,18 +430,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://eager.io/blog/the-languages-which-almost-were-css/">The Languages Which Almost Became CSS</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Apple LZFSE Algorithm]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/07/apple-lzfse/"/>
-    <updated>2016-07-07T23:49:32+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/07/apple-lzfse</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/lzfse/lzfse">lzfse</a></p>
 ]]></content>
   </entry>
   

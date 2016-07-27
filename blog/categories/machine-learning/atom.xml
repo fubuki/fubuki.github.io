@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-27T00:01:13+08:00</updated>
+  <updated>2016-07-27T23:52:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[一個 Clustering 演算法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/27/clustering-fast-search/"/>
+    <updated>2016-07-27T23:51:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/27/clustering-fast-search</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/thomasp85/densityClust">Clustering by fast search and find of density peaks</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[如何建立一個機器學習專案]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://kaylinwalker.com/50-years-of-pop-music/">50 Years of Pop Music</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[LambdaMART 打分演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/01/lambdamart/"/>
-    <updated>2016-07-01T23:04:39+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/01/lambdamart</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.microsoft.com/en-us/research/publication/from-ranknet-to-lambdarank-to-lambdamart-an-overview/">From RankNet to LambdaRank to LambdaMART: An Overview</a></p>
 ]]></content>
   </entry>
   

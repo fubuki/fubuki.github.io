@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-27T00:01:13+08:00</updated>
+  <updated>2016-07-27T23:52:31+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -24,7 +24,7 @@
 <ol>
 <li><a href="https://sourceforge.net/p/lemur/wiki/RankLib/">ranklib</a></li>
 <li><a href="http://www.slideshare.net/lucidworks/learning-to-rank-in-solr-presented-by-michael-nilsson-diego-ceccarelli-bloomberg-lp">Learning to Rank in Solr: Presented by Michael Nilsson &amp; Diego Ceccarelli, Bloomberg LP</a></li>
-<li><a href="https://github.com/ajkl/solr-ltr-plugin">solr-ltr-plugin</a></li>
+<li>[solr-ltr]</li>
 </ol>
 
 
