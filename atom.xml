@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-27T23:52:31+08:00</updated>
+  <updated>2016-07-28T22:24:04+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[何謂 Representation Learning]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/28/representation-learning/"/>
+    <updated>2016-07-28T22:19:50+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/28/representation-learning</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>觀看 <code>Representation Learning: A Review and New Perspectives</code> 這篇論文。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[一個 Clustering 演算法]]></title>
@@ -418,18 +430,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform">OpenCellular</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[過去可能成為 CSS 的語言]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/08/become-css/"/>
-    <updated>2016-07-08T23:37:21+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/08/become-css</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://eager.io/blog/the-languages-which-almost-were-css/">The Languages Which Almost Became CSS</a></p>
 ]]></content>
   </entry>
   
