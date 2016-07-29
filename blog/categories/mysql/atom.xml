@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-28T22:24:04+08:00</updated>
+  <updated>2016-07-29T23:30:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Uber 從 Postgres 遷移到 Mysql]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql/"/>
+    <updated>2016-07-29T23:28:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://eng.uber.com/mysql-migration/">Why Uber Engineering Switched from Postgres to MySQL</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Percona Toolkit 有用的 Mysql 指令]]></title>
@@ -70,18 +82,6 @@ dpkg -i percona-toolkit.deb
 <p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema_31.html">MySQLのperformance_schemaをフルパワーにするとどんな情報が見られるのか</a></p>
 
 <p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema.html">MySQLのperformance_schemaでどれくらいの情報が見られるのか</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mysql MyRocks Engine]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/15/myrocks/"/>
-    <updated>2015-11-15T23:23:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/15/myrocks</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/facebook/mysql-5.6/wiki/MyRocks-advantages-over-InnoDB">MyRocks advantages over InnoDB</a></p>
 ]]></content>
   </entry>
   

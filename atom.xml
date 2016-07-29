@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-28T22:24:04+08:00</updated>
+  <updated>2016-07-29T23:30:22+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Uber 從 Postgres 遷移到 Mysql]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql/"/>
+    <updated>2016-07-29T23:28:59+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://eng.uber.com/mysql-migration/">Why Uber Engineering Switched from Postgres to MySQL</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Representation Learning]]></title>
@@ -418,18 +430,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="http://jmlr.org/papers/v15/srivastava14a.html">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facekbook 的 OpenCellular]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/09/opencellular/"/>
-    <updated>2016-07-09T23:51:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/09/opencellular</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform">OpenCellular</a></p>
 ]]></content>
   </entry>
   
