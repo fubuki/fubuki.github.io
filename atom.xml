@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-29T23:30:22+08:00</updated>
+  <updated>2016-07-30T23:57:36+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bm25 講解資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/30/bm25/"/>
+    <updated>2016-07-30T23:51:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/30/bm25</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://berlinbuzzwords.de/session/bm25-demystified">BM25 demystified</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Uber 從 Postgres 遷移到 Mysql]]></title>
@@ -418,18 +430,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Dropout 處理 Overfitting 的問題]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/10/dropout/"/>
-    <updated>2016-07-10T23:39:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/10/dropout</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://jmlr.org/papers/v15/srivastava14a.html">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a></p>
 ]]></content>
   </entry>
   

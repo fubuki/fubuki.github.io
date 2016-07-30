@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fubuki.github.io/blog/2016/07/30/bm25/</loc>
+    <lastmod>2016-07-30T23:51:51+08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql/</loc>
     <lastmod>2016-07-29T23:28:59+08:00</lastmod>
     <priority>0.8</priority>
@@ -4472,19 +4477,19 @@
   </url>
   <url>
     <loc>http://fubuki.github.io/</loc>
-    <lastmod>2016-07-29T23:30:22+08:00</lastmod>
+    <lastmod>2016-07-30T23:57:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/blog/archives/</loc>
-    <lastmod>2016-07-29T23:30:22+08:00</lastmod>
+    <lastmod>2016-07-30T23:57:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://fubuki.github.io/about/</loc>
-    <lastmod>2016-07-29T23:30:22+08:00</lastmod>
+    <lastmod>2016-07-30T23:57:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
