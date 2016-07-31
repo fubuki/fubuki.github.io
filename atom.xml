@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-30T23:57:36+08:00</updated>
+  <updated>2016-07-31T23:02:24+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Api Geteway Pattern]]></title>
+    <link href="http://fubuki.github.io/blog/2016/07/31/api-geteway/"/>
+    <updated>2016-07-31T22:55:03+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/07/31/api-geteway</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://microservices.io/patterns/apigateway.html">api geteway</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bm25 講解資料]]></title>
@@ -418,18 +430,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://www.thoughtworks.com/">thoughtworks</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SLAM]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/11/slam/"/>
-    <updated>2016-07-11T23:31:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/11/slam</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
 ]]></content>
   </entry>
   
