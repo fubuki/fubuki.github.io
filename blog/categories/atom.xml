@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-07-31T23:02:24+08:00</updated>
+  <updated>2016-08-01T23:29:03+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[撰寫可維護的配置設定]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/01/config-code/"/>
+    <updated>2016-08-01T23:27:38+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/01/config-code</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.infoq.com/articles/writing-maintainable-configuration-code">Writing Maintainable Configuration Code</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bm25 講解資料]]></title>
@@ -65,18 +77,6 @@
 
 
 <p><a href="http://www.infoq.com/cn/news/2016/07/Facebook-MapReduce">Facebook steam</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dropbox Lepton 圖片壓縮]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/15/lepton/"/>
-    <updated>2016-07-15T21:40:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/15/lepton</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/">Lepton image compression: saving 22% losslessly from images at 15MB/s</a></p>
 ]]></content>
   </entry>
   
