@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-01T23:29:03+08:00</updated>
+  <updated>2016-08-02T23:16:32+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Node Summit 2016]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/02/node-summit-2016/"/>
+    <updated>2016-08-02T23:08:15+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/02/node-summit-2016</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://nodesummit.com/agenda/">Node Summit 2016</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[撰寫可維護的配置設定]]></title>
@@ -414,22 +426,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://www.githubarchive.org/">github archive</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL 5.7 X Plugin]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/13/mysql-5-dot-7-x-plugin/"/>
-    <updated>2016-07-13T23:36:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/13/mysql-5-dot-7-x-plugin</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<ol>
-<li><a href="https://www.percona.com/blog/2016/07/06/pipelining-versus-parallel-query-execution-with-mysql-5-7-x-plugin/">Pipelining versus Parallel Query Execution with MySQL 5.7 X Plugin</a></li>
-<li><a href="https://www.percona.com/blog/2016/05/27/asynchronous-query-execution-mysql-5-7-x-plugin/">Asynchronous Query Execution with MySQL 5.7 X Plugin</a></li>
-</ol>
-
 ]]></content>
   </entry>
   
