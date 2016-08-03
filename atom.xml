@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-02T23:16:32+08:00</updated>
+  <updated>2016-08-03T23:16:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Association Rule Learning Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/03/association-rule-learning-algorithm/"/>
+    <updated>2016-08-03T23:11:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/03/association-rule-learning-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Association_rule_learning">Association rule learning</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Node Summit 2016]]></title>
@@ -414,18 +426,6 @@ Bag of Visual Words</p>
 
 
 <p><a href="https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/">Lepton image compression: saving 22% losslessly from images at 15MB/s</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[GitHub Archive]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/14/github-archive/"/>
-    <updated>2016-07-14T23:39:34+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/14/github-archive</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.githubarchive.org/">github archive</a></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-02T23:16:32+08:00</updated>
+  <updated>2016-08-03T23:16:16+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Association Rule Learning Algorithm]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/03/association-rule-learning-algorithm/"/>
+    <updated>2016-08-03T23:11:16+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/03/association-rule-learning-algorithm</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://en.wikipedia.org/wiki/Association_rule_learning">Association rule learning</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[何謂 Representation Learning]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[使用 Dropout 處理 Overfitting 的問題]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/10/dropout/"/>
-    <updated>2016-07-10T23:39:13+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/10/dropout</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://jmlr.org/papers/v15/srivastava14a.html">Dropout: A Simple Way to Prevent Neural Networks from Overfitting</a></p>
 ]]></content>
   </entry>
   
