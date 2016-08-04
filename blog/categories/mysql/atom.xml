@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Mysql | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/mysql/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-03T23:16:16+08:00</updated>
+  <updated>2016-08-04T22:34:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github 的 Mysql Schema 遷移工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/04/gh-ost/"/>
+    <updated>2016-08-04T22:31:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/04/gh-ost</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/github/gh-ost">gh-ost</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Uber 從 Postgres 遷移到 Mysql]]></title>
@@ -66,22 +78,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="http://dev.mysql.com/doc/refman/5.7/en/index-hints.html">MySQL Index Hints</a> 指定如何使用 Index。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MySQL Performance Schema]]></title>
-    <link href="http://fubuki.github.io/blog/2015/11/19/mysql-performance-schema/"/>
-    <updated>2015-11-19T22:36:23+08:00</updated>
-    <id>http://fubuki.github.io/blog/2015/11/19/mysql-performance-schema</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://dev.mysql.com/doc/mysql-monitor/3.0/en/mem-qanal-using-performance-schema.html">Using the MySQL Performance Schema</a></p>
-
-<p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema_31.html">MySQLのperformance_schemaをフルパワーにするとどんな情報が見られるのか</a></p>
-
-<p><a href="http://yoku0825.blogspot.jp/2015/03/mysqlperformanceschema.html">MySQLのperformance_schemaでどれくらいの情報が見られるのか</a></p>
 ]]></content>
   </entry>
   

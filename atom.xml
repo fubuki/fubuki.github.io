@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-03T23:16:16+08:00</updated>
+  <updated>2016-08-04T22:34:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github 的 Mysql Schema 遷移工具]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/04/gh-ost/"/>
+    <updated>2016-08-04T22:31:20+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/04/gh-ost</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/github/gh-ost">gh-ost</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Association Rule Learning Algorithm]]></title>
@@ -414,18 +426,6 @@ Bag of Visual Words</p>
 <p>​</p>
 
 <p>​</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Dropbox Lepton 圖片壓縮]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/15/lepton/"/>
-    <updated>2016-07-15T21:40:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/15/lepton</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/">Lepton image compression: saving 22% losslessly from images at 15MB/s</a></p>
 ]]></content>
   </entry>
   
