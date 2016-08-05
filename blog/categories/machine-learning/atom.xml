@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Machine Learning | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/machine-learning/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-04T22:34:33+08:00</updated>
+  <updated>2016-08-05T23:34:33+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[無人車測試數據資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/05/kitti/"/>
+    <updated>2016-08-05T23:30:51+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/05/kitti</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://www.cvlibs.net/datasets/kitti/">kitti</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Association Rule Learning Algorithm]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://www.dataquest.io/blog/data-science-portfolio-machine-learning/">Building a data science portfolio: Machine learning project</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SLAM]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/11/slam/"/>
-    <updated>2016-07-11T23:31:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/11/slam</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a></p>
 ]]></content>
   </entry>
   
