@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-05T23:34:33+08:00</updated>
+  <updated>2016-08-06T23:49:18+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[現成的網路搜尋測試資料]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/06/rerank-web-documents/"/>
+    <updated>2016-08-06T23:47:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/06/rerank-web-documents</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://www.kaggle.com/c/yandex-personalized-web-search-challenge">Personalized Web Search Challenge</a> 裡面的資料用來測試 learn to rank 的效果。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[無人車測試數據資料]]></title>
@@ -249,101 +261,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="http://naacl.org/naacl-hlt-2016/index.html">NACCL HLT 2016</a> 有些可以研究</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[資料科學年會 2016 Day 2]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/17/dsc-2016-day2/"/>
-    <updated>2016-07-17T22:20:53+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/17/dsc-2016-day2</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><strong> 從電腦視覺看人工智慧 : 下一件大事 </strong></p>
-
-<p>Vision and language</p>
-
-<p>Vision and Control</p>
-
-<p>​Reinforcement Learning</p>
-
-<p>使用 CNN RNN LSTM</p>
-
-<p><strong> The Inception of Learning from Big Video Data </strong></p>
-
-<p>​
-Bag of Visual Words</p>
-
-<p>從傳統介紹到到現代的影像辨識技術</p>
-
-<p><strong> 音樂資料檢索 </strong></p>
-
-<p>NTHU Music Iinformation Retrieval</p>
-
-<p>twtmir.wordpress.com</p>
-
-<ol>
-<li><p>Music creation</p></li>
-<li><p>Music information analysis</p></li>
-<li><p>Music information retrieval</p></li>
-</ol>
-
-
-<p>Pitch Tempo Timbre</p>
-
-<p>​各種應用中上面三種因子的重要度</p>
-
-<p>​從音樂本身做處理，這邊不是根據音樂的 metadata，而是使用音樂本身</p>
-
-<p>如何分離音訊</p>
-
-<p>一些音樂資料來源</p>
-
-<p><strong>  It&rsquo;s Not What You Say: It&rsquo;s How You Say It! </strong></p>
-
-<p>韻律的重要性</p>
-
-<p>如何測量聲韻，介紹了一些聲韻學的參數</p>
-
-<p>Function of Prosody</p>
-
-<ol>
-<li>Grammar</li>
-<li>Focus</li>
-<li>Disourse</li>
-<li>Emotion</li>
-</ol>
-
-
-<p>​</p>
-
-<p><strong>  視覺資料淘金 : 巨量社群影像深度解析 </strong></p>
-
-<p>判斷照片中的人際關係</p>
-
-<p>取出一個人不同年齡下的照片</p>
-
-<p>主要介紹做過的成果</p>
-
-<p>​
-<strong> Practical Issues in Machine Learning </strong></p>
-
-<p>如何選擇 machine learning 的方法建立模型</p>
-
-<p>​</p>
-
-<p><strong> 娛樂產業中的資料科學家 : 談資料科學於線上遊戲與職業運動之應用 </strong></p>
-
-<p>怎麼判斷哪些 tag 是相似的，同個裝備下有著相同分數的 tag 可以視為相同概念</p>
-
-<p>後面做了球賽票房的預測</p>
-
-<p>​
-<strong> 世代之爭爭什麼 ? 談談如何從調查資料挖掘出豐厚的意義 </strong></p>
-
-<p>複合性調查
-​</p>
 ]]></content>
   </entry>
   
