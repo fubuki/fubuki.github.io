@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-06T23:49:18+08:00</updated>
+  <updated>2016-08-07T23:22:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker Volume Plugin]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/07/docker-volume-plugin/"/>
+    <updated>2016-08-07T23:19:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/07/docker-volume-plugin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://docs.docker.com/engine/extend/plugins_volume/">Write a volume plugin</a></p>
+
+<p><a href="http://www.slideshare.net/ClintonKitson/discovering-volume-plugins-with-applications-using-docker-toolbox-and-virtualbox">Discovering Volume Plugins with Applications using Docker Toolbox and VirtualBox</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[現成的網路搜尋測試資料]]></title>
@@ -249,18 +263,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="https://kaigi.org/jsai/webprogram/2016/index.html">JSAI2016タイムテーブル</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NACCL HLT 2016 網站]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/18/naccl-hlt-2016/"/>
-    <updated>2016-07-18T23:55:17+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/18/naccl-hlt-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://naacl.org/naacl-hlt-2016/index.html">NACCL HLT 2016</a> 有些可以研究</p>
 ]]></content>
   </entry>
   

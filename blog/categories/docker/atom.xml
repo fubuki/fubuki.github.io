@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Docker | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/docker/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-06T23:49:18+08:00</updated>
+  <updated>2016-08-07T23:22:00+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Docker Volume Plugin]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/07/docker-volume-plugin/"/>
+    <updated>2016-08-07T23:19:25+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/07/docker-volume-plugin</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://docs.docker.com/engine/extend/plugins_volume/">Write a volume plugin</a></p>
+
+<p><a href="http://www.slideshare.net/ClintonKitson/discovering-volume-plugins-with-applications-using-docker-toolbox-and-virtualbox">Discovering Volume Plugins with Applications using Docker Toolbox and VirtualBox</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Kolla Docker + Openstack]]></title>
@@ -58,23 +72,6 @@
 
 
 <p><a href="https://blog.docker.com/2016/02/docker-1-10/">Docker 1.10: New Compose file, improved security, networking and much more!</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker 的 Volumes 功能]]></title>
-    <link href="http://fubuki.github.io/blog/2014/12/28/docker-volumes/"/>
-    <updated>2014-12-28T22:51:26+08:00</updated>
-    <id>http://fubuki.github.io/blog/2014/12/28/docker-volumes</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>最近在用 Docker 建立的 FFmpeg 的容器時，想要建立的直接在容器裡面寫入檔案執行轉檔，然後看到了 Docker 有類似掛載的功能，
-可以建立 Volumes 讓各個不同的容器共用，之後如果有升級或是跟其他容器結合形成一個服務平台可以採取這樣的做法。</p>
-
-<p>另外有看到一篇蠻有趣的文章 : <a href="http://stackoverflow.com/questions/18496940/how-to-deal-with-persistent-storage-e-g-databases-in-docker">How to deal with persistent storage (e.g. databases) in docker</a>，裡面的回答有提到一個東西
- <code>data only container</code>，似乎是建立一個專門掛載 Volumes 的 container ，從這篇 <a href="http://www.offermann.us/2013/12/tiny-docker-pieces-loosely-joined.html">Tiny Docker Pieces, Loosely Joined</a> 最後面
- 有提到一些關於這樣做法的好處，似乎是能更好管理 Volumes 裡面的內容。</p>
 ]]></content>
   </entry>
   
