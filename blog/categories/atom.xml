@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-07T23:22:00+08:00</updated>
+  <updated>2016-08-08T23:51:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java 幾個相似度計算方法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/08/javstring-similarity/"/>
+    <updated>2016-08-08T23:49:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/08/javstring-similarity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[現成的網路搜尋測試資料]]></title>
@@ -65,18 +77,6 @@
 
 
 <p>寫一個 elasticsearch 用的 plugin</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TF-ICF 權重]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/23/tf-icf/"/>
-    <updated>2016-07-23T23:40:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/23/tf-icf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cda.ornl.gov/publications/ICMLA06.pdf">TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams </a></p>
 ]]></content>
   </entry>
   

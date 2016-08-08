@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-07T23:22:00+08:00</updated>
+  <updated>2016-08-08T23:51:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java 幾個相似度計算方法]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/08/javstring-similarity/"/>
+    <updated>2016-08-08T23:49:24+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/08/javstring-similarity</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Docker Volume Plugin]]></title>
@@ -251,18 +263,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="https://github.com/Microsoft/api-guidelines">api-guidelines</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[JSAI 2016 的時程]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/19/jsai-2016/"/>
-    <updated>2016-07-19T23:12:48+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/19/jsai-2016</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://kaigi.org/jsai/webprogram/2016/index.html">JSAI2016タイムテーブル</a></p>
 ]]></content>
   </entry>
   
