@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-08T23:51:37+08:00</updated>
+  <updated>2016-08-09T23:35:28+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[React Fiber Arch]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/09/react-fiber-arch/"/>
+    <updated>2016-08-09T23:32:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/09/react-fiber-arch</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/acdlite/react-fiber-architecture">react-fiber-architecture</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Java 幾個相似度計算方法]]></title>
@@ -251,18 +263,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="http://www.infoq.com/cn/news/2016/07/Facebook-MapReduce">Facebook steam</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[微軟的 API 設計方針]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/20/microsoft-api-guidelines/"/>
-    <updated>2016-07-20T23:14:22+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/20/microsoft-api-guidelines</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/Microsoft/api-guidelines">api-guidelines</a></p>
 ]]></content>
   </entry>
   
