@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-11T23:31:44+08:00</updated>
+  <updated>2016-08-12T23:16:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[研究一下 Lucene-kea]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/12/lucene-kea/"/>
+    <updated>2016-08-12T23:10:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/12/lucene-kea</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lucene.jugem.jp/?eid=483">キーフレーズ抽出ツール KEA を Lucene 上で実装する</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 C++ 撰寫 Server]]></title>
@@ -251,18 +263,6 @@ dpkg -i percona-toolkit.deb
 
 
 <p><a href="http://cda.ornl.gov/publications/ICMLA06.pdf">TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams </a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何建立一個機器學習專案]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/22/build-a-machine-learning-project/"/>
-    <updated>2016-07-22T23:08:43+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/22/build-a-machine-learning-project</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.dataquest.io/blog/data-science-portfolio-machine-learning/">Building a data science portfolio: Machine learning project</a></p>
 ]]></content>
   </entry>
   

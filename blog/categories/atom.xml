@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-11T23:31:44+08:00</updated>
+  <updated>2016-08-12T23:16:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[研究一下 Lucene-kea]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/12/lucene-kea/"/>
+    <updated>2016-08-12T23:10:46+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/12/lucene-kea</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://lucene.jugem.jp/?eid=483">キーフレーズ抽出ツール KEA を Lucene 上で実装する</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 C++ 撰寫 Server]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://www.kaggle.com/c/yandex-personalized-web-search-challenge">Personalized Web Search Challenge</a> 裡面的資料用來測試 learn to rank 的效果。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[撰寫可維護的配置設定]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/01/config-code/"/>
-    <updated>2016-08-01T23:27:38+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/01/config-code</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.infoq.com/articles/writing-maintainable-configuration-code">Writing Maintainable Configuration Code</a></p>
 ]]></content>
   </entry>
   
