@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-12T23:16:10+08:00</updated>
+  <updated>2016-08-13T23:37:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[介紹 Glibc]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/13/glibc-introduction/"/>
+    <updated>2016-08-13T23:18:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/13/glibc-introduction</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/">Understanding glibc malloc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[研究一下 Lucene-kea]]></title>
@@ -251,18 +263,6 @@
 <pre><code>wget percona.com/get/percona-toolkit.deb
 dpkg -i percona-toolkit.deb
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TF-ICF 權重]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/23/tf-icf/"/>
-    <updated>2016-07-23T23:40:30+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/23/tf-icf</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://cda.ornl.gov/publications/ICMLA06.pdf">TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams </a></p>
 ]]></content>
   </entry>
   

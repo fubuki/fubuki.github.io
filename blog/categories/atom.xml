@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-12T23:16:10+08:00</updated>
+  <updated>2016-08-13T23:37:48+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[介紹 Glibc]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/13/glibc-introduction/"/>
+    <updated>2016-08-13T23:18:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/13/glibc-introduction</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/">Understanding glibc malloc</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[研究一下 Lucene-kea]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[現成的網路搜尋測試資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/06/rerank-web-documents/"/>
-    <updated>2016-08-06T23:47:25+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/06/rerank-web-documents</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://www.kaggle.com/c/yandex-personalized-web-search-challenge">Personalized Web Search Challenge</a> 裡面的資料用來測試 learn to rank 的效果。</p>
 ]]></content>
   </entry>
   
