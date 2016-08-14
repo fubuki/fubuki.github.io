@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-13T23:37:48+08:00</updated>
+  <updated>2016-08-14T23:46:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RAKE 關鍵字抽取]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/14/rake-keyword/"/>
+    <updated>2016-08-14T23:44:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/14/rake-keyword</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/aneesha/RAKE">RAKE</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[介紹 Glibc]]></title>
@@ -247,22 +259,6 @@
 
 
 <p><a href="https://www.nginx.com/blog/introducing-the-nginx-microservices-reference-architecture/">Introducing the Microservices Reference Architecture from NGINX</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Percona Toolkit 有用的 Mysql 指令]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/24/percona-toolkit/"/>
-    <updated>2016-07-24T16:54:35+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/24/percona-toolkit</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/percona/percona-toolkit">percona-toolkit</a></p>
-
-<pre><code>wget percona.com/get/percona-toolkit.deb
-dpkg -i percona-toolkit.deb
-</code></pre>
 ]]></content>
   </entry>
   

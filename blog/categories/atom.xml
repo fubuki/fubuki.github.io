@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-13T23:37:48+08:00</updated>
+  <updated>2016-08-14T23:46:05+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RAKE 關鍵字抽取]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/14/rake-keyword/"/>
+    <updated>2016-08-14T23:44:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/14/rake-keyword</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/aneesha/RAKE">RAKE</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[介紹 Glibc]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/acdlite/react-fiber-architecture">react-fiber-architecture</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Java 幾個相似度計算方法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/08/javstring-similarity/"/>
-    <updated>2016-08-08T23:49:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/08/javstring-similarity</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a></p>
 ]]></content>
   </entry>
   
