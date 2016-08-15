@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: Algorithm | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories/algorithm/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-14T23:46:05+08:00</updated>
+  <updated>2016-08-15T23:10:37+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[RAKE 關鍵字抽取]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/14/rake-keyword/"/>
+    <updated>2016-08-14T23:44:52+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/14/rake-keyword</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/aneesha/RAKE">RAKE</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Apple LZFSE Algorithm]]></title>
@@ -58,27 +70,6 @@
 
 
 <p><a href="https://en.wikipedia.org/wiki/DBSCAN">DBSCAN</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[All Pair Similarity]]></title>
-    <link href="http://fubuki.github.io/blog/2016/05/11/all-pair-similarity/"/>
-    <updated>2016-05-11T22:59:56+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/05/11/all-pair-similarity</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>此問題是指在一個很大的文件集合裡，兩兩比較後去掉重複的文件。</p>
-
-<p>下面幾個可以拿來研究研究。</p>
-
-<ol>
-<li>Pairwise Document Similarity in Large Collections with MapReduce</li>
-<li>All-pairs similarity via DIMSUM
-3 .sparsehash</li>
-</ol>
-
 ]]></content>
   </entry>
   
