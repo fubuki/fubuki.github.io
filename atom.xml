@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-16T22:35:54+08:00</updated>
+  <updated>2016-08-17T23:47:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Measure Video Quality Metric]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/17/video-quality-metric/"/>
+    <updated>2016-08-17T23:34:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/17/video-quality-metric</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2016/06/toward-practical-perceptual-video.html">Toward A Practical Perceptual Video Quality Metric</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Site Reliability Engineering Conf 2016]]></title>
@@ -240,18 +252,6 @@
 
 
 <p>觀看 <code>Representation Learning: A Review and New Perspectives</code> 這篇論文。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[一個 Clustering 演算法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/27/clustering-fast-search/"/>
-    <updated>2016-07-27T23:51:18+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/27/clustering-fast-search</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/thomasp85/densityClust">Clustering by fast search and find of density peaks</a></p>
 ]]></content>
   </entry>
   

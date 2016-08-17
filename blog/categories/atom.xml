@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-16T22:35:54+08:00</updated>
+  <updated>2016-08-17T23:47:21+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Measure Video Quality Metric]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/17/video-quality-metric/"/>
+    <updated>2016-08-17T23:34:28+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/17/video-quality-metric</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://techblog.netflix.com/2016/06/toward-practical-perceptual-video.html">Toward A Practical Perceptual Video Quality Metric</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[介紹 Glibc]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://github.com/acdlite/react-fiber-architecture">react-fiber-architecture</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Java 幾個相似度計算方法]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/08/javstring-similarity/"/>
-    <updated>2016-08-08T23:49:24+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/08/javstring-similarity</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/tdebatty/java-string-similarity">java-string-similarity</a></p>
 ]]></content>
   </entry>
   
