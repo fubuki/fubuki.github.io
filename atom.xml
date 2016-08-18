@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-17T23:47:21+08:00</updated>
+  <updated>2016-08-18T23:48:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[怎樣是高級工程師]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/18/senior-level-development/"/>
+    <updated>2016-08-18T23:46:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/18/senior-level-development</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html">The Conjoined Triangles of Senior-Level Development</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Measure Video Quality Metric]]></title>
@@ -240,18 +252,6 @@
 
 
 <p><a href="https://eng.uber.com/mysql-migration/">Why Uber Engineering Switched from Postgres to MySQL</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[何謂 Representation Learning]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/28/representation-learning/"/>
-    <updated>2016-07-28T22:19:50+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/28/representation-learning</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p>觀看 <code>Representation Learning: A Review and New Perspectives</code> 這篇論文。</p>
 ]]></content>
   </entry>
   

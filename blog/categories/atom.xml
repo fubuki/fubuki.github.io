@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-17T23:47:21+08:00</updated>
+  <updated>2016-08-18T23:48:55+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[怎樣是高級工程師]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/18/senior-level-development/"/>
+    <updated>2016-08-18T23:46:26+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/18/senior-level-development</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html">The Conjoined Triangles of Senior-Level Development</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Measure Video Quality Metric]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://hackernoon.com/writing-high-performance-servers-in-modern-c-7cd00926828#.7xdedsoue">Writing modern C++ servers using Wangle</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[React Fiber Arch]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/09/react-fiber-arch/"/>
-    <updated>2016-08-09T23:32:28+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/09/react-fiber-arch</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://github.com/acdlite/react-fiber-architecture">react-fiber-architecture</a></p>
 ]]></content>
   </entry>
   
