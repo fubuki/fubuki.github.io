@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-18T23:48:55+08:00</updated>
+  <updated>2016-08-19T23:19:10+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Netflix Using Apache Mesos]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/19/netflix-mesos/"/>
+    <updated>2016-08-19T23:17:57+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/19/netflix-mesos</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p>[Distributed Resource Scheduling with Apache Mesos</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[怎樣是高級工程師]]></title>
@@ -240,18 +252,6 @@
 
 
 <p><a href="https://berlinbuzzwords.de/session/bm25-demystified">BM25 demystified</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Uber 從 Postgres 遷移到 Mysql]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql/"/>
-    <updated>2016-07-29T23:28:59+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/29/uber-postgres-to-mysql</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://eng.uber.com/mysql-migration/">Why Uber Engineering Switched from Postgres to MySQL</a></p>
 ]]></content>
   </entry>
   
