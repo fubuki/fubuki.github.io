@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-19T23:19:10+08:00</updated>
+  <updated>2016-08-20T23:03:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,97 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coscup 2016 Day 1]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/20/coscup-2016-day-1/"/>
+    <updated>2016-08-20T22:02:42+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/20/coscup-2016-day-1</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>LLVM 框架，由淺入淺</h3>
+
+<p>LLVM 聽過不少了，開頭介紹了編譯器的原理</p>
+
+<p>Dead Code Elimination 把不需要的 code 去除以便最佳化</p>
+
+<p>Python 的故事</p>
+
+<p>slide 有篇關於 LLVM 的論文</p>
+
+<p>使用 whitespace 語言做範例介紹怎麼使用 LLVM 移植到舊的硬體</p>
+
+<p>SSA form?</p>
+
+<p>LLVM 的結構如何最佳化</p>
+
+<h3>用 Raspberry Pi 學習成為一個全端工程師</h3>
+
+<p>全端這邊是指軟硬體整合</p>
+
+<h3>開源軟硬體實做全套電子鼓(python + RPi)</h3>
+
+<p>硬體材料清單</p>
+
+<p>ADC 將類比訊號轉數位訊號</p>
+
+<p>SPI 介面</p>
+
+<p>訊號分析</p>
+
+<p>敲擊蓋子讓晶片獲得類比的電氣訊號，然後將類比轉訊號給 raspi 後，進行訊號分析使用傅立葉轉換取得
+頻譜後作取樣</p>
+
+<p>raspi 沒有 realtime clock 需要另外處理才能處理取樣上不精準的問題</p>
+
+<h3>進擊的Resque - 排程系統超進化</h3>
+
+<p>講者是時間軸主任工程師</p>
+
+<p>一開始使用 <code>gearman</code> 後來換用 <code>resque</code></p>
+
+<h3>靠北OpenStack-佈署維運OpenStack的50道陰影</h3>
+
+<p>幾個安裝 openstack 方式</p>
+
+<p><code>suse</code> 上使用 <code>crowbar</code>  底層是 <code>chef</code></p>
+
+<p><code>Mirantis</code> 提供透過 <code>Fuel</code> 安裝，現在底層使用 <code>Docker</code></p>
+
+<p><code>HP Helion</code> 的 <code>TripleO</code> 底層使用 <code>Ansible</code> 實現</p>
+
+<p><a href="https://www.rdoproject.org/">RDO</a></p>
+
+<p>IBM, Oracle, VMware 都有 openstack 的相關產品</p>
+
+<p>不要用 <code>devstack</code> 自己慢慢裝，問題很多。</p>
+
+<h4>DefCore</h4>
+
+<ol>
+<li>Nova</li>
+<li>Swift</li>
+<li>Cinder</li>
+<li>Bigtent</li>
+</ol>
+
+
+<p>建議使用 Ceph 作為儲存元件</p>
+
+<p>HA 和升級的問題</p>
+
+<h3>RobotCar 經驗分享 -用開源機器人平台(ROS)自幹未來移動構想</h3>
+
+<p>Ros 可以研究玩玩，關於 linux kernal 對於 real time 的問題</p>
+
+<h3>寫出高性能的服務與應用。那些你沒想過的事！</h3>
+
+<p>多瞭解硬體，可能會有一些神秘的方法加速程式的效能</p>
+
+<p>這邊簡單說是計算機結構，另外介紹IO模型和 process, thread</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netflix Using Apache Mesos]]></title>
@@ -240,18 +331,6 @@
 
 
 <p><a href="http://microservices.io/patterns/apigateway.html">api geteway</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bm25 講解資料]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/30/bm25/"/>
-    <updated>2016-07-30T23:51:51+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/30/bm25</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://berlinbuzzwords.de/session/bm25-demystified">BM25 demystified</a></p>
 ]]></content>
   </entry>
   
