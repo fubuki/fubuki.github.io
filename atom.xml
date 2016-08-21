@@ -4,7 +4,7 @@
   <title><![CDATA[Learning Blog]]></title>
   <link href="http://fubuki.github.io/atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-20T23:03:08+08:00</updated>
+  <updated>2016-08-21T21:35:08+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Coscup 2016 Day 2]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/21/coscup-2016-day-2/"/>
+    <updated>2016-08-21T20:54:49+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/21/coscup-2016-day-2</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<h3>Gandi.net &amp; Open Source</h3>
+
+<p>這算工商時間，主要是簡介 <code>Gandi</code> 和購買 <code>domain name</code> 的事情</p>
+
+<h3>打造自己的IoT-Cellular Technology with Embedded Linux</h3>
+
+<p>主要是講 <code>cellular network</code></p>
+
+<p><a href="http://mangoh.io/">mangOH</a></p>
+
+<p><code>QMI</code> 相關的程式碼 <code>drivers/net/usb/qmi_wwwan.c</code></p>
+
+<p>如何透過自己的開發粄連上電信網路，介紹其中使用到協定</p>
+
+<h3>Opensource將如何對第五代行動通訊(5G)造成革命性的改變</h3>
+
+<p>簡介 4G 的架構和遇到的問題</p>
+
+<p>SDN 和 NFV 如何將電信設備虛擬化</p>
+
+<h3>select+poll+epoll in linux kernel</h3>
+
+<p>Multiplexing</p>
+
+<p>講解了 select 和 poll 的底層設計，然後講了 epoll 改良之處</p>
+
+<h3>凡走過必留下痕跡 - Linux 核心的 trace 機制</h3>
+
+<p>幾種用來 trace 程式碼的方法以及這些 trace 方法的原理</p>
+
+<p>printk</p>
+
+<p>ftrace</p>
+
+<p>gcc -pg</p>
+
+<p>tracepoint</p>
+
+<p>kernelshark</p>
+
+<p>hist triggers</p>
+
+<p>Kprobe Family</p>
+
+<p>LTTng</p>
+
+<p>eBPF</p>
+
+<p><a href="https://github.com/iovisor/bcc">bcc</a></p>
+
+<h3>開放公司文化之下的軟體開發 / 如何用開源軟體賺錢？</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coscup 2016 Day 1]]></title>
@@ -319,18 +381,6 @@
 
 
 <p><a href="https://www.infoq.com/articles/writing-maintainable-configuration-code">Writing Maintainable Configuration Code</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Api Geteway Pattern]]></title>
-    <link href="http://fubuki.github.io/blog/2016/07/31/api-geteway/"/>
-    <updated>2016-07-31T22:55:03+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/07/31/api-geteway</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://microservices.io/patterns/apigateway.html">api geteway</a></p>
 ]]></content>
   </entry>
   
