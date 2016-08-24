@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-21T21:35:08+08:00</updated>
+  <updated>2016-08-24T23:35:13+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PHP 5 升級到 7]]></title>
+    <link href="http://fubuki.github.io/blog/2016/08/24/php-5-to-7/"/>
+    <updated>2016-08-24T23:05:18+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/08/24/php-5-to-7</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="http://dragoonis.com/talks/phpconfasia-august-2016/assets/player/KeynoteDHTMLPlayer.html#0">Migrating and Deploying php7</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Netflix Using Apache Mesos]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/">Understanding glibc malloc</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[研究一下 Lucene-kea]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/12/lucene-kea/"/>
-    <updated>2016-08-12T23:10:46+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/12/lucene-kea</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="http://lucene.jugem.jp/?eid=483">キーフレーズ抽出ツール KEA を Lucene 上で実装する</a></p>
 ]]></content>
   </entry>
   
