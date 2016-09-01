@@ -4,7 +4,7 @@
   <title><![CDATA[Categories: | Learning Blog]]></title>
   <link href="http://fubuki.github.io/blog/categories//atom.xml" rel="self"/>
   <link href="http://fubuki.github.io/"/>
-  <updated>2016-08-24T23:35:13+08:00</updated>
+  <updated>2016-09-01T23:02:14+08:00</updated>
   <id>http://fubuki.github.io/</id>
   <author>
     <name><![CDATA[Fubuki]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Grpc v1.0]]></title>
+    <link href="http://fubuki.github.io/blog/2016/09/01/grpc/"/>
+    <updated>2016-09-01T22:30:17+08:00</updated>
+    <id>http://fubuki.github.io/blog/2016/09/01/grpc</id>
+    <content type="html"><![CDATA[<!-- more -->
+
+
+<p><a href="https://github.com/grpc/grpc">gRPC</a> 是 Google 釋出的框架，有不少企業在使用的樣子，可以研究研究。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP 5 升級到 7]]></title>
@@ -58,18 +70,6 @@
 
 
 <p><a href="http://techblog.netflix.com/2016/06/toward-practical-perceptual-video.html">Toward A Practical Perceptual Video Quality Metric</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[介紹 Glibc]]></title>
-    <link href="http://fubuki.github.io/blog/2016/08/13/glibc-introduction/"/>
-    <updated>2016-08-13T23:18:42+08:00</updated>
-    <id>http://fubuki.github.io/blog/2016/08/13/glibc-introduction</id>
-    <content type="html"><![CDATA[<!-- more -->
-
-
-<p><a href="https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/">Understanding glibc malloc</a></p>
 ]]></content>
   </entry>
   
