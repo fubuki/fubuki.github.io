@@ -1,0 +1,15 @@
+---
+layout: post
+title: "微軟釋出的 Checked C 語言"
+date: 2016-06-20 21:23:01 +0800
+comments: true
+categories: ["C"]
+---
+
+
+<!-- more -->
+
+
+更加安全的 [checkedc]
+
+[checkedc]:https://github.com/Microsoft/checkedc

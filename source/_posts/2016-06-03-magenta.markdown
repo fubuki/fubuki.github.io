@@ -1,0 +1,13 @@
+---
+layout: post
+title: "magenta with art"
+date: 2016-06-03 23:24:58 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+<!-- more -->
+
+[Welcome to Magenta!]
+
+[Welcome to Magenta!]:http://magenta.tensorflow.org/welcome-to-magenta

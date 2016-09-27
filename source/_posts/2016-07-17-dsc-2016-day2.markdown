@@ -1,0 +1,97 @@
+---
+layout: post
+title: "資料科學年會 2016 day 2"
+date: 2016-07-17 22:20:53 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+
+** 從電腦視覺看人工智慧 : 下一件大事 **
+
+Vision and language
+
+Vision and Control
+
+​Reinforcement Learning
+
+
+使用 CNN RNN LSTM
+
+
+** The Inception of Learning from Big Video Data **
+
+​
+Bag of Visual Words
+
+從傳統介紹到到現代的影像辨識技術
+
+** 音樂資料檢索 **
+
+NTHU Music Iinformation Retrieval
+
+twtmir.wordpress.com
+
+1. Music creation
+
+2. Music information analysis
+
+3. Music information retrieval
+
+Pitch Tempo Timbre
+
+​各種應用中上面三種因子的重要度
+
+​從音樂本身做處理，這邊不是根據音樂的 metadata，而是使用音樂本身
+
+如何分離音訊
+
+一些音樂資料來源
+
+
+**  It's Not What You Say: It's How You Say It! **
+
+韻律的重要性
+
+如何測量聲韻，介紹了一些聲韻學的參數
+
+Function of Prosody 
+
+
+1. Grammar
+2. Focus
+3. Disourse
+4. Emotion
+
+​
+
+**  視覺資料淘金 : 巨量社群影像深度解析 **
+
+判斷照片中的人際關係
+
+取出一個人不同年齡下的照片
+
+主要介紹做過的成果
+
+​
+** Practical Issues in Machine Learning **
+
+如何選擇 machine learning 的方法建立模型
+
+​
+
+** 娛樂產業中的資料科學家 : 談資料科學於線上遊戲與職業運動之應用 **
+
+
+怎麼判斷哪些 tag 是相似的，同個裝備下有著相同分數的 tag 可以視為相同概念
+
+後面做了球賽票房的預測
+
+​
+** 世代之爭爭什麼 ? 談談如何從調查資料挖掘出豐厚的意義 **
+
+複合性調查
+​

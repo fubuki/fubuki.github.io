@@ -1,0 +1,83 @@
+---
+layout: post
+title: "coscup 2016 day 2"
+date: 2016-08-21 20:54:49 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+###Gandi.net & Open Source
+
+這算工商時間，主要是簡介 `Gandi` 和購買 `domain name` 的事情
+
+###打造自己的IoT-Cellular Technology with Embedded Linux
+
+主要是講 `cellular network`
+
+[mangOH]
+
+[mangOH]:http://mangoh.io/
+
+`QMI` 相關的程式碼 `drivers/net/usb/qmi_wwwan.c`
+
+如何透過自己的開發粄連上電信網路，介紹其中使用到協定
+
+### Opensource將如何對第五代行動通訊(5G)造成革命性的改變
+
+簡介 4G 的架構和遇到的問題
+
+SDN 和 NFV 如何將電信設備虛擬化
+
+### select+poll+epoll in linux kernel
+
+Multiplexing
+
+講解了 select 和 poll 的底層設計，然後講了 epoll 改良之處
+ 
+### 凡走過必留下痕跡 - Linux 核心的 trace 機制
+
+幾種用來 trace 程式碼的方法以及這些 trace 方法的原理
+
+printk
+
+ftrace
+
+gcc -pg
+
+tracepoint
+
+kernelshark
+
+hist triggers
+
+Kprobe Family
+
+LTTng
+
+eBPF
+
+[bcc]
+
+[bcc]:https://github.com/iovisor/bcc
+
+
+### 開放公司文化之下的軟體開發 / 如何用開源軟體賺錢？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

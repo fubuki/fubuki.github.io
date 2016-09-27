@@ -1,0 +1,14 @@
+---
+layout: post
+title: "grpc v1.0"
+date: 2016-09-01 22:30:17 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+[gRPC] 是 Google 釋出的框架，有不少企業在使用的樣子，可以研究研究。
+
+
+[gRPC]:https://github.com/grpc/grpc

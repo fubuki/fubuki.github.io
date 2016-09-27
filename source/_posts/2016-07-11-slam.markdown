@@ -1,0 +1,14 @@
+---
+layout: post
+title: "SLAM"
+date: 2016-07-11 23:31:38 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+[SLAM]
+
+[SLAM]:https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping

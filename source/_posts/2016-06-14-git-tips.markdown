@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Some Git Tips"
+date: 2016-06-14 22:47:31 +0800
+comments: true
+categories: ["git"]
+---
+
+<!-- more -->
+
+[git tips]
+
+[git tips]:https://github.com/git-tips/tips

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "lingo cluster algorithm"
+date: 2016-05-26 23:36:20 +0800
+comments: true
+categories: ["algorithm"]
+---
+
+<!-- more -->
+
+
+研究一下 `LINGO: An Algorithm for Clustering of Web Search Results` 這篇論文的內容。

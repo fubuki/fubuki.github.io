@@ -1,0 +1,14 @@
+---
+layout: post
+title: "bm25 講解資料"
+date: 2016-07-30 23:51:51 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[BM25 demystified]
+
+[BM25 demystified]:https://berlinbuzzwords.de/session/bm25-demystified

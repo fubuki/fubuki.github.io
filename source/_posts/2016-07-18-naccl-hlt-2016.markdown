@@ -1,0 +1,14 @@
+---
+layout: post
+title: "NACCL HLT 2016 網站"
+date: 2016-07-18 23:55:17 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+
+[NACCL HLT 2016] 有些可以研究
+
+[NACCL HLT 2016]:http://naacl.org/naacl-hlt-2016/index.html

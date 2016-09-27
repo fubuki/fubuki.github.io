@@ -1,0 +1,13 @@
+---
+layout: post
+title: "OrangeFS on Linux 4.6"
+date: 2016-05-24 23:03:59 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+Linux 4.6 新增 [OrangeFS]。
+
+[OrangeFS]:http://www.orangefs.org/

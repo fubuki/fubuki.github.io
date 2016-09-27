@@ -1,0 +1,114 @@
+---
+layout: post
+title: "coscup 2016 day 1"
+date: 2016-08-20 22:02:42 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+###LLVM 框架，由淺入淺
+
+LLVM 聽過不少了，開頭介紹了編譯器的原理
+
+Dead Code Elimination 把不需要的 code 去除以便最佳化
+
+Python 的故事
+
+slide 有篇關於 LLVM 的論文
+
+使用 whitespace 語言做範例介紹怎麼使用 LLVM 移植到舊的硬體
+
+SSA form?
+
+LLVM 的結構如何最佳化
+
+###用 Raspberry Pi 學習成為一個全端工程師
+
+全端這邊是指軟硬體整合
+
+### 開源軟硬體實做全套電子鼓(python + RPi)
+
+硬體材料清單
+
+ADC 將類比訊號轉數位訊號
+
+SPI 介面
+
+訊號分析
+
+敲擊蓋子讓晶片獲得類比的電氣訊號，然後將類比轉訊號給 raspi 後，進行訊號分析使用傅立葉轉換取得
+頻譜後作取樣
+
+raspi 沒有 realtime clock 需要另外處理才能處理取樣上不精準的問題
+
+### 進擊的Resque - 排程系統超進化
+
+講者是時間軸主任工程師
+
+一開始使用 `gearman` 後來換用 `resque`
+
+
+###靠北OpenStack-佈署維運OpenStack的50道陰影
+
+幾個安裝 openstack 方式
+
+`suse` 上使用 `crowbar`  底層是 `chef`
+
+`Mirantis` 提供透過 `Fuel` 安裝，現在底層使用 `Docker`
+
+`HP Helion` 的 `TripleO` 底層使用 `Ansible` 實現
+
+[RDO]
+
+[RDO]:https://www.rdoproject.org/ 
+
+IBM, Oracle, VMware 都有 openstack 的相關產品
+
+不要用 `devstack` 自己慢慢裝，問題很多。
+
+####DefCore
+
+1. Nova
+2. Swift
+3. Cinder
+4. Bigtent
+ 
+建議使用 Ceph 作為儲存元件
+
+HA 和升級的問題
+ 
+### RobotCar 經驗分享 -用開源機器人平台(ROS)自幹未來移動構想
+
+Ros 可以研究玩玩，關於 linux kernal 對於 real time 的問題
+
+ 
+### 寫出高性能的服務與應用。那些你沒想過的事！
+
+多瞭解硬體，可能會有一些神秘的方法加速程式的效能
+
+這邊簡單說是計算機結構，另外介紹IO模型和 process, thread
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

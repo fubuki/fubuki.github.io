@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Kaggle 競賽平台"
+date: 2016-05-13 23:02:21 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+<!-- more -->
+
+[kaggle] 一個可以用來實際練習機器學習的平台，裡面有不少題目可以自行練習，也有競賽可以跟
+別人比較各自的演算法的效果如何。
+
+
+[kaggle]:https://www.kaggle.com/

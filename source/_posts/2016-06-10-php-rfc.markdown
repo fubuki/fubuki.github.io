@@ -1,0 +1,13 @@
+---
+layout: post
+title: "php rfc"
+date: 2016-06-10 23:40:55 +0800
+comments: true
+categories: ["php"]
+---
+
+<!-- more -->
+
+[PHP RFC Page]
+
+[PHP RFC Page]:https://wiki.php.net/rfc

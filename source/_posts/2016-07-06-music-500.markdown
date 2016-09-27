@@ -1,0 +1,16 @@
+---
+layout: post
+title: "統計一些音樂數據"
+date: 2016-07-06 23:14:55 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+
+[50 Years of Pop Music]
+
+
+[50 Years of Pop Music]:http://kaylinwalker.com/50-years-of-pop-music/

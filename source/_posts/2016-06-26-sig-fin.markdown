@@ -1,0 +1,15 @@
+---
+layout: post
+title: "金融與人工智慧"
+date: 2016-06-26 23:22:05 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+
+[金融情報学研究会]
+
+[金融情報学研究会]:http://sigfin.org/

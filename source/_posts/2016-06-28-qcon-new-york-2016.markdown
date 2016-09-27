@@ -1,0 +1,14 @@
+---
+layout: post
+title: "qcon new york 2016"
+date: 2016-06-28 22:53:52 +0800
+comments: true
+categories: ["conference"]
+---
+
+
+<!-- more -->
+
+[QCon NEW YORK 2016]
+
+[QCon NEW YORK 2016]:https://qconnewyork.com/ny2016/schedule/tabular

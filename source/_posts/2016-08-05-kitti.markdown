@@ -1,0 +1,15 @@
+---
+layout: post
+title: "無人車測試數據資料"
+date: 2016-08-05 23:30:51 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+
+[kitti]
+
+[kitti]:http://www.cvlibs.net/datasets/kitti/

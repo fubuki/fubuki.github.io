@@ -1,0 +1,14 @@
+---
+layout: post
+title: "JSAI 2016 的時程"
+date: 2016-07-19 23:12:48 +0800
+comments: true
+categories: ["conference"]
+---
+
+<!-- more -->
+
+
+[JSAI2016タイムテーブル]
+
+[JSAI2016タイムテーブル]:https://kaigi.org/jsai/webprogram/2016/index.html

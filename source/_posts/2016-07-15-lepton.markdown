@@ -1,0 +1,14 @@
+---
+layout: post
+title: "dropbox lepton 圖片壓縮"
+date: 2016-07-15 21:40:43 +0800
+comments: true
+categories: [""]
+---
+
+<!-- more -->
+
+
+[Lepton image compression: saving 22% losslessly from images at 15MB/s]
+
+[Lepton image compression: saving 22% losslessly from images at 15MB/s]:https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/

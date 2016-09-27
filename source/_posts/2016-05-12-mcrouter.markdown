@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Facebook 的 mcrouter"
+date: 2016-05-12 23:17:21 +0800
+comments: true
+categories: ["memcached"]
+---
+
+
+<!-- more -->
+
+
+看一下 [mcrouter] 如何加強 memcached.
+
+[mcrouter]:https://github.com/facebook/mcrouter

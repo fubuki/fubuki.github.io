@@ -1,0 +1,15 @@
+---
+layout: post
+title: "使用 dropout 處理 Overfitting 的問題"
+date: 2016-07-10 23:39:13 +0800
+comments: true
+categories: ["machine learning"]
+---
+
+
+<!-- more -->
+
+
+[Dropout: A Simple Way to Prevent Neural Networks from Overfitting]
+
+[Dropout: A Simple Way to Prevent Neural Networks from Overfitting]:http://jmlr.org/papers/v15/srivastava14a.html

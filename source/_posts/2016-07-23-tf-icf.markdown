@@ -1,0 +1,14 @@
+---
+layout: post
+title: "TF-ICF 權重"
+date: 2016-07-23 23:40:30 +0800
+comments: true
+categories: [""]
+---
+
+
+<!-- more -->
+
+[TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams ]
+
+[TF-ICF: A New Term Weighting Scheme for Clustering Dynamic Data Streams ]:http://cda.ornl.gov/publications/ICMLA06.pdf
